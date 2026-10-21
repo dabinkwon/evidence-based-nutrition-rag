@@ -1,0 +1,278 @@
+[
+  {
+    "menu_id": "recipe:28",
+    "recipe_id": "28",
+    "name": "새우 두부 계란찜",
+    "category": "반찬",
+    "ingredients_text": "새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)",
+    "steps": [
+      {
+        "number": 1,
+        "text": "1. 손질된 새우를 끓는 물에 데쳐 건진다.a",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00028_1.png"
+      },
+      {
+        "number": 2,
+        "text": "2. 연두부, 달걀, 생크림, 설탕에 녹인 무염버터를 믹서에 넣고 간 뒤 새우(1)를 함께 섞어 그릇에 담는다.b",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00028_2.png"
+      },
+      {
+        "number": 3,
+        "text": "3. 시금치를 잘게 다져 혼합물 그릇(2)에 뿌리고 찜기에 넣고 중간 불에서 10분 정도 찐다.c",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00028_3.png"
+      }
+    ],
+    "nutrition_source": "recipe_pdf_verified",
+    "nutrition_source_id": "28",
+    "nutrition": {
+      "energy_kcal": 220.0,
+      "carbohydrate_g": 3.0,
+      "protein_g": 14.0,
+      "fat_g": 17.0,
+      "sodium_mg": 99.0
+    },
+    "basis_amount": 1,
+    "basis_unit": "serving",
+    "nutrition_basis_status": "verified_per_serving",
+    "gram_conversion_ready": false,
+    "evidence": {
+      "source_url": "https://www.foodsafetykorea.go.kr/upload/20170417/20170417053825_1492418305214.pdf",
+      "pdf_page": 43,
+      "method": "Exact five nutrient values and all numeric ingredient lines match; explicit per-serving heading.",
+      "source_title": "우리 몸이 원하는 삼삼한 밥상",
+      "checked_date": "2026-10-21"
+    },
+    "ingredients_review_status": "unreviewed",
+    "personalized_recommendation_ready": false
+  },
+  {
+    "menu_id": "recipe:32",
+    "recipe_id": "32",
+    "name": "순두부 사과 소스 오이무침",
+    "category": "반찬",
+    "ingredients_text": "●오이무침 :\n오이 70g(1/3개), 다진 땅콩 10g(1큰술)\n●순두부사과 소스 : \n순두부 40g(1/8봉지), 사과 50g(1/3개)",
+    "steps": [
+      {
+        "number": 1,
+        "text": "1. 사과, 순두부를 믹서에 넣고 곱게 갈아 소스를 만든다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00032_1.png"
+      },
+      {
+        "number": 2,
+        "text": "2. 오이는 소금으로 문질러 씻어 반을 갈라 씨를 제거하고 어슷썰기를 한다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00032_2.png"
+      },
+      {
+        "number": 3,
+        "text": "3. 썰어 놓은 오이에 순두부사과 소스를 넣고 버무린 후 다진 땅콩을 뿌려 마무리 한다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00032_3.png"
+      }
+    ],
+    "nutrition_source": "recipe_pdf_verified",
+    "nutrition_source_id": "32",
+    "nutrition": {
+      "energy_kcal": 75.0,
+      "carbohydrate_g": 10.0,
+      "protein_g": 4.0,
+      "fat_g": 2.0,
+      "sodium_mg": 22.0
+    },
+    "basis_amount": 1,
+    "basis_unit": "serving",
+    "nutrition_basis_status": "verified_per_serving",
+    "gram_conversion_ready": false,
+    "evidence": {
+      "source_url": "https://www.foodsafetykorea.go.kr/upload/20170417/20170417053825_1492418305214.pdf",
+      "pdf_page": 47,
+      "method": "Exact five nutrient values and all numeric ingredient lines match; explicit per-serving heading.",
+      "source_title": "우리 몸이 원하는 삼삼한 밥상",
+      "checked_date": "2026-10-21"
+    },
+    "ingredients_review_status": "unreviewed",
+    "personalized_recommendation_ready": false
+  },
+  {
+    "menu_id": "recipe:33",
+    "recipe_id": "33",
+    "name": "사과 새우 북엇국",
+    "category": "국&찌개",
+    "ingredients_text": "북엇국\n북어채 25g(15개), 새우 10g(3마리), 사과 30g(1/5개), 양파 40g(1/4개),\n표고버섯 20g(2장), 물 300ml(1½컵)",
+    "steps": [
+      {
+        "number": 2,
+        "text": "2. 북어채를 잘게 손으로 찢어 찬물에 헹구어 준비한 후 양파, 표고버섯, 사과는 채 썰고 새우는 등쪽의 두세 마디에 꼬챙이를 넣어 내장을 뺀 후 헹군다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00033_2.png"
+      },
+      {
+        "number": 3,
+        "text": "3. 찬물에 북어채, 새우, 표고버섯, 양파를 넣고 20분 정도 끓인 후 사과를 넣어 북어의 씁쓸한 맛을 없앤다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00033_3.png"
+      },
+      {
+        "number": 5,
+        "text": "5. 그릇에 담아낸다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00033_5.png"
+      }
+    ],
+    "nutrition_source": "recipe_pdf_verified",
+    "nutrition_source_id": "33",
+    "nutrition": {
+      "energy_kcal": 65.0,
+      "carbohydrate_g": 2.0,
+      "protein_g": 12.0,
+      "fat_g": 1.0,
+      "sodium_mg": 78.0
+    },
+    "basis_amount": 1,
+    "basis_unit": "serving",
+    "nutrition_basis_status": "verified_per_serving",
+    "gram_conversion_ready": false,
+    "evidence": {
+      "source_url": "https://www.foodsafetykorea.go.kr/upload/20170417/20170417053825_1492418305214.pdf",
+      "pdf_page": 49,
+      "method": "Exact five nutrient values and all numeric ingredient lines match; explicit per-serving heading.",
+      "source_title": "우리 몸이 원하는 삼삼한 밥상",
+      "checked_date": "2026-10-21"
+    },
+    "ingredients_review_status": "unreviewed",
+    "personalized_recommendation_ready": false
+  },
+  {
+    "menu_id": "recipe:36",
+    "recipe_id": "36",
+    "name": "저염 된장으로 맛을 낸 황태해장국",
+    "category": "국&찌개",
+    "ingredients_text": "황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)",
+    "steps": [
+      {
+        "number": 3,
+        "text": "3. 황태는 손질하여 물에 헹궈 건져 놓고 콩나물은 다듬어 씻고 청양고추는 어슷썰기 한다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00036_3.png"
+      },
+      {
+        "number": 4,
+        "text": "4. 냄비에 물을 붓고 황태와 무를 넣고 끓인 후 육수에서 물을 건져내고 저염 된장을 푼다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00036_4.png"
+      },
+      {
+        "number": 5,
+        "text": "5. 콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 김이 나게 끓\n여준다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00036_5.png"
+      }
+    ],
+    "nutrition_source": "recipe_pdf_verified",
+    "nutrition_source_id": "36",
+    "nutrition": {
+      "energy_kcal": 100.0,
+      "carbohydrate_g": 12.0,
+      "protein_g": 13.0,
+      "fat_g": 0.0,
+      "sodium_mg": 361.0
+    },
+    "basis_amount": 1,
+    "basis_unit": "serving",
+    "nutrition_basis_status": "verified_per_serving",
+    "gram_conversion_ready": false,
+    "evidence": {
+      "source_url": "https://www.foodsafetykorea.go.kr/upload/20170417/20170417053825_1492418305214.pdf",
+      "pdf_page": 52,
+      "method": "Exact five nutrient values and all numeric ingredient lines match; explicit per-serving heading.",
+      "source_title": "우리 몸이 원하는 삼삼한 밥상",
+      "checked_date": "2026-10-21"
+    },
+    "ingredients_review_status": "unreviewed",
+    "personalized_recommendation_ready": false
+  },
+  {
+    "menu_id": "recipe:37",
+    "recipe_id": "37",
+    "name": "된장국",
+    "category": "국&찌개",
+    "ingredients_text": "된장국\n두부 20g(2×2×2cm), 애느타리버섯 20g(4가닥), 감자 10g(4×3×1cm), 양파 10g(2×1cm), 대파 10g(5cm), 된장 5g(1작은술), 물 300ml(1½컵)",
+    "steps": [
+      {
+        "number": 1,
+        "text": "1. 감자, 양파는 얇게 썰고 애느타리 버섯은 썰어 달궈진 팬에 굽는다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00037_2.png"
+      },
+      {
+        "number": 2,
+        "text": "2. 냄비에 물을 붓고 된장을 푼 뒤 감자, 양파, 두부를 넣어 재료가 투명해지게 끓인 후 된장국의 재료를 건져서 믹서에 넣어 갈고 된장국에 넣어 한번 더 끓인다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00037_4.png"
+      },
+      {
+        "number": 3,
+        "text": "3. 구운 애느타리버섯과 대파를 국에 넣어 끓인 후 그릇에 담는다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00037_6.png"
+      }
+    ],
+    "nutrition_source": "recipe_pdf_verified",
+    "nutrition_source_id": "37",
+    "nutrition": {
+      "energy_kcal": 20.0,
+      "carbohydrate_g": 3.0,
+      "protein_g": 2.0,
+      "fat_g": 0.0,
+      "sodium_mg": 260.0
+    },
+    "basis_amount": 1,
+    "basis_unit": "serving",
+    "nutrition_basis_status": "verified_per_serving",
+    "gram_conversion_ready": false,
+    "evidence": {
+      "source_url": "https://www.foodsafetykorea.go.kr/upload/20170417/20170417053825_1492418305214.pdf",
+      "pdf_page": 53,
+      "method": "Exact five nutrient values and all numeric ingredient lines match; explicit per-serving heading.",
+      "source_title": "우리 몸이 원하는 삼삼한 밥상",
+      "checked_date": "2026-10-21"
+    },
+    "ingredients_review_status": "unreviewed",
+    "personalized_recommendation_ready": false
+  },
+  {
+    "menu_id": "recipe:87",
+    "recipe_id": "87",
+    "name": "스트로베리 샐러드",
+    "category": "반찬",
+    "ingredients_text": "스트로베리 샐러드\n딸기 70g(7개), 플레인요거트 85g(1개), 양상추 70g(2장), 메추리알 30g(3개), 블루베리 15g(1큰술), 식초 약간, 소금 약간",
+    "steps": [
+      {
+        "number": 1,
+        "text": "1. 찬물이 담긴 냄비에 식초, 소금을 넣고 메추리알을 삶는다. 물이 끓어오르면 5분 정도 더 삶아 찬물에 헹군 후 껍질을 벗기고 반으로 자른다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00087_1.png"
+      },
+      {
+        "number": 2,
+        "text": "2. 딸기를 흐르는 물에 가볍게 씻어 꼭지를 제거한 후 물기를 빼고 반으로 자른다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00087_2.png"
+      },
+      {
+        "number": 3,
+        "text": "3. 양상추는 찬물에 담갔다가 물기를 빼고 한입 크기로 찢은 후 접시에 양상추, 딸기, 블루베리, 메추리알을 담고 플레인요거트를 끼얹는다.",
+        "image_url": "http://www.foodsafetykorea.go.kr/uploadimg/cook/20_00087_4.png"
+      }
+    ],
+    "nutrition_source": "recipe_pdf_verified",
+    "nutrition_source_id": "87",
+    "nutrition": {
+      "energy_kcal": 195.0,
+      "carbohydrate_g": 30.0,
+      "protein_g": 7.0,
+      "fat_g": 5.0,
+      "sodium_mg": 138.0
+    },
+    "basis_amount": 1,
+    "basis_unit": "serving",
+    "nutrition_basis_status": "verified_per_serving",
+    "gram_conversion_ready": false,
+    "evidence": {
+      "source_url": "https://www.foodsafetykorea.go.kr/upload/20170417/20170417053825_1492418305214.pdf",
+      "pdf_page": 105,
+      "method": "Exact five nutrient values and all numeric ingredient lines match; explicit per-serving heading.",
+      "source_title": "우리 몸이 원하는 삼삼한 밥상",
+      "checked_date": "2026-10-21"
+    },
+    "ingredients_review_status": "unreviewed",
+    "personalized_recommendation_ready": false
+  }
+]

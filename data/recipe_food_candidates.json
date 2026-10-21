@@ -1,0 +1,212 @@
+[
+  {
+    "recipe_id": "37",
+    "recipe_name": "된장국",
+    "food_id": "D105-216290000-0001",
+    "food_name": "된장국_쑥",
+    "relation": "name_contains",
+    "name_similarity": 0.857,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "37",
+    "recipe_name": "된장국",
+    "food_id": "D105-216010000-0001",
+    "food_name": "된장국_감자",
+    "relation": "name_contains",
+    "name_similarity": 0.75,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "37",
+    "recipe_name": "된장국",
+    "food_id": "D105-216070000-0001",
+    "food_name": "된장국_냉이",
+    "relation": "name_contains",
+    "name_similarity": 0.75,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "91",
+    "recipe_name": "버섯구이와 두부타르타르 소스",
+    "food_id": "D108-380000000-0001",
+    "food_name": "버섯구이",
+    "relation": "name_contains",
+    "name_similarity": 0.471,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "138",
+    "recipe_name": "부대된장찌개",
+    "food_id": "D106-275000000-0001",
+    "food_name": "된장찌개",
+    "relation": "name_contains",
+    "name_similarity": 0.8,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "181",
+    "recipe_name": "양배추감자전",
+    "food_id": "D109-408000000-0001",
+    "food_name": "감자전",
+    "relation": "name_contains",
+    "name_similarity": 0.667,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "159",
+    "recipe_name": "석류 보쌈김치",
+    "food_id": "D115-672000000-0001",
+    "food_name": "보쌈김치",
+    "relation": "name_contains",
+    "name_similarity": 0.8,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "637",
+    "recipe_name": "인삼떡갈비",
+    "food_id": "D108-376000000-0001",
+    "food_name": "떡갈비",
+    "relation": "name_contains",
+    "name_similarity": 0.75,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "639",
+    "recipe_name": "호박잎 삼계탕",
+    "food_id": "D105-228000000-0001",
+    "food_name": "삼계탕",
+    "relation": "name_contains",
+    "name_similarity": 0.667,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "644",
+    "recipe_name": "검은콩국수",
+    "food_id": "D103-175000000-0001",
+    "food_name": "콩국수",
+    "relation": "name_contains",
+    "name_similarity": 0.75,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "273",
+    "recipe_name": "백김치콩비지찌개",
+    "food_id": "D106-299000000-0001",
+    "food_name": "콩비지찌개",
+    "relation": "name_contains",
+    "name_similarity": 0.769,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "276",
+    "recipe_name": "맑은부대찌개",
+    "food_id": "D106-284000000-0001",
+    "food_name": "부대찌개",
+    "relation": "name_contains",
+    "name_similarity": 0.8,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "277",
+    "recipe_name": "나가사키부대찌개",
+    "food_id": "D106-284000000-0001",
+    "food_name": "부대찌개",
+    "relation": "name_contains",
+    "name_similarity": 0.667,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "278",
+    "recipe_name": "삼계부대찌개",
+    "food_id": "D106-284000000-0001",
+    "food_name": "부대찌개",
+    "relation": "name_contains",
+    "name_similarity": 0.8,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "279",
+    "recipe_name": "쑥갓부대찌개",
+    "food_id": "D106-284000000-0001",
+    "food_name": "부대찌개",
+    "relation": "name_contains",
+    "name_similarity": 0.8,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "393",
+    "recipe_name": "맛간장삼치구이",
+    "food_id": "D108-383000000-0001",
+    "food_name": "삼치구이",
+    "relation": "name_contains",
+    "name_similarity": 0.727,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "397",
+    "recipe_name": "호박죽",
+    "food_id": "D104-197000000-0001",
+    "food_name": "호박죽",
+    "relation": "exact_name",
+    "name_similarity": 1.0,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "398",
+    "recipe_name": "라이스버거떡갈비",
+    "food_id": "D108-376000000-0001",
+    "food_name": "떡갈비",
+    "relation": "name_contains",
+    "name_similarity": 0.545,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "508",
+    "recipe_name": "햄버거스테이크",
+    "food_id": "D102-123000000-0001",
+    "food_name": "햄버거",
+    "relation": "name_contains",
+    "name_similarity": 0.6,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "509",
+    "recipe_name": "유자삼치구이",
+    "food_id": "D108-383000000-0001",
+    "food_name": "삼치구이",
+    "relation": "name_contains",
+    "name_similarity": 0.8,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  },
+  {
+    "recipe_id": "672",
+    "recipe_name": "해물애호박 전병말이",
+    "food_id": "D109-434000000-0001",
+    "food_name": "애호박전",
+    "relation": "name_contains",
+    "name_similarity": 0.615,
+    "status": "needs_review",
+    "reason": "이름 기반 후보. 재료·조리 상태·영양 기준량의 일치 여부는 미확인."
+  }
+]

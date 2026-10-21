@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-21",
+  "food_count": 759,
+  "menu_count": 100,
+  "menus_with_candidates": 19,
+  "exact_name_candidates": 1,
+  "candidate_pairs": 21,
+  "verified_links": 0,
+  "nutrition_ready": 0,
+  "policy": "Name similarity is not nutritional equivalence. All links require review.",
+  "original_files_preserved": [
+    "data/foods.json",
+    "data/recipes.json"
+  ]
+}
