@@ -1,0 +1,3909 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "식품 영양성분 정보에 대한 데이터로 식품명, 식품분류, 식품코드, 영양성분 함량 기준량, 에너지, 탄수화물, 단백질, 지방 등 영양성분 정보, 출처, 1회섭취 참고량, 식품중량, 품목제조보고번호, 업체명, 수입여부, 원산지, 데이터생성방법, 데이터생성일자, 데이터기준일자 등의 정보를 제공합니다.\n이 자료를 통하여 데이터 산업 활성화, 국민의 알 권리 보장과 공공 가치 창출을 실현하는데 기여할 수 있습니다. 또한 식품산업 발전 지원, 데이터에 기반한 식품안전정책 수립, 맞춤형 서비스 개발 기반 제공으로 국민 편의성을 향상 시킬 수 있습니다.",
+    "version": "1.0.0",
+    "title": "식품의약품안전처_식품영양성분DB정보"
+  },
+  "host": "apis.data.go.kr/1471000/FoodNtrCpntDbInfo03",
+  "basePath": "",
+  "schemes": [
+    "https",
+    "http"
+  ],
+  "paths": {
+    "/getFoodNtrCpntDbInq03": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "성공",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "header": {
+                  "type": "object",
+                  "description": "header",
+                  "properties": {
+                    "resultCode": {
+                      "type": "string",
+                      "description": "결과코드",
+                      "properties": {}
+                    },
+                    "resultMsg": {
+                      "type": "string",
+                      "description": "결과메세지",
+                      "properties": {}
+                    }
+                  }
+                },
+                "body": {
+                  "type": "object",
+                  "description": "body",
+                  "properties": {
+                    "items": {
+                      "type": "object",
+                      "description": "items",
+                      "properties": {
+                        "item": {
+                          "type": "object",
+                          "description": "item",
+                          "properties": {
+                            "AMT_NUM59": {
+                              "type": "string",
+                              "description": "타가토스(g)",
+                              "properties": {}
+                            },
+                            "NUM": {
+                              "type": "string",
+                              "description": "번호",
+                              "properties": {}
+                            },
+                            "FOOD_CD": {
+                              "type": "string",
+                              "description": "식품코드",
+                              "properties": {}
+                            },
+                            "FOOD_NM_KR": {
+                              "type": "string",
+                              "description": "식품명",
+                              "properties": {}
+                            },
+                            "DB_GRP_CM": {
+                              "type": "string",
+                              "description": "데이터구분코드",
+                              "properties": {}
+                            },
+                            "DB_GRP_NM": {
+                              "type": "string",
+                              "description": "데이터구분명",
+                              "properties": {}
+                            },
+                            "DB_CLASS_CM": {
+                              "type": "string",
+                              "description": "품목대표/상용제품 코드",
+                              "properties": {}
+                            },
+                            "DB_CLASS_NM": {
+                              "type": "string",
+                              "description": "품목대표/상용제품",
+                              "properties": {}
+                            },
+                            "FOOD_OR_CD": {
+                              "type": "string",
+                              "description": "식품기원코드",
+                              "properties": {}
+                            },
+                            "FOOD_OR_NM": {
+                              "type": "string",
+                              "description": "식품기원명",
+                              "properties": {}
+                            },
+                            "FOOD_CAT1_CD": {
+                              "type": "string",
+                              "description": "식품대분류코드",
+                              "properties": {}
+                            },
+                            "FOOD_CAT1_NM": {
+                              "type": "string",
+                              "description": "식품대분류명",
+                              "properties": {}
+                            },
+                            "FOOD_REF_CD": {
+                              "type": "string",
+                              "description": "대표식품코드",
+                              "properties": {}
+                            },
+                            "FOOD_REF_NM": {
+                              "type": "string",
+                              "description": "대표식품명",
+                              "properties": {}
+                            },
+                            "FOOD_CAT2_CD": {
+                              "type": "string",
+                              "description": "식품중분류코드",
+                              "properties": {}
+                            },
+                            "FOOD_CAT2_NM": {
+                              "type": "string",
+                              "description": "식품중분류명",
+                              "properties": {}
+                            },
+                            "FOOD_CAT3_CD": {
+                              "type": "string",
+                              "description": "식품소분류코드",
+                              "properties": {}
+                            },
+                            "FOOD_CAT3_NM": {
+                              "type": "string",
+                              "description": "식품소분류명",
+                              "properties": {}
+                            },
+                            "FOOD_CAT4_CD": {
+                              "type": "string",
+                              "description": "식품세분류코드",
+                              "properties": {}
+                            },
+                            "FOOD_CAT4_NM": {
+                              "type": "string",
+                              "description": "식품세분류명",
+                              "properties": {}
+                            },
+                            "SERVING_SIZE": {
+                              "type": "string",
+                              "description": "영양성분함량기준량",
+                              "properties": {}
+                            },
+                            "AMT_NUM1": {
+                              "type": "string",
+                              "description": "에너지(kcal)",
+                              "properties": {}
+                            },
+                            "AMT_NUM2": {
+                              "type": "string",
+                              "description": "수분(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM3": {
+                              "type": "string",
+                              "description": "단백질(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM4": {
+                              "type": "string",
+                              "description": "지방(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM5": {
+                              "type": "string",
+                              "description": "회분(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM6": {
+                              "type": "string",
+                              "description": "탄수화물(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM7": {
+                              "type": "string",
+                              "description": "당류(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM8": {
+                              "type": "string",
+                              "description": "식이섬유(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM9": {
+                              "type": "string",
+                              "description": "칼슘(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM10": {
+                              "type": "string",
+                              "description": "철(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM11": {
+                              "type": "string",
+                              "description": "인(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM12": {
+                              "type": "string",
+                              "description": "칼륨(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM13": {
+                              "type": "string",
+                              "description": "나트륨(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM14": {
+                              "type": "string",
+                              "description": "비타민 A(μg RAE)",
+                              "properties": {}
+                            },
+                            "AMT_NUM15": {
+                              "type": "string",
+                              "description": "비타민 A(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM16": {
+                              "type": "string",
+                              "description": "레티놀(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM17": {
+                              "type": "string",
+                              "description": "베타카로틴(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM18": {
+                              "type": "string",
+                              "description": "비타민 B1(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM19": {
+                              "type": "string",
+                              "description": "비타민 B2(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM20": {
+                              "type": "string",
+                              "description": "니아신(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM21": {
+                              "type": "string",
+                              "description": "비타민 C(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM22": {
+                              "type": "string",
+                              "description": "비타민 D(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM23": {
+                              "type": "string",
+                              "description": "콜레스테롤(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM24": {
+                              "type": "string",
+                              "description": "포화지방산(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM25": {
+                              "type": "string",
+                              "description": "트랜스지방산(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM26": {
+                              "type": "string",
+                              "description": "니코틴산 (mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM27": {
+                              "type": "string",
+                              "description": "니코틴아마이드(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM28": {
+                              "type": "string",
+                              "description": "비오틴(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM29": {
+                              "type": "string",
+                              "description": "비타민 B6 (mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM30": {
+                              "type": "string",
+                              "description": "비타민 B12(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM31": {
+                              "type": "string",
+                              "description": "엽산(DFE)(㎍)",
+                              "properties": {}
+                            },
+                            "AMT_NUM32": {
+                              "type": "string",
+                              "description": "콜린(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM33": {
+                              "type": "string",
+                              "description": "판토텐산(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM34": {
+                              "type": "string",
+                              "description": "비타민 D2(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM35": {
+                              "type": "string",
+                              "description": "비타민 D3(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM36": {
+                              "type": "string",
+                              "description": "비타민 E(mg α-TE)",
+                              "properties": {}
+                            },
+                            "AMT_NUM37": {
+                              "type": "string",
+                              "description": "비타민 E(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM38": {
+                              "type": "string",
+                              "description": "토코페롤(㎎)",
+                              "properties": {}
+                            },
+                            "AMT_NUM39": {
+                              "type": "string",
+                              "description": "알파 토코페롤(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM40": {
+                              "type": "string",
+                              "description": "베타 토코페롤(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM41": {
+                              "type": "string",
+                              "description": "감마 토코페롤(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM42": {
+                              "type": "string",
+                              "description": "델타 토코페롤(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM43": {
+                              "type": "string",
+                              "description": "토코트리에놀(㎎)",
+                              "properties": {}
+                            },
+                            "AMT_NUM44": {
+                              "type": "string",
+                              "description": "알파 토코트리에놀(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM45": {
+                              "type": "string",
+                              "description": "베타 토코트리에놀(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM46": {
+                              "type": "string",
+                              "description": "감마 토코트리에놀(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM47": {
+                              "type": "string",
+                              "description": "델타 토코트리에놀(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM48": {
+                              "type": "string",
+                              "description": "비타민 K(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM49": {
+                              "type": "string",
+                              "description": "비타민 K1(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM50": {
+                              "type": "string",
+                              "description": "비타민 K2(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM51": {
+                              "type": "string",
+                              "description": "갈락토오스(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM52": {
+                              "type": "string",
+                              "description": "과당(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM53": {
+                              "type": "string",
+                              "description": "당알콜(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM54": {
+                              "type": "string",
+                              "description": "맥아당(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM55": {
+                              "type": "string",
+                              "description": "알룰로오스(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM56": {
+                              "type": "string",
+                              "description": "에리스리톨(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM57": {
+                              "type": "string",
+                              "description": "유당(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM58": {
+                              "type": "string",
+                              "description": "자당(g)",
+                              "properties": {}
+                            },
+                            "SUB_REF_NAME": {
+                              "type": "string",
+                              "description": "출처명",
+                              "properties": {}
+                            },
+                            "NUTRI_AMOUNT_SERVING": {
+                              "type": "string",
+                              "description": "1회 섭취참고량",
+                              "properties": {}
+                            },
+                            "Z10500": {
+                              "type": "string",
+                              "description": "식품중량",
+                              "properties": {}
+                            },
+                            "DISH_ONE_SERVING": {
+                              "type": "string",
+                              "description": "1회분량 참고량",
+                              "properties": {}
+                            },
+                            "ITEM_REPORT_NO": {
+                              "type": "string",
+                              "description": "품목제조보고번호",
+                              "properties": {}
+                            },
+                            "MAKER_NM": {
+                              "type": "string",
+                              "description": "업체명",
+                              "properties": {}
+                            },
+                            "IMP_MANUFAC_NM": {
+                              "type": "string",
+                              "description": "수입업체명",
+                              "properties": {}
+                            },
+                            "SELLER_MANUFAC_NM": {
+                              "type": "string",
+                              "description": "유통업체명",
+                              "properties": {}
+                            },
+                            "IMP_YN": {
+                              "type": "string",
+                              "description": "수입여부",
+                              "properties": {}
+                            },
+                            "NATION_CM": {
+                              "type": "string",
+                              "description": "원산지국코드",
+                              "properties": {}
+                            },
+                            "NATION_NM": {
+                              "type": "string",
+                              "description": "원산지국명",
+                              "properties": {}
+                            },
+                            "CRT_MTH_CD": {
+                              "type": "string",
+                              "description": "데이터생성방법코드",
+                              "properties": {}
+                            },
+                            "CRT_MTH_NM": {
+                              "type": "string",
+                              "description": "데이터생성방법명",
+                              "properties": {}
+                            },
+                            "SUB_REF_CM": {
+                              "type": "string",
+                              "description": "출처코드",
+                              "properties": {}
+                            },
+                            "AMT_NUM126": {
+                              "type": "string",
+                              "description": "루신(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM127": {
+                              "type": "string",
+                              "description": "메티오닌(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM128": {
+                              "type": "string",
+                              "description": "발린(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM129": {
+                              "type": "string",
+                              "description": "세린(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM130": {
+                              "type": "string",
+                              "description": "시스테인(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM131": {
+                              "type": "string",
+                              "description": "아르기닌(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM132": {
+                              "type": "string",
+                              "description": "아스파르트산(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM133": {
+                              "type": "string",
+                              "description": "알라닌(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM134": {
+                              "type": "string",
+                              "description": "이소루신(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM135": {
+                              "type": "string",
+                              "description": "타우린(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM136": {
+                              "type": "string",
+                              "description": "트레오닌(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM137": {
+                              "type": "string",
+                              "description": "트립토판(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM138": {
+                              "type": "string",
+                              "description": "티로신(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM139": {
+                              "type": "string",
+                              "description": "페닐알라닌(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM140": {
+                              "type": "string",
+                              "description": "프롤린(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM141": {
+                              "type": "string",
+                              "description": "히스티딘(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM142": {
+                              "type": "string",
+                              "description": "펜타데센산(15:1,n-5)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM143": {
+                              "type": "string",
+                              "description": "에이코사테트라에노산(20:4(n-3))",
+                              "properties": {}
+                            },
+                            "AMT_NUM144": {
+                              "type": "string",
+                              "description": "헤니코사펜타엔산(21:5,n-3)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM145": {
+                              "type": "string",
+                              "description": "니아신당량(NE)",
+                              "properties": {}
+                            },
+                            "AMT_NUM146": {
+                              "type": "string",
+                              "description": "수용성 식이섬유(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM147": {
+                              "type": "string",
+                              "description": "불용성 식이섬유(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM148": {
+                              "type": "string",
+                              "description": "피리독신(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM149": {
+                              "type": "string",
+                              "description": "엽산_식품 엽산(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM150": {
+                              "type": "string",
+                              "description": "엽산_합성 엽산(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM151": {
+                              "type": "string",
+                              "description": "총 필수지방산(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM152": {
+                              "type": "string",
+                              "description": "총 단일불포화지방산(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM153": {
+                              "type": "string",
+                              "description": "총 다중불포화지방산(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM154": {
+                              "type": "string",
+                              "description": "총 지방산(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM155": {
+                              "type": "string",
+                              "description": "지방산의 합(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM156": {
+                              "type": "string",
+                              "description": "식염상당량(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM157": {
+                              "type": "string",
+                              "description": "폐기율(%)",
+                              "properties": {}
+                            },
+                            "AMT_NUM60": {
+                              "type": "string",
+                              "description": "포도당(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM61": {
+                              "type": "string",
+                              "description": "총 불포화지방산(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM62": {
+                              "type": "string",
+                              "description": "EPA와 DHA의 합(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM63": {
+                              "type": "string",
+                              "description": "가돌레산/에이코센산(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM64": {
+                              "type": "string",
+                              "description": "감마 리놀렌산(18:3 n-6)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM65": {
+                              "type": "string",
+                              "description": "네르본산(24:1)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM66": {
+                              "type": "string",
+                              "description": "도코사디에노산(22:2)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM67": {
+                              "type": "string",
+                              "description": "도코사펜타에노산(22:5(n-3))(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM68": {
+                              "type": "string",
+                              "description": "도코사펜타엔산(n-6) (22:5,n-6)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM69": {
+                              "type": "string",
+                              "description": "도코사헥사에노산(22:6(n-3))(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM70": {
+                              "type": "string",
+                              "description": "디호모리놀렌산(20:3(n-3))(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM71": {
+                              "type": "string",
+                              "description": "디호모감마리놀렌산(20:3,n-6))(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM72": {
+                              "type": "string",
+                              "description": "라우르산(12:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM73": {
+                              "type": "string",
+                              "description": "리그노세르산(24:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM74": {
+                              "type": "string",
+                              "description": "리놀레산(18:2(n-6)c)(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM75": {
+                              "type": "string",
+                              "description": "리놀레산(18:2(n-6)c)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM76": {
+                              "type": "string",
+                              "description": "미리스톨레산(14:1)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM77": {
+                              "type": "string",
+                              "description": "미리스트산(14:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM78": {
+                              "type": "string",
+                              "description": "박센산(18:1(n-7))(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM79": {
+                              "type": "string",
+                              "description": "베헨산(22:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM80": {
+                              "type": "string",
+                              "description": "부티르산(4:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM81": {
+                              "type": "string",
+                              "description": "스테아르산(18:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM82": {
+                              "type": "string",
+                              "description": "스테아리돈산(18:4)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM83": {
+                              "type": "string",
+                              "description": "아라키돈산(20:4 n-6)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM84": {
+                              "type": "string",
+                              "description": "아라키드산(20:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM85": {
+                              "type": "string",
+                              "description": "알파 리놀렌산(18:3(n-3))(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM86": {
+                              "type": "string",
+                              "description": "알파 리놀렌산(18:3(n-3))(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM87": {
+                              "type": "string",
+                              "description": "에루크산(22:1)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM88": {
+                              "type": "string",
+                              "description": "에이코사디에노산(20:2(n-6))(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM89": {
+                              "type": "string",
+                              "description": "에이코사트리에노산(20:3(n-6))(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM90": {
+                              "type": "string",
+                              "description": "에이코사펜타에노산(20:5(n-3))(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM91": {
+                              "type": "string",
+                              "description": "오메가3 지방산(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM92": {
+                              "type": "string",
+                              "description": "오메가6 지방산(g)",
+                              "properties": {}
+                            },
+                            "AMT_NUM93": {
+                              "type": "string",
+                              "description": "올레산(18:1 n-9)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM94": {
+                              "type": "string",
+                              "description": "카프로산(6:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM95": {
+                              "type": "string",
+                              "description": "카프르산(10:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM96": {
+                              "type": "string",
+                              "description": "카프릴산(8:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM97": {
+                              "type": "string",
+                              "description": "트라이데칸산(13:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM98": {
+                              "type": "string",
+                              "description": "트랜스 리놀레산(18:2t)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM99": {
+                              "type": "string",
+                              "description": "트랜스 리놀렌산(18:3t)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM100": {
+                              "type": "string",
+                              "description": "카페인(㎎)",
+                              "properties": {}
+                            },
+                            "AMT_NUM101": {
+                              "type": "string",
+                              "description": "트랜스 올레산(18:1(n-9)t)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM102": {
+                              "type": "string",
+                              "description": "트리코산산(23:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM103": {
+                              "type": "string",
+                              "description": "팔미톨레산(16:1)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM104": {
+                              "type": "string",
+                              "description": "팔미트산(16:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM105": {
+                              "type": "string",
+                              "description": "펜타데칸산(15:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM106": {
+                              "type": "string",
+                              "description": "헨에이코산산(21:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM107": {
+                              "type": "string",
+                              "description": "헵타데센산(17:1)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM108": {
+                              "type": "string",
+                              "description": "헵타데칸산(17:0)(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM109": {
+                              "type": "string",
+                              "description": "구리(㎎)",
+                              "properties": {}
+                            },
+                            "AMT_NUM110": {
+                              "type": "string",
+                              "description": "구리(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM111": {
+                              "type": "string",
+                              "description": "마그네슘(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM112": {
+                              "type": "string",
+                              "description": "망간(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM113": {
+                              "type": "string",
+                              "description": "몰리브덴(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM114": {
+                              "type": "string",
+                              "description": "불소(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM115": {
+                              "type": "string",
+                              "description": "셀레늄(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM116": {
+                              "type": "string",
+                              "description": "아연(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM117": {
+                              "type": "string",
+                              "description": "염소(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM118": {
+                              "type": "string",
+                              "description": "요오드(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM119": {
+                              "type": "string",
+                              "description": "크롬(μg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM120": {
+                              "type": "string",
+                              "description": "총 아미노산(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM121": {
+                              "type": "string",
+                              "description": "필수아미노산(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM122": {
+                              "type": "string",
+                              "description": "비필수아미노산(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM123": {
+                              "type": "string",
+                              "description": "글루탐산(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM124": {
+                              "type": "string",
+                              "description": "글리신(mg)",
+                              "properties": {}
+                            },
+                            "AMT_NUM125": {
+                              "type": "string",
+                              "description": "라이신(mg)",
+                              "properties": {}
+                            },
+                            "RESEARCH_YMD": {
+                              "type": "string",
+                              "description": "데이터생성일자",
+                              "properties": {}
+                            },
+                            "UPDATE_DATE": {
+                              "type": "string",
+                              "description": "데이터수정일자",
+                              "properties": {}
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "numOfRows": {
+                      "type": "string",
+                      "description": "한 페이지 결과수",
+                      "properties": {}
+                    },
+                    "pageNo": {
+                      "type": "string",
+                      "description": "페이지 번호",
+                      "properties": {}
+                    },
+                    "totalCount": {
+                      "type": "string",
+                      "description": "전체 결과 수",
+                      "properties": {}
+                    }
+                  }
+                }
+              },
+              "xml": {
+                "name": "response"
+              }
+            }
+          }
+        },
+        "tags": [
+          "API 목록"
+        ],
+        "summary": "식품 영양성분 조회",
+        "description": "식품명, 영양성분함량정보, 제조사명, 에너지, 탄수화물 등의 식품 영양성분 정보를 조회",
+        "operationId": "getFoodNtrCpntDbInq03",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json",
+          "application/xml"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "serviceKey",
+          "description": "공공데이터포털에서 발급 받은 인증키",
+          "type": "string",
+          "required": true,
+          "in": "query"
+        },
+        {
+          "name": "pageNo",
+          "description": "페이지 번호",
+          "type": "integer",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "numOfRows",
+          "description": "한 페이지 결과수",
+          "type": "integer",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "type",
+          "description": "응답데이터 형식(xml/json) default : xml",
+          "type": "string",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "FOOD_NM_KR",
+          "description": "식품명",
+          "type": "string",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "RESEARCH_YMD",
+          "description": "데이터생성일자",
+          "type": "string",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "MAKER_NM",
+          "description": "업체명",
+          "type": "string",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "FOOD_CAT1_NM",
+          "description": "식품대분류명",
+          "type": "string",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "ITEM_REPORT_NO",
+          "description": "품목제조보고번호",
+          "type": "string",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "UPDATE_DATE",
+          "description": "데이터수정일자",
+          "type": "string",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "DB_CLASS_NM",
+          "description": "품목대표/상용제품",
+          "type": "string",
+          "required": false,
+          "in": "query"
+        },
+        {
+          "name": "FOOD_OR_NM",
+          "description": "식품기원명",
+          "type": "string",
+          "required": false,
+          "in": "query"
+        }
+      ]
+    }
+  },
+  "definitions": {
+    "getFoodNtrCpntDbInq03_response": {
+      "type": "object",
+      "properties": {
+        "header": {
+          "type": "object",
+          "description": "header",
+          "properties": {
+            "resultCode": {
+              "type": "string",
+              "description": "결과코드"
+            },
+            "resultMsg": {
+              "type": "string",
+              "description": "결과메세지"
+            }
+          }
+        },
+        "body": {
+          "type": "object",
+          "description": "body",
+          "properties": {
+            "items": {
+              "type": "object",
+              "description": "items",
+              "properties": {
+                "item": {
+                  "type": "object",
+                  "description": "item",
+                  "properties": {
+                    "AMT_NUM59": {
+                      "type": "string",
+                      "description": "타가토스(g)"
+                    },
+                    "NUM": {
+                      "type": "string",
+                      "description": "번호"
+                    },
+                    "FOOD_CD": {
+                      "type": "string",
+                      "description": "식품코드"
+                    },
+                    "FOOD_NM_KR": {
+                      "type": "string",
+                      "description": "식품명"
+                    },
+                    "DB_GRP_CM": {
+                      "type": "string",
+                      "description": "데이터구분코드"
+                    },
+                    "DB_GRP_NM": {
+                      "type": "string",
+                      "description": "데이터구분명"
+                    },
+                    "DB_CLASS_CM": {
+                      "type": "string",
+                      "description": "품목대표/상용제품 코드"
+                    },
+                    "DB_CLASS_NM": {
+                      "type": "string",
+                      "description": "품목대표/상용제품"
+                    },
+                    "FOOD_OR_CD": {
+                      "type": "string",
+                      "description": "식품기원코드"
+                    },
+                    "FOOD_OR_NM": {
+                      "type": "string",
+                      "description": "식품기원명"
+                    },
+                    "FOOD_CAT1_CD": {
+                      "type": "string",
+                      "description": "식품대분류코드"
+                    },
+                    "FOOD_CAT1_NM": {
+                      "type": "string",
+                      "description": "식품대분류명"
+                    },
+                    "FOOD_REF_CD": {
+                      "type": "string",
+                      "description": "대표식품코드"
+                    },
+                    "FOOD_REF_NM": {
+                      "type": "string",
+                      "description": "대표식품명"
+                    },
+                    "FOOD_CAT2_CD": {
+                      "type": "string",
+                      "description": "식품중분류코드"
+                    },
+                    "FOOD_CAT2_NM": {
+                      "type": "string",
+                      "description": "식품중분류명"
+                    },
+                    "FOOD_CAT3_CD": {
+                      "type": "string",
+                      "description": "식품소분류코드"
+                    },
+                    "FOOD_CAT3_NM": {
+                      "type": "string",
+                      "description": "식품소분류명"
+                    },
+                    "FOOD_CAT4_CD": {
+                      "type": "string",
+                      "description": "식품세분류코드"
+                    },
+                    "FOOD_CAT4_NM": {
+                      "type": "string",
+                      "description": "식품세분류명"
+                    },
+                    "SERVING_SIZE": {
+                      "type": "string",
+                      "description": "영양성분함량기준량"
+                    },
+                    "AMT_NUM1": {
+                      "type": "string",
+                      "description": "에너지(kcal)"
+                    },
+                    "AMT_NUM2": {
+                      "type": "string",
+                      "description": "수분(g)"
+                    },
+                    "AMT_NUM3": {
+                      "type": "string",
+                      "description": "단백질(g)"
+                    },
+                    "AMT_NUM4": {
+                      "type": "string",
+                      "description": "지방(g)"
+                    },
+                    "AMT_NUM5": {
+                      "type": "string",
+                      "description": "회분(g)"
+                    },
+                    "AMT_NUM6": {
+                      "type": "string",
+                      "description": "탄수화물(g)"
+                    },
+                    "AMT_NUM7": {
+                      "type": "string",
+                      "description": "당류(g)"
+                    },
+                    "AMT_NUM8": {
+                      "type": "string",
+                      "description": "식이섬유(g)"
+                    },
+                    "AMT_NUM9": {
+                      "type": "string",
+                      "description": "칼슘(mg)"
+                    },
+                    "AMT_NUM10": {
+                      "type": "string",
+                      "description": "철(mg)"
+                    },
+                    "AMT_NUM11": {
+                      "type": "string",
+                      "description": "인(mg)"
+                    },
+                    "AMT_NUM12": {
+                      "type": "string",
+                      "description": "칼륨(mg)"
+                    },
+                    "AMT_NUM13": {
+                      "type": "string",
+                      "description": "나트륨(mg)"
+                    },
+                    "AMT_NUM14": {
+                      "type": "string",
+                      "description": "비타민 A(μg RAE)"
+                    },
+                    "AMT_NUM15": {
+                      "type": "string",
+                      "description": "비타민 A(μg)"
+                    },
+                    "AMT_NUM16": {
+                      "type": "string",
+                      "description": "레티놀(μg)"
+                    },
+                    "AMT_NUM17": {
+                      "type": "string",
+                      "description": "베타카로틴(μg)"
+                    },
+                    "AMT_NUM18": {
+                      "type": "string",
+                      "description": "비타민 B1(mg)"
+                    },
+                    "AMT_NUM19": {
+                      "type": "string",
+                      "description": "비타민 B2(mg)"
+                    },
+                    "AMT_NUM20": {
+                      "type": "string",
+                      "description": "니아신(mg)"
+                    },
+                    "AMT_NUM21": {
+                      "type": "string",
+                      "description": "비타민 C(mg)"
+                    },
+                    "AMT_NUM22": {
+                      "type": "string",
+                      "description": "비타민 D(μg)"
+                    },
+                    "AMT_NUM23": {
+                      "type": "string",
+                      "description": "콜레스테롤(mg)"
+                    },
+                    "AMT_NUM24": {
+                      "type": "string",
+                      "description": "포화지방산(g)"
+                    },
+                    "AMT_NUM25": {
+                      "type": "string",
+                      "description": "트랜스지방산(g)"
+                    },
+                    "AMT_NUM26": {
+                      "type": "string",
+                      "description": "니코틴산 (mg)"
+                    },
+                    "AMT_NUM27": {
+                      "type": "string",
+                      "description": "니코틴아마이드(mg)"
+                    },
+                    "AMT_NUM28": {
+                      "type": "string",
+                      "description": "비오틴(μg)"
+                    },
+                    "AMT_NUM29": {
+                      "type": "string",
+                      "description": "비타민 B6 (mg)"
+                    },
+                    "AMT_NUM30": {
+                      "type": "string",
+                      "description": "비타민 B12(μg)"
+                    },
+                    "AMT_NUM31": {
+                      "type": "string",
+                      "description": "엽산(DFE)(㎍)"
+                    },
+                    "AMT_NUM32": {
+                      "type": "string",
+                      "description": "콜린(mg)"
+                    },
+                    "AMT_NUM33": {
+                      "type": "string",
+                      "description": "판토텐산(mg)"
+                    },
+                    "AMT_NUM34": {
+                      "type": "string",
+                      "description": "비타민 D2(μg)"
+                    },
+                    "AMT_NUM35": {
+                      "type": "string",
+                      "description": "비타민 D3(μg)"
+                    },
+                    "AMT_NUM36": {
+                      "type": "string",
+                      "description": "비타민 E(mg α-TE)"
+                    },
+                    "AMT_NUM37": {
+                      "type": "string",
+                      "description": "비타민 E(mg)"
+                    },
+                    "AMT_NUM38": {
+                      "type": "string",
+                      "description": "토코페롤(㎎)"
+                    },
+                    "AMT_NUM39": {
+                      "type": "string",
+                      "description": "알파 토코페롤(mg)"
+                    },
+                    "AMT_NUM40": {
+                      "type": "string",
+                      "description": "베타 토코페롤(mg)"
+                    },
+                    "AMT_NUM41": {
+                      "type": "string",
+                      "description": "감마 토코페롤(mg)"
+                    },
+                    "AMT_NUM42": {
+                      "type": "string",
+                      "description": "델타 토코페롤(mg)"
+                    },
+                    "AMT_NUM43": {
+                      "type": "string",
+                      "description": "토코트리에놀(㎎)"
+                    },
+                    "AMT_NUM44": {
+                      "type": "string",
+                      "description": "알파 토코트리에놀(mg)"
+                    },
+                    "AMT_NUM45": {
+                      "type": "string",
+                      "description": "베타 토코트리에놀(mg)"
+                    },
+                    "AMT_NUM46": {
+                      "type": "string",
+                      "description": "감마 토코트리에놀(mg)"
+                    },
+                    "AMT_NUM47": {
+                      "type": "string",
+                      "description": "델타 토코트리에놀(mg)"
+                    },
+                    "AMT_NUM48": {
+                      "type": "string",
+                      "description": "비타민 K(μg)"
+                    },
+                    "AMT_NUM49": {
+                      "type": "string",
+                      "description": "비타민 K1(μg)"
+                    },
+                    "AMT_NUM50": {
+                      "type": "string",
+                      "description": "비타민 K2(μg)"
+                    },
+                    "AMT_NUM51": {
+                      "type": "string",
+                      "description": "갈락토오스(g)"
+                    },
+                    "AMT_NUM52": {
+                      "type": "string",
+                      "description": "과당(g)"
+                    },
+                    "AMT_NUM53": {
+                      "type": "string",
+                      "description": "당알콜(g)"
+                    },
+                    "AMT_NUM54": {
+                      "type": "string",
+                      "description": "맥아당(g)"
+                    },
+                    "AMT_NUM55": {
+                      "type": "string",
+                      "description": "알룰로오스(g)"
+                    },
+                    "AMT_NUM56": {
+                      "type": "string",
+                      "description": "에리스리톨(g)"
+                    },
+                    "AMT_NUM57": {
+                      "type": "string",
+                      "description": "유당(g)"
+                    },
+                    "AMT_NUM58": {
+                      "type": "string",
+                      "description": "자당(g)"
+                    },
+                    "SUB_REF_NAME": {
+                      "type": "string",
+                      "description": "출처명"
+                    },
+                    "NUTRI_AMOUNT_SERVING": {
+                      "type": "string",
+                      "description": "1회 섭취참고량"
+                    },
+                    "Z10500": {
+                      "type": "string",
+                      "description": "식품중량"
+                    },
+                    "DISH_ONE_SERVING": {
+                      "type": "string",
+                      "description": "1회분량 참고량"
+                    },
+                    "ITEM_REPORT_NO": {
+                      "type": "string",
+                      "description": "품목제조보고번호"
+                    },
+                    "MAKER_NM": {
+                      "type": "string",
+                      "description": "업체명"
+                    },
+                    "IMP_MANUFAC_NM": {
+                      "type": "string",
+                      "description": "수입업체명"
+                    },
+                    "SELLER_MANUFAC_NM": {
+                      "type": "string",
+                      "description": "유통업체명"
+                    },
+                    "IMP_YN": {
+                      "type": "string",
+                      "description": "수입여부"
+                    },
+                    "NATION_CM": {
+                      "type": "string",
+                      "description": "원산지국코드"
+                    },
+                    "NATION_NM": {
+                      "type": "string",
+                      "description": "원산지국명"
+                    },
+                    "CRT_MTH_CD": {
+                      "type": "string",
+                      "description": "데이터생성방법코드"
+                    },
+                    "CRT_MTH_NM": {
+                      "type": "string",
+                      "description": "데이터생성방법명"
+                    },
+                    "SUB_REF_CM": {
+                      "type": "string",
+                      "description": "출처코드"
+                    },
+                    "AMT_NUM126": {
+                      "type": "string",
+                      "description": "루신(mg)"
+                    },
+                    "AMT_NUM127": {
+                      "type": "string",
+                      "description": "메티오닌(mg)"
+                    },
+                    "AMT_NUM128": {
+                      "type": "string",
+                      "description": "발린(mg)"
+                    },
+                    "AMT_NUM129": {
+                      "type": "string",
+                      "description": "세린(mg)"
+                    },
+                    "AMT_NUM130": {
+                      "type": "string",
+                      "description": "시스테인(mg)"
+                    },
+                    "AMT_NUM131": {
+                      "type": "string",
+                      "description": "아르기닌(mg)"
+                    },
+                    "AMT_NUM132": {
+                      "type": "string",
+                      "description": "아스파르트산(mg)"
+                    },
+                    "AMT_NUM133": {
+                      "type": "string",
+                      "description": "알라닌(mg)"
+                    },
+                    "AMT_NUM134": {
+                      "type": "string",
+                      "description": "이소루신(mg)"
+                    },
+                    "AMT_NUM135": {
+                      "type": "string",
+                      "description": "타우린(mg)"
+                    },
+                    "AMT_NUM136": {
+                      "type": "string",
+                      "description": "트레오닌(mg)"
+                    },
+                    "AMT_NUM137": {
+                      "type": "string",
+                      "description": "트립토판(mg)"
+                    },
+                    "AMT_NUM138": {
+                      "type": "string",
+                      "description": "티로신(mg)"
+                    },
+                    "AMT_NUM139": {
+                      "type": "string",
+                      "description": "페닐알라닌(mg)"
+                    },
+                    "AMT_NUM140": {
+                      "type": "string",
+                      "description": "프롤린(mg)"
+                    },
+                    "AMT_NUM141": {
+                      "type": "string",
+                      "description": "히스티딘(mg)"
+                    },
+                    "AMT_NUM142": {
+                      "type": "string",
+                      "description": "펜타데센산(15:1,n-5)(mg)"
+                    },
+                    "AMT_NUM143": {
+                      "type": "string",
+                      "description": "에이코사테트라에노산(20:4(n-3))"
+                    },
+                    "AMT_NUM144": {
+                      "type": "string",
+                      "description": "헤니코사펜타엔산(21:5,n-3)(mg)"
+                    },
+                    "AMT_NUM145": {
+                      "type": "string",
+                      "description": "니아신당량(NE)"
+                    },
+                    "AMT_NUM146": {
+                      "type": "string",
+                      "description": "수용성 식이섬유(g)"
+                    },
+                    "AMT_NUM147": {
+                      "type": "string",
+                      "description": "불용성 식이섬유(g)"
+                    },
+                    "AMT_NUM148": {
+                      "type": "string",
+                      "description": "피리독신(mg)"
+                    },
+                    "AMT_NUM149": {
+                      "type": "string",
+                      "description": "엽산_식품 엽산(μg)"
+                    },
+                    "AMT_NUM150": {
+                      "type": "string",
+                      "description": "엽산_합성 엽산(μg)"
+                    },
+                    "AMT_NUM151": {
+                      "type": "string",
+                      "description": "총 필수지방산(g)"
+                    },
+                    "AMT_NUM152": {
+                      "type": "string",
+                      "description": "총 단일불포화지방산(g)"
+                    },
+                    "AMT_NUM153": {
+                      "type": "string",
+                      "description": "총 다중불포화지방산(g)"
+                    },
+                    "AMT_NUM154": {
+                      "type": "string",
+                      "description": "총 지방산(g)"
+                    },
+                    "AMT_NUM155": {
+                      "type": "string",
+                      "description": "지방산의 합(g)"
+                    },
+                    "AMT_NUM156": {
+                      "type": "string",
+                      "description": "식염상당량(g)"
+                    },
+                    "AMT_NUM157": {
+                      "type": "string",
+                      "description": "폐기율(%)"
+                    },
+                    "AMT_NUM60": {
+                      "type": "string",
+                      "description": "포도당(g)"
+                    },
+                    "AMT_NUM61": {
+                      "type": "string",
+                      "description": "총 불포화지방산(g)"
+                    },
+                    "AMT_NUM62": {
+                      "type": "string",
+                      "description": "EPA와 DHA의 합(mg)"
+                    },
+                    "AMT_NUM63": {
+                      "type": "string",
+                      "description": "가돌레산/에이코센산(mg)"
+                    },
+                    "AMT_NUM64": {
+                      "type": "string",
+                      "description": "감마 리놀렌산(18:3 n-6)(mg)"
+                    },
+                    "AMT_NUM65": {
+                      "type": "string",
+                      "description": "네르본산(24:1)(mg)"
+                    },
+                    "AMT_NUM66": {
+                      "type": "string",
+                      "description": "도코사디에노산(22:2)(mg)"
+                    },
+                    "AMT_NUM67": {
+                      "type": "string",
+                      "description": "도코사펜타에노산(22:5(n-3))(mg)"
+                    },
+                    "AMT_NUM68": {
+                      "type": "string",
+                      "description": "도코사펜타엔산(n-6) (22:5,n-6)(mg)"
+                    },
+                    "AMT_NUM69": {
+                      "type": "string",
+                      "description": "도코사헥사에노산(22:6(n-3))(mg)"
+                    },
+                    "AMT_NUM70": {
+                      "type": "string",
+                      "description": "디호모리놀렌산(20:3(n-3))(mg)"
+                    },
+                    "AMT_NUM71": {
+                      "type": "string",
+                      "description": "디호모감마리놀렌산(20:3,n-6))(mg)"
+                    },
+                    "AMT_NUM72": {
+                      "type": "string",
+                      "description": "라우르산(12:0)(mg)"
+                    },
+                    "AMT_NUM73": {
+                      "type": "string",
+                      "description": "리그노세르산(24:0)(mg)"
+                    },
+                    "AMT_NUM74": {
+                      "type": "string",
+                      "description": "리놀레산(18:2(n-6)c)(g)"
+                    },
+                    "AMT_NUM75": {
+                      "type": "string",
+                      "description": "리놀레산(18:2(n-6)c)(mg)"
+                    },
+                    "AMT_NUM76": {
+                      "type": "string",
+                      "description": "미리스톨레산(14:1)(mg)"
+                    },
+                    "AMT_NUM77": {
+                      "type": "string",
+                      "description": "미리스트산(14:0)(mg)"
+                    },
+                    "AMT_NUM78": {
+                      "type": "string",
+                      "description": "박센산(18:1(n-7))(mg)"
+                    },
+                    "AMT_NUM79": {
+                      "type": "string",
+                      "description": "베헨산(22:0)(mg)"
+                    },
+                    "AMT_NUM80": {
+                      "type": "string",
+                      "description": "부티르산(4:0)(mg)"
+                    },
+                    "AMT_NUM81": {
+                      "type": "string",
+                      "description": "스테아르산(18:0)(mg)"
+                    },
+                    "AMT_NUM82": {
+                      "type": "string",
+                      "description": "스테아리돈산(18:4)(mg)"
+                    },
+                    "AMT_NUM83": {
+                      "type": "string",
+                      "description": "아라키돈산(20:4 n-6)(mg)"
+                    },
+                    "AMT_NUM84": {
+                      "type": "string",
+                      "description": "아라키드산(20:0)(mg)"
+                    },
+                    "AMT_NUM85": {
+                      "type": "string",
+                      "description": "알파 리놀렌산(18:3(n-3))(g)"
+                    },
+                    "AMT_NUM86": {
+                      "type": "string",
+                      "description": "알파 리놀렌산(18:3(n-3))(mg)"
+                    },
+                    "AMT_NUM87": {
+                      "type": "string",
+                      "description": "에루크산(22:1)(mg)"
+                    },
+                    "AMT_NUM88": {
+                      "type": "string",
+                      "description": "에이코사디에노산(20:2(n-6))(mg)"
+                    },
+                    "AMT_NUM89": {
+                      "type": "string",
+                      "description": "에이코사트리에노산(20:3(n-6))(mg)"
+                    },
+                    "AMT_NUM90": {
+                      "type": "string",
+                      "description": "에이코사펜타에노산(20:5(n-3))(mg)"
+                    },
+                    "AMT_NUM91": {
+                      "type": "string",
+                      "description": "오메가3 지방산(g)"
+                    },
+                    "AMT_NUM92": {
+                      "type": "string",
+                      "description": "오메가6 지방산(g)"
+                    },
+                    "AMT_NUM93": {
+                      "type": "string",
+                      "description": "올레산(18:1 n-9)(mg)"
+                    },
+                    "AMT_NUM94": {
+                      "type": "string",
+                      "description": "카프로산(6:0)(mg)"
+                    },
+                    "AMT_NUM95": {
+                      "type": "string",
+                      "description": "카프르산(10:0)(mg)"
+                    },
+                    "AMT_NUM96": {
+                      "type": "string",
+                      "description": "카프릴산(8:0)(mg)"
+                    },
+                    "AMT_NUM97": {
+                      "type": "string",
+                      "description": "트라이데칸산(13:0)(mg)"
+                    },
+                    "AMT_NUM98": {
+                      "type": "string",
+                      "description": "트랜스 리놀레산(18:2t)(mg)"
+                    },
+                    "AMT_NUM99": {
+                      "type": "string",
+                      "description": "트랜스 리놀렌산(18:3t)(mg)"
+                    },
+                    "AMT_NUM100": {
+                      "type": "string",
+                      "description": "카페인(㎎)"
+                    },
+                    "AMT_NUM101": {
+                      "type": "string",
+                      "description": "트랜스 올레산(18:1(n-9)t)(mg)"
+                    },
+                    "AMT_NUM102": {
+                      "type": "string",
+                      "description": "트리코산산(23:0)(mg)"
+                    },
+                    "AMT_NUM103": {
+                      "type": "string",
+                      "description": "팔미톨레산(16:1)(mg)"
+                    },
+                    "AMT_NUM104": {
+                      "type": "string",
+                      "description": "팔미트산(16:0)(mg)"
+                    },
+                    "AMT_NUM105": {
+                      "type": "string",
+                      "description": "펜타데칸산(15:0)(mg)"
+                    },
+                    "AMT_NUM106": {
+                      "type": "string",
+                      "description": "헨에이코산산(21:0)(mg)"
+                    },
+                    "AMT_NUM107": {
+                      "type": "string",
+                      "description": "헵타데센산(17:1)(mg)"
+                    },
+                    "AMT_NUM108": {
+                      "type": "string",
+                      "description": "헵타데칸산(17:0)(mg)"
+                    },
+                    "AMT_NUM109": {
+                      "type": "string",
+                      "description": "구리(㎎)"
+                    },
+                    "AMT_NUM110": {
+                      "type": "string",
+                      "description": "구리(μg)"
+                    },
+                    "AMT_NUM111": {
+                      "type": "string",
+                      "description": "마그네슘(mg)"
+                    },
+                    "AMT_NUM112": {
+                      "type": "string",
+                      "description": "망간(mg)"
+                    },
+                    "AMT_NUM113": {
+                      "type": "string",
+                      "description": "몰리브덴(μg)"
+                    },
+                    "AMT_NUM114": {
+                      "type": "string",
+                      "description": "불소(mg)"
+                    },
+                    "AMT_NUM115": {
+                      "type": "string",
+                      "description": "셀레늄(μg)"
+                    },
+                    "AMT_NUM116": {
+                      "type": "string",
+                      "description": "아연(mg)"
+                    },
+                    "AMT_NUM117": {
+                      "type": "string",
+                      "description": "염소(mg)"
+                    },
+                    "AMT_NUM118": {
+                      "type": "string",
+                      "description": "요오드(μg)"
+                    },
+                    "AMT_NUM119": {
+                      "type": "string",
+                      "description": "크롬(μg)"
+                    },
+                    "AMT_NUM120": {
+                      "type": "string",
+                      "description": "총 아미노산(mg)"
+                    },
+                    "AMT_NUM121": {
+                      "type": "string",
+                      "description": "필수아미노산(mg)"
+                    },
+                    "AMT_NUM122": {
+                      "type": "string",
+                      "description": "비필수아미노산(mg)"
+                    },
+                    "AMT_NUM123": {
+                      "type": "string",
+                      "description": "글루탐산(mg)"
+                    },
+                    "AMT_NUM124": {
+                      "type": "string",
+                      "description": "글리신(mg)"
+                    },
+                    "AMT_NUM125": {
+                      "type": "string",
+                      "description": "라이신(mg)"
+                    },
+                    "RESEARCH_YMD": {
+                      "type": "string",
+                      "description": "데이터생성일자"
+                    },
+                    "UPDATE_DATE": {
+                      "type": "string",
+                      "description": "데이터수정일자"
+                    }
+                  }
+                }
+              }
+            },
+            "numOfRows": {
+              "type": "string",
+              "description": "한 페이지 결과수"
+            },
+            "pageNo": {
+              "type": "string",
+              "description": "페이지 번호"
+            },
+            "totalCount": {
+              "type": "string",
+              "description": "전체 결과 수"
+            }
+          }
+        }
+      }
+    }
+  },
+  "swaggerOprtinVOs": [
+    {
+      "oprtinUrl": "http://data.mfds.go.kr/openapi/FoodNtrCpntDbInfo/getFoodNtrCpntDbInq",
+      "oprtinNm": "식품 영양성분 조회",
+      "oprtinDc": "식품명, 영양성분함량정보, 제조사명, 에너지, 탄수화물 등의 식품 영양성분 정보를 조회",
+      "gwSvcNm": "getFoodNtrCpntDbInq03",
+      "operationId": "getFoodNtrCpntDbInq03",
+      "publicDataTyDetailCode": "PRDE02",
+      "reqList": [
+        {
+          "paramtrNm": "serviceKey",
+          "paramtrDc": "공공데이터포털에서 발급 받은 인증키",
+          "paramtrBassValue": "인증키 (URL Encode)",
+          "paramtrTy": "string",
+          "paramtrDivision": "필수",
+          "ck": true
+        },
+        {
+          "paramtrNm": "pageNo",
+          "paramtrDc": "페이지 번호",
+          "paramtrBassValue": "1",
+          "paramtrTy": "integer",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "numOfRows",
+          "paramtrDc": "한 페이지 결과수",
+          "paramtrBassValue": "3",
+          "paramtrTy": "integer",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "type",
+          "paramtrDc": "응답데이터 형식(xml/json) default : xml",
+          "paramtrBassValue": "xml",
+          "paramtrTy": "string",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "FOOD_NM_KR",
+          "paramtrDc": "식품명",
+          "paramtrBassValue": "국밥_돼지머리",
+          "paramtrTy": "string",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "RESEARCH_YMD",
+          "paramtrDc": "데이터생성일자",
+          "paramtrBassValue": "2017-12-31",
+          "paramtrTy": "string",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "MAKER_NM",
+          "paramtrDc": "업체명",
+          "paramtrBassValue": "null",
+          "paramtrTy": "string",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "FOOD_CAT1_NM",
+          "paramtrDc": "식품대분류명",
+          "paramtrBassValue": "밥류",
+          "paramtrTy": "string",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "ITEM_REPORT_NO",
+          "paramtrDc": "품목제조보고번호",
+          "paramtrBassValue": "",
+          "paramtrTy": "string",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "UPDATE_DATE",
+          "paramtrDc": "데이터수정일자",
+          "paramtrBassValue": "2025-01-23",
+          "paramtrTy": "string",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "DB_CLASS_NM",
+          "paramtrDc": "품목대표/상용제품",
+          "paramtrBassValue": "품목대표",
+          "paramtrTy": "string",
+          "paramtrDivision": "옵션",
+          "ck": true
+        },
+        {
+          "paramtrNm": "FOOD_OR_NM",
+          "paramtrDc": "식품기원명",
+          "paramtrBassValue": "가정식(분석 함량)",
+          "paramtrTy": "string",
+          "paramtrDivision": "옵션",
+          "ck": true
+        }
+      ],
+      "resList": [
+        {
+          "paramtrNm": "header",
+          "paramtrDc": "header",
+          "arrayYn": "N",
+          "paramtrDefNm": "#/definitions/oper-1-header",
+          "subDefNm": "oper-1-header",
+          "paramtrTy": "object",
+          "paramtrDivision": "필수",
+          "ck": true,
+          "subParam": [
+            {
+              "paramtrNm": "resultCode",
+              "paramtrDc": "결과코드",
+              "arrayYn": "N",
+              "paramtrDefNm": "",
+              "paramtrTy": "string",
+              "paramtrDivision": "필수",
+              "ck": true
+            },
+            {
+              "paramtrNm": "resultMsg",
+              "paramtrDc": "결과메세지",
+              "arrayYn": "N",
+              "paramtrDefNm": "",
+              "paramtrTy": "string",
+              "paramtrDivision": "필수",
+              "ck": true
+            }
+          ]
+        },
+        {
+          "paramtrNm": "body",
+          "paramtrDc": "body",
+          "arrayYn": "N",
+          "paramtrDefNm": "#/definitions/oper-1-body",
+          "subDefNm": "oper-1-body",
+          "paramtrTy": "object",
+          "paramtrDivision": "필수",
+          "ck": true,
+          "subParam": [
+            {
+              "paramtrNm": "items",
+              "paramtrDc": "items",
+              "arrayYn": "N",
+              "paramtrDefNm": "#/definitions/oper-1-items",
+              "subDefNm": "oper-1-items",
+              "paramtrTy": "object",
+              "paramtrDivision": "필수",
+              "ck": true,
+              "subParam": [
+                {
+                  "paramtrNm": "item",
+                  "paramtrDc": "item",
+                  "arrayYn": "N",
+                  "paramtrDefNm": "#/definitions/oper-1-item",
+                  "subDefNm": "oper-1-item",
+                  "paramtrTy": "object",
+                  "paramtrDivision": "필수",
+                  "ck": true,
+                  "subParam": [
+                    {
+                      "paramtrNm": "AMT_NUM59",
+                      "paramtrDc": "타가토스(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "NUM",
+                      "paramtrDc": "번호",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_CD",
+                      "paramtrDc": "식품코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_NM_KR",
+                      "paramtrDc": "식품명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "DB_GRP_CM",
+                      "paramtrDc": "데이터구분코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "DB_GRP_NM",
+                      "paramtrDc": "데이터구분명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "DB_CLASS_CM",
+                      "paramtrDc": "품목대표/상용제품 코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "DB_CLASS_NM",
+                      "paramtrDc": "품목대표/상용제품",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_OR_CD",
+                      "paramtrDc": "식품기원코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_OR_NM",
+                      "paramtrDc": "식품기원명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_CAT1_CD",
+                      "paramtrDc": "식품대분류코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_CAT1_NM",
+                      "paramtrDc": "식품대분류명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_REF_CD",
+                      "paramtrDc": "대표식품코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_REF_NM",
+                      "paramtrDc": "대표식품명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_CAT2_CD",
+                      "paramtrDc": "식품중분류코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_CAT2_NM",
+                      "paramtrDc": "식품중분류명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_CAT3_CD",
+                      "paramtrDc": "식품소분류코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_CAT3_NM",
+                      "paramtrDc": "식품소분류명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_CAT4_CD",
+                      "paramtrDc": "식품세분류코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "FOOD_CAT4_NM",
+                      "paramtrDc": "식품세분류명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "SERVING_SIZE",
+                      "paramtrDc": "영양성분함량기준량",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM1",
+                      "paramtrDc": "에너지(kcal)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM2",
+                      "paramtrDc": "수분(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM3",
+                      "paramtrDc": "단백질(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM4",
+                      "paramtrDc": "지방(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM5",
+                      "paramtrDc": "회분(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM6",
+                      "paramtrDc": "탄수화물(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM7",
+                      "paramtrDc": "당류(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM8",
+                      "paramtrDc": "식이섬유(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM9",
+                      "paramtrDc": "칼슘(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM10",
+                      "paramtrDc": "철(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM11",
+                      "paramtrDc": "인(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM12",
+                      "paramtrDc": "칼륨(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM13",
+                      "paramtrDc": "나트륨(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM14",
+                      "paramtrDc": "비타민 A(μg RAE)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM15",
+                      "paramtrDc": "비타민 A(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM16",
+                      "paramtrDc": "레티놀(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM17",
+                      "paramtrDc": "베타카로틴(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM18",
+                      "paramtrDc": "비타민 B1(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM19",
+                      "paramtrDc": "비타민 B2(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM20",
+                      "paramtrDc": "니아신(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM21",
+                      "paramtrDc": "비타민 C(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM22",
+                      "paramtrDc": "비타민 D(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM23",
+                      "paramtrDc": "콜레스테롤(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM24",
+                      "paramtrDc": "포화지방산(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM25",
+                      "paramtrDc": "트랜스지방산(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM26",
+                      "paramtrDc": "니코틴산 (mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM27",
+                      "paramtrDc": "니코틴아마이드(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM28",
+                      "paramtrDc": "비오틴(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM29",
+                      "paramtrDc": "비타민 B6 (mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM30",
+                      "paramtrDc": "비타민 B12(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM31",
+                      "paramtrDc": "엽산(DFE)(㎍)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM32",
+                      "paramtrDc": "콜린(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM33",
+                      "paramtrDc": "판토텐산(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM34",
+                      "paramtrDc": "비타민 D2(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM35",
+                      "paramtrDc": "비타민 D3(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM36",
+                      "paramtrDc": "비타민 E(mg α-TE)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM37",
+                      "paramtrDc": "비타민 E(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM38",
+                      "paramtrDc": "토코페롤(㎎)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM39",
+                      "paramtrDc": "알파 토코페롤(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM40",
+                      "paramtrDc": "베타 토코페롤(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM41",
+                      "paramtrDc": "감마 토코페롤(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM42",
+                      "paramtrDc": "델타 토코페롤(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM43",
+                      "paramtrDc": "토코트리에놀(㎎)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM44",
+                      "paramtrDc": "알파 토코트리에놀(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM45",
+                      "paramtrDc": "베타 토코트리에놀(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM46",
+                      "paramtrDc": "감마 토코트리에놀(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM47",
+                      "paramtrDc": "델타 토코트리에놀(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM48",
+                      "paramtrDc": "비타민 K(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM49",
+                      "paramtrDc": "비타민 K1(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM50",
+                      "paramtrDc": "비타민 K2(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM51",
+                      "paramtrDc": "갈락토오스(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM52",
+                      "paramtrDc": "과당(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM53",
+                      "paramtrDc": "당알콜(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM54",
+                      "paramtrDc": "맥아당(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM55",
+                      "paramtrDc": "알룰로오스(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM56",
+                      "paramtrDc": "에리스리톨(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM57",
+                      "paramtrDc": "유당(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM58",
+                      "paramtrDc": "자당(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "SUB_REF_NAME",
+                      "paramtrDc": "출처명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "NUTRI_AMOUNT_SERVING",
+                      "paramtrDc": "1회 섭취참고량",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "Z10500",
+                      "paramtrDc": "식품중량",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "DISH_ONE_SERVING",
+                      "paramtrDc": "1회분량 참고량",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "ITEM_REPORT_NO",
+                      "paramtrDc": "품목제조보고번호",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "MAKER_NM",
+                      "paramtrDc": "업체명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "IMP_MANUFAC_NM",
+                      "paramtrDc": "수입업체명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "SELLER_MANUFAC_NM",
+                      "paramtrDc": "유통업체명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "IMP_YN",
+                      "paramtrDc": "수입여부",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "NATION_CM",
+                      "paramtrDc": "원산지국코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "NATION_NM",
+                      "paramtrDc": "원산지국명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "CRT_MTH_CD",
+                      "paramtrDc": "데이터생성방법코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "CRT_MTH_NM",
+                      "paramtrDc": "데이터생성방법명",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "SUB_REF_CM",
+                      "paramtrDc": "출처코드",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM126",
+                      "paramtrDc": "루신(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM127",
+                      "paramtrDc": "메티오닌(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM128",
+                      "paramtrDc": "발린(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM129",
+                      "paramtrDc": "세린(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM130",
+                      "paramtrDc": "시스테인(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM131",
+                      "paramtrDc": "아르기닌(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM132",
+                      "paramtrDc": "아스파르트산(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM133",
+                      "paramtrDc": "알라닌(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM134",
+                      "paramtrDc": "이소루신(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM135",
+                      "paramtrDc": "타우린(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM136",
+                      "paramtrDc": "트레오닌(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM137",
+                      "paramtrDc": "트립토판(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM138",
+                      "paramtrDc": "티로신(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM139",
+                      "paramtrDc": "페닐알라닌(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM140",
+                      "paramtrDc": "프롤린(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM141",
+                      "paramtrDc": "히스티딘(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM142",
+                      "paramtrDc": "펜타데센산(15:1,n-5)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM143",
+                      "paramtrDc": "에이코사테트라에노산(20:4(n-3))",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM144",
+                      "paramtrDc": "헤니코사펜타엔산(21:5,n-3)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM145",
+                      "paramtrDc": "니아신당량(NE)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM146",
+                      "paramtrDc": "수용성 식이섬유(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM147",
+                      "paramtrDc": "불용성 식이섬유(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM148",
+                      "paramtrDc": "피리독신(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM149",
+                      "paramtrDc": "엽산_식품 엽산(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM150",
+                      "paramtrDc": "엽산_합성 엽산(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM151",
+                      "paramtrDc": "총 필수지방산(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM152",
+                      "paramtrDc": "총 단일불포화지방산(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM153",
+                      "paramtrDc": "총 다중불포화지방산(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM154",
+                      "paramtrDc": "총 지방산(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM155",
+                      "paramtrDc": "지방산의 합(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM156",
+                      "paramtrDc": "식염상당량(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM157",
+                      "paramtrDc": "폐기율(%)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM60",
+                      "paramtrDc": "포도당(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM61",
+                      "paramtrDc": "총 불포화지방산(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM62",
+                      "paramtrDc": "EPA와 DHA의 합(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM63",
+                      "paramtrDc": "가돌레산/에이코센산(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM64",
+                      "paramtrDc": "감마 리놀렌산(18:3 n-6)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM65",
+                      "paramtrDc": "네르본산(24:1)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM66",
+                      "paramtrDc": "도코사디에노산(22:2)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM67",
+                      "paramtrDc": "도코사펜타에노산(22:5(n-3))(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM68",
+                      "paramtrDc": "도코사펜타엔산(n-6) (22:5,n-6)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM69",
+                      "paramtrDc": "도코사헥사에노산(22:6(n-3))(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM70",
+                      "paramtrDc": "디호모리놀렌산(20:3(n-3))(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM71",
+                      "paramtrDc": "디호모감마리놀렌산(20:3,n-6))(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM72",
+                      "paramtrDc": "라우르산(12:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM73",
+                      "paramtrDc": "리그노세르산(24:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM74",
+                      "paramtrDc": "리놀레산(18:2(n-6)c)(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM75",
+                      "paramtrDc": "리놀레산(18:2(n-6)c)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM76",
+                      "paramtrDc": "미리스톨레산(14:1)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM77",
+                      "paramtrDc": "미리스트산(14:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM78",
+                      "paramtrDc": "박센산(18:1(n-7))(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM79",
+                      "paramtrDc": "베헨산(22:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM80",
+                      "paramtrDc": "부티르산(4:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM81",
+                      "paramtrDc": "스테아르산(18:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM82",
+                      "paramtrDc": "스테아리돈산(18:4)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM83",
+                      "paramtrDc": "아라키돈산(20:4 n-6)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM84",
+                      "paramtrDc": "아라키드산(20:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM85",
+                      "paramtrDc": "알파 리놀렌산(18:3(n-3))(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM86",
+                      "paramtrDc": "알파 리놀렌산(18:3(n-3))(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM87",
+                      "paramtrDc": "에루크산(22:1)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM88",
+                      "paramtrDc": "에이코사디에노산(20:2(n-6))(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM89",
+                      "paramtrDc": "에이코사트리에노산(20:3(n-6))(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM90",
+                      "paramtrDc": "에이코사펜타에노산(20:5(n-3))(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM91",
+                      "paramtrDc": "오메가3 지방산(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM92",
+                      "paramtrDc": "오메가6 지방산(g)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM93",
+                      "paramtrDc": "올레산(18:1 n-9)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM94",
+                      "paramtrDc": "카프로산(6:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM95",
+                      "paramtrDc": "카프르산(10:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM96",
+                      "paramtrDc": "카프릴산(8:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM97",
+                      "paramtrDc": "트라이데칸산(13:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM98",
+                      "paramtrDc": "트랜스 리놀레산(18:2t)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM99",
+                      "paramtrDc": "트랜스 리놀렌산(18:3t)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM100",
+                      "paramtrDc": "카페인(㎎)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM101",
+                      "paramtrDc": "트랜스 올레산(18:1(n-9)t)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM102",
+                      "paramtrDc": "트리코산산(23:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM103",
+                      "paramtrDc": "팔미톨레산(16:1)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM104",
+                      "paramtrDc": "팔미트산(16:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM105",
+                      "paramtrDc": "펜타데칸산(15:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM106",
+                      "paramtrDc": "헨에이코산산(21:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM107",
+                      "paramtrDc": "헵타데센산(17:1)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM108",
+                      "paramtrDc": "헵타데칸산(17:0)(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM109",
+                      "paramtrDc": "구리(㎎)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM110",
+                      "paramtrDc": "구리(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM111",
+                      "paramtrDc": "마그네슘(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM112",
+                      "paramtrDc": "망간(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM113",
+                      "paramtrDc": "몰리브덴(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM114",
+                      "paramtrDc": "불소(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM115",
+                      "paramtrDc": "셀레늄(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM116",
+                      "paramtrDc": "아연(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM117",
+                      "paramtrDc": "염소(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM118",
+                      "paramtrDc": "요오드(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM119",
+                      "paramtrDc": "크롬(μg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM120",
+                      "paramtrDc": "총 아미노산(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM121",
+                      "paramtrDc": "필수아미노산(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM122",
+                      "paramtrDc": "비필수아미노산(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM123",
+                      "paramtrDc": "글루탐산(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM124",
+                      "paramtrDc": "글리신(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "AMT_NUM125",
+                      "paramtrDc": "라이신(mg)",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "RESEARCH_YMD",
+                      "paramtrDc": "데이터생성일자",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    },
+                    {
+                      "paramtrNm": "UPDATE_DATE",
+                      "paramtrDc": "데이터수정일자",
+                      "arrayYn": "N",
+                      "paramtrDefNm": "",
+                      "paramtrTy": "string",
+                      "paramtrDivision": "옵션",
+                      "ck": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "paramtrNm": "numOfRows",
+              "paramtrDc": "한 페이지 결과수",
+              "arrayYn": "N",
+              "paramtrDefNm": "",
+              "paramtrTy": "string",
+              "paramtrDivision": "필수",
+              "ck": true
+            },
+            {
+              "paramtrNm": "pageNo",
+              "paramtrDc": "페이지 번호",
+              "arrayYn": "N",
+              "paramtrDefNm": "",
+              "paramtrTy": "string",
+              "paramtrDivision": "필수",
+              "ck": true
+            },
+            {
+              "paramtrNm": "totalCount",
+              "paramtrDc": "전체 결과 수",
+              "arrayYn": "N",
+              "paramtrDefNm": "",
+              "paramtrTy": "string",
+              "paramtrDivision": "필수",
+              "ck": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

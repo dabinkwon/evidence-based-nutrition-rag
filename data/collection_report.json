@@ -1,0 +1,12 @@
+{
+  "collected_at": "2026-10-21T05:06:30.554484+00:00",
+  "endpoint": "https://apis.data.go.kr/1471000/FoodNtrCpntDbInfo03/getFoodNtrCpntDbInq03",
+  "source_url": "https://www.data.go.kr/data/15127578/openapi.do",
+  "count": 100,
+  "rejected": 0,
+  "category": null,
+  "selection": "API order; unique food ID; positive g/ml basis; nonnegative energy and macros",
+  "missing_values": "null means missing/unparseable, never assumed zero",
+  "license": "Portal states no restrictions; checked 2026-10-21",
+  "limitations": "Initial dataset, not a representative menu selection. Recipe/ingredient mapping unverified."
+}

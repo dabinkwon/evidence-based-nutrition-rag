@@ -1,0 +1,18 @@
+{
+  "collected_at": "2026-10-21T05:15:50.223412+00:00",
+  "source_url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01",
+  "service": "COOKRCP01",
+  "total_available": 1156,
+  "count": 100,
+  "rejected": 0,
+  "categories": {
+    "반찬": 49,
+    "국&찌개": 22,
+    "후식": 4,
+    "일품": 21,
+    "밥": 4
+  },
+  "selection": "API order, unique recipe ID, nonempty name/ingredients/instructions",
+  "license_status": "Needs review before redistribution; official service page recorded.",
+  "limitations": "Nutrition basis and food mappings unverified; do not use recipe nutrition in calculations."
+}
