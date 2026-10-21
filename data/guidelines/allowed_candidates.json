@@ -1,0 +1,26 @@
+[
+  {
+    "document_id": "sodium_sugar_survey_2025_reference",
+    "title": "식약처, 국민의 나트륨·당류 섭취 실태분석 결과 발표",
+    "publisher": "식품의약품안전처",
+    "published_date": "2025-07-01",
+    "source_url": "https://mfds.go.kr/brd/m_99/view.do?company_cd=&company_nm=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&page=49&seq=49163&srchFr=&srchTo=&srchTp=&srchWord=",
+    "robots_url": "https://mfds.go.kr/robots.txt",
+    "robots_checked_date": "2026-10-21",
+    "robots_user_agent": "RAG-service-educational-source-collector/1.0",
+    "robots_allowed": true,
+    "acquisition_status": "reference_metadata_only",
+    "license_status": "individual_material_reuse_terms_unconfirmed",
+    "indexing_allowed": false,
+    "reason": "게시물 본문은 제목 중심이고 상세 내용은 첨부파일에 있다. PDF 미사용 방침 유지. robots 허용만으로 본문 재사용까지 승인된 것으로 간주하지 않는다.",
+    "survey_period": "2019-2023"
+  },
+  {
+    "document_id": "diet_practice_checklist_2025",
+    "acquisition_status": "already_in_manifest_no_duplicate",
+    "robots_checked_date": "2026-10-21",
+    "robots_allowed": true,
+    "license": "KOGL-1",
+    "details": "manifest.json의 동일 document_id 참조. 기존 본문에서 근거 문단을 추가 발췌했다."
+  }
+]
