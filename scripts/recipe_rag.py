@@ -163,7 +163,7 @@ def main():
     parser.add_argument('--exclude', action='append', default=[])
     parser.add_argument('--selected')
     parser.add_argument('--generate', action='store_true')
-    parser.add_argument('--retriever', choices=('semantic', 'lexical'), default='semantic')
+    parser.add_argument('--retriever', choices=('semantic', 'lexical', 'chroma'), default='chroma')
     args = parser.parse_args()
     docs = documents()
     output = ROOT / 'data/rag'
