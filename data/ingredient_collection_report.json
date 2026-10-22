@@ -1,0 +1,146 @@
+{
+  "collected_at": "2026-10-22T06:23:04.249769+00:00",
+  "queries": [
+    {
+      "term": "두부",
+      "total": 3358,
+      "returned": 258,
+      "status": "complete",
+      "missing_pages": [],
+      "groups": {
+        "음식": 100,
+        "가공식품": 151,
+        "원재료성": 7
+      }
+    },
+    {
+      "term": "연두부",
+      "total": 131,
+      "returned": 131,
+      "status": "complete",
+      "missing_pages": [],
+      "groups": {
+        "음식": 5,
+        "가공식품": 125,
+        "원재료성": 1
+      }
+    },
+    {
+      "term": "달걀",
+      "total": 176,
+      "returned": 176,
+      "status": "complete",
+      "missing_pages": [],
+      "groups": {
+        "음식": 83,
+        "가공식품": 77,
+        "원재료성": 16
+      }
+    },
+    {
+      "term": "새우",
+      "total": 4089,
+      "returned": 289,
+      "status": "complete",
+      "missing_pages": [],
+      "groups": {
+        "음식": 100,
+        "가공식품": 133,
+        "원재료성": 56
+      }
+    },
+    {
+      "term": "시금치",
+      "total": 548,
+      "returned": 248,
+      "status": "complete",
+      "missing_pages": [],
+      "groups": {
+        "음식": 37,
+        "가공식품": 201,
+        "원재료성": 10
+      }
+    },
+    {
+      "term": "생크림",
+      "total": 1198,
+      "returned": 298,
+      "status": "complete",
+      "missing_pages": [],
+      "groups": {
+        "음식": 100,
+        "가공식품": 196,
+        "원재료성": 2
+      }
+    },
+    {
+      "term": "버터",
+      "total": 4333,
+      "returned": 233,
+      "status": "complete",
+      "missing_pages": [],
+      "groups": {
+        "음식": 100,
+        "가공식품": 123,
+        "원재료성": 10
+      }
+    },
+    {
+      "term": "설탕",
+      "total": 368,
+      "returned": 268,
+      "status": "complete",
+      "missing_pages": [],
+      "groups": {
+        "음식": 4,
+        "가공식품": 251,
+        "원재료성": 13
+      }
+    },
+    {
+      "term": "우유",
+      "total": 2872,
+      "returned": 100,
+      "status": "partial",
+      "missing_pages": [
+        28,
+        29
+      ],
+      "groups": {
+        "음식": 100
+      }
+    },
+    {
+      "term": "당근",
+      "total": 1059,
+      "returned": 200,
+      "status": "partial",
+      "missing_pages": [
+        11
+      ],
+      "groups": {
+        "음식": 44,
+        "가공식품": 156
+      }
+    },
+    {
+      "term": "양파",
+      "total": 686,
+      "returned": 200,
+      "status": "partial",
+      "missing_pages": [
+        7
+      ],
+      "groups": {
+        "음식": 21,
+        "가공식품": 179
+      }
+    },
+    {
+      "term": "마늘",
+      "status": "not_collected"
+    }
+  ],
+  "count": 113,
+  "limitation": "Ingredient-name candidates, not automatically verified recipe ingredient equivalence. First and final two pages only; coverage incomplete."
+}

@@ -32,10 +32,11 @@ def key_from_env():
     return unquote(key)
 
 
-def request_page(key, page, size, category=None):
+def request_page(key, page, size, category=None, filters=None):
     params = dict(serviceKey=key, pageNo=page, numOfRows=size, type='json')
     if category:
         params['FOOD_CAT1_NM'] = category
+    params.update(filters or {})
     for attempt in range(3):
         try:
             with urlopen(ENDPOINT + '?' + urlencode(params), timeout=40) as response:
