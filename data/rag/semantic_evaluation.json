@@ -1,0 +1,189 @@
+[
+  {
+    "case_id": "S1",
+    "question": "콩으로 만든 부드러운 식재료를 쓰는 요리 추천해줘",
+    "excluded": [],
+    "lexical_ids": [
+      "recipe:114",
+      "recipe:138",
+      "recipe:162",
+      "healthy_home_eating_2021:line:0012",
+      "healthy_home_eating_2021:line:0015"
+    ],
+    "semantic_results": [
+      {
+        "id": "recipe:508",
+        "title": "햄버거스테이크",
+        "similarity": 0.482803
+      },
+      {
+        "id": "recipe:276",
+        "title": "맑은부대찌개",
+        "similarity": 0.477985
+      },
+      {
+        "id": "recipe:636",
+        "title": "우렁된장소스 배추롤",
+        "similarity": 0.474231
+      }
+    ],
+    "generation": {
+      "status": "generated_unreviewed",
+      "answer": "콩으로 만든 부드러운 식재료인 **두부를 넣은 맑은부대찌개**를 추천해요. 재료에 두부(50g)가 포함되어 있습니다. [recipe:276]\n\n느타리버섯, 콩나물, 배추, 미나리와 돼지고기·쇠고기 완자를 냄비에 담고 다시마육수를 부어 끓이는 요리예요. [recipe:276] 두부는 썰어 다른 재료와 함께 담으면 됩니다. [recipe:276]",
+      "citations": [
+        {
+          "id": "recipe:276",
+          "title": "맑은부대찌개",
+          "source_url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "S2",
+    "question": "소금을 적게 먹으려면 어떻게 요리하면 좋을까?",
+    "excluded": [],
+    "lexical_ids": [
+      "recipe:111",
+      "recipe:114",
+      "recipe:159",
+      "healthy_home_eating_2021:line:0020"
+    ],
+    "semantic_results": [
+      {
+        "id": "healthy_home_eating_2021:line:0020",
+        "title": "집콕시대, 상황별 건강 식생활 실천 가이드",
+        "similarity": 0.474049
+      },
+      {
+        "id": "healthy_home_eating_2021:line:0022",
+        "title": "집콕시대, 상황별 건강 식생활 실천 가이드",
+        "similarity": 0.389176
+      },
+      {
+        "id": "healthy_home_eating_2021:line:0025",
+        "title": "집콕시대, 상황별 건강 식생활 실천 가이드",
+        "similarity": 0.367508
+      }
+    ],
+    "generation": {
+      "status": "generated_unreviewed",
+      "answer": "요리할 때 소금·젓갈·쌈장 같은 양념을 평소보다 절반만 사용하는 방법을 권합니다. [healthy_home_eating_2021:line:0020]\n\n근거 자료에는 이 외의 조리법이나 구체적인 소금량은 제시되어 있지 않습니다.",
+      "citations": [
+        {
+          "id": "healthy_home_eating_2021:line:0020",
+          "title": "집콕시대, 상황별 건강 식생활 실천 가이드",
+          "source_url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148888295"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "S3",
+    "question": "두부 요리 추천해줘",
+    "excluded": [
+      "새우",
+      "계란",
+      "우유"
+    ],
+    "lexical_ids": [
+      "recipe:137",
+      "recipe:280",
+      "recipe:282"
+    ],
+    "semantic_results": [
+      {
+        "id": "recipe:282",
+        "title": "버섯순두부찌개",
+        "similarity": 0.458124
+      },
+      {
+        "id": "recipe:137",
+        "title": "된장 두부찌개",
+        "similarity": 0.422314
+      },
+      {
+        "id": "recipe:280",
+        "title": "들깨순두부찌개",
+        "similarity": 0.408221
+      }
+    ],
+    "generation": {
+      "status": "generated_unreviewed",
+      "answer": "두부 요리로 이런 메뉴를 추천해요.\n\n- **버섯순두부찌개**: 순두부에 표고버섯, 애호박, 감자, 들깻가루 등을 넣는 찌개예요. [recipe:282]\n- **된장 두부찌개**: 두부와 돼지고기, 김치를 넣고 끓이는 메뉴예요. [recipe:137]\n- **들깨순두부찌개**: 순두부와 굴, 버섯, 들깻가루를 넣어요. [recipe:280]\n\n굴이나 돼지고기를 피하고 싶다면 재료를 확인하고 다른 메뉴를 고르세요. 제공된 근거만으로 알레르기 안전 여부를 보장할 수는 없어요. [recipe:137] [recipe:280]",
+      "citations": [
+        {
+          "id": "recipe:282",
+          "title": "버섯순두부찌개",
+          "source_url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01"
+        },
+        {
+          "id": "recipe:137",
+          "title": "된장 두부찌개",
+          "source_url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01"
+        },
+        {
+          "id": "recipe:280",
+          "title": "들깨순두부찌개",
+          "source_url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "S4",
+    "question": "이 요리의 재료와 조리법 알려줘",
+    "excluded": [],
+    "lexical_ids": [
+      "recipe:28",
+      "recipe:297"
+    ],
+    "semantic_results": [
+      {
+        "id": "recipe:28",
+        "title": "새우 두부 계란찜",
+        "similarity": 0.277177
+      }
+    ],
+    "generation": {
+      "status": "generated_unreviewed",
+      "answer": "## 새우 두부 계란찜\n\n**재료**\n- 연두부 75g(3/4모)\n- 칵테일새우 20g(5마리)\n- 달걀 30g(1/2개)\n- 생크림 13g(1큰술)\n- 설탕 5g(1작은술)\n- 무염버터 5g(1작은술)\n- 고명: 시금치 10g(3줄기) [recipe:28]\n\n**조리법**\n1. 손질한 새우를 끓는 물에 데쳐 건집니다.\n2. 연두부, 달걀, 생크림, 설탕과 녹인 무염버터를 믹서에 갈고, 데친 새우를 섞어 그릇에 담습니다.\n3. 시금치를 잘게 다져 위에 뿌린 뒤, 찜기에 넣고 중간 불에서 약 10분간 찝니다. [recipe:28]",
+      "citations": [
+        {
+          "id": "recipe:28",
+          "title": "새우 두부 계란찜",
+          "source_url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01"
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "S5",
+    "question": "새우 두부 계란찜 1인분의 열량은 얼마야?",
+    "excluded": [],
+    "lexical_ids": [
+      "recipe:28",
+      "recipe:281",
+      "recipe:137",
+      "hmr_nutrition_2020:line:0009"
+    ],
+    "semantic_results": [
+      {
+        "id": "recipe:28",
+        "title": "새우 두부 계란찜",
+        "similarity": 0.676823
+      }
+    ],
+    "generation": {
+      "status": "generated_unreviewed",
+      "answer": "제공된 영양정보의 열량은 **220kcal**입니다. 다만 기준량이 확인되지 않아 1인분의 열량으로 단정할 수는 없습니다. [recipe:28]",
+      "citations": [
+        {
+          "id": "recipe:28",
+          "title": "새우 두부 계란찜",
+          "source_url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01"
+        }
+      ]
+    }
+  }
+]

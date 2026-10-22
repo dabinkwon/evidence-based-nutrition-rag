@@ -5,3 +5,7 @@ __pycache__/
 *.tmp.html
 .tools/
 data/sources/*.pdf
+data/rag/*.sqlite3
+data/rag/chroma/
+data/rag/source_cache/
+*.jsonl.tmp
