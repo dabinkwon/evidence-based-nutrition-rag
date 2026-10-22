@@ -1,5 +1,11 @@
 # 파일 안내와 실행 방법
 
+W073: app.py 음식 비교는 제외 인자 없이 candidates/assess_foods를 호출한다. energy_profile.COMPARISON_VERSION 및 세션 comparison_version=2로 이전 모듈/차단 결과를 갱신한다. 기존 평가 음식과 중량/예산으로 로컬 재계산하고 오래된 생성 설명은 제거한다. 외부 API 재호출 없음. WORKLOG W073.
+
+W072: energy_profile.candidates/assess_foods는 제외 여부와 독립적으로 portion의 열량 계산을 수행한다. exclusion_check 결과는 별도 필드로 보존하며 context에도 전달한다. UI는 에너지 예산 기준으로 분류하고 카드에 제외 상태를 추가 안내한다. W071의 제외/확인 불가 전용 그룹은 제거했다. 검증 WORKLOG W072.
+
+W071: energy_profile.exclusion_check는 해당 음식 레코드의 name 및 ingredients_text 또는 ingredients(문자열/문자열 목록)를 검사한다. 기존 동의어와 닭/치킨의 제한된 이름 검사를 사용한다. candidates와 assess_foods가 같은 판정을 사용하고 UI는 excluded/exclusion_unknown을 에너지 비교 그룹과 분리한다. 실제 foods_extended에는 재료 원문이 없어 다른 레시피 값으로 대체하지 않는다. 검증 WORKLOG W071.
+
 W070: ingredient_lookup.nutrition_lookup_names가 개별 재료 조회와 영양 조건 추천을 분리한다. app.py와 rag_graph.py에서 선택 요리의 조회를 차단 이전에 처리하며 미지 재료 이름을 보존해 수집 누락으로 안내한다. 기존 원재료 데이터만 사용하고 추가 외부 호출은 없다. 검증 WORKLOG W070.
 
 W068: scripts/ingredient_search.py가 활성 재료 검색을 담당한다. 재료 원문에서 복수 재료 포함·일부 동의어를 검사하며 영양 단어는 차단한다. 그래프의 미선택 탐색과 채팅의 재료 이름 요청에 연결했다. 기존 nutrition_search 코드는 보존하지만 UI/그래프에서 영양 요청은 먼저 차단한다. 외부 호출 없이 로컬 원문으로 검색한다. 실행/검증 WORKLOG W068.

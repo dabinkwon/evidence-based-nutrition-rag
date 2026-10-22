@@ -117,7 +117,7 @@ class AppChecks(unittest.TestCase):
         self.assertTrue(app.session_state['profile_result']['rows'])
         self.assertTrue(any('열량_kcal' in table.value.columns for table in app.dataframe))
         self.assertEqual(len(app.session_state['profile_result']['rows']),5)
-        self.assertTrue(any('에너지 조건 충족' in x.value for x in app.markdown))
+        self.assertTrue(any('비교 예산 이내' in x.value for x in app.markdown))
         self.assertTrue(any('예산 초과' in x.value for x in app.markdown))
         self.assertEqual(len(app.metric),3)
         self.assertFalse(any('판단에 필요한 정보 부족' in x.value for x in app.markdown))
@@ -132,10 +132,21 @@ class AppChecks(unittest.TestCase):
         next(c for c in app.checkbox if '임신' in c.label).check()
         next(b for b in app.button if b.label=='계산하고 음식 찾기').click().run()
         self.assertEqual(len(app.exception),0)
-        self.assertTrue(any('제외 조건을 검증' in w.value for w in app.warning))
-        self.assertTrue(any('판단에 필요한 정보 부족' in x.value for x in app.markdown))
+        self.assertTrue(any('### 비교 예산 이내' in x.value for x in app.markdown))
+        self.assertFalse(any('재료 목록이 없어' in x.value for x in app.caption))
+        first=[(a['food']['food_id'],a.get('delta_kcal')) for a in app.session_state['profile_result']['assessments']]
+        app.sidebar.text_input[0].set_value('닭').run()
+        self.assertEqual(first,[(a['food']['food_id'],a.get('delta_kcal')) for a in app.session_state['profile_result']['assessments']])
+        previous=app.session_state['profile_result']
+        previous.pop('comparison_version')
+        for item in previous['assessments']:
+            item.update(status='unknown',nutrition=None,reason='OLD_EXCLUSION_MESSAGE')
+        app.session_state['profile_result']=previous
+        app.run()
+        self.assertEqual(first,[(a['food']['food_id'],a.get('delta_kcal')) for a in app.session_state['profile_result']['assessments']])
+        self.assertFalse(any('OLD_EXCLUSION_MESSAGE' in m.value for m in app.markdown))
         self.assertFalse(any('### 에너지 조건 충족' in x.value for x in app.markdown))
-        self.assertFalse(any('열량_kcal' in table.value.columns for table in app.dataframe))
+        self.assertTrue(any('열량_kcal' in table.value.columns for table in app.dataframe))
 
     def test_profile_activity_and_validation_result(self):
         app=self.open_page(profile=True)

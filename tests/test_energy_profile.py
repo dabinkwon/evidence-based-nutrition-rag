@@ -13,7 +13,22 @@ class EnergyChecks(unittest.TestCase):
         self.assertEqual(rows[0]['delta_kcal'],0)
         self.assertEqual(rows[1]['delta_kcal'],-101)
         self.assertIn('많습니다',rows[1]['reason'])
-        self.assertEqual(assess_foods([food],'',100,100,['새우'])[0]['status'],'unknown')
+        row=assess_foods([food],'',100,100,['새우'])[0]
+        self.assertEqual(row['status'],'within')
+        self.assertEqual(row['exclusion_status'],'exclusion_unknown')
+
+    def test_exclusions_use_record_ingredients_and_separate_unknown(self):
+        base=dict(food_id='a',name='음식',basis_unit='g',basis_amount=100,energy_kcal=50)
+        foods=[base|dict(name='닭죽'),base|dict(food_id='b',ingredients_text='두부, 양파'),
+               base|dict(food_id='c'),base|dict(food_id='d',ingredients=['닭고기','쌀']),
+               base|dict(food_id='e',name='치킨')]
+        rows=assess_foods(foods,'',100,100,['닭'])
+        self.assertEqual([r['exclusion_status'] for r in rows],['excluded','not_detected','exclusion_unknown','excluded','excluded'])
+        self.assertTrue(all(r['status']=='within' and r['delta_kcal']==50 for r in rows))
+        self.assertIn('제한된 이름 검사',rows[1]['exclusion_reason'])
+        self.assertEqual(len(candidates(foods,'',100,100,['닭'])),5)
+        for excluded in ([],['닭']):
+            self.assertEqual(assess_foods([foods[0]],'',100,40,excluded)[0]['delta_kcal'],-10)
     def test_formula_and_user_resting(self):
         r=calculate(30,'male',170,70,'low',1.5)
         self.assertEqual(r['rmr_kcal'],1617.5)
@@ -36,5 +51,5 @@ class EnergyChecks(unittest.TestCase):
         self.assertEqual(len(candidates([food],'합성',150,200)),1)
         self.assertEqual(len(candidates([food],'',150,200)),1)
         self.assertEqual(candidates([food],'합성',150,100),[])
-        self.assertEqual(candidates([food],'합성',150,200,['새우']),[])
+        self.assertEqual(len(candidates([food],'합성',150,200,['새우'])),1)
         with self.assertRaises(ValueError):portion(food|dict(basis_unit='ml'),150)

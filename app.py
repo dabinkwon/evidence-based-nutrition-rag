@@ -280,13 +280,14 @@ if page=='다른 요리와 비교':
 
 if page=='내 정보로 음식 비교':
     import energy_profile
-    if not hasattr(energy_profile,'assess_foods'):
-        # An already-running Streamlit process may retain the pre-W054 module.
+    if getattr(energy_profile,'COMPARISON_VERSION',None)!=2 or not hasattr(energy_profile,'assess_foods'):
+        # Refresh the comparison module retained by an already-running server.
         import importlib
         importlib.invalidate_caches()
         importlib.reload(energy_profile)
     from energy_profile import calculate, candidates, assess_foods, context, ACTIVITY, FORMULA_URL, ACTIVITY_URL, EXPLANATION_INSTRUCTIONS
     st.subheader('내 정보로 계산하고 음식 비교하기')
+    st.caption('이 화면은 열량만 비교하며 사이드바의 제외 재료 설정은 적용하지 않습니다.')
     st.caption('19~78세 일반 성인의 참고 추정입니다. RMR은 안정시 대사량이며 기초대사량 측정과 동일하지 않습니다. 감량 처방은 제공하지 않습니다.')
     with st.form('energy_profile'):
         left,right=st.columns(2)
@@ -327,9 +328,9 @@ if page=='내 정보로 음식 비교':
                     calc=calculate(int(age),sex,height,weight,activity,factor,resting if manual else None,eligible)
                     budget=calc['maintenance_kcal']*share/100
                     loading.update(label='계산 완료 · 조건에 맞는 음식을 찾고 있습니다…')
-                    rows=candidates(foods,food_query,grams,budget,excluded)
-                    assessments=assess_foods(foods,food_query,grams,budget,excluded)
-                    result=dict(calc=calc,budget=budget,share=share,excluded=list(excluded),rows=rows,assessments=assessments,generation=None)
+                    rows=candidates(foods,food_query,grams,budget)
+                    assessments=assess_foods(foods,food_query,grams,budget)
+                    result=dict(calc=calc,budget=budget,share=share,excluded=[],rows=rows,assessments=assessments,generation=None,comparison_version=2)
                     if rows and explain:
                         loading.update(label='음식 검색 완료 · 근거를 바탕으로 설명을 작성하고 있습니다…')
                         result['generation']=generate('계산된 유지 에너지 참고값과 음식 비교 후보의 조건 및 한계를 설명해줘.',context(calc,rows),settings(),instructions=EXPLANATION_INSTRUCTIONS)
@@ -343,6 +344,13 @@ if page=='내 정보로 음식 비교':
                     loading.update(label='요청을 완료하지 못했습니다.',state='error')
         profile_output.empty()
     profile_result=st.session_state.get('profile_result')
+    if profile_result and not profile_result.get('error') and profile_result.get('comparison_version')!=2:
+        previous=profile_result.get('assessments',[])
+        comparison_foods=[a['food'] for a in previous] if previous else foods
+        comparison_grams=previous[0]['grams'] if previous else grams
+        profile_result.update(rows=candidates(comparison_foods,'',comparison_grams,profile_result['budget']),
+            assessments=assess_foods(comparison_foods,'',comparison_grams,profile_result['budget']),
+            excluded=[],generation=None,comparison_version=2)
     with profile_output.container():
         if profile_result:
             st.markdown('<div id="profile-result-focus" tabindex="-1" style="scroll-margin-top:5rem"></div>',unsafe_allow_html=True)
@@ -363,15 +371,10 @@ if page=='내 정보로 음식 비교':
                 with st.expander('계산 근거 보기'):
                     st.link_button('대사량 공식 출처',FORMULA_URL)
                     st.link_button('활동계수 출처',ACTIVITY_URL)
-                if sorted(profile_result['excluded'])!=sorted(excluded):
-                    st.warning('제외 조건이 변경되었습니다. 후보를 다시 계산해 주세요.')
-                    rows=[]
-                if profile_result['excluded']:
-                    st.warning('음식 영양 DB에 재료 목록이 없어 제외 조건을 검증할 수 없습니다. 조건이 적용 중이면 영양 맞춤 후보는 제공하지 않습니다.')
-                if sorted(profile_result['excluded'])==sorted(excluded):
+                if profile_result.get('assessments'):
                     assessments=profile_result.get('assessments',[])
                     groups=[(status,label,[a for a in assessments if a['status']==status]) for status,label in
-                        (('within','에너지 조건 충족'),('over','현재 중량에서 예산 초과'),('unknown','판단에 필요한 정보 부족'))]
+                        (('within','비교 예산 이내'),('over','현재 중량에서 예산 초과'),('unknown','판단에 필요한 정보 부족'))]
                     groups=[g for g in groups if g[2]]
                     if groups:
                         st.subheader('음식별 비교 결과')
@@ -393,10 +396,10 @@ if page=='내 정보로 음식 비교':
                                         st.caption('영양 기준량 '+str(item['food']['basis_label']))
                                         st.link_button('출처 확인',item['food']['source_url'])
                 if not rows:
-                    if not profile_result['excluded'] and sorted(profile_result['excluded'])==sorted(excluded):
+                    if not rows:
                         st.info('입력한 음식 이름 또는 중량·에너지 조건에 맞는 음식이 없습니다. 음식 이름을 비우거나 중량을 줄여 다시 검색해 주세요.')
                 else:
-                    with st.expander('조건에 맞는 음식의 영양 성분 자세히'):
+                    with st.expander('비교 예산 이내 음식의 영양 성분 자세히'):
                         st.dataframe([dict(음식=r['food']['name'],중량_g=r['grams'],열량_kcal=r['nutrition']['energy_kcal'],단백질_g=r['nutrition']['protein_g'],기준량=r['food']['basis_label'],출처=r['food']['source_url']) for r in rows],hide_index=True,width='stretch')
                     if profile_result.get('generation'):
                         show_generation(profile_result['generation'])

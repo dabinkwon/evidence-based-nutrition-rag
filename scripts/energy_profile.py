@@ -1,5 +1,6 @@
 """Adult reference calculations; food portions are user scenarios, not prescriptions."""
 import math
+COMPARISON_VERSION=2
 
 FORMULA_URL='https://pubmed.ncbi.nlm.nih.gov/2305711/?dopt=Abstract'
 ACTIVITY_URL='https://www.andeal.org/template.cfm?key=4341&template=guide_summary'
@@ -11,6 +12,9 @@ def positive(value, name):
     if isinstance(value,bool) or not isinstance(value,(float,int)) or not math.isfinite(value) or value<=0:
         raise ValueError(name+' 값은 양의 유한수여야 합니다.')
     return value
+
+
+EXPLANATION_INSTRUCTIONS+=' 제외 재료가 감지되거나 확인 불가여도 열량 비교에는 포함된다. 열량 예산 이내라는 이유로 제외 조건 충족이나 섭취 추천이라고 설명하지 말고 전달된 exclusion_status와 exclusion_reason을 함께 설명하라.'
 
 
 def calculate(age, sex, height_cm, weight_kg, activity, factor, resting_kcal=None, eligible=True):
@@ -52,14 +56,32 @@ def portion(food, grams):
     return result
 
 
+def exclusion_check(food, excluded):
+    """Use this record's ingredients only; never join a namesake recipe."""
+    if not excluded:
+        return 'not_requested', ''
+    from menu_personalization import ALIASES
+    ingredients=food.get('ingredients_text') or food.get('ingredients')
+    if isinstance(ingredients,list) and all(isinstance(x,str) for x in ingredients):
+        ingredients=', '.join(ingredients)
+    if not isinstance(ingredients,str):
+        ingredients=''
+    ingredients=ingredients.strip()
+    text=(food.get('name','')+' '+ingredients).replace(' ','').casefold()
+    hits=[t for t in excluded if any(a.replace(' ','').casefold() in text
+          for a in (('닭','치킨') if t in ('닭','닭고기') else ALIASES.get(t,(t,))))]
+    if hits:
+        return 'excluded', '제외 재료 감지: '+', '.join(hits)+' · 음식명 또는 해당 음식의 재료 원문 기준입니다. 열량 비교는 제외 조건 충족을 뜻하지 않습니다.'
+    if not ingredients:
+        return 'exclusion_unknown', '재료 목록이 없어 제외 조건을 확인할 수 없습니다. 열량만 비교한 결과입니다.'
+    return 'not_detected', '재료 원문에서 제외 재료가 감지되지 않았습니다. 제한된 이름 검사이며 알레르기 안전을 보장하지 않습니다.'
+
+
 def candidates(foods, query, grams, budget_kcal, excluded=(), limit=5):
     positive(budget_kcal,'음식 비교 예산')
     rows=[]
     for food in foods:
         if query.strip() and query.strip().casefold() not in food['name'].casefold():
-            continue
-        # Nutrition DB lacks ingredient lists: do not approve exclusions by name alone.
-        if excluded:
             continue
         try:
             nutrients=portion(food,grams)
@@ -68,7 +90,9 @@ def candidates(foods, query, grams, budget_kcal, excluded=(), limit=5):
         energy=nutrients['energy_kcal']
         if energy is None or energy<=0 or energy>budget_kcal:
             continue
+        exclusion_status,exclusion_reason=exclusion_check(food,excluded)
         rows.append(dict(food=food,grams=grams,nutrition=nutrients,
+                         exclusion_status=exclusion_status,exclusion_reason=exclusion_reason,
                          budget_remaining_kcal=round(budget_kcal-energy,2)))
     return sorted(rows,key=lambda r:(r['budget_remaining_kcal'],r['food']['food_id']))[:limit]
 
@@ -81,21 +105,20 @@ def assess_foods(foods, query, grams, budget_kcal, excluded=()):
         if query.strip() and query.strip().casefold() not in food['name'].casefold():
             continue
         row=dict(food=food,grams=grams,status='unknown',nutrition=None)
-        if excluded:
-            row['reason']='재료 목록이 없어 제외 재료('+', '.join(excluded)+') 포함 여부를 확인할 수 없습니다.'
-        else:
-            try:
-                nutrients=portion(food,grams)
-                energy=nutrients['energy_kcal']
-                if energy is None or energy<=0:
-                    raise ValueError('열량 기준값을 확인할 수 없습니다.')
-                delta=round(budget_kcal-energy,2)
-                row.update(nutrition=nutrients,delta_kcal=delta,
-                    budget_percent=round(energy/budget_kcal*100,1),status='within' if delta>=0 else 'over',
-                    reason=f'{grams:g}g의 열량 {energy:g} kcal가 비교 예산 {budget_kcal:.1f} kcal보다 '+
-                    (f'{delta:.1f} kcal 적거나 같습니다.' if delta>=0 else f'{-delta:.1f} kcal 많습니다.'))
-            except ValueError:
-                row['reason']='기준량·단위 또는 영양값이 확인되지 않아 비교할 수 없습니다.'
+        exclusion_status,exclusion_reason=exclusion_check(food,excluded)
+        row.update(exclusion_status=exclusion_status,exclusion_reason=exclusion_reason)
+        try:
+            nutrients=portion(food,grams)
+            energy=nutrients['energy_kcal']
+            if energy is None or energy<=0:
+                raise ValueError('열량 기준값을 확인할 수 없습니다.')
+            delta=round(budget_kcal-energy,2)
+            row.update(nutrition=nutrients,delta_kcal=delta,
+                budget_percent=round(energy/budget_kcal*100,1),status='within' if delta>=0 else 'over',
+                reason=f'{grams:g}g의 열량 {energy:g} kcal가 비교 예산 {budget_kcal:.1f} kcal보다 '+
+                (f'{delta:.1f} kcal 적거나 같습니다.' if delta>=0 else f'{-delta:.1f} kcal 많습니다.'))
+        except ValueError:
+            row['reason']='기준량·단위 또는 영양값이 확인되지 않아 비교할 수 없습니다.'
         assessed.append(row)
     return assessed
 
@@ -109,5 +132,6 @@ def context(calculation, rows):
         f=row['food']
         evidence.append(dict(id='food:'+f['food_id'],collection='guidelines',title=f['name'],
             source_url=f['source_url'],text=str(dict(name=f['name'],basis=f['basis_label'],
-            grams=row['grams'],nutrition=row['nutrition'],note='사용자 지정 중량, 요리 레시피와 연결 미확인. 식단이 아닌 음식 비교 후보.'))))
+            grams=row['grams'],nutrition=row['nutrition'],exclusion_status=row.get('exclusion_status'),
+            exclusion_reason=row.get('exclusion_reason'),note='사용자 지정 중량의 열량 비교이며 제외 조건을 만족하는 추천이 아니다. 요리 레시피와 연결 미확인.'))))
     return evidence
