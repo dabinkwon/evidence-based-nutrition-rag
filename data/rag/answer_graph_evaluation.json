@@ -1,0 +1,45 @@
+{
+  "case_id": "A1",
+  "selected": "recipe:28",
+  "question": "이 요리의 재료와 조리법 알려줘",
+  "warnings": [],
+  "evidence": [
+    {
+      "id": "recipe:28",
+      "number": 1,
+      "evidence_type": "item_metadata"
+    },
+    {
+      "id": "recipe:28:9fb2ab9489c582a44bba12bd4a221b59c0a8bc52abfc17424dbf1b48c7e5516c:0000",
+      "number": 2,
+      "evidence_type": "external_document"
+    }
+  ],
+  "generation": {
+    "status": "generated_unreviewed",
+    "answer": "## 새우 두부 계란찜\n\n**재료**\n- 연두부 75g(3/4모)\n- 칵테일새우 20g(5마리)\n- 달걀 30g(1/2개)\n- 생크림 13g(1큰술)\n- 설탕 5g(1작은술)\n- 무염버터 5g(1작은술)\n- 고명: 시금치 10g(3줄기) [근거 1] [근거 2]\n\n**조리법**\n1. 손질한 새우를 끓는 물에 데친 뒤 건져 둡니다.\n2. 연두부, 달걀, 생크림, 설탕과 녹인 무염버터를 믹서에 갈고, 데친 새우를 섞어 그릇에 담습니다.\n3. 시금치를 잘게 다져 위에 뿌린 뒤 찜기에 넣고 중간 불에서 10분 정도 찝니다. [근거 2]",
+    "citations": [
+      {
+        "id": "recipe:28",
+        "number": 1,
+        "evidence_type": "item_metadata",
+        "source_label": "항목 메타데이터",
+        "title": "새우 두부 계란찜",
+        "source_url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01",
+        "source_file": "",
+        "source_record": ""
+      },
+      {
+        "id": "recipe:28:9fb2ab9489c582a44bba12bd4a221b59c0a8bc52abfc17424dbf1b48c7e5516c:0000",
+        "number": 2,
+        "evidence_type": "external_document",
+        "source_label": "외부 문서",
+        "title": "새우 두부 계란찜",
+        "source_url": "https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01",
+        "source_file": "data/raw/recipes/recipes_0001_0100.json",
+        "source_record": "COOKRCP01.row:RCP_SEQ=28"
+      }
+    ],
+    "citation_notice": null
+  }
+}

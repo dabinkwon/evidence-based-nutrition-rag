@@ -111,7 +111,8 @@ def settings():
 
 
 def generate(question, evidence, config):
-    evidence = [dict(d, evidence_number=i+1, evidence_type=('item_metadata' if d['collection']=='recipes' else 'external_document'), source_label=('항목 메타데이터' if d['collection']=='recipes' else '외부 문서')) for i,d in enumerate(evidence)]
+    from rag_graph import evidence_context
+    evidence = evidence_context(evidence, evidence)
     if not evidence:
         return dict(status='no_evidence', answer='문서에서 확인되지 않습니다.', citations=[],
                     citation_notice='인용된 근거가 없습니다.')
@@ -170,22 +171,23 @@ def main():
     parser.add_argument('--exclude', action='append', default=[])
     parser.add_argument('--selected')
     parser.add_argument('--generate', action='store_true')
+    parser.add_argument('--answer-config', type=Path, default=ROOT / 'config/rag_answer.json')
     parser.add_argument('--retriever', choices=('semantic', 'lexical', 'chroma'), default='chroma')
     args = parser.parse_args()
     docs = documents()
     output = ROOT / 'data/rag'
     output.mkdir(exist_ok=True)
     (output / 'documents.jsonl').write_text(''.join(json.dumps(d, ensure_ascii=False) + '\n' for d in docs), encoding='utf-8')
-    if args.retriever == 'chroma':
-        from index_vectors import retrieve as backend
-        evidence = backend(docs, args.question, settings(), args.exclude, args.selected)
-    elif args.retriever == 'semantic':
-        from semantic_search import semantic_retrieve
-        evidence = semantic_retrieve(docs, args.question, settings(), args.exclude, args.selected)
-    else:
-        evidence = retrieve(docs, args.question, args.exclude, args.selected)
-    result = dict(retriever=args.retriever, evidence=evidence,
-                  generation=generate(args.question, evidence, settings()) if args.generate else dict(status='not_requested', answer=None, citations=[]))
+    from rag_graph import build_graph, answer_options
+    state = build_graph().invoke(dict(question=args.question, docs=docs, selected=args.selected,
+        excluded=args.exclude, config=settings(), options=answer_options(args.answer_config),
+        retriever=args.retriever, do_generate=args.generate))
+    result = dict(retriever=args.retriever, notice=NOTICE, warnings=state['warnings'],
+                  generation=state['generation'])
+    # Generation output exposes only actually cited sources. Retrieval-only mode
+    # is an explicit diagnostic command and may expose the candidate context.
+    if not args.generate:
+        result['evidence'] = state['evidence']
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
