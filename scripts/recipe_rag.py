@@ -37,6 +37,13 @@ def documents():
                          allowed_use=c['allowed_use'], calculation_allowed=False))
     if len({d['id'] for d in docs}) != len(docs):
         raise ValueError('Duplicate document IDs')
+    sources = ROOT / 'data/rag/source_chunks.jsonl'
+    if sources.exists():
+        # The item-linked pipeline supersedes the legacy global line excerpts.
+        docs = [d for d in docs if d['collection'] == 'recipes']
+        docs.extend(json.loads(line) for line in sources.read_text(encoding='utf-8').splitlines() if line.strip())
+    if len({d['id'] for d in docs}) != len(docs):
+        raise ValueError('Duplicate source document IDs')
     return docs
 
 

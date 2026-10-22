@@ -1,0 +1,6 @@
+{
+  "chunk_size": 1000,
+  "chunk_overlap": 200,
+  "min_document_chars": 250,
+  "max_candidates_per_query": 12
+}

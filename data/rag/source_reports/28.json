@@ -1,0 +1,54 @@
+{
+  "item_id": "recipe:28",
+  "mode": "local_document_bundle",
+  "queries": [
+    "새우 두부 계란찜",
+    "새우 두부 계란찜 만드는 법",
+    "연두부 새우 계란찜 레시피",
+    "새우 두부 계란찜 재료와 조리법"
+  ],
+  "query_cache_hits": 4,
+  "candidate_ids": [
+    "cookrcp01-137",
+    "cookrcp01-138",
+    "cookrcp01-159",
+    "cookrcp01-181",
+    "cookrcp01-271",
+    "cookrcp01-272",
+    "cookrcp01-274",
+    "cookrcp01-275",
+    "cookrcp01-276",
+    "cookrcp01-277",
+    "cookrcp01-28",
+    "cookrcp01-281",
+    "cookrcp01-298",
+    "cookrcp01-33",
+    "cookrcp01-395",
+    "cookrcp01-500",
+    "cookrcp01-506",
+    "cookrcp01-507",
+    "cookrcp01-638",
+    "cookrcp01-643"
+  ],
+  "llm_selected_ids": [
+    "cookrcp01-28"
+  ],
+  "mandatory_ids": [
+    "cookrcp01-28"
+  ],
+  "collected_ids": [
+    "cookrcp01-28"
+  ],
+  "chunk_count": 1,
+  "bundle_hash": "908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f",
+  "config": {
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "min_document_chars": 250,
+    "max_candidates_per_query": 12
+  },
+  "collections": {
+    "recipe_meta": 100,
+    "source_docs": 1
+  }
+}
