@@ -178,6 +178,12 @@ if page=='요리 대화·영양정보':
         submitted = st.form_submit_button('검색·질문하기',type='primary')
     prompt = question.strip() if submitted else ''
     new_chat_result=bool(prompt)
+    from ingredient_lookup import nutrition_lookup_names, lookup as lookup_ingredients
+    lookup_names=nutrition_lookup_names(prompt,r) if prompt else []
+    if lookup_names:
+        messages.append(dict(role='user',content=prompt))
+        messages.append(dict(role='assistant',result=lookup_ingredients(lookup_names),excluded=sorted(excluded)))
+        prompt=''
     if prompt and (nutrition_blocked(prompt) or is_ingredient_query(docs,prompt)):
         messages.append(dict(role='user',content=prompt))
         ingredient_result=search_ingredients(docs,prompt,excluded,answer_options()['top_k'])

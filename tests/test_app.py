@@ -9,6 +9,13 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 
 
 class AppChecks(unittest.TestCase):
+    def test_uncollected_ingredient_nutrition_is_not_recommendation_block(self):
+        app=self.open_page()
+        app.text_input(key='recipe_question_text').set_value('방울토마토 영양정보')
+        next(b for b in app.button if b.label=='검색·질문하기').click().run()
+        self.assertEqual(len(app.exception),0)
+        self.assertTrue(any('아직 데이터가 없는 재료: 방울토마토' in m.value for m in app.markdown))
+        self.assertFalse(any('검색은 중단' in m.value for m in app.markdown))
     def test_ingredient_only_find_and_chat(self):
         app=AppTest.from_file(str(ROOT/'app.py')).run(timeout=30)
         app.text_input(key='ui_recipe_search').set_value('두부')
@@ -31,9 +38,9 @@ class AppChecks(unittest.TestCase):
             app.text_input(key='recipe_question_text').set_value('그 재료들의 영양성분은?')
             next(b for b in app.button if b.label=='검색·질문하기').click().run()
         self.assertEqual(len(app.exception),0)
-        find.assert_not_called()
-        self.assertEqual(len(app.dataframe),0)
-        self.assertTrue(any('중단' in m.value for m in app.markdown))
+        self.assertIn('연두부',find.call_args.args[0])
+        self.assertEqual(len(app.dataframe),1)
+        self.assertFalse(any('중단' in m.value for m in app.markdown))
         self.assertTrue(any('chat-turn-2' in m.value for m in app.markdown))
     def open_page(self,profile=False):
         app=AppTest.from_file(str(ROOT/'app.py')).run(timeout=30)

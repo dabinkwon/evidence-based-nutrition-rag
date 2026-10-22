@@ -1,5 +1,7 @@
 # 파일 안내와 실행 방법
 
+W070: ingredient_lookup.nutrition_lookup_names가 개별 재료 조회와 영양 조건 추천을 분리한다. app.py와 rag_graph.py에서 선택 요리의 조회를 차단 이전에 처리하며 미지 재료 이름을 보존해 수집 누락으로 안내한다. 기존 원재료 데이터만 사용하고 추가 외부 호출은 없다. 검증 WORKLOG W070.
+
 W068: scripts/ingredient_search.py가 활성 재료 검색을 담당한다. 재료 원문에서 복수 재료 포함·일부 동의어를 검사하며 영양 단어는 차단한다. 그래프의 미선택 탐색과 채팅의 재료 이름 요청에 연결했다. 기존 nutrition_search 코드는 보존하지만 UI/그래프에서 영양 요청은 먼저 차단한다. 외부 호출 없이 로컬 원문으로 검색한다. 실행/검증 WORKLOG W068.
 
 W067: nutrition_search의 ingredient_rank/rank_by_ingredient는 data/ingredients.json의 이름·상태·g 기준·단백질·출처와 레시피 재료를 대조한다.100g 환산 후 메뉴별 최대 후보 함량으로 정렬한다. 추가 API 호출 없이 카드/채팅에 원문 링크를 제공한다. 검증 이력 WORKLOG W067.

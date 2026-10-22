@@ -2,10 +2,17 @@ import sys
 from pathlib import Path
 import unittest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from ingredient_lookup import recipe_ingredients,query_ingredients,lookup
+from ingredient_lookup import recipe_ingredients,query_ingredients,lookup,nutrition_lookup_names
 
 
 class IngredientChecks(unittest.TestCase):
+    def test_lookup_is_separate_from_nutrition_recommendation(self):
+        recipe=dict(ingredients_text='두부 100g')
+        self.assertEqual(nutrition_lookup_names('방울토마토 영양정보',recipe),['방울토마토'])
+        self.assertEqual(nutrition_lookup_names('두부 단백질은 얼마야?',recipe),['두부'])
+        self.assertEqual(nutrition_lookup_names('단백질 많은 요리 추천',recipe),[])
+        self.assertEqual(nutrition_lookup_names('1인분 단백질 10g 이상인 요리',recipe),[])
+
     def test_recipe_reference_and_longest_name(self):
         recipe=dict(ingredients_text='연두부 75g, 칵테일새우 20g, 달걀 30g')
         self.assertEqual(query_ingredients('그 재료들의 영양성분은?',recipe),['연두부','칵테일새우','달걀'])

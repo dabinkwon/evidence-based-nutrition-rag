@@ -72,6 +72,12 @@ class State(TypedDict, total=False):
 
 
 def retrieve_node(state):
+    from ingredient_lookup import nutrition_lookup_names, lookup
+    selected_doc=next((d for d in state['docs'] if d['id']==state.get('selected') and d['collection']=='recipes'),None)
+    if selected_doc:
+        names=nutrition_lookup_names(state['question'],dict(ingredients_text=selected_doc.get('ingredients','')))
+        if names:
+            return dict(evidence=[],warnings=[],generation=dict(lookup(names),status='ingredient_lookup'))
     from ingredient_search import search as ingredient_search, nutrition_blocked, is_ingredient_query
     if nutrition_blocked(state['question']) or not state.get('selected') or is_ingredient_query(state['docs'],state['question']):
         result=ingredient_search(state['docs'],state['question'],state.get('excluded',[]),state['options']['top_k'])
