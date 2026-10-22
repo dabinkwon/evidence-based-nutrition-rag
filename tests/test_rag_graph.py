@@ -6,11 +6,28 @@ import unittest
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from rag_graph import build_graph, answer_options, evidence_context
+from rag_graph import build_graph, answer_options, evidence_context, nutrition_discovery_notice
 from recipe_rag import generate
 
 
 class GraphChecks(unittest.TestCase):
+    def test_nutrient_discovery_does_not_promote_similarity_hit(self):
+        for selected in (None, 'recipe:1'):
+            state = self.state() | dict(question='1인분 단백질 25g 이상인 요리', selected=selected, do_generate=True)
+            with patch('index_vectors.retrieve', return_value=[self.meta]) as backend, patch('openai.OpenAI') as api:
+                result = build_graph().invoke(state)
+            self.assertEqual(result['evidence'], [])
+            self.assertEqual(result['generation']['status'], 'ingredient_blocked')
+            self.assertIn('재료 이름', result['generation']['answer'])
+            backend.assert_not_called()
+            api.assert_not_called()
+
+    def test_nutrient_lookup_and_ingredient_discovery_are_not_blocked(self):
+        for question in ('두부 영양성분', '두부 단백질', '이 요리의 단백질은 얼마야?', '두부가 들어간 요리'):
+            self.assertIsNone(nutrition_discovery_notice(question))
+        for question in ('고단백 요리', '나트륨 적은 음식 추천', '단백질이 많은 음식'):
+            self.assertIsNotNone(nutrition_discovery_notice(question))
+
     def setUp(self):
         self.meta = dict(id='recipe:1', collection='recipes', title='shrimp',
                          ingredients='shrimp', text='recipe facts', source_url='https://example.invalid/item')

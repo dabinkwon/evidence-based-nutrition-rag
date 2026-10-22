@@ -29,7 +29,9 @@ def documents():
         text = f"메뉴: {r['name']}\n재료: {r['ingredients_text']}\n조리법:\n{steps}\nAPI 영양 원문: {json.dumps(r['nutrition_raw'], ensure_ascii=False)}\n{NOTICE}"
         docs.append(dict(id='recipe:' + r['recipe_id'], collection='recipes',
                          title=r['name'], ingredients=r['ingredients_text'], text=text,
-                         source_url=r['source_url'], calculation_allowed=False))
+                         source_url=r['source_url'], calculation_allowed=False,
+                         nutrition_raw=r['nutrition_raw'],
+                         verified_nutrition=r.get('verified_nutrition', {})))
     for line in (ROOT / 'data/guidelines/chunks.jsonl').read_text(encoding='utf-8').splitlines():
         c = json.loads(line)
         docs.append(dict(id=c['chunk_id'], collection='guidelines', title=c['title'],
@@ -110,7 +112,7 @@ def settings():
     return values
 
 
-def generate(question, evidence, config):
+def generate(question, evidence, config, instructions=None):
     from rag_graph import evidence_context
     evidence = evidence_context(evidence, evidence)
     if not evidence:
@@ -128,7 +130,7 @@ def generate(question, evidence, config):
         with OpenAI(api_key=config['GMS_API_KEY'], base_url=base_url,
                     timeout=45, max_retries=0) as client:
             response = client.responses.create(model=config['GMS_MODEL'], store=False,
-                instructions=INSTRUCTIONS,
+                instructions=instructions or INSTRUCTIONS,
                 input=json.dumps(dict(question=question, evidence=evidence), ensure_ascii=False),
                 max_output_tokens=1400)
         answer = response.output_text

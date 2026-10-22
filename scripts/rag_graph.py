@@ -7,6 +7,25 @@ from typing import TypedDict
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def nutrition_discovery_notice(question):
+    """Reject nutrient-qualified discovery until recipe amounts are verified.
+
+    Similarity is retrieval evidence, not proof that a nutrition condition holds.
+    Ingredient nutrient lookup and questions about a selected dish remain separate.
+    """
+    nutrient = any(word in question for word in (
+        '단백질', '고단백', '탄수화물', '저탄수', '나트륨', '저염',
+        '칼로리', '저열량', '열량', '저지방', '지방', '식이섬유', '당류', '저당'))
+    discovery = ('추천' in question or (
+        any(word in question for word in ('요리', '음식', '메뉴'))
+        and any(word in question for word in ('들어간', '들어있는', '들어 있는', '많은', '높은', '적은', '낮은', '풍부', '찾', '고단백', '저염', '저탄수', '저지방', '저당', '저열량'))))
+    if nutrient and discovery:
+        return ('현재 레시피 자료만으로는 요청한 영양 조건에 맞는 요리를 확인할 수 없습니다. '
+                '레시피 영양값의 기준량이 확인되지 않아 함량을 비교하거나 고단백 등으로 판단하지 않습니다. '
+                '두부, 달걀처럼 원하는 재료 이름으로 요리를 검색하거나, 재료 이름과 영양성분을 함께 질문해 주세요.')
+    return None
+
+
 def answer_options(path=None):
     values = json.loads(Path(path or ROOT / 'config/rag_answer.json').read_text(encoding='utf-8'))
     if type(values.get('top_k')) is not int or not 1 <= values['top_k'] <= 10:
@@ -53,6 +72,19 @@ class State(TypedDict, total=False):
 
 
 def retrieve_node(state):
+    from ingredient_search import search as ingredient_search, nutrition_blocked, is_ingredient_query
+    if nutrition_blocked(state['question']) or not state.get('selected') or is_ingredient_query(state['docs'],state['question']):
+        result=ingredient_search(state['docs'],state['question'],state.get('excluded',[]),state['options']['top_k'])
+        return dict(result,evidence=evidence_context([],result['evidence']))
+    from nutrition_search import protein_request, search
+    request = protein_request(state['question'])
+    if request:
+        result = search(state['docs'], request, state.get('excluded', []), state['options']['top_k'])
+        return dict(result, evidence=evidence_context([], result['evidence']), warnings=[])
+    notice = nutrition_discovery_notice(state['question'])
+    if notice:
+        return dict(evidence=[], warnings=[], generation=dict(
+            status='nutrition_condition_unverified', answer=notice, citations=[]))
     from recipe_rag import retrieve as lexical
     from semantic_search import semantic_retrieve
     from index_vectors import retrieve as chroma
@@ -79,6 +111,8 @@ def retrieve_node(state):
 
 def generate_node(state):
     from recipe_rag import generate
+    if state.get('generation', {}).get('status', '').startswith(('nutrition_', 'ingredient_')):
+        return dict(generation=state['generation'])
     if not state.get('do_generate'):
         return dict(generation=dict(status='not_requested', answer=None, citations=[]))
     return dict(generation=generate(state['question'], state['evidence'], state['config']))
