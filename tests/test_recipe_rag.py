@@ -10,6 +10,24 @@ from recipe_rag import documents, retrieve, excluded_hits, generate, NOTICE, set
 
 
 class RagChecks(unittest.TestCase):
+    def test_final_example_settings_route_answer_to_sol(self):
+        example = Path(__file__).resolve().parents[1] / '.env.example'
+        with tempfile.TemporaryDirectory() as temp:
+            Path(temp, '.env').write_bytes(example.read_bytes())
+            with patch('recipe_rag.ROOT', Path(temp)), patch.dict(os.environ, {}, clear=True):
+                config = settings()
+        self.assertEqual(stage_model(config, 'query'), 'gpt-6-luna')
+        self.assertEqual(stage_model(config, 'selection'), 'gpt-6-luna')
+        self.assertEqual(config['GMS_EMBEDDING_MODEL'], 'text-embedding-3-small')
+        config['GMS_API_KEY'] = 'test-key'
+        evidence = [d for d in self.docs if d['id'] == 'recipe:28']
+        with patch('openai.OpenAI') as factory:
+            client = factory.return_value.__enter__.return_value
+            client.responses.create.return_value.output_text = '근거 [recipe:28]'
+            result = generate('만드는 법 알려줘', evidence, config)
+        self.assertEqual(client.responses.create.call_args.kwargs['model'], 'gpt-6.1-sol')
+        self.assertEqual(result['status'], 'generated_unreviewed')
+
     def test_stage_settings_precedence_quotes_aliases_and_fallback(self):
         with tempfile.TemporaryDirectory() as temp:
             Path(temp, '.env').write_text("GMS_MODEL='legacy'\nGMS_QUERY_MODEL='query-file'\ngms_selection_model=\"selection-file\"\nGMS_ANSWER_MODEL='answer-file'\n", encoding='utf-8')
