@@ -72,6 +72,10 @@ class State(TypedDict, total=False):
 
 
 def retrieve_node(state):
+    from research_lookup import answer_research
+    research_result = answer_research(state['question'])
+    if research_result:
+        return dict(evidence=[], warnings=[], generation=research_result)
     from ingredient_lookup import nutrition_lookup_names, lookup
     selected_doc=next((d for d in state['docs'] if d['id']==state.get('selected') and d['collection']=='recipes'),None)
     if selected_doc:
@@ -117,7 +121,7 @@ def retrieve_node(state):
 
 def generate_node(state):
     from recipe_rag import generate
-    if state.get('generation', {}).get('status', '').startswith(('nutrition_', 'ingredient_')):
+    if state.get('generation', {}).get('status', '').startswith(('nutrition_', 'ingredient_', 'research_')):
         return dict(generation=state['generation'])
     if not state.get('do_generate'):
         return dict(generation=dict(status='not_requested', answer=None, citations=[]))

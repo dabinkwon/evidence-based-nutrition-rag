@@ -9,6 +9,33 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 
 
 class AppChecks(unittest.TestCase):
+    def test_expanded_health_lookup_and_unsupported_food_notice(self):
+        app = self.open_page()
+        with patch('openai.OpenAI') as api:
+            app.text_input(key='recipe_question_text').set_value('마늘이 몸에 뭐가 좋아?')
+            next(b for b in app.button if b.label == '검색·질문하기').click().run()
+            self.assertEqual(len(app.exception), 0)
+            self.assertTrue(any('마늘' in m.value and '확보한 자료' in m.value for m in app.markdown))
+            app.text_input(key='recipe_question_text').set_value('두부 효능 알려줘')
+            next(b for b in app.button if b.label == '검색·질문하기').click().run()
+        self.assertEqual(len(app.exception), 0)
+        self.assertTrue(any('두부의 효능 연구는' in m.value for m in app.markdown))
+        self.assertTrue(any('현재 연구자료가 확보된 식품' in c.value for c in app.caption))
+        api.assert_not_called()
+
+    def test_eggplant_health_question_uses_local_research_without_external_generation(self):
+        app = self.open_page()
+        with patch('openai.OpenAI') as api:
+            app.text_input(key='recipe_question_text').set_value('가지가 몸에 뭐가 좋아?')
+            next(b for b in app.button if b.label == '검색·질문하기').click().run()
+        self.assertEqual(len(app.exception), 0)
+        api.assert_not_called()
+        self.assertTrue(any('인체적용시험' in m.value and '혈압 조절' in m.value for m in app.markdown))
+        self.assertTrue(any('동물시험' in m.value for m in app.markdown))
+        self.assertTrue(any('효과의 크기나 확실성' in m.value for m in app.markdown))
+        self.assertEqual(len(app.dataframe), 1)
+        self.assertEqual(sum(button.label == '원문 출처 보기' for button in app.link_button), 2)
+
     def test_uncollected_ingredient_nutrition_is_not_recommendation_block(self):
         app=self.open_page()
         app.text_input(key='recipe_question_text').set_value('방울토마토 영양정보')

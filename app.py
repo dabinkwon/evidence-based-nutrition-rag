@@ -46,6 +46,8 @@ def show_generation(result):
         st.caption('음식별 기준량을 확인하세요. 선택 요리의 영양값과 별도입니다.')
         st.dataframe(result['nutrition_rows'],hide_index=True,width='stretch',
             column_config={'출처':st.column_config.LinkColumn('출처',display_text='원문 보기')})
+    if result.get('research_rows'):
+        st.dataframe(result['research_rows'], hide_index=True, width='stretch')
     for c in result.get('citations', []):
         with st.expander(f"근거 {c['number']} · {c['title']} · {c['source_label']}"):
             st.link_button('원문 출처 보기', c['source_url'])
@@ -172,12 +174,25 @@ if page=='요리 대화·영양정보':
     if not any(d.get('related_item_id')==selected for d in docs if d['collection']!='recipes'):
         st.caption('현재 제공된 레시피 원문을 바탕으로 답변합니다. 원문에 없는 정보는 확인이 어려울 수 있습니다.')
     messages = st.session_state.conversations.setdefault(selected, [])
+    from research_lookup import available_research_foods
+    with st.expander('질문 예시·연구정보를 조회할 수 있는 식품'):
+        st.markdown('조리법: **만드는 법 알려줘** · 영양 조회: **두부 영양성분** · 연구 조회: **마늘이 몸에 뭐가 좋아?**')
+        supported = available_research_foods()
+        if supported:
+            st.caption('현재 연구자료가 확보된 식품: ' + ', '.join(supported))
+        st.caption('식품별로 연구유형과 자료 범위가 다릅니다. 두부의 연구를 원료인 콩의 연구로 대신하지 않습니다.')
     with st.form('recipe_question',clear_on_submit=True):
         st.markdown('### 무엇이 궁금하세요?')
         question = st.text_input('요리 질문 또는 음식·재료 영양정보 검색',placeholder='만드는 법 알려줘 / 두부 영양성분 / 음식 이름',key='recipe_question_text')
         submitted = st.form_submit_button('검색·질문하기',type='primary')
     prompt = question.strip() if submitted else ''
     new_chat_result=bool(prompt)
+    from research_lookup import answer_research
+    research_result = answer_research(prompt) if prompt else None
+    if research_result:
+        messages.append(dict(role='user', content=prompt))
+        messages.append(dict(role='assistant', result=research_result, excluded=sorted(excluded)))
+        prompt = ''
     from ingredient_lookup import nutrition_lookup_names, lookup as lookup_ingredients
     lookup_names=nutrition_lookup_names(prompt,r) if prompt else []
     if lookup_names:

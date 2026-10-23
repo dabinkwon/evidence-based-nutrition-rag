@@ -11,6 +11,15 @@ from recipe_rag import generate
 
 
 class GraphChecks(unittest.TestCase):
+    def test_health_research_bypasses_recipe_retrieval_and_llm(self):
+        with patch('index_vectors.retrieve') as backend, patch('openai.OpenAI') as api:
+            result = build_graph().invoke(self.state() | dict(question='가지 효능 알려줘', selected=None, do_generate=True))
+        self.assertEqual(result['generation']['status'], 'research_lookup')
+        self.assertIn('혈압 조절', result['generation']['answer'])
+        self.assertEqual(result['evidence'], [])
+        backend.assert_not_called()
+        api.assert_not_called()
+
     def test_nutrient_discovery_does_not_promote_similarity_hit(self):
         for selected in (None, 'recipe:1'):
             state = self.state() | dict(question='1인분 단백질 25g 이상인 요리', selected=selected, do_generate=True)
