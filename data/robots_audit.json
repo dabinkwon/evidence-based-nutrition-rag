@@ -1,0 +1,102 @@
+{
+  "checked_at": "2026-10-23T00:56:04.488595+00:00",
+  "scope": "Seven main current data/source hosts. Current robots audit, not historical collection-time proof or API/license authorization.",
+  "sources": [
+    {
+      "robots_url": "https://apis.data.go.kr/robots.txt",
+      "http_status": 400,
+      "directives": "",
+      "user_agent": "Python-urllib/3.11",
+      "paths": [
+        {
+          "path": "/1390803/AgriFood/FncltyEfcy1/getThesisInfoOnFncltyByFood1",
+          "robots_allowed": null
+        },
+        {
+          "path": "/1471000/FoodNtrCpntDbInfo03/getFoodNtrCpntDbInq03",
+          "robots_allowed": null
+        }
+      ]
+    },
+    {
+      "robots_url": "https://www.data.go.kr/robots.txt",
+      "http_status": 200,
+      "directives": "User-agent: Googlebot\nDisallow: /tcs/dss/selectDataSetList.do\nDisallow: /tcs/vas/\nDisallow: /tcs/lms/mpm/\nDisallow: /bbs/dnb/\nDisallow: /bbs/dsb/\nDisallow: /bbs/qna/selectQna.do",
+      "user_agent": "Python-urllib/3.11",
+      "paths": [
+        {
+          "path": "/data/15143614/openapi.do",
+          "robots_allowed": true
+        },
+        {
+          "path": "/cmm/cmm/fileDownload.do",
+          "robots_allowed": true
+        }
+      ]
+    },
+    {
+      "robots_url": "https://www.nics.go.kr/robots.txt",
+      "http_status": 200,
+      "directives": "User-agent: *\nAllow: /\nDisallow: /common/\nDisallow: /mngr/\nDisallow: /nutri/\nDisallow: /nicsApi/\nDisallow: /SRsystem/\nDisallow: /food/common/\nDisallow: /food/css/\nDisallow: /food/images/\nDisallow: /food/resources/\nDisallow: /food/search/\nDisallow: /food/mngr/\nUser-agent: Amazonbot\nDisallow: /food/\nUser-agent: coccoc\nDisallow: /food/\nUser-agent: coccocbot\nDisallow: /food/\nUser-agent: Cốc Cốc Bot\nDisallow: /food/",
+      "user_agent": "Python-urllib/3.11",
+      "paths": [
+        {
+          "path": "/food/kfi/fct/fctMatterSrch/list",
+          "robots_allowed": true
+        },
+        {
+          "path": "/food/kfi/fct/fctMatterSrch/fctMatterSrchIrdnt",
+          "robots_allowed": true
+        }
+      ]
+    },
+    {
+      "robots_url": "https://openapi.foodsafetykorea.go.kr/robots.txt",
+      "http_status": 200,
+      "directives": "User-agent: *\nDisallow: /",
+      "user_agent": "Python-urllib/3.11",
+      "paths": [
+        {
+          "path": "/api/[REDACTED]/COOKRCP01/json/1/100",
+          "robots_allowed": false
+        }
+      ]
+    },
+    {
+      "robots_url": "https://www.foodsafetykorea.go.kr/robots.txt",
+      "http_status": 200,
+      "directives": "User-agent: Googlebot\nDisallow:/api/board/board.do?menu_grp=MENU_GRP33&menu_no=690$",
+      "user_agent": "Python-urllib/3.11",
+      "paths": [
+        {
+          "path": "/api/newDatasetDetail.do?svc_no=COOKRCP01",
+          "robots_allowed": true
+        }
+      ]
+    },
+    {
+      "robots_url": "https://www.korea.kr/robots.txt",
+      "http_status": 200,
+      "directives": "User-agent : Googlebot\nDisallow: https://www.korea.kr/totalSearch.do\nUser-Agent: *\nAllow: /\nDisallow:\nSitemap: https://www.korea.kr/sitemapindex.xml",
+      "user_agent": "Python-urllib/3.11",
+      "paths": [
+        {
+          "path": "/news/policyNewsView.do?newsId=148886239",
+          "robots_allowed": true
+        }
+      ]
+    },
+    {
+      "robots_url": "https://www.rda.go.kr/robots.txt",
+      "http_status": 200,
+      "directives": "User-agent : *\nDisallow : /search\nDisallow : /fileDownLoadDw.do\nDisallow : /fileDownLoad.do\nAllow : /\nSitemap : http://www.rda.go.kr/sitemap/sitemapindex.xml",
+      "user_agent": "Python-urllib/3.11",
+      "paths": [
+        {
+          "path": "/board/board.do",
+          "robots_allowed": true
+        }
+      ]
+    }
+  ]
+}

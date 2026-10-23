@@ -1,5 +1,42 @@
 # 파일 안내와 실행 방법
 
+W081(2026-10-23): `data/source_url_inventory.json`은 현재 저장 데이터·수집 보고서·지침 manifest·계산 코드·W077 연동 기록에서 확인한 URL 목록이다. 데이터 원문/안내,실제 호출 API,공개 코드표·연동 보조자료,계산 참고자료를 구분하고 참조 파일을 붙였다. 레시피 인증키 경로와 인증 쿼리는 가렸다. 이미지 링크608개는 원본 데이터에 들어 있는 URL 포인터로 따로 기록했으며 이미지 다운로드/이용 허가를 확인했다는 의미가 아니다. 과거 조사 후보와 모든 raw 응답의 임의 링크까지 전수 추출한 자료가 아니다. 현재 농산물 연구의 API2개 기능과 공식 코드 목록이 포함된다. 출처 URL 목록은 이용 허가 증명과 별개다. WORKLOG W081.
+
+W080(2026-10-23) robots 재점검: `data/robots_audit.json`에 주요7개 호스트의 HTTP 상태·규칙(주석 제외)·실제 사용 경로 판정을 보존했다. User-Agent는 최근 urllib 수집기의 Python-urllib/3.11 기준이다. www.nics.go.kr 일반 규칙은 Allow:/와 일부 디렉터리 금지이며 식품 코드/성분검색 /food/kfi/fct/fctMatterSrch/ 경로는 금지 아님. Amazonbot/coccoc 등 별도 규칙은 구분한다. www.data.go.kr는 Googlebot 일부 경로 금지만 있고 해당 명세/PDF 경로 제한 없음. www.korea.kr 일반 경로 및 www.rda.go.kr의 저장 board 게시물 경로도 금지 아님. 과거 수집 시점 규칙/전 파일의 이용권한을 증명하는 감사는 아니다.
+
+기존 레시피 API 호스트 https://openapi.foodsafetykorea.go.kr/robots.txt 는 User-agent:* / Disallow:/로 확인돼 robots 허용이라고 분류하지 않는다. 공식 COOKRCP01은 인증 Open API로 별도 제공되므로 API 승인/약관과 일반 크롤러 지침을 구분한다. agrifood·영양 API 호스트 https://apis.data.go.kr/robots.txt 는 실제 HTTP400으로 규칙 미확인이며 허용으로 간주하지 않는다. www.foodsafetykorea.go.kr의 robots와 openapi 하위 호스트 규칙은 서로 대체하지 않는다. 최근 collect_agrifood 수집기는 robots 사전검사/강제 기능이 없었고 이번 감사가 사후 확인이다. API 인증 성공을 robots 허용이나 재사용 권한으로 표현하지 않는다. 농산물 효능 데이터의 공공누리 제4유형 조건은 W076~W079처럼 별도로 유지한다. 검증 WORKLOG W080.
+
+W079(2026-10-23): config/agrifood_sources.json의 foods를 공식 공개 식품검색197개 명칭·코드로 확장하고 원본 HTML SHA-256을 보존했다. aliases는 괄호 앞 기본명이 중복되지 않는112개만 자동 등록하며 모호한 호박/영지버섯은 종류를 질문한다. 별칭은 영양 값이나 다른 식품의 동일성 확정 용도가 아니다. 두부 등 원료/가공식품의 효능 대체 연결은 하지 않는다. 등록/수집/논문 있음은 서로 구분한다.
+
+```powershell
+python scripts/collect_agrifood.py --collect-all
+python scripts/collect_agrifood.py --collect-all --limit 10 --research-codes G001 G003
+python scripts/collect_agrifood.py --offline-report
+```
+
+배치는 공식 endpoint에 최대197×2 조합을 순차 요청하고 새 호출 사이0.2초 간격을 둔다. 정상 저장 응답과 명시적301 자료없음 결과는 캐시로 재사용한다(자료없음 캐시는 자동 만료하지 않음). 연속6회 실제 실패면 중단한다. `data/agrifood_collection_report.json`은 조합별 success/cached/no_data/failed 및 완료 여부를 기록하고 `data/agrifood_reports/`에 조합별 상태를 남긴다. 301은 응답 메시지에서 데이터 없음도 함께 확인한 경우에만 no_data로 분류한다. 실패를 자료 미수록으로 단정하지 않는다.
+
+실제 결과:197개 식품/394조합 중233조합 자료 확보,160조합 명시적 자료없음,우엉(S-14-058) G001 실패1개. 논문이 있는 식품174개, 동물168개/인체65개(중복 포함). 파싱 응답234개에는 기존 가지 성분 조회1개도 포함한다. inspection.json/html은 전체 결과로 갱신했다. research_lookup.available_research_foods는 논문이 실제 있는 식품만 반환하며 app.py의 ‘질문 예시·연구정보를 조회할 수 있는 식품’에 표시한다. 마늘/양파/당근/사과/토마토/시금치/감자/고구마 등을 질문할 수 있다. 연구 자료 확장이며 기존 원재료 영양 함량 범위는 그대로다. W077/W078의 가지 단독 등록 설명은 본 범위로 대체한다. 검증 WORKLOG W079.
+
+W078(2026-10-23): `scripts/research_lookup.py`의 answer_research는 config에 등록된 식품명과 제한된 건강/효능/논문 질문 표현을 검사한 뒤 `data/raw/agrifood/*-food-functions-*.json`에서 논문 정보를 조회한다. `가지가 몸에 뭐가 좋아?`, `가지의 효능은?` 등을 지원한다. 함량 질문/조리법/추천은 기존 분기를 유지하고 나뭇가지/여러 가지 오인식을 제한한다. app.py는 재료 검색보다 먼저 호출하고 research_rows 표와 출처를 표시한다. rag_graph도 동일 경로를 사용하며 research_ 결과를 LLM으로 다시 생성하지 않는다. 현재 조회 가능한 등록 식품은 가지다. 데이터 부족은 명시하고 원문 분류·서지정보만 사용하며 LLM 요약/효능 확정/수치 계산은 하지 않는다. 실제 GMS 호출/재색인 없이 동작한다. 변경 적용은 Streamlit 재시작 후 확인한다. W077의 앱 미연결 설명은 이 경로에 한해 대체한다. 검증 WORKLOG W078.
+
+W077(2026-10-23): `scripts/collect_agrifood.py`는 AGRIFOOD_API_KEY를 환경변수 우선/.env 대체로 읽어 공식 HTTPS endpoint에만 사용한다. 따옴표/URL 인코딩 키를 처리하고 키/URL/외부 오류 원문을 출력하지 않는다. `config/agrifood_sources.json`에 공개 화면에서 확인한 식품 코드(현재 가지 S-14-074), 출처/이용 조건/생성 미활성 상태를 기록한다. 식품명/연구코드 응답 일치·XML 성공 코드·크기 제한·키 echo를 검사한다. 같은 XML 태그 반복 및 단건/복수 논문 형태를 보존한다.
+
+```powershell
+python scripts/collect_agrifood.py --food 가지 --research G001
+python scripts/collect_agrifood.py --food 가지 --research G001 --operation food-ingredients --page 1 --size 5
+python scripts/collect_agrifood.py --food 가지 --research G003
+python scripts/collect_agrifood.py --offline-report
+```
+
+`food-functions`는 식품별 기능성 논문, `food-ingredients`는 식품별 성분·기능성 논문이다. 전자는 공식 명세에 페이지 파라미터가 없어 page/size를 전송하지 않는다. 후자는 Page_No/Page_Size(1~20개 상한)를 전송하나 논문 수가 아닌 상위 성분 수 기준이다. G001/G003 표기는 실제 응답의 동물시험/인체적용시험으로 확인했다. 다른 연구유형 코드 의미는 추정하지 않는다.
+
+실제 결과: `data/raw/agrifood/*.json`은 XML을 필드/반복 태그 보존 형태로 파싱한 응답(원본 XML 바이트는 아님), `data/agrifood_probe_report.json`은 최신 호출 상태, `data/agrifood_reports/`는 이후 호출별 상태, `data/agrifood_inspection.json`은 저장 응답3개의 건수/해시, `data/agrifood_inspection.html`은 브라우저에서 확인하는 로컬 서지정보 표다. 연결 기록과 제목·저널·연도 기준 고유 서지 수를 구분한다. 고유 서지 수도 독립 연구 수나 품질 점수가 아니다. 성분 함량 단위/기준량·논문 본문을 확인하지 못해 계산/효능 추론에 사용하지 않는다. 생성/Chroma/Streamlit 연동은 미구현이며 기존 앱 답변 범위는 늘어나지 않았다. 전체78개 테스트, 실행 조건/결과는 WORKLOG W077.
+
+W076(2026-10-23) 데이터 확장 후보: 농촌진흥청 국립식량과학원 농산물 효능 정보 서비스. 사용자 제공 기본 주소 `https://apis.data.go.kr/1390803/AgriFood/FncltyEfcy1`와7개 기능 목록을 검토했다. 인증키 보유는 사용자 설명이며 키를 읽거나 실제 인증 호출을 수행하지 않았다. 공식 명세: https://www.data.go.kr/data/15143614/openapi.do . 논문명·저널·발행년도·연구유형·성분/식품샘플·일부 함량 통계 제공, XML 안내를 확인했다. 식품별 성분/기능성·논문 조회를 우선 후보로 제안하며 실제 요청 파라미터·코드표·가지 포함 여부·초록/본문 제공 여부는 미확인이다.
+
+이용 조건은 공식 페이지에 공공누리 제4유형(출처표시·상업적 이용금지·변경금지)으로 표시된다. 요약/가공/재배포 허용 범위는 별도 확인이 필요하며 RAG 활용 가능성을 확정한 것은 아니다. 논문 정보만으로 인체 효과를 확정하지 않고 동물/세포/시험관/인체 연구를 구분한다. 일반 영양 함량은 기존 영양 API 또는 별도 국가표준식품성분정보로 조회하는 방향을 제안했다. 출처: https://nics.go.kr/food/kfi/openapi/useNewGuidance , https://www.nics.go.kr/food/kfi/fct/fctPlsdaK/list . 실제 연동·수집·색인은 미구현. WORKLOG W076.
+
 W073: app.py 음식 비교는 제외 인자 없이 candidates/assess_foods를 호출한다. energy_profile.COMPARISON_VERSION 및 세션 comparison_version=2로 이전 모듈/차단 결과를 갱신한다. 기존 평가 음식과 중량/예산으로 로컬 재계산하고 오래된 생성 설명은 제거한다. 외부 API 재호출 없음. WORKLOG W073.
 
 W072: energy_profile.candidates/assess_foods는 제외 여부와 독립적으로 portion의 열량 계산을 수행한다. exclusion_check 결과는 별도 필드로 보존하며 context에도 전달한다. UI는 에너지 예산 기준으로 분류하고 카드에 제외 상태를 추가 안내한다. W071의 제외/확인 불가 전용 그룹은 제거했다. 검증 WORKLOG W072.
@@ -167,6 +204,24 @@ LLM 답변마다 메뉴/재료 일치·제외 준수·기준량 표현·출처 �
 2026-10-21 연결 확인(W021): 사용자 지정 모델은 `gpt-6-luna`. `open_api_key`·`openai_api_key`·`gms_model` 소문자 별칭도 읽도록 지원했다. 환경변수가 `.env`보다 우선한다. 설정 존재와 지정 모델 일치를 확인했으나 실제 요청은 HTTP 401 `AuthenticationError`로 실패했다. Q1~Q5 생성 답변 품질은 미검증이며 키 재확인 후 재시도해야 한다. `.env`는 변경하지 않았다.
 
 ## 실행
+
+W075 모델 비교: `python scripts/evaluate_models.py` (`--repeats 1`~`3`, 기본2). 고정 합성3문항만 실행하며 사용자 입력은 받지 않는다. 설정된 QUERY 모델을 단일 구성의 전 단계 및 양 구성 답변 모델로 고정하고, 단계별 구성의 선별에 SELECTION 모델을 사용한다. 레시피별 검색어를 한 번 생성해 양 구성에 공유한다. 임시 수집 캐시를 사용하며 실제 source_chunks/Chroma는 갱신하지 않는다. 기존 수집·어휘 검색·생성 함수를 활용하는 통제 실험이며 UI/Chroma 전체 평가와 구분한다. 기본 최대27회 외부 호출이 발생한다. 데이터 전송 승인 상태는 STATE W075를 확인한다.
+
+결과: `data/rag/model_comparison.json`과 브라우저에서 열 수 있는 `data/rag/model_comparison.html`. 답변·선별 문서·실제 근거·시간·실패 상태를 비교한다. 기준은 사전 rubric이며 자동 의미 점수/비용은 산출하지 않는다. API 실패 시 일부 결과만 저장될 수 있고 그 경우 향상으로 판정하지 않는다. 현재 실행은 연결 실패로 실제 답변 비교가 없다. 모델 ID/원문 묶음 해시/설정은 결과에 보존하며 키·서버 주소·예외 원문은 저장하지 않는다.
+
+W074(2026-10-23): 단계별 모델 설정을 지원한다. 아래는 사용자 지정 구성 예시이며 각 단계가 비어 있거나 없으면 GMS_MODEL을 사용한다. 환경변수가 .env보다 우선하며 소문자 별칭도 지원한다. 실제 API 연결/품질 비교는 이번 작업에서 미실행이다.
+
+```dotenv
+GMS_MODEL='gpt-6-luna'
+GMS_QUERY_MODEL='gpt-6-luna'
+GMS_SELECTION_MODEL='gpt-6.1-sol'
+GMS_ANSWER_MODEL='gpt-6-luna'
+GMS_EMBEDDING_MODEL='text-embedding-3-small'
+```
+
+- recipe_rag.settings/stage_model: 설정 읽기와 단계별 기본값 처리. generate는 ANSWER 설정을 사용한다. 비교/프로필 설명도 이 생성기를 사용한다.
+- collect_source_docs.collect: PROMPT1은 QUERY, PROMPT2는 SELECTION 설정을 사용한다. 각 모델을 해당 캐시에만 반영한다. 선별 모델 변경만으로 검색어 추출 캐시를 무효화하지 않는다. 수집 CLI 재실행 전까지 기존 선별 결과/색인은 변경되지 않는다.
+- semantic_search.expand_query: QUERY 설정 사용. 임베딩·벡터 색인은 기존 EMBEDDING 설정을 유지한다. 실행 중인 Streamlit은 재시작 후 새 코드와 설정을 적용한다.
 
 현재 인증키 변수는 `GMS_API_KEY`다(W024). 과거 W021의 키 별칭 지원은 이 변경으로 대체하며 `gms_api_key` 별칭만 지원한다. 모델은 `GMS_MODEL=gpt-6-luna`, 주소는 `GMS_BASE_URL=https://gms.ssafy.io/gmsapi/api.openai.com/v1`을 사용한다.
 
