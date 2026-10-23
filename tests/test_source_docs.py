@@ -9,6 +9,25 @@ from collect_source_docs import collect, split_text, string_array, store_chunks,
 
 
 class SourceChecks(unittest.TestCase):
+    def test_stage_models_and_independent_cache_invalidation(self):
+        calls = []
+        def ask(prompt, payload, config):
+            stage = 'selection' if 'candidates' in payload else 'query'
+            calls.append((stage, config['GMS_MODEL']))
+            return '[]' if stage == 'selection' else '["tofu"]'
+        config = dict(GMS_MODEL='legacy', GMS_QUERY_MODEL='query-a', GMS_SELECTION_MODEL='selection-a')
+        with tempfile.TemporaryDirectory() as temp:
+            collect(self.item, self.bundle, self.options, config, Path(temp), ask)
+            self.assertEqual(calls, [('query', 'query-a'), ('selection', 'selection-a')])
+            calls.clear()
+            config['GMS_SELECTION_MODEL'] = 'selection-b'
+            collect(self.item, self.bundle, self.options, config, Path(temp), ask)
+            self.assertEqual(calls, [('selection', 'selection-b')])
+            calls.clear()
+            config['GMS_QUERY_MODEL'] = 'query-b'
+            collect(self.item, self.bundle, self.options, config, Path(temp), ask)
+            self.assertEqual(calls, [('query', 'query-b')])
+
     def setUp(self):
         self.options = dict(chunk_size=10, chunk_overlap=3, min_document_chars=100,
                             max_candidates_per_query=1)

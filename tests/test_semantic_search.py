@@ -6,10 +6,20 @@ import unittest
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from semantic_search import embeddings, semantic_retrieve, unit, search_text, search_collections
+from semantic_search import embeddings, semantic_retrieve, unit, search_text, search_collections, expand_query
 
 
 class SemanticChecks(unittest.TestCase):
+    def test_query_expansion_uses_override_and_legacy_fallback(self):
+        with patch('openai.OpenAI') as factory:
+            client = factory.return_value.__enter__.return_value
+            client.responses.create.return_value.output_text = '두부'
+            config = dict(GMS_API_KEY='fake', GMS_BASE_URL='https://example.invalid', GMS_MODEL='legacy')
+            for overrides, expected in (({}, 'legacy'), ({'GMS_QUERY_MODEL': 'query'}, 'query'),
+                                        ({'GMS_MODEL': '', 'GMS_QUERY_MODEL': 'query'}, 'query')):
+                self.assertIn('두부', expand_query('콩 요리', config | overrides))
+                self.assertEqual(client.responses.create.call_args.kwargs['model'], expected)
+
     def test_search_text_keeps_facts_without_shared_nutrition_notice(self):
         doc = dict(title='두부찜', collection='recipes', ingredients='두부',
                    text='두부를 찐다. API 영양 원문: 100 기준량 미확인')

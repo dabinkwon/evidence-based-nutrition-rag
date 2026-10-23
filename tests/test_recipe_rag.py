@@ -1,13 +1,25 @@
 import sys
 from pathlib import Path
 import unittest
+import os
+import tempfile
 from unittest.mock import patch, MagicMock
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from recipe_rag import documents, retrieve, excluded_hits, generate, NOTICE
+from recipe_rag import documents, retrieve, excluded_hits, generate, NOTICE, settings, stage_model
 
 
 class RagChecks(unittest.TestCase):
+    def test_stage_settings_precedence_quotes_aliases_and_fallback(self):
+        with tempfile.TemporaryDirectory() as temp:
+            Path(temp, '.env').write_text("GMS_MODEL='legacy'\nGMS_QUERY_MODEL='query-file'\ngms_selection_model=\"selection-file\"\nGMS_ANSWER_MODEL='answer-file'\n", encoding='utf-8')
+            with patch('recipe_rag.ROOT', Path(temp)), patch.dict(os.environ, {'GMS_QUERY_MODEL': 'query-env'}, clear=True):
+                config = settings()
+            self.assertEqual(stage_model(config, 'query'), 'query-env')
+            self.assertEqual(stage_model(config, 'selection'), 'selection-file')
+            self.assertEqual(stage_model(config, 'answer'), 'answer-file')
+            self.assertEqual(stage_model({'GMS_MODEL': 'legacy', 'GMS_QUERY_MODEL': ''}, 'query'), 'legacy')
+
     @classmethod
     def setUpClass(cls):
         cls.docs = documents()
@@ -53,6 +65,10 @@ class RagChecks(unittest.TestCase):
             self.assertEqual(factory.call_args.kwargs['base_url'], config['GMS_BASE_URL'])
             self.assertEqual(client.responses.create.call_args.kwargs['model'], 'gpt-6-luna')
             self.assertEqual(result['status'], 'generated_unreviewed')
+            for overrides in ({'GMS_ANSWER_MODEL': 'answer'}, {'GMS_MODEL': '', 'GMS_ANSWER_MODEL': 'answer'}):
+                result = generate('질문', evidence, config | overrides)
+                self.assertEqual(client.responses.create.call_args.kwargs['model'], 'answer')
+                self.assertEqual(result['status'], 'generated_unreviewed')
 
 
 if __name__ == '__main__':

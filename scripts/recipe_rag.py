@@ -97,6 +97,9 @@ def retrieve(docs, query, excluded=(), selected=None, top_k=3):
 def settings():
     aliases = {'GMS_API_KEY': ('GMS_API_KEY', 'gms_api_key'),
                'GMS_MODEL': ('GMS_MODEL', 'gms_model'),
+               'GMS_QUERY_MODEL': ('GMS_QUERY_MODEL', 'gms_query_model'),
+               'GMS_SELECTION_MODEL': ('GMS_SELECTION_MODEL', 'gms_selection_model'),
+               'GMS_ANSWER_MODEL': ('GMS_ANSWER_MODEL', 'gms_answer_model'),
                'GMS_BASE_URL': ('GMS_BASE_URL', 'gms_base_url'),
                'GMS_EMBEDDING_MODEL': ('GMS_EMBEDDING_MODEL', 'gms_embedding_model')}
     values = {k: next((os.environ[a] for a in names if os.environ.get(a)), '')
@@ -112,6 +115,11 @@ def settings():
     return values
 
 
+def stage_model(config, stage):
+    """Resolve a stage override, preserving legacy GMS_MODEL configurations."""
+    return config.get('GMS_' + stage.upper() + '_MODEL') or config.get('GMS_MODEL')
+
+
 def generate(question, evidence, config, instructions=None):
     from rag_graph import evidence_context
     evidence = evidence_context(evidence, evidence)
@@ -121,7 +129,8 @@ def generate(question, evidence, config, instructions=None):
     if any(d.get('recommendation_blocked') for d in evidence):
         return dict(status='excluded_selected', answer='선택 메뉴에 제외 재료가 있어 추천을 제공하지 않습니다.',
                     citations=[], citation_notice='인용된 근거가 없습니다. 제외 조건 검사에 따른 안내입니다.')
-    if not config.get('GMS_API_KEY') or not config.get('GMS_MODEL'):
+    model = stage_model(config, 'answer')
+    if not config.get('GMS_API_KEY') or not model:
         return dict(status='not_configured', answer=None, citations=[],
                     citation_notice='생성 설정이 없어 답변과 인용된 근거가 없습니다.')
     from openai import OpenAI
@@ -129,7 +138,7 @@ def generate(question, evidence, config, instructions=None):
         base_url = config.get('GMS_BASE_URL') or None
         with OpenAI(api_key=config['GMS_API_KEY'], base_url=base_url,
                     timeout=45, max_retries=0) as client:
-            response = client.responses.create(model=config['GMS_MODEL'], store=False,
+            response = client.responses.create(model=model, store=False,
                 instructions=instructions or INSTRUCTIONS,
                 input=json.dumps(dict(question=question, evidence=evidence), ensure_ascii=False),
                 max_output_tokens=1400)

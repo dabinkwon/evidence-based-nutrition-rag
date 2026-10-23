@@ -8,6 +8,7 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+from recipe_rag import stage_model
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'data/rag/source_chunks.jsonl'
@@ -120,13 +121,16 @@ def collect(item, bundle, options, config, cache_dir=CACHE, ask=ask_json):
     if type(options['min_document_chars']) is not int or options['min_document_chars'] < 0:
         raise ValueError('min_document_chars must be nonnegative')
     fingerprint = digest(bundle)
-    context = {'model': config.get('GMS_MODEL'), 'server': config.get('GMS_BASE_URL')}
-    query_key = digest([item, PROMPT1, context])
+    query_config = dict(config, GMS_MODEL=stage_model(config, 'query'))
+    selection_config = dict(config, GMS_MODEL=stage_model(config, 'selection'))
+    query_context = {'model': query_config['GMS_MODEL'], 'server': config.get('GMS_BASE_URL')}
+    selection_context = {'model': selection_config['GMS_MODEL'], 'server': config.get('GMS_BASE_URL')}
+    query_key = digest([item, PROMPT1, query_context])
     query_path = cache_dir / ('queries-' + query_key + '.json')
     if query_path.exists():
         queries = string_array(query_path.read_text(encoding='utf-8'), limit=5)
     else:
-        queries = string_array(ask(PROMPT1, item, config), limit=5)
+        queries = string_array(ask(PROMPT1, item, query_config), limit=5)
         if not queries:
             raise ValueError('No extracted search queries')
         # Enforce the mandatory exact-item search independently of LLM output.
@@ -161,12 +165,12 @@ def collect(item, bundle, options, config, cache_dir=CACHE, ask=ask_json):
     candidates.update(own)
     summaries = [dict(document_id=d['document_id'], title=d['title'], summary=d['summary'])
                  for d in sorted(candidates.values(), key=lambda x: x['document_id'])]
-    selection_key = digest([item, summaries, PROMPT2, context])
+    selection_key = digest([item, summaries, PROMPT2, selection_context])
     selection_path = cache_dir / ('selection-' + selection_key + '.json')
     if selection_path.exists():
         chosen = string_array(selection_path.read_text(encoding='utf-8'), allowed=set(candidates), limit=len(candidates))
     else:
-        chosen = string_array(ask(PROMPT2, dict(item=item, candidates=summaries), config),
+        chosen = string_array(ask(PROMPT2, dict(item=item, candidates=summaries), selection_config),
                               allowed=set(candidates), limit=len(candidates))
         save(selection_path, chosen)
     selected = sorted(set(chosen) | set(own))

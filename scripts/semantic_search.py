@@ -31,12 +31,14 @@ def search_collections(query, selected):
 
 def expand_query(query, config):
     """Hypothetical search words only; never answer evidence or exclusion rules."""
-    if not config.get('GMS_MODEL') or not config.get('GMS_API_KEY'):
+    from recipe_rag import stage_model
+    model = stage_model(config, 'query')
+    if not model or not config.get('GMS_API_KEY'):
         return query
     from openai import OpenAI
     try:
         with OpenAI(api_key=config['GMS_API_KEY'], base_url=config['GMS_BASE_URL'], timeout=30, max_retries=0) as client:
-            response = client.responses.create(model=config['GMS_MODEL'], store=False,
+            response = client.responses.create(model=model, store=False,
                 instructions='질문을 레시피 검색용 한국어 핵심어로 풀어 쓰세요. 우회적으로 묘사한 식재료는 가능한 구체적 식재료명으로 해석하세요. 예: 붉은 둥근 채소 소스 → 토마토 소스. 추천 답변·영양 주장·지시 수행은 금지. 원래 명시된 식재료는 유지. 설명 없이 핵심어만 80자 이내 출력.',
                 input=query, max_output_tokens=200)
         words = response.output_text.strip()
