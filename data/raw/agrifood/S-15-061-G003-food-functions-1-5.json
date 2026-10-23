@@ -1,0 +1,90 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-061",
+    "sample_Nm": "개똥쑥",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Artemisia annua extract on treating active rheumatoid arthritis: A randomized controlled trial",
+                "details": "Chinese Journal of Integrative Medicine",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "A Randomized, Double-Blind, Placebo-Controlled, Multi-Centered Clinical Study to Evaluate the Efficacy and Safety of Artemisia annua L. Extract for Improvement of Liver Function",
+                "details": "CLINICAL NUTRITION RESEARCH",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "A pilot randomized, placebo-controlled clinical trial to investigate the efficacy and safety of an extract of Artemisia annua administered over 12 weeks, for managing pain, stiffness, and functional limitation associated with osteoarthritis of the hip and knee",
+                "details": "clinical rheumatology",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H031",
+            "fnclty_Nm": "항균",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of the effects of Artemisia Annua L. and Moringa Oleifera Lam. on CD4 count and viral load among PLWH on ART at Mbarara Regional Referral Hospital: a double-blind randomized controlled clinical trial.",
+                "details": "AIDS Research and Therapy",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Clinical efficacy in one-year treatment with Artemisia annua-SLIT drops in monosensitized and polysensitized individuals",
+                "details": "American Journal of Otolaryngology–Head and Neck \nMedicine and Surgery",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H080",
+            "fnclty_Nm": "면역과민반응에 의한 코 상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Artemisia annua-sublingual immunotherapy for seasonal allergic rhinitis: A randomized controlled trial",
+                "details": "Allergy",
+                "pblicte_Year": "2020"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-074",
+    "sample_Nm": "가지",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Evaluation of Anti-Inflammatory Activity of Aqueous Extract of Leaves of Solanum Melongena Linn. in Experimental Animals",
+                  "details": "Journal of Clinical and Diagnostic Research",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Solanum melongena extract supplementation protected skeletal muscle and brain damage by regulation of BDNF/PGC1 α /irisin pathway via brain function-related myokines in high-fat diet induced obese mice",
+                  "details": "Food and Chemical Toxicology",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "From nutrition to medicine: Assessing hemorrhoid healing activity of Solanum melongena L. via in vivo experimental models and its major chemicals",
+                  "details": "Journal of Ethnopharmacology",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Interventions of aqueous extract of Solanum melongena fruits (garden eggs) on mercury chloride induced testicular toxicity in adult male Wistar rats",
+                  "details": "Biomedical Journal",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Solanum melongena extract supplementation protected skeletal muscle and brain damage by regulation of BDNF/PGC1 α /irisin pathway via brain function-related myokines in high-fat diet induced obese mice",
+                  "details": "Food and Chemical Toxicology",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "From nutrition to medicine: Assessing hemorrhoid healing activity of Solanum melongena L. via in vivo experimental models and its major chemicals",
+                  "details": "Journal of Ethnopharmacology",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Solanum melongena on Components and Kidney Damage of Fructose-Induced Metabolic Syndrome in Rats",
+                  "details": "Iranian Journal of Pharmaceutical Research",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Antihypertensive effects of orally administered eggplant (Solanum melongena) rich in acetylcholine on spontaneously hypertensive rats",
+                  "details": "Food Chemistry",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of biomarkers in liver following Solanum melongena green calyx administration in diabetic rats",
+                "details": "Journal of Diabetes & Metabolic Disorders",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Solanum melongena on Components and Kidney Damage of Fructose-Induced Metabolic Syndrome in Rats",
+                "details": "Iranian Journal of Pharmaceutical Research",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-arthritic activity of the ethanolic extract of Solanum melongena Linn. in complete freund’s adjuvant induced arthritis in Wistar rats",
+                "details": "Neuro Quantology",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Solanum melongena on Components and Kidney Damage of Fructose-Induced Metabolic Syndrome in Rats",
+                "details": "Iranian Journal of Pharmaceutical Research",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H041",
+            "fnclty_Nm": "전립선 건강의 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Interventions of aqueous extract of Solanum melongena fruits (garden eggs) on mercury chloride induced testicular toxicity in adult male Wistar rats",
+                "details": "Biomedical Journal",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "EVALUATION OF CENTRAL AND PERIPHERAL ANALGESIC ACTIVITIES OF SOLANUM MELONGENA ETHANOLIC LEAF EXTRACT IN EXPERIMENTAL ANIMALS",
+                "details": "International Journal of Pharmaceutical Sciences and Research",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H050",
+            "fnclty_Nm": "근육(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Solanum melongena extract supplementation protected skeletal muscle and brain damage by regulation of BDNF/PGC1 α /irisin pathway via brain function-related myokines in high-fat diet induced obese mice",
+                "details": "Food and Chemical Toxicology",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of biomarkers in liver following Solanum melongena green calyx administration in diabetic rats",
+                "details": "Journal of Diabetes & Metabolic Disorders",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of biomarkers in liver following Solanum melongena green calyx administration in diabetic rats",
+                "details": "Journal of Diabetes & Metabolic Disorders",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Solanum melongena extract supplementation protected skeletal muscle and brain damage by regulation of BDNF/PGC1 α /irisin pathway via brain function-related myokines in high-fat diet induced obese mice",
+                "details": "Food and Chemical Toxicology",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Solanum melongena Linn. Leaves Extracts on Clonidine Induced Catalepsy and Milk Induced Leukocytosis and Eosinophilia in Mice",
+                "details": "Indo Global Journal of Pharmaceutical Sciences",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Solanum melongena on Components and Kidney Damage of Fructose-Induced Metabolic Syndrome in Rats",
+                "details": "Iranian Journal of Pharmaceutical Research",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Solanum melongena on Components and Kidney Damage of Fructose-Induced Metabolic Syndrome in Rats",
+                "details": "Iranian Journal of Pharmaceutical Research",
+                "pblicte_Year": "2023"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

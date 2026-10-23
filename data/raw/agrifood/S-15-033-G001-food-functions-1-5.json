@@ -1,0 +1,275 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-033",
+    "sample_Nm": "치커리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dietary chicory root and chicory inulin trigger changes in energetic metabolism, stress prevention and cytoskeletal proteins in the liver of growing pigs - a proteomic study.",
+                  "details": "J Anim Physiol Anim Nutr (Berl).  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Chicory, a typical vegetable in Mediterranean diet, exerts a therapeutic role in established atherosclerosis in apolipoprotein E-deficient mice.",
+                  "details": "Mol Nutr Food Res.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects of different sources of fructans on body weight, blood metabolites and fecal bacteria in normal and obese non-diabetic and diabetic rats.",
+                  "details": "Plant Foods Hum Nutr.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "In vivo effect of dried chicory root (Cichorium intybus L.) on xenobiotica metabolising cytochrome P450 enzymes in porcine liver.",
+                  "details": "Toxicol Lett.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Ameliorating effect of chicory (Cichorium intybus L.)-supplemented diet against nitrosamine precursors-induced liver injury and oxidative stress in male rats.",
+                  "details": "Food Chem Toxicol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Gastrointestinal and immunological responses of senior dogs to chicory and mannan-oligosaccharides.",
+                  "details": "Arch Anim Nutr.  2004",
+                  "pblicte_Year": "2004"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Cichorium intybus L. on the expression of hepatic NF-觀B and IKK棺 and serum TNF-慣 in STZ- and STZ+ niacinamide-induced diabetes in rats.",
+                  "details": "Diabetol Metab Syndr.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effect of chicory seed extract on glucose tolerance test (GTT) and metabolic profile in early and late stage diabetic rats.",
+                  "details": "Daru.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "흰쥐의 지질대사 및 산화적 스트레스에 미치는 치커리 추출물의 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2001"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The water-soluble extract of chicory influences serum and liver lipid concentrations, cecal short-chain fatty acid concentrations and fecal lipid excretion in rats.",
+                  "details": "J Nutr.  1998",
+                  "pblicte_Year": "1998"
+                },
+                {
+                  "title": "흰쥐의 중성지질 대사에 미치는 치커리 추출물의 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2005"
+                },
+                {
+                  "title": "흰쥐의 지질대사 및 산화적 스트레스에 미치는 치커리 추출물의 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2001"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ameliorating effect of chicory (Chichorium intybus L.) fruit extract against 4-tert-octylphenol induced liver injury and oxidative stress in male rats.",
+                  "details": "Food Chem Toxicol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Antihepatotoxic activity of seeds of Cichorium intybus.",
+                  "details": "J Ethnopharmacol.  2003",
+                  "pblicte_Year": "2003"
+                },
+                {
+                  "title": "Anti-hepatotoxic effects of root and root callus extracts of Cichorium intybus L.",
+                  "details": "J Ethnopharmacol.  1998",
+                  "pblicte_Year": "1998"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Cichorium intybus L. on the expression of hepatic NF-觀B and IKK棺 and serum TNF-慣 in STZ- and STZ+ niacinamide-induced diabetes in rats.",
+                  "details": "Diabetol Metab Syndr.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effect of chicory seed extract on glucose tolerance test (GTT) and metabolic profile in early and late stage diabetic rats.",
+                  "details": "Daru.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "흰쥐의 지질대사 및 산화적 스트레스에 미치는 치커리 추출물의 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2001"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of enriched chicory inulin on liver enzymes, calcium homeostasis and hematological parameters in patients with type 2 diabetes mellitus: A randomized placebo-controlled trial.",
+                  "details": "Prim Care Diabetes.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Amelioration by chicory seed extract of diabetes- and oleic acid-induced non-alcoholic fatty liver disease (NAFLD)/non-alcoholic steatohepatitis (NASH) via modulation of PPAR慣 and SREBP-1.",
+                  "details": "Food Chem Toxicol.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of chicory seed extract on glucose tolerance test (GTT) and metabolic profile in early and late stage diabetic rats.",
+                  "details": "Daru.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Anti-diabetic effects of Cichorium intybus in streptozotocin-induced diabetic rats.",
+                  "details": "J Ethnopharmacol.  2007",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "치커리 화이바 발효물의 장 기능 및 변비개선 효과",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "흰쥐의 지질대사 및 산화적 스트레스에 미치는 치커리 추출물의 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2001"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of the ethanol extract of Cichorium intybus on the immunotoxicity by ethanol in mice.",
+                "details": "Int Immunopharmacol.  2002",
+                "pblicte_Year": "2002"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Metabolic response of the gastrointestinal tract and serum parameters of rabbits to diets containing chicory flour rich in inulin.",
+                "details": "J Anim Physiol Anim Nutr (Berl).  2008",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Cichorium intybus L. seed extract on renal parameters in experimentally induced early and late diabetes type 2 in rats.",
+                "details": "Ren Fail.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antiosteoporotic effect of Petroselinum crispum, Ocimum basilicum and Cichorium intybus L. in glucocorticoid-induced osteoporosis in rats.",
+                "details": "BMC Complement Altern Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Caffeoylquinic acid-rich extract from chicory seeds improves glycemia, atherogenic index, and antioxidant status in rats.",
+                "details": "Nutrition.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

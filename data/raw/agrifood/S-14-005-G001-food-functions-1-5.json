@@ -1,0 +1,138 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-005",
+    "sample_Nm": "당근",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Biofortified carrot intake enhances liver antioxidant capacity and vitamin a status in mongolian gerbils.",
+                  "details": "J Nutr. 2008 Sep;138(9):1692-8.",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "In vivo antioxidant and hepatoprotective activity of methanolic extracts of Daucus carota seeds in experimental animals.",
+                  "details": "Asian Pac J Trop Biomed. 2012 May;2(5):385-8. doi: 10.1016/S2221-1691(12)60061-6.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effect of turmeric and carrot seed extracts on serum liver biomarkers and hepatic lipid peroxidation, antioxidant enzymes and total antioxidant status in rats.",
+                  "details": "Bioimpacts. 2012;2(3):151-7. doi: 10.5681/bi.2012.020. Epub 2012 Jul 7.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Carrot juice fermented with Lactobacillus plantarum NCU116 ameliorates type 2 diabetes in rats.",
+                "details": "J Agric Food Chem. 2014 Dec 10;62(49):11884-91. doi: 10.1021/jf503681r. Epub 2014 Nov 26.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Impact of organic and conventional carrots on intestinal and peripheral immunity.",
+                "details": "J Sci Food Agric. 2012 Nov;92(14):2913-22. doi: 10.1002/jsfa.5667. Epub 2012 Apr 5.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hepatoprotective and antioxidant effects of wheat, carrot, and mango as nutraceutical agents against CCl4-induced hepatocellular toxicity.",
+                "details": "J Am Coll Nutr. 2015;34(3):228-31. doi: 10.1080/07315724.2014.887486. Epub 2015 Feb 3.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Carrot juice ingestion attenuates high fructose-induced circulatory pro-inflammatory mediators in weanling Wistar rats.",
+                "details": "J Sci Food Agric.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Carrot Juice Administration Decreases Liver Stearoyl-CoA Desaturase 1 and Improves Docosahexaenoic Acid Levels, but Not Steatosis in High Fructose Diet-Fed Weanling Wistar Rats.",
+                "details": "Prev Nutr Food Sci.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Carrot juice fermented with Lactobacillus plantarum NCU116 ameliorates type 2 diabetes in rats.",
+                "details": "J Agric Food Chem. 2014 Dec 10;62(49):11884-91. doi: 10.1021/jf503681r. Epub 2014 Nov 26.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Comparison of protective and curative potential of Daucus carota root extract on renal ischemia reperfusion injury in rats.",
+                "details": "Pharm Biol. 2013 Jul;51(7):856-62. doi: 10.3109/13880209.2013.767840. Epub 2013 Apr 29.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Particle size reduction effectively enhances the cholesterol-lowering activities of carrot insoluble fiber and cellulose.",
+                "details": "J Agric Food Chem. 2008 Nov 26;56(22):10994-8. doi: 10.1021/jf802533a.",
+                "pblicte_Year": "2008"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

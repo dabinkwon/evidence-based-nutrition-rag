@@ -1,0 +1,183 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-020",
+    "sample_Nm": "꾸지뽕나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Inhibitory Activities of Cudrania tricuspidata Leaves on Pancreatic Lipase In Vitro and Lipolysis In Vivo.",
+                  "details": "Evid Based Complement Alternat Med.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "뽕나무(Morus alba)와 꾸지뽕나무(Cudrania tricuspidata) 잎의 수용성 추출물이 흰쥐 혈청 및 간장 지질농도에 미치는 영향",
+                  "details": "한국농화학회지 = Journal of the Korean society of Agricultural Chemistry and Biotechnology",
+                  "pblicte_Year": "2000"
+                },
+                {
+                  "title": "율무와 꾸지뽕잎 혼합물이 고지방식이를 급여한 흰쥐의 체지방 및 혈청 지질농도에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "뽕나무와 꾸지뽕나무의 수피 수용성 추출물이 콜레스테롤 함유식이 투여 흰쥐의 지질농도 및 과산화지질 농도에 미치는 영향",
+                  "details": "한국식품과학회지",
+                  "pblicte_Year": "2001"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-Obesity Effect of 6,8-Diprenylgenistein, an Isoflavonoid of Cudrania tricuspidata Fruits in High-Fat Diet-Induced Obese Mice.",
+                  "details": "Nutrients.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "뽕나무(Morus alba)와 꾸지뽕나무(Cudrania tricuspidata) 잎의 수용성 추출물이 흰쥐 혈청 및 간장 지질농도에 미치는 영향",
+                  "details": "한국농화학회지 = Journal of the Korean society of Agricultural Chemistry and Biotechnology",
+                  "pblicte_Year": "2000"
+                },
+                {
+                  "title": "율무와 꾸지뽕잎 혼합물이 고지방식이를 급여한 흰쥐의 체지방 및 혈청 지질농도에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antiobesity and Antidiabetes Effects of a Cudrania tricuspidata Hydrophilic Extract Presenting PTP1B Inhibitory Potential.",
+                  "details": "Biomed Res Int.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Cudrania tricuspidata water extract improved obesity-induced hepatic insulin resistance in db/db mice by suppressing ER stress and inflammation.",
+                  "details": "Food Nutr Res.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antiobesity and Antidiabetes Effects of a Cudrania tricuspidata Hydrophilic Extract Presenting PTP1B Inhibitory Potential.",
+                  "details": "Biomed Res Int.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Cudrania tricuspidata water extract improved obesity-induced hepatic insulin resistance in db/db mice by suppressing ER stress and inflammation.",
+                  "details": "Food Nutr Res.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "율무와 꾸지뽕잎 혼합물이 고지방식이를 급여한 흰쥐의 체지방 및 혈청 지질농도에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "뽕나무와 꾸지뽕나무의 수피 수용성 추출물이 콜레스테롤 함유식이 투여 흰쥐의 지질농도 및 과산화지질 농도에 미치는 영향",
+                  "details": "한국식품과학회지",
+                  "pblicte_Year": "2001"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "CTB glycoprotein (75kDa) inhibits IgE releasing, TNF-a and IL-6 expressed by bisphenol A in vivo and in vitro.",
+                  "details": "Food Chem Toxicol.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "IgE, COX-2, and IL-4 are expressed by DEHP through p38 MAPK and suppressed by plant glycoprotein (75 kDa) in ICR mice.",
+                  "details": "Inflammation.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "뽕나무와 꾸지뽕나무의 수피 수용성 추출물이 콜레스테롤 함유식이 투여 흰쥐의 지질농도 및 과산화지질 농도에 미치는 영향",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "2001"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "율무와 꾸지뽕잎 혼합물이 고지방식이를 급여한 흰쥐의 체지방 및 혈청 지질농도에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H081",
+            "fnclty_Nm": "면역과민반응에 의한 피부상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The fruits of Cudrania tricuspidata suppress development of atopic dermatitis in NC/Nga mice.",
+                "details": "Phytother Res.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-006",
+    "sample_Nm": "근대",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of chard (Beta vulgaris L. var. Cicla) extract on pancreatic B cells in streptozotocin-diabetic rats: a morphological and biochemical study",
+                  "details": "J Ethnopharmacol",
+                  "pblicte_Year": "2000"
+                },
+                {
+                  "title": "Chard (Beta vulgaris L. var. cicla) extract ameliorates hyperglycemia by increasing GLUT2 through Akt2 and antioxidant defense in the liver of rats",
+                  "details": "Acta Histochem",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effects of chard (Beta vulgaris L. var cicla) on the liver of the diabetic rats: a morphological and biochemical study",
+                  "details": "Biosci Biotechnol Biochem",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "The effects of chard (Beta vulgaris L. var. cicla) extract on the kidney tissue, serum urea and creatinine levels of diabetic rats",
+                  "details": "Phytother Res",
+                  "pblicte_Year": "2002"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of chard (Beta vulgaris L. var. Cicla) extract on pancreatic B cells in streptozotocin-diabetic rats: a morphological and biochemical study",
+                  "details": "J Ethnopharmacol",
+                  "pblicte_Year": "2000"
+                },
+                {
+                  "title": "Chard (Beta vulgaris L. var. cicla) extract ameliorates hyperglycemia by increasing GLUT2 through Akt2 and antioxidant defense in the liver of rats",
+                  "details": "Acta Histochem",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effects of chard (Beta vulgaris L. var cicla) on the liver of the diabetic rats: a morphological and biochemical study",
+                  "details": "Biosci Biotechnol Biochem",
+                  "pblicte_Year": "2004"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Red beet (Beta vulgaris L.) leaf supplementation improves antioxidant status in C57BL/6J mice fed high fat high cholesterol diet",
+                "details": "Nutr Res Pract",
+                "pblicte_Year": "2009"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

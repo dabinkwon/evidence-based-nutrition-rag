@@ -1,0 +1,90 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-090",
+    "sample_Nm": "화살나무(홀잎나무)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H002",
+            "fnclty_Nm": "치매",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Oral Administration of Euonymus alatus Leaf Extract Ameliorates Alzheimer’s Disease Phenotypes in 5xFAD Transgenic Mice",
+                "details": "Foods",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Euonymus alatus in the Treatment of Diabetic Nephropathy in Rats",
+                "details": "The American Journal of Chinese Medicine",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Neuroprotective Effects of Euonymus alatus Extract on Scopolamine-Induced Memory Deficits in Mice",
+                "details": "Antioxidants",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Euonymus alatus Leaf Extract Attenuates Effects of Aging on Oxidative Stress, Neuroinflammation, and Cognitive Impairment",
+                "details": "Antioxidants",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Euonymus alatus prevents the hyperglycemia and hyperlipidemia induced by high-fat diet in ICR mice",
+                "details": "Journal of Ethnopharmacology",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "쇠뜨기와 화살나무의 항암 효능에 관한 연구",
+                "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                "pblicte_Year": "1998"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

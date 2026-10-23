@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-080",
+    "sample_Nm": "목이버섯(흑목이버섯)",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "목이버섯 섭취가 복부비만 여성의 골밀도 및 혈청지질농도에 미치는 영향",
+                "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "목이버섯 섭취가 복부비만 여성의 골밀도 및 혈청지질농도에 미치는 영향",
+                "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "만성 기능성 변비 환자에 대한 목이버섯의 효과",
+                "details": "대한소화기학회지 = The Korean journal of gastroenterology",
+                "pblicte_Year": "2004"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-102",
+    "sample_Nm": "고추냉이",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-oxidant and Anti-hypercholesterolemic Activities of Wasabia japonica.",
+                  "details": "Evid Based Complement Alternat Med. 2010 Dec;7(4):459-64. doi: 10.1093/ecam/nen038. Epub 2008 Jun 12.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "고추냉이가 고콜레스테롤 식이 흰쥐의 콜레스테롤 농도에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-obesity effects of hot water extract from Wasabi (Wasabia japonica Matsum.) leaves in mice fed high-fat diets.",
+                "details": "Nutr Res Pract. 2013 Aug;7(4):267-72. doi: 10.4162/nrp.2013.7.4.267. Epub 2013 Aug 7.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Leaf extract of Wasabia japonica relieved oxidative stress induced by Helicobacter pylori infection and stress loading in Mongolian gerbils.",
+                "details": "Biosci Biotechnol Biochem. 2010;74(6):1194-9. Epub 2010 Jun 7.",
+                "pblicte_Year": "2010"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

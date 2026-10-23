@@ -1,0 +1,396 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-052",
+    "sample_Nm": "구아바",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "14",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective Effects of Red Guava on Inflammation and Oxidative Stress in Streptozotocin-Induced Diabetic Mice.",
+                  "details": "Molecules.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Psidium guajava Linn. leaf extract affects hepatic glucose transporter-2 to attenuate early onset of insulin resistance consequent to high fructose intake: An experimental study.",
+                  "details": "Pharmacognosy Res.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Renal protective effects of extracts from guava fruit (Psidium guajava L.) in diabetic mice.",
+                  "details": "Plant Foods Hum Nutr.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Beneficial effects of Psidium guajava leaf extract on diabetic myocardium.",
+                  "details": "Exp Toxicol Pathol.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Antioxidant and antiglycative potential of ethyl acetate fraction of Psidium guajava leaf extract in streptozotocin-induced diabetic rats.",
+                  "details": "Plant Foods Hum Nutr.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Hypolipidaemic & hepatoprotective effects of Psidium guajava raw fruit peel in experimental diabetes.",
+                  "details": "Indian J Med Res.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Antidiabetic effects of extracts from Psidium guajava.",
+                  "details": "J Ethnopharmacol.  2005",
+                  "pblicte_Year": "2005"
+                },
+                {
+                  "title": "STZ으로 당뇨를 유발한 실험쥐에 대한 Psidium guajava L.과 Lagerstroemia speciosa L. 잎 추출물의 항당뇨 효과",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "저용량 Streptozotocin으로 유도된 당뇨모델 생쥐에서 발효 구아바 잎 추출물의 고혈당 억제 효과",
+                  "details": "한국식품과학회지",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Antihyperglycemic and antioxidative potential of Psidium guajava fruit in streptozotocin-induced diabetic rats.",
+                  "details": "Food Chem Toxicol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Comparative Effects of Some Medicinal Plants: Anacardium occidentale, Eucalyptus globulus, Psidium guajava, and Xylopia aethiopica Extracts in Alloxan-Induced Diabetic Male Wistar Albino Rats.",
+                  "details": "Biochem Res Int.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Consumption of guava may have beneficial effects in type 2 diabetes: A bioactive perspective",
+                  "details": "Int J Biol Macromol",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effect of guava (Psidium guajava Linn.) leaf soluble solids on glucose metabolism in type 2 diabetic rats",
+                  "details": "Phytother Res",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Guava leaf extracts promote glucose metabolism in SHRSP.Z-Leprfa/Izm rats by improving insulin resistance in skeletal muscle",
+                  "details": "BMC Complement Altern Med",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "12",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective Effects of Red Guava on Inflammation and Oxidative Stress in Streptozotocin-Induced Diabetic Mice.",
+                  "details": "Molecules.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Psidium guajava Linn. leaf extract affects hepatic glucose transporter-2 to attenuate early onset of insulin resistance consequent to high fructose intake: An experimental study.",
+                  "details": "Pharmacognosy Res.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Renal protective effects of extracts from guava fruit (Psidium guajava L.) in diabetic mice.",
+                  "details": "Plant Foods Hum Nutr.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Beneficial effects of Psidium guajava leaf extract on diabetic myocardium.",
+                  "details": "Exp Toxicol Pathol.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Antioxidant and antiglycative potential of ethyl acetate fraction of Psidium guajava leaf extract in streptozotocin-induced diabetic rats.",
+                  "details": "Plant Foods Hum Nutr.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Antidiabetic effects of extracts from Psidium guajava.",
+                  "details": "J Ethnopharmacol.  2005",
+                  "pblicte_Year": "2005"
+                },
+                {
+                  "title": "STZ으로 당뇨를 유발한 실험쥐에 대한 Psidium guajava L.과 Lagerstroemia speciosa L. 잎 추출물의 항당뇨 효과",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "저용량 Streptozotocin으로 유도된 당뇨모델 생쥐에서 발효 구아바 잎 추출물의 고혈당 억제 효과",
+                  "details": "한국식품과학회지",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Antihyperglycemic and antioxidative potential of Psidium guajava fruit in streptozotocin-induced diabetic rats.",
+                  "details": "Food Chem Toxicol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Consumption of guava may have beneficial effects in type 2 diabetes: A bioactive perspective",
+                  "details": "Int J Biol Macromol",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effect of guava (Psidium guajava Linn.) leaf soluble solids on glucose metabolism in type 2 diabetic rats",
+                  "details": "Phytother Res",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Guava leaf extracts promote glucose metabolism in SHRSP.Z-Leprfa/Izm rats by improving insulin resistance in skeletal muscle",
+                  "details": "BMC Complement Altern Med",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Psidium guajava Linn. leaf extract affects hepatic glucose transporter-2 to attenuate early onset of insulin resistance consequent to high fructose intake: An experimental study.",
+                  "details": "Pharmacognosy Res.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "저용량 Streptozotocin으로 유도된 당뇨모델 생쥐에서 발효 구아바 잎 추출물의 고혈당 억제 효과",
+                  "details": "한국식품과학회지",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "구아바 잎 열수추출물의 당류분해효소 저해 효과 및 OGTT에 미치는 효과",
+                  "details": "韓國藥用作物學會誌 = Korean journal of medicinal crop science",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Consumption of guava may have beneficial effects in type 2 diabetes: A bioactive perspective",
+                  "details": "Int J Biol Macromol",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effect of guava (Psidium guajava Linn.) leaf soluble solids on glucose metabolism in type 2 diabetic rats",
+                  "details": "Phytother Res",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Guava leaf extracts promote glucose metabolism in SHRSP.Z-Leprfa/Izm rats by improving insulin resistance in skeletal muscle",
+                  "details": "BMC Complement Altern Med",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Biochemical changes in the kidney and liver of rats following administration of ethanolic extract of Psidium guajava leaves.",
+                  "details": "Hum Exp Toxicol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Effect of Aqueous Extract of Psidium Guajava Leaves on Liver Enzymes, Histological Integrity and Hematological Indices in Rats.",
+                  "details": "Gastroenterology Res.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Protective Effects of Guava Pulp on Cholestatic Liver Injury.",
+                  "details": "ISRN Hepatol.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "A study of the anti-inflammatory effect of the leaves of Psidium guajava Linn. on experimental animal models.",
+                  "details": "Pharmacognosy Res.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Guava pomace: a new source of anti-inflammatory and analgesic bioactives.",
+                  "details": "BMC Complement Altern Med.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Lycopene rich extract from red guava (Psidium guajava L.) displays anti-inflammatory and antioxidant profile by reducing suggestive hallmarks of acute inflammatory response in mice",
+                  "details": "Food Res Int",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antiplasmodial activity of certain medicinal plants against chloroquine resistant Plasmodium berghei infected white albino BALB/c mice.",
+                  "details": "J Parasit Dis.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Molecular mechanisms of the antiglycative and cardioprotective activities of Psidium guajava leaves in the rat diabetic myocardium",
+                  "details": "Pharm Biol",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Oreochromis mossambicus diet supplementation with Psidium guajava leaf extracts enhance growth, immune, antioxidant response and resistance to Aeromonas hydrophila.",
+                  "details": "Fish Shellfish Immunol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effect of guava leaves on the growth performance and cytokine gene expression of Labeo rohita and its susceptibility to Aeromonas hydrophila infection.",
+                  "details": "Fish Shellfish Immunol.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypolipidaemic & hepatoprotective effects of Psidium guajava raw fruit peel in experimental diabetes.",
+                  "details": "Indian J Med Res.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Hypolipidemic effect of fruit fibers in rats fed with high dietary fat",
+                  "details": "Toxicol Ind Health",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H030",
+            "fnclty_Nm": "중금속 배출",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective Effect of Psidium guajava in Arsenic-induced Oxidative Stress and Cytological Damage in Rats.",
+                  "details": "Toxicol Int.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Ameliorative Potential of Psidium guajava on Hemato-biochemical Alterations in Arsenic-exposed Wistar Rats.",
+                  "details": "Toxicol Int.  2012",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Aqueous Extract of Psidium Guajava Leaves on Liver Enzymes, Histological Integrity and Hematological Indices in Rats.",
+                  "details": "Gastroenterology Res.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The hypoglycemic effects of guava leaf (Psidium guajava L.) extract are associated with improving endothelial dysfunction in mice with diet-induced obesity",
+                  "details": "Food Res Int",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Guava leaf extracts alleviate fatty liver via expression of adiponectin receptors in SHRSP.Z-Leprfa/Izm rats.",
+                "details": "Nutr Metab (Lond).  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Renal protective effects of extracts from guava fruit (Psidium guajava L.) in diabetic mice.",
+                "details": "Plant Foods Hum Nutr.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beneficial effects of Psidium guajava leaf extract on diabetic myocardium.",
+                "details": "Exp Toxicol Pathol.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibitory effect of Psidium guajava water extract in the development of 2,4-dinitrochlorobenzene-induced atopic dermatitis in NC/Nga mice.",
+                "details": "Food Chem Toxicol.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

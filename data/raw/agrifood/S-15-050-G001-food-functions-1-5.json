@@ -1,0 +1,73 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-050",
+    "sample_Nm": "곤드레(고려엉겅퀴)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Inhibitory effect of a Cirsium setidens extract on hepatic fat accumulation in mice fed a high-fat diet via the induction of fatty acid 棺-oxidation.",
+                  "details": "Biosci Biotechnol Biochem.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Inhibitory Effect of a Cirsium setidens Extract on Hepatic Fat Accumulation in Mice Fed a High-Fat Diet via the Induction of Fatty Acid β-Oxidation",
+                  "details": "Bioscience, biotechnology, and biochemistry 77.7 (2013): 1424-1429.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Standardized Cirsium setidens nakai Ethanolic Extract Suppresses Adipogenesis and Regulates Lipid Metabolisms in 3T3-L1 Adipocytes and C57BL/6J Mice Fed High-Fat Diets.",
+                "details": "Journal of medicinal food 20.8 (2017): 763-776.",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antioxidant and Hepatoprotective Activities of Cirsium setidens NAKAI against CCl4-Induced Liver Damage",
+                "details": "The American Journal of Chinese Medicine 36.01 (2008): 107-114.",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-inflammatory activity of pectolinarigenin and pectolinarin isolated from Cirsium chanroenicum",
+                "details": "Biological and Pharmaceutical Bulletin 31.11 (2008): 2063-2067.",
+                "pblicte_Year": "2008"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

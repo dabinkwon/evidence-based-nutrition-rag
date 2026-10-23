@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-055",
+    "sample_Nm": "쑥갓",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Identiﬁcation of Campesterol from Chrysanthemum coronarium L. and its Antiangiogenic Activities",
+                "details": "PHYTOTHERAPY RESEARCH",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Renoprotective Effect of Chrysanthemum coronarium L. Extract on Adenine-Induced Chronic Kidney Disease in Mice.",
+                "details": "Pharmaceuticals",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Garland chrysanthemum consumption ameliorates age-related hearing loss in C57BL/6 mouse; model system to explore hearing loss prevention foods in a short period",
+                "details": "Bioscience, Biotechnology, and Biochemistry",
+                "pblicte_Year": "2022"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

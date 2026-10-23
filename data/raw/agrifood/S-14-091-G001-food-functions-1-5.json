@@ -1,0 +1,90 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-091",
+    "sample_Nm": "머위",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Neuroprotection by extract of Petasites japonicus leaves, a traditional vegetable, against oxidative stress in brain of mice challenged with kainic acid.",
+                "details": "Eur J Nutr. 2006 Mar;45(2):61-9. Epub 2005 Jul 7.",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Petasin activates AMP-activated protein kinase and modulates glucose metabolism.",
+                "details": "J Nat Prod. 2014 Jun 27;77(6):1262-9. doi: 10.1021/np400867m. Epub 2014 May 28.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Suppression of murine preadipocyte differentiation and reduction of visceral fat accumulation by a Petasites japonicus ethanol extract in mice fed a high-fat diet.",
+                "details": "Biosci Biotechnol Biochem. 2010;74(3):499-503. Epub 2010 Mar 7.",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Neuroprotection by extract of Petasites japonicus leaves, a traditional vegetable, against oxidative stress in brain of mice challenged with kainic acid.",
+                "details": "Eur J Nutr. 2006 Mar;45(2):61-9. Epub 2005 Jul 7.",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antiproliferative effect of the methanol extract from the roots of Petasites japonicus on Hep3B hepatocellular carcinoma cells in vitro and in vivo.",
+                "details": "Exp Ther Med. 2015 May;9(5):1791-1796. Epub 2015 Feb 17.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-allergic and anti-inflammatory effects of bakkenolide B isolated from Petasites japonicus leaves.",
+                "details": "J Ethnopharmacol. 2013 Jul 30;148(3):890-4. doi: 10.1016/j.jep.2013.05.037. Epub 2013 May 25.",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

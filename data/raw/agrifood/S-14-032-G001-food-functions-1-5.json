@@ -1,0 +1,100 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-032",
+    "sample_Nm": "갯기름나물",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Peucedanum japonicum Thunb extract on high-fat diet-induced obesity and gene expression in mice.",
+                  "details": "J Oleo Sci. 2012;61(2):89-101.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effect of Peucedanum japonicum Thunb on the expression of obesity-related genes in mice on a high-fat diet.",
+                  "details": "J Oleo Sci. 2011;60(10):527-36.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Peucedanum japonicum Thunb inhibits high-fat diet induced obesity in mice.",
+                  "details": "Phytother Res. 2011 Jun;25(6):870-7. doi: 10.1002/ptr.3355. Epub 2010 Nov 24.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "갯기름나물이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 지질대사 및 항산화 활성에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "식방풍잎(Peucedanum japonicum Thunberg L.)의 물추출물이 3T3-L1 세포와 고지방식이로 유도된 마우스에서 항비만 효과",
+                  "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "갯기름나물이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 지질대사 및 항산화 활성에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "갯기름나물이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 지질대사 및 항산화 활성에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The modifying effect of Peucedanum japonicum, a herb in the Ryukyu Islands, on azoxymethane-induced colon preneoplastic lesions in male F344 rats.",
+                "details": "Cancer Lett. 2004 Mar 18;205(2):133-41.",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "갯기름나물이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 지질대사 및 항산화 활성에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

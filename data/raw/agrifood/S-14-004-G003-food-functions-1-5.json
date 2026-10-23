@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-004",
+    "sample_Nm": "호박",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Improvement in HDL cholesterol in postmenopausal women supplemented with pumpkin seed oil: pilot study.",
+                "details": "Climacteric. 2011 Oct;14(5):558-64. doi: 10.3109/13697137.2011.563882. Epub 2011 May 5.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H041",
+            "fnclty_Nm": "전립선 건강의 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Pumpkin seed oil (prostafit) or prazosin? Which one is better in the treatment of symptomatic benign prostatic hyperplasia.",
+                "details": "J Pak Med Assoc. 2014 Jun;64(6):683-5.",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-024",
+    "sample_Nm": "귀리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beneficial Effects of Oat (Avena sativa L.) Bran Extract in Loperamide-induced Constipated SD Rats",
+                "details": "Biomedical science letters = 대한의생명과학회지",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "High Levels of Avenanthramides in Oat-Based Diet Further Suppress High Fat Diet-Induced Atherosclerosis in Ldlr -/- MiceHigh Levels of Avenanthramides in Oat-Based Diet Further Suppress High Fat Diet-Induced Atherosclerosis in Ldlr -/- Mice",
+                "details": "Journal of agricultural and food chemistry",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In-Vitro, In-Vivo 동물모델에서 귀리 유래 수용성 베타-글루칸의 칼로리 제한 효과 작용기전 규명",
+                "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                "pblicte_Year": "2017"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

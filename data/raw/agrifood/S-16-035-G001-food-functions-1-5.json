@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-035",
+    "sample_Nm": "율무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antioxidant Enzyme Activity in Rat Liver and Kidney Related to Coix Intake",
+                "details": "Journal of food science and nutrition",
+                "pblicte_Year": "1999"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "율무추출액이 비만쥐의 지질강하 및 혈당치에 미치는 영향",
+                "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "율무추출액이 비만쥐의 지질강하 및 혈당치에 미치는 영향",
+                "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                "pblicte_Year": "2006"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-003",
+    "sample_Nm": "삼붕냐와(명월초)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Gynura procumbens extract improves insulin sensitivity and suppresses hepatic gluconeogenesis in C57BL/KsJ-db/db mice.",
+                  "details": "Nutr Res Pract.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Antihyperglycaemic and Toxicological Evaluations of Extract and Fractions of Gynura procumbens Leaves.",
+                  "details": "Trop Life Sci Res.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Hypoglycemic and anti-hyperglycemic study of Gynura procumbens leaf extracts.",
+                  "details": "Asian Pac J Trop Biomed.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Antidiabetic properties and mechanism of action of Gynura procumbens water extract in streptozotocin-induced diabetic rats.",
+                  "details": "Molecules.  2010",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Gynura procumbens Extract Alleviates Postprandial Hyperglycemia in Diabetic Mice.",
+                  "details": "Prev Nutr Food Sci.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Gynura procumbens extract improves insulin sensitivity and suppresses hepatic gluconeogenesis in C57BL/KsJ-db/db mice.",
+                  "details": "Nutr Res Pract.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Hypoglycemic and anti-hyperglycemic study of Gynura procumbens leaf extracts.",
+                  "details": "Asian Pac J Trop Biomed.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Antidiabetic properties and mechanism of action of Gynura procumbens water extract in streptozotocin-induced diabetic rats.",
+                  "details": "Molecules.  2010",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Gynura procumbens extract improves insulin sensitivity and suppresses hepatic gluconeogenesis in C57BL/KsJ-db/db mice.",
+                  "details": "Nutr Res Pract.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Antihyperglycaemic and Toxicological Evaluations of Extract and Fractions of Gynura procumbens Leaves.",
+                  "details": "Trop Life Sci Res.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chemoprevention of colonic aberrant crypt foci by Gynura procumbens in rats.",
+                "details": "J Ethnopharmacol.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Gynura procumbens Reverses Acute and Chronic Ethanol-Induced Liver Steatosis through MAPK/SREBP-1c-Dependent and -Independent Pathways.",
+                "details": "J Agric Food Chem.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-098",
+    "sample_Nm": "무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The antihypertensive effect of ethyl acetate extract of radish leaves in spontaneously hypertensive rats.",
+                  "details": "Nutr Res Pract. 2012 Aug;6(4):308-14. doi: 10.4162/nrp.2012.6.4.308. Epub 2012 Aug 31.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Radish seed extract mediates its cardiovascular inhibitory effects via muscarinic receptor activation.",
+                  "details": "Fundam Clin Pharmacol. 2006 Feb;20(1):57-63.",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "The antihypertensive effect of ethyl acetate extract of radish leaves in spontaneously hypertensive rats.",
+                  "details": "Nutr Res Pract. 2012 Aug;6(4):308-14. doi: 10.4162/nrp.2012.6.4.308. Epub 2012 Aug 31.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "The antihypertensive effect of ethyl acetate extract of radish leaves in spontaneously hypertensive rats",
+                  "details": "Nutr Res Pract",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "The antihypertensive effect of ethyl acetate extract of radish leaves in spontaneously hypertensive rats",
+                  "details": "Nutrition research and practice",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The antihypertensive effect of ethyl acetate extract of radish leaves in spontaneously hypertensive rats.",
+                  "details": "Nutr Res Pract. 2012 Aug;6(4):308-14. doi: 10.4162/nrp.2012.6.4.308. Epub 2012 Aug 31.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "The antihypertensive effect of ethyl acetate extract of radish leaves in spontaneously hypertensive rats",
+                  "details": "Nutrition research and practice",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Raphanus sativus L. seeds prevent LPS-stimulated inflammatory response through negative regulation of the p38 MAPK-NF-κB pathway.",
+                  "details": "Int Immunopharmacol. 2014 Dec;23(2):726-34.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Intestinal anti-inflammatory activity of the seeds of Raphanus sativus L. in experimental ulcerative colitis models.",
+                  "details": "J Ethnopharmacol.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The memory-enhancing effect of erucic acid on scopolamine-induced cognitive impairment in mice.",
+                "details": "Pharmacol Biochem Behav. 2016 Jan 15. doi:pii: S0091-3057(16)30006-5.  10.1016/j.pbb.2016.01.006. [Epub ahead of print]",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Raphanus sativus cv. Sango Sprout Juice Decreases Diet-Induced Obesity in Sprague Dawley Rats and Ameliorates Related Disorders.",
+                "details": "PLoS One.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Enzyme-Treated Radish Leaves on Lipid Metabolism in Rats Fed a High-Fat Diet",
+                "details": "Journal of food science and nutrition",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidiabetic effect of Raphanus sativus root juice.",
+                "details": "Pharm Biol. 2011 Jan;49(1):32-7. doi: 10.3109/13880209.2010.493178. Epub 2010 Aug 5.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The mitigative effect of Raphanus sativus oil on chromium-induced geno- and hepatotoxicity in male rats.",
+                "details": "J Adv Res.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

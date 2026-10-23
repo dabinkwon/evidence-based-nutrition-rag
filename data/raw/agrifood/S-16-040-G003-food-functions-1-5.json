@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-040",
+    "sample_Nm": "퀴노아",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In vitro starch digestibility and in vivo glucose response of gluten-free foods and their gluten counterparts",
+                "details": "Eur J Nutr",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H039",
+            "fnclty_Nm": "갱년기 여성의 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Metabolic parameters of postmenopausal women after quinoa or corn flakes intake--a prospective and double-blind study",
+                "details": "Int J Food Sci Nutr",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Pseudocereal-Based Breakfast Meals on the First and Second Meal Glucose Tolerance in Healthy and Diabetic Subjects",
+                "details": "Open Access Maced J Med Sci",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

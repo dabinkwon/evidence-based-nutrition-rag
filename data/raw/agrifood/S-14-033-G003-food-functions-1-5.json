@@ -1,0 +1,78 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-033",
+    "sample_Nm": "보리",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "High-Molecular-Weight b-Glucan Decreases Serum Cholesterol Differentially Based on the CYP7A1 rs3808607 Polymorphism in Mildly Hypercholesterolemic Adults.",
+                "details": "J Nutr.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Phytochemical Pharmacokinetics and Bioactivity of Oat and Barley Flour: A Randomized Crossover Trial.",
+                "details": "Nutrients.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "High Molecular Weight Barley b-Glucan Alters Gut Microbiota Toward Reduced Cardiovascular Disease Risk.",
+                "details": "Front Microbiol.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of meals with high soluble fibre, high amylose barley variant on glucose, insulin, satiety and thermic effect of food in healthy lean women.",
+                "details": "Eur J Clin Nutr. 2007 May;61(5):597-604. Epub 2006 Dec 13.",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of a Dietary Supplement with Barley Sprout Extract on Blood Cholesterol Metabolism.",
+                "details": "Evid Based Complement Alternat Med. 2015;2015:473056. doi: 10.1155/2015/473056. Epub 2015 May 25.",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

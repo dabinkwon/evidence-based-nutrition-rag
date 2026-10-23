@@ -1,0 +1,213 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-048",
+    "sample_Nm": "시금치",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "7",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Acute Effects of a Spinach Extract Rich in Thylakoids on Satiety: A Randomized Controlled Crossover Trial.",
+                  "details": "J Am Coll Nutr. 2015 Nov-Dec;34(6):470-7. doi: 10.1080/07315724.2014.1003999. Epub 2015 Jun 1.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Consumption of thylakoid-rich spinach extract reduces hunger, increases satiety and reduces cravings for palatable food in overweight women.",
+                  "details": "Appetite. 2015 Aug;91:209-19. doi: 10.1016/j.appet.2015.04.051. Epub 2015 Apr 17.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Acute Effects of a Spinach Extract Rich in Thylakoids on Satiety: A Randomized Controlled Crossover Trial",
+                  "details": "Journal of the American College of Nutrition",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Antioxidant supplementation boosts the advantages of CrossFit workouts on oxidative and muscle damage markers in obese males",
+                  "details": "Nutrition & Metabolism",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "The effects of spinach-derived thylakoid supplementation in combination with calorie restriction on anthropometric parameters and metabolic profiles in obese women with polycystic ovary syndrome: a randomized, double-blind, placebo-controlled clinical trial.",
+                  "details": "nutrition journal",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "A 12-Week Randomized Double-Blind Placebo-Controlled Clinical Trial, Evaluating the Effect of Supplementation with a Spinach Extract on Skeletal Muscle Fitness in Adults Older Than 50 Years of Age",
+                  "details": "nutrients",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Impact of spinach thylakoid extract-induced 12-week high-intensity functional training on specific adipokines in obese males",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of lutein- and zeaxanthin-rich foods v. supplements on macular pigment level and serological markers of endothelial activation, inflammation and oxidation: pilot studies in healthy volunteers.",
+                  "details": "Br J Nutr. 2012 Jul;108(2):334-42. doi: 10.1017/S0007114511005599. Epub 2012 Feb 7.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Impact of spinach consumption on DNA stability in peripheral lymphocytes and on biochemical blood parameters: results of a human intervention trial.",
+                  "details": "Eur J Nutr. 2011 Oct;50(7):587-94. doi: 10.1007/s00394-011-0167-6. Epub 2011 Mar 9.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Effect of Spinacia oleraceae L. and Perilla frutescens L. on antioxidants and lipid peroxidation in an intervention study in healthy individuals.",
+                  "details": "Plant Foods Hum Nutr. 2010 Mar;65(1):71-6. doi: 10.1007/s11130-009-0152-x.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Antioxidant supplementation boosts the advantages of CrossFit workouts on oxidative and muscle damage markers in obese males",
+                  "details": "Nutrition & Metabolism",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Spinach, a High Dietary Nitrate Source, on Arterial Stiffness and Related Hemodynamic Measures: A Randomized, Controlled Trial in Healthy Adults.",
+                  "details": "Clin Nutr Res. 2015 Jul;4(3):160-7. doi: 10.7762/cnr.2015.4.3.160. Epub 2015 Jul 31.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects of a nitrate-rich meal on arterial stiffness and blood pressure in healthy volunteers.",
+                  "details": "Nitric Oxide. 2013 Nov 30;35:123-30. doi: 10.1016/j.niox.2013.10.001. Epub 2013 Oct 10.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of Spinach, a High Dietary Nitrate Source, on Arterial Stiffness and Related Hemodynamic Measures: A Randomized, Controlled Trial in Healthy Adults",
+                  "details": "Clinical Nutrition Research",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of green-leafy vegetable intake on postprandial glycemic and lipidemic responses and a-tocopherol concentration in normal weight and obese men.",
+                  "details": "J Nutr Sci Vitaminol (Tokyo). 2013;59(4):264-71.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Antioxidant supplementation boosts the advantages of CrossFit workouts on oxidative and muscle damage markers in obese males",
+                  "details": "Nutrition & Metabolism",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Effects of green-leafy vegetable intake on postprandial glycemic and lipidemic responses and α-tocopherol concentration in normal weight and obese men.",
+                  "details": "Journal of Nutritional Science and Vitaminology",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of green-leafy vegetable intake on postprandial glycemic and lipidemic responses and a-tocopherol concentration in normal weight and obese men.",
+                  "details": "J Nutr Sci Vitaminol (Tokyo). 2013;59(4):264-71.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Acute Effects of a Spinach Extract Rich in Thylakoids on Satiety: A Randomized Controlled Crossover Trial",
+                  "details": "Journal of the American College of Nutrition",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects of green-leafy vegetable intake on postprandial glycemic and lipidemic responses and α-tocopherol concentration in normal weight and obese men.",
+                  "details": "Journal of Nutritional Science and Vitaminology",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antioxidant supplementation boosts the advantages of CrossFit workouts on oxidative and muscle damage markers in obese males",
+                  "details": "Nutrition & Metabolism",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "A 12-Week Randomized Double-Blind Placebo-Controlled Clinical Trial, Evaluating the Effect of Supplementation with a Spinach Extract on Skeletal Muscle Fitness in Adults Older Than 50 Years of Age",
+                  "details": "nutrients",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antioxidant supplementation boosts the advantages of CrossFit workouts on oxidative and muscle damage markers in obese males",
+                  "details": "Nutrition & Metabolism",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "The effects of spinach-derived thylakoid supplementation in combination with calorie restriction on anthropometric parameters and metabolic profiles in obese women with polycystic ovary syndrome: a randomized, double-blind, placebo-controlled clinical trial.",
+                  "details": "nutrition journal",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H046",
+            "fnclty_Nm": "여성건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effects of spinach-derived thylakoid supplementation in combination with calorie restriction on anthropometric parameters and metabolic profiles in obese women with polycystic ovary syndrome: a randomized, double-blind, placebo-controlled clinical trial.",
+                "details": "nutrition journal",
+                "pblicte_Year": "2020"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

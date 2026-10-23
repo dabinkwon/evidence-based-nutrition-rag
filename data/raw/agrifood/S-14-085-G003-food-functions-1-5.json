@@ -1,0 +1,268 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-085",
+    "sample_Nm": "구기자나무",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "A Single Dose of Goji Berries Does Not Affect Postprandial Energy Expenditure and Substrate Oxidation in Healthy, Overweight Men.",
+                  "details": "Journal of nutrition and metabolism",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Practical Application of Antidiabetic Efficacy of Lycium barbarum Polysaccharide in Patients with Type 2 Diabetes.",
+                  "details": "Medicinal chemistry (Shariqah (United Arab Emirates))",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects of wolfberry (Lycium barbarum) consumption on the human plasma lipidome and its association with cardiovascular disease risk factors: a randomized controlled trial of middle-aged and older adults.",
+                  "details": "Frontiers in nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Enhancing the cardiovascular protective effects of a healthy dietary pattern with wolfberry (Lycium barbarum): A randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Modulating effects of oral administration of Lycii Fructus extracts on UVB-induced skin erythema: A Randomized, placebo-controlled study.",
+                  "details": "Biomedical reports",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Lycium barbarum Reduces Abdominal Fat and Improves Lipid Profile and Antioxidant Status in Patients with Metabolic Syndrome.",
+                  "details": "Oxidative medicine and cellular longevity",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Wolfberry (Lycium barbarum) Consumption with a Healthy Dietary Pattern Lowers Oxidative Stress in Middle-Aged and Older Adults: A Randomized Controlled Trial.",
+                  "details": "Antioxidants (Basel, Switzerland)",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Dietary Wolfberry Extract Modifies Oxidative Stress by Controlling the Expression of Inflammatory mRNAs in Overweight and Hypercholesterolemic Subjects: A Randomized, Double-Blind, Placebo-Controlled Trial.",
+                  "details": "Journal of agricultural and food chemistry",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "A Single Dose of Goji Berries Does Not Affect Postprandial Energy Expenditure and Substrate Oxidation in Healthy, Overweight Men.",
+                  "details": "Journal of nutrition and metabolism",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Practical Application of Antidiabetic Efficacy of Lycium barbarum Polysaccharide in Patients with Type 2 Diabetes.",
+                  "details": "Medicinal chemistry (Shariqah (United Arab Emirates))",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Lycium barbarum Reduces Abdominal Fat and Improves Lipid Profile and Antioxidant Status in Patients with Metabolic Syndrome.",
+                  "details": "Oxidative medicine and cellular longevity",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "A Single Dose of Goji Berries Does Not Affect Postprandial Energy Expenditure and Substrate Oxidation in Healthy, Overweight Men.",
+                  "details": "Journal of nutrition and metabolism",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Lycium barbarum Reduces Abdominal Fat and Improves Lipid Profile and Antioxidant Status in Patients with Metabolic Syndrome.",
+                  "details": "Oxidative medicine and cellular longevity",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Lycium barbarum increases caloric expenditure and decreases waist circumference in healthy overweight men and women: pilot study.",
+                  "details": "Journal of the American College of Nutrition",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Practical Application of Antidiabetic Efficacy of Lycium barbarum Polysaccharide in Patients with Type 2 Diabetes.",
+                  "details": "Medicinal chemistry (Shariqah (United Arab Emirates))",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects of Lycium barbarum polysaccharide on cytokines in adolescents with subthreshold depression: a randomized controlled study.",
+                  "details": "Neural regeneration research",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Lycium barbarum Reduces Abdominal Fat and Improves Lipid Profile and Antioxidant Status in Patients with Metabolic Syndrome.",
+                  "details": "Oxidative medicine and cellular longevity",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H021",
+            "fnclty_Nm": "집중력향상",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Standardized Lycium chinense fruit extract enhances attention and cognitive function in healthy young people by a double-blind, randomized, placebo-controlled, crossover trial.",
+                "details": "Journal of research in medical sciences",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Enhancing the cardiovascular protective effects of a healthy dietary pattern with wolfberry (Lycium barbarum): A randomized controlled trial.",
+                "details": "The American journal of clinical nutrition",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Enhancing the cardiovascular protective effects of a healthy dietary pattern with wolfberry (Lycium barbarum): A randomized controlled trial.",
+                "details": "The American journal of clinical nutrition",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H033",
+            "fnclty_Nm": "눈(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Delay of cone degeneration in retinitis pigmentosa using a 12-month treatment with Lycium barbarum supplement.",
+                "details": "Journal of ethnopharmacology",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H037",
+            "fnclty_Nm": "충치 발생 위험 감소(치아 건강)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Efficacy of Lycium barbarum (Goji berry) mouthwash for managing periodontitis: a randomized clinical trial.",
+                "details": "F1000Research",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Lycium barbarum polysaccharide on cytokines in adolescents with subthreshold depression: a randomized controlled study.",
+                "details": "Neural regeneration research",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H058",
+            "fnclty_Nm": "노화로 인해 감소될 수 있는 황반색소밀도를 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Goji Berry Intake Increases Macular Pigment Optical Density in Healthy Adults: A Randomized Pilot Trial.",
+                "details": "Nutrients",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H062",
+            "fnclty_Nm": "자외선으로 인한 피부 손상으로부터 피부 건강 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Modulating effects of oral administration of Lycii Fructus extracts on UVB-induced skin erythema: A Randomized, placebo-controlled study.",
+                "details": "Biomedical reports",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Lycium barbarum Reduces Abdominal Fat and Improves Lipid Profile and Antioxidant Status in Patients with Metabolic Syndrome.",
+                "details": "Oxidative medicine and cellular longevity",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Lycium chinense Miller fruit extract lowers liver enzyme levels in subjects with mild hepatic dysfunction: a randomized, double-blind, placebo-controlled clinical trial.",
+                "details": "European journal of nutrition",
+                "pblicte_Year": "2023"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-061",
+    "sample_Nm": "개똥쑥",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Leishmanicidal activities of Artemisia annua leaf essential oil against Visceral Leishmaniasis.",
+                  "details": "Front Microbiol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Antimalarial properties of Artemisia vulgaris L. ethanolic leaf extract in a Plasmodium berghei murine malaria model.",
+                  "details": "J Vector Borne Dis.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Dried whole plant Artemisia annua as an antimalarial therapy.",
+                  "details": "PLoS One.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effects of artemisinin and Artemisia extracts on Haemonchus contortus in gerbils (Meriones unguiculatus).",
+                  "details": "Vet Parasitol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Evaluation of Artemisia annua infusion efficacy for the treatment of malaria in Plasmodium chabaudi chabaudi infected mice.",
+                  "details": "Exp Parasitol.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effect of Artemisia annua L. extract against galactose-induced oxidative stress in mice.",
+                  "details": "PLoS One.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "흑마늘 및 개똥쑥 추출물의 급이가 강제운동 시 흰쥐의 체내 지질 성분 및 간조직의 항산화효소 활성에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Artemisia annua L. Aqueous Extract Promotes Intestine Immunity and Antioxidant Function in Broilers",
+                  "details": "Frontiers in Veterinary Science",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Artemisia annua Extract Attenuate Doxorubicin-Induced Hepatic Injury via PI-3K/Akt/Nrf-2-Mediated Signaling Pathway in Rats",
+                  "details": "International Journal of Molecular Sciences",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of Artemisia annua L. on postmenopausal syndrome in ovariectomized mice",
+                  "details": "Journal of Ethnopharmacology",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Artemisia annua Extract Improves the Cognitive Deficits and Reverses the Pathological Changes of Alzheimer’s Disease via Regulating YAP Signaling",
+                  "details": "International Journal of Molecular Sciences",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "흑마늘 및 개똥쑥 추출물의 급이가 강제운동 시 흰쥐의 체내 지질 성분 및 간조직의 항산화효소 활성에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Artemisia annua Extract Attenuate Doxorubicin-Induced Hepatic Injury via PI-3K/Akt/Nrf-2-Mediated Signaling Pathway in Rats",
+                  "details": "International Journal of Molecular Sciences",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-adipogenic effect of Artemisia annua in diet-induced-obesity mice model.",
+                  "details": "J Vet Sci.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-Obesity Effects of Artemisia annua Extract in Zucker Fatty Rats and High-Fat Diet Sprague Dawley Rats through Upregulation of Uncoupling Protein 1",
+                  "details": "Journal of Obesity & Metabolic Syndrome",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Flavonoids casticin and chrysosplenol D from Artemisia annua L. inhibit inflammation in vitro and in vivo.",
+                  "details": "Toxicol Appl Pharmacol.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Artemisinin and deoxyartemisinin isolated from Artemisia annua L. promote distinct antinociceptive and anti-inflammatory effects in an animal model",
+                  "details": "Biomedicine & Pharmacotherapy",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Artemisia annua L. Aqueous Extract Promotes Intestine Immunity and Antioxidant Function in Broilers",
+                "details": "Frontiers in Veterinary Science",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "흑마늘 및 개똥쑥 추출물의 급이가 강제운동 시 흰쥐의 체내 지질 성분 및 간조직의 항산화효소 활성에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Artemisinin and deoxyartemisinin isolated from Artemisia annua L. promote distinct antinociceptive and anti-inflammatory effects in an animal model",
+                "details": "Biomedicine & Pharmacotherapy",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Artemisia annua Leaf Extract Attenuates Hepatic Steatosis and Inflammation in High-Fat Diet-Fed Mice.",
+                "details": "J Med Food.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "흑마늘 및 개똥쑥 추출물의 급이가 강제운동 시 흰쥐의 체내 지질 성분 및 간조직의 항산화효소 활성에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Artemisinin Attenuates Isoproterenol-induced Cardiac Hypertrophy via the ERK1/2 and p38 MAPK Signaling Pathways",
+                "details": "Current Molecular Pharmacology",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Artemisinin attenuates tubulointerstitial inflammation and fibrosis via the NF‐κB/NLRP3 pathway in rats with 5/6 subtotal nephrectomy",
+                "details": "Journal of Cellular Biochemistry",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H013",
+            "fnclty_Nm": "과민면역(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-allergic effect of Artemisia extract in rats.",
+                "details": "Exp Ther Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Sedative effects of Iranian Artemisia annua in mice: possible benzodiazepine receptors involvement.",
+                "details": "Pharm Biol.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Neuronal maturation in the hippocampal dentate gyrus via chronic oral administration of Artemisa annua extract is independent of COX-2 signaling pathway in the diet-induced obesity (DIO) mice model.",
+                "details": "J Vet Sci.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

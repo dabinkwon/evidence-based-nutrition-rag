@@ -1,0 +1,383 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-073",
+    "sample_Nm": "여주",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "11",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Momordica charantia fruit extract on vascular complication in type 1 diabetic rats.",
+                  "details": "EXCLI J. 2015;14:179-89. doi: 10.17179/excli2014-539.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-diabetic properties of Momordica charantia L. polysaccharide in alloxan-induced diabetic mice.",
+                  "details": "Int J Biol Macromol. 2015 Nov;81:538-43. doi: 10.1016/j.ijbiomac.2015.08.049. Epub 2015 Aug 28.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Preventive effects of bitter melon (Momordica charantia) against insulin resistance and diabetes are associated with the inhibition of NF-κB and JNK pathways in high-fat-fed OLETF rats.",
+                  "details": "J Nutr Biochem. 2015 Mar;26(3):234-40. doi: 10.1016/j.jnutbio.2014.10.010. Epub 2014 Nov 22.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "In vivo hypoglycemic effect of methanolic fruit extract of Momordica charantia L.",
+                  "details": "Afr Health Sci. 2013 Dec;13(4):933-9. doi: 10.4314/ahs.v13i4.11.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Differential anti-diabetic effects and mechanism of action of charantin-rich extract of Taiwanese Momordica charantia between type 1 and type 2 diabetic mice.",
+                  "details": "Food Chem Toxicol. 2014 Jul;69:347-56. doi: 10.1016/j.fct.2014.04.008. Epub 2014 Apr 18.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Momordica charantia (Bitter Melon) reduces obesity-associated macrophage and mast cell infiltration as well as inflammatory cytokine expression in adipose tissues.",
+                  "details": "PLoS One. 2013;8(12):e84075. doi: 10.1371/journal.pone.0084075.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Structure modeling and antidiabetic activity of a seed protein of Momordica charantia in non-obese diabetic (NOD) mice.",
+                  "details": "Bioinformation. 2013;9(15):766-70. doi: 10.6026/97320630009766.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Momordica charantia ameliorates insulin resistance and dyslipidemia with altered hepatic glucose production and fatty acid synthesis and AMPK phosphorylation in high-fat-fed mice.",
+                  "details": "Phytother Res. 2014 Mar;28(3):363-71. doi: 10.1002/ptr.5003. Epub 2013 Apr 23.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Momordica charantia and its novel polypeptide regulate glucose homeostasis in mice via binding to insulin receptor.",
+                  "details": "J Agric Food Chem. 2013 Mar 13;61(10):2461-8. doi: 10.1021/jf3042402. Epub 2013 Feb 27.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Comprehensive Evaluation of Anti-hyperglycemic Activity of Fractionated Momordica charantia Seed Extract in Alloxan-Induced Diabetic Rats.",
+                  "details": "Evid Based Complement Alternat Med. 2012;2012:293650. doi: 10.1155/2012/293650. Epub 2012 Dec 20.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Bioactives from bitter melon enhance insulin signaling and modulate acyl carnitine content in skeletal muscle in high-fat diet-fed mice.",
+                  "details": "J Nutr Biochem. 2011 Nov;22(11):1064-73. doi: 10.1016/j.jnutbio.2010.09.004. Epub 2011 Jan 28.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of wild bitter gourd treatment on inflammatory responses in BALB/c mice with sepsis.",
+                  "details": "Biomedicine (Taipei). 2014;4:17. Epub 2014 Aug 27.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Anti-inflammatory effect of Momordica charantia in sepsis mice.",
+                  "details": "Molecules. 2014 Aug 21;19(8):12777-88. doi: 10.3390/molecules190812777.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Momordica charantia (Bitter Melon) reduces obesity-associated macrophage and mast cell infiltration as well as inflammatory cytokine expression in adipose tissues.",
+                  "details": "PLoS One. 2013;8(12):e84075. doi: 10.1371/journal.pone.0084075.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Wild bitter melon (Momordica charantia Linn. var. abbreviata Ser.) extract and its bioactive components suppress Propionibacterium acnes-induced inflammation.",
+                  "details": "Food Chem. 2012 Dec 1;135(3):976-84. doi: 10.1016/j.foodchem.2012.05.045. Epub 2012 May 22.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Antioxidant and anti-inflammatory effect of conjugated linolenic acid isomers against streptozotocin-induced diabetes.",
+                  "details": "Br J Nutr. 2012 Sep 28;108(6):974-83. doi: 10.1017/S0007114511006325. Epub 2011 Dec 19.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Momordica charantia (bitter melon) attenuates high-fat diet-associated oxidative stress and neuroinflammation.",
+                  "details": "J Neuroinflammation. 2011 Jun 3;8:64. doi: 10.1186/1742-2094-8-64.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antioxidant and anti-inflammatory effect of conjugated linolenic acid isomers against streptozotocin-induced diabetes.",
+                  "details": "Br J Nutr. 2012 Sep 28;108(6):974-83. doi: 10.1017/S0007114511006325. Epub 2011 Dec 19.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Influence of Momordica charantia on oxidative stress-induced perturbations in brain monoamines and plasma corticosterone in albino rats.",
+                  "details": "Indian J Pharmacol. 2011 Jul;43(4):424-8. doi: 10.4103/0253-7613.83114.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Supplementation of bitter melon to rats fed a high-fructose diet during gestation and lactation ameliorates fructose-induced dyslipidemia and hepatic oxidative stress in male offspring.",
+                  "details": "J Nutr. 2011 Sep;141(9):1664-72. doi: 10.3945/jn.111.142299. Epub 2011 Aug 3.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Momordica charantia (bitter melon) attenuates high-fat diet-associated oxidative stress and neuroinflammation.",
+                  "details": "J Neuroinflammation. 2011 Jun 3;8:64. doi: 10.1186/1742-2094-8-64.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Bitter Melon (Momordica charantia) Extract Inhibits Tumorigenicity and Overcomes Cisplatin-Resistance in Ovarian Cancer Cells Through Targeting AMPK Signaling Cascade.",
+                  "details": "Integr Cancer Ther. 2015 Oct 19. doi:pii: 1534735415611747. [Epub ahead of print]",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "The MAP30 protein from bitter gourd (Momordica charantia) seeds promotes apoptosis in liver cancer cells in vitro and in vivo.",
+                  "details": "Cancer Lett. 2012 Nov 1;324(1):66-74. doi: 10.1016/j.canlet.2012.05.005. Epub 2012 May 9.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Cucurbitane triterpenoids from the leaves of Momordica charantia, and their cancer chemopreventive effects and cytotoxicities.",
+                  "details": "Chem Biodivers. 2012 Feb;9(2):428-40. doi: 10.1002/cbdv.201100142.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Bitter melon extract impairs prostate cancer cell-cycle progression and delays prostatic intraepithelial neoplasia in TRAMP model.",
+                  "details": "Cancer Prev Res (Phila). 2011 Dec;4(12):2122-30. doi: 10.1158/1940-6207.CAPR-11-0376. Epub 2011 Sep 12.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effects of Momordica charantia on obesity and lipid profiles of mice fed a high-fat diet.",
+                  "details": "Nutr Res Pract. 2015 Oct;9(5):489-95. doi: 10.4162/nrp.2015.9.5.489. Epub 2015 Jun 19.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Momordica charantia (Bitter Melon) reduces obesity-associated macrophage and mast cell infiltration as well as inflammatory cytokine expression in adipose tissues.",
+                  "details": "PLoS One. 2013;8(12):e84075. doi: 10.1371/journal.pone.0084075.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Bitter melon seed oil-attenuated body fat accumulation in diet-induced obese mice is associated with cAMP-dependent protein kinase activation and cell death in white adipose tissue.",
+                  "details": "J Nutr. 2012 Jul;142(7):1197-204. doi: 10.3945/jn.112.159939. Epub 2012 May 23.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Bioactives from bitter melon enhance insulin signaling and modulate acyl carnitine content in skeletal muscle in high-fat diet-fed mice.",
+                  "details": "J Nutr Biochem. 2011 Nov;22(11):1064-73. doi: 10.1016/j.jnutbio.2010.09.004. Epub 2011 Jan 28.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Momordica charantia fruit extract on vascular complication in type 1 diabetic rats.",
+                  "details": "EXCLI J. 2015;14:179-89. doi: 10.17179/excli2014-539.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Momordica charantia (Bitter Melon) reduces obesity-associated macrophage and mast cell infiltration as well as inflammatory cytokine expression in adipose tissues.",
+                  "details": "PLoS One. 2013;8(12):e84075. doi: 10.1371/journal.pone.0084075.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Momordica charantia ameliorates insulin resistance and dyslipidemia with altered hepatic glucose production and fatty acid synthesis and AMPK phosphorylation in high-fat-fed mice.",
+                  "details": "Phytother Res. 2014 Mar;28(3):363-71. doi: 10.1002/ptr.5003. Epub 2013 Apr 23.",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of wild bitter gourd treatment on inflammatory responses in BALB/c mice with sepsis.",
+                  "details": "Biomedicine (Taipei). 2014;4:17. Epub 2014 Aug 27.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Momordica charantia ameliorates insulin resistance and dyslipidemia with altered hepatic glucose production and fatty acid synthesis and AMPK phosphorylation in high-fat-fed mice.",
+                  "details": "Phytother Res. 2014 Mar;28(3):363-71. doi: 10.1002/ptr.5003. Epub 2013 Apr 23.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Supplementation of bitter melon to rats fed a high-fructose diet during gestation and lactation ameliorates fructose-induced dyslipidemia and hepatic oxidative stress in male offspring.",
+                  "details": "J Nutr. 2011 Sep;141(9):1664-72. doi: 10.3945/jn.111.142299. Epub 2011 Aug 3.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Momordica charantia (Bitter Melon) reduces obesity-associated macrophage and mast cell infiltration as well as inflammatory cytokine expression in adipose tissues.",
+                  "details": "PLoS One. 2013;8(12):e84075. doi: 10.1371/journal.pone.0084075.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Bioactives from bitter melon enhance insulin signaling and modulate acyl carnitine content in skeletal muscle in high-fat diet-fed mice.",
+                  "details": "J Nutr Biochem. 2011 Nov;22(11):1064-73. doi: 10.1016/j.jnutbio.2010.09.004. Epub 2011 Jan 28.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibitory effects of wild bitter melon leaf extract on Propionibacterium acnes-induced skin inflammation in mice and cytokine production in vitro.",
+                "details": "Food Funct. 2015 Aug;6(8):2550-60. doi: 10.1039/c5fo00550g. Epub 2015 Jun 22.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Neuroprotective effect of Momordica charantia in global cerebral ischemia and reperfusion induced neuronal damage in diabetic mice.",
+                "details": "J Ethnopharmacol. 2011 Jan 27;133(2):729-34. doi: 10.1016/j.jep.2010.10.061. Epub 2010 Nov 5.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Wild bitter gourd protects against alcoholic fatty liver in mice by attenuating oxidative stress and inflammatory responses.",
+                "details": "Food Funct. 2014 May;5(5):1027-37. doi: 10.1039/c3fo60449g.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Bitter gourd inhibits the development of obesity-associated fatty liver in C57BL/6 mice fed a high-fat diet.",
+                "details": "J Nutr. 2014 Apr;144(4):475-83. doi: 10.3945/jn.113.187450. Epub 2014 Feb 12.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effect of Momordica charantia fruit extract on hyperglycaemia-induced cardiac fibrosis.",
+                "details": "Oxid Med Cell Longev. 2014;2014:429060. doi: 10.1155/2014/429060. Epub 2014 Oct 13.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Momordica charantia polysaccharides could protect against cerebral ischemia/reperfusion injury through inhibiting oxidative stress mediated c-Jun N-terminal kinase 3 signaling pathway.",
+                "details": "Neuropharmacology. 2015 Apr;91:123-34. doi: 10.1016/j.neuropharm.2014.11.020. Epub 2014 Dec 12.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Wild bitter gourd extract up-regulates mRNA expression of PPARa, PPARr and their target genes in C57BL/6J mice.",
+                "details": "J Ethnopharmacol. 2011 Apr 26;135(1):156-61. doi: 10.1016/j.jep.2011.03.001. Epub 2011 Mar 23.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Immunomodulatory activity and partial characterisation of polysaccharides from Momordica charantia.",
+                "details": "Molecules. 2014 Aug 29;19(9):13432-47. doi: 10.3390/molecules190913432.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H077",
+            "fnclty_Nm": "혈소판 응집을 억제하여 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Momordica charantia seed extract exhibits strong anticoagulant effect by specifically interfering in intrinsic pathway of blood coagulation and dissolves fibrin clot.",
+                "details": "Blood Coagul Fibrinolysis. 2015 Mar;26(2):191-9. doi: 10.1097/MBC.0000000000000191.",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

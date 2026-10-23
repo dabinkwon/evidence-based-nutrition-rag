@@ -1,0 +1,128 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-016",
+    "sample_Nm": "저단선(천년초)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hematinic effect of fruits of Opuntia elatior Mill. on phenylhydrazine-induced anemia in rats",
+                  "details": "Ayu",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Opuntia humifusa stems lower blood glucose and cholesterol levels in streptozotocin-induced diabetic rats",
+                  "details": "Nutr Res",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Effect of Opuntia humifusa supplementation and acute exercise on insulin sensitivity and associations with PPAR-gamma and PGC-1alpha protein expression in skeletal muscle of rats",
+                  "details": "Int J Mol Sci",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "유산균 발효된 천년초 열매 추출물의 고지방식이 마우스에서의 항비만 효과",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "손바닥선인장 보충이 고지방식이 흰쥐 골격근의 PPAR-γ 와 PGC-1α 단백질 발현 증가에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dietary feeding of Opuntia humifusa inhibits UVB radiation-induced carcinogenesis by reducing inflammation and proliferation in hairless mouse model",
+                  "details": "Photochem Photobiol",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Inhibitory effects of Opuntia humifusa on 7, 12-dimethyl- benz[a]anthracene and 12-O-tetradecanoylphorbol-13- acetate induced two-stage skin carcinogenesis",
+                  "details": "Asian Pac J Cancer Prev",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "손바닥선인장(Opuntia humifusa) 줄기 추출물의 항당뇨 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Cactus (Opuntia humifusa) water extract ameliorates loperamide-induced constipation in rats",
+                "details": "BMC Complement Altern Med",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "손바닥선인장(Opuntia humifusa) 줄기 추출물의 항당뇨 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "손바닥선인장(Opuntia humifusa) 줄기 추출물의 항당뇨 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

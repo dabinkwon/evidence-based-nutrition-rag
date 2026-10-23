@@ -1,0 +1,73 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-049",
+    "sample_Nm": "검정콩",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Black soy peptide supplementation improves glucose control in subjects with prediabetes and newly diagnosed type 2 diabetes mellitus.",
+                  "details": "J Med Food. 2010 Dec;13(6):1307-12. doi: 10.1089/jmf.2010.1075.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The beneficial effect of soybean (Glycine max (L.) Merr.) leaf extracts in adults with prediabetes: a randomized placebo controlled trial.",
+                  "details": "Food Funct. 2014 Jul 25;5(7):1621-30. doi: 10.1039/c4fo00199k.",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Obesity-related metabolomic analysis of human subjects in black soybean peptide intervention study by ultraperformance liquid chromatography and quadrupole-time-of-flight mass spectrometry.",
+                "details": "J Obes. 2013;2013:874981. doi: 10.1155/2013/874981. Epub 2013 Jun 4.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Black soy peptide supplementation improves glucose control in subjects with prediabetes and newly diagnosed type 2 diabetes mellitus.",
+                "details": "J Med Food. 2010 Dec;13(6):1307-12. doi: 10.1089/jmf.2010.1075.",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Black soy peptide supplementation improves glucose control in subjects with prediabetes and newly diagnosed type 2 diabetes mellitus.",
+                "details": "J Med Food. 2010 Dec;13(6):1307-12. doi: 10.1089/jmf.2010.1075.",
+                "pblicte_Year": "2010"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

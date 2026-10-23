@@ -1,0 +1,764 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-014",
+    "sample_Nm": "생강",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "14",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ginger extract modulates Pb-induced hepatic oxidative stress and expression of antioxidant gene transcripts in rat liver.",
+                  "details": "Pharm Biol. 2015 Jun 16:1-9. [Epub ahead of print]",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Selected spices and their combination modulate hypercholesterolemia-induced oxidative stress in experimental rats.",
+                  "details": "Biol Res. 2014 Mar 26;47:5. doi: 10.1186/0717-6287-47-5.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Comparing the effects of ginger and glibenclamide on dihydroxybenzoic metabolites produced in stz-induced diabetic rats.",
+                  "details": "Int J Endocrinol Metab. 2013 Oct;11(4):e10266. doi: 10.5812/ijem.10266.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of different concentrations of ginger root powder and its essential oil on growth performance, serum metabolites and antioxidant status in broiler chicks under heat stress.",
+                  "details": "Br Poult Sci. 2014;55(2):228-37. doi: 10.1080/00071668.2014.887830. Epub 2014 Apr 24.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Delayed administration of zingerone mitigates the behavioral and histological alteration via repression of oxidative stress and intrinsic programmed cell death in focal transient ischemic rats.",
+                  "details": "Pharmacol Biochem Behav. 2013 Nov 15;113:53-62. doi: 10.1016/j.pbb.2013.10.008. Epub 2013 Oct 18.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Antioxidant, anti-inflammatory and antinociceptive activities of essential oil from ginger.",
+                  "details": "Indian J Physiol Pharmacol. 2013 Jan-Mar;57(1):51-62.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Protective effect of Zingiber officinale extract on rat testis after cyclophosphamide treatment.",
+                  "details": "Andrologia. 2014 Aug;46(6):680-6. doi: 10.1111/and.12135. Epub 2013 Jul 28.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Antioxidant and androgenic effects of dietary ginger on reproductive function of male diabetic rats.",
+                  "details": "Int J Food Sci Nutr. 2013 Dec;64(8):974-8. doi: 10.3109/09637486.2013.812618. Epub 2013 Jul 18.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Protective effect of ginger against toxicity induced by chromate in rats.",
+                  "details": "Ann Biol Clin (Paris). 2013 Mar-Apr;71(2):165-73. doi: 10.1684/abc.2013.0806.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Dose-dependent effect in the inhibition of oxidative stress and anticlastogenic potential of ginger in STZ induced diabetic rats.",
+                  "details": "Food Chem. 2012 Dec 15;135(4):2954-9. doi: 10.1016/j.foodchem.2012.06.116. Epub 2012 Jul 14.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Dichlorvos and lindane induced oxidative stress in rat brain: Protective effects of ginger.",
+                  "details": "Pharmacognosy Res. 2012 Jan;4(1):27-32. doi: 10.4103/0974-8490.91031.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Protective effect of ginger on gentamicin-induced apoptosis in testis of rats.",
+                  "details": "Adv Pharm Bull. 2012;2(2):197-200. doi: 10.5681/apb.2012.030. Epub 2012 Aug 15.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effects of ginger root (Zingiber officinale) on laying performance and antioxidant status of laying hens and on dietary oxidation stability.",
+                  "details": "Poult Sci. 2011 Aug;90(8):1720-7. doi: 10.3382/ps.2010-01280.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Protective effects of ginger toward cadmium-induced testes and kidney lipid peroxidation and hematological impairment in albino rats.",
+                  "details": "J Med Food. 2011 Jul-Aug;14(7-8):817-21. doi: 10.1089/jmf.2010.0106. Epub 2011 Apr 10.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "10",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Zingerone ameliorates lipopolysaccharide-induced acute kidney injury by inhibiting Toll-like receptor 4 signaling pathway.",
+                  "details": "Eur J Pharmacol. 2015 Dec 14. doi:pii: S0014-2999(15)30420-9.  10.1016/j.ejphar.2015.12.027. [Epub ahead of print]",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Amelioration of pancreatic and renal derangements in streptozotocin-induced diabetic rats by polyphenol extracts of Ginger (Zingiber officinale) rhizome.",
+                  "details": "Pathophysiology. 2015 Dec;22(4):203-9. doi: 10.1016/j.pathophys.2015.08.004. Epub 2015 Aug 29.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Ginger extract diminishes chronic fructose consumption-induced kidney injury through suppression of renal overexpression of proinflammatory cytokines in rats.",
+                  "details": "BMC Complement Altern Med. 2014 May 27;14:174. doi: 10.1186/1472-6882-14-174.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Histological, ultrastructural and immunohistochemical studies on the protective effect of ginger extract against cisplatin-induced nephrotoxicity in male rats.",
+                  "details": "Toxicol Ind Health. 2015 Oct;31(10):869-80. doi: 10.1177/0748233713483198. Epub 2013 Apr 3.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Therapeutic potential of ginger against renal injury induced by carbon tetrachloride in rats.",
+                  "details": "ScientificWorldJournal. 2012;2012:840421. doi: 10.1100/2012/840421. Epub 2012 Apr 1.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Ginger feeding protects against renal oxidative damage caused by alcohol consumption in rats.",
+                  "details": "J Ren Nutr. 2011 May;21(3):263-70. doi: 10.1053/j.jrn.2010.03.003. Epub 2010 Jul 5.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Protective effect of ginger against alcohol-induced renal damage and antioxidant enzymes in male albino rats.",
+                  "details": "Indian J Exp Biol. 2010 Feb;48(2):143-9.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The effect of dietary ginger (Zingiber officinals Rosc) on renal ischemia/reperfusion injury in rat kidneys.",
+                  "details": "Ren Fail. 2009;31(4):251-60. doi: 10.1080/08860220902779921.",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "10-DHGD ameliorates cisplatin-induced nephrotoxicity in rats.",
+                  "details": "Biomed Pharmacother.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Ginger extract protects rat&apos;s kidneys against oxidative damage after chronic ethanol administration.",
+                  "details": "Biomed Pharmacother.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "10",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ginger and Zingerone Ameliorate Lipopolysaccharide-Induced Acute Systemic Inflammation in Mice, Assessed by Nuclear Factor-κB Bioluminescent Imaging.",
+                  "details": "J Agric Food Chem. 2015 Jul 8;63(26):6051-8. doi: 10.1021/acs.jafc.5b01801. Epub 2015 Jun 24.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Zerumbone, a tropical ginger sesquiterpene, ameliorates streptozotocin-induced diabetic nephropathy in rats by reducing the hyperglycemia-induced inflammatory response.",
+                  "details": "Nutr Metab (Lond). 2013 Oct 17;10(1):64. doi: 10.1186/1743-7075-10-64.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Dried Ginger (Zingiber officinalis) Inhibits Inflammation in a Lipopolysaccharide-Induced Mouse Model.",
+                  "details": "Evid Based Complement Alternat Med. 2013;2013:914563. doi: 10.1155/2013/914563. Epub 2013 Jun 27.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Improvement of liquid fructose-induced adipose tissue insulin resistance by ginger treatment in rats is associated with suppression of adipose macrophage-related proinflammatory cytokines.",
+                  "details": "Evid Based Complement Alternat Med. 2013;2013:590376. doi: 10.1155/2013/590376. Epub 2013 Feb 21.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Attenuation of liver pro-inflammatory responses by Zingiber officinale via inhibition of NF-kappa B activation in high-fat diet-fed rats.",
+                  "details": "Basic Clin Pharmacol Toxicol. 2012 Mar;110(3):238-44. doi: 10.1111/j.1742-7843.2011.00791.x. Epub 2011 Oct 21.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Anti-inflammatory and anti-oxidant properties of Curcuma longa (turmeric) versus Zingiber officinale (ginger) rhizomes in rat adjuvant-induced arthritis.",
+                  "details": "Inflammation. 2011 Aug;34(4):291-301. doi: 10.1007/s10753-010-9278-0.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Modulation of age-related NF-kappaB activation by dietary zingerone via MAPK pathway.",
+                  "details": "Exp Gerontol. 2010 Jun;45(6):419-26. doi: 10.1016/j.exger.2010.03.005. Epub 2010 Mar 6.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "지골피와 생강 정제 추출물이 고지방식이 흰쥐의 체내 지질과 혈청 Cytokine 수준에 미치는 영향",
+                  "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Anti-Inflammatory Effects of the Essential Oils of Ginger (Zingiber officinale Roscoe) in Experimental Rheumatoid Arthritis.",
+                  "details": "PharmaNutrition.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Role of serotonin and nuclear factor-kappa B in the ameliorative effect of ginger on acetic acid-induced colitis.",
+                  "details": "Pathophysiology.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "7",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "HEMATOLOGICAL AND IMMUNOBIOCHEMICAL STUDY OF GREEN TEA AND GINGER EXTRACTS IN EXPERIMENTALLY INDUCED DIABETIC RABBITS.",
+                  "details": "Acta Pol Pharm. 2015 May-Jun;72(3):497-506.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Mechanisms for antidiabetic effect of gingerol in cultured cells and obese diabetic model mice.",
+                  "details": "Cytotechnology. 2015 Aug;67(4):641-52. doi: 10.1007/s10616-014-9730-3. Epub 2014 May 4.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Antihyperlipidemic effects of ginger extracts in alloxan-induced diabetes and propylthiouracil-induced hypothyroidism in (rats).",
+                  "details": "Pharmacognosy Res. 2013 Jul;5(3):157-61. doi: 10.4103/0974-8490.112419.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Ameliorative Potentials of Ginger (Z. officinale Roscoe) on Relative Organ Weights in Streptozotocin induced Diabetic Rats.",
+                  "details": "Int J Biomed Sci. 2013 Jun;9(2):82-90.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Anti-diabetic and anti-oxidant effects of Zingiber officinale on alloxan-induced and insulin-resistant diabetic male rats.",
+                  "details": "Niger J Physiol Sci. 2011 Nov 23;26(1):89-96.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Beneficial effects of ginger (Zingiber officinale) on carbohydrate metabolism in streptozotocin-induced diabetic rats.",
+                  "details": "Br J Nutr. 2012 Oct;108(7):1194-201. Epub 2011 Dec 12.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Nephro-protective effects of a ginger extract on cytosolic and mitochondrial enzymes against streptozotocin (STZ)-induced diabetic complications in rats.",
+                  "details": "Chin J Physiol. 2011 Apr 30;54(2):79-86. Erratum in: Chin J Physiol. 2011 Jun 30;54(3):203.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "7",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hepatoprotective effects of zingerone on carbon tetrachloride- and dimethylnitrosamine-induced liver injuries in rats.",
+                  "details": "Arch Pharm Res. 2015 Dec 14. [Epub ahead of print]",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effect of hydroalcoholic extract of ginger on the liver of epileptic female rats treated with lamotrigine.",
+                  "details": "Avicenna J Phytomed. 2014 Jul;4(4):276-86.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Hepatoprotective, antioxidant, and ameliorative effects of ginger (Zingiber officinale Roscoe) and vitamin E in acetaminophen treated rats.",
+                  "details": "J Diet Suppl. 2013 Sep;10(3):195-209. doi: 10.3109/19390211.2013.822450. Epub 2013 Aug 9.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of ginger extract on liver damage in experimental obstructive jaundice produced by main bile duct ligation.",
+                  "details": "Acta Chir Belg. 2013 Jan-Feb;113(1):8-13.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Zingiber officinale acts as a nutraceutical agent against liver fibrosis.",
+                  "details": "Nutr Metab (Lond). 2011 Jun 20;8:40. doi: 10.1186/1743-7075-8-40.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Effect of combined administration of ginger (Zingiber officinale Roscoe) and atorvastatin on the liver of rats.",
+                  "details": "Phytomedicine. 2010 Dec 1;17(14):1076-81. doi: 10.1016/j.phymed.2010.04.007. Epub 2010 Jun 23.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Potential chemoprevention of diethylnitrosamine-initiated and 2-acetylaminofluorene-promoted hepatocarcinogenesis by zerumbone from the rhizomes of the subtropical ginger (Zingiber zerumbet).",
+                  "details": "Chem Biol Interact. 2010 Aug 5;186(3):295-305. doi: 10.1016/j.cbi.2010.04.029. Epub 2010 May 7.",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H041",
+            "fnclty_Nm": "전립선 건강의 유지",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The anti-oxidant effects of ginger and cinnamon on spermatogenesis dys-function of diabetes rats.",
+                  "details": "Afr J Tradit Complement Altern Med. 2014;11(4):1-8.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Improvements in semen quality, sperm fatty acids, and reproductive performance in aged Cobb 500 breeder roosters fed diets containing dried ginger rhizomes (Zingiber officinale).",
+                  "details": "Poult Sci. 2014 May;93(5):1236-44. doi: 10.3382/ps.2013-03617.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Streptozotocin diabetes and insulin resistance impairment of spermatogenesis in adult rat testis: central vs. local mechanism.",
+                  "details": "Niger J Physiol Sci. 2012 Dec 18;27(2):171-9.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Protective role of ginger on lead induced derangement in plasma testosterone and luteinizing hormone levels of male Sprague Dawley rats.",
+                  "details": "J Ayub Med Coll Abbottabad. 2011 Oct-Dec;23(4):24-7.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Role of ginger against the reproductive toxicity of aluminium chloride in albino male rats.",
+                  "details": "Reprod Domest Anim. 2012 Apr;47(2):335-43. doi: 10.1111/j.1439-0531.2011.01878.x. Epub 2011 Jul 26.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Alteration of pentylenetetrazole-induced seizure threshold by chronic administration of ginger (Zingiber officinale) extract in male mice.",
+                  "details": "Pharm Biol. 2015 May;53(5):752-7. doi: 10.3109/13880209.2014.942789. Epub 2015 Jan 22.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Ginger (zingiber officinale roscoe) prevents morphine-induced addictive behaviors in conditioned place preference test in rats.",
+                  "details": "Addict Health. 2014 Winter;6(1-2):65-72.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Acute administration of ginger (Zingiber officinale rhizomes) extract on timed intravenous pentylenetetrazol infusion seizure model in mice.",
+                  "details": "Epilepsy Res. 2014 Mar;108(3):411-9. doi: 10.1016/j.eplepsyres.2014.01.008. Epub 2014 Jan 30.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Inhibitory effects of ginger (Zingiber officinale Roscoe) essential oil on leukocyte migration in vivo and in vitro.",
+                  "details": "J Nat Med. 2011 Jan;65(1):241-6. doi: 10.1007/s11418-010-0479-5. Epub 2010 Oct 28.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Some pharmacological effects of cinnamon and ginger herbs in obese diabetic rats.",
+                  "details": "J Intercult Ethnopharmacol. 2014 Oct-Dec;3(4):144-9. doi: 10.5455/jice.20140818050741. Epub 2014 Aug 27.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Ginger extract prevents high-fat diet-induced obesity in mice via activation of the peroxisome proliferator-activated receptor δ pathway.",
+                  "details": "J Nutr Biochem. 2015 Oct;26(10):1058-67. doi: 10.1016/j.jnutbio.2015.04.014. Epub 2015 May 28.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-obesity action of gingerol: effect on lipid profile, insulin, leptin, amylase and lipase in male obese rats induced by a high-fat diet.",
+                  "details": "J Sci Food Agric. 2014 Nov;94(14):2972-7. doi: 10.1002/jsfa.6642. Epub 2014 Apr 7.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Comparative evaluation of the efficacy of ginger and orlistat on obesity management, pancreatic lipase and liver peroxisomal catalase enzyme in male albino rats.",
+                  "details": "Eur Rev Med Pharmacol Sci. 2013 Jan;17(1):75-83.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ameliorative Potentials of Ginger (Z. officinale Roscoe) on Relative Organ Weights in Streptozotocin induced Diabetic Rats.",
+                  "details": "Int J Biomed Sci. 2013 Jun;9(2):82-90.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Anti-diabetic and anti-oxidant effects of Zingiber officinale on alloxan-induced and insulin-resistant diabetic male rats.",
+                  "details": "Niger J Physiol Sci. 2011 Nov 23;26(1):89-96.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Beneficial effects of ginger (Zingiber officinale) on carbohydrate metabolism in streptozotocin-induced diabetic rats.",
+                  "details": "Br J Nutr. 2012 Oct;108(7):1194-201. Epub 2011 Dec 12.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Nephro-protective effects of a ginger extract on cytosolic and mitochondrial enzymes against streptozotocin (STZ)-induced diabetic complications in rats.",
+                  "details": "Chin J Physiol. 2011 Apr 30;54(2):79-86. Erratum in: Chin J Physiol. 2011 Jun 30;54(3):203.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Treatment with ginger ameliorates fructose-induced Fatty liver and hypertriglyceridemia in rats: modulation of the hepatic carbohydrate response element-binding protein-mediated pathway.",
+                  "details": "Evid Based Complement Alternat Med. 2012;2012:570948. doi: 10.1155/2012/570948. Epub 2012 Nov 6.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "지골피와 생강 정제 추출물이 고지방식이 흰쥐의 체내 지질과 혈청 Cytokine 수준에 미치는 영향",
+                  "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Ginger extract and aerobic training reduces lipid profile in high-fat fed diet rats.",
+                  "details": "Eur Rev Med Pharmacol Sci.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effect of Two Ginger Varieties on Arginase Activity in Hypercholesterolemic Rats.",
+                  "details": "J Acupunct Meridian Stud.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Enterohepatic recirculation of bioactive ginger phytochemicals is associated with enhanced tumor growth-inhibitory activity of ginger extract.",
+                  "details": "Carcinogenesis. 2014 Jun;35(6):1320-9. doi: 10.1093/carcin/bgu011. Epub 2014 Jan 15.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Improving the therapeutic efficiency of ginger extract for treatment of colon cancer using a suitably designed multiparticulate system.",
+                  "details": "J Drug Target. 2013 Nov;21(9):855-65. doi: 10.3109/1061186X.2013.829076. Epub 2013 Aug 20.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Development and evaluation of a gastro-retentive delivery system for improved antiulcer activity of ginger extract (Zingiber officinale).",
+                  "details": "J Drug Target. 2011 Nov;19(9):741-51. doi: 10.3109/1061186X.2011.561855. Epub 2011 Mar 14.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effects of ginger and marshmallow extracts on indomethacin-induced peptic ulcer in rats.",
+                  "details": "J Nat Sci Biol Med. 2015 Jul-Dec;6(2):421-8. doi: 10.4103/0976-9668.160026.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Gastroprotective Effect of Ginger Rhizome (Zingiber officinale) Extract: Role of Gallic Acid and Cinnamic Acid in H(+), K(+)-ATPase/H. pylori Inhibition and Anti-Oxidative Mechanism.",
+                  "details": "Evid Based Complement Alternat Med. 2011;2011:249487. doi: 10.1093/ecam/nep060. Epub 2011 Jun 23.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "염산-에탄올에 의해 유발된 흰쥐 위염에 대한 생강 및 법제생강 추출물의 억제작용",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effects of the standardized extract of Zingiber officinale on myocardium against isoproterenol-induced biochemical and histopathological alterations in rats.",
+                  "details": "Pharm Biol. 2015;53(12):1795-802. doi: 10.3109/13880209.2015.1008147. Epub 2015 Apr 14.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Protective Effects of Ginger (Zingiber officinale) Extract against Diabetes-Induced Heart Abnormality in Rats",
+                  "details": "Diabetes & metabolism journal",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Protective Effects of Ginger (Zingiber officinale) Extract against Diabetes-Induced Heart Abnormality in Rats.",
+                  "details": "Diabetes Metab J.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effect of ginger volatile oil against acetic acid-induced colitis in rats: a light microscopic evaluation.",
+                  "details": "J Integr Med. 2014 Mar;12(2):115-20. doi: 10.1016/S2095-4964(14)60011-X.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effect of ginger (Zingiber officinale Roscoe) on growth performance, nutrient digestibility, serum metabolites, gut morphology, and microflora of growing guinea fowl.",
+                  "details": "Trop Anim Health Prod. 2013 Nov;45(8):1763-9. doi: 10.1007/s11250-013-0430-3. Epub 2013 Jun 14.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Inhibitory effects of zingerone, a pungent component of Zingiber officinale Roscoe, on colonic motility in rats.",
+                  "details": "J Nat Med. 2011 Jan;65(1):89-94. doi: 10.1007/s11418-010-0463-0. Epub 2010 Aug 27.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Neuroprotective effect of ginger in the brain of streptozotocin-induced diabetic rats.",
+                  "details": "Ann Anat. 2014 May;196(2-3):119-28. doi: 10.1016/j.aanat.2014.01.003. Epub 2014 Mar 12.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Neuroprotective effect of ginger on anti-oxidant enzymes in streptozotocin-induced diabetic rats.",
+                  "details": "Food Chem Toxicol. 2011 Apr;49(4):893-7. doi: 10.1016/j.fct.2010.12.013. Epub 2010 Dec 22.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Atheroprotective potentials of curcuminoids against ginger extract in hypercholesterolaemic rabbits.",
+                  "details": "Nat Prod Res. 2015;29(10):961-5. doi: 10.1080/14786419.2014.957699. Epub 2014 Sep 11.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Antihypercholesterolaemic effect of ginger rhizome (Zingiber officinale) in rats.",
+                  "details": "Inflammopharmacology. 2010 Dec;18(6):309-15. doi: 10.1007/s10787-010-0053-5. Epub 2010 Aug 22.",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ameliorative potential of gingerol: Promising modulation of inflammatory factors and lipid marker enzymes expressions in HFD induced obesity in rats.",
+                  "details": "Mol Cell Endocrinol. 2016 Jan 5;419:139-47. doi: 10.1016/j.mce.2015.10.007. Epub 2015 Oct 19.",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Plasma cholesterol-lowering activity of gingerol- and shogaol-enriched extract is mediated by increasing sterol excretion.",
+                  "details": "J Agric Food Chem. 2014 Oct 29;62(43):10515-21. doi: 10.1021/jf5043344. Epub 2014 Oct 15.",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective Effect of Free and Bound Polyphenol Extracts from Ginger (Zingiber officinale Roscoe) on the Hepatic Antioxidant and Some Carbohydrate Metabolizing Enzymes of Streptozotocin-Induced Diabetic Rats.",
+                  "details": "Evid Based Complement Alternat Med. 2013;2013:935486. doi: 10.1155/2013/935486. Epub 2013 Dec 3.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Ginger Essential Oil Ameliorates Hepatic Injury and Lipid Accumulation in High Fat Diet-Induced Nonalcoholic Fatty Liver Disease.",
+                  "details": "J Agric Food Chem.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-fatty liver effects of oils from Zingiber officinale and Curcuma longa on ethanol-induced fatty liver in rats.",
+                  "details": "J Integr Med. 2014 Jan;12(1):59-65. doi: 10.1016/S2095-4964(14)60006-6.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Metabolomics of ginger essential oil against alcoholic fatty liver in mice.",
+                  "details": "J Agric Food Chem. 2013 Nov 20;61(46):11231-40. doi: 10.1021/jf403523g. Epub 2013 Nov 12.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ginger pharmacopuncture improves cognitive impairment and oxidative stress following cerebral ischemia.",
+                "details": "J Acupunct Meridian Stud. 2012 Dec;5(6):295-300. doi: 10.1016/j.jams.2012.09.003. Epub 2012 Sep 27.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Zerumbone enhances the Th1 response and ameliorates ovalbumin-induced Th2 responses and airway inflammation in mice.",
+                "details": "Int Immunopharmacol. 2015 Feb;24(2):383-91. doi: 10.1016/j.intimp.2014.12.027. Epub 2015 Jan 5.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of ethanolic extract of Zingiber officinale rhizome on the development of metabolic syndrome in high-fat diet-fed rats.",
+                "details": "Basic Clin Pharmacol Toxicol. 2009 May;104(5):366-73. doi: 10.1111/j.1742-7843.2008.00362.x.",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Zingiber officinale ameliorates allergic asthma via suppression of Th2-mediated immune response.",
+                "details": "Pharm Biol. 2015 Mar;53(3):359-67. doi: 10.3109/13880209.2014.920396. Epub 2014 Nov 25.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ginger improves cognitive function via NGF-induced ERK/CREB activation in the hippocampus of the mouse.",
+                "details": "J Nutr Biochem. 2014 Oct;25(10):1058-65. doi: 10.1016/j.jnutbio.2014.05.009. Epub 2014 Jun 18.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibition of angiotensin-1-converting enzyme activity by two varieties of ginger (Zingiber officinale) in rats fed a high cholesterol diet.",
+                "details": "J Med Food. 2014 Mar;17(3):317-23. doi: 10.1089/jmf.2012.0264. Epub 2014 Jan 16.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H033",
+            "fnclty_Nm": "눈(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Zingiber officinale attenuates retinal microvascular changes in diabetic rats via anti-inflammatory and antiangiogenic mechanisms.",
+                "details": "Mol Vis.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H076",
+            "fnclty_Nm": "혈관이완을 통한 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary Supplementation of Ginger and Turmeric Rhizomes Modulates Platelets Ectonucleotidase and Adenosine Deaminase Activities in Normotensive and Hypertensive Rats.",
+                "details": "Phytother Res.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H013",
+            "fnclty_Nm": "과민면역(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ginger extracts influence the expression of IL-27 and IL-33 in the central nervous system in experimental autoimmune encephalomyelitis and ameliorates the clinical symptoms of disease.",
+                "details": "J Neuroimmunol. 2014 Nov 15;276(1-2):80-8. doi: 10.1016/j.jneuroim.2014.08.614. Epub 2014 Aug 19.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H052",
+            "fnclty_Nm": "항감염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antischistosomal activity of ginger (Zingiber officinale) against Schistosoma mansoni harbored in C57 mice.",
+                "details": "Parasitol Res. 2011 Aug;109(2):395-403. doi: 10.1007/s00436-011-2267-x. Epub 2011 Feb 16.",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

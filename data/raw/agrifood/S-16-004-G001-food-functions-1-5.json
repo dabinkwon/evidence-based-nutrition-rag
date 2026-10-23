@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-004",
+    "sample_Nm": "골담초",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H039",
+            "fnclty_Nm": "갱년기 여성의 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "골담초 열수 추출물의 갱년기 이후 지질 및 당질 대사 개선 효능",
+                "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "골담초 메탄올 추출물의 진통 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-094",
+    "sample_Nm": "음나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Kalopanaxsaponin B Ameliorates TNBS-Induced Colitis in Mice.",
+                  "details": "Biomol Ther (Seoul). 2012 Sep;20(5):457-62. doi: 10.4062/biomolther.2012.20.5.457.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Kalopanaxsaponin B inhibits LPS-induced inflammation by inhibiting IRAK1 Kinase.",
+                  "details": "Cell Immunol. 2012 Sep;279(1):103-8. doi: 10.1016/j.cellimm.2012.10.001. Epub 2012 Oct 12.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Kalopanaxsaponins A and B isolated from Kalopanax pictus ameliorate memory deficits in mice.",
+                "details": "Phytother Res. 2012 Apr;26(4):546-51. doi: 10.1002/ptr.3596. Epub 2011 Sep 16.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Kalopanaxsaponin A inhibits the invasion of human oral squamous cell carcinoma by reducing metalloproteinase-9 mRNA stability and protein trafficking.",
+                "details": "Biol Pharm Bull. 2012;35(3):289-300.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective Effect of Liriodendrin Isolated from Kalopanax pictus against Gastric Injury.",
+                "details": "Biomol Ther (Seoul). 2015 Jan;23(1):53-9. doi: 10.4062/biomolther.2014.103. Epub 2015 Jan 1.",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

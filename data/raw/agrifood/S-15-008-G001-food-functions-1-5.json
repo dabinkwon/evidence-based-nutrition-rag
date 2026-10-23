@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-008",
+    "sample_Nm": "파드득나물",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effect of the methanol extract from Cryptotaenia japonica Hassk. against lipopolysaccharide-induced inflammation in vitro and in vivo",
+                "details": "BMC Complementary and Alternative Medicine",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Arabinogalactan present in the mountain celery seed extract potentiated hypolipidemic bioactivity of coexisting polyphenols in hamsters",
+                "details": "Pharmaceutical Biology",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

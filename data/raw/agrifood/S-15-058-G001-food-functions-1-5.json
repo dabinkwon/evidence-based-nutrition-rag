@@ -1,0 +1,66 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-058",
+    "sample_Nm": "쇠무릅(우슬초)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "우슬 물추출물의 허혈성 뇌 손상에 대한 보호효과 연구",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Anti-nociceptive and Anti-inflammatory Effect of Achyranthes Japonica Nakai",
+                "details": "大韓韓醫學會誌 = Journal of Korean Oriental Medicine",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-inflammatory and anti-osteoarthritis effects of fermented Achyranthes japonica Nakai.",
+                "details": "J Ethnopharmacol.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Anti-nociceptive and Anti-inflammatory Effect of Achyranthes Japonica Nakai",
+                "details": "大韓韓醫學會誌 = Journal of Korean Oriental Medicine",
+                "pblicte_Year": "2004"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

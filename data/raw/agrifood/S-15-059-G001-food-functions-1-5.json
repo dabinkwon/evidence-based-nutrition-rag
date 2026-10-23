@@ -1,0 +1,150 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-059",
+    "sample_Nm": "상황버섯(진흙버섯)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-inflammatory activities of inotilone from Phellinus linteus through the inhibition of MMP-9, NF-觀B, and MAPK activation in vitro and in vivo.",
+                  "details": "PLoS One.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Prevention of intraperitoneal adhesions and abscesses by polysaccharides isolated from Phellinus spp in a rat peritonitis model.",
+                  "details": "Ann Surg.  2005",
+                  "pblicte_Year": "2005"
+                },
+                {
+                  "title": "Comparison of intraperitoneal anti-adhesive polysaccharides derived from Phellinus mushrooms in a rat peritonitis model.",
+                  "details": "World J Gastroenterol.  2005",
+                  "pblicte_Year": "2005"
+                },
+                {
+                  "title": "The effect of polysaccharides and carboxymethylcellulose combination to prevent intraperitoneal adhesion and abscess formation in a rat peritonitis model.",
+                  "details": "J Vet Med Sci.  2004",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "Alleviation of experimental septic shock in mice by acidic polysaccharide isolated from the medicinal mushroom Phellinus linteus.",
+                  "details": "Biol Pharm Bull.  2003",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Isolation, purification, and structural features of a polysaccharide from Phellinus linteus and its hypoglycemic effect in alloxan-induced diabetic mice.",
+                  "details": "J Food Sci.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Characterization of carbohydrate-peptide linkage of acidic heteroglycopeptide with immuno-stimulating activity from mycelium of Phellinus linteus.",
+                  "details": "Chem Pharm Bull (Tokyo).  1996",
+                  "pblicte_Year": "1996"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Orally administered mycelial culture of Phellinus linteus exhibits antitumor effects in hepatoma cell-bearing mice.",
+                  "details": "J Ethnopharmacol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "금사목질진흙버섯 자실체 추출물의 in vivo 항암활성 및 급성, 아 급성 독성 시험",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Immunomodulatory effect of water soluble extract separated from mycelium of Phellinus linteus on experimental atopic dermatitis.",
+                "details": "BMC Complement Altern Med.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Isolation, purification, and structural features of a polysaccharide from Phellinus linteus and its hypoglycemic effect in alloxan-induced diabetic mice.",
+                "details": "J Food Sci.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of polysaccharide from fruiting bodies of Agaricus bisporus, Agaricus brasiliensis, and Phellinus linteus on alcoholic liver injury.",
+                "details": "Int J Food Sci Nutr.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Isolation, purification, and structural features of a polysaccharide from Phellinus linteus and its hypoglycemic effect in alloxan-induced diabetic mice.",
+                "details": "J Food Sci.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of medicinal plant extracts on forced swimming capacity in mice.",
+                "details": "J Ethnopharmacol.  2004",
+                "pblicte_Year": "2004"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

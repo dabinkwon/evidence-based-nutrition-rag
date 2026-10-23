@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-023",
+    "sample_Nm": "해홍나물",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H019",
+          "fnclty_Nm": "간(기타)",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Hepatoprotective and antioxidant properties of Suaeda maritima (L.) dumort ethanolic extract on concanavalin-A induced hepatotoxicity in rats.",
+              "details": "Indian J Exp Biol. 2011 Jun;49(6):455-60.",
+              "pblicte_Year": "2011"
+            }
+          }
+        }
+      }
+    }
+  }
+}

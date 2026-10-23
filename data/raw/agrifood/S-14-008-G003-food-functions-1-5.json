@@ -1,0 +1,78 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-008",
+    "sample_Nm": "마늘",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H002",
+            "fnclty_Nm": "치매",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Allium sativum L. Improves Visual Memory and Attention in Healthy Human Volunteers.",
+                "details": "Evid Based Complement Alternat Med. 2015;2015:103416. doi: 10.1155/2015/103416. Epub 2015 Aug 13.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effect of aged garlic extract on blood pressure and other cardiovascular risk factors in uncontrolled hypertensives: the AGE at Heart trial.",
+                "details": "Integr Blood Press Control.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of garlic powder consumption on body composition in patients with nonalcoholic fatty liver disease: A randomized, double-blind, placebo-controlled trial.",
+                "details": "Adv Biomed Res.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H030",
+            "fnclty_Nm": "중금속 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Comparison of therapeutic effects of garlic and d-Penicillamine in patients with chronic occupational lead poisoning.",
+                "details": "Basic Clin Pharmacol Toxicol. 2012 May;110(5):476-81. doi: 10.1111/j.1742-7843.2011.00841.x. Epub 2011 Dec 29.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H046",
+            "fnclty_Nm": "여성건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The favorable effects of garlic intake on metabolic profiles, hs-CRP, biomarkers of oxidative stress and pregnancy outcomes in pregnant women at risk for pre-eclampsia: randomized, double-blind, placebo-controlled trial.",
+                "details": "J Matern Fetal Neonatal Med. 2015;28(17):2020-7. doi: 10.3109/14767058.2014.977248. Epub 2014 Nov 7.",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

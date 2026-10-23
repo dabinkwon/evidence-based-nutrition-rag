@@ -1,0 +1,178 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-044",
+    "sample_Nm": "사과",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Moderate effects of apple juice consumption on obesity-related markers in obese men: impact of diet-gene interaction on body fat content.",
+                  "details": "Eur J Nutr. 2012 Oct;51(7):841-50. Epub 2011 Oct 25.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Daily apple versus dried plum: impact on cardiovascular disease risk factors in postmenopausal women.",
+                  "details": "Journal of the Academy of Nutrition and Dietetics",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "A low-energy-dense diet adding fruit reduces weight and energy intake in women.",
+                  "details": "Appetite",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Intake of whole apples or clear apple juice has contrasting effects on plasma lipids in healthy volunteers.",
+                  "details": "Eur J Nutr. 2013 Dec;52(8):1875-89. doi: 10.1007/s00394-012-0489-z. Epub 2012 Dec 28.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effects of apple consumption on lipid profile of hyperlipidemic and overweight men.",
+                  "details": "Int J Prev Med. 2011 Apr;2(2):94-100.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Improvement of serum antioxidant status in humans after the acute intake of apple juices.",
+                  "details": "Nutr Res. 2012 Mar;32(3):229-32. doi: 10.1016/j.nutres.2011.12.008. Epub 2012 Feb 7.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Daily apple versus dried plum: impact on cardiovascular disease risk factors in postmenopausal women.",
+                  "details": "Journal of the Academy of Nutrition and Dietetics",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Bioavailability of epicatechin and effects on nitric oxide metabolites of an apple flavanol-rich extract supplemented beverage compared to a whole apple puree: a randomized, placebo-controlled, crossover trial.",
+                  "details": "Mol Nutr Food Res. 2013 Jul;57(7):1209-17. doi: 10.1002/mnfr.201200663. Epub 2013 Apr 23.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Daily apple versus dried plum: impact on cardiovascular disease risk factors in postmenopausal women.",
+                  "details": "J Acad Nutr Diet. 2012 Aug;112(8):1158-68. doi: 10.1016/j.jand.2012.05.005.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Acute anti-hyperglycaemic effects of an unripe apple preparation containing phlorizin in healthy volunteers: a preliminary study.",
+                  "details": "J Sci Food Agric. 2015 Feb;95(3):560-8. doi: 10.1002/jsfa.6779. Epub 2014 Jul 4.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Both Isocarbohydrate and Hypercarbohydrate Fruit Preloads Curbed Postprandial Glycemic Excursion in Healthy Subjects.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Consumption of dried apple peel powder increases joint function and range of motion.",
+                "details": "J Med Food. 2014 Nov;17(11):1204-13. doi: 10.1089/jmf.2014.0037. Epub 2014 Oct 1.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Daily apple versus dried plum: impact on cardiovascular disease risk factors in postmenopausal women.",
+                "details": "Journal of the Academy of Nutrition and Dietetics",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Flavonoid-rich apples and nitrate-rich spinach augment nitric oxide status and improve endothelial function in healthy men and women: a randomized controlled trial.",
+                "details": "Free Radic Biol Med. 2012 Jan 1;52(1):95-102. doi: 10.1016/j.freeradbiomed.2011.09.028. Epub 2011 Oct 1.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Comparative effects of dried plum and dried apple on bone in postmenopausal women.",
+                "details": "Br J Nutr. 2011 Sep;106(6):923-30. doi: 10.1017/S000711451100119X. Epub 2011 May 31.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "An apple oligogalactan potentiates the growth inhibitory effect of celecoxib on colorectal cancer.",
+                "details": "Nutr Cancer. 2014;66(1):29-37. doi: 10.1080/01635581.2014.847965. Epub 2013 Nov 25.",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-080",
+    "sample_Nm": "스테비아",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "C57BL/6J Mice에서 스테비아(Stevia rebaudiana bertoni) 잎 추출물의 항비만 효과",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "스테비아(Stevia. Rebaudian Bertoni)추출물 보강이 만성 알코올 섭취 흰쥐의 지질대사 및 간기능에 미치는 영향",
+                "details": "한국가정과학회지 = Korean journal of human ecology",
+                "pblicte_Year": "2006"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

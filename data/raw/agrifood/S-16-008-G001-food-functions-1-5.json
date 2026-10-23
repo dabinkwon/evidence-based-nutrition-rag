@@ -1,0 +1,150 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-008",
+    "sample_Nm": "두충나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Studies on resin purification process optimization of Eucommia ulmoides Oliver and its antihypertensive effect mechanism",
+                "details": "Afr J Tradit Complement Altern Med",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Eucommia bark (Du-Zhong) improves diabetic nephropathy without altering blood glucose in type 1-like diabetic rats",
+                "details": "Drug Des Devel Ther",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Asperuloside stimulates metabolic function in rats across several organs under high-fat diet conditions, acting like the major ingredient of Eucommia leaves with anti-obesity activity",
+                "details": "J Nutr Sci",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "두충 추출물이 DNCB로 유발된 알레르기성 접촉피부염과 산화적 손상에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "두충 추출물 투여와 트레드밀 운동이 골다공증 유발 백서의 골대사에 미치는 영향",
+                "details": "동의생리병리학회지 = Journal of physiology & pathology in Korean Medicine",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H039",
+            "fnclty_Nm": "갱년기 여성의 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "두충[Eucommia ulmoides Oliver] 조성물이 골다공증에 미치는 효과",
+                "details": "한국생물공학회지 = Korean journal of biotechnology and bioengineering",
+                "pblicte_Year": "2001"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Gastroprotective effect of aucubin against ethanol-induced gastric mucosal injury in mice",
+                "details": "Life Sci",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Eucommia bark (Du-Zhong) improves diabetic nephropathy without altering blood glucose in type 1-like diabetic rats",
+                "details": "Drug Des Devel Ther",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H076",
+            "fnclty_Nm": "혈관이완을 통한 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Restorative Effects of Eucommia ulmoides Oliver Leaf Extract on Vascular Function in Spontaneously Hypertensive Rats",
+                "details": "Molecules",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H081",
+            "fnclty_Nm": "면역과민반응에 의한 피부상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "두충 추출물이 DNCB로 유발된 알레르기성 접촉피부염과 산화적 손상에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypoglycemic and hypolipidemic action of Du-zhong (Eucommia ulmoides Oliver) leaves water extract in C57BL/KsJ-db/db mice",
+                "details": "J Ethnopharmacol",
+                "pblicte_Year": "2006"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

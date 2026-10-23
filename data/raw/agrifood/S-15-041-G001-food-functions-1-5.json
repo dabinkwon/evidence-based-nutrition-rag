@@ -1,0 +1,61 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-041",
+    "sample_Nm": "파프리카",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dietary capsanthin, the main carotenoid in paprika (Capsicum annuum), alters plasma high-density lipoprotein-cholesterol levels and hepatic gene expression in rats.",
+                  "details": "Br J Nutr.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "파프리카 급여가 고콜레스테롤 식이 흰쥐의 혈청 지질과 α-Tocopherol 농도 변화에 미치는 영향",
+                  "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "파프리카 급여가 고콜레스테롤 식이 흰쥐의 혈청 지질과 α-Tocopherol 농도 변화에 미치는 영향",
+                "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Administration of tomato and paprika beverages modifies hepatic glucose and lipid metabolism in mice: a DNA microarray analysis.",
+                "details": "J Agric Food Chem.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1204 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-103",
+    "sample_Nm": "블루베리",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "21",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberries improve biomarkers of cardiometabolic function in participants with metabolic syndrome-results from a 6-month, double-blind, randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Dietary Blueberry and Soluble Fiber Improve Serum Antioxidant and Adipokine Biomarkers and Lipid Peroxidation in Pregnant Women with Obesity and at Risk for Gestational Diabetes.",
+                  "details": "Antioxidants (Basel, Switzerland)",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                  "details": "Current developments in nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Blueberries decrease cardiovascular risk factors in obese men and women with metabolic syndrome.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The effects of 100% wild blueberry (Vaccinium angustifolium) juice consumption on cardiometablic biomarkers: a randomized, placebo-controlled, crossover trial in adults with increased risk for type 2 diabetes.",
+                  "details": "BMC nutrition",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial.",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Six weeks daily ingestion of whole blueberry powder increases natural killer cell counts and reduces arterial stiffness in sedentary males and females.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Daily blueberry consumption for 12 weeks improves endothelial function in postmenopausal women with above-normal blood pressure through reductions in oxidative stress: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Effects of daily blueberry consumption on circulating biomarkers of oxidative stress, inflammation, and antioxidant defense in postmenopausal women with pre- and stage 1-hypertension: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "A biphasic response to blueberry supplementation on depressive symptoms in emerging adults: a double-blind randomized controlled trial.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Blueberry intake elevates post-exercise anti-inflammatory oxylipins: a randomized trial.",
+                  "details": "Scientific reports",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Blueberry supplementation reduces the blood lactate response to running in normobaric hypoxia but has no effect on performance in recreational runners.",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of New Zealand blueberry consumption on recovery from eccentric exercise-induced muscle damage.",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Enhanced task-related brain activation and resting perfusion in healthy older adults after chronic blueberry supplementation.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effect of a wild blueberry (Vaccinium angustifolium) drink intervention on markers of oxidative stress, inflammation and endothelial function in humans with cardiovascular risk factors.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "A single portion of blueberry (Vaccinium corymbosum L) improves protection against DNA damage but not vascular function in healthy male volunteers.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Consumption of blueberries with a high-carbohydrate, low-fat breakfast decreases postprandial serum markers of oxidation.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of blueberry ingestion on natural killer cell counts, oxidative stress, and inflammation prior to and after 2.5 h of running.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Wild blueberry (poly)phenols can improve vascular function and cognitive performance in healthy older individuals: a double-blind randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Blueberry phenolics are associated with cognitive enhancement in supplemented healthy older adults.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "20",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Daily blueberry consumption improves blood pressure and arterial stiffness in postmenopausal women with pre- and stage 1-hypertension: a randomized, double-blind, placebo-controlled clinical trial.",
+                  "details": "J Acad Nutr Diet.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Blueberry anthocyanin intake attenuates the postprandial cardiometabolic effect of an energy-dense food challenge: Results from a double blind, randomized controlled trial in metabolic syndrome participants.",
+                  "details": "Clinical nutrition (Edinburgh, Scotland)",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Blueberries improve biomarkers of cardiometabolic function in participants with metabolic syndrome-results from a 6-month, double-blind, randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "An 8-week freeze-dried blueberry supplement impacts immune-related pathways: a randomized, double-blind placebo-controlled trial.",
+                  "details": "Genes & nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Dietary Blueberry and Soluble Fiber Supplementation Reduces Risk of Gestational Diabetes in Women with Obesity in a Randomized Controlled Trial.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                  "details": "Current developments in nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Blueberries decrease cardiovascular risk factors in obese men and women with metabolic syndrome.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The effects of 100% wild blueberry (Vaccinium angustifolium) juice consumption on cardiometablic biomarkers: a randomized, placebo-controlled, crossover trial in adults with increased risk for type 2 diabetes.",
+                  "details": "BMC nutrition",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial.",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effects of Blueberry Consumption on Cardiovascular Health in Healthy Adults: A Cross-Over Randomised Controlled Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Six weeks daily ingestion of whole blueberry powder increases natural killer cell counts and reduces arterial stiffness in sedentary males and females.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Daily blueberry consumption for 12 weeks improves endothelial function in postmenopausal women with above-normal blood pressure through reductions in oxidative stress: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Blueberries Improve Pain, Gait Performance, and Inflammation in Individuals with Symptomatic Knee Osteoarthritis.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Wild Blueberry Extract Intervention in Healthy Older Adults: A Multi-Study, Randomised, Controlled Investigation of Acute Cognitive and Cardiovascular Effects.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "A serving of blueberry (Vaccinium corymbosum) improves peripheral vascular function but not metabolic and functional markers in older subjects: A randomized, controlled, crossover study.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "A single serving of blueberry (V. corymbosum) modulates peripheral arterial dysfunction induced by acute cigarette smoking in young volunteers: a randomized-controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effect of a wild blueberry (Vaccinium angustifolium) drink intervention on markers of oxidative stress, inflammation and endothelial function in humans with cardiovascular risk factors.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "A single portion of blueberry (Vaccinium corymbosum L) improves protection against DNA damage but not vascular function in healthy male volunteers.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "A Randomized, Double-Blinded, Placebo-Controlled Study to Compare the Safety and Efficacy of Low Dose Enhanced Wild Blueberry Powder and Wild Blueberry Extract (ThinkBlue™) in Maintenance of Episodic and Working Memory in Older Adults.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Wild blueberry (poly)phenols can improve vascular function and cognitive performance in healthy older individuals: a double-blind randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "19",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dietary Blueberry and Soluble Fiber Improve Serum Antioxidant and Adipokine Biomarkers and Lipid Peroxidation in Pregnant Women with Obesity and at Risk for Gestational Diabetes.",
+                  "details": "Antioxidants (Basel, Switzerland)",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "An 8-week freeze-dried blueberry supplement impacts immune-related pathways: a randomized, double-blind placebo-controlled trial.",
+                  "details": "Genes & nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Dietary Blueberry and Soluble Fiber Supplementation Reduces Risk of Gestational Diabetes in Women with Obesity in a Randomized Controlled Trial.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                  "details": "Current developments in nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Blueberries decrease cardiovascular risk factors in obese men and women with metabolic syndrome.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The effects of 100% wild blueberry (Vaccinium angustifolium) juice consumption on cardiometablic biomarkers: a randomized, placebo-controlled, crossover trial in adults with increased risk for type 2 diabetes.",
+                  "details": "BMC nutrition",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Postprandial Inflammatory Responses and Free Fatty Acids in Plasma of Adults Who Consumed a Moderately High-Fat Breakfast with and without Blueberry Powder in a Randomized Placebo-Controlled Trial.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effects of exercise with or without blueberries in the diet on cardio-metabolic risk factors: an exploratory pilot study in healthy subjects.",
+                  "details": "Upsala journal of medical sciences",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effects of Blueberry Consumption on Cardiovascular Health in Healthy Adults: A Cross-Over Randomised Controlled Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Daily blueberry consumption for 12 weeks improves endothelial function in postmenopausal women with above-normal blood pressure through reductions in oxidative stress: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Effects of daily blueberry consumption on circulating biomarkers of oxidative stress, inflammation, and antioxidant defense in postmenopausal women with pre- and stage 1-hypertension: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "A biphasic response to blueberry supplementation on depressive symptoms in emerging adults: a double-blind randomized controlled trial.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Blueberry intake elevates post-exercise anti-inflammatory oxylipins: a randomized trial.",
+                  "details": "Scientific reports",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Blueberries Improve Pain, Gait Performance, and Inflammation in Individuals with Symptomatic Knee Osteoarthritis.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Blueberry supplementation reduces the blood lactate response to running in normobaric hypoxia but has no effect on performance in recreational runners.",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of New Zealand blueberry consumption on recovery from eccentric exercise-induced muscle damage.",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Enhanced task-related brain activation and resting perfusion in healthy older adults after chronic blueberry supplementation.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effect of a wild blueberry (Vaccinium angustifolium) drink intervention on markers of oxidative stress, inflammation and endothelial function in humans with cardiovascular risk factors.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of blueberry ingestion on natural killer cell counts, oxidative stress, and inflammation prior to and after 2.5 h of running.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "18",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberries improve biomarkers of cardiometabolic function in participants with metabolic syndrome-results from a 6-month, double-blind, randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Anti-hyperglycemic effect of Vaccinium arctostaphylos in type 2 diabetic patients: a randomized controlled trial.",
+                  "details": "Forschende Komplementarmedizin (2006)",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Dietary Blueberry and Soluble Fiber Improve Serum Antioxidant and Adipokine Biomarkers and Lipid Peroxidation in Pregnant Women with Obesity and at Risk for Gestational Diabetes.",
+                  "details": "Antioxidants (Basel, Switzerland)",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "An 8-week freeze-dried blueberry supplement impacts immune-related pathways: a randomized, double-blind placebo-controlled trial.",
+                  "details": "Genes & nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Dietary Blueberry and Soluble Fiber Supplementation Reduces Risk of Gestational Diabetes in Women with Obesity in a Randomized Controlled Trial.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                  "details": "Current developments in nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Postprandial Effects of Blueberry (Vaccinium angustifolium) Consumption on Glucose Metabolism, Gastrointestinal Hormone Response, and Perceived Appetite in Healthy Adults: A Randomized, Placebo-Controlled Crossover Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Blueberries decrease cardiovascular risk factors in obese men and women with metabolic syndrome.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial.",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Postprandial Inflammatory Responses and Free Fatty Acids in Plasma of Adults Who Consumed a Moderately High-Fat Breakfast with and without Blueberry Powder in a Randomized Placebo-Controlled Trial.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effects of exercise with or without blueberries in the diet on cardio-metabolic risk factors: an exploratory pilot study in healthy subjects.",
+                  "details": "Upsala journal of medical sciences",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effects of Blueberry Consumption on Cardiovascular Health in Healthy Adults: A Cross-Over Randomised Controlled Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Daily blueberry consumption for 12 weeks improves endothelial function in postmenopausal women with above-normal blood pressure through reductions in oxidative stress: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Blueberry Supplementation in Midlife for Dementia Risk Reduction.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Blueberry supplementation improves memory in older adults.",
+                  "details": "Journal of agricultural and food chemistry",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "A serving of blueberry (Vaccinium corymbosum) improves peripheral vascular function but not metabolic and functional markers in older subjects: A randomized, controlled, crossover study.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effect of a wild blueberry (Vaccinium angustifolium) drink intervention on markers of oxidative stress, inflammation and endothelial function in humans with cardiovascular risk factors.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "16",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberry anthocyanin intake attenuates the postprandial cardiometabolic effect of an energy-dense food challenge: Results from a double blind, randomized controlled trial in metabolic syndrome participants.",
+                  "details": "Clinical nutrition (Edinburgh, Scotland)",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Blueberries improve biomarkers of cardiometabolic function in participants with metabolic syndrome-results from a 6-month, double-blind, randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "An 8-week freeze-dried blueberry supplement impacts immune-related pathways: a randomized, double-blind placebo-controlled trial.",
+                  "details": "Genes & nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Dietary Blueberry and Soluble Fiber Supplementation Reduces Risk of Gestational Diabetes in Women with Obesity in a Randomized Controlled Trial.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                  "details": "Current developments in nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Blueberries decrease cardiovascular risk factors in obese men and women with metabolic syndrome.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial.",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Postprandial Inflammatory Responses and Free Fatty Acids in Plasma of Adults Who Consumed a Moderately High-Fat Breakfast with and without Blueberry Powder in a Randomized Placebo-Controlled Trial.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effects of Dietary Blueberry (Vaccinium ashei Reade) Leaves on Mildly Postprandial Hypertriglyceridemia.",
+                  "details": "Journal of oleo science",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Effects of exercise with or without blueberries in the diet on cardio-metabolic risk factors: an exploratory pilot study in healthy subjects.",
+                  "details": "Upsala journal of medical sciences",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effects of Blueberry Consumption on Cardiovascular Health in Healthy Adults: A Cross-Over Randomised Controlled Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Blueberry Phenolics Reduce Gastrointestinal Infection of Patients with Cerebral Venous Thrombosis by Improving Depressant-Induced Autoimmune Disorder via miR-155-Mediated Brain-Derived Neurotrophic Factor.",
+                  "details": "Frontiers in pharmacology",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Daily blueberry consumption for 12 weeks improves endothelial function in postmenopausal women with above-normal blood pressure through reductions in oxidative stress: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Blueberry Supplementation in Midlife for Dementia Risk Reduction.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effect of a wild blueberry (Vaccinium angustifolium) drink intervention on markers of oxidative stress, inflammation and endothelial function in humans with cardiovascular risk factors.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "15",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberry Consumption Affects Serum Uric Acid Concentrations in Older Adults in a Sex-Specific Manner.",
+                  "details": "Antioxidants (Basel).  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Improved metabolic function and cognitive performance in middle-aged adults following a single dose of wild blueberry.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Chronic and postprandial effect of blueberries on cognitive function, alertness, and mood in participants with metabolic syndrome - results from a six-month, double-blind, randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "A biphasic response to blueberry supplementation on depressive symptoms in emerging adults: a double-blind randomized controlled trial.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Enhanced neural activation with blueberry supplementation in mild cognitive impairment.",
+                  "details": "Nutritional neuroscience",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Blueberry Supplementation in Midlife for Dementia Risk Reduction.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Six-month intervention with wild blueberries improved speed of processing in mild cognitive decline: a double-blind, placebo-controlled, randomized clinical trial.",
+                  "details": "Nutritional neuroscience",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Enhanced task-related brain activation and resting perfusion in healthy older adults after chronic blueberry supplementation.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Wild Blueberry Extract Intervention in Healthy Older Adults: A Multi-Study, Randomised, Controlled Investigation of Acute Cognitive and Cardiovascular Effects.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Effects of daily consumption of wild blueberry on cognition and urinary metabolites in school-aged children: a pilot study.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Dietary blueberry improves cognition among older adults in a randomized, double-blind, placebo-controlled trial.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "The effect of cognitive demand on performance of an executive function task following wild blueberry supplementation in 7 to 10 years old children.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Cognitive effects following acute wild blueberry supplementation in 7- to 10-year-old children.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Wild blueberry (poly)phenols can improve vascular function and cognitive performance in healthy older individuals: a double-blind randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Blueberry phenolics are associated with cognitive enhancement in supplemented healthy older adults.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "14",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dietary Blueberry and Soluble Fiber Improve Serum Antioxidant and Adipokine Biomarkers and Lipid Peroxidation in Pregnant Women with Obesity and at Risk for Gestational Diabetes.",
+                  "details": "Antioxidants (Basel, Switzerland)",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "An 8-week freeze-dried blueberry supplement impacts immune-related pathways: a randomized, double-blind placebo-controlled trial.",
+                  "details": "Genes & nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Dietary Blueberry and Soluble Fiber Supplementation Reduces Risk of Gestational Diabetes in Women with Obesity in a Randomized Controlled Trial.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                  "details": "Current developments in nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Postprandial Effects of Blueberry (Vaccinium angustifolium) Consumption on Glucose Metabolism, Gastrointestinal Hormone Response, and Perceived Appetite in Healthy Adults: A Randomized, Placebo-Controlled Crossover Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Blueberries decrease cardiovascular risk factors in obese men and women with metabolic syndrome.",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial.",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effects of Dietary Blueberry (Vaccinium ashei Reade) Leaves on Mildly Postprandial Hypertriglyceridemia.",
+                  "details": "Journal of oleo science",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Six weeks daily ingestion of whole blueberry powder increases natural killer cell counts and reduces arterial stiffness in sedentary males and females.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Blueberries Improve Pain, Gait Performance, and Inflammation in Individuals with Symptomatic Knee Osteoarthritis.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Blueberry Supplementation in Midlife for Dementia Risk Reduction.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Blueberry supplementation improves memory in older adults.",
+                  "details": "Journal of agricultural and food chemistry",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effect of a wild blueberry (Vaccinium angustifolium) drink intervention on markers of oxidative stress, inflammation and endothelial function in humans with cardiovascular risk factors.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "9",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial.",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Blueberry Phenolics Reduce Gastrointestinal Infection of Patients with Cerebral Venous Thrombosis by Improving Depressant-Induced Autoimmune Disorder via miR-155-Mediated Brain-Derived Neurotrophic Factor.",
+                  "details": "Frontiers in pharmacology",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Chronic and postprandial effect of blueberries on cognitive function, alertness, and mood in participants with metabolic syndrome - results from a six-month, double-blind, randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Effect of 4 weeks daily wild blueberry supplementation on symptoms of depression in adolescents.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "A biphasic response to blueberry supplementation on depressive symptoms in emerging adults: a double-blind randomized controlled trial.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Blueberry supplementation improves memory in older adults.",
+                  "details": "Journal of agricultural and food chemistry",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effects of daily consumption of wild blueberry on cognition and urinary metabolites in school-aged children: a pilot study.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effects of Acute Blueberry Flavonoids on Mood in Children and Young Adults.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "7",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Enhanced neural activation with blueberry supplementation in mild cognitive impairment.",
+                  "details": "Nutritional neuroscience",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Blueberry Supplementation in Midlife for Dementia Risk Reduction.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "The effects of acute wild blueberry supplementation on the cognition of 7-10-year-old schoolchildren.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Blueberry supplementation improves memory in older adults.",
+                  "details": "Journal of agricultural and food chemistry",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Enhanced task-related brain activation and resting perfusion in healthy older adults after chronic blueberry supplementation.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effects of a single dose of a flavonoid-rich blueberry drink on memory in 8 to 10 y old children.",
+                  "details": "Nutrition (Burbank, Los Angeles County, Calif.)",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "A Randomized, Double-Blinded, Placebo-Controlled Study to Compare the Safety and Efficacy of Low Dose Enhanced Wild Blueberry Powder and Wild Blueberry Extract (ThinkBlue™) in Maintenance of Episodic and Working Memory in Older Adults.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberry intake elevates post-exercise anti-inflammatory oxylipins: a randomized trial.",
+                  "details": "Scientific reports",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Blueberries Improve Pain, Gait Performance, and Inflammation in Individuals with Symptomatic Knee Osteoarthritis.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Blueberry supplementation reduces the blood lactate response to running in normobaric hypoxia but has no effect on performance in recreational runners.",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of New Zealand blueberry consumption on recovery from eccentric exercise-induced muscle damage.",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effect of blueberry ingestion on natural killer cell counts, oxidative stress, and inflammation prior to and after 2.5 h of running.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Dietary blueberry improves cognition among older adults in a randomized, double-blind, placebo-controlled trial.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-hyperglycemic effect of Vaccinium arctostaphylos in type 2 diabetic patients: a randomized controlled trial.",
+                  "details": "Forschende Komplementarmedizin (2006)",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                  "details": "Current developments in nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Blueberry intake elevates post-exercise anti-inflammatory oxylipins: a randomized trial.",
+                  "details": "Scientific reports",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Effect of a wild blueberry (Vaccinium angustifolium) drink intervention on markers of oxidative stress, inflammation and endothelial function in humans with cardiovascular risk factors.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial.",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "A biphasic response to blueberry supplementation on depressive symptoms in emerging adults: a double-blind randomized controlled trial.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Blueberry supplementation reduces the blood lactate response to running in normobaric hypoxia but has no effect on performance in recreational runners.",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of blueberry ingestion on natural killer cell counts, oxidative stress, and inflammation prior to and after 2.5 h of running.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberry anthocyanin intake attenuates the postprandial cardiometabolic effect of an energy-dense food challenge: Results from a double blind, randomized controlled trial in metabolic syndrome participants.",
+                  "details": "Clinical nutrition (Edinburgh, Scotland)",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Anti-hyperglycemic effect of Vaccinium arctostaphylos in type 2 diabetic patients: a randomized controlled trial.",
+                  "details": "Forschende Komplementarmedizin (2006)",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effects of Dietary Blueberry (Vaccinium ashei Reade) Leaves on Mildly Postprandial Hypertriglyceridemia.",
+                  "details": "Journal of oleo science",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Consumption of blueberries with a high-carbohydrate, low-fat breakfast decreases postprandial serum markers of oxidation.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "An 8-week freeze-dried blueberry supplement impacts immune-related pathways: a randomized, double-blind placebo-controlled trial.",
+                  "details": "Genes & nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Six weeks daily ingestion of whole blueberry powder increases natural killer cell counts and reduces arterial stiffness in sedentary males and females.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effect of blueberry ingestion on natural killer cell counts, oxidative stress, and inflammation prior to and after 2.5 h of running.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberries improve biomarkers of cardiometabolic function in participants with metabolic syndrome-results from a 6-month, double-blind, randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Effects of exercise with or without blueberries in the diet on cardio-metabolic risk factors: an exploratory pilot study in healthy subjects.",
+                  "details": "Upsala journal of medical sciences",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Daily blueberry consumption for 12 weeks improves endothelial function in postmenopausal women with above-normal blood pressure through reductions in oxidative stress: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "A single blueberry (Vaccinium corymbosum) portion does not affect markers of antioxidant defence and oxidative stress in healthy volunteers following cigarette smoking.",
+                  "details": "Mutagenesis.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Blueberries improve endothelial function, but not blood pressure, in adults with metabolic syndrome: a randomized, double-blind, placebo-controlled clinical trial.",
+                  "details": "Nutrients.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Enhanced neural activation with blueberry supplementation in mild cognitive impairment.",
+                  "details": "Nutritional neuroscience",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Enhanced task-related brain activation and resting perfusion in healthy older adults after chronic blueberry supplementation.",
+                  "details": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-hyperglycemic effect of Vaccinium arctostaphylos in type 2 diabetic patients: a randomized controlled trial.",
+                  "details": "Forschende Komplementarmedizin (2006)",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                  "details": "Current developments in nutrition",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H024",
+            "fnclty_Nm": "스트레스로 인한 피로개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "A biphasic response to blueberry supplementation on depressive symptoms in emerging adults: a double-blind randomized controlled trial.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Blueberry supplementation reduces the blood lactate response to running in normobaric hypoxia but has no effect on performance in recreational runners.",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberries Improve Abdominal Symptoms, Well-Being and Functioning in Patients with Functional Gastrointestinal Disorders.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Blueberry Phenolics Reduce Gastrointestinal Infection of Patients with Cerebral Venous Thrombosis by Improving Depressant-Induced Autoimmune Disorder via miR-155-Mediated Brain-Derived Neurotrophic Factor.",
+                  "details": "Frontiers in pharmacology",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                  "details": "Current developments in nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Moderate consumption of freeze-dried blueberry powder increased net bone calcium retention compared with no treatment in healthy postmenopausal women: a randomized crossover trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H040",
+            "fnclty_Nm": "수면(의 질 개선)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of Montmorency Tart Cherry and Blueberry Juice on Cardiometabolic and Other Health-Related Outcomes: A Three-Arm Placebo Randomized Controlled Trial.",
+                  "details": "International journal of environmental research and public health",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Chronic and postprandial effect of blueberries on cognitive function, alertness, and mood in participants with metabolic syndrome - results from a six-month, double-blind, randomized controlled trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberry Consumption Affects Serum Uric Acid Concentrations in Older Adults in a Sex-Specific Manner.",
+                  "details": "Antioxidants (Basel).  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Blueberry Supplementation in Midlife for Dementia Risk Reduction.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H051",
+            "fnclty_Nm": "체내 칼슘 흡수 촉진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Blueberry Consumption on Cardiometabolic Health Parameters in Men with Type 2 Diabetes: An 8-Week, Double-Blind, Randomized, Placebo-Controlled Trial.",
+                "details": "Current developments in nutrition",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Six-week consumption of a wild blueberry powder drink increases bifidobacteria in the human gut.",
+                "details": "Journal of agricultural and food chemistry",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H071",
+            "fnclty_Nm": "장 불편감 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Blueberries Improve Abdominal Symptoms, Well-Being and Functioning in Patients with Functional Gastrointestinal Disorders.",
+                "details": "Nutrients",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Blueberries Improve Pain, Gait Performance, and Inflammation in Individuals with Symptomatic Knee Osteoarthritis.",
+                "details": "Nutrients",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Blueberry Improves the Therapeutic Effect of Etanercept on Patients with Juvenile Idiopathic Arthritis: Phase III Study.",
+                "details": "Tohoku J Exp Med.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H076",
+            "fnclty_Nm": "혈관이완을 통한 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of a wild blueberry (Vaccinium angustifolium) drink intervention on markers of oxidative stress, inflammation and endothelial function in humans with cardiovascular risk factors.",
+                "details": "European journal of nutrition",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H050",
+            "fnclty_Nm": "근육(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of New Zealand blueberry consumption on recovery from eccentric exercise-induced muscle damage.",
+                "details": "Journal of the International Society of Sports Nutrition",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

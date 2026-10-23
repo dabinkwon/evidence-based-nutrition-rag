@@ -1,0 +1,166 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-009",
+    "sample_Nm": "배나무",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Korean pear (Pyruspyrifolia cv. Shingo) juice on hangover severity following alcohol consumption.",
+                  "details": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Influence of daily fresh pear consumption on biomarkers of cardiometabolic health in middle-aged/older adults with metabolic syndrome: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Influence of daily fresh pear consumption on biomarkers of cardiometabolic health in middle-aged/older adults with metabolic syndrome: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "A low-energy-dense diet adding fruit reduces weight and energy intake in women.",
+                  "details": "Appetite",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Korean pear (Pyruspyrifolia cv. Shingo) juice on hangover severity following alcohol consumption.",
+                  "details": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Influence of daily fresh pear consumption on biomarkers of cardiometabolic health in middle-aged/older adults with metabolic syndrome: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Korean pear (Pyruspyrifolia cv. Shingo) juice on hangover severity following alcohol consumption.",
+                  "details": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Influence of daily fresh pear consumption on biomarkers of cardiometabolic health in middle-aged/older adults with metabolic syndrome: a randomized controlled trial.",
+                  "details": "Food & function",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Influence of daily fresh pear consumption on biomarkers of cardiometabolic health in middle-aged/older adults with metabolic syndrome: a randomized controlled trial.",
+                "details": "Food & function",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Both Isocarbohydrate and Hypercarbohydrate Fruit Preloads Curbed Postprandial Glycemic Excursion in Healthy Subjects.",
+                "details": "Nutrients",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H047",
+            "fnclty_Nm": "숙취해소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Korean pear (Pyruspyrifolia cv. Shingo) juice on hangover severity following alcohol consumption.",
+                "details": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Korean pear (Pyruspyrifolia cv. Shingo) juice on hangover severity following alcohol consumption.",
+                "details": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Korean pear (Pyruspyrifolia cv. Shingo) juice on hangover severity following alcohol consumption.",
+                "details": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Influence of daily fresh pear consumption on biomarkers of cardiometabolic health in middle-aged/older adults with metabolic syndrome: a randomized controlled trial.",
+                "details": "Food & function",
+                "pblicte_Year": "2019"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

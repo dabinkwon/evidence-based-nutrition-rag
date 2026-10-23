@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-058",
+    "sample_Nm": "우엉",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Arctium lappa L. (Burdock) root tea on inflammatory status and oxidative stress in patients with knee osteoarthritis.",
+                "details": "Int J Rheum Dis. 2014 Oct 28. doi: 10.1111/1756-185X.12477. [Epub ahead of print]",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Arctium lappa L. (Burdock) root tea on inflammatory status and oxidative stress in patients with knee osteoarthritis.",
+                "details": "Int J Rheum Dis. 2014 Oct 28. doi: 10.1111/1756-185X.12477. [Epub ahead of print]",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

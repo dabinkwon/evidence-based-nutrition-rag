@@ -1,0 +1,90 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-001",
+    "sample_Nm": "구절초",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Extract of Chrysanthemum zawadskii var. latilobum Ameliorates Collagen-Induced Arthritis in Mice.",
+                "details": "Evid Based Complement Alternat Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chrysanthemum zawadskii extract protects osteoblastic cells from highly reducing sugar-induced oxidative damage.",
+                "details": "Int Immunopharmacol.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-inflammatory/Anti-oxidative stress activities and differential regulation of Nrf2-mediated genes by non-polar fractions of tea Chrysanthemum zawadskii and licorice Glycyrrhiza uralensis.",
+                "details": "AAPS J.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protection by Chrysanthemum zawadskii extract from liver damage of mice caused by carbon tetrachloride is maybe mediated by modulation of QR activity.",
+                "details": "Nutr Res Pract.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "구절초에서 분리한 linarin의 생리활성",
+                "details": "약학회지",
+                "pblicte_Year": "2001"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chrysanthemum zawadskii extract protects osteoblastic cells from highly reducing sugar-induced oxidative damage.",
+                "details": "Int Immunopharmacol.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

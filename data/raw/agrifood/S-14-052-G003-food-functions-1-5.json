@@ -1,0 +1,66 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-052",
+    "sample_Nm": "부추",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "10주간 태권도 프로그램과 부추섭취가 남자고등학생의 신체조성, 간 효소 및 면역기능에 미치는 영향",
+                "details": "한국생활환경학회지 = Journal of Korean Living Environment System",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "태권도와 부추섭취가 남자고등학생의 신체조성과 혈중지질 및 C-반응단백에 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "태권도와 부추섭취가 남자고등학생의 신체조성과 혈중지질 및 C-반응단백에 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "태권도와 부추섭취가 남자고등학생의 신체조성과 혈중지질 및 C-반응단백에 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

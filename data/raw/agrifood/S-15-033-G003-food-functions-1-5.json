@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-033",
+    "sample_Nm": "치커리",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chicory inulin does not increase stool weight or speed up intestinal transit time in healthy male subjects.",
+                "details": "Food Funct.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "치커리추출물 첨가가 in vitro 전분가수분해율 및 정상성인의 혈당반응에 미치는 영향",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "1997"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

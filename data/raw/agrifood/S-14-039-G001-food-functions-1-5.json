@@ -1,0 +1,85 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-039",
+    "sample_Nm": "오이",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Hydroalcoholic and Buthanolic Extract of Cucumis sativus Seeds on Blood Glucose Level of Normal and Streptozotocin-Induced Diabetic Rats.",
+                  "details": "Iran J Basic Med Sci. 2011 Sep;14(5):436-42.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Protective role of three vegetable peels in alloxan induced diabetes mellitus in male mice.",
+                  "details": "Plant Foods Hum Nutr. 2010 Sep;65(3):284-9. doi: 10.1007/s11130-010-0175-3.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Anti-diabetic activity of Holothuria thomasi saponin.",
+                  "details": "Biomed Pharmacother.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective role of three vegetable peels in alloxan induced diabetes mellitus in male mice.",
+                  "details": "Plant Foods Hum Nutr. 2010 Sep;65(3):284-9. doi: 10.1007/s11130-010-0175-3.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Anti-diabetic activity of Holothuria thomasi saponin.",
+                  "details": "Biomed Pharmacother.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "No correlation is found for vegetables between antioxidant capacity and potential benefits in improving antioxidant function in aged rats.",
+                "details": "J Clin Biochem Nutr. 2014 May;54(3):198-203. doi: 10.3164/jcbn.13-95. Epub 2014 May 1.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inactivation of ATP citrate lyase by Cucurbitacin B: A bioactive compound from cucumber, inhibits prostate cancer growth.",
+                "details": "Cancer Lett. 2014 Jul 10;349(1):15-25. doi: 10.1016/j.canlet.2014.03.015. Epub 2014 Mar 29.",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

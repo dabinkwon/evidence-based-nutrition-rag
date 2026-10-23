@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-046",
+    "sample_Nm": "옻나무",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H038",
+          "fnclty_Nm": "항암",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Impact of standardized Rhus verniciflua stokes extract as complementary therapy on metastatic colorectal cancer: a Korean single-center experience.",
+              "details": "Integr Cancer Ther.  2009",
+              "pblicte_Year": "2009"
+            }
+          }
+        }
+      }
+    }
+  }
+}

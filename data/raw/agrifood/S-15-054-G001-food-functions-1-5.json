@@ -1,0 +1,61 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-054",
+    "sample_Nm": "섬쑥부쟁이(부지갱이)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "고지방 식이 흰쥐에서 섬쑥부쟁이 Caffeoylquinic Acid 고함유 추출물의 동맥경화 위험지수, 산화적 스트레스 및 체중에 대한 효과",
+                  "details": "생약학회지",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Effects of oleic-rich and omega-3-rich diets on serum lipid pattern and lipid oxidation in mildly hypercholesterolemic patients.",
+                  "details": "Clin Nutr.  2002",
+                  "pblicte_Year": "2002"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고지방 식이 흰쥐에서 섬쑥부쟁이 Caffeoylquinic Acid 고함유 추출물의 동맥경화 위험지수, 산화적 스트레스 및 체중에 대한 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고지방 식이 흰쥐에서 섬쑥부쟁이 Caffeoylquinic Acid 고함유 추출물의 동맥경화 위험지수, 산화적 스트레스 및 체중에 대한 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

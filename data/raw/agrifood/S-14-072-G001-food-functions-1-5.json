@@ -1,0 +1,78 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-072",
+    "sample_Nm": "두릅",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of the total saponins of Aralia elata (Miq) Seem on cardiac contractile function and intracellular calcium cycling regulation.",
+                  "details": "J Ethnopharmacol. 2014 Aug 8;155(1):240-7. doi: 10.1016/j.jep.2014.05.024. Epub 2014 May 27.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Cardioprotective effect of Aralia elata polysaccharide on myocardial ischemic reperfusion (IR) injury in rats.",
+                  "details": "Int J Biol Macromol. 2013 Aug;59:328-32. doi: 10.1016/j.ijbiomac.2013.04.060. Epub 2013 Apr 24.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Protective role of Aralia elata polysaccharide on mercury(II)-induced cardiovascular oxidative injury in rats.",
+                  "details": "Int J Biol Macromol. 2013 Aug;59:301-4. doi: 10.1016/j.ijbiomac.2013.04.047. Epub 2013 Apr 20.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Protective effect of total aralosides of Aralia elata (Miq) Seem (TASAES) against diabetic cardiomyopathy in rats during the early stage, and possible mechanisms.",
+                  "details": "Exp Mol Med. 2009 Aug 31;41(8):538-47. doi: 10.3858/emm.2009.41.8.059.",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Extracts from Aralia elata (Miq) Seem alleviate hepatosteatosis via improving hepatic insulin sensitivity.",
+                  "details": "BMC Complement Altern Med. 2015 Oct 5;15:347. doi: 10.1186/s12906-015-0871-5.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Total aralosides of aralia elata (Miq) seem (TASAES) ameliorate nonalcoholic steatohepatitis by modulating IRE1α-mediated JNK and NF-κB pathways in ApoE-/- mice.",
+                  "details": "J Ethnopharmacol. 2015 Apr 2;163:241-50. doi: 10.1016/j.jep.2015.01.017. Epub 2015 Feb 2.",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective role of Aralia elata polysaccharide on mercury(II)-induced cardiovascular oxidative injury in rats.",
+                "details": "Int J Biol Macromol. 2013 Aug;59:301-4. doi: 10.1016/j.ijbiomac.2013.04.047. Epub 2013 Apr 20.",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

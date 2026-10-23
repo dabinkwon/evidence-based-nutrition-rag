@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-019",
+    "sample_Nm": "들깨",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H029",
+          "fnclty_Nm": "혈중 중성지방 개선",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Perilla oil and exercise decrease expressions of tumor necrosis factor-alpha, plasminogen activator inhibitor-1 and highly sensitive C-reactive protein in patients with hyperlipidemia.",
+              "details": "J Tradit Chin Med.  2013",
+              "pblicte_Year": "2013"
+            }
+          }
+        }
+      }
+    }
+  }
+}

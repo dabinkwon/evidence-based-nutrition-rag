@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-100",
+    "sample_Nm": "매실",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "매실 추출물이 알코올 투여 흰쥐의 항산화계 및 지질과산화에 미치는 영향",
+                "details": "한국식품저장유통학회지 = Korean journal of food preservation",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "매실 추출물이 알코올 투여 흰쥐의 항산화계 및 지질과산화에 미치는 영향",
+                "details": "한국식품저장유통학회지 = Korean journal of food preservation",
+                "pblicte_Year": "2004"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

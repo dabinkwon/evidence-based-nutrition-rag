@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-070",
+    "sample_Nm": "멜론",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of an oral supplementation with a proprietary melon juice concentrate (Extramel) on stress and fatigue in healthy people: a pilot, double-blind, placebo-controlled clinical trial.",
+                "details": "Nutr J.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H024",
+            "fnclty_Nm": "스트레스로 인한 피로개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary supplementation with a superoxide dismutase-melon concentrate reduces stress, physical and mental fatigue in healthy people: a randomised, double-blind, placebo-controlled trial.",
+                "details": "Nutrients.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-062",
+    "sample_Nm": "모시풀",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Boehmeria nivea attenuates the development of dextran sulfate sodium-induced experimental colitis.",
+                  "details": "Mediators Inflamm.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Boehmeria nivea Attenuates the Development of Dextran Sulfate Sodium-Induced Experimental Colitis",
+                  "details": "CABI Databases",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Laxative and antioxidant effects of ramie (Boehmeria nivea L.) leaf extract in experimental constipated rats",
+                  "details": "Food Science & Nutrition 8.7 (2020): 3389-3401.",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Boehmeria nivea Stimulates Glucose Uptake by Activating Peroxisome Proliferator-Activated Receptor Gamma in C2C12 Cells and Improves Glucose Intolerance in Mice Fed a High-Fat Diet.",
+                  "details": "Evid Based Complement Alternat Med.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Boehmeria nivea Stimulates Glucose Uptake by Activating Peroxisome Proliferator-Activated Receptor Gamma in C2C12 Cells and Improves Glucose Intolerance in Mice Fed a High-Fat Diet",
+                  "details": "Evidence‐Based Complementary and Alternative Medicine 2013.1 (2013): 867893.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of the hepatoprotective and antioxidant activity of Boehmeria nivea var. nivea and B. nivea var. tenacissima.",
+                "details": "J Ethnopharmacol.  1998",
+                "pblicte_Year": "1998"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Laxative and antioxidant effects of ramie (Boehmeria nivea L.) leaf extract in experimental constipated rats",
+                "details": "Food Science & Nutrition 8.7 (2020): 3389-3401.",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ramie leaf Extract Alleviates Bone Loss in Ovariectomized Rats-The Involvement of ROS and Its Associated Signalings",
+                "details": "Nutrients 15.3 (2023): 745.",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Boehmeria nivea Stimulates Glucose Uptake by Activating Peroxisome Proliferator-Activated Receptor Gamma in C2C12 Cells and Improves Glucose Intolerance in Mice Fed a High-Fat Diet",
+                "details": "Evidence‐Based Complementary and Alternative Medicine 2013.1 (2013): 867893.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Laxative and antioxidant effects of ramie (Boehmeria nivea L.) leaf extract in experimental constipated rats",
+                "details": "Food Science & Nutrition 8.7 (2020): 3389-3401.",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Boehmeria nivea Stimulates Glucose Uptake by Activating Peroxisome Proliferator-Activated Receptor Gamma in C2C12 Cells and Improves Glucose Intolerance in Mice Fed a High-Fat Diet",
+                "details": "Evidence‐Based Complementary and Alternative Medicine 2013.1 (2013): 867893.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Laxative and antioxidant effects of ramie (Boehmeria nivea L.) leaf extract in experimental constipated rats",
+                "details": "Food Science & Nutrition 8.7 (2020): 3389-3401.",
+                "pblicte_Year": "2020"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

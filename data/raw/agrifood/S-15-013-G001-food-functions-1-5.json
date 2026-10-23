@@ -1,0 +1,66 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-013",
+    "sample_Nm": "참취(취나물)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "참취 분말이 에탄올을 투여한 흰쥐의 항산화계에 미치는 효과",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2001"
+                },
+                {
+                  "title": "참취의 건분 및 녹즙이 흰쥐의 지방대사와 항산화능에 미치는 영향",
+                  "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                  "pblicte_Year": "2001"
+                },
+                {
+                  "title": "깻잎, 쑥, 참취의 건분 및 에탄올 추출물이 흰쥐의 지방대사와 항산화능에 미치는 영형",
+                  "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                  "pblicte_Year": "1999"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "참취 및 씀바귀의 성분조성과 혈청 지질저하작용에 대한 연구",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "1997"
+                },
+                {
+                  "title": "참취의 건분 및 녹즙이 흰쥐의 지방대사와 항산화능에 미치는 영향",
+                  "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                  "pblicte_Year": "2001"
+                },
+                {
+                  "title": "깻잎, 쑥, 참취의 건분 및 에탄올 추출물이 흰쥐의 지방대사와 항산화능에 미치는 영형",
+                  "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                  "pblicte_Year": "1999"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

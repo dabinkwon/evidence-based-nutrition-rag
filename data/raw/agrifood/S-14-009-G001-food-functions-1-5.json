@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-009",
+    "sample_Nm": "배나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H047",
+            "fnclty_Nm": "숙취해소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects and action mechanisms of Korean pear (Pyrus pyrifolia cv. Shingo) on alcohol detoxification.",
+                "details": "Phytother Res. 2012 Nov;26(11):1753-8. doi: 10.1002/ptr.4630. Epub 2012 Mar 26.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "배 에탄올 추출물이 난황에 의하여 유발된 생쥐의 천식에 미치는 영향",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-040",
+    "sample_Nm": "파슬리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antidiabetic and Antioxidant Impacts of Desert Date (Balanites aegyptiaca) and Parsley (Petroselinum sativum) Aqueous Extracts: Lessons from Experimental Rats.",
+                  "details": "J Diabetes Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effects of parsley (Petroselinum crispum) extract versus glibornuride on the liver of streptozotocin-induced diabetic rats.",
+                  "details": "J Ethnopharmacol.  2006",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Effects of Petroselinum crispum extract on pancreatic B cells and blood glucose of streptozotocin-induced diabetic rats.",
+                  "details": "Biol Pharm Bull.  2003",
+                  "pblicte_Year": "2003"
+                },
+                {
+                  "title": "Effect of parsley (Petroselinum crispum) on the skin of STZ induced diabetic rats.",
+                  "details": "Phytother Res.  1999",
+                  "pblicte_Year": "1999"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hepatoprotective effects of parsley, basil, and chicory aqueous extracts against dexamethasone-induced in experimental rats.",
+                  "details": "J Intercult Ethnopharmacol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Petroselinum crispum extract attenuates hepatic steatosis in rats fed with fructose enriched diet.",
+                  "details": "Bratisl Lek Listy.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects of parsley (Petroselinum crispum) extract versus glibornuride on the liver of streptozotocin-induced diabetic rats.",
+                  "details": "J Ethnopharmacol.  2006",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antidiabetic and Antioxidant Impacts of Desert Date (Balanites aegyptiaca) and Parsley (Petroselinum sativum) Aqueous Extracts: Lessons from Experimental Rats.",
+                  "details": "J Diabetes Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effects of parsley (Petroselinum crispum) extract versus glibornuride on the liver of streptozotocin-induced diabetic rats.",
+                  "details": "J Ethnopharmacol.  2006",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Effects of Petroselinum crispum extract on pancreatic B cells and blood glucose of streptozotocin-induced diabetic rats.",
+                  "details": "Biol Pharm Bull.  2003",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective Effect of Parsley Juice (Petroselinum crispum, Apiaceae) against Cadmium Deleterious Changes in the Developed Albino Mice Newborns (Mus musculus) Brain.",
+                  "details": "Oxid Med Cell Longev.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effect of parsley (Petroselinum crispum, Apiaceae) juice against cadmium neurotoxicity in albino mice (Mus musculus).",
+                  "details": "Behav Brain Funct.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effects of Parsley (Petroselinum crispum) and its Flavonol Constituents, Kaempferol and Quercetin, on Serum Uric Acid Levels, Biomarkers of Oxidative Stress and Liver Xanthine Oxidoreductase Aactivity inOxonate-Induced Hyperuricemic Rats.",
+                  "details": "Iran J Pharm Res.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antiosteoporotic effect of Petroselinum crispum, Ocimum basilicum and Cichorium intybus L. in glucocorticoid-induced osteoporosis in rats.",
+                "details": "BMC Complement Altern Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of parsley (Petroselinum crispum (Mill.) Nym. ex A.W. Hill, Apiaceae) extracts on some biochemical parameters of oxidative stress in mice treated with CCl(4).",
+                "details": "Phytother Res.  2007",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of parsley (Petroselinum crispum) on the skin of STZ induced diabetic rats.",
+                "details": "Phytother Res.  1999",
+                "pblicte_Year": "1999"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

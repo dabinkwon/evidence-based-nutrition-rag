@@ -1,0 +1,252 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-060",
+    "sample_Nm": "아로니아(블랙초크베리)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of food products on endogenous generation of N-nitrosamines in rats",
+                  "details": "Br J Nutr",
+                  "pblicte_Year": "1997"
+                },
+                {
+                  "title": "Inhibition of lung tumor development by berry extracts in mice exposed to cigarette smoke",
+                  "details": "Int J Cancer",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Chokeberry (Aronia melanocarpa) juice modulates 7,12-dimethylbenz[a]anthracene induced hepatic but not mammary gland phase I and II enzymes in female rats",
+                  "details": "Environ Toxicol Pharmacol",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anthocyanin-rich Phytochemicals from Aronia Fruits Inhibit Visceral Fat Accumulation and Hyperglycemia in High-fat Diet-induced Dietary Obese Rats",
+                  "details": "J Oleo Sci",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "아로니아 저온 초음파 추출물의 항비만 활성 증진",
+                  "details": "韓國藥用作物學會誌 = Korean journal of medicinal crop science",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anthocyanins in chokeberry and purple maize attenuate diet-induced metabolic syndrome in rats",
+                  "details": "Nutrition",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Ingestion of black chokeberry fruit extract leads to intestinal and systemic changes in a rat model of prediabetes and hyperlipidemia",
+                  "details": "Plant Foods Hum Nutr",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antiatherogenic and Cardioprotective Effects of Black Chokeberry (Aronia melanocarpa) Juice in Aging Rats",
+                  "details": "Evid Based Complement Alternat Med",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Antihyperlipidemic effect of Aronia melanocarpa fruit juice in rats fed a high-cholesterol diet",
+                  "details": "Plant Foods Hum Nutr",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Gastroprotective effect of red pigments in black chokeberry fruit (Aronia melanocarpa Elliot) on acute gastric hemorrhagic lesions in rats",
+                  "details": "J Agric Food Chem",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "Effect of Aronia melanocarpa fruit juice on indomethacin-induced gastric mucosal damage and oxidative stress in rats",
+                  "details": "Exp Toxicol Pathol",
+                  "pblicte_Year": "2005"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Aronia melanocarpa treatment and antioxidant status in selected tissues in Wistar rats",
+                  "details": "Biomed Res Int",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Chokeberry Pomace as a Determinant of Antioxidant Parameters Assayed in Blood and Liver Tissue of Polish Merino and Wrzosowka Lambs",
+                  "details": "Molecules",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Bioactive Compound of Aronia melanocarpa on Cardiovascular System in Experimental Hypertension",
+                  "details": "Oxid Med Cell Longev",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "The involvement of a polyphenol-rich extract of black chokeberry in oxidative stress on experimental arterial hypertension",
+                  "details": "Evid Based Complement Alternat Med",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H081",
+            "fnclty_Nm": "면역과민반응에 의한 피부상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Synergistic Inhibition of Aronia melanocarpa and Moringa oleifera Seed Extract on Experimental Atopic Dermatitis",
+                "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Aronia melanocarpa (chokeberry) polyphenol-rich extract improves antioxidant function and reduces total plasma cholesterol in apolipoprotein E knockout mice",
+                "details": "Nutr Res",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Sambucus nigra and Aronia melanocarpa extracts on immune system disorders within diabetes mellitus",
+                "details": "Pharm Biol",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hepatoprotective effect of the natural fruit juice from Aronia melanocarpa on carbon tetrachloride-induced acute liver damage in rats",
+                "details": "Exp Toxicol Pathol",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anthocyanins from Black Chokeberry (Aroniamelanocarpa Elliot) Delayed Aging-Related Degenerative Changes of Brain",
+                "details": "J Agric Food Chem",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H030",
+            "fnclty_Nm": "중금속 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of anthocyanins on selected biochemical parameters in rats exposed to cadmium",
+                "details": "Acta Biochim Pol",
+                "pblicte_Year": "2003"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Reduction of anxiety-like and depression-like behaviors in rats after one month of drinking Aronia melanocarpa berry juice",
+                "details": "Food Funct",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "쥐의 알코올성 간세포 손상에 대한 Aronia melanocapa(Blackberry)의 보호효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

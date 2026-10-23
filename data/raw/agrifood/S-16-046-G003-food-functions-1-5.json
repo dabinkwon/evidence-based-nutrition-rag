@@ -1,0 +1,85 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-046",
+    "sample_Nm": "감",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Assessment of the Therapeutic Potential of Persimmon Leaf Extract on Prediabetic Subjects.",
+                  "details": "Mol Cells",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Persimmon fruit tannin-rich fiber reduces cholesterol levels in humans.",
+                  "details": "Ann Nutr Metab",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Persimmon fruit tannin-rich fiber reduces cholesterol levels in humans.",
+                "details": "Ann Nutr Metab",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dermocosmetic emulgels for anti-aging effects: Evidence from chromatographic and non-invasive biophysical techniques.",
+                "details": "Pak J Pharm Sci",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Persimmon Fruit Polyphenols on Postprandial Plasma Glucose Elevation in Rats and Humans.",
+                "details": "J Nutr Sci Vitaminol (Tokyo)",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Regulation of the peripheral body temperature by foods: a temperature decrease induced by the Japanese persimmon (kaki, Diospyros kaki)",
+                "details": "Biosci Biotechnol Biochem",
+                "pblicte_Year": "2003"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

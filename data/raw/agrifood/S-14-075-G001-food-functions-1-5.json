@@ -1,0 +1,104 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-075",
+    "sample_Nm": "연",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-Alzheimer and Antioxidant Effects of Nelumbo nucifera L. Alkaloids, Nuciferine and Norcoclaurine in Alloxan-Induced Diabetic Albino Rats.",
+                  "details": "Pharmaceuticals (Basel)",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Antioxidant and hepatic protective effects of lotus root hot water extract with taurine supplementation in rats fed a high fat diet.",
+                  "details": "J Biomed Sci",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Effects of Nelumbonucifera Gaertn. Petal Tea Extract on Hepatotoxicity and Oxidative Stress Induced by Mancozeb in Rat Model.",
+                  "details": "Toxics",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects and action mechanisms of lotus leaf (Nelumbo nucifera) 에탄올 extract on gut microbes and obesity in high-fat diet-fed rats.",
+                  "details": "Front Nutr",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Effects of Nelumbo nucifera Leaf Extract on Obesity.",
+                  "details": "Plant Foods for Human Nutrition",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Serotonergic mechanisms are involved in antidepressant-like effects of bisbenzylisoquinolines liensinine and its analogs isolated from the embryo of Nelumbo nucifera?꿆aertner seeds in mice.",
+                  "details": "J Pharm Pharmacol. 2015 Dec;67(12):1716-22. doi: 10.1111/jphp.12473. Epub 2015 Aug 5.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Antidepressant-like effects of neferine in the forced swimming test involve the serotonin1A (5-HT1A) receptor in mice.",
+                  "details": "Eur J Pharmacol. 2010 May 25;634(1-3):62-7. doi: 10.1016/j.ejphar.2010.02.016. Epub 2010 Feb 20.",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Nelumbo nucifera leaves extract attenuate the pathological progression of diabetic nephropathy in high-fat diet-fed and streptozotocin-induced diabetic rats.",
+                "details": "J Food Drug Anal",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Nelumbo nucifera Leaves Prevent NMU-Induced Mammary Tumor through Downregulation of Fatty Acid Synthase, Estrogen Receptor-α and Her2 Expression.",
+                "details": "Am J Chin Med",
+                "pblicte_Year": "2019"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

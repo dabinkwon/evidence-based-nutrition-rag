@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-084",
+    "sample_Nm": "아스파라거스",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Improvement of Blood Pressure, Glucose Metabolism, and Lipid Profile by the Intake of Powdered Asparagus ( L첬 S큼n) Bottom-stems and Cladophylls.",
+                "details": "J Tradit Complement Med. 2013 Oct;3(4):250-5. doi: 10.4103/2225-4110.119728.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Improvement of Blood Pressure, Glucose Metabolism, and Lipid Profile by the Intake of Powdered Asparagus ( L첬 S큼n) Bottom-stems and Cladophylls.",
+                "details": "J Tradit Complement Med. 2013 Oct;3(4):250-5. doi: 10.4103/2225-4110.119728.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Improvement of Blood Pressure, Glucose Metabolism, and Lipid Profile by the Intake of Powdered Asparagus ( L첬 S큼n) Bottom-stems and Cladophylls.",
+                "details": "J Tradit Complement Med. 2013 Oct;3(4):250-5. doi: 10.4103/2225-4110.119728.",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

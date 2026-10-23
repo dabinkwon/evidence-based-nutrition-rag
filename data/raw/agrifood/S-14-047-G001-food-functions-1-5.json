@@ -1,0 +1,176 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-047",
+    "sample_Nm": "양배추",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Evaluation of hypoglycemic and hypolipidemic activity of methanol extract of Brassica oleracea.",
+                  "details": "Chin J Nat Med. 2014 Sep;12(9):648-53. doi: 10.1016/S1875-5364(14)60099-6.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Red Cabbage Microgreens Lower Circulating Low-Density Lipoprotein (LDL), Liver Cholesterol, and Inflammatory Cytokines in Mice Fed a High-Fat Diet.",
+                  "details": "J Agric Food Chem.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Assessment of bioactive metabolites and hypolipidemic effect of polyphenolic-rich red cabbage extract.",
+                  "details": "Pharm Biol.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Assessment of some Herbal Drugs for Prophylaxis of Peptic Ulcer.",
+                  "details": "Iran J Pharm Res. 2014 Summer;13(3):1081-6.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Evaluation of antiulcerogenic activity of aqueous extract of Brassica oleracea var. capitata (cabbage) on Wistar rat gastric ulceration.",
+                  "details": "Arq Gastroenterol. 2011 Oct-Dec;48(4):276-82.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "양배추즙 및 양배추 혼합즙의 인체위암세포(AGS) 성장 억제효과와 HCl-Ethanol로 유발된 흰쥐의 항위염 효과",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-Inflammatory Effect of Chestnut Honey and Cabbage Mixtures Alleviates Gastric Mucosal Damage",
+                  "details": "Nutrients 16.3 (2024): 389.",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Red Cabbage Juice-Mediated Gut Microbiota Modulation Improves Intestinal Epithelial Homeostasis and Ameliorates Colitis",
+                  "details": "International journal of molecular sciences 25.1 (2023): 539.",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Evaluation of hypoglycemic and hypolipidemic activity of methanol extract of Brassica oleracea.",
+                  "details": "Chin J Nat Med. 2014 Sep;12(9):648-53. doi: 10.1016/S1875-5364(14)60099-6.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Brassica oleracea Extracts Prevent Hyperglycemia in Type 2 Diabetes Mellitus",
+                  "details": "Preventive Nutrition and Food Science 27.1 (2022): 50.",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Red Cabbage Microgreens Lower Circulating Low-Density Lipoprotein (LDL), Liver Cholesterol, and Inflammatory Cytokines in Mice Fed a High-Fat Diet",
+                "details": "Journal of agricultural and food chemistry 64.48 (2016): 9161-9171.",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H002",
+            "fnclty_Nm": "치매",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-Inflammatory Effect of Fermented Cabbage Extract Containing Nitric Oxide Metabolites with Silica",
+                "details": "International Journal of Molecular Sciences 25.2 (2024): 775.",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Bioactive compounds and therapeutic role of Brassica oleracea L. seeds in rheumatoid arthritis rats via regulating inflammatory signalling pathways and antagonizing interleukin-1 receptor action",
+                "details": "Biomarkers 26.8 (2021): 788-807.",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anthocyanin rich extract of Brassica oleracea L. alleviates experimentally induced myocardial infarction",
+                "details": "PLoS One 12.8 (2017): e0182137.",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Brassica oleracea Extracts Prevent Hyperglycemia in Type 2 Diabetes Mellitus",
+                "details": "Preventive Nutrition and Food Science 27.1 (2022): 50.",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H021",
+            "fnclty_Nm": "집중력향상",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Red Cabbage Anthocyanins Attenuate Cognitive Impairment By Attenuating Neuroinflammation and Regulating Gut Microbiota in Aging Mice",
+                "details": "Journal of Agricultural and Food Chemistry 71.41 (2023): 15064-15072.",
+                "pblicte_Year": "2023"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

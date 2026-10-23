@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-098",
+    "sample_Nm": "우산나물",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H025",
+          "fnclty_Nm": "항염증",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Syneilesis palmata (Thunb.) Maxim. extract attenuates inflammatory responses via the regulation of TRIF-dependent signaling and inflammasome activation",
+              "details": "Journal of Ethnopharmacology",
+              "pblicte_Year": "2015"
+            }
+          }
+        }
+      }
+    }
+  }
+}

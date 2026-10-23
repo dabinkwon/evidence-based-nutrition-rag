@@ -1,0 +1,97 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-073",
+    "sample_Nm": "큰조롱(백수오)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Cynanchum wilfordii Radix attenuates liver fat accumulation and damage by suppressing hepatic cyclooxygenase-2 and mitogen-activated protein kinase in mice fed with a high-fat and high-fructose diet.",
+                  "details": "Nutr Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "국산 및 중국산 백수오(白首烏)의 Triton WR-1339 유발 고지혈증(高脂血症) 흰쥐에 대한 효능 연구",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "한외거르기(Ultrafiltration)에 의하여 분리된 백수오 고분자 분획물의 면역증진 활성",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "국산 및 중국산 백수오(白首烏)의 Triton WR-1339 유발 고지혈증(高脂血症) 흰쥐에 대한 효능 연구",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "백수오(白首烏)가 알콜 투여로 유발된 흰쥐의 고지혈증과 간 손상의 예방에 미치는 영향",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of the Cynanchum wilfordii Ethanol Extract on the Serum Lipid Profile in Hypercholesterolemic Rats.",
+                "details": "Prev Nutr Food Sci.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H076",
+            "fnclty_Nm": "혈관이완을 통한 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Improved endothelial dysfunction by Cynanchum wilfordii in apolipoprotein E(-/-) mice fed a high fat/cholesterol diet.",
+                "details": "J Med Food.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

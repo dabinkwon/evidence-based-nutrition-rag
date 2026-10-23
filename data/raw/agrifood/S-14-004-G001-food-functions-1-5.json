@@ -1,0 +1,207 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-004",
+    "sample_Nm": "호박",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-diabetic effects of pumpkin and its components, trigonelline and nicotinic acid, on Goto-Kakizaki rats.",
+                  "details": "Biosci Biotechnol Biochem. 2009 May;73(5):1033-41. Epub 2009 May 7.",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Effects of polysaccharide from pumpkin on biochemical indicator and pancreatic tissue of the diabetic rabbits.",
+                  "details": "Int J Biol Macromol. 2013 Nov;62:574-81. doi: 10.1016/j.ijbiomac.2013.09.044. Epub 2013 Oct 1.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Glucose-lowering activity of novel tetrasaccharide glyceroglycolipids from the fruits of Cucurbita moschata.",
+                  "details": "Bioorg Med Chem Lett. 2011 Feb 1;21(3):1001-3. doi: 10.1016/j.bmcl.2010.12.030. Epub 2010 Dec 10.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "A water-soluble extract from Cucurbita moschata shows anti-obesity effects by controlling lipid metabolism in a high fat diet-induced obesity mouse model.",
+                  "details": "Biochem Biophys Res Commun. 2007 Aug 3;359(3):419-25. Epub 2007 May 25. Erratum in: Biochem Biophys Res Commun. 2008 Feb 1;366(1):269.",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Effect of Pumpkin, Corn Silk, Adzuki Bean, and Their Mixture on Weight Control and Antioxidant Activities in High Fat Diet-Induced Obesity Rats",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Replacement of Dietary Saturated Fat by PUFA-Rich Pumpkin Seed Oil Attenuates Non-Alcoholic Fatty Liver Disease and Atherosclerosis Development, with Additional Health Effects of Virgin over Refined Oil.",
+                  "details": "PLoS One. 2015;10(9):e0139196. doi: 10.1371/journal.pone.0139196.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Hypolipidemic effect of the polysaccharides extracted from pumpkin by cellulase-assisted method on mice.",
+                  "details": "Int J Biol Macromol. 2014 Mar;64:137-8. doi: 10.1016/j.ijbiomac.2013.12.001. Epub 2013 Dec 8.",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The antioxidant effects of pumpkin seed oil on subacute aflatoxin poisoning in mice.",
+                  "details": "Environ Toxicol. 2013 Dec;28(12):681-8. doi: 10.1002/tox.20763. Epub 2011 Aug 31.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of Pumpkin, Corn Silk, Adzuki Bean, and Their Mixture on Weight Control and Antioxidant Activities in High Fat Diet-Induced Obesity Rats",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "호박 물 추출물이 부종 및 고지혈증에 미치는 영향",
+                "details": "韓國藥用作物學會誌 = Korean journal of medicinal crop science",
+                "pblicte_Year": "2001"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-proliferative effects of cucurmosin on human hepatoma HepG2 cells.",
+                "details": "Mol Med Rep. 2012 Jan;5(1):196-201. doi: 10.3892/mmr.2011.605. Epub 2011 Sep 30.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Intervention of pumpkin seed oil on metabolic disease revealed by metabonomics and transcript profile.",
+                "details": "J Sci Food Agric.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Carrot Juice Administration Decreases Liver Stearoyl-CoA Desaturase 1 and Improves Docosahexaenoic Acid Levels, but Not Steatosis in High Fructose Diet-Fed Weanling Wistar Rats",
+                "details": "Preventive nutrition and food science",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Supplementation with pumpkin seed oil improves plasma lipid profile and cardiovascular outcomes of female non-ovariectomized and ovariectomized Sprague-Dawley rats.",
+                "details": "Phytother Res. 2008 Jul;22(7):873-7. doi: 10.1002/ptr.2381.",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "호박 물 추출물이 부종 및 고지혈증에 미치는 영향",
+                "details": "韓國藥用作物學會誌 = Korean journal of medicinal crop science",
+                "pblicte_Year": "2001"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of Cucurbita maxima extract against scopolamine-induced amnesia in rats: implication of tumour necrosis factor alpha.",
+                "details": "Z Naturforsch C. 2014 Sep-Oct;69(9-10):407-17.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antihypertensive and cardioprotective effects of pumpkin seed oil.",
+                "details": "J Med Food. 2012 Feb;15(2):180-9. doi: 10.1089/jmf.2010.0299. Epub 2011 Nov 14.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H024",
+            "fnclty_Nm": "스트레스로 인한 피로개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Pumpkin (Cucurbita moschata) fruit extract improves physical fatigue and exercise performance in mice.",
+                "details": "Molecules. 2012 Oct 9;17(10):11864-76. doi: 10.3390/molecules171011864.",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

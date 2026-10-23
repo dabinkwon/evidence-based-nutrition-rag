@@ -1,0 +1,66 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-18-051",
+    "sample_Nm": "비름",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Neuroprotective effect of hydroalcoholic extract of Amaranthus tricolor leaves on experimental animals",
+                "details": "Asian J Pharm Clin Res 13.6 (2020): 181-186.",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Cardioprotective effect of Amaranthus tricolor extract in isoprenaline induced myocardial damage in ovariectomized rats",
+                "details": "Biomedicine & Pharmacotherapy 103 (2018): 1154-1162.",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effectiveness of Ethanolic Extract of Amaranthus tricolor L.: A Natural Hepatoprotective Agent",
+                "details": "The American Journal of Chinese Medicine 38.06 (2010): 1051-1064.",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "EVALUATION OF ANTI-DIARRHOEAL ACTIVITY OF AMARANTHUS TRICOLOR LINN IN EXPERIMENTAL ANIMALS",
+                "details": "Innoriginal: International Journal of Sciences",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

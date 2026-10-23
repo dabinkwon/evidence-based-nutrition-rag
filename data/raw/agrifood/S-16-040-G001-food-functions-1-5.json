@@ -1,0 +1,90 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-040",
+    "sample_Nm": "퀴노아",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Quinoa extract enriched in 20-hydroxyecdysone affects energy homeostasis and intestinal fat absorption in mice fed a high-fat diet",
+                  "details": "Physiol Behav",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Quinoa extract enriched in 20-hydroxyecdysone protects mice from diet-induced obesity and modulates adipokines expression",
+                  "details": "Obesity (Silver Spring)",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Molecular exploration of fecal microbiome in quinoa-supplemented obese mice",
+                  "details": "FEMS Microbiol Ecol",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of diet supplemented with quinoa seeds on oxidative status in plasma and selected tissues of high fructose-fed rats",
+                "details": "Plant Foods Hum Nutr",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of quinoa seeds (Chenopodium quinoa) in diet on some biochemical parameters and essential elements in blood of high fructose-fed rats",
+                "details": "Plant Foods Hum Nutr",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Quinoa seeds leach phytoecdysteroids and other compounds with anti-diabetic properties",
+                "details": "Food Chem",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effectual comparison of quinoa and amaranth supplemented diets in controlling appetite; a biochemical study in rats",
+                "details": "J Food Sci Technol",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

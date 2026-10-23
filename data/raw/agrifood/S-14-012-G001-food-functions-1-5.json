@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-012",
+    "sample_Nm": "배추",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H999",
+          "fnclty_Nm": "기타",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Chinese cabbage (Brassica campestris L.) does not improve glucose tolerance, serum insulin, or blood lipid profiles in a rat model of type-2 diabetes.",
+              "details": "J Food Sci.  2008",
+              "pblicte_Year": "2008"
+            }
+          }
+        }
+      }
+    }
+  }
+}

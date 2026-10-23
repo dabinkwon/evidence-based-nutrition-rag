@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-020",
+    "sample_Nm": "꾸지뽕나무",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H032",
+          "fnclty_Nm": "소화기계건강",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Efficacy and Safety of the Cudrania tricuspidata Extract on Functional Dyspepsia: A Randomized Double-Blind Placebo-Controlled Multicenter Study.",
+              "details": "Journal of clinical medicine",
+              "pblicte_Year": "2021"
+            }
+          }
+        }
+      }
+    }
+  }
+}

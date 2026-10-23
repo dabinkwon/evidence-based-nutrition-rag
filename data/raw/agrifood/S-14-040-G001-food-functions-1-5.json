@@ -1,0 +1,80 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-040",
+    "sample_Nm": "호박(애호박)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "D-chiro-inositol found in Cucurbita ficifolia (Cucurbitaceae) fruit extracts plays the hypoglycaemic role in streptozocin-diabetic rats.",
+                  "details": "J Pharm Pharmacol. 2006 Nov;58(11):1527-32.",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Antihyperglycemic effect of Cucurbita ficifolia fruit extract in streptozotocin-induced diabetic rats.",
+                  "details": "Fitoterapia. 2006 Dec;77(7-8):530-3. Epub 2006 Jul 6.",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "D-chiro-inositol found in Cucurbita ficifolia (Cucurbitaceae) fruit extracts plays the hypoglycaemic role in streptozocin-diabetic rats.",
+                  "details": "J Pharm Pharmacol. 2006 Nov;58(11):1527-32.",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Antihyperglycemic effect of Cucurbita ficifolia fruit extract in streptozotocin-induced diabetic rats.",
+                  "details": "Fitoterapia. 2006 Dec;77(7-8):530-3. Epub 2006 Jul 6.",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Cucurbita ficifolia (Cucurbitaceae) modulates inflammatory cytokines and IFN-款 in obese mice.",
+                "details": "Can J Physiol Pharmacol.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of Anthelmintic Activity and Composition of Pumpkin (Cucurbita pepo L.) Seed Extracts-In Vitro and in Vivo Studies.",
+                "details": "Int J Mol Sci.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

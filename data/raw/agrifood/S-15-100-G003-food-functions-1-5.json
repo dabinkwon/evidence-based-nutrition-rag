@@ -1,0 +1,195 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-100",
+    "sample_Nm": "매실",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "매실 추출물 섭취가 에너지기질 및 피로물질 변화에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "매실함유 음료섭취가 장시간 운동시 심박수, 호흡가스 변인 및 혈중 젖산농도 변화에 미치는 영향",
+                  "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                  "pblicte_Year": "1999"
+                },
+                {
+                  "title": "고온에서의 점증적 최대운동시 매실함유 음료 밀 생수섭취에 따른 심박수 및 혈중 젖산농도 변화의 비교",
+                  "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                  "pblicte_Year": "1999"
+                },
+                {
+                  "title": "Safety and adherence of Umezu polyphenols in the Japanese plum (Prunus mume) in a 12-week double-blind randomized placebo-controlled pilot trial to evaluate antihypertensive effects.",
+                  "details": "Environmental health and preventive medicine",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Prunus mume extract and choline treatment in patients with non-alcoholic fatty liver disease estimated by b-mode ultrasonography and hepatorenal index.",
+                  "details": "Caspian journal of internal medicine",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Efficacy of a Standardized Extract of Prunus mume in Liver Protection and Redox Homeostasis: A Randomized, Double-Blind, Placebo-Controlled Study.",
+                  "details": "Phytotherapy research",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H024",
+            "fnclty_Nm": "스트레스로 인한 피로개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "매실 추출물 섭취가 에너지기질 및 피로물질 변화에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Efficacy and safety of fermented Prunus mume vinegar on fatigue improvement in adults with unexplained fatigue: A randomized controlled trial.",
+                  "details": "Frontiers in nutrition",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Prunus mume extract and choline treatment in patients with non-alcoholic fatty liver disease estimated by b-mode ultrasonography and hepatorenal index.",
+                  "details": "Caspian journal of internal medicine",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Efficacy of a Standardized Extract of Prunus mume in Liver Protection and Redox Homeostasis: A Randomized, Double-Blind, Placebo-Controlled Study.",
+                  "details": "Phytotherapy research",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Prunus mume extract and choline treatment in patients with non-alcoholic fatty liver disease estimated by b-mode ultrasonography and hepatorenal index.",
+                  "details": "Caspian journal of internal medicine",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Efficacy of a Standardized Extract of Prunus mume in Liver Protection and Redox Homeostasis: A Randomized, Double-Blind, Placebo-Controlled Study.",
+                  "details": "Phytotherapy research",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Safety and adherence of Umezu polyphenols in the Japanese plum (Prunus mume) in a 12-week double-blind randomized placebo-controlled pilot trial to evaluate antihypertensive effects.",
+                "details": "Environmental health and preventive medicine",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Japanese apricot improves symptoms of gastrointestinal dysmotility associated with gastroesophageal reflux disease.",
+                "details": "World journal of gastroenterology",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H011",
+            "fnclty_Nm": "구강에서의 항균작용",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effects of natural compounds-containing mouthrinses on patients with fixed orthodontic appliance treatment: clinical and microbiological outcomes.",
+                "details": "International journal of paediatric dentistry",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Safety and adherence of Umezu polyphenols in the Japanese plum (Prunus mume) in a 12-week double-blind randomized placebo-controlled pilot trial to evaluate antihypertensive effects.",
+                "details": "Environmental health and preventive medicine",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Prunus mume extract and choline treatment in patients with non-alcoholic fatty liver disease estimated by b-mode ultrasonography and hepatorenal index.",
+                "details": "Caspian journal of internal medicine",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Efficacy of a Standardized Extract of Prunus mume in Liver Protection and Redox Homeostasis: A Randomized, Double-Blind, Placebo-Controlled Study.",
+                "details": "Phytotherapy research",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

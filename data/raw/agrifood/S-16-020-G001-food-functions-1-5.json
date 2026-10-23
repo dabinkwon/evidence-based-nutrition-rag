@@ -1,0 +1,78 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-020",
+    "sample_Nm": "참나물",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chamnamul [Pimpinella brachycarpa (Kom.) Nakai] ameliorates hyperglycemia and improves antioxidant status in mice fed a high-fat, high-sucrose diet",
+                "details": "Nutrition research and practice",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chamnamul [Pimpinella brachycarpa (Kom.) Nakai] ameliorates hyperglycemia and improves antioxidant status in mice fed a high-fat, high-sucrose diet",
+                "details": "Nutrition research and practice",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chamnamul [Pimpinella brachycarpa (Kom.) Nakai] ameliorates hyperglycemia and improves antioxidant status in mice fed a high-fat, high-sucrose diet",
+                "details": "Nutrition research and practice",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "참나물이 만성적으로 알코올 유도된 흰쥐의 간손상에 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chamnamul [Pimpinella brachycarpa (Kom.) Nakai] ameliorates hyperglycemia and improves antioxidant status in mice fed a high-fat, high-sucrose diet",
+                "details": "Nutrition research and practice",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

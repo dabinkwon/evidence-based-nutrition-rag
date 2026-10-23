@@ -1,0 +1,90 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-011",
+    "sample_Nm": "곤달비",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "곤달비의 수명 연장 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "스트렙토조토신으로 유도된 흰쥐에서 곤달비 추출물의 항당뇨 효과",
+                "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "곤달비의 수명 연장 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "곤달비 메탄올 추출물의 진통 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H048",
+            "fnclty_Nm": "항노화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "곤달비의 수명 연장 효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "스트렙토조토신으로 유도된 흰쥐에서 곤달비 추출물의 항당뇨 효과",
+                "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                "pblicte_Year": "2007"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-054",
+    "sample_Nm": "고구마",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Sweet potato [Ipomoea batatas (L.) Lam. Tainong 57",
+                  "details": "J Nutr Sci Vitaminol (Tokyo). 2013;59(4):272-80.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Ipomoea batatas and Agarics blazei ameliorate diabetic disorders with therapeutic antioxidant potential in streptozotocin-induced diabetic rats.",
+                  "details": "J Clin Biochem Nutr. 2011 May;48(3):194-202. doi: 10.3164/jcbn.10-78. Epub 2011 Jan 7.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "The effects of an arabinogalactan-protein from the white-skinned sweet potato (Ipomoea batatas L.) on blood glucose in spontaneous diabetic mice.",
+                  "details": "Biosci Biotechnol Biochem. 2011;75(3):596-8. Epub 2011 Mar 7.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ipomoea batatas and Agarics blazei ameliorate diabetic disorders with therapeutic antioxidant potential in streptozotocin-induced diabetic rats.",
+                  "details": "J Clin Biochem Nutr. 2011 May;48(3):194-202. doi: 10.3164/jcbn.10-78. Epub 2011 Jan 7.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Ipomoea batatas attenuates amyloid b peptide-induced neurotoxicity in ICR mice.",
+                  "details": "J Med Food. 2011 Mar;14(3):304-9. doi: 10.1089/jmf.2010.0047. Epub 2010 Dec 13.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Anthocyanins from purple sweet potato attenuate dimethylnitrosamine-induced liver injury in rats by inducing Nrf2-mediated antioxidant enzymes and reducing COX-2 and iNOS expression.",
+                  "details": "Food Chem Toxicol. 2011 Jan;49(1):93-9. doi: 10.1016/j.fct.2010.10.002. Epub 2010 Oct 8.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Sweet potato [Ipomoea batatas (L.) Lam. Tainong 57",
+                  "details": "J Nutr Sci Vitaminol (Tokyo). 2013;59(4):272-80.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Ipomoea batatas and Agarics blazei ameliorate diabetic disorders with therapeutic antioxidant potential in streptozotocin-induced diabetic rats.",
+                  "details": "J Clin Biochem Nutr. 2011 May;48(3):194-202. doi: 10.3164/jcbn.10-78. Epub 2011 Jan 7.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "The effects of an arabinogalactan-protein from the white-skinned sweet potato (Ipomoea batatas L.) on blood glucose in spontaneous diabetic mice.",
+                  "details": "Biosci Biotechnol Biochem. 2011;75(3):596-8. Epub 2011 Mar 7.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Sweet potato [Ipomoea batatas (L.) Lam. Tainong 57",
+                  "details": "J Nutr Sci Vitaminol (Tokyo). 2013;59(4):272-80.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Ipomoea batatas and Agarics blazei ameliorate diabetic disorders with therapeutic antioxidant potential in streptozotocin-induced diabetic rats.",
+                  "details": "J Clin Biochem Nutr. 2011 May;48(3):194-202. doi: 10.3164/jcbn.10-78. Epub 2011 Jan 7.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "The effects of an arabinogalactan-protein from the white-skinned sweet potato (Ipomoea batatas L.) on blood glucose in spontaneous diabetic mice.",
+                  "details": "Biosci Biotechnol Biochem. 2011;75(3):596-8. Epub 2011 Mar 7.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "In vivo wound healing and antiulcer properties of white sweet potato (Ipomoea batatas).",
+                  "details": "J Adv Res. 2013 Jul;4(4):411-5. doi: 10.1016/j.jare.2012.06.001. Epub 2012 Jul 6.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Hypouricemic effects of anthocyanin extracts of purple sweet potato on potassium oxonate-induced hyperuricemia in mice.",
+                  "details": "Phytother Res. 2011 Sep;25(9):1415-7. doi: 10.1002/ptr.3421. Epub 2011 Mar 24.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective mechanisms of anthocyanins from purple sweet potato against tert-butyl hydroperoxide-induced hepatotoxicity.",
+                  "details": "Food Chem Toxicol. 2011 Sep;49(9):2081-9. doi: 10.1016/j.fct.2011.05.021. Epub 2011 May 25.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Anthocyanins from purple sweet potato attenuate dimethylnitrosamine-induced liver injury in rats by inducing Nrf2-mediated antioxidant enzymes and reducing COX-2 and iNOS expression.",
+                  "details": "Food Chem Toxicol. 2011 Jan;49(1):93-9. doi: 10.1016/j.fct.2010.10.002. Epub 2010 Oct 8.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ipomoea batatas and Agarics blazei ameliorate diabetic disorders with therapeutic antioxidant potential in streptozotocin-induced diabetic rats.",
+                  "details": "J Clin Biochem Nutr. 2011 May;48(3):194-202. doi: 10.3164/jcbn.10-78. Epub 2011 Jan 7.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Anthocyanins from purple sweet potato attenuate dimethylnitrosamine-induced liver injury in rats by inducing Nrf2-mediated antioxidant enzymes and reducing COX-2 and iNOS expression.",
+                  "details": "Food Chem Toxicol. 2011 Jan;49(1):93-9. doi: 10.1016/j.fct.2010.10.002. Epub 2010 Oct 8.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Inhibition or enhancement by 4 Pacific Island food plants against cancers induced by 2 amino-3-methylimidazo[4,5-f]quinoline in male Fischer 344 rats.",
+                  "details": "Nutr Cancer. 2012;64(2):218-27. doi: 10.1080/01635581.2012.638432. Epub 2012 Jan 2.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Polyphenol-rich sweet potato greens extract inhibits proliferation and induces apoptosis in prostate cancer cells in vitro and in vivo.",
+                  "details": "Carcinogenesis. 2011 Dec;32(12):1872-80. doi: 10.1093/carcin/bgr215. Epub 2011 Sep 26.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Purple sweet potato anthocyanins attenuate hepatic lipid accumulation through activating adenosine monophosphate-activated protein kinase in human HepG2 cells and obese mice.",
+                "details": "Nutr Res. 2011 Dec;31(12):896-906. doi: 10.1016/j.nutres.2011.09.026.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H024",
+            "fnclty_Nm": "스트레스로 인한 피로개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In vivo anti-fatigue activity of total flavonoids from sweetpotato [Ipomoea batatas (L.) Lam.] leaf in mice.",
+                "details": "Indian J Biochem Biophys. 2013 Aug;50(4):326-9.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ipomoea batatas attenuates amyloid b peptide-induced neurotoxicity in ICR mice.",
+                "details": "J Med Food. 2011 Mar;14(3):304-9. doi: 10.1089/jmf.2010.0047. Epub 2010 Dec 13.",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

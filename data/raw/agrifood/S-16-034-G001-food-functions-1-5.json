@@ -1,0 +1,92 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-034",
+    "sample_Nm": "아마란스",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Amelioration of hexachlorocyclohexane-induced oxidative stress by amaranth leaves in rats",
+                  "details": "Plant Foods Hum Nutr",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "The effect of Amaranth oil on monolayers of artificial lipids and hepatocyte plasma membranes with adrenalin-induced stress",
+                  "details": "Food Chem",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Amaranth oil increased fecal excretion of bile Acid but had no effect in reducing plasma cholesterol in hamsters",
+                  "details": "Lipids",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Intake of heat-expanded amaranth grain reverses endothelial dysfunction in hypercholesterolemic rabbits",
+                  "details": "Food Funct",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Amaranth Protein Hydrolysates Efficiently Reduce Systolic Blood Pressure in Spontaneously Hypertensive Rats",
+                "details": "Molecules",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antioxidant properties of Amaranthus hypochondriacus seeds and their effect on the liver of alcohol-treated rats",
+                "details": "Plant Foods Hum Nutr",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Improvement of lipid profile by amaranth (Amaranthus esculantus) supplementation in streptozotocin-induced diabetic rats",
+                "details": "Ann Nutr Metab",
+                "pblicte_Year": "2006"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

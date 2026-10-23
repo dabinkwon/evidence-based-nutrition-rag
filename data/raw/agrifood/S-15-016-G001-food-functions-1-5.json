@@ -1,0 +1,286 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-016",
+    "sample_Nm": "브로콜리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dietary Broccoli Lessens Development of Fatty Liver and Liver Cancer in Mice Given Diethylnitrosamine and Fed a Western or Control Diet.",
+                  "details": "J Nutr.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Sulforaphane-rich broccoli sprout extract improves hepatic abnormalities in male subjects.",
+                  "details": "World J Gastroenterol.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "브로콜리 싹 에탄올 추출물이 고지방식이를 급여한 흰쥐의 콜레스테롤 저하 및 비만 억제효과에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Biochemical and molecular studies on the possible influence of the Brassica oleracea and Beta vulgaris extracts to mitigate the effect of food preservatives and food chemical colorants on albino rats.",
+                  "details": "Saudi J Biol Sci.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Influence of broccoli extract and various essential oils on performance and expression of xenobiotic- and antioxidant enzymes in broiler chickens.",
+                  "details": "Br J Nutr.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Protective effects of broccoli (Brassica oleracea) against oxidative damage in vitro and in vivo",
+                  "details": "J Nutr Sci Vitaminol (Tokyo)",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of broccoli extract enriched diet on liver cholesterol oxidation in rats subjected to exhaustive exercise.",
+                  "details": "J Steroid Biochem Mol Biol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Broccoli sprout extract induces detoxification-related gene expression and attenuates acute liver injury.",
+                  "details": "World J Gastroenterol.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Influence of dietary blueberry and broccoli on cecal microbiota activity and colon morphology in mdr1a(-/-) mice, a model of inflammatory bowel diseases.",
+                  "details": "Nutrition.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Cecal and colonic responses in rats fed 5 or 30% corn oil diets containing either 7.5% broccoli dietary fiber or microcrystalline cellulose.",
+                  "details": "J Agric Food Chem.  2010",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Broccoli ( Brassica oleracea var. italica) sprouts and extracts rich in glucosinolates and isothiocyanates affect cholesterol metabolism and genes involved in lipid homeostasis in hamsters.",
+                  "details": "J Agric Food Chem.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "브로콜리 싹 에탄올 추출물이 고지방식이를 급여한 흰쥐의 콜레스테롤 저하 및 비만 억제효과에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Broccoli sprout extract prevents diabetic cardiomyopathy via Nrf2 activation in db/db T2DM mice.",
+                  "details": "Sci Rep.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Resistin mediates tomato and broccoli extract effects on glucose homeostasis in high fat diet-induced obesity in rats.",
+                  "details": "BMC Complement Altern Med.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Prophylactic effects of sulforaphane on depression-like behavior and dendritic changes in mice after inflammation.",
+                "details": "J Nutr Biochem.  2017",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H048",
+            "fnclty_Nm": "항노화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Green tea catechins and broccoli reduce fat-induced mortality in Drosophila melanogaster.",
+                "details": "J Nutr Biochem.  2008",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary sulforaphane-rich broccoli sprouts reduce colonization and attenuate gastritis in Helicobacter pylori-infected mice and humans.",
+                "details": "Cancer Prev Res (Phila).  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Broccoli sprout extract prevents diabetic cardiomyopathy via Nrf2 activation in db/db T2DM mice.",
+                "details": "Sci Rep.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Resistin mediates tomato and broccoli extract effects on glucose homeostasis in high fat diet-induced obesity in rats.",
+                "details": "BMC Complement Altern Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Cecal and colonic responses in rats fed 5 or 30% corn oil diets containing either 7.5% broccoli dietary fiber or microcrystalline cellulose.",
+                "details": "J Agric Food Chem.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Preclinical and clinical evaluation of broccoli supplements as inducers of glutathione S-transferase activity.",
+                "details": "Clin Cancer Res.  1997",
+                "pblicte_Year": "1997"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Assessing competence of broccoli consumption on inflammatory and antioxidant pathways in restraint-induced models: estimation in rat hippocampus and prefrontal cortex.",
+                "details": "Biomed Res Int.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "브로콜리 싹 에탄올 추출물이 고지방식이를 급여한 흰쥐의 콜레스테롤 저하 및 비만 억제효과에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary broccoli mildly improves neuroinflammation in aged mice but does not reduce lipopolysaccharide-induced sickness behavior.",
+                "details": "Nutr Res.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary Intake of Sulforaphane-Rich Broccoli Sprout Extracts during Juvenile and Adolescence Can Prevent Phencyclidine-Induced Cognitive Deficits at Adulthood.",
+                "details": "PLoS One.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Glucosinolates from pak choi and broccoli induce enzymes and inhibit inflammation and colon cancer differently.",
+                "details": "Food Funct.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

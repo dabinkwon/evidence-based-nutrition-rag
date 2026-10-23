@@ -1,0 +1,111 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-016",
+    "sample_Nm": "양파",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Onion peel extract reduces the percentage of body fat in overweight and obese subjects: a 12-week, randomized, double-blind, placebo-controlled study",
+                  "details": "Nutrition research and practice",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Onion peel extract reduces the percentage of body fat in overweight and obese subjects: a 12-week, randomized, double-blind, placebo-controlled study.",
+                  "details": "Nutr Res Pract.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Onion peel extract reduces the percentage of body fat in overweight and obese subjects: a 12-week, randomized, double-blind, placebo-controlled study",
+                  "details": "Nutrition research and practice",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Cardioprotective Efficacy of Red Wine Extract of Onion in Healthy Hypercholesterolemic Subjects.",
+                  "details": "Phytother Res.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "No effects of quercetin from onion skin extract on serum leptin and adiponectin concentrations in overweight-to-obese patients with (pre-)hypertension: a randomized double-blinded, placebo-controlled crossover trial.",
+                  "details": "Eur J Nutr.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Consumption of Fresh Yellow Onion Ameliorates Hyperglycemia and Insulin Resistance in Breast Cancer Patients During Doxorubicin-Based Chemotherapy: A Randomized Controlled Clinical Trial.",
+                  "details": "Integr Cancer Ther.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Onion Peel Extract on Inflammatory Mediators in Korean Overweight and Obese Women.",
+                "details": "Clin Nutr Res.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H039",
+            "fnclty_Nm": "갱년기 여성의 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Consumption of onion juice modulates oxidative stress and attenuates the risk of bone disorders in middle-aged and post-menopausal healthy subjects.",
+                "details": "Food Funct.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Onion peel extract reduces the percentage of body fat in overweight and obese subjects: a 12-week, randomized, double-blind, placebo-controlled study",
+                "details": "Nutrition research and practice",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,492 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-075",
+    "sample_Nm": "키위(참다래)",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "12",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "A randomised cross-over pharmacokinetic bioavailability study of synthetic versus kiwifruit-derived vitamin C.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Actinidia chinensis Planch. Improves the Indices of Antioxidant and Anti-Inflammation Status of Type 2 Diabetes Mellitus by Activating Keap1 and Nrf2 via the Upregulation of MicroRNA-424.",
+                  "details": "Oxidative medicine and cellular longevity",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Blood cell gene expression associated with cellular stress defense is modulated by antioxidant-rich food in a randomised controlled clinical trial of male smokers.",
+                  "details": "BMC medicine",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Compliance, tolerability and safety of two antioxidant-rich diets: a randomised controlled trial in male smokers.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Consumption of gold kiwifruit reduces severity and duration of selected upper respiratory tract infection symptoms and increases plasma vitamin C concentration in healthy older adults.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effect of SunGold Kiwifruit and Vitamin C Consumption on Ameliorating Exercise-Induced Stress Response in Women.",
+                  "details": "Molecular nutrition &amp; food research",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Human skeletal muscle ascorbate is highly responsive to changes in vitamin C intake and plasma concentrations.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Nutritional modulation of DNA repair in a human intervention study.",
+                  "details": "Carcinogenesis",
+                  "pblicte_Year": "2003"
+                },
+                {
+                  "title": "SunGold Kiwifruit Supplementation of Individuals with Prediabetes Alters Gut Microbiota and Improves Vitamin C Status, Anthropometric and Clinical Markers.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Supplementation of a western diet with golden kiwifruits (Actinidia chinensis var.&apos;Hort 16A&apos;:) effects on biomarkers of oxidation damage and antioxidant protection.",
+                  "details": "Nutrition journal",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "TaqIB polymorphism in the cholesteryl ester transfer protein (CETP) gene influences lipid responses to the consumption of kiwifruit in hypercholesterolaemic men",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "The effect of kiwifruit consumption on blood pressure in subjects with moderately elevated blood pressure: a randomized, controlled study.",
+                  "details": "Blood pressure",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "11",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Consumption of 2 Green Kiwifruits Daily Improves Constipation and Abdominal Comfort-Results of an International Multicenter Randomized Controlled Trial.",
+                  "details": "The American journal of gastroenterology",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Efficacy of actinidin-containing kiwifruit extract Zyactinase on constipation: a randomised double-blinded placebo-controlled clinical trial.",
+                  "details": "Asia Pacific journal of clinical nutrition",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Encapsulated green kiwifruit extract: a randomised controlled trial investigating alleviation of constipation in otherwise healthy adults.",
+                  "details": "Asia Pacific journal of clinical nutrition",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Increasing dietary fiber intake in terms of kiwifruit improves constipation in Chinese patients.",
+                  "details": "World journal of gastroenterology",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Kiwifruit improves bowel function in patients with irritable bowel syndrome with constipation.",
+                  "details": "Asia Pacific journal of clinical nutrition",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Kiwifruit-derived supplements increase stool frequency in healthy adults: a randomized, double-blind, placebo-controlled study.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Mechanisms underlying effects of kiwifruit on intestinal function shown by MRI in healthy volunteers.",
+                  "details": "Alimentary pharmacology &amp; therapeutics",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "SunGold Kiwifruit Supplementation of Individuals with Prediabetes Alters Gut Microbiota and Improves Vitamin C Status, Anthropometric and Clinical Markers.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "The effect of &apos;Zesy002&apos; kiwifruit (Actinidia chinensis var. chinensis) on gut health function: a randomised cross-over clinical trial.",
+                  "details": "Journal of nutritional science",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "The Effects on Immune Function and Digestive Health of Consuming the Skin and Flesh of Zespri(®) SunGold Kiwifruit (Actinidia Chinensis var. Chinensis &apos;Zesy002&apos;) in Healthy and IBS-Constipated Individuals.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Two Gold Kiwifruit Daily for Effective Treatment of Constipation in Adults-A Randomized Clinical Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Actinidia chinensis Planch. Improves the Indices of Antioxidant and Anti-Inflammation Status of Type 2 Diabetes Mellitus by Activating Keap1 and Nrf2 via the Upregulation of MicroRNA-424.",
+                  "details": "Oxidative medicine and cellular longevity",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Kiwifruit consumption favourably affects plasma lipids in a randomised controlled trial in hypercholesterolaemic men.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "SunGold Kiwifruit Supplementation of Individuals with Prediabetes Alters Gut Microbiota and Improves Vitamin C Status, Anthropometric and Clinical Markers.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Supplementation of a western diet with golden kiwifruits (Actinidia chinensis var.&apos;Hort 16A&apos;:) effects on biomarkers of oxidation damage and antioxidant protection.",
+                  "details": "Nutrition journal",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "TaqIB polymorphism in the cholesteryl ester transfer protein (CETP) gene influences lipid responses to the consumption of kiwifruit in hypercholesterolaemic men",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Actinidia chinensis Planch. Improves the Indices of Antioxidant and Anti-Inflammation Status of Type 2 Diabetes Mellitus by Activating Keap1 and Nrf2 via the Upregulation of MicroRNA-424.",
+                  "details": "Oxidative medicine and cellular longevity",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Consumption of gold kiwifruit reduces severity and duration of selected upper respiratory tract infection symptoms and increases plasma vitamin C concentration in healthy older adults.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "SunGold Kiwifruit Supplementation of Individuals with Prediabetes Alters Gut Microbiota and Improves Vitamin C Status, Anthropometric and Clinical Markers.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "The Effects on Immune Function and Digestive Health of Consuming the Skin and Flesh of Zespri(®) SunGold Kiwifruit (Actinidia Chinensis var. Chinensis &apos;Zesy002&apos;) in Healthy and IBS-Constipated Individuals.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "A Pilot Randomized Cross-Over Trial to Examine the Effect of Kiwifruit on Satiety and Measures of Gastric Comfort in Healthy Adult Males.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "The Effects on Immune Function and Digestive Health of Consuming the Skin and Flesh of Zespri(®) SunGold Kiwifruit (Actinidia Chinensis var. Chinensis &apos;Zesy002&apos;) in Healthy and IBS-Constipated Individuals.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "The impact of Hayward green kiwifruit on dietary protein digestion and protein metabolism.",
+                  "details": "European journal of nutrition",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Two Gold Kiwifruit Daily for Effective Treatment of Constipation in Adults-A Randomized Clinical Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Actinidia chinensis Planch. Improves the Indices of Antioxidant and Anti-Inflammation Status of Type 2 Diabetes Mellitus by Activating Keap1 and Nrf2 via the Upregulation of MicroRNA-424.",
+                  "details": "Oxidative medicine and cellular longevity",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "SunGold Kiwifruit Supplementation of Individuals with Prediabetes Alters Gut Microbiota and Improves Vitamin C Status, Anthropometric and Clinical Markers.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Supplementation of a western diet with golden kiwifruits (Actinidia chinensis var.&apos;Hort 16A&apos;:) effects on biomarkers of oxidation damage and antioxidant protection.",
+                  "details": "Nutrition journal",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Kiwifruit consumption favourably affects plasma lipids in a randomised controlled trial in hypercholesterolaemic men.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "SunGold Kiwifruit Supplementation of Individuals with Prediabetes Alters Gut Microbiota and Improves Vitamin C Status, Anthropometric and Clinical Markers.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "TaqIB polymorphism in the cholesteryl ester transfer protein (CETP) gene influences lipid responses to the consumption of kiwifruit in hypercholesterolaemic men",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Daily kiwifruit consumption did not improve blood pressure and markers of cardiovascular function in men with hypercholesterolemia.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "SunGold Kiwifruit Supplementation of Individuals with Prediabetes Alters Gut Microbiota and Improves Vitamin C Status, Anthropometric and Clinical Markers.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "The effect of kiwifruit consumption on blood pressure in subjects with moderately elevated blood pressure: a randomized, controlled study.",
+                  "details": "Blood pressure",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H046",
+            "fnclty_Nm": "여성건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Gold kiwifruit consumed with an iron-fortified breakfast cereal meal improves iron status in women with low iron stores: a 16-week randomised controlled trial.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "The effects of green kiwifruit combined with isoflavones on equol production, bone turnover and gut microflora in healthy postmenopausal women.",
+                  "details": "Asia Pacific journal of clinical nutrition",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Kiwifruit Non-Sugar Components Reduce Glycaemic Response to Co-Ingested Cereal in Humans.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Postprandial Glycaemic, Hormonal and Satiety Responses to Rice and Kiwifruit Preloads in Chinese Adults: A Randomised Controlled Crossover Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Acute effects of fresh versus dried Hayward green kiwifruit on sleep quality, mood, and sleep-related urinary metabolites in healthy young men with good and poor sleep quality.",
+                  "details": "Frontiers in nutrition",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "KiwiC for Vitality: Results of a Randomized Placebo-Controlled Trial Testing the Effects of Kiwifruit or Vitamin C Tablets on Vitality in Adults with Low Vitamin C Levels.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H081",
+            "fnclty_Nm": "면역과민반응에 의한 피부상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effects of PG102, a water-soluble extract from Actinidia arguta, on serum total IgE levels: a double-blind, randomized, placebo-controlled exploratory clinical study.",
+                "details": "European journal of nutrition",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H011",
+            "fnclty_Nm": "구강에서의 항균작용",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effectiveness of an oral care tablet containing kiwifruit powder in reducing oral bacteria in tongue coating: A crossover trial.",
+                "details": "Clinical and experimental dental research",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H024",
+            "fnclty_Nm": "스트레스로 인한 피로개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "KiwiC for Vitality: Results of a Randomized Placebo-Controlled Trial Testing the Effects of Kiwifruit or Vitamin C Tablets on Vitality in Adults with Low Vitamin C Levels.",
+                "details": "Nutrients",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H037",
+            "fnclty_Nm": "충치 발생 위험 감소(치아 건강)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effect of twice daily kiwifruit consumption on periodontal and systemic conditions before and after treatment: A randomized clinical trial.",
+                "details": "Journal of periodontology",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H040",
+            "fnclty_Nm": "수면(의 질 개선)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Acute effects of fresh versus dried Hayward green kiwifruit on sleep quality, mood, and sleep-related urinary metabolites in healthy young men with good and poor sleep quality.",
+                "details": "Frontiers in nutrition",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Consumption of gold kiwifruit reduces severity and duration of selected upper respiratory tract infection symptoms and increases plasma vitamin C concentration in healthy older adults.",
+                "details": "The British journal of nutrition",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Metabolic and Blood Pressure Effects of Consuming Two Kiwifruit Daily for 7 Weeks: A Randomised Controlled Trial",
+                "details": "Nutrients",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Consumption of kiwifruit capsules increases Faecalibacterium prausnitzii abundance in functionally constipated individuals: a randomised controlled human trial.",
+                "details": "Journal of nutritional science",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H071",
+            "fnclty_Nm": "장 불편감 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Efficacy of actinidin-containing kiwifruit extract Zyactinase on constipation: a randomised double-blinded placebo-controlled clinical trial.",
+                "details": "Asia Pacific journal of clinical nutrition",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H077",
+            "fnclty_Nm": "혈소판 응집을 억제하여 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Supplementation of a western diet with golden kiwifruits (Actinidia chinensis var.&apos;Hort 16A&apos;:) effects on biomarkers of oxidation damage and antioxidant protection.",
+                "details": "Nutrition journal",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

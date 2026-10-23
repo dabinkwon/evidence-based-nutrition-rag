@@ -1,0 +1,61 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-092",
+    "sample_Nm": "어수리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antidepressant effect of Heracleum moellendorffii extract on behavioral changes in astrocyte ablation mouse model of depression by modulating neuroinflammation",
+                  "details": "J Ginseng Res.",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Heracleum moellendorffii Hance root extract (HME) improves cognitive impairment and depression-like activity in the mouse model of alcohol-related dementia with neuroplasticity and hepatoprotection",
+                  "details": "정보없음",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidepressant effect of Heracleum moellendorffii extract on behavioral changes in astrocyte ablation mouse model of depression by modulating neuroinflammation",
+                "details": "J Ginseng Res.",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Heracleum moellendorffii Hance root extract (HME) improves cognitive impairment and depression-like activity in the mouse model of alcohol-related dementia with neuroplasticity and hepatoprotection",
+                "details": "정보없음",
+                "pblicte_Year": "2023"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

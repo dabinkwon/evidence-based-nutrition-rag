@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-085",
+    "sample_Nm": "구기자나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H067",
+          "fnclty_Nm": "위점막 보호하여 위 건강",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Anti-Ulcerogenic Properties of Lycium chinense Mill Extracts against Ethanol-Induced Acute Gastric Lesion in Animal Models and Its Active Constituents.",
+              "details": "Molecules. 2015 Dec 16;20(12):22553-64. doi: 10.3390/molecules201219867.",
+              "pblicte_Year": "2015"
+            }
+          }
+        }
+      }
+    }
+  }
+}

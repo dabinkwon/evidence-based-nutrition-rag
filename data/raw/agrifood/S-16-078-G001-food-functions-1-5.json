@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-078",
+    "sample_Nm": "느티만가닥버섯",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고지방식이를 섭취한 마우스에서 느티만가닥버섯의 항비만 효과",
+                "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibition of Azoxymethane-induced Colorectal Aberrant Crypt Foci in Mice Fed a High-fat Diet by Pleurotus eryngii (Eringi) and Hypsizygus marmoreus (Bunashimeji)",
+                "details": "Asian Pac J Cancer Prev",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

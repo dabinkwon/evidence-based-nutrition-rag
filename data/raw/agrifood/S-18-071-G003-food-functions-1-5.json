@@ -1,0 +1,49 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-18-071",
+    "sample_Nm": "양상추",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H040",
+            "fnclty_Nm": "수면(의 질 개선)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Pilot study of the efficacy and safety of lettuce seed oil in patients with sleep disorders",
+                  "details": "International Journal of General Medicine",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Effect of Topical Lettuce (Lactuca sativa L. ) Seed Oil on Childhood Sleep Disorders: a Randomized Double-Blind Controlled Trial",
+                  "details": "Research Journal of Pharmacognosy",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypolipidemic effect of Lactuca sativa seed extract, an adjunctive treatment, in patients with hyperlipidemia: a randomized double-blind placebo-controlled pilot trial",
+                "details": "Journal of Herbal Medicine",
+                "pblicte_Year": "2020"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-061",
+    "sample_Nm": "수수",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Sorghum [Sorghum bicolor (L.) Moench] leaf sheath dye protects against cisplatin-induced hepatotoxicity and oxidative stress in rats.",
+                  "details": "J Med Food. 2014 Dec;17(12):1332-8. doi: 10.1089/jmf.2013.0013.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Chemical characterization of a procyanidin-rich extract from sorghum bran and its effect on oxidative stress and tumor inhibition in vivo.",
+                  "details": "J Agric Food Chem. 2011 Aug 24;59(16):8609-15. doi: 10.1021/jf2015528. Epub 2011 Jul 29.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chemical characterization of a procyanidin-rich extract from sorghum bran and its effect on oxidative stress and tumor inhibition in vivo.",
+                "details": "J Agric Food Chem. 2011 Aug 24;59(16):8609-15. doi: 10.1021/jf2015528. Epub 2011 Jul 29.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-anaemic potentials of aqueous extract of Sorghum bicolor (L.) moench stem bark in rats.",
+                "details": "J Ethnopharmacol. 2007 May 22;111(3):651-6. Epub 2007 Jan 18.",
+                "pblicte_Year": "2007"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

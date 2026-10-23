@@ -1,0 +1,293 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-23-029",
+    "sample_Nm": "백향과(패션프루트)",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Randomized, Double-Blind, Placebo-Controlled, Clinical Study of Passiflora incarnata in Participants With Stress and Sleep Problems.",
+                  "details": "Cureus",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Effects of Passiflora incarnata and Valeriana officinalis in the control of anxiety due to tooth extraction: a randomized controlled clinical trial.",
+                  "details": "Oral and maxillofacial surgery",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Effects of Passion Flower Extract, as an Add-On Treatment to Sertraline, on Reaction Time in Patients ‎with Generalized Anxiety Disorder: A Double-Blind Placebo-Controlled Study.",
+                  "details": "Iranian journal of psychiatry",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Comparing the Effect of Preoperative Administration of Melatonin and Passiflora incarnata on Postoperative Cognitive Disorders in Adult Patients Undergoing Elective Surgery.",
+                  "details": "Anesthesiology and pain medicine",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Acute Effects of the Consumption of Passiflora setacea Juice on Metabolic Risk Factors and Gene Expression Profile in Humans.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effect of the yellow passion fruit peel flour (Passiflora edulis f. flavicarpa deg.) in insulin sensitivity in type 2 diabetes mellitus patients.",
+                  "details": "Nutrition journal",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effect of the yellow passion fruit peel flour (Passiflora edulis f. flavicarpa deg.) in insulin sensitivity in type 2 diabetes mellitus patients.",
+                  "details": "Nutrition journal",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Acute Effects of the Consumption of Passiflora setacea Juice on Metabolic Risk Factors and Gene Expression Profile in Humans.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H024",
+            "fnclty_Nm": "스트레스로 인한 피로개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Passion Fruit Seed Extract Rich in Piceatannol on the Skin of Women: A Randomized, Placebo-Controlled, Double-Blind Trial.",
+                  "details": "Journal of nutritional science and vitaminology",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Randomized, Double-Blind, Placebo-Controlled, Clinical Study of Passiflora incarnata in Participants With Stress and Sleep Problems.",
+                  "details": "Cureus",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H040",
+            "fnclty_Nm": "수면(의 질 개선)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Passion Fruit Seed Extract Rich in Piceatannol on the Skin of Women: A Randomized, Placebo-Controlled, Double-Blind Trial.",
+                  "details": "Journal of nutritional science and vitaminology",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Randomized, Double-Blind, Placebo-Controlled, Clinical Study of Passiflora incarnata in Participants With Stress and Sleep Problems.",
+                  "details": "Cureus",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Passion fruit purple variant (Passiflora edulis Sims var. edulis) seeds extract 10% cream in acne vulgaris treatment: an open-label pilot study.",
+                  "details": "International journal of dermatology",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Effect of Passion Fruit Seed Extract Rich in Piceatannol on the Skin of Women: A Randomized, Placebo-Controlled, Double-Blind Trial.",
+                  "details": "Journal of nutritional science and vitaminology",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Acute Effects of the Consumption of Passiflora setacea Juice on Metabolic Risk Factors and Gene Expression Profile in Humans.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Passion Fruit Seed Extract Rich in Piceatannol on the Skin of Women: A Randomized, Placebo-Controlled, Double-Blind Trial.",
+                "details": "Journal of nutritional science and vitaminology",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Oral intake of purple passion fruit peel extract reduces pain and stiffness and improves physical function in adult patients with knee osteoarthritis.",
+                "details": "Nutrition research (New York, N.Y.)",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H050",
+            "fnclty_Nm": "근육(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Piceatannol from Passion Fruit (Passiflora edulis) Seeds on Metabolic Health in Humans.",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

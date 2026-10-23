@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-064",
+    "sample_Nm": "한라봉",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H038",
+          "fnclty_Nm": "항암",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Antitumor metastasis activity of pectic polysaccharide purified from the peels of Korean Citrus Hallabong.",
+              "details": "Carbohydr Polym. 2014 Oct 13;111:72-9. doi: 10.1016/j.carbpol.2014.04.073. Epub 2014 Apr 30.",
+              "pblicte_Year": "2014"
+            }
+          }
+        }
+      }
+    }
+  }
+}

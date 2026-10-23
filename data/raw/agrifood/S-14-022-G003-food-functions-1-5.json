@@ -1,0 +1,247 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-022",
+    "sample_Nm": "고추",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "14",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Capsaicin and evodiamine ingestion does not augment energy expenditure and fat oxidation at rest or after moderately-intense exercise.",
+                  "details": "Nutr Res.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Influence of red pepper spice and turmeric on inflammation and oxidative stress biomarkers in overweight females: a metabolomics approach.",
+                  "details": "Plant Foods Hum Nutr.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effects of novel capsinoid treatment on fatness and energy metabolism in humans: possible pharmacogenetic implications.",
+                  "details": "Am J Clin Nutr.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Capsaicin-containing chili improved postprandial hyperglycemia, hyperinsulinemia, and fasting lipid disorders in women with gestational diabetes mellitus and lowered the incidence of large-for-gestational-age newborns",
+                  "details": "Clin. Nutr. 35, 388–393",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Hypoxanthine levels in human urine serve as a screening indicator for the plasma total cholesterol and low-density lipoprotein modulation activities of fermented red pepper paste",
+                  "details": "Nutr. Res. 30, 455–461",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Influence of Red Pepper Spice and Turmeric on Inflammation and Oxidative Stress Biomarkers in Overweight Females: A Metabolomics Approach",
+                  "details": "Nutr. 67, 415–421",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effect of dihydrocapsiate on resting metabolic rate in humans",
+                  "details": "Am. J. Clin. Nutr. 92, 1089–1093",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Efects of capsinoids on daily physical activity, body composition and cold hypersensitivity in middle-aged and older adults: A Randomized Study.",
+                  "details": "Nutrients 12, 212",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Effects of dihydrocapsiate on adaptive and diet-induced thermogenesis with a high protein very low calorie diet: a randomized control trial",
+                  "details": "Nutr Metab (Lond) . 2010 Oct 6;7:78. doi: 10.1186/1743-7075-7-78.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Capsaicinoids supplementation decreases percent body fat and fat mass: adjustment using covariates in a post hoc analysis",
+                  "details": "BMC Obes. 5, 22",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Effects of novel capsinoid treatment on fatness and energy metabolism in humans: possible pharmacogenetic implications",
+                  "details": "Am. J. Clin. Nutr. 89, 45–50",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Kochujang, fermented soybean-based red pepper paste, decreases visceral fat and improves blood lipid profiles in overweight adults",
+                  "details": "Nutr. Metab. 10, 24",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Assessment of human brown adipose tissue density during daily ingestion of thermogenic capsinoids using nearinfrared time-resolved spectroscopy",
+                  "details": "J. Biomed. Opt. 21, 091305",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "The effect of 4-week chilli supplementation on metabolic and arterial function in humans",
+                  "details": "Eur. J. Clin. Nutr. 61, 326–333",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of daily ingestion of chilli on serum lipoprotein oxidation in adult men and women.",
+                  "details": "Br J Nutr.  2006",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Capsaicin-containing chili improved postprandial hyperglycemia, hyperinsulinemia, and fasting lipid disorders in women with gestational diabetes mellitus and lowered the incidence of large-for-gestational-age newborns",
+                  "details": "Clin. Nutr. 35, 388–393",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Hypoxanthine levels in human urine serve as a screening indicator for the plasma total cholesterol and low-density lipoprotein modulation activities of fermented red pepper paste",
+                  "details": "Nutr. Res. 30, 455–461",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Kochujang, fermented soybean-based red pepper paste, decreases visceral fat and improves blood lipid profiles in overweight adults",
+                  "details": "Nutr. Metab. 10, 24",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Supplementation with Aspergillus oryzae-fermented kochujang lowers serum cholesterol in subjects with hyperlipidemia",
+                  "details": "Clin. Nutr. 34, 383–387",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "The effect of 4-week chilli supplementation on metabolic and arterial function in humans",
+                  "details": "Eur. J. Clin. Nutr. 61, 326–333",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Capsaicin-containing chili improved postprandial hyperglycemia, hyperinsulinemia, and fasting lipid disorders in women with gestational diabetes mellitus and lowered the incidence of large-for-gestational-age newborns",
+                  "details": "Clin. Nutr. 35, 388–393",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Influence of Red Pepper Spice and Turmeric on Inflammation and Oxidative Stress Biomarkers in Overweight Females: A Metabolomics Approach",
+                  "details": "Nutr. 67, 415–421",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Kochujang, fermented soybean-based red pepper paste, decreases visceral fat and improves blood lipid profiles in overweight adults",
+                  "details": "Nutr. Metab. 10, 24",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Assessment of human brown adipose tissue density during daily ingestion of thermogenic capsinoids using nearinfrared time-resolved spectroscopy",
+                  "details": "J. Biomed. Opt. 21, 091305",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "The effect of 4-week chilli supplementation on metabolic and arterial function in humans",
+                  "details": "Eur. J. Clin. Nutr. 61, 326–333",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Capsaicin-containing chili improved postprandial hyperglycemia, hyperinsulinemia, and fasting lipid disorders in women with gestational diabetes mellitus and lowered the incidence of large-for-gestational-age newborns",
+                  "details": "Clin. Nutr. 35, 388–393",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Influence of Red Pepper Spice and Turmeric on Inflammation and Oxidative Stress Biomarkers in Overweight Females: A Metabolomics Approach",
+                  "details": "Nutr. 67, 415–421",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Kochujang, fermented soybean-based red pepper paste, decreases visceral fat and improves blood lipid profiles in overweight adults",
+                  "details": "Nutr. Metab. 10, 24",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "The effect of 4-week chilli supplementation on metabolic and arterial function in humans",
+                  "details": "Eur. J. Clin. Nutr. 61, 326–333",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "목질진흙(상황)버섯과 동충하초 투여가 운동 시 혈중 피로요인 변화와 항산화체계에 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effect of 4-week chilli supplementation on metabolic and arterial function in humans.",
+                "details": "Eur J Clin Nutr.  2007",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of chili consumption on postprandial glucose, insulin, and energy metabolism.",
+                "details": "Am J Clin Nutr.  2006",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of CH-19 Sweet, a non-pungent cultivar of red pepper, on sympathetic nervous activity, body temperature, heart rate, and blood pressure in humans.",
+                "details": "Biosci Biotechnol Biochem.  2007",
+                "pblicte_Year": "2007"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-025",
+    "sample_Nm": "옥수수",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "옥수수 펩타이드가 흰쥐의 지질 대사에 미치는 영향",
+                  "details": "韓國食生活文化學會誌 = Journal of the Korean Society of Food Culture",
+                  "pblicte_Year": "2001"
+                },
+                {
+                  "title": "옥수수 껍질 분말의 In Vitro 에서의 항산화 특성과 고지방식이로 유도된 Mice의 혈청지질 수준에 미치는 영향",
+                  "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Membrane Stabilization and Detoxification of Acetaminophen-Mediated Oxidative Onslaughts in the Kidneys of Wistar Rats by Standardized Fraction of Zea mays L. (Poaceae), Stigma maydis.",
+                "details": "Evid Based Complement Alternat Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "옥수수 추출물의 경구 투여가 사이토카인 IL-2 생성과 IFN-γ와 IL-10 Ratio에 미치는 영향",
+                "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Maydis stigma polysaccharide on the intestinal microflora in type-2 diabetes.",
+                "details": "Pharm Biol.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

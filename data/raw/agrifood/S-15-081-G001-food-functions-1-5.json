@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-081",
+    "sample_Nm": "뽀리뱅이",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H025",
+          "fnclty_Nm": "항염증",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "New Guaiane, Megastigmane and Eudesmane-Type Sesquiterpenoids and Anti-Inflammatory Constituents from Youngia japonica",
+              "details": "Planta Medica",
+              "pblicte_Year": "2006"
+            }
+          }
+        }
+      }
+    }
+  }
+}

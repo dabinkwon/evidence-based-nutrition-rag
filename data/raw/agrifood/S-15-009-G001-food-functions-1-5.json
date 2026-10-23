@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-009",
+    "sample_Nm": "팽이버섯",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H038",
+          "fnclty_Nm": "항암",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "B16 흑색종에 대한 팽이버섯 추출물의 항암활성 비교",
+              "details": "한국식품저장유통학회지 = Korean journal of food preservation",
+              "pblicte_Year": "2009"
+            }
+          }
+        }
+      }
+    }
+  }
+}

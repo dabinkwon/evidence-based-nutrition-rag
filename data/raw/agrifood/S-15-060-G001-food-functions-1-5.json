@@ -1,0 +1,229 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-060",
+    "sample_Nm": "삼백초",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "meso-Dihydroguaiaretic acid attenuates airway inflammation and mucus hypersecretion in an ovalbumin-induced murine model of asthma.",
+                  "details": "Int Immunopharmacol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Sauchinone, a lignan from Saururus chinensis, attenuates neutrophil pro-inflammatory activity and acute lung injury.",
+                  "details": "Int Immunopharmacol.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Antioxidant and antiasthmatic effects of saucerneol D in a mouse model of airway inflammation.",
+                  "details": "Int Immunopharmacol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Ethanol extracts of Saururus chinensis suppress ovalbumin-sensitization airway inflammation.",
+                  "details": "J Ethnopharmacol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Anti-asthmatic activity of an ethanol extract from Saururus chinensis.",
+                  "details": "Biol Pharm Bull.  2006",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Suppression of Th2-driven, allergen-induced airway inflammation by sauchinone.",
+                  "details": "Biochem Biophys Res Commun.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Anti-inflammatory, anti-angiogenic and anti-nociceptive activities of Saururus chinensis extract.",
+                  "details": "J Ethnopharmacol.  2008",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Protective effect of lignans against sepsis from the roots of Saururus chinensis.",
+                  "details": "Biol Pharm Bull.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Sauchinone attenuates liver fibrosis and hepatic stellate cell activation through TGF-棺/Smad signaling pathway.",
+                  "details": "Chem Biol Interact.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "The hepatoprotective and antifibrotic effects of Saururus chinensis against carbon tetrachloride induced hepatic fibrosis in rats.",
+                  "details": "J Ethnopharmacol.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Inhibition of SREBP-1c-mediated hepatic steatosis and oxidative stress by sauchinone, an AMPK-activating lignan in Saururus chinensis.",
+                  "details": "Free Radic Biol Med.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Streptozotocin 유도 당뇨성 흰쥐의 혈당, 전해질 및 지질대사에 삼백초 추출액이 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Streptozotocin 유도 당뇨성 흰쥐의 혈당, 전해질 및 지질대사에 삼백초 추출액이 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "The Hypoglycemic Effect of Saururus chinensis Baill in Animal Models of Diabetes Mellitus",
+                  "details": "Food science and biotechnology",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "삼백초 에탄올 추출물의 위출혈성 스트레스 위염 억제 효과",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Hypoglycemic Effect of Saururus chinensis Baill in Animal Models of Diabetes Mellitus",
+                "details": "Food science and biotechnology",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Streptozotocin 유도 당뇨성 흰쥐의 혈당, 전해질 및 지질대사에 삼백초 추출액이 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Hypoglycemic Effect of Saururus chinensis Baill in Animal Models of Diabetes Mellitus",
+                "details": "Food science and biotechnology",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H013",
+            "fnclty_Nm": "과민면역(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibitory effects of Saururus chinensis (LOUR.) BAILL on the development of atopic dermatitis-like skin lesions in NC/Nga mice.",
+                "details": "Biol Pharm Bull.  2008",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Renoprotective and antioxidant effects of Saururus chinensis Baill in rats fed a high-fructose diet.",
+                "details": "Nutr Res Pract.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Streptozotocin 유도 당뇨성 흰쥐의 혈당, 전해질 및 지질대사에 삼백초 추출액이 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypoglycemic and hypolipidemic effects of Saururus chinensis Baill in streptozotocin-induced diabetic rats.",
+                "details": "Nutr Res Pract.  2007",
+                "pblicte_Year": "2007"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

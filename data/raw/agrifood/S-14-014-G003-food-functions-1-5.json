@@ -1,0 +1,528 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-014",
+    "sample_Nm": "생강",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "13",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of hot-attribute aged ginger tea on chinese medical pulse condition of healthy young humans.",
+                  "details": "J Tradit Complement Med. 2011 Oct;1(1):69-75.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "A double-blind randomized controlled trial of ginger for the prevention of postoperative nausea and vomiting",
+                  "details": "Anaesthesia and intensive care",
+                  "pblicte_Year": "1995"
+                },
+                {
+                  "title": "Efficacy of Ginger in Control of Chemotherapy Induced Nausea and Vomiting in Breast Cancer Patients Receiving Doxorubicin-Based Chemotherapy",
+                  "details": "Asian Pacific Journal of Cancer Prevention",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effect of ginger and chamomile on nausea and vomiting caused by chemotherapy in iranian women with breast cancer",
+                  "details": "Asian Pacific Journal of Cancer Prevention",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Efficacy of ginger for prophylaxis of chemotherapy-induced nausea and vomiting in breast cancer patients receiving adriamycin–cyclophosphamide regimen: a randomized, double-blind, placebo-controlled, crossover study",
+                  "details": "Supportive Care in Cancer",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Efficacy of ginger in ameliorating acute and delayed chemotherapy-induced nausea and vomiting among patients with lung cancer receiving cisplatin-based regimens: a randomized controlled trial",
+                  "details": "Integrative cancer therapies",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Evaluating the effect of Zingiber officinalis on nausea and vomiting in patients receiving cisplatin based regimens",
+                  "details": "Iranian journal of pharmaceutical research: IJPR",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Ginger (Zingiber officinale) reduces acute chemotherapy-induced nausea: a URCC CCOP study of 576 patients",
+                  "details": "Supportive care in cancer",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Ginger as a miracle against chemotherapy-induced vomiting",
+                  "details": "Iranian Journal of Nursing and Midwifery Research",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Ginger does not prevent postoperative nausea and vomiting after laparoscopic surgery",
+                  "details": "Anesthesia & Analgesia",
+                  "pblicte_Year": "2003"
+                },
+                {
+                  "title": "Phase II trial of encapsulated ginger as a treatment for chemotherapy-induced nausea and vomiting",
+                  "details": "Supportive care in cancer",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "The effect of a standardized ginger extract on chemotherapy-induced nausea-related quality of life in patients undergoing moderately or highly emetogenic chemotherapy: a double blind, randomized, placebo controlled trial",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "The efficacy of ginger added to ondansetron for preventing postoperative nausea and vomiting in ambulatory surgery",
+                  "details": "Pharmacognosy research",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H046",
+            "fnclty_Nm": "여성건강",
+            "thesis_Cnt": "13",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of ginger (Zingiber officinale) on heavy menstrual bleeding: a placebo-controlled, randomized clinical trial.",
+                  "details": "Phytother Res. 2015 Jan;29(1):114-9. doi: 10.1002/ptr.5235. Epub 2014 Oct 8.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "A comparison between the effects of ginger, pyridoxine (vitamin B6) and placebo for the treatment of the first trimester nausea and vomiting of pregnancy (NVP)",
+                  "details": "The Journal of Maternal-Fetal & Neonatal Medicine",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "A randomized controlled trial of ginger to treat nausea and vomiting in pregnancy",
+                  "details": "Obstetrics & Gynecology",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "A single-masked, randomized, controlled trial of ginger extract in the treatment of nausea and vomiting of pregnancy",
+                  "details": "J Int Med Sci Acad",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Comparing ginger and vitamin B6 for the treatment of nausea and vomiting in pregnancy: a randomised controlled trial",
+                  "details": "Midwifery",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Comparison of effects of ginger, mefenamic acid, and ibuprofen on pain in women with primary dysmenorrhea",
+                  "details": "The journal of alternative and complementary medicine",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Comparison of ginger with vitamin B6 in relieving nausea and vomiting during pregnancy",
+                  "details": "Ayu",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Comparison of the effect of ginger and zinc sulfate on primary dysmenorrhea: a placebo-controlled randomized trial",
+                  "details": "Pain Management Nursing",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effect of a ginger extract on pregnancy‐induced nausea: A randomised controlled trial",
+                  "details": "Australian and New Zealand journal of obstetrics and gynaecology",
+                  "pblicte_Year": "2003"
+                },
+                {
+                  "title": "Effect of Zingiber officinale R. rhizomes (ginger) on pain relief in primary dysmenorrhea: a placebo randomized trial",
+                  "details": "BMC complementary and alternative medicine",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Ginger for nausea and vomiting in pregnancy:: Randomized, double-masked, placebo-controlled trial",
+                  "details": "Obstetrics & Gynecology",
+                  "pblicte_Year": "2001"
+                },
+                {
+                  "title": "Ginger treatment of hyperemesis gravidarum",
+                  "details": "European Journal of Obstetrics & Gynecology and Reproductive Biology",
+                  "pblicte_Year": "1991"
+                },
+                {
+                  "title": "The effect of ginger on breast milk volume in the early postpartum period: A randomized, double-blind controlled trial",
+                  "details": "Breastfeeding Medicine",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "8",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of Cinnamon, Cardamom, Saffron, and Ginger Consumption on Markers of Glycemic Control, Lipid Profile, Oxidative Stress, and Inflammation in Type 2 Diabetes Patients.",
+                  "details": "Rev Diabet Stud. 2014 Fall-Winter;11(3-4):258-66. doi: 10.1900/RDS.2014.11.258. Epub 2015 Feb 10.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effects of ginger on serum glucose, advanced glycation end products, and inflammation in peritoneal dialysis patients.",
+                  "details": "Nutrition. 2015 May;31(5):703-7. doi: 10.1016/j.nut.2014.11.020. Epub 2014 Dec 20.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "The effect of ginger (Zingiber officinale) on glycemic markers in patients with type 2 diabetes.",
+                  "details": "J Complement Integr Med. 2015 Jun;12(2):165-70. doi: 10.1515/jcim-2014-0021.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "The effects of ginger on fasting blood sugar, hemoglobin a1c, apolipoprotein B, apolipoprotein a-I and malondialdehyde in type 2 diabetic patients.",
+                  "details": "Iran J Pharm Res. 2015 Winter;14(1):131-40.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "The effect of ginger powder supplementation on insulin resistance and glycemic indices in patients with type 2 diabetes: a randomized, double-blind, placebo-controlled trial.",
+                  "details": "Complement Ther Med. 2014 Feb;22(1):9-16. doi: 10.1016/j.ctim.2013.12.017. Epub 2014 Jan 8.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "The effect of ginger consumption on glycemic status, lipid profile and some inflammatory markers in patients with type 2 diabetes mellitus.",
+                  "details": "Int J Food Sci Nutr. 2014 Jun;65(4):515-20. doi: 10.3109/09637486.2014.880671. Epub 2014 Feb 4.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effects of ginger (Zingiber officinale) on plasma glucose level, HbA1c and insulin sensitivity in type 2 diabetic patients.",
+                  "details": "Int J Food Sci Nutr. 2013 Sep;64(6):682-6. doi: 10.3109/09637486.2013.775223. Epub 2013 Mar 18.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "The effects of ginger on fasting blood sugar, hemoglobin A1c, and lipid profiles in patients with type 2 diabetes",
+                  "details": "International journal of endocrinology and metabolism",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "8",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of Cinnamon, Cardamom, Saffron, and Ginger Consumption on Markers of Glycemic Control, Lipid Profile, Oxidative Stress, and Inflammation in Type 2 Diabetes Patients.",
+                  "details": "Rev Diabet Stud. 2014 Fall-Winter;11(3-4):258-66. doi: 10.1900/RDS.2014.11.258. Epub 2015 Feb 10.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effects of ginger on serum glucose, advanced glycation end products, and inflammation in peritoneal dialysis patients.",
+                  "details": "Nutrition. 2015 May;31(5):703-7. doi: 10.1016/j.nut.2014.11.020. Epub 2014 Dec 20.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "The effect of ginger (Zingiber officinale) on glycemic markers in patients with type 2 diabetes.",
+                  "details": "J Complement Integr Med. 2015 Jun;12(2):165-70. doi: 10.1515/jcim-2014-0021.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "The effects of ginger on fasting blood sugar, hemoglobin a1c, apolipoprotein B, apolipoprotein a-I and malondialdehyde in type 2 diabetic patients.",
+                  "details": "Iran J Pharm Res. 2015 Winter;14(1):131-40.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "The effect of ginger powder supplementation on insulin resistance and glycemic indices in patients with type 2 diabetes: a randomized, double-blind, placebo-controlled trial.",
+                  "details": "Complement Ther Med. 2014 Feb;22(1):9-16. doi: 10.1016/j.ctim.2013.12.017. Epub 2014 Jan 8.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "The effect of ginger consumption on glycemic status, lipid profile and some inflammatory markers in patients with type 2 diabetes mellitus.",
+                  "details": "Int J Food Sci Nutr. 2014 Jun;65(4):515-20. doi: 10.3109/09637486.2014.880671. Epub 2014 Feb 4.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effects of ginger (Zingiber officinale) on plasma glucose level, HbA1c and insulin sensitivity in type 2 diabetic patients.",
+                  "details": "Int J Food Sci Nutr. 2013 Sep;64(6):682-6. doi: 10.3109/09637486.2013.775223. Epub 2013 Mar 18.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "The effects of ginger on fasting blood sugar, hemoglobin A1c, and lipid profiles in patients with type 2 diabetes",
+                  "details": "International journal of endocrinology and metabolism",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Pilot clinical study of the effects of ginger root extract on eicosanoids in colonic mucosa of subjects at increased risk for colorectal cancer.",
+                  "details": "Mol Carcinog. 2015 Sep;54(9):908-15. doi: 10.1002/mc.22163. Epub 2014 Apr 24.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects of ginger supplementation on cell-cycle biomarkers in the normal-appearing colonic mucosa of patients at increased risk for colorectal cancer: results from a pilot, randomized, and controlled trial.",
+                  "details": "Cancer Prev Res (Phila). 2013 Apr;6(4):271-81. doi: 10.1158/1940-6207.CAPR-12-0327. Epub 2013 Jan 9.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of ginger root on cyclooxygenase-1 and 15-hydroxyprostaglandin dehydrogenase expression in colonic mucosa of humans at normal and increased risk for colorectal cancer.",
+                  "details": "Eur J Cancer Prev. 2013 Sep;22(5):455-60. doi: 10.1097/CEJ.0b013e32835c829b.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Phase II study of the effects of ginger root extract on eicosanoids in colon mucosa in people at normal risk for colorectal cancer.",
+                  "details": "Cancer Prev Res (Phila). 2011 Nov;4(11):1929-37. doi: 10.1158/1940-6207.CAPR-11-0224. Epub 2011 Oct 11.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Anti-emetic effect of ginger powder versus placebo as an add-on therapy in children and young adults receiving high emetogenic chemotherapy.",
+                  "details": "Pediatr Blood Cancer. 2011 Feb;56(2):234-8. doi: 10.1002/pbc.22778. Epub 2010 Sep 14.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Efficacy and tolerability of ginger (Zingiber officinale) in patients of osteoarthritis of knee.",
+                  "details": "Indian J Physiol Pharmacol. 2013 Apr-Jun;57(2):177-83.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Topical Ginger Treatment With a Compress or Patch for Osteoarthritis Symptoms.",
+                  "details": "J Holist Nurs. 2013 Dec 4;32(3):173-182. [Epub ahead of print]",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Influence of a specific ginger combination on gastropathy conditions in patients with osteoarthritis of the knee or hip.",
+                  "details": "J Altern Complement Med. 2012 Jun;18(6):583-8. doi: 10.1089/acm.2011.0202.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "The effect of ginger supplementation on some immunity and inflammation intermediate genes expression in patients with active rheumatoid arthritis",
+                  "details": "Gene",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of Zingiber officinale R. rhizomes (ginger) on plasma pro-inflammatory cytokine levels in well-trained male endurance runners.",
+                  "details": "Cent Eur J Immunol. 2014;39(2):174-80. doi: 10.5114/ceji.2014.43719. Epub 2014 Jun 27.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Anti-inflammatory effects of zingiber officinale in type 2 diabetic patients.",
+                  "details": "Adv Pharm Bull. 2013;3(2):273-6. doi: 10.5681/apb.2013.044. Epub 2013 Aug 20.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Obesity-related cardiovascular risk factors after long- term resistance training and ginger supplementation.",
+                  "details": "J Sports Sci Med. 2011;10(4):685-91.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ginger (Zingiber officinale) reduces muscle pain caused by eccentric exercise.",
+                  "details": "J Pain. 2010 Sep;11(9):894-903. doi: 10.1016/j.jpain.2009.12.013. Epub 2010 Apr 24.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Acute effects of dietary ginger on muscle pain induced by eccentric exercise",
+                  "details": "Phytotherapy research",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Double-blind placebo-controlled randomized clinical trial of ginger (Zingiber officinale Rosc.) addition in migraine acute treatment",
+                  "details": "Cephalalgia",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Zingiber officinale Supplementation on Obesity Management with Respect to the Uncoupling Protein 1 -3826A>G and ß3-adrenergic Receptor Trp64Arg Polymorphism.",
+                  "details": "Phytother Res. 2015 Jul;29(7):1032-9. doi: 10.1002/ptr.5343. Epub 2015 Apr 21.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Ginger consumption enhances the thermic effect of food and promotes feelings of satiety without affecting metabolic and hormonal parameters in overweight men: a pilot study.",
+                  "details": "Metabolism. 2012 Oct;61(10):1347-52. doi: 10.1016/j.metabol.2012.03.016. Epub 2012 Apr 24.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Changes of serum adipocytokines and body weight following Zingiber officinale supplementation in obese women: a RCT.",
+                  "details": "Eur J Nutr.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Change in adiponectin and oxidative stress after modifiable lifestyle interventions in breast cancer cases.",
+                  "details": "Asian Pac J Cancer Prev. 2013;14(5):2845-50.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of ginger and cinnamon intake on oxidative stress and exercise performance and body composition in Iranian female athletes.",
+                  "details": "Int J Prev Med. 2013 Apr;4(Suppl 1):S31-5.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of ginger supplementation on proinflammatory cytokines in older patients with osteoarthritis: outcomes of a randomized controlled clinical trial",
+                  "details": "Journal of nutrition in gerontology and geriatrics",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "The effects of Zintona EC (a ginger extract) on symptomatic gonarthritis",
+                  "details": "Osteoarthritis and cartilage",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The Effects of Pre-Exercise Ginger Supplementation on Muscle Damage and Delayed Onset Muscle Soreness.",
+                  "details": "Phytother Res. 2015 Jun;29(6):887-93. doi: 10.1002/ptr.5328. Epub 2015 Mar 18.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Influence of ginger and cinnamon intake on inflammation and muscle soreness endued by exercise in Iranian female athletes.",
+                  "details": "Int J Prev Med. 2013 Apr;4(Suppl 1):S11-5.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H022",
+            "fnclty_Nm": "위(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Zingiber officinale does not affect gastric emptying rate: A randomised, placebo‐controlled, crossover trial",
+                "details": "Anaesthesia",
+                "pblicte_Year": "1993"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Synergistic effect of green tea, cinnamon and ginger combination on enhancing postprandial blood glucose.",
+                "details": "Pak J Biol Sci. 2013 Jan 15;16(2):74-9.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Oral intake of encapsulated dried ginger root powder hardly affects human thermoregulatory function, but appears to facilitate fat utilization.",
+                "details": "Int J Biometeorol. 2015 Oct;59(10):1461-74. doi: 10.1007/s00484-015-0957-2. Epub 2015 Jan 26.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Is ginger effective for the treatment of irritable bowel syndrome? A double blind randomized controlled pilot trial",
+                "details": "Complementary therapies in medicine",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of ginger on gastric motility and symptoms of functional dyspepsia.",
+                "details": "World J Gastroenterol. 2011 Jan 7;17(1):105-10. doi: 10.3748/wjg.v17.i1.105.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of enteral feeding with ginger extract in acute respiratory distress syndrome.",
+                "details": "J Crit Care. 2013 Apr;28(2):217.e1-6. doi: 10.1016/j.jcrc.2012.04.017. Epub 2012 Aug 9.",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

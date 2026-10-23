@@ -1,0 +1,145 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-086",
+    "sample_Nm": "양송이버섯",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H048",
+            "fnclty_Nm": "항노화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antioxidant and anti-aging effects of acidic-extractable polysaccharides by Agaricus bisporus",
+                  "details": "Int J Biol Macromol",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Purification, in vitro antioxidant and in vivo anti-aging activities of soluble polysaccharides by enzyme-assisted extraction from Agaricus bisporus",
+                  "details": "Int J Biol Macromol",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "The Antioxidative, Antiaging, and Hepatoprotective Effects of Alkali-Extractable Polysaccharides by Agaricus bisporus",
+                  "details": "Evid Based Complement Alternat Med",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "In Vitro Antioxidant Activities and in Vivo Anti-Hypoxic Activity of the Edible Mushroom Agaricus bisporus (Lange) Sing. Chaidam",
+                  "details": "Molecules",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "White button mushroom (Agaricus bisporus) lowers blood glucose and cholesterol levels in diabetic and hypercholesterolemic rats",
+                  "details": "Nutr Res",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "White button mushroom (Agaricus bisporus) exhibits antiproliferative and proapoptotic properties and inhibits prostate tumor growth in athymic mice",
+                "details": "Nutr Cancer",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Agaricus bisporus lectins mediates islet beta-cell proliferation through regulation of cell cycle proteins",
+                "details": "Exp Biol Med (Maywood)",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of polysaccharide from fruiting bodies of Agaricus bisporus, Agaricus brasiliensis, and Phellinus linteus on alcoholic liver injury",
+                "details": "Int J Food Sci Nutr",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Comparison of the effect of two types of whole mushroom (Agaricus bisporus) powders on intestinal fermentation in rats",
+                "details": "Biosci Biotechnol Biochem",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Agaricus bisporus lectins mediates islet beta-cell proliferation through regulation of cell cycle proteins",
+                "details": "Exp Biol Med (Maywood)",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of white button mushroom (Agaricus bisporus) against hepatic steatosis in ovariectomized mice as a model of postmenopausal women",
+                "details": "PLoS One",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Daily supplementation with mushroom (Agaricus bisporus) improves balance and working memory in aged rats",
+                "details": "Nutr Res",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

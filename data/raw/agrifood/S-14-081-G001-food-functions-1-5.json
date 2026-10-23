@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-081",
+    "sample_Nm": "여두(검정소립콩)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H015",
+          "fnclty_Nm": "혈당(기타)",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Antihyperglycemic and Antihyperlipidemic Effects of Fermented Rhynchosia nulubilis in Alloxan-induced Diabetic Rats.",
+              "details": "Toxicol Res. 2013 Mar;29(1):15-9. doi: 10.5487/TR.2013.29.1.015.",
+              "pblicte_Year": "2013"
+            }
+          }
+        }
+      }
+    }
+  }
+}

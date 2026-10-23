@@ -1,0 +1,97 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-052",
+    "sample_Nm": "부추",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "탈진적 운동 시 부추섭취가 지질대사와 항산화효소 활성에 미치는 영향",
+                  "details": "한국체육과학회지 = Korean journal of sports science",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "미나리 및 부추의 고지방&#8228;고콜레스테롤 식이 흰쥐의 지질 함량 개선에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "LDL Receptor Knockout Mouse에서 부추추출물의 죽상경화증 예방 효과",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "제2형 당뇨질환모델 db/db 마우스에서 부추 추출물 및 유산균 발효물의 항당뇨 효과",
+                "details": "한국식품저장유통학회지 = Korean journal of food preservation",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "탈진적 운동 시 부추섭취가 지질대사와 항산화효소 활성에 미치는 영향",
+                "details": "한국체육과학회지 = Korean journal of sports science",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "제2형 당뇨질환모델 db/db 마우스에서 부추 추출물 및 유산균 발효물의 항당뇨 효과",
+                "details": "한국식품저장유통학회지 = Korean journal of food preservation",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "제2형 당뇨질환모델 db/db 마우스에서 부추 추출물 및 유산균 발효물의 항당뇨 효과",
+                "details": "한국식품저장유통학회지 = Korean journal of food preservation",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

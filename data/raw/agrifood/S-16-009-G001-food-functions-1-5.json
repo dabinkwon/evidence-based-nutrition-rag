@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-009",
+    "sample_Nm": "목련(신이화)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H029",
+          "fnclty_Nm": "혈중 중성지방 개선",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "고로쇠나무(Acer mono Max.) 씨앗 기름과 목련나무(Magnolia denudata) 씨앗 기름의 섭취가 마우스의 혈중 지질 수준에 미치는 영향",
+              "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+              "pblicte_Year": "2012"
+            }
+          }
+        }
+      }
+    }
+  }
+}

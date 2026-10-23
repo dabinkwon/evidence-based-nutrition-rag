@@ -1,0 +1,188 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-025",
+    "sample_Nm": "돌나물",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Sedum sarmentosum Total Flavonoids Alleviate Schistosomiasis-Induced Liver Fibrosis by Altering TGF-β1 and Smad7 Expression",
+                  "details": "Evidence-Based Complementary and Alternative Medicine",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Effects of Sedi Herba (Sedum sarmentosum) on attenuating cholestasis by the activation of the farnesoid x receptor (FXR)-mediated signaling",
+                  "details": "Biomedicine & Pharmacotherapy",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "In vitro and in vivo Antidiabetic Properties of Phenolic Antioxidants From Sedum adenotrichum",
+                  "details": "Frontiers in Nutrition",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Antidiabetic Activity of Sedum dendroideum: Metabolic Enzymes as Putative Targets for the Bioactive Flavonoid Kaempferitrin",
+                  "details": "IUBMB Life",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Sarmentosin alleviates doxorubicin-induced cardiotoxicity and ferroptosis via the p62-Keap1-Nrf2 pathway",
+                "details": "REDOX REPORT",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Sedum sarmentosum Bunge extract exerts renal anti-fibrotic effects in vivo and in vitro.",
+                "details": "Life Sci. 2014 Jun 6;105(1-2):22-30. doi: 10.1016/j.lfs.2014.04.013. Epub 2014 Apr 18.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In vitro and in vivo Antidiabetic Properties of Phenolic Antioxidants From Sedum adenotrichum",
+                "details": "Frontiers in Nutrition",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Tricin 7-glucoside protects against experimental cerebral ischemia by reduction of NF-kB and HMGB1 expression.",
+                "details": "Eur J Pharm Sci. 2012 Jan 23;45(1-2):50-7. doi: 10.1016/j.ejps.2011.10.019. Epub 2011 Nov 7.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Metabolism and antioxidation regulation of total flavanones from Sedum sarmentosum Bunge against high-fat diet-induced fatty liver disease in Nile tilapia (Oreochromis niloticus)",
+                "details": "Fish Physiology and Biochemistry",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chemical composition, antioxidant and gastrointestinal properties of Sedum dendroideum Moc & Sessé ex DC leaves tea infusion",
+                "details": "Journal of Ethnopharmacology",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Sedum sarmentosum Bunge extract induces apoptosis and inhibits proliferation in pancreatic cancer cells via the hedgehog signaling pathway",
+                "details": "ONCOLOGY REPORTS",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Involvement of the PI3K/Akt/NF-kB Signaling Pathway in the Attenuation of Severe Acute Pancreatitis-Associated Acute Lung Injury by Sedum sarmentosum Bunge Extract",
+                "details": "BioMed Research International",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-inflammatory, anti-angiogenic and anti-nociceptive activities of Sedum sarmentosum extract",
+                "details": "Journal of Ethnopharmacology",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-inflammatory, anti-angiogenic and anti-nociceptive activities of Sedum sarmentosum extract",
+                "details": "Journal of Ethnopharmacology",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Tricin 7-glucoside protects against experimental cerebral ischemia by reduction of NF-jB and HMGB1 expression",
+                "details": "European Journal of Pharmaceutical Sciences",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

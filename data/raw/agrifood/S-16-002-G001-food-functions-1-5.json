@@ -1,0 +1,176 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-002",
+    "sample_Nm": "갓",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "갓(Brassica juncea) 첨가식이가 만성적인 알콜 투여시 흰쥐의 지방대사에 미치는 영향",
+                  "details": "한국가정과학회지 = Korean journal of human ecology",
+                  "pblicte_Year": "1998"
+                },
+                {
+                  "title": "Salted and Unsalted Zhàcài (Brassica juncea var. tumida) Alleviated High-Fat Diet-Induced Dyslipidemia by Regulating Gut Microbiota: A Multiomics Study",
+                  "details": "Molecular Nutrition & Food Research",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H047",
+            "fnclty_Nm": "숙취해소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of Extract and Isorhamnetin Glycoside from Brassica juncea on Hepatic Alcohol-Metabolizing Enzyme System in Rats",
+                  "details": "Natural product sciences",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "갓(Brassica juncea) 첨가식이가 만성적인 알콜 투여시 흰쥐의 지방대사에 미치는 영향",
+                  "details": "한국가정과학회지 = Korean journal of human ecology",
+                  "pblicte_Year": "1998"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Mechanism of the Anti-Obesity Effects of a Standardized Brassica juncea Extract in 3T3-L1 Preadipocytes and High-Fat Diet-Induced Obese C57BL/6J Mice",
+                "details": "Nutrients",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effect of the cruciferous vegetable mustard leaf (Brassica campestris) against in vivo chromosomal damage and oxidative stress induced by gamma-radiation and genotoxic chemicals.",
+                "details": "Environmental and Molecular Mutagenesis",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of the Methanol Extract of the Leaves of Brassica juncea and Its Major Component, Isorhamnetin $3-O-{\\beta}-D-Glucoside$, on Hepatic Drug Metabolizing Enzymes in Bromobenzene-treated Rats",
+                "details": "Food science and biotechnology",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Comparison of the anti-inflammatory effects of Sinapis alba and Brassica juncea in mouse models of inflammation",
+                "details": "Phytomedicine",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beneficial effects of Brassica juncea on cognitive functions in rats",
+                "details": "Pharmaceutical Biology",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidepressantlike effects of Brassica juncea L. leaves in diabetic rodents",
+                "details": "Indian Journal of Experimental Biology",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Glucosinolates Extracts from Brassica juncea Ameliorate HFD-Induced Non-Alcoholic Steatohepatitis",
+                "details": "Nutrients",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-Parkinson’s evaluation of Brassica juncea leaf extract and underlying mechanism of its phytochemicals",
+                "details": "Food and Chemical Toxicology",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In vivo antidiabetic effects of phenolic compounds of spinach, mustard, and cabbage leaves in mice",
+                "details": "Heliyon",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anxiolytic-like activity of leaf extract of traditionally used Indian-Mustard (Brassica juncea) in diabetic rats",
+                "details": "TANG [HUMANITAS MEDICINE]: International journal of genuine traditional medicine",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

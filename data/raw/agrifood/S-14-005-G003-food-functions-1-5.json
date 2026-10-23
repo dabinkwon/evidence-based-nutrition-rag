@@ -1,0 +1,49 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-005",
+    "sample_Nm": "당근",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of a carrot juice intervention on plasma carotenoids, oxidative stress, and inflammation in overweight breast cancer survivors.",
+                  "details": "Nutr Cancer. 2012;64(2):331-41. doi: 10.1080/01635581.2012.650779. Epub 2012 Jan 31.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Drinking carrot juice increases total antioxidant status and decreases lipid peroxidation in adults.",
+                  "details": "Nutr J. 2011 Sep 24;10:96. doi: 10.1186/1475-2891-10-96.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of carrot and tomato juice consumption on faecal markers relevant to colon carcinogenesis in humans.",
+                "details": "Br J Nutr. 2008 Mar;99(3):606-13. doi: 10.1017/S0007114507819143.",
+                "pblicte_Year": "2008"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

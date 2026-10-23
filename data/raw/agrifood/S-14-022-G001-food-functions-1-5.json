@@ -1,0 +1,400 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-022",
+    "sample_Nm": "고추",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Evaluation of the effects of the powder of Capsicum frutescens on glycemia in growing rabbits.",
+                  "details": "Vet World.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Kochujang, a Korean fermented red pepper plus soybean paste, improves glucose homeostasis in 90% pancreatectomized diabetic rats.",
+                  "details": "Nutrition.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Dietary red chilli (Capsicum frutescens L.) is insulinotropic rather than hypoglycemic in type 2 diabetes model of rats.",
+                  "details": "Phytother Res.  2008",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Evaluation of antidiabetic activity of polysaccharide isolated from Phellinus linteus in non-obese diabetic mouse.",
+                  "details": "Int Immunopharmacol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Improvement of insulin resistance and insulin secretion by water extracts of Cordyceps militaris, Phellinus linteus, and Paecilomyces tenuipes in 90% pancreatectomized rats.",
+                  "details": "Biosci Biotechnol Biochem.  2004",
+                  "pblicte_Year": "2004"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antioxidant, antinociceptive, and anti-inflammatory effects of carotenoids extracted from dried pepper (Capsicum annuum L.).",
+                  "details": "J Biomed Biotechnol. 2012;2012:524019. doi: 10.1155/2012/524019. Epub 2012 Oct 2.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Capsicum annuum L. methanolic extract inhibits ovalbumin-induced airway inflammation and oxidative stress in a mouse model of asthma.",
+                  "details": "J Med Food. 2011 Oct;14(10):1144-51. doi: 10.1089/jmf.2011.1609. Epub 2011 Aug 29.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Comparative anti-inflammatory properties of Capsaicin and ethyl-aAcetate extract of Capsicum frutescens linn [Solanaceae] in rats.",
+                  "details": "Afr Health Sci.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Anti-inflammatory effects of red pepper (Capsicum baccatum) on carrageenan- and antigen-induced inflammation.",
+                  "details": "J Pharm Pharmacol.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dietary red chilli (Capsicum frutescens L.) is insulinotropic rather than hypoglycemic in type 2 diabetes model of rats.",
+                  "details": "Phytother Res.  2008",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Evaluation of antidiabetic activity of polysaccharide isolated from Phellinus linteus in non-obese diabetic mouse.",
+                  "details": "Int Immunopharmacol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Improvement of insulin resistance and insulin secretion by water extracts of Cordyceps militaris, Phellinus linteus, and Paecilomyces tenuipes in 90% pancreatectomized rats.",
+                  "details": "Biosci Biotechnol Biochem.  2004",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "쇠뜨기 및 화살나무가 고지방 식이를 섭취한  흰쥐의 체내 지질 대사에 미치는 영향 에 관한 연구",
+                  "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                  "pblicte_Year": "1998"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Pharmacological effects of fermented red pepper.",
+                  "details": "Phytother Res.  2004",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "Hypocholesterolaemic effect of the oleoresin of Capsicum annum L. in gerbils (Meriones hurrianae Jerdon).",
+                  "details": "Phytother Res.  2002",
+                  "pblicte_Year": "2002"
+                },
+                {
+                  "title": "쇠뜨기 및 화살나무가 고지방 식이를 섭취한  흰쥐의 체내 지질 대사에 미치는 영향 에 관한 연구",
+                  "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                  "pblicte_Year": "1998"
+                },
+                {
+                  "title": "pH control strategy in a shaken minibioreactor for polysaccharide production by medicinal mushroom Phellinus linteus and its anti-hyperlipemia activity.",
+                  "details": "Bioprocess Biosyst Eng.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Evaluation of green pepper (Capsicum annuum L.) juice on the weight gain and changes in lipid profile in C57BL/6 mice fed a high-fat diet.",
+                  "details": "J Sci Food Agric.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-obesity efficacy of nanoemulsion oleoresin capsicum in obese rats fed a high-fat diet.",
+                  "details": "Int J Nanomedicine.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Expression of TRPV1 in rabbits and consuming hot pepper affects its body weight.",
+                  "details": "Mol Biol Rep.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effect of the Capsicoside G-rich Fraction from Pepper (Capsicum annuum L.) Seeds on High-fat Diet-induced Obesity in Mice.",
+                  "details": "Phytother Res.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Cyclophosphamide-induced oxidative stress in brain: protective effect of hot short pepper (Capsicum frutescens L. var. abbreviatum).",
+                  "details": "Exp Toxicol Pathol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Filtrate of Phellinus linteus Broth Culture Reduces Infarct Size Significantly in a Rat Model of Permanent Focal Cerebral Ischemia.",
+                  "details": "Evid Based Complement Alternat Med.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Selected spices and their combination modulate hypercholesterolemia-induced oxidative stress in experimental rats.",
+                  "details": "Biol Res.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Antioxidative effects of turmeric, rosemary and capsicum extracts on membrane phospholipid peroxidation and liver lipid metabolism in mice.",
+                  "details": "Biosci Biotechnol Biochem.  1999",
+                  "pblicte_Year": "1999"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effect of Phellinus linteus polysaccharide extracts against thioacetamide-induced liver fibrosis in rats: a proteomics analysis.",
+                  "details": "Chin Med.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Antagonizing TGF-beta induced liver fibrosis by a retinoic acid derivative through regulation of ROS and calcium influx.",
+                  "details": "Biochem Biophys Res Commun.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Kochujang, a Korean fermented red pepper plus soybean paste, improves glucose homeostasis in 90% pancreatectomized diabetic rats.",
+                  "details": "Nutrition.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Dietary red chilli (Capsicum frutescens L.) is insulinotropic rather than hypoglycemic in type 2 diabetes model of rats.",
+                  "details": "Phytother Res.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H041",
+            "fnclty_Nm": "전립선 건강의 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Phellius linteus water extract on benign prostatic hyperplasia.",
+                "details": "Nutr Res Pract.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary plant extracts modulate gene expression profiles in ileal mucosa of weaned pigs after an Escherichia coli infection.",
+                "details": "J Anim Sci.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-tumor effects of proteoglycan from Phellinus linteus by immunomodulating and inhibiting Reg IV/EGFR/Akt signaling pathway in colorectal carcinoma.",
+                "details": "Int J Biol Macromol.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Phytonutrient diet supplementation promotes beneficial Clostridia species and intestinal mucus secretion resulting in protection against enteric infection.",
+                "details": "Sci Rep.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Preservation of CGRP in myocardium attenuates development of cardiac dysfunction in diabetic rats.",
+                "details": "Int J Cardiol.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Histological investigations on the effects of feeding a diet containing red hot pepper on the reproductive organs of the chicken.",
+                "details": "Phytother Res.  2005",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Oral administration of proteoglycan isolated from Phellinus linteus in the prevention and treatment of collagen-induced arthritis in mice.",
+                "details": "Biol Pharm Bull.  2003",
+                "pblicte_Year": "2003"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H048",
+            "fnclty_Nm": "항노화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Structure and antioxidative property of a polysaccharide from an ammonium oxalate extract of Phellinus linteus.",
+                "details": "Int J Biol Macromol.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H047",
+            "fnclty_Nm": "숙취해소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "상황버섯 균사체 추출물의 숙취해소 효과에 관한 연구",
+                "details": "Korean journal of veterinary research = 대한수의학회지",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Phellinus linteus Extract Exerts Anti-asthmatic Effects by Suppressing NF-觀B and p38 MAPK Activity in an OVA-induced Mouse Model of Asthma.",
+                "details": "Immune Netw.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary plant extracts improve immune responses and growth efficiency of pigs experimentally infected with porcine reproductive and respiratory syndrome virus.",
+                "details": "J Anim Sci.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "칡 열수추출물이 흰쥐의 알콜올 대사효소계에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2002"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H039",
+            "fnclty_Nm": "갱년기 여성의 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "난소적출 흰쥐를 이용한 칡 발효액이 골다공증 예방 효과에 미치는 영향 연구",
+                "details": "약학회지",
+                "pblicte_Year": "2005"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

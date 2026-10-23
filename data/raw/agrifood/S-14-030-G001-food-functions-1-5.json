@@ -1,0 +1,189 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-030",
+    "sample_Nm": "알리움 후커리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "삼채 추출물의 인슐린 저항성 개선 효과 및 기전 탐색",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "삼채(Allium Hookeri)의 급여가 당뇨마우스의 당질 대사에 미치는 영향",
+                  "details": "생약학회지",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Allium hookeri root protects oxidative stress-induced inflammatory responses and β-cell damage in pancreas of streptozotocin-induced diabetic rats.",
+                  "details": "BMC Complement Altern Med.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Supplementary Effects of Allium hookeri Extract on Glucose Tolerance in Prediabetic Subjects and C57BL/KsJ-db/db Mice.",
+                  "details": "pharmaceuticals",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Allium hookeri root protects oxidative stress-induced inflammatory responses and β-cell damage in pancreas of streptozotocin-induced diabetic rats",
+                  "details": "BMC Complementary and Alternative Medicine",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Beneficial effect of the methanolic leaf extract of Allium hookeri on stimulating glutathione biosynthesis and preventing impaired glucose metabolism in type 2 diabetes",
+                  "details": "Archives of Biochemistry and Biophysics",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "삼채 추출물의 인슐린 저항성 개선 효과 및 기전 탐색",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Supplementary Effects of Allium hookeri Extract on Glucose Tolerance in Prediabetic Subjects and C57BL/KsJ-db/db Mice.",
+                  "details": "pharmaceuticals",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Allium hookeri root protects oxidative stress-induced inflammatory responses and β-cell damage in pancreas of streptozotocin-induced diabetic rats",
+                  "details": "BMC Complementary and Alternative Medicine",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Beneficial effect of the methanolic leaf extract of Allium hookeri on stimulating glutathione biosynthesis and preventing impaired glucose metabolism in type 2 diabetes",
+                  "details": "Archives of Biochemistry and Biophysics",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "삼채 추출물의 인슐린 저항성 개선 효과 및 기전 탐색",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "삼채(Allium Hookeri)의 급여가 당뇨마우스의 당질 대사에 미치는 영향",
+                  "details": "생약학회지",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-Diabetic Effects of Allium hookeri Extracts Prepared by Different Methods in Type 2 C57BL/J-db/db Mice",
+                  "details": "Pharmaceuticals",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "삼채가 고지방식이를 급여한 흰쥐의 고지혈증 개선 효과에 미치는 영향",
+                  "details": "한국지역사회생활과학회지 = The Korean Journal of Community Living Science",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Allium hookeri Root Extract Inhibits Adipogenesis by Promoting Lipolysis in High Fat Diet-Induced Obese Mice",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-Helicobacter pylori activity and inhibition of gastritis by Allium hookeri extract",
+                "details": "Laboratory Animal Research",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of a Hot-Water Extract of Allium hookeri Roots on Bone Formation in Human Osteoblast-Like MG-63 Cells In Vitro and in Rats In Vivo",
+                "details": "Planta Medica",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "An Ethanolic Extract of Allium hookeri Root Alleviates Reflux Esophagitis and Modulates NF-kB Signaling",
+                "details": "Evidence-Based Complementary and Alternative Medicine",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Allium hookeri Extracts Improve Scopolamine-Induced Cognitive Impairment via Activation of the Cholinergic System and Anti-Neuroinflammation in Mice",
+                "details": "Nutrients",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Allium hookeri root extract regulates asthmatic changes through immunological modulation of Th1/Th2‑related factors in an ovalbumin‑induced asthma mouse model",
+                "details": "Molecular Medicine REPORTS",
+                "pblicte_Year": "2019"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

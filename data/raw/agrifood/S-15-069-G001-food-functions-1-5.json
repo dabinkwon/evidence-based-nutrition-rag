@@ -1,0 +1,178 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-069",
+    "sample_Nm": "대나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypolipidemic effect of bamboo shoot oil (P. pubescens) in Sprague-Dawley rats.",
+                  "details": "J Food Sci.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "대나무(이대)잎 추출물이 지방 및 고콜레스테롤 식이 급여에 의한 흰쥐의 지방 대사에 미치는 효과",
+                  "details": "韓國食生活文化學會誌 = Journal of the Korean Society of Food Culture",
+                  "pblicte_Year": "2002"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Cancer preventive effect of Kumaizasa bamboo leaf extracts administered prior to carcinogenesis or cancer inoculation.",
+                  "details": "Anticancer Res.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The inhibitory effect of bamboo extract on the development of 7,12-dimethylbenz[a]anthracene (DMBA)-induced breast cancer.",
+                  "details": "Phytother Res.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Characterization and hypoglycemic activity of a 棺-pyran polysaccharides from bamboo shoot (Leleba oldhami Nakal) shells.",
+                  "details": "Carbohydr Polym.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Sasa borealis extract exerts an antidiabetic effect via activation of the AMP-activated protein kinase.",
+                  "details": "Nutr Res Pract.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Characterization and hypoglycemic activity of a 棺-pyran polysaccharides from bamboo shoot (Leleba oldhami Nakal) shells.",
+                  "details": "Carbohydr Polym.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Sasa borealis extract exerts an antidiabetic effect via activation of the AMP-activated protein kinase.",
+                  "details": "Nutr Res Pract.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of a high-fat diet and bamboo extract supplement on anxiety- and depression-like neurobehaviours in mice.",
+                "details": "Br J Nutr.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Supplement of bamboo extract lowers serum monocyte chemoattractant protein-1 concentration in mice fed a diet containing a high level of saturated fat.",
+                "details": "Br J Nutr.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Bamboo leaf extract improves spatial learning ability in a rat model with senile dementia.",
+                "details": "J Zhejiang Univ Sci B.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H024",
+            "fnclty_Nm": "스트레스로 인한 피로개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-fatigue activity of a triterpenoid-rich extract from Chinese bamboo shavings (Caulis bamfusae in taeniam).",
+                "details": "Phytother Res.  2006",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Bamboo shoot fiber prevents obesity in mice by modulating the gut microbiota.",
+                "details": "Sci Rep.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of bamboo culm extract on oxidative stress and genetic expression: bamboo culm extract ameliorates cell adhesion molecule expression and NFkappaB activity through the suppression of the oxidative stress.",
+                "details": "Clin Nutr.  2008",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Immunomodulatory potential of a bioactive fraction from the leaves of Phyllostachys bambusoides (bamboo) in BALB/c mice.",
+                "details": "EXCLI J.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

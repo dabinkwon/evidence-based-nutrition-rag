@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-002",
+    "sample_Nm": "모과나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidiabetic and antiacetylcholinesterase effects of ethyl acetate fraction of Chaenomeles sinensis (Thouin) Koehne fruits in streptozotocin-induced diabetic rats.",
+                "details": "Exp Toxicol Pathol. 2013 Jan;65(1-2):55-60. doi: 10.1016/j.etp.2011.05.010. Epub 2011 Jul 20.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidiabetic and antiacetylcholinesterase effects of ethyl acetate fraction of Chaenomeles sinensis (Thouin) Koehne fruits in streptozotocin-induced diabetic rats.",
+                "details": "Exp Toxicol Pathol. 2013 Jan;65(1-2):55-60. doi: 10.1016/j.etp.2011.05.010. Epub 2011 Jul 20.",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

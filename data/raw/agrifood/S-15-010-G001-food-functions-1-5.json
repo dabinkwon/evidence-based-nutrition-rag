@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-010",
+    "sample_Nm": "흰목이버섯",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H014",
+          "fnclty_Nm": "스트레스로 인한 긴장 완화",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "마우스에서 흰목이버섯 (Tremella fuciformis Berk)의 장.단기적 항스트레스 효과",
+              "details": "KSBB Journal",
+              "pblicte_Year": "2009"
+            }
+          }
+        }
+      }
+    }
+  }
+}

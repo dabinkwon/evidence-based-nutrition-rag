@@ -1,0 +1,227 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-010",
+    "sample_Nm": "배암차즈기",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "배암차즈기 열수 추출물 첨가가 고지방-고콜레스테롤 식이를 급여한 흰쥐의 항산화 활성과 지질조성에 미치는 영향",
+                  "details": "한국지역사회생활과학회지 = The Korean Journal of Community Living Science",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "배암차즈기 열수 추출물 첨가가 고지방-고콜레스테롤 식이를 급여한 흰쥐의 항산화 활성과 지질조성에 미치는 영향",
+                  "details": "한국지역사회생활과학회지 = The Korean Journal of Community Living Science",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Salvia plebeia R. Br. Water Extract Ameliorates Hepatic Steatosis in a Non-Alcoholic Fatty Liver Disease Model by Regulating the AMPK Pathway",
+                  "details": "Nutrients 14.24 (2022): 5379.",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Water extract from Salvia plebeia ameliorates progression of non-alcoholic fatty liver disease via inhibition of oxidative stress inflammation reaction",
+                  "details": "Journal of Functional Foods 113 (2024): 106038.",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Salvia plebeia R.Br. inhibits signal transduction of IL-6 and prevents ovariectomy-induced bone loss by suppressing osteoclastogenesis.",
+                  "details": "Arch Pharm Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Eudebeiolide B Inhibits Osteoclastogenesis and Prevents Ovariectomy-Induced Bone Loss by Regulating RANKL-Induced NF-κB, c-Fos and Calcium Signaling",
+                  "details": "Pharmaceuticals 13.12 (2020): 468.",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Plebeian Sage (Salvia plebeia R. Br) Extract Ameliorates Inflammation and Cartilage Degradation in Surgically Induced Osteoarthritis Rats",
+                  "details": "Applied Sciences 12.4 (2022): 2030.",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Salvia plebeia R.Br. inhibits signal transduction of IL-6 and prevents ovariectomy-induced bone loss by suppressing osteoclastogenesis",
+                  "details": "Archives of pharmacal research 39 (2016): 1671-1681.",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Salvia plebeia extract inhibits the inflammatory response in human rheumatoid synovial fibroblasts and a murine model of arthritis.",
+                  "details": "Phytomedicine. 2015 Mar 15;22(3):415-22. doi: 10.1016/j.phymed.2015.01.007. Epub 2015 Feb 14.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-inflammatory effects of Salvia plebeia R. Br extract in vitro and in ovalbumin-induced mouse model",
+                  "details": "Biological research 49 (2016): 1-11.",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Heme oxygenase 1-mediated novel anti-inflammatory activities of Salvia plebeia and its active components",
+                  "details": "Journal of ethnopharmacology 174 (2015): 322-330.",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Salvia plebeia R. Br. polysaccharides (SPP) against RSV (respiratory syncytial virus) infection: Antiviral effect and mechanisms of action",
+                  "details": "Biomedicine & Pharmacotherapy 141 (2021): 111843.",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Salviplenoid A from Salvia plebeia attenuates acute lung inflammation via modulating NF-κB and Nrf2 signaling pathways",
+                  "details": "Phytotherapy Research 35.3 (2021): 1559-1571.",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of Salvia plebeia compound homoplantaginin on hepatocyte injury",
+                "details": "Food and chemical toxicology 47.7 (2009): 1710-1715.",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Salvia plebeia Suppresses Atopic Dermatitis-Like Skin Lesions",
+                "details": "The American journal of Chinese medicine 42.04 (2014): 967-985.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anticancer Effect of Salvia plebeia and Its Active Compound by Improving T-Cell Activity via Blockade of PD-1PD-L1 Interaction in Humanized PD-1 Mouse Model",
+                "details": "Frontiers in immunology 11 (2020): 598556.",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In vivo sedative and gastroprotective activities of Salvia plebeia extract and its composition of polyphenols.",
+                "details": "Arch Pharm Res. 2012 Aug;35(8):1403-11. doi: 10.1007/s12272-012-0810-7. Epub 2012 Sep 1.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Salvia plebeia extract inhibits the inflammatory response in human rheumatoid synovial fibroblasts and a murine model of arthritis",
+                "details": "Phytomedicine 22.3 (2015): 415-422.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Compound 48/80 유도 즉시형 과민반응에 대한 뱀차즈기의 억제효과",
+                "details": "생약학회지",
+                "pblicte_Year": "2001"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H012",
+            "fnclty_Nm": "방광의 배뇨기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The pharmacological activities of Compound Salvia Plebeia Granules on treating urinary tract infection.",
+                "details": "J Ethnopharmacol. 2010 May 4;129(1):59-63. doi: 10.1016/j.jep.2010.02.029. Epub 2010 Mar 6.",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antiobesity Effects of Salvia plebeia R. Br. Extract in High-Fat Diet-Induced Obese Mice",
+                "details": "Journal of medicinal food 19.11 (2016): 1048-1056.",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Immunomodulatory Effect of a Salvia plebeia R. Aqueous Extract in Forced Swimming Exercise-induced Mice",
+                "details": "Nutrients 12.8 (2020): 2260.",
+                "pblicte_Year": "2020"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

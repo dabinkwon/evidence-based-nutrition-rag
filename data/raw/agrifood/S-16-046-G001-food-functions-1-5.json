@@ -1,0 +1,159 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-046",
+    "sample_Nm": "감",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Neuroprotective effects of a standardized flavonoid extract from Diospyros kaki leaves",
+                  "details": "J Ethnopharmacol",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Flavonoid-rich ethanol extract from the leaves of Diospyros kaki attenuates cognitive deficits, amyloid-beta production, oxidative stress, and neuroinflammation in APP/PS1 transgenic mice",
+                  "details": "Brain Res",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Bile acid-binding activity of young persimmon (Diospyros kaki) fruit and its hypolipidemic effect in mice",
+                  "details": "Phytother Res",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "떫은감 (Diospyros kaki Thumb.)이 흰쥐의 식이성 이상지질혈증에 미치는 영향",
+                  "details": "Journal of nutrition and health",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H081",
+            "fnclty_Nm": "면역과민반응에 의한 피부상태 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Inhibitory effects of Diospyros kaki in a model of allergic inflammation: role of cAMP, calcium and nuclear factor-kappaB",
+                  "details": "Int J Mol Med",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Diospyros kaki calyx inhibits immediate-type hypersensitivity via the reduction of mast cell activation",
+                  "details": "Pharm Biol",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dyospiros kaki phenolics inhibit colitis and colon cancer cell proliferation, but not gelatinase activities",
+                "details": "J Nutr Biochem",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hepatic gene expression of the insulin signaling pathway is altered by administration of persimmon peel extract: a DNA microarray study using type 2 diabetic Goto-Kakizaki rats",
+                "details": "J Agric Food Chem",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H031",
+            "fnclty_Nm": "항균",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Persimmon-derived tannin has bacteriostatic and anti-inflammatory activity in a murine model of Mycobacterium avium complex (MAC) disease",
+                "details": "PLoS One",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H033",
+            "fnclty_Nm": "눈(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Leaves of Persimmon (Diospyros kaki Thunb.) Ameliorate N-Methyl-N-nitrosourea (MNU)-Induced Retinal Degeneration in Mice",
+                "details": "J Agric Food Chem",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Induction of uncoupling protein-1 and -3 in brown adipose tissue by kaki-tannin in type 2 diabetic NSY/Hos mice",
+                "details": "Food Chem Toxicol",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Leaf of Diospyros kaki Thumb Ameliorates Renal Oxidative Damage in Mice with Type 2 Diabetes",
+                "details": "Prev Nutr Food Sci",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hepatic gene expression of the insulin signaling pathway is altered by administration of persimmon peel extract: a DNA microarray study using type 2 diabetic Goto-Kakizaki rats",
+                "details": "J Agric Food Chem",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

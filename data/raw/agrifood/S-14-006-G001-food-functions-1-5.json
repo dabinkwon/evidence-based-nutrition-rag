@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-006",
+    "sample_Nm": "파",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-obesity activity of Allium fistulosum L. extract by down-regulation of the expression of lipogenic genes in high-fat diet-induced obese mice.",
+                "details": "Mol Med Rep. 2011 May-Jun;4(3):431-5. doi: 10.3892/mmr.2011.451. Epub 2011 Mar 10.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-influenza A virus effects of fructan from Welsh onion (Allium fistulosum L.).",
+                "details": "Food Chem. 2012 Oct 15;134(4):2164-8. doi: 10.1016/j.foodchem.2012.04.016. Epub 2012 Apr 13.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary administration of scallion extract effectively inhibits colorectal tumor growth: cellular and molecular mechanisms in mice.",
+                "details": "PLoS One. 2012;7(9):e44658. Epub 2012 Sep 14.",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

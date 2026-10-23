@@ -1,0 +1,181 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-022",
+    "sample_Nm": "마",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dioscorea esculenta-induced increase in muscle sex steroid hormones is associated with enhanced insulin sensitivity in a type 2 diabetes rat model.",
+                  "details": "FASEB J.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Antidiabetic Effects of Yam (Dioscorea batatas) and Its Active Constituent, Allantoin, in a Rat Model of Streptozotocin-Induced Diabetes.",
+                  "details": "Nutrients.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Characterization and antihyperglycemic activity of a polysaccharide from Dioscorea opposita Thunb roots.",
+                  "details": "Int J Mol Sci.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Serum and liver lipids distributions in streptozotocin induced diabetic rat treated with diet containing yam (Dioscorea bulbifera) flour.",
+                  "details": "Nutr Hosp.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-obesity Effect of Dioscorea oppositifolia Extract in High-Fat Diet-Induced Obese Mice and Its Chemical Characterization.",
+                  "details": "Biol Pharm Bull.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Dioscorea batatas extract attenuates high-fat diet-induced obesity in mice by decreasing expression of inflammatory cytokines.",
+                  "details": "Med Sci Monit.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-obesity effect of Dioscorea nipponica Makino with lipase-inhibitory activity in rodents.",
+                  "details": "Biosci Biotechnol Biochem.  2003",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dioscorea esculenta-induced increase in muscle sex steroid hormones is associated with enhanced insulin sensitivity in a type 2 diabetes rat model.",
+                  "details": "FASEB J.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Antidiabetic Effects of Yam (Dioscorea batatas) and Its Active Constituent, Allantoin, in a Rat Model of Streptozotocin-Induced Diabetes.",
+                  "details": "Nutrients.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-angiogenic effect of total saponins of Rhizoma Dioscorea nipponica on collagen induced-arthritis in rats.",
+                  "details": "Exp Ther Med.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Chinese yam (Dioscorea alata cv. Tainung No. 2) feeding exhibited antioxidative effects in hyperhomocysteinemia rats.",
+                  "details": "J Agric Food Chem.  2004",
+                  "pblicte_Year": "2004"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Serum and liver lipids distributions in streptozotocin induced diabetic rat treated with diet containing yam (Dioscorea bulbifera) flour.",
+                "details": "Nutr Hosp.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Characterization and antihyperglycemic activity of a polysaccharide from Dioscorea opposita Thunb roots.",
+                "details": "Int J Mol Sci.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "One compound of saponins from Disocorea zingiberensis protected against experimental acute pancreatitis by preventing mitochondria-mediated necrosis.",
+                "details": "Sci Rep.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of \"Chinese yam\" on hepato-nephrotoxicity of acetaminophen in rats",
+                "details": "Acta Pharmacol Sin.  2002",
+                "pblicte_Year": "2002"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H022",
+            "fnclty_Nm": "위(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Taiwanese yam (Dioscorea japonica Thunb var. pseudojaponica Yamamoto) on upper gut function and lipid metabolism in Balb/c mice.",
+                "details": "Nutrition.  2003",
+                "pblicte_Year": "2003"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Cardioprotective effect of total saponins from three medicinal species of Dioscorea against isoprenaline-induced myocardial ischemia.",
+                "details": "J Ethnopharmacol.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

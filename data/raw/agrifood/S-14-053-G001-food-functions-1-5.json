@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-053",
+    "sample_Nm": "귤",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H032",
+          "fnclty_Nm": "소화기계건강",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "귤나무 과피 유래 한약재 주정 추출물의 위장관 운동 촉진 효과",
+              "details": "생명과학회지 = Journal of life science",
+              "pblicte_Year": "2014"
+            }
+          }
+        }
+      }
+    }
+  }
+}

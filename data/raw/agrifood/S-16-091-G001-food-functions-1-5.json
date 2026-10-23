@@ -1,0 +1,274 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-091",
+    "sample_Nm": "더덕",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-Tumor Effect of Steamed Codonopsis lanceolata in H22 Tumor-Bearing Mice and Its Possible Mechanism",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "더덕 추출물의 항돌연변이 및 항종양 효과",
+                  "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Isolation, Purification, and Structural Characterization of Polysaccharides from Codonopsis pilosula and Their Anti-Tumor Bioactivity by Immunomodulation",
+                  "details": "Pharmaceuticals (Basel)",
+                  "pblicte_Year": "2020"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "발효더덕 추출물이 흰쥐의 인지능 회복에 미치는 효과",
+                  "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Cognitive-Enhancing Effect of Steamed and Fermented Codonopsis lanceolata: A Behavioral and Biochemical Study.",
+                  "details": "Evid Based Complement Alternat Med",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Steamed and Fermented Ethanolic Extract from Codonopsis lanceolata Attenuates Amyloid-β-Induced Memory Impairment in Mice",
+                  "details": "Evid Based Complement Alternat Med",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Echinocystic acid, a metabolite of lancemaside A, inhibits TNBS-induced colitis in mice.",
+                  "details": "International Immunopharmacology.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Fermented Sprouts of Codonopsis lanceolata Suppress LPS-Induced Inflammatory Responses by Inhibiting NF-κB Signaling Pathway in RAW 264.7 Macrophages and CD1 Mice",
+                  "details": "Pharmaceutics",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antilipogenic and anti-inflammatory activities of Codonopsis lanceolata in mice hepatic tissues after chronic ethanol feeding",
+                  "details": "J Biomed Biotechnol",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Protective Effect of Codonopsis lanceolata Root Extract Against Alcoholic Fatty Liver in the Rat",
+                  "details": "J Med Food",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antiobesity Effect of Codonopsis lanceolata in High-Calorie/High-Fat-Diet-Induced Obese Rats",
+                  "details": "Evid Based Complement Alternat Med",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Codonopsis lanceolata ameliorates sarcopenic obesity via recovering PI3K/Akt pathway and lipid metabolism in skeletal muscle",
+                  "details": "Phytomedicine",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Codonopsis lanceolata extract prevents hypertension in rats",
+                  "details": "Phytomedicine",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Lancemaside A from Codonopsis lanceolata prevents hypertension by inhibiting NADPH oxidase 2-mediated MAPK signalling and improving NO bioavailability in rats",
+                  "details": "J Pharm Pharmacol",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Codonopsis lanceolata extract prevents diet-induced obesity in C57BL/6 mice.",
+                "details": "Nutrients",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Polyacetylenes from Codonopsis lanceolata Root Induced Apoptosis of Human Lung Adenocarcinoma Cells and Improved Lung Dysbiosis.",
+                "details": "Biomed Res Int.",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H050",
+            "fnclty_Nm": "근육(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Codonopsis lanceolata and its active component Tangshenoside I ameliorate skeletal muscle atrophy via regulating the PI3K/Akt and SIRT1/PGC-1α pathways",
+                "details": "Phytomedicine",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Codonopsis lanceolata Water Extract Increases Hepatic Insulin Sensitivity in Rats with Experimentally-Induced Type 2 Diabetes",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ethyl acetate extracts of raw and steamed Codonopsis lanceolata protects against ischemic damage potentially by maintaining SOD1 and BDNF levels",
+                "details": "Int J Neurosci",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Codonopsis lanceolata Water Extract Increases Hepatic Insulin Sensitivity in Rats with Experimentally-Induced Type 2 Diabetes",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Codonopsis lanceolata Water Extract Increases Hepatic Insulin Sensitivity in Rats with Experimentally-Induced Type 2 Diabetes",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Codonopsis lanceolata polysaccharide CLPS alleviates high fat/high sucrose diet induced insulin resistance via anti-oxidative stress",
+                "details": "Int J Biol Macromol",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Codonopsis lanceolata attenuates allergic lung inflammation by inhibiting Th2 cell activation and augmenting mitochondrial ROS dismutase (SOD2) expression",
+                "details": "Sci Rep",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effect of stress-induced liver damage by saponin fraction from Codonopsis lanceolata",
+                "details": "Arch Pharm Res",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The memory ameliorating effects of DHP1402, an herbal mixture, on cholinergic blockade-induced cognitive dysfunction in mice",
+                "details": "J Ethnopharmacol",
+                "pblicte_Year": "2018"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

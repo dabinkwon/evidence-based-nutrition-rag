@@ -1,0 +1,234 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-049",
+    "sample_Nm": "황기",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Astragalus polysaccharide improves insulin sensitivity in KKAy mice: regulation of PKB/GLUT4 signaling in skeletal muscle.",
+                  "details": "J Ethnopharmacol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Hypoglycemic effect of polysaccharide enriched extract of Astragalus membranaceus in diet induced insulin resistant C57BL/6J mice and its potential mechanism.",
+                  "details": "Phytomedicine.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Protective effects of Astragalus saponin I on early stage of diabetic nephropathy in rats.",
+                  "details": "J Pharmacol Sci.  2004",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "Anti-hyperglycemic effect of fangchinoline isolated from Stephania tetrandra Radix in streptozotocin-diabetic mice.",
+                  "details": "Biol Pharm Bull.  2003",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Astragalus polysaccharide improves insulin sensitivity in KKAy mice: regulation of PKB/GLUT4 signaling in skeletal muscle.",
+                  "details": "J Ethnopharmacol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Hypoglycemic effect of polysaccharide enriched extract of Astragalus membranaceus in diet induced insulin resistant C57BL/6J mice and its potential mechanism.",
+                  "details": "Phytomedicine.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Protective effects of Astragalus saponin I on early stage of diabetic nephropathy in rats.",
+                  "details": "J Pharmacol Sci.  2004",
+                  "pblicte_Year": "2004"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Astragalosides from Radix Astragali benefits experimental autoimmune encephalomyelitis in C57BL /6 mice at multiple levels.",
+                  "details": "BMC Complement Altern Med.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Anti-convulsant effect and mechanism of Astragalus mongholicus extract in vitro and in vivo: protection against oxidative damage and mitochondrial dysfunction.",
+                  "details": "Neurochem Res.  2010",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Astragaloside IV from Astragalus membranaceus shows cardioprotection during myocardial ischemia in vivo and in vitro.",
+                "details": "Planta Med.  2006",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "황기가 흰쥐의 만성 신손상에 미치는 영향",
+                "details": "대한한방내과학회지 = Journal of korean oriental internal medicine",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "황기가 흰쥐의 식이성 고지혈증에 미치는 영향",
+                "details": "동의생리병리학회지 = Journal of physiology & pathology in Korean Medicine",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Formononetin promotes early fracture healing through stimulating angiogenesis by up-regulating VEGFR-2/Flk-1 in a rat fracture model.",
+                "details": "Int Immunopharmacol.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In vitro and in vivo anti-tumor effects of Astragalus membranaceus.",
+                "details": "Cancer Lett.  2007",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H039",
+            "fnclty_Nm": "갱년기 여성의 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of a Chinese medicinal plant Radix astragali on the ovariectomized female rats.",
+                "details": "Afr J Tradit Complement Altern Med.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H046",
+            "fnclty_Nm": "여성건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "황기가 자궁내막증 유발 흰쥐에 미치는 영향",
+                "details": "大韓漢方婦人科學會誌 = The Journal of oriental obstetrics & gynecology",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H048",
+            "fnclty_Nm": "항노화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The telomerase activator TA-65 elongates short telomeres and increases health span of adult/old mice without increasing cancer incidence.",
+                "details": "Aging Cell.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Astragalus polysaccharide improves insulin sensitivity in KKAy mice: regulation of PKB/GLUT4 signaling in skeletal muscle.",
+                "details": "J Ethnopharmacol.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Saponin fraction from Astragalus membranaceus roots protects mice against polymicrobial sepsis induced by cecal ligation and puncture by inhibiting inflammation and upregulating protein C pathway.",
+                "details": "J Nat Med.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Therapeutic effects of astragalus polysaccharides on inflammation and synovial apoptosis in rats with adjuvant-induced arthritis.",
+                "details": "Int J Rheum Dis.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Promotion of axonal maturation and prevention of memory loss in mice by extracts of Astragalus mongholicus.",
+                "details": "Br J Pharmacol.  2006",
+                "pblicte_Year": "2006"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

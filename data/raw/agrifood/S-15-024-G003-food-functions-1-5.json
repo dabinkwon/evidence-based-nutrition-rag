@@ -1,0 +1,172 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-024",
+    "sample_Nm": "비트(비트루트)",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "17",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of dietary nitrate supplementation on the oxygen cost of exercise and walking performance in individuals with type 2 diabetes: a randomized, double-blind, placebo-controlled crossover trial.",
+                  "details": "Free Radic Biol Med.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "A double blind randomized placebo control crossover trial on the effect of dietary nitrate supplementation on exercise tolerance in stable moderate chronic obstructive pulmonary disease.",
+                  "details": "BMC Pulm Med.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "The effect of dietary nitrate supplementation on the oxygen cost of cycling, walking performance and resting blood pressure in individuals with chronic obstructive pulmonary disease: A double blind placebo controlled, randomised control trial.",
+                  "details": "Nitric Oxide.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effect of Beetroot Juice on Moderate-Intensity Exercise at a Constant Rating of Perceived Exertion.",
+                  "details": "Int J Exerc Sci.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Acute dietary nitrate supplementation does not augment submaximal forearm exercise hyperemia in healthy young men.",
+                  "details": "Appl Physiol Nutr Metab.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Dietary nitrate supplementation in COPD: an acute, double-blind, randomized, placebo-controlled, crossover trial.",
+                  "details": "Nitric Oxide.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effect of inorganic nitrate on exercise capacity in heart failure with preserved ejection fraction.",
+                  "details": "Circulation.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Dietary nitrate supplementation improves exercise performance and decreases blood pressure in COPD patients.",
+                  "details": "Nitric Oxide.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects of Nitrate Supplementation on Cardiovascular and Autonomic Reactivity in African-American Females.",
+                  "details": "ISRN Physiol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Dietary nitrate accelerates postexercise muscle metabolic recovery and O2 delivery in hypoxia.",
+                  "details": "J Appl Physiol (1985).  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effect of acute dietary nitrate intake on maximal knee extensor speed and power in healthy men and women.",
+                  "details": "Nitric Oxide.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Dietary nitrate reduces skeletal muscle oxygenation response to physical exercise: a quantitative muscle functional MRI study.",
+                  "details": "Physiol Rep.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Dietary nitrate supplementation: effects on plasma nitrite and pulmonary O2 uptake dynamics during exercise in hypoxia and normoxia.",
+                  "details": "Am J Physiol Regul Integr Comp Physiol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Cardiorespiratory function associated with dietary nitrate supplementation.",
+                  "details": "Appl Physiol Nutr Metab.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Influence of dietary nitrate supplementation on physiological and cognitive responses to incremental cycle exercise.",
+                  "details": "Respir Physiol Neurobiol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Beetroot juice supplementation speeds O2 uptake kinetics and improves exercise tolerance during severe-intensity exercise initiated from an elevated metabolic rate.",
+                  "details": "Am J Physiol Regul Integr Comp Physiol.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Beetroot Increases Muscle Performance and Oxygenation During Sustained Isometric Exercise, but Does Not Alter Muscle Oxidative Efficiency and Microvascular Reactivity at Rest",
+                  "details": "Journal of the american college of nutrition 37.5 (2018): 361-372.",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dietary nitrate provides sustained blood pressure lowering in hypertensive patients: a randomized, phase 2, double-blind, placebo-controlled study.",
+                  "details": "Hypertension.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Beetroot supplementation lowers daily systolic blood pressure in older, overweight subjects.",
+                  "details": "Nutr Res.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effects of dietary nitrate supplementation, from beetroot juice, on blood pressure in hypertensive pregnant women: A randomised, double-blind, placebo-controlled feasibility trial",
+                  "details": "Nitric Oxide 80 (2018): 37-44.",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H076",
+            "fnclty_Nm": "혈관이완을 통한 혈행 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Short-term dietary nitrate supplementation augments cutaneous vasodilatation and reduces mean arterial pressure in healthy humans.",
+                  "details": "Microvasc Res.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects of dietary nitrates on systemic and cerebrovascular hemodynamics.",
+                  "details": "Cardiol Res Pract.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Beetroot juice improves in overweight and slightly obese men postprandial endothelial function after consumption of a mixed meal.",
+                  "details": "Atherosclerosis.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary nitrate supplementation improves reaction time in type 2 diabetes: development and application of a novel nitrate-depleted beetroot juice placebo.",
+                "details": "Nitric Oxide.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

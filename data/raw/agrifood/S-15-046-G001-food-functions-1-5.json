@@ -1,0 +1,161 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-046",
+    "sample_Nm": "옻나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-inflammatory effect of Rhus verniviflua Stokes by suppression of iNOS-mediated Akt and ERK pathways: in-vitro and in-vivo studies.",
+                  "details": "J Pharm Pharmacol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Flavonol-rich RVHxR from Rhus verniciflua Stokes and its major compound fisetin inhibits inflammation-related cytokines and angiogenic factor in rheumatoid arthritic fibroblast-like synovial cells and in vivo models.",
+                  "details": "Int Immunopharmacol.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "지구성 운동시 옻나무 추출액의 지질과산화 및 염증성사이토카인 억제효과",
+                  "details": "韓國林學會誌 = Journal of Korean Forest Society",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Rhus verniciflua Stokes prevents cisplatin-induced cytotoxicity and reactive oxygen species production in MDCK-I renal cells and intact mice.",
+                  "details": "Phytomedicine.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "지구성 운동시 옻나무 추출액의 지질과산화 및 염증성사이토카인 억제효과",
+                  "details": "韓國林學會誌 = Journal of Korean Forest Society",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Rhus verniciflua Stokes attenuates cholestatic liver cirrhosis-induced interstitial fibrosis via Smad3 down-regulation and Smad7 up-regulation.",
+                  "details": "Anat Cell Biol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Chemoprevention of a flavonoid fraction from Rhus verniciflua Stokes on aflatoxin B1-induced hepatic damage in mice.",
+                  "details": "J Appl Toxicol.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "옻나무 추출물이 식이에 의한 비만유도 C57BL/6 mouse에 미치는 영향",
+                  "details": "생약학회지",
+                  "pblicte_Year": "2003"
+                },
+                {
+                  "title": "발효옻 추출물이 흰쥐의 식이성 고지혈증에 미치는 영향",
+                  "details": "동의생리병리학회지 = Journal of physiology & pathology in Korean Medicine",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Extract of Rhus verniciflua stokes protects the diet-induced hyperlipidemia in mice.",
+                  "details": "Arch Pharm Res.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "옻나무 추출물이 식이에 의한 비만유도 C57BL/6 mouse에 미치는 영향",
+                  "details": "생약학회지",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypolipidemic and antioxidative effects of the plant glycoprotein (36 kDa) from Rhus verniciflua stokes fruit in Triton WR-1339-induced hyperlipidemic mice.",
+                  "details": "Biosci Biotechnol Biochem.  2006",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "옻나무 추출물이 식이에 의한 비만유도 C57BL/6 mouse에 미치는 영향",
+                  "details": "생약학회지",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "옻나무 추출물이 식이에 의한 비만유도 C57BL/6 mouse에 미치는 영향",
+                "details": "생약학회지",
+                "pblicte_Year": "2003"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "옻나무 추출물이 식이에 의한 비만유도 C57BL/6 mouse에 미치는 영향",
+                "details": "생약학회지",
+                "pblicte_Year": "2003"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

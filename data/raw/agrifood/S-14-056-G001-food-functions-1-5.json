@@ -1,0 +1,138 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-056",
+    "sample_Nm": "수박",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antioxidative and antidiabetic activities of watermelon (Citrullus lanatus) juice on oxidative stress in alloxan-induced diabetic male Wistar albino rats.",
+                  "details": "Niger Med J. 2015 Jul-Aug;56(4):272-7. doi: 10.4103/0300-1652.169707.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Watermelon consumption improves inflammation and antioxidant capacity in rats fed an atherogenic diet.",
+                  "details": "Nutr Res. 2015 Mar;35(3):251-8. doi: 10.1016/j.nutres.2014.12.005. Epub 2015 Jan 3.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Watermelon (Citrullus lanatus (Thunb.) Matsum. and Nakai) juice modulates oxidative damage induced by low dose X-ray in mice.",
+                  "details": "Biomed Res Int. 2014;2014:512834. doi: 10.1155/2014/512834. Epub 2014 Apr 29.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Protective effect of Diyarbak캇r watermelon juice on carbon tetrachloride-induced toxicity in rats.",
+                  "details": "Food Chem Toxicol. 2011 Sep;49(9):2433-8. doi: 10.1016/j.fct.2011.06.064. Epub 2011 Jun 28.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Watermelon consumption improves inflammation and antioxidant capacity in rats fed an atherogenic diet.",
+                  "details": "Nutr Res. 2015 Mar;35(3):251-8. doi: 10.1016/j.nutres.2014.12.005. Epub 2015 Jan 3.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-inflammatory activities of cucurbitacin E isolated from Citrullus lanatus var. citroides: role of reactive nitrogen species and cyclooxygenase enzyme inhibition.",
+                  "details": "Fitoterapia. 2011 Dec;82(8):1190-7. doi: 10.1016/j.fitote.2011.08.002. Epub 2011 Aug 11.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Watermelon consumption improves inflammation and antioxidant capacity in rats fed an atherogenic diet.",
+                "details": "Nutr Res. 2015 Mar;35(3):251-8. doi: 10.1016/j.nutres.2014.12.005. Epub 2015 Jan 3.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-hyperglycaemic globulins from selected Cucurbitaceae seeds used as antidiabetic medicinal plants in Africa.",
+                "details": "BMC Complement Altern Med. 2013 Mar 18;13:63. doi: 10.1186/1472-6882-13-63.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antioxidative and antidiabetic activities of watermelon (Citrullus lanatus) juice on oxidative stress in alloxan-induced diabetic male Wistar albino rats.",
+                "details": "Niger Med J. 2015 Jul-Aug;56(4):272-7. doi: 10.4103/0300-1652.169707.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Citrullus lanatus &apos;sentinel&apos; (watermelon) extract reduces atherosclerosis in LDL receptor-deficient mice.",
+                "details": "J Nutr Biochem. 2013 May;24(5):882-6. doi: 10.1016/j.jnutbio.2012.05.011. Epub 2012 Aug 16.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of L-citrulline diet on stress-induced cold hypersensitivity in mice.",
+                "details": "Pharmacognosy Res. 2014 Oct;6(4):297-302. doi: 10.4103/0974-8490.138269.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antioxidative and antidiabetic activities of watermelon (Citrullus lanatus) juice on oxidative stress in alloxan-induced diabetic male Wistar albino rats.",
+                "details": "Niger Med J. 2015 Jul-Aug;56(4):272-7. doi: 10.4103/0300-1652.169707.",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

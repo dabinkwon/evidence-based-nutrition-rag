@@ -1,0 +1,205 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-028",
+    "sample_Nm": "어성초(약모밀)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Afzelin ameliorates D-galactosamine and lipopolysaccharide-induced fulminant hepatic failure by modulating mitochondrial quality control and dynamics.",
+                  "details": "Br J Pharmacol.  2017",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Protective effects from Houttuynia cordata aqueous extract against acetaminophen-induced liver injury.",
+                  "details": "Biomedicine (Taipei).  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Chemical composition and hepatoprotective effects of polyphenol-rich extract from Houttuynia cordata tea.",
+                  "details": "J Agric Food Chem.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "TCDD를 투여한 rat의 간손상에 대한 어성초의 효과",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Flavonoids from the aerial parts of Houttuynia cordata attenuate lung inflammation in mice.",
+                  "details": "Arch Pharm Res.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Protective effects of bone marrow-derived endothelial progenitor cells and Houttuynia cordata in lipopolysaccharide-induced acute lung injury in rats.",
+                  "details": "Cell Physiol Biochem.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Anti-inflammatory effects of Houttuynia cordata supercritical extract in carrageenan-air pouch inflammation model.",
+                  "details": "Lab Anim Res.  2012",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Houttuynia cordata Thunb reverses oxaliplatin-induced neuropathic pain in rat by regulating Th17/Treg balance.",
+                  "details": "Am J Transl Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Houttuynia cordata aqueous extract attenuated glycative and oxidative stress in heart and kidney of diabetic mice.",
+                  "details": "Eur J Nutr.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Antihyperglycemic Activity of Houttuynia cordata Thunb. in Streptozotocin-Induced Diabetic Rats.",
+                  "details": "Adv Pharmacol Sci.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Houttuynia cordata aqueous extract attenuated glycative and oxidative stress in heart and kidney of diabetic mice.",
+                  "details": "Eur J Nutr.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Antihyperglycemic Activity of Houttuynia cordata Thunb. in Streptozotocin-Induced Diabetic Rats.",
+                  "details": "Adv Pharmacol Sci.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective Effects of Houttuynia cordata Thunb. on Gentamicin-induced Oxidative Stress and Nephrotoxicity in Rats.",
+                  "details": "Toxicol Res.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effects of Houttuynia cordata thumb on expression of BMP-7 and TGF-beta1 in the renal tissues of diabetic rats.",
+                  "details": "J Tradit Chin Med.  2007",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Houttuynia cordata alleviates high-fat diet-induced non-alcoholic fatty liver in experimental rats.",
+                "details": "Pharm Biol.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of Houttuynia cordata aqueous extract in mice consuming a high saturated fat diet.",
+                "details": "Food Funct.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Water extract of Houttuynia cordata Thunb. leaves exerts anti-obesity effects by inhibiting fatty acid and glycerol absorption.",
+                "details": "J Nutr Sci Vitaminol (Tokyo).  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Houttuynia cordata Improves Cognitive Deficits in Cholinergic Dysfunction Alzheimer&apos;s Disease-Like Models.",
+                "details": "Biomol Ther (Seoul).  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "어성초 즙과 분말을 첨가한 식이가 흰쥐의 혈청지질개선에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "1998"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H030",
+            "fnclty_Nm": "중금속 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "어성초의 카드뮴에 대한 독성억제효과 (II)",
+                "details": "약학회지",
+                "pblicte_Year": "2000"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

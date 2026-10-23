@@ -1,0 +1,97 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-013",
+    "sample_Nm": "번행초",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Tetragonia tetragonioides (Pall.) Kuntze protects estrogen-deficient rats against disturbances of energy and glucose metabolism and decreases proinflammatory cytokines",
+                  "details": "Exp Biol Med (Maywood)",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Tetragonia tetragonoides (Pall.) Kuntze (New Zealand Spinach) Prevents Obesity and Hyperuricemia in High-Fat Diet-Induced Obese Mice",
+                  "details": "Nutrients.",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Tetragonia tetragonioides Protected against Memory Dysfunction by Elevating Hippocampal Amyloid-β Deposition through Potentiating Insulin Signaling and Altering Gut Microbiome Composition",
+                "details": "Int J Mol Sci",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Tetragonia tetragonioides Protected against Memory Dysfunction by Elevating Hippocampal Amyloid-β Deposition through Potentiating Insulin Signaling and Altering Gut Microbiome Composition",
+                "details": "Int J Mol Sci",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Tetragonia tetragonioides (Pall.) Kuntze protects estrogen-deficient rats against disturbances of energy and glucose metabolism and decreases proinflammatory cytokines",
+                "details": "Exp Biol Med (Maywood)",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Tetragonia tetragonoides (Pall.) Kuntze Extract on Andropause Symptoms",
+                "details": "Nutrients",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Tetragonia tetragonioides Relieves Depressive-Like Behavior through the Restoration of Glial Loss in the Prefrontal Cortex",
+                "details": "Evid Based Complement Alternat Med",
+                "pblicte_Year": "2020"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

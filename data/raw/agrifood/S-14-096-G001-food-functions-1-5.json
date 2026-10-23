@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-096",
+    "sample_Nm": "눈개승마",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H010",
+          "fnclty_Nm": "콩팥에서 요독 물질 배출",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Methanol Extract of Goat&apos;s-beard (Aruncus dioicus) Reduces Renal Injury by Inhibiting Apoptosis in a Rat Model of Ischemia-Reperfusion.",
+              "details": "Prev Nutr Food Sci. 2012 Jun;17(2):101-8. doi: 10.3746/pnf.2012.17.2.101.",
+              "pblicte_Year": "2012"
+            }
+          }
+        }
+      }
+    }
+  }
+}

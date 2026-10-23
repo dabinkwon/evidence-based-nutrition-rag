@@ -1,0 +1,131 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-087",
+    "sample_Nm": "큰느타리버섯",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypolipidaemic and hypoglycaemic activities of polysaccharide from Pleurotus eryngii in Kunming mice",
+                  "details": "Int J Biol Macromol",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Chemical composition of Pleurotus eryngii polysaccharides and their inhibitory effects on high-fructose diet-induced insulin resistance and oxidative stress in mice",
+                  "details": "Food Funct",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Anti-hyperlipidemic and antioxidant effects of alkali-extractable mycelia polysaccharides by Pleurotus eryngii var. tuolensis",
+                  "details": "Carbohydr Polym",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Antioxidant and anti-hyperlipidemic effects of mycelia zinc polysaccharides by Pleurotus eryngii var. tuoliensis",
+                  "details": "Int J Biol Macromol",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypolipidemic effect of Pleurotus eryngii extract in fat-loaded mice",
+                  "details": "J Nutr Sci Vitaminol (Tokyo)",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "큰느타리버섯이 당뇨쥐의 혈당 및 혈중콜레스테롤에 미치는 영향",
+                  "details": "한국균학회지 = The Korean journal of mycology",
+                  "pblicte_Year": "2001"
+                },
+                {
+                  "title": "새송이버섯이 고지방 식이를 급여한 흰쥐의 지질대사에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+                  "pblicte_Year": "2005"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "큰느타리버섯이 당뇨쥐의 혈당 및 혈중콜레스테롤에 미치는 영향",
+                "details": "한국균학회지 = The Korean journal of mycology",
+                "pblicte_Year": "2001"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hepatoprotection of enzymatic-extractable mycelia zinc polysaccharides by Pleurotus eryngii var. tuoliensis",
+                "details": "Carbohydr Polym",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "큰느타리버섯이 당뇨쥐의 혈당 및 혈중콜레스테롤에 미치는 영향",
+                "details": "한국균학회지 = The Korean journal of mycology",
+                "pblicte_Year": "2001"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibition of Azoxymethane-induced Colorectal Aberrant Crypt Foci in Mice Fed a High-fat Diet by Pleurotus eryngii (Eringi) and Hypsizygus marmoreus (Bunashimeji)",
+                "details": "Asian Pac J Cancer Prev",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Pleurotus eryngii Ameliorates Lipopolysaccharide-Induced Lung Inflammation in Mice",
+                "details": "Evid Based Complement Alternat Med",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

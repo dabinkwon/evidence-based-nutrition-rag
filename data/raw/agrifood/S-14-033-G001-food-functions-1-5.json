@@ -1,0 +1,133 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-033",
+    "sample_Nm": "보리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Hordeum vulgare L. (Barley) on blood glucose levels of normal and STZ-induced diabetic rats.",
+                  "details": "Res Pharm Sci. 2014 May-Jun;9(3):173-8.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "보리순 분말이 당뇨쥐의 혈당조절에 미치는 효과",
+                  "details": "한국지역사회생활과학회지 = The Korean Journal of Community Living Science",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary supplementation with Lactobacillus plantarum dy-1 fermented barley suppresses body weight gain in high-fat diet-induced obese rats.",
+                "details": "J Sci Food Agric.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In vitro and in vivo antioxidant activity of polyphenols extracted from black highland barley.",
+                "details": "Food Chem.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Barley-derived 棺-glucans increases gut permeability, ex vivo epithelial cell binding to E. coli, and naive T-cell proportions in weanling pigs.",
+                "details": "J Anim Sci. 2012 Aug;90(8):2652-62. doi: 10.2527/jas.2011-4381. Epub 2012 Mar 5.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Methanol extract of the aerial parts of barley (Hordeum vulgare) suppresses lipopolysaccharide-induced inflammatory responses in vitro and in vivo.",
+                "details": "Pharm Biol. 2013 Aug;51(8):1066-76. doi: 10.3109/13880209.2013.768274. Epub 2013 Jun 7.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Barley Sprouts Extract Attenuates Alcoholic Fatty Liver Injury in Mice by Reducing Inflammatory Response.",
+                "details": "Nutrients.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "High wholegrain barley ??-glucan lowers food intake but does not alter small intestinal macronutrient digestibility in ileorectostomised rats.",
+                "details": "Int J Food Sci Nutr.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Insoluble fiber in young barley leaf suppresses the increment of postprandial blood glucose level by increasing the digesta viscosity.",
+                "details": "Evid Based Complement Alternat Med. 2013;2013:137871. doi: 10.1155/2013/137871. Epub 2013 Nov 24.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "보리순 분말이 당뇨쥐의 혈당조절에 미치는 효과",
+                "details": "한국지역사회생활과학회지 = The Korean Journal of Community Living Science",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

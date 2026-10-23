@@ -1,0 +1,66 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-042",
+    "sample_Nm": "감자",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H031",
+            "fnclty_Nm": "항균",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Potato (Solanum tuberosum L. cv. Gogu valley) protein as a novel antimicrobial agent in weanling pigs.",
+                "details": "J Anim Sci. 2008 Jul;86(7):1562-72. doi: 10.2527/jas.2007-0414. Epub 2008 Mar 14.",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibitory effects of Solanum tuberosum L. var. vitelotte extract on 2,4-dinitrochlorobenzene-induced atopic dermatitis in mice.",
+                "details": "J Pharm Pharmacol. 2014 Sep;66(9):1303-16. doi: 10.1111/jphp.12254. Epub 2014 Jun 24.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Lipolysis stimulating peptides of potato protein hydrolysate effectively suppresses high-fat-diet-induced hepatocyte apoptosis and fibrosis in aging rats.",
+                "details": "Food Nutr Res.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Potato powders prepared by successive cooking-process depending on resistant starch content affect the intestinal fermentation in rats.",
+                "details": "Biosci Biotechnol Biochem.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

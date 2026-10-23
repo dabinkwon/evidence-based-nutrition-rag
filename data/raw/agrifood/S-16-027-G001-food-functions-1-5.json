@@ -1,0 +1,61 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-027",
+    "sample_Nm": "작두(도두)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "종양이식 생쥐모델에서 도두(刀豆), 우방근(牛蒡根) 추출물의 대장암 억제 효과",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "부동화 스트레스 유도 마우스 모델에서 도두(刀豆), 우방근(牛蒡根) 복합물의 면역증진 작용",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibitory effects of sword bean extract on alveolar bone resorption induced in rats by Porphyromonas gingivalis infection",
+                "details": "J Periodontal Res",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "종양이식 생쥐모델에서 도두(刀豆), 우방근(牛蒡根) 추출물의 대장암 억제 효과",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2017"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

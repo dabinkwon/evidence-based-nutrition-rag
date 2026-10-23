@@ -1,0 +1,169 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-020",
+    "sample_Nm": "짚신나물",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Agrimonia pilosa Ledeb. ameliorates Hyperglycemia and Hepatic Steatosis in Ovariectomized Rats Fed a High-Fat Diet",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Agrimonia pilosa Ledeb. aqueous extract improves impaired glucose tolerance in high-fat diet-fed rats by decreasing the inflammatory response",
+                  "details": "BMC complementary and alternative medicine 17 (2017): 1-8.",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Antihyperglycemic activity of herb extracts on streptozoticin induced diabetic rats",
+                  "details": "Bioscience, biotechnology, and biochemistry 70.10 (2006): 2556-2559.",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-inflammatory and anti-allergic effects of Agrimonia pilosa Ledeb extract on murine cell lines and OVA-induced airway inflammation.",
+                  "details": "J Ethnopharmacol. 2012 Mar 27;140(2):213-21. doi: 10.1016/j.jep.2011.12.035. Epub 2012 Jan 21.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Anti-inflammatory and anti-allergic effects of Agrimonia pilosa Ledeb extract on murine cell lines and OVA-induced airway inflammation",
+                  "details": "CABI Databases",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Inhibitory Effect of Agrimoniapilosa Ledeb. on Inflammationby Suppression of iNOS and ROS Production",
+                  "details": "Immunological investigations 39.2 (2010): 159-170.",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Agrimonia pilosa Ledeb. aqueous extract improves impaired glucose tolerance in high-fat diet-fed rats by decreasing the inflammatory response",
+                  "details": "BMC complementary and alternative medicine 17 (2017): 1-8.",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Antihyperglycemic activity of herb extracts on streptozoticin induced diabetic rats",
+                  "details": "Bioscience, biotechnology, and biochemistry 70.10 (2006): 2556-2559.",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective mechanisms of Agrimonia pilosa Ledeb in dextran sodium sulfate-induced colitis as determined by a network pharmacology approach",
+                "details": "Acta Biochimica et Biophysica Sinica 53.10 (2021): 1342-1353.",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Agrimonia pilosa Ledeb. ameliorates Hyperglycemia and Hepatic Steatosis in Ovariectomized Rats Fed a High-Fat Diet",
+                "details": "Nutrients",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H031",
+            "fnclty_Nm": "항균",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effects of Agrimonia pilosa Ledeb, Anemone chinensis Bunge, and Smilax glabra Roxb on Broiler Performance, Nutrient Digestibility, and Gastrointestinal Tract Microorganisms",
+                "details": "Animals 12.9 (2022): 1110.",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The anti-colorectal cancer effect and metabolites of Agrimonia pilosa Ledeb",
+                "details": "Journal of Ethnopharmacology 329 (2024): 118146.",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Agrimonia pilosa Ledeb Extract on the Antinociception and Mechanisms in Mouse",
+                "details": "The Korean Journal of Physiology & Pharmacology 16.2 (2012): 119-123.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H052",
+            "fnclty_Nm": "항감염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Promising Antiviral Activity of Agrimonia pilosa Phytochemicals against Severe Acute Respiratory Syndrome Coronavirus 2 Supported with In Vivo Mice Study",
+                "details": "Pharmaceuticals 14.12 (2021): 1313.",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Agrimonia pilosa Ledeb., Cinnamomumcassia Blume, and Lonicera japonica Thunb.protect against cognitive dysfunction andenergy and glucose dysregulation by reducingneuroinflammation and hippocampal insulinresistance in β-amyloid-infused rats",
+                "details": "Nutritional Neuroscience 20.2 (2017): 77-88.",
+                "pblicte_Year": "2017"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

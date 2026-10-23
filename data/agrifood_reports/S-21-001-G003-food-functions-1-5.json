@@ -1,0 +1,10 @@
+{
+  "food": "자두",
+  "sample_id": "S-21-001",
+  "research_code": "G003",
+  "status": "cached",
+  "paper_record_count": 34,
+  "unique_bibliography_count": 16,
+  "research_label": "인체적용시험",
+  "raw_file": "data/raw/agrifood/S-21-001-G003-food-functions-1-5.json"
+}

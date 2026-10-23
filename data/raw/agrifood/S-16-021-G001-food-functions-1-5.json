@@ -1,0 +1,179 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-021",
+    "sample_Nm": "치자나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Genipin protects lipopolysaccharide-induced apoptotic liver damage in D-galactosamine-sensitized mice",
+                  "details": "Eur J Pharmacol",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Preventive effect of phytoglycoprotein (27 kDa) on inflammatory factors at liver injury in cadmium chloride-exposed ICR mice",
+                  "details": "J Cell Biochem",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Hepatoprotective and hypolipidaemic effects of glycoprotein isolated from Gardenia jasminoides ellis in mice",
+                  "details": "Clin Exp Pharmacol Physiol",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Geniposide attenuates ANIT-induced cholestasis through regulation of transporters and enzymes involved in bile acids homeostasis in rats",
+                  "details": "J Ethnopharmacol",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Galactosamine 유도 급성 간염 모델에서 치자의 간 보호 효과",
+                  "details": "약학회지 = Yakhak hoeji",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "사염화탄소 유도 급성 간독성 모델에서 치자의 간 보호 효과",
+                  "details": "약학회지 = Yakhak hoeji",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-inflammatory effects and pharmacokinetics study of geniposide on rats with adjuvant arthritis",
+                  "details": "Int Immunopharmacol",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effects and mechanisms of Geniposide on rats with adjuvant arthritis",
+                  "details": "Int Immunopharmacol",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Antiinflammation Effects and Mechanisms Study of Geniposide on Rats with Collagen-Induced Arthritis",
+                  "details": "Phytother Res",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Peroxisome proliferator-activated receptor activating hypoglycemic effect of Gardenia jasminoides Ellis aqueous extract and improvement of insulin sensitivity in steroid induced insulin resistant rats",
+                  "details": "BMC Complement Altern Med",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Crocetin, a carotenoid from Gardenia jasminoides Ellis, protects against hypertension and cerebral thrombogenesis in stroke-prone spontaneously hypertensive rats",
+                  "details": "Phytother Res",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hepatoprotective and hypolipidaemic effects of glycoprotein isolated from Gardenia jasminoides ellis in mice",
+                  "details": "Clin Exp Pharmacol Physiol",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Mechanism of hypolipidemic effect of crocin in rats: crocin inhibits pancreatic lipase",
+                  "details": "Eur J Pharmacol",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Learning and memory improvement and neuroprotection of Gardenia jasminoides (Fructus gardenia) extract on ischemic brain injury rats",
+                "details": "J Ethnopharmacol",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ethanol extract of baked Gardeniae Fructus exhibits in vitro and in vivo anti-metastatic and anti-angiogenic activities in malignant cancer cells: Role of suppression of the NF-kappaB and HIF-1alpha pathways",
+                "details": "Int J Oncol",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Geniposide protects against acute alcohol-induced liver injury in mice via up-regulating the expression of the main antioxidant enzymes",
+                "details": "Can J Physiol Pharmacol",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H077",
+            "fnclty_Nm": "혈소판 응집을 억제하여 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antithrombotic activities of aqueous extract from Gardenia jasminoides and its main constituent",
+                "details": "Pharm Biol",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Crocetin, a carotenoid derivative, inhibits retinal ischemic damage in mice",
+                "details": "Eur J Pharmacol",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-024",
+    "sample_Nm": "비트(비트루트)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Beetroot juice reduces infarct size and improves cardiac function following ischemia-reperfusion injury: Possible involvement of endogenous H2S.",
+                  "details": "Exp Biol Med (Maywood).  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Beetroot juice alleviates isoproterenol-induced myocardial damage by reducing oxidative stress, inflammation, and apoptosis in rats",
+                  "details": "Raish, 3 Biotech 9 (2019): 1-11.",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Beta vulgaris-derived exosome-like nanovesicles alleviate chronic doxorubicin-induced cardiotoxicity by inhibiting ferroptosis",
+                  "details": "Journal of Biochemical and Molecular Toxicology 38.1 (2024): e23540.",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Red beet(Beta vulgaris L.) leaf supplementation improves antioxidant status in C57BL/6J mice fed high fat high cholesterol diet",
+                  "details": "Nutrition research and practice",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Antiradical, antimicrobial and cytotoxic activities of commercial beetroot pomace",
+                  "details": "Food & function, 4(5), 713-721.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "HPLC-ESI- MS/MS analysis of beet (Beta vulgaris) leaves and its beneficial properties in type 1 diabetic rats",
+                "details": "Biomedicine & Pharmacotherapy 120 (2019): 109541.",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-obesity effects of Beta vulgaris and Eruca sativa-based extracts",
+                "details": "Phytotherapy Research 38.9 (2024): 4757-4773.",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Improved hepatoprotective activity of Beta vulgaris L. leaf extract loaded self-nanoemulsifying drug delivery system (SNEDDS): in vitro and in vivo evaluation",
+                "details": "Drug Development and Industrial Pharmacy 46.10 (2020): 1589-1603.",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dose dependent effects of nitrate supplementation on cardiovascular control and microvascular oxygenation dynamics in healthy rats.",
+                "details": "Nitric Oxide.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-inflammatory activity of betalain-rich dye of Beta vulgaris: effect on edema, leukocyte recruitment, superoxide anion and cytokine production.",
+                "details": "Arch Pharm Res.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chemoprevention of lung and skin cancer by Beta vulgaris (beet) root extract",
+                "details": "Cancer letters 100.1-2 (1996): 211-214.",
+                "pblicte_Year": "1996"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective role of Beta vulgaris L. leaves extract and fractions on ethanol-mediated hepatic toxicity",
+                "details": "Acta Pol Pharm",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "HPLC-ESI- MS/MS analysis of beet (Beta vulgaris) leaves and its beneficial properties in type 1 diabetic rats",
+                "details": "Biomedicine & Pharmacotherapy 120 (2019): 109541.",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beetroot (Beta vulgaris L.) extract ameliorates gentamicin-induced nephrotoxicity associated oxidative stress, inflammation, and apoptosis in rodent model.",
+                "details": "Mediators Inflamm.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

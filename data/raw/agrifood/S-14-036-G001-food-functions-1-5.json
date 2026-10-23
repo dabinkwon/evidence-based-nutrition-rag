@@ -1,0 +1,255 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-036",
+    "sample_Nm": "토마토",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Tomato (Lycopersicon esculentum) Supplementation Induces Changes in Cardiac miRNA Expression, Reduces Oxidative Stress and Left Ventricular Mass, and Improves Diastolic Function.",
+                  "details": "Nutrients. 2015 Nov 19;7(11):9640-9. doi: 10.3390/nu7115493.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Antioxidant effect of lycopene-enriched tomato paste on N-nitrosodiethylamine-induced oxidative stress in rats.",
+                  "details": "J Physiol Biochem. 2014 Dec;70(4):981-90. doi: 10.1007/s13105-014-0367-7. Epub 2014 Nov 13.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Oral supplements of aqueous extract of tomato seeds alleviate motor abnormality, oxidative impairments and neurotoxicity induced by rotenone in mice: relevance to Parkinson&apos;s disease.",
+                  "details": "Neurochem Res. 2014 Jul;39(7):1382-94. doi: 10.1007/s11064-014-1323-1. Epub 2014 May 16.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Comparative study of tomato and tomato paste supplementation on the level of serum lipids and lipoproteins levels in rats fed with high cholesterol.",
+                  "details": "Iran Red Crescent Med J. 2013 Apr;15(4):287-91. doi: 10.5812/ircmj.1007. Epub 2013 Apr 5.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Aqueous extract of tomato seeds attenuates rotenone-induced oxidative stress and neurotoxicity in Drosophila melanogaster.",
+                  "details": "J Sci Food Agric.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Genetic ablation of carotene oxygenases and consumption of lycopene or tomato powder diets modulate carotenoid and lipid metabolism in mice.",
+                  "details": "Nutr Res. 2013 Sep;33(9):733-42. doi: 10.1016/j.nutres.2013.07.007. Epub 2013 Aug 13.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Potent PPARα activator derived from tomato juice, 13-oxo-9,11-octadecadienoic acid, decreases plasma and hepatic triglyceride in obese diabetic mice.",
+                  "details": "PLoS One. 2012;7(2):e31317. doi: 10.1371/journal.pone.0031317. Epub 2012 Feb 9.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effect of tomato juice consumption on the plasmatic lipid profile, hepatic HMGCR activity, and fecal short chain fatty acid content of rats.",
+                  "details": "Food Funct.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of dry tomato peel supplementation on glucose tolerance, insulin resistance, and hepatic markers in mice fed high-saturated-fat/high-cholesterol diets.",
+                  "details": "J Nutr Biochem.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Resistin mediates tomato and broccoli extract effects on glucose homeostasis in high fat diet-induced obesity in rats.",
+                  "details": "BMC Complement Altern Med.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H041",
+            "fnclty_Nm": "전립선 건강의 유지",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Tomato paste alters NF-κB and cancer-related mRNA expression in prostate cancer cells, xenografts, and xenograft microenvironment.",
+                  "details": "Nutr Cancer. 2015;67(2):305-15. doi: 10.1080/01635581.2015.990575. Epub 2015 Feb 9.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "An interaction between carotene-15,15&apos;-monooxygenase expression and consumption of a tomato or lycopene-containing diet impacts serum and testicular testosterone.",
+                  "details": "Int J Cancer. 2012 Jul 15;131(2):E143-8. doi: 10.1002/ijc.26446. Epub 2011 Nov 2.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H030",
+            "fnclty_Nm": "중금속 배출",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Comparative analysis on the effect of Lycopersicon esculentum (tomato) in reducing cadmium, mercury and lead accumulation in liver.",
+                  "details": "Food Chem Toxicol. 2012 Jun;50(6):2070-3. doi: 10.1016/j.fct.2012.03.079. Epub 2012 Apr 5.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effects of cadmium on some haematological and biochemical characteristics of Oreochromis niloticus (Linnaeus, 1758) dietary supplemented with tomato paste and vitamin E.",
+                  "details": "Fish Physiol Biochem. 2011 Mar;37(1):71-84. doi: 10.1007/s10695-010-9418-3. Epub 2010 Jul 13.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Plasma and hepatic cholesterol-lowering effects of tomato pomace, tomato seed oil and defatted tomato seed in hamsters fed with high-fat diets.",
+                  "details": "Food Chem. 2013 Aug 15;139(1-4):589-96. doi: 10.1016/j.foodchem.2013.01.043. Epub 2013 Jan 29.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "The inhibitory effects of bioactive compounds of tomato juice binding to hepatic HMGCR: in vivo study and molecular modelling.",
+                  "details": "PLoS One. 2014;9(1):e83968. doi: 10.1371/journal.pone.0083968.",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Intake of cooked tomato sauce preserves coronary endothelial function and improves apolipoprotein A-I and apolipoprotein J protein profile in high-density lipoproteins.",
+                  "details": "Transl Res. 2015 Jul;166(1):44-56. doi: 10.1016/j.trsl.2014.11.004. Epub 2014 Nov 25.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Administration of tomato and paprika beverages modifies hepatic glucose and lipid metabolism in mice: a DNA microarray analysis.",
+                  "details": "J Agric Food Chem. 2009 Nov 25;57(22):10964-71. doi: 10.1021/jf902401u.",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H077",
+            "fnclty_Nm": "혈소판 응집을 억제하여 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of tomato industrial processing (different hybrids, paste, and pomace) on inhibition of platelet function in vitro, ex vivo, and in vivo.",
+                "details": "J Med Food. 2014 Apr;17(4):505-11. doi: 10.1089/jmf.2012.0243. Epub 2013 Dec 10.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antihypertensive effect of a gamma-aminobutyric acid rich tomato cultivar &apos;DG03-9&apos; in spontaneously hypertensive rats.",
+                "details": "J Agric Food Chem. 2010 Jan 13;58(1):615-9. doi: 10.1021/jf903008t.",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "New vinegar produced by tomato suppresses adipocyte differentiation and fat accumulation in 3T3-L1 cells and obese rat model.",
+                "details": "Food Chem. 2013 Dec 1;141(3):3241-9. doi: 10.1016/j.foodchem.2013.05.126. Epub 2013 Jun 4.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Lycopersicon esculentum Extract Enhances Cognitive Function and Hippocampal Neurogenesis in Aged Mice.",
+                "details": "Nutrients.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Tomato powder impedes the development of azoxymethane-induced colorectal cancer in rats through suppression of COX-2 expression via NF-κB and regulating Nrf2/HO-1 pathway.",
+                "details": "Mol Nutr Food Res. 2012 Sep;56(9):1477-81. doi: 10.1002/mnfr.201200130. Epub 2012 Aug 1.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Lipid biomarkers and metabolic effects of lycopene from tomato juice on liver of rats with induced hepatic steatosis.",
+                "details": "J Nutr Biochem. 2013 Nov;24(11):1870-81. doi: 10.1016/j.jnutbio.2013.05.003. Epub 2013 Aug 21.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary tomato powder inhibits alcohol-induced hepatic injury by suppressing cytochrome p450 2E1 induction in rodent models.",
+                "details": "Arch Biochem Biophys. 2015 Apr 15;572:81-8. doi: 10.1016/j.abb.2015.01.004. Epub 2015 Jan 12.",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

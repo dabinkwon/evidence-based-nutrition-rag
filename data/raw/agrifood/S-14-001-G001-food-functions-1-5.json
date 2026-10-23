@@ -1,0 +1,66 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-001",
+    "sample_Nm": "대추",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Combination of Zizyphus jujuba and silymarin showed better neuroprotective effect as compared to single agent in MCAo-induced focal cerebral ischemia in rats.",
+                "details": "J Ethnopharmacol.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "대추의 궤양성 대장염에 대한 개선 효과",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "대추과육과 대추잎 혼합발효추출물이 고지방식이로 유발된 고지혈증 흰쥐에 미치는 영향",
+                "details": "대한예방한의학회지 = Journal of Society of Preventive Korean Medicine",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective Effect of Bioactivity Guided Fractions of Ziziphus jujuba Mill. Root Bark against Hepatic Injury and Chronic Inflammation via Inhibiting Inflammatory Markers and Oxidative Stress.",
+                "details": "Front Pharmacol.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

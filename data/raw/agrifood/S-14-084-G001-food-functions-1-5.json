@@ -1,0 +1,251 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-084",
+    "sample_Nm": "아스파라거스",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Bioactive constituents from triguero",
+                  "details": "Int J Mol Sci. 2013 Oct 24;14(11):21227-39. doi: 10.3390/ijms141121227.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Hypocholesterolemic and hepatoprotective effects of triguero",
+                  "details": "Evid Based Complement Alternat Med. 2012;2012:814752. doi: 10.1155/2012/814752. Epub 2011 Nov 17.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "The aqueous extract of Asparagus officinalis L. by-product exerts hypoglycaemic activity in streptozotocin-induced diabetic rats.",
+                  "details": "J Sci Food Agric. 2011 Aug 30;91(11):2095-9. doi: 10.1002/jsfa.4429. Epub 2011 May 12.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Hypolipidemic effect of n-butanol Extract from Asparagus officinalis L. in mice fed a high-fat diet.",
+                  "details": "Phytother Res. 2011 Aug;25(8):1119-24. doi: 10.1002/ptr.3380. Epub 2011 Jan 31.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "남해군 특용작물 열수 추출분말이 콜테스테롤 급이 흰쥐의 혈청 및 장기 중 지질성분에 미치는 영향",
+                  "details": "한국식품조리과학회지 = Korean Journal of Food & Cookery Science",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Asparagus polysaccharide and gum with hepatic artery embolization induces tumor growth and inhibits angiogenesis in an orthotopic hepatocellular carcinoma model.",
+                  "details": "Asian Pac J Cancer Prev. 2014;15(24):10949-55.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Anticancer effects of deproteinized asparagus polysaccharide on hepatocellular carcinoma in vitro and in vivo.",
+                  "details": "Tumour Biol. 2014 Apr;35(4):3517-24. doi: 10.1007/s13277-013-1464-x. Epub 2013 Dec 6.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Shatavarins (containing Shatavarin IV) with anticancer activity from the roots of Asparagus racemosus.",
+                  "details": "Indian J Pharmacol. 2012 Nov-Dec;44(6):732-6. doi: 10.4103/0253-7613.103273.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Asparagus racemosus ameliorates cisplatin induced toxicities and augments its antileishmanial activity by immunomodulation in vivo.",
+                  "details": "Parasitol Int. 2014 Feb;63(1):21-30. doi: 10.1016/j.parint.2013.09.016. Epub 2013 Oct 6.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "A unique immuno-stimulant steroidal sapogenin acid from the roots of Asparagus racemosus.",
+                  "details": "Steroids. 2011 Mar;76(4):358-64. doi: 10.1016/j.steroids.2010.12.006. Epub 2010 Dec 21.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "A novel sarsasapogenin glycoside from Asparagus racemosus elicits protective immune responses against HBsAg.",
+                  "details": "Immunol Lett. 2011 Mar 30;135(1-2):129-35. doi: 10.1016/j.imlet.2010.10.013. Epub 2010 Oct 28.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Asparagus officinalis extract controls blood glucose by improving insulin secretion and b-cell function in streptozotocin-induced type 2 diabetic rats.",
+                  "details": "Br J Nutr. 2012 Nov 14;108(9):1586-95. doi: 10.1017/S0007114511007148. Epub 2012 Jan 6.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Antihyperglycaemic activity of Asparagus racemosus roots is partly mediated by inhibition of carbohydrate digestion and absorption, and enhancement of cellular insulin action.",
+                  "details": "Br J Nutr. 2012 May;107(9):1316-23. doi: 10.1017/S0007114511004284. Epub 2011 Sep 8.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "The aqueous extract of Asparagus officinalis L. by-product exerts hypoglycaemic activity in streptozotocin-induced diabetic rats.",
+                  "details": "J Sci Food Agric. 2011 Aug 30;91(11):2095-9. doi: 10.1002/jsfa.4429. Epub 2011 May 12.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Bioactive constituents from triguero",
+                  "details": "Int J Mol Sci. 2013 Oct 24;14(11):21227-39. doi: 10.3390/ijms141121227.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Protective effects of Asparagus racemosus on oxidative damage in isoniazid-induced hepatotoxic rats: an in vivo study.",
+                  "details": "Toxicol Ind Health. 2012 Apr;28(3):238-44. doi: 10.1177/0748233711410911. Epub 2011 Jul 1.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "남해군 특용작물 열수 추출분말이 콜테스테롤 급이 흰쥐의 혈청 및 장기 중 지질성분에 미치는 영향",
+                  "details": "한국식품조리과학회지 = Korean Journal of Food & Cookery Science",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypocholesterolemic and hepatoprotective effects of triguero",
+                  "details": "Evid Based Complement Alternat Med. 2012;2012:814752. doi: 10.1155/2012/814752. Epub 2011 Nov 17.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "남해군 특용작물 열수 추출분말이 콜테스테롤 급이 흰쥐의 혈청 및 장기 중 지질성분에 미치는 영향",
+                  "details": "한국식품조리과학회지 = Korean Journal of Food & Cookery Science",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Green asparagus (Asparagus officinalis) prevented hypertension by an inhibitory effect on angiotensin-converting enzyme activity in the kidney of spontaneously hypertensive rats.",
+                "details": "J Agric Food Chem. 2013 Jun 12;61(23):5520-5. doi: 10.1021/jf3041066. Epub 2013 May 30.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Study of antiurolithiatic activity of Asparagus racemosus on albino rats.",
+                "details": "Indian J Pharmacol. 2012 Sep-Oct;44(5):576-9. doi: 10.4103/0253-7613.100378.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Asparagus racemosus attenuates anxiety-like behavior in experimental animal models.",
+                "details": "Cell Mol Neurobiol. 2014 May;34(4):511-21. doi: 10.1007/s10571-014-0035-z. Epub 2014 Feb 21.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of Asparagus racemosus on oxidative damage in isoniazid-induced hepatotoxic rats: an in vivo study.",
+                "details": "Toxicol Ind Health. 2012 Apr;28(3):238-44. doi: 10.1177/0748233711410911. Epub 2011 Jul 1.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-inflammatory activity of crude saponin extracts from five Nigerian medicinal plants.",
+                "details": "Afr J Tradit Complement Altern Med. 2012;9(2):250-5.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H043",
+            "fnclty_Nm": "성기능",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Improvement of penile erection, sperm count and seminal fructose levels in vivo and nitric oxide release in vitro by ayurvedic herbs.",
+                "details": "Andrologia. 2011 Aug;43(4):273-7. doi: 10.1111/j.1439-0272.2010.01068.x. Epub 2011 Mar 28.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "남해군 특용작물 열수 추출분말이 콜테스테롤 급이 흰쥐의 혈청 및 장기 중 지질성분에 미치는 영향",
+                "details": "한국식품조리과학회지 = Korean Journal of Food & Cookery Science",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

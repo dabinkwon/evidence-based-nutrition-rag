@@ -1,0 +1,109 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-048",
+    "sample_Nm": "느릅나무(유근피)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effects of Ulmus davidiana var. japonica against OVA-induced murine asthma model via upregulation of heme oxygenase-1.",
+                  "details": "J Ethnopharmacol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Glycoprotein isolated from Ulmus davidiana Nakai regulates expression of iNOS and COX-2 in vivo and in vitro.",
+                  "details": "Food Chem Toxicol.  2007",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Anti-inflammatory effect of Ulmus davidiana Planch (Ulmaceae) on collagen-induced inflammation in rats.",
+                  "details": "Environ Toxicol Pharmacol.  2007",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Suppressive effects of a water extract of Ulmus davidiana Planch (Ulmaceae) on collagen-induced arthritis in mice.",
+                  "details": "J Ethnopharmacol.  2005",
+                  "pblicte_Year": "2005"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Glycoprotein isolated from Ulmus davidiana NAKAI protects against carbon tetrachloride-induced liver injury in the mouse.",
+                  "details": "J Pharmacol Sci.  2006",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Protective effect of glycoprotein isolated from Ulmus davidiana Nakai on carbon tetrachloride-induced mouse liver injury.",
+                  "details": "J Pharm Pharmacol.  2006",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of herbal medicine on human uterine tumor-bearing nude mice.",
+                  "details": "J Intercult Ethnopharmacol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Inhibitory effect of phytoglycoprotein on tumor necrosis factor-alpha and interleukin-6 at initiation stage of colon cancer in 1,2-dimethylhydrazine-treated ICR mice.",
+                  "details": "Toxicol Appl Pharmacol.  2007",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "느릅나무 뿌리 에탄올 추출물이 고지방 식이를 섭취한 마우스의 지질대사에 미치는 영향",
+                "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H052",
+            "fnclty_Nm": "항감염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective constituents against sepsis in mice from the root barks of Ulmus davidiana var. japonica.",
+                "details": "Arch Pharm Res.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

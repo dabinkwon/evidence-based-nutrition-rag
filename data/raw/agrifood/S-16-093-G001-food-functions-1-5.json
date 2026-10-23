@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-093",
+    "sample_Nm": "말오줌나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H038",
+          "fnclty_Nm": "항암",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Lectin from Sambucus sieboldiana abrogates the anoikis resistance of colon cancer cells conferred by N-acetylglucosaminyltransferase V during hematogenous metastasis",
+              "details": "Oncotarget",
+              "pblicte_Year": "2017"
+            }
+          }
+        }
+      }
+    }
+  }
+}

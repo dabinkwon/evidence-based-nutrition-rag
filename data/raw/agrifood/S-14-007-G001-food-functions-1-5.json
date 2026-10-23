@@ -1,0 +1,348 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-007",
+    "sample_Nm": "도라지",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Platycodon grandiflorum root-derived saponins attenuate atopic dermatitis-like skin lesions via suppression of NF-觀B and STAT1 and activation of Nrf2/ARE-mediated heme oxygenase-1.",
+                  "details": "Phytomedicine.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Platycodon grandiflorus alleviates DNCB-induced atopy-like dermatitis in NC/Nga mice.",
+                  "details": "Indian J Pharmacol.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Improvement of atopic dermatitis-like skin lesions by Platycodon grandiflorum fermented by Lactobacillus plantarum in NC/Nga mice.",
+                  "details": "Biol Pharm Bull.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Platycodi Radix suppresses development of atopic dermatitis-like skin lesions.",
+                  "details": "Environ Toxicol Pharmacol.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Inhibitory effect of Platycodon grandiflorum on T(H)1 and T(H)2 immune responses in a murine model of 2,4-dinitrofluorobenzene-induced atopic dermatitis-like skin lesions.",
+                  "details": "Ann Allergy Asthma Immunol.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Long-Term Consumption of Platycodi Radix Ameliorates Obesity and Insulin Resistance via the Activation of AMPK Pathways.",
+                  "details": "Evid Based Complement Alternat Med.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Platycodon grandiflorum modifies adipokines and the glucose uptake in high-fat diet in mice and L6 muscle cells.",
+                  "details": "J Pharm Pharmacol.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Hypocholesterolemic and anti-obesity effects of saponins from Platycodon grandiflorum in hamsters fed atherogenic diets.",
+                  "details": "J Food Sci.  2008",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Platycodon grandiflorum extract represses up-regulated adipocyte fatty acid binding protein triggered by a high fat feeding in obese rats.",
+                  "details": "World J Gastroenterol.  2007",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Effect of dietary Platycodon grandiflorum on the improvement of insulin resistance in obese Zucker rats.",
+                  "details": "J Nutr Biochem.  2000",
+                  "pblicte_Year": "2000"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effect of the roots extract of Platycodon grandiflorum on bile duct ligation-induced hepatic fibrosis in rats.",
+                  "details": "Hum Exp Toxicol.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Protective effect of the aqueous extract from the root of Platycodon grandiflorum on cholestasis-induced hepatic injury in mice.",
+                  "details": "Pharm Biol.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Hepatoprotective and anti-hepatitis C viral activity of Platycodon grandiflorum extract on carbon tetrachloride-induced acute hepatic injury in mice.",
+                  "details": "J Nutr Sci Vitaminol (Tokyo).  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Protective effect of saponins derived from the roots of Platycodon grandiflorum against carbon tetrachloride induced hepatotoxicity in mice.",
+                  "details": "Food Chem Toxicol.  2008",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Hepatoprotective effects of Platycodon grandiflorum on acetaminophen-induced liver damage in mice.",
+                  "details": "Cancer Lett.  2001",
+                  "pblicte_Year": "2001"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Platycodin D isolated from the aerial parts of Platycodon grandiflorum protects alcohol-induced liver injury in mice.",
+                  "details": "Food Funct.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Protective effects of saponins from the root of Platycodon grandiflorum against fatty liver in chronic ethanol feeding via the activation of AMP-dependent protein kinase.",
+                  "details": "Food Chem Toxicol.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Saponins isolated from the root of Platycodon grandiflorum protect against acute ethanol-induced hepatotoxicity in mice.",
+                  "details": "Food Chem Toxicol.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Protective effects of Platycodi radix on alcohol-induced fatty liver.",
+                  "details": "Biosci Biotechnol Biochem.  2007",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Platycodi radix saponin inhibits 慣-glucosidase in vitro and modulates hepatic glucose-regulating enzyme activities in C57BL/KsJ-db/db mice.",
+                  "details": "Arch Pharm Res.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Long-term consumption of saponins derived from Platycodi radix (22 years old) enhances hepatic insulin sensitivity and glucose-stimulated insulin secretion in 90 % pancreatectomized diabetic rats fed a high-fat diet.",
+                  "details": "Br J Nutr.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "장생도라지 생리활성물질이 Streptozotocin으로 유발된 당뇨쥐에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2004"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Saponins from the roots of Platycodon grandiflorum ameliorate high fat diet-induced non-alcoholic steatohepatitis.",
+                  "details": "Biomed Pharmacother.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Preventative effects of Platycodon grandiflorum treatment on hepatic steatosis in high fat diet-fed C57BL/6 mice.",
+                  "details": "Biol Pharm Bull.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Saponins from the roots of Platycodon grandiflorum ameliorate high fat diet-induced non-alcoholic steatohepatitis.",
+                  "details": "Biomed Pharmacother.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Platycodi radix saponin inhibits 慣-glucosidase in vitro and modulates hepatic glucose-regulating enzyme activities in C57BL/KsJ-db/db mice.",
+                  "details": "Arch Pharm Res.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Long-term consumption of saponins derived from Platycodi radix (22 years old) enhances hepatic insulin sensitivity and glucose-stimulated insulin secretion in 90 % pancreatectomized diabetic rats fed a high-fat diet.",
+                  "details": "Br J Nutr.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "장생도라지 생리활성물질이 Streptozotocin으로 유발된 당뇨쥐에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2004"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Platycodi radix saponin inhibits 慣-glucosidase in vitro and modulates hepatic glucose-regulating enzyme activities in C57BL/KsJ-db/db mice.",
+                  "details": "Arch Pharm Res.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Long-term consumption of saponins derived from Platycodi radix (22 years old) enhances hepatic insulin sensitivity and glucose-stimulated insulin secretion in 90 % pancreatectomized diabetic rats fed a high-fat diet.",
+                  "details": "Br J Nutr.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H081",
+            "fnclty_Nm": "면역과민반응에 의한 피부상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Platycodin D를 포함하는 도라지 추출물이 IgE/Ag 유도 제 1형 과민반응에 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "도라지 추출물 연양갱이 β-amyloid에 의한 세포독성 및 Scopolamine에 의해 유도된 인지능 저하 동물 모델의 개선효과",
+                "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibitory effect of the saponins derived from roots of Platycodon grandiflorum on carrageenan-induced inflammation.",
+                "details": "Biosci Biotechnol Biochem.  2006",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Platycodon grandiflorum root attenuates vascular endothelial cell injury by oxidized low-density lipoprotein and prevents high-fat diet-induced dyslipidemia in mice by up-regulating antioxidant proteins.",
+                "details": "Nutr Res.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Platycodon grandiflorus Root Extract Attenuates Body Fat Mass, Hepatic Steatosis and Insulin Resistance through the Interplay between the Liver and Adipose Tissue.",
+                "details": "Nutrients.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "장생도라지 생리활성물질이 Streptozotocin으로 유발된 당뇨쥐에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibitory effect of Platycodi Radix on ovalbumin-induced airway inflammation in a murine model of asthma.",
+                "details": "Food Chem Toxicol.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "도라지 추출물의 안전성 및 항암 효과",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "난소 절제한 흰쥐에서 도라지 추출물이 골 대사에 미치는 영향",
+                "details": "동의생리병리학회지 = Journal of physiology & pathology in Korean Medicine",
+                "pblicte_Year": "2008"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

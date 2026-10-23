@@ -1,0 +1,152 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-039",
+    "sample_Nm": "토란",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of cocoyam (Colocasia esculenta), unripe plantain (Musa paradisiaca) or their combination on glycated hemoglobin, lipogenic enzymes, and lipid metabolism of streptozotocin-induced diabetic rats.",
+                  "details": "Pharm Biol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Ameliorative potentials of cocoyam (Colocasia esculenta L.) and unripe plantain (Musa paradisiaca L.) on the relative tissue weights of streptozotocin-induced diabetic rats.",
+                  "details": "J Diabetes Res.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "고지방 식이를 섭취한 마우스에서 토란분말의 비만억제 및 지질저하 효과",
+                  "details": "한국식품과학회지",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of cocoyam (Colocasia esculenta), unripe plantain (Musa paradisiaca) or their combination on glycated hemoglobin, lipogenic enzymes, and lipid metabolism of streptozotocin-induced diabetic rats.",
+                  "details": "Pharm Biol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Ameliorative potentials of cocoyam (Colocasia esculenta L.) and unripe plantain (Musa paradisiaca L.) on the relative tissue weights of streptozotocin-induced diabetic rats.",
+                  "details": "J Diabetes Res.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of hydroalcoholic extract of leaves of Colocasia esculenta on marble-burying behavior in mice: Implications for obsessive-compulsive disorder.",
+                  "details": "Pharm Biol.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effect of replacing soybean protein by taro leaf (Colocasia esculenta (L.) Schott) protein on growth performance of exotic (Landrace 횞 Yorkshire) and native (Moo Lath) Lao pigs.",
+                  "details": "Trop Anim Health Prod.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Neuropharmacological activity of hydroalcoholic extract of leaves of Colocasia esculenta.",
+                "details": "Pharm Biol.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고지방 식이를 섭취한 마우스에서 토란분말의 비만억제 및 지질저하 효과",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고지방 식이를 섭취한 마우스에서 토란분말의 비만억제 및 지질저하 효과",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Purification and characterization of the lectin from taro (Colocasia esculenta) and its effect on mouse splenocyte proliferation in vitro and in vivo.",
+                "details": "Protein J.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antihypertensive and Diuretic Effects of the Aqueous Extract of Colocasia esculenta Linn. Leaves in Experimental Paradigms.",
+                "details": "Iran J Pharm Res.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고지방 식이를 섭취한 마우스에서 토란분말의 비만억제 및 지질저하 효과",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "2010"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

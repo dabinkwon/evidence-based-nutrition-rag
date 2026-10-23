@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-005",
+    "sample_Nm": "유자",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H066",
+          "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Citrus junos Fractions Decrease Alcohol-induced Liver Damage and Influence Lipid Metabolism in Alcohol-fed Rats",
+              "details": "환경생물 = Korean journal of environmental biology",
+              "pblicte_Year": "2004"
+            }
+          }
+        }
+      }
+    }
+  }
+}

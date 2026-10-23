@@ -1,0 +1,90 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-18-077",
+    "sample_Nm": "엉겅퀴(대계초)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "엉겅퀴 섭취가 Streptozotocin 유발 당뇨 흰쥐의 혈당과 지질수준에 미치는 영향",
+                "details": "한국식품과학회지 = Korean journal of food science and technology",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "엉겅퀴 섭취가 Streptozotocin 유발 당뇨 흰쥐의 혈당과 지질수준에 미치는 영향",
+                "details": "한국식품과학회지 = Korean journal of food science and technology",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "난소절제 흰쥐에서 엉겅퀴 추출물의 골다공증 보호 효과",
+                "details": "韓國藥用作物學會誌 = Korean journal of medicinal crop science",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "엉겅퀴(Cirsium japonicum var. ussuriense)추출물 및 분획물의 항위염 및 항위궤양 효과에 대한 연구",
+                "details": "약학회지 = Yakhak hoeji",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "엉겅퀴 섭취가 Streptozotocin 유발 당뇨 흰쥐의 혈당과 지질수준에 미치는 영향",
+                "details": "한국식품과학회지 = Korean journal of food science and technology",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H074",
+            "fnclty_Nm": "갱년기 남성의 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "엉겅퀴 발효 추출물을 통한 남성 갱년기 증상 개선 효과",
+                "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+                "pblicte_Year": "2017"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

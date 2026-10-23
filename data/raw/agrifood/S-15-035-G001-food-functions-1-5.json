@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-035",
+    "sample_Nm": "칡",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-Hyperglycemic Effect of a Kudzu (Pueraria lobata) Vine Extract in Ovariectomized Mice.",
+                "details": "J Nutr Sci Vitaminol (Tokyo).  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective activity of kudzu (Pueraria thunbergiana) vine on chemically-induced hepatotoxicity: in vitro and in vivo studies.",
+                "details": "BMC Complement Altern Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-Hyperglycemic Effect of a Kudzu (Pueraria lobata) Vine Extract in Ovariectomized Mice.",
+                "details": "J Nutr Sci Vitaminol (Tokyo).  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

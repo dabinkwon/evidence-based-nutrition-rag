@@ -1,0 +1,85 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-041",
+    "sample_Nm": "쌀(흑미)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "난소절제 흰쥐에서 흑미 호분층 추출물의 체지방 감소 효과",
+                  "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "흑미 호분층 추출물의 급여가 난소절제 흰쥐의 체내 지방, 혈중 지질 및 관련 호르몬 수준에 미치는 영향",
+                  "details": "한국콘텐츠학회논문지 = The Journal of the Korea Contents Association",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "흑미 호분층 추출물의 급여가 난소절제 흰쥐의 체내 지방, 혈중 지질 및 관련 호르몬 수준에 미치는 영향",
+                "details": "한국콘텐츠학회논문지 = The Journal of the Korea Contents Association",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "흑미(Oryza sativa L.) 호분층 추출물이 난소절제 흰쥐의 골밀도 및 골대사 지표에 미치는 영향",
+                "details": "생약학회지",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Inhibitory effect of DA-9201, an extract of Oryza sativa L., on airway inflammation and bronchial hyperresponsiveness in mouse asthma model.",
+                "details": "Biol Pharm Bull. 2006 Jun;29(6):1148-53.",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Black rice (Oryza sativa L.) extract attenuates hepatic steatosis in C57BL/6 J mice fed a high-fat diet via fatty acid oxidation",
+                "details": "Nutrition & Metabolism 2012, 9:27",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

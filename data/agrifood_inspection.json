@@ -1,0 +1,2352 @@
+{
+  "source_url": "https://www.data.go.kr/data/15143614/openapi.do",
+  "responses": [
+    {
+      "file": "data/raw/agrifood/S-14-001-G001-food-functions-1-5.json",
+      "sample_id": "S-14-001",
+      "sample_name": "대추",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "9d9926a946a03fa2c16085df62ed76df595b7b90d6ac93e5efb563679461d04e"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-001-G003-food-functions-1-5.json",
+      "sample_id": "S-14-001",
+      "sample_name": "대추",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 32,
+      "unique_bibliography_count": 12,
+      "payload_sha256": "592815019e2d324440bcb5c8ddbfae8a0fff654b3730b4d5330413b8d8689c76"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-002-G001-food-functions-1-5.json",
+      "sample_id": "S-14-002",
+      "sample_name": "모과나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "633ebaed81e27c968f0c3401bbd051fad24364ec081b682f5949568ba2eb1640"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-004-G001-food-functions-1-5.json",
+      "sample_id": "S-14-004",
+      "sample_name": "호박",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 18,
+      "unique_bibliography_count": 16,
+      "payload_sha256": "f25cabc2cf3f3cf36e1e0f9b7647d9f2f116c0073a4326a7010faf6871f7df63"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-004-G003-food-functions-1-5.json",
+      "sample_id": "S-14-004",
+      "sample_name": "호박",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "f37aa6d24ac1e4d09de1dd671fd3011ba484a4a6603cc861f26a3008a9e1d6d1"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-005-G001-food-functions-1-5.json",
+      "sample_id": "S-14-005",
+      "sample_name": "당근",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 11,
+      "unique_bibliography_count": 10,
+      "payload_sha256": "f45d659c12b7449133f66284c0130ce9079d075d03cd6d0498cc0a80e80ec4e5"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-005-G003-food-functions-1-5.json",
+      "sample_id": "S-14-005",
+      "sample_name": "당근",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "2a037bfc9fe2c0dcc356f9ceee8d41860c83b27efe2cfd3c1853c7b3527086be"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-006-G001-food-functions-1-5.json",
+      "sample_id": "S-14-006",
+      "sample_name": "파",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "a99f126325f905cae4400f12ff8766bb94d7d2a92bb7d59543e98071be44e411"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-007-G001-food-functions-1-5.json",
+      "sample_id": "S-14-007",
+      "sample_name": "도라지",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 39,
+      "unique_bibliography_count": 32,
+      "payload_sha256": "eba3031902fbb29cdfb13d103b1409dbba3f0741548075de8096930e53e80227"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-008-G001-food-functions-1-5.json",
+      "sample_id": "S-14-008",
+      "sample_name": "마늘",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 46,
+      "unique_bibliography_count": 43,
+      "payload_sha256": "f7415d583803c4505feadfffab76958b7d8a8d1a308ae25a9950de65c960db6c"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-008-G003-food-functions-1-5.json",
+      "sample_id": "S-14-008",
+      "sample_name": "마늘",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "8387a12ae15f0bcd0453cd6978e8b9938fd01ef04e9569811fe8514eb2dc5902"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-009-G001-food-functions-1-5.json",
+      "sample_id": "S-14-009",
+      "sample_name": "배나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "151aab0a2fb9254bdbd25b40d3130f274c1a1d0bee35a5ab4b18e90ba6f85199"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-009-G003-food-functions-1-5.json",
+      "sample_id": "S-14-009",
+      "sample_name": "배나무",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 14,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "1ecc601093840f4b37d8ecec5adaf5a3ac24702011b1c2352d2fe668c02457f2"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-010-G001-food-functions-1-5.json",
+      "sample_id": "S-14-010",
+      "sample_name": "배암차즈기",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 22,
+      "unique_bibliography_count": 21,
+      "payload_sha256": "05d300bbdbf119085f882af9f520d78345e9e42e562a23d2fff22c6bc2d5bd4d"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-012-G001-food-functions-1-5.json",
+      "sample_id": "S-14-012",
+      "sample_name": "배추",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "457c11f743cc2aad3ae46bd910f3625d598301af2e89df4c4f7d813c50f37383"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-013-G001-food-functions-1-5.json",
+      "sample_id": "S-14-013",
+      "sample_name": "번행초",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 7,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "6a889a5d1428e91704cbc62bbdc5c441d0814a00d2a0a4d8c6f6bc994030f094"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-014-G001-food-functions-1-5.json",
+      "sample_id": "S-14-014",
+      "sample_name": "생강",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 101,
+      "unique_bibliography_count": 96,
+      "payload_sha256": "c3cf7aed5d8b500f1050ced687601f7694e21efa8153dc1dbaf30f71d4a149e5"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-014-G003-food-functions-1-5.json",
+      "sample_id": "S-14-014",
+      "sample_name": "생강",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 72,
+      "unique_bibliography_count": 64,
+      "payload_sha256": "8e221ec751a0f6b199bb63601e53ab6497ed23d6e80839cb04845b1f333daf6d"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-015-G001-food-functions-1-5.json",
+      "sample_id": "S-14-015",
+      "sample_name": "갯개미자리(세발나물)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "c39c8ec464ce5a775b69294b143b1382c7034ed8e4bdf7d81040fa2431c47417"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-016-G001-food-functions-1-5.json",
+      "sample_id": "S-14-016",
+      "sample_name": "양파",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 30,
+      "unique_bibliography_count": 25,
+      "payload_sha256": "424b42f633df54e97e4a3a457c6165134b1a7e64c920d0b1967fec3e4330bf9f"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-016-G003-food-functions-1-5.json",
+      "sample_id": "S-14-016",
+      "sample_name": "양파",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 9,
+      "unique_bibliography_count": 7,
+      "payload_sha256": "3c810b9d4844d1a3a31b63a114f8ebb209f20a308c74206c6758536bd816a690"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-017-G001-food-functions-1-5.json",
+      "sample_id": "S-14-017",
+      "sample_name": "사삼",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 8,
+      "unique_bibliography_count": 8,
+      "payload_sha256": "829c499750916d17f02e673beff6f8c2b73500cef569e6c4d29e8a19ab91e248"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-020-G001-food-functions-1-5.json",
+      "sample_id": "S-14-020",
+      "sample_name": "짚신나물",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 15,
+      "unique_bibliography_count": 12,
+      "payload_sha256": "95e787b6971e075755287c0a609fca537b51084b04cf78297a52109f4a6dc18b"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-021-G001-food-functions-1-5.json",
+      "sample_id": "S-14-021",
+      "sample_name": "퉁퉁마디",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "33b0d0e38095e0af6bc50aae96e44c54b70e43231d20d81701efe56a89e1ece8"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-022-G001-food-functions-1-5.json",
+      "sample_id": "S-14-022",
+      "sample_name": "고추",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 42,
+      "unique_bibliography_count": 36,
+      "payload_sha256": "d58bc1905b94896449517c672c910377ec305b0a71a243d8427b5e8425b7f149"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-022-G003-food-functions-1-5.json",
+      "sample_id": "S-14-022",
+      "sample_name": "고추",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 33,
+      "unique_bibliography_count": 20,
+      "payload_sha256": "27499c67f45838a7331286587393fab822c12e411c1b58a5f1645e1656e5db43"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-023-G001-food-functions-1-5.json",
+      "sample_id": "S-14-023",
+      "sample_name": "해홍나물",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "7fa7207cda4a687fe2857658d2b5e2ed511cdad421c6e3e93a0f50a5f35443f8"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-025-G001-food-functions-1-5.json",
+      "sample_id": "S-14-025",
+      "sample_name": "돌나물",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 15,
+      "unique_bibliography_count": 13,
+      "payload_sha256": "d612166bd29802a46c1657452a34b4b74ef4d95a7176d52f793f3f4831930e74"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-030-G001-food-functions-1-5.json",
+      "sample_id": "S-14-030",
+      "sample_name": "알리움 후커리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 20,
+      "unique_bibliography_count": 14,
+      "payload_sha256": "4a72d21b65cd0e389bed1372ea254d5350a250f4356ce5190312476fa2beeba6"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-030-G003-food-functions-1-5.json",
+      "sample_id": "S-14-030",
+      "sample_name": "알리움 후커리",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "14a776021fef4436fe3978ab2ff066be4df6e07d5476b94294ede21daa3bedfe"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-032-G001-food-functions-1-5.json",
+      "sample_id": "S-14-032",
+      "sample_name": "갯기름나물",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 9,
+      "unique_bibliography_count": 6,
+      "payload_sha256": "d8d43b24ca1813ee9c61476d0d05287594345f16ac7fcf4b600fec1575084caa"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-033-G001-food-functions-1-5.json",
+      "sample_id": "S-14-033",
+      "sample_name": "보리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 10,
+      "unique_bibliography_count": 9,
+      "payload_sha256": "6ee07ae25c2bbdf9040962ffe55cfbc315fda9d57658039945b8f782854f2732"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-033-G003-food-functions-1-5.json",
+      "sample_id": "S-14-033",
+      "sample_name": "보리",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "c6eda10ef64510b55079cf4750e430c38da33866364da6b258a99d84ab3cafd6"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-036-G001-food-functions-1-5.json",
+      "sample_id": "S-14-036",
+      "sample_name": "토마토",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 25,
+      "unique_bibliography_count": 25,
+      "payload_sha256": "4613f2f08b5b65383450ba7c4611f2788b9c4118e9cba30ac7038b939006aafe"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-036-G003-food-functions-1-5.json",
+      "sample_id": "S-14-036",
+      "sample_name": "토마토",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 19,
+      "unique_bibliography_count": 19,
+      "payload_sha256": "aaa049fa9cca089d7ce15ca4b21ec76c864366de12bfb2c18d247c5fbe305916"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-037-G001-food-functions-1-5.json",
+      "sample_id": "S-14-037",
+      "sample_name": "쌀",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 9,
+      "unique_bibliography_count": 8,
+      "payload_sha256": "76b3ff287f07f4aa9860f1398409a698a329893e826060987616acdc819aff5c"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-039-G001-food-functions-1-5.json",
+      "sample_id": "S-14-039",
+      "sample_name": "오이",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 7,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "0bdf9abd4e7e336a58aadc2060fb5b55d50772538a197521481734d1921d0423"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-040-G001-food-functions-1-5.json",
+      "sample_id": "S-14-040",
+      "sample_name": "호박(애호박)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "1f10f8e9cf5fec2bbba147c1a9592c4f7b1dd96dbefef2810e727db462e22db1"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-040-G003-food-functions-1-5.json",
+      "sample_id": "S-14-040",
+      "sample_name": "호박(애호박)",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "6c46e80b121e01b559d2e47dded1e542a055555e8bf2b21203de4702cc83f73d"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-041-G001-food-functions-1-5.json",
+      "sample_id": "S-14-041",
+      "sample_name": "쌀(흑미)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "29bf7181850670f0f933847b42e218a08fd8f35b1253998bb76fdaf6faabd67c"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-042-G001-food-functions-1-5.json",
+      "sample_id": "S-14-042",
+      "sample_name": "감자",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "38b2e61a6de881b2191f859e70626ca252861ccd096520b718f3629eb5812fab"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-044-G001-food-functions-1-5.json",
+      "sample_id": "S-14-044",
+      "sample_name": "사과",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 34,
+      "unique_bibliography_count": 34,
+      "payload_sha256": "b30c77d34b1f4c8aa769c126f5ef080bbab2e4d2f6270ccce20d662acbc505d8"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-044-G003-food-functions-1-5.json",
+      "sample_id": "S-14-044",
+      "sample_name": "사과",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 16,
+      "unique_bibliography_count": 14,
+      "payload_sha256": "7326b84dc0ab05c36825f277a02af47021d8a9472d7b6b116df8c6fbd129acfa"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-047-G001-food-functions-1-5.json",
+      "sample_id": "S-14-047",
+      "sample_name": "양배추",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 16,
+      "unique_bibliography_count": 14,
+      "payload_sha256": "a239a7201d155788ae688655c52ccfff781b1ec14185042f8347139720f640d3"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-048-G001-food-functions-1-5.json",
+      "sample_id": "S-14-048",
+      "sample_name": "시금치",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 19,
+      "unique_bibliography_count": 11,
+      "payload_sha256": "1d695669ea82520ec252f9b7e26867110b3af9a2d142054ba308b8c908ecc1e5"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-048-G003-food-functions-1-5.json",
+      "sample_id": "S-14-048",
+      "sample_name": "시금치",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 25,
+      "unique_bibliography_count": 15,
+      "payload_sha256": "e0bb872e2d40ffeaa47c6bb12b76e952d040b52d9439bbb06514249bc39789cd"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-049-G001-food-functions-1-5.json",
+      "sample_id": "S-14-049",
+      "sample_name": "검정콩",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 43,
+      "unique_bibliography_count": 35,
+      "payload_sha256": "2d2bc3edd39f93b6364b581ee12f24ad9c233840b8d64743a2d9906996f91862"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-049-G003-food-functions-1-5.json",
+      "sample_id": "S-14-049",
+      "sample_name": "검정콩",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "180c55eb8bab183ff72015a7d8f803c0a8c149259d8d0d5cc2220ef903081ee9"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-050-G001-food-functions-1-5.json",
+      "sample_id": "S-14-050",
+      "sample_name": "피망",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "44ab16b3605a3bb4509667f0365876332025a0e7689f3595ca0467555e7fd139"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-052-G001-food-functions-1-5.json",
+      "sample_id": "S-14-052",
+      "sample_name": "부추",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 7,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "ad2d9f3f2758c4cedd884162ea42444e48e5625e7cd7b649a586c09b8bf20884"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-052-G003-food-functions-1-5.json",
+      "sample_id": "S-14-052",
+      "sample_name": "부추",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "64da214da98bf15a1ef70eb587a738e5febb40cc33538562d4a9a6dad2adbd75"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-053-G001-food-functions-1-5.json",
+      "sample_id": "S-14-053",
+      "sample_name": "귤",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "e8202a46234957b75fa3da124e9f379f33e218a99fa7fe99dfa75d67e07aa2e7"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-054-G001-food-functions-1-5.json",
+      "sample_id": "S-14-054",
+      "sample_name": "고구마",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 23,
+      "unique_bibliography_count": 12,
+      "payload_sha256": "bb5b98d864b9289442fb463d02d22cbc7aa08422455c391683989f9063824fe8"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-055-G001-food-functions-1-5.json",
+      "sample_id": "S-14-055",
+      "sample_name": "쑥갓",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "3971097323ff39e810a6ab2dfdc42b1a9a954679cb1e5b6b4acde7b7f5bd1974"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-056-G001-food-functions-1-5.json",
+      "sample_id": "S-14-056",
+      "sample_name": "수박",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 12,
+      "unique_bibliography_count": 8,
+      "payload_sha256": "05751e887767bd327c4e6127e9a5c35ddd02cd41d3e83c77bed024635576d863"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-056-G003-food-functions-1-5.json",
+      "sample_id": "S-14-056",
+      "sample_name": "수박",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "60c32f02b22ff8d1faff6caff2477d3cea90099abe3f73b408456819cb0a5966"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-058-G003-food-functions-1-5.json",
+      "sample_id": "S-14-058",
+      "sample_name": "우엉",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "721128ef570ddb808b7e2fc4c186d4606e9c10d08f2055c8e6b3745589cc2979"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-061-G001-food-functions-1-5.json",
+      "sample_id": "S-14-061",
+      "sample_name": "수수",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "9035fc58dc7d4f1bac6d58531e28ed82dea15f1aaeb969ea150e5d697d77b66f"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-062-G001-food-functions-1-5.json",
+      "sample_id": "S-14-062",
+      "sample_name": "고사리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "9ae620acf4bef9e830617dc960498c5784dcd604fad4006aca42e1dd8b3a4ba5"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-063-G001-food-functions-1-5.json",
+      "sample_id": "S-14-063",
+      "sample_name": "포도",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 12,
+      "unique_bibliography_count": 8,
+      "payload_sha256": "daa7345c79821039fa02cdd83af7b516a9b99be1f6a188d69c394072a9a1a64d"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-063-G003-food-functions-1-5.json",
+      "sample_id": "S-14-063",
+      "sample_name": "포도",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "bf6f068c8814d2383f77e93462c3706b0d413e69e359db9c36f8cb25cc683be4"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-064-G001-food-functions-1-5.json",
+      "sample_id": "S-14-064",
+      "sample_name": "한라봉",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "3c13bec3621cd17e8868ccaf04967e41024c0fb8f5c4b83cbaeaf77abceebc15"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-065-G001-food-functions-1-5.json",
+      "sample_id": "S-14-065",
+      "sample_name": "셀러리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 28,
+      "unique_bibliography_count": 26,
+      "payload_sha256": "cb06aa8c90a0ef82f32b3dd90c62c95b3e9bca77eee333d6a9909dbd56381a56"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-066-G001-food-functions-1-5.json",
+      "sample_id": "S-14-066",
+      "sample_name": "신선초(명일엽)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "c7344a60163af47442e69b7f34f1e113aa907e4b2273ec02c4c50bc9bd6dde5e"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-067-G001-food-functions-1-5.json",
+      "sample_id": "S-14-067",
+      "sample_name": "아욱",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "8447542651dbd03adbed5deac7a83c147220cd20e66fb748c45deef3c5c76a9f"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-068-G001-food-functions-1-5.json",
+      "sample_id": "S-14-068",
+      "sample_name": "딸기",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "b8e3ef7290b9233cdfac37c8b3c92ea53da48f593936cfed5d90811942117766"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-071-G001-food-functions-1-5.json",
+      "sample_id": "S-14-071",
+      "sample_name": "쑥",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "f26ffafb7c4e76dc0a5f03c80f7a6332a640c3e03d902466ce9999171241da49"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-072-G001-food-functions-1-5.json",
+      "sample_id": "S-14-072",
+      "sample_name": "두릅",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 7,
+      "unique_bibliography_count": 6,
+      "payload_sha256": "421309151c32b850c0ced6b75754f0fab529efc98905a16bea3b6f3bb3582f21"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-073-G001-food-functions-1-5.json",
+      "sample_id": "S-14-073",
+      "sample_name": "여주",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 46,
+      "unique_bibliography_count": 33,
+      "payload_sha256": "2a879ea620e5952356e0e482a7ec5a6c093ef39776728c61bc225986ae797752"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-073-G003-food-functions-1-5.json",
+      "sample_id": "S-14-073",
+      "sample_name": "여주",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "9c7041e2eb4e9bbea1beee1142e71a2869ead1f70749be06849ebbb31c8b444a"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-074-G001-food-functions-1-5.json",
+      "sample_id": "S-14-074",
+      "sample_name": "가지",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 21,
+      "unique_bibliography_count": 10,
+      "payload_sha256": "0ffbfeddfbd4aed5ae39abcc33accb899cfd8b7626ba348fc0719007d94c7822"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-074-G001-food-ingredients-1-5.json",
+      "sample_id": "S-14-074",
+      "sample_name": "가지",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 34,
+      "unique_bibliography_count": 23,
+      "payload_sha256": "6025eed0fdbfdba0639938afc3b4925920aa4b013a6e34b39ea1a74e7545572b"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-074-G003-food-functions-1-5.json",
+      "sample_id": "S-14-074",
+      "sample_name": "가지",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "f0865205150785a4111313342e378c9a7a978ff7bc93f3763ae9471cf7d02637"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-075-G001-food-functions-1-5.json",
+      "sample_id": "S-14-075",
+      "sample_name": "연",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 9,
+      "unique_bibliography_count": 9,
+      "payload_sha256": "91ffdec908f55644c11df418574e0f9a11b3a9f038d06cf29fc747034e69b148"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-075-G003-food-functions-1-5.json",
+      "sample_id": "S-14-075",
+      "sample_name": "연",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "b4f305a3b846b6f5876bec896563c4b60544e835d81e0302a497c793c7d433b7"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-081-G001-food-functions-1-5.json",
+      "sample_id": "S-14-081",
+      "sample_name": "여두(검정소립콩)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "5495163a7b9ba1ae9c08eee3a48f2d391ace86d25501fcdfb6c7997c4bcf231f"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-084-G001-food-functions-1-5.json",
+      "sample_id": "S-14-084",
+      "sample_name": "아스파라거스",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 26,
+      "unique_bibliography_count": 19,
+      "payload_sha256": "dfc51ea41bbf708d21b44b7fdb884fd78f5749f6782d37cf1b9db7fadad28eea"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-084-G003-food-functions-1-5.json",
+      "sample_id": "S-14-084",
+      "sample_name": "아스파라거스",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "45b515b0366af2ed4095c2ab0902bdec7f57672b6e06bb5132da8c271c8a18f1"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-085-G001-food-functions-1-5.json",
+      "sample_id": "S-14-085",
+      "sample_name": "구기자나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "1c0f9afc8059420176285423c074b3b48dbe19bea72ab226927d3889d5d6c009"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-085-G003-food-functions-1-5.json",
+      "sample_id": "S-14-085",
+      "sample_name": "구기자나무",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 27,
+      "unique_bibliography_count": 15,
+      "payload_sha256": "9c734c3c33c1646e86e20fdd0f6abd0f2b5f58e543c3f6d81b795175fb831aa1"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-091-G001-food-functions-1-5.json",
+      "sample_id": "S-14-091",
+      "sample_name": "머위",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "fa86932411bb88d94e0b00af74bab35455e3bd0ed63ae71c8a50ae633316ed16"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-092-G001-food-functions-1-5.json",
+      "sample_id": "S-14-092",
+      "sample_name": "어수리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "b89e86566cf7d632d277eeb859385e398899316ab8cb47bd67780e453f3b441c"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-093-G001-food-functions-1-5.json",
+      "sample_id": "S-14-093",
+      "sample_name": "갯방풍",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "122cbe57304f4d35b2730f1d23701f54e8886a9711b17895c7d80fd2bcf71867"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-094-G001-food-functions-1-5.json",
+      "sample_id": "S-14-094",
+      "sample_name": "음나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "8b28fac5b52ad78144c3c1d58e39a007c1fd2a96a833dcfd9a214bc4f01d1d58"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-095-G001-food-functions-1-5.json",
+      "sample_id": "S-14-095",
+      "sample_name": "산마늘",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "2231f358435d36893820b9020adbfb47be2a4b227db0d40d65ddef2f8e206f19"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-096-G001-food-functions-1-5.json",
+      "sample_id": "S-14-096",
+      "sample_name": "눈개승마",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "95950572402369cdb5fde0c89d917390a4d00fdc154ffdbf52be32be7d400f3b"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-098-G001-food-functions-1-5.json",
+      "sample_id": "S-14-098",
+      "sample_name": "무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 14,
+      "unique_bibliography_count": 11,
+      "payload_sha256": "ca34d614fe8353d6e6fd69f2e8d663ca595c3dfcccd089fcbb439ef16528910e"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-102-G001-food-functions-1-5.json",
+      "sample_id": "S-14-102",
+      "sample_name": "고추냉이",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "7e939d07eca1496be13ced9833f3843c964304c9332025a79b4e9b6c0b9ab19d"
+    },
+    {
+      "file": "data/raw/agrifood/S-14-104-G001-food-functions-1-5.json",
+      "sample_id": "S-14-104",
+      "sample_name": "공심채",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "33942cea91d338d04abc5375882916d19a478ef3963852980e48c59a0d37b915"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-001-G001-food-functions-1-5.json",
+      "sample_id": "S-15-001",
+      "sample_name": "구절초",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "3426070f25f21f18e3c883c86b5de8ee018bd30fe7e477bb48e4c8ce737e3d16"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-002-G001-food-functions-1-5.json",
+      "sample_id": "S-15-002",
+      "sample_name": "머루",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 7,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "c32a19c99f978c3bc3c133abcae252a84ca00fefdb5989001266b1603a905311"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-003-G001-food-functions-1-5.json",
+      "sample_id": "S-15-003",
+      "sample_name": "삼붕냐와(명월초)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 12,
+      "unique_bibliography_count": 7,
+      "payload_sha256": "4795945b8a0a83faa6983ba7aae91da5ae98529c756d7bece5dec301b716467a"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-004-G001-food-functions-1-5.json",
+      "sample_id": "S-15-004",
+      "sample_name": "쇠비름",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 29,
+      "unique_bibliography_count": 22,
+      "payload_sha256": "bea255c6970ab3368690a24586f6a4698114f3c36987f3bb8d6d7c924886739f"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-004-G003-food-functions-1-5.json",
+      "sample_id": "S-15-004",
+      "sample_name": "쇠비름",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "6e7c5269b3007387d02b9cd8649b1d2d4a9dcb8012b7a36229cf954be5501f86"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-005-G001-food-functions-1-5.json",
+      "sample_id": "S-15-005",
+      "sample_name": "유자",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "55cc635b7bb5113f4e019a0d54a3eb09cd818199f4f8038baf09824aa8f5c684"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-005-G003-food-functions-1-5.json",
+      "sample_id": "S-15-005",
+      "sample_name": "유자",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "2c1c23619c83c7f031cb7f8c4db1daf0c612b7f505ce72564499e4d3237a34f8"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-008-G001-food-functions-1-5.json",
+      "sample_id": "S-15-008",
+      "sample_name": "파드득나물",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "592186f3e6a4c72caa53ae0e05951ad229e7aeff8b70aa86a8bc58420fa531d8"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-009-G001-food-functions-1-5.json",
+      "sample_id": "S-15-009",
+      "sample_name": "팽이버섯",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "2a03e96dab737bf20fbd4653c7bb015a44046a2a84857308217de128b2c7a571"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-010-G001-food-functions-1-5.json",
+      "sample_id": "S-15-010",
+      "sample_name": "흰목이버섯",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "2d96674f6bcabae61159b5f36f80afc3b2eb80e23acbbcb035defc03122baf04"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-011-G001-food-functions-1-5.json",
+      "sample_id": "S-15-011",
+      "sample_name": "곤달비",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "5455165f71ea5ebbf0b898993028d2233d159c78698034ee716811684dd11062"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-012-G001-food-functions-1-5.json",
+      "sample_id": "S-15-012",
+      "sample_name": "뚱딴지(돼지감자)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "cc221b9c56576439e0f0a9eb8a7849c18d6a6607028a4c2bad08eca6157e71cc"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-013-G001-food-functions-1-5.json",
+      "sample_id": "S-15-013",
+      "sample_name": "참취(취나물)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "8b38ed6a40c6c647a5c68ef90870223d091d632408e9c44d11a39ffa00d0f256"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-014-G001-food-functions-1-5.json",
+      "sample_id": "S-15-014",
+      "sample_name": "미나리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 18,
+      "unique_bibliography_count": 15,
+      "payload_sha256": "e8e503503a1a4caa31c4c650e593531a05ba934899e0989a18cbb6457a8845fc"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-015-G001-food-functions-1-5.json",
+      "sample_id": "S-15-015",
+      "sample_name": "참당귀(당귀)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 18,
+      "unique_bibliography_count": 13,
+      "payload_sha256": "44bae86d5ff669f7fb4b5b9fbc3c421815f7073a7ceafc4753eed9b3b88b8b19"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-016-G001-food-functions-1-5.json",
+      "sample_id": "S-15-016",
+      "sample_name": "브로콜리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 26,
+      "unique_bibliography_count": 21,
+      "payload_sha256": "b0e5419f482f48cc66253c22b42dfd289aae98ae483dd7bf4fcc04751e712a7b"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-016-G003-food-functions-1-5.json",
+      "sample_id": "S-15-016",
+      "sample_name": "브로콜리",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 16,
+      "unique_bibliography_count": 16,
+      "payload_sha256": "fa8b593841454ac9605af540693041bd89c0108064921551250f6a10b46aa9b1"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-017-G001-food-functions-1-5.json",
+      "sample_id": "S-15-017",
+      "sample_name": "곰취",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 12,
+      "unique_bibliography_count": 12,
+      "payload_sha256": "21dd0c5be49ee649f55b2abb35aa7d53a12a47a238c3555e9f1b2e236650e58b"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-019-G001-food-functions-1-5.json",
+      "sample_id": "S-15-019",
+      "sample_name": "들깨",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 34,
+      "unique_bibliography_count": 31,
+      "payload_sha256": "bc84548ee5b6872460bc6b46f26c851e65ba5f373ae7d7c424c496682302774b"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-019-G003-food-functions-1-5.json",
+      "sample_id": "S-15-019",
+      "sample_name": "들깨",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "9c92f650b1fe9a27c01bb728126652b821beeb75a7b5853f6d18c91e6f58962c"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-020-G001-food-functions-1-5.json",
+      "sample_id": "S-15-020",
+      "sample_name": "꾸지뽕나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 18,
+      "unique_bibliography_count": 10,
+      "payload_sha256": "982dcb0693a79d90be4ea1abe0dd7ae53a36fa9db2314e783447a75d601f2617"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-020-G003-food-functions-1-5.json",
+      "sample_id": "S-15-020",
+      "sample_name": "꾸지뽕나무",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "1fc428ee2efc8b5b1722b7d5bdc19bafd4a231e2551bc1022399c5a3f5826525"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-022-G001-food-functions-1-5.json",
+      "sample_id": "S-15-022",
+      "sample_name": "마",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 17,
+      "unique_bibliography_count": 13,
+      "payload_sha256": "79131ca674fd20fda612796c87249d1562d56699fe71de016a16aeb7887db8b5"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-023-G001-food-functions-1-5.json",
+      "sample_id": "S-15-023",
+      "sample_name": "보검선인장",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 23,
+      "unique_bibliography_count": 20,
+      "payload_sha256": "1941db4430f2cd8dcf2651f6f5859aef8127daa9207049d4ff0d9d88f41405cc"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-023-G003-food-functions-1-5.json",
+      "sample_id": "S-15-023",
+      "sample_name": "보검선인장",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "47f83ef36710b8f19a9dc59bee62beb0d9d9a404d2027fed8c211edd40c7e949"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-024-G001-food-functions-1-5.json",
+      "sample_id": "S-15-024",
+      "sample_name": "비트(비트루트)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 14,
+      "unique_bibliography_count": 13,
+      "payload_sha256": "8a9b3b7beeeb717b5640105a04508b03f5b5c971ec0e5b8b5d13a2f0efe977e3"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-024-G003-food-functions-1-5.json",
+      "sample_id": "S-15-024",
+      "sample_name": "비트(비트루트)",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 24,
+      "unique_bibliography_count": 24,
+      "payload_sha256": "51c2b6e528741b537dc7be0cb3efac3af7e7c150f7be85e0ecda53ff13b04b65"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-025-G001-food-functions-1-5.json",
+      "sample_id": "S-15-025",
+      "sample_name": "옥수수",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "044c63eacec7828cd96009f498bb11bf95e1c16b4d0a39da17f06ab43add18cf"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-026-G001-food-functions-1-5.json",
+      "sample_id": "S-15-026",
+      "sample_name": "야콘",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 15,
+      "unique_bibliography_count": 11,
+      "payload_sha256": "132aa6971804864cb48862f17291c77e2d56133eb68a7669e1ee62e769f3d1be"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-026-G003-food-functions-1-5.json",
+      "sample_id": "S-15-026",
+      "sample_name": "야콘",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 9,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "753aa435eb3bea339a89acb04bffbe40eb72ba042bca8225ae7db97ae50d8ef0"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-027-G001-food-functions-1-5.json",
+      "sample_id": "S-15-027",
+      "sample_name": "양하",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "0a1c0fb2c15f0ab53b3cd9a3a4ed81b22c767f975bf5a6bd866a60cc5ee8ee4b"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-028-G001-food-functions-1-5.json",
+      "sample_id": "S-15-028",
+      "sample_name": "어성초(약모밀)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 20,
+      "unique_bibliography_count": 18,
+      "payload_sha256": "77e3d9fdd9791e062281c107aabd00cafcd6037cf1e3f8d30a65325f99b90761"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-031-G001-food-functions-1-5.json",
+      "sample_id": "S-15-031",
+      "sample_name": "양배추(적양배추)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "d0a3e9b6b1129d79bcb67a341f03ee30aa7505d6f19d8b37095be78e07941d12"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-032-G001-food-functions-1-5.json",
+      "sample_id": "S-15-032",
+      "sample_name": "청경채",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "fd36d06b8a6deee4ec5c710b7a0e7ff37a9dc228b1cbbc500d80a9ed32463836"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-033-G001-food-functions-1-5.json",
+      "sample_id": "S-15-033",
+      "sample_name": "치커리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 29,
+      "unique_bibliography_count": 23,
+      "payload_sha256": "effabf4907c2d9036289a6db36726fba68bafe2f1ffe74fb867dae73993f784d"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-033-G003-food-functions-1-5.json",
+      "sample_id": "S-15-033",
+      "sample_name": "치커리",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "290e0cf0136625da7db02fae9d5c086be4dd438e835683832027b83b4210a4e9"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-035-G001-food-functions-1-5.json",
+      "sample_id": "S-15-035",
+      "sample_name": "칡",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "8650da113c2707ade35d43f407071cd508796ca8bcc595e7d51136761222c125"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-036-G001-food-functions-1-5.json",
+      "sample_id": "S-15-036",
+      "sample_name": "케일",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "96d8c4305d5b490351b3359cd2c7ac6b96b845a6ece063a150003e2c88d0c97e"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-036-G003-food-functions-1-5.json",
+      "sample_id": "S-15-036",
+      "sample_name": "케일",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 9,
+      "unique_bibliography_count": 6,
+      "payload_sha256": "de7f3435b65edbce2142bbbeb920375ca337aae1c229a488b13256f52574d957"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-037-G001-food-functions-1-5.json",
+      "sample_id": "S-15-037",
+      "sample_name": "콜라비",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "43a0f990c18161089432ae6042432e776389fb3eaa26b7a2efd40731df3965e7"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-039-G001-food-functions-1-5.json",
+      "sample_id": "S-15-039",
+      "sample_name": "토란",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 13,
+      "unique_bibliography_count": 8,
+      "payload_sha256": "8523124436d5c0ae9d5f9d5e805eb81ea8e7d5f09ee14a59c3e91785c7220705"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-040-G001-food-functions-1-5.json",
+      "sample_id": "S-15-040",
+      "sample_name": "파슬리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 16,
+      "unique_bibliography_count": 11,
+      "payload_sha256": "59165d610f55eb65098884124d1f72ababd99d0e399e945585deaa919d1e551c"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-040-G003-food-functions-1-5.json",
+      "sample_id": "S-15-040",
+      "sample_name": "파슬리",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "d7cb6e5afb5a0ae915399b5306d90136d1bcfa0ef338cbf0dd06467aa7ff640f"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-041-G001-food-functions-1-5.json",
+      "sample_id": "S-15-041",
+      "sample_name": "파프리카",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "536e440293d7b63272f2177ebcf78cb61f0f772d1f50cf569b49d3a497487651"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-046-G001-food-functions-1-5.json",
+      "sample_id": "S-15-046",
+      "sample_name": "옻나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 15,
+      "unique_bibliography_count": 10,
+      "payload_sha256": "6fa544e0a9ddf0e826f126981e16608cb59a80af2e1e524abc31dddccc216ffa"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-046-G003-food-functions-1-5.json",
+      "sample_id": "S-15-046",
+      "sample_name": "옻나무",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "197645e14752aab89d429d98a857735893f8e2f176362390130521a84cdcf5e3"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-047-G001-food-functions-1-5.json",
+      "sample_id": "S-15-047",
+      "sample_name": "맥문동",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 18,
+      "unique_bibliography_count": 12,
+      "payload_sha256": "3131d91de449aa0f6978608721e8d04c2856abe2c75aa960929b32080d145921"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-048-G001-food-functions-1-5.json",
+      "sample_id": "S-15-048",
+      "sample_name": "느릅나무(유근피)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 10,
+      "unique_bibliography_count": 10,
+      "payload_sha256": "9da81da2361df6a1a82fc70d3bd4ea89000845d0ea8d9489480ef47fecc53123"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-049-G001-food-functions-1-5.json",
+      "sample_id": "S-15-049",
+      "sample_name": "황기",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 21,
+      "unique_bibliography_count": 17,
+      "payload_sha256": "9a89259705d5bbf236352bb0006ca790bafb22e5aa6caf6e5e15b3b750614c14"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-049-G003-food-functions-1-5.json",
+      "sample_id": "S-15-049",
+      "sample_name": "황기",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "94a39cf23f017002a0074b7de4a6ab88ad1d2e5b57d07590613b7c21494a9df3"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-050-G001-food-functions-1-5.json",
+      "sample_id": "S-15-050",
+      "sample_name": "곤드레(고려엉겅퀴)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "e252431fc6f97db09d7e5980cc9d62418e306016b2cb5bd1b64967186c1b2133"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-051-G001-food-functions-1-5.json",
+      "sample_id": "S-15-051",
+      "sample_name": "망개(청미래덩굴)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 14,
+      "unique_bibliography_count": 14,
+      "payload_sha256": "f009f35bbf4facb45366ed616a7603c45efd9aad7f8febf95bdc73618d5cd9ac"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-052-G001-food-functions-1-5.json",
+      "sample_id": "S-15-052",
+      "sample_name": "구아바",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 52,
+      "unique_bibliography_count": 31,
+      "payload_sha256": "b319f5ff46c4d552fce9e4a2ecb04fd489a44aefe9fd2403b06e70d08cb318a8"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-052-G003-food-functions-1-5.json",
+      "sample_id": "S-15-052",
+      "sample_name": "구아바",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "d8fb85b7eb4ab2271e544ae3614c3871db8042e020765eeb7bbf1974d716e099"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-054-G001-food-functions-1-5.json",
+      "sample_id": "S-15-054",
+      "sample_name": "섬쑥부쟁이(부지갱이)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "60a1e369b8f5d16473d62d0266241cd43e342d12d7ce15e881238212b4b756d9"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-055-G001-food-functions-1-5.json",
+      "sample_id": "S-15-055",
+      "sample_name": "비파나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 31,
+      "unique_bibliography_count": 24,
+      "payload_sha256": "69ead1e4c4daf142b74733d78083102f71b11ffc328d617be3a361d2678e4029"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-057-G001-food-functions-1-5.json",
+      "sample_id": "S-15-057",
+      "sample_name": "하수오",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 22,
+      "unique_bibliography_count": 15,
+      "payload_sha256": "e3d7480655d8c14db238b35b3284dfd3e25611be2fc1a6ea311bf0bd5fb31b68"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-058-G001-food-functions-1-5.json",
+      "sample_id": "S-15-058",
+      "sample_name": "쇠무릅(우슬초)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "0375faf95d89f23e018d45e6098064da30d70a6c74e2dfe7fca7930494219369"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-059-G001-food-functions-1-5.json",
+      "sample_id": "S-15-059",
+      "sample_name": "상황버섯(진흙버섯)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 14,
+      "unique_bibliography_count": 12,
+      "payload_sha256": "8d8d1868cf7168c39996ceee5a06586bfc6ba2b46fa03050b6147ccc140bc6f1"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-060-G001-food-functions-1-5.json",
+      "sample_id": "S-15-060",
+      "sample_name": "삼백초",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 22,
+      "unique_bibliography_count": 17,
+      "payload_sha256": "6c00f80bad0fd39b63d48a1b29d7862a471a3c425ac721c2d0929340a037f956"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-061-G001-food-functions-1-5.json",
+      "sample_id": "S-15-061",
+      "sample_name": "개똥쑥",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 27,
+      "unique_bibliography_count": 21,
+      "payload_sha256": "0dfb8c5b35f38b8ffab08465f725a1d4f3e67426cfb08fcdaedd9e15823a103a"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-061-G003-food-functions-1-5.json",
+      "sample_id": "S-15-061",
+      "sample_name": "개똥쑥",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 6,
+      "payload_sha256": "f6b5b812b515f2ccab78ba4d219263cc54923de4700411f20ab4036be621d184"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-062-G001-food-functions-1-5.json",
+      "sample_id": "S-15-062",
+      "sample_name": "모시풀",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 12,
+      "unique_bibliography_count": 7,
+      "payload_sha256": "413e7f051432ef6334920d0dca3e5748f4274842571175c032c71ddc0e694680"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-065-G001-food-functions-1-5.json",
+      "sample_id": "S-15-065",
+      "sample_name": "야관문(비수리)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "e5b721291a2a89627a0ebb9a1133861a9568d9b98a67814c46aaa6f8cc92d94e"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-066-G001-food-functions-1-5.json",
+      "sample_id": "S-15-066",
+      "sample_name": "오디(뽕나무)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 23,
+      "unique_bibliography_count": 21,
+      "payload_sha256": "422f05808928a03b255a3fd0fa84c6ce89202ca3fecd9e4879f1646f82c7bfd3"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-066-G003-food-functions-1-5.json",
+      "sample_id": "S-15-066",
+      "sample_name": "오디(뽕나무)",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "fc397223c55b2447f3f82e025f1ef857864b1f82c7b2e30f7c7c2f039bd653f6"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-067-G001-food-functions-1-5.json",
+      "sample_id": "S-15-067",
+      "sample_name": "와송(바위솔)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "3c3260a0b9f32241c1159b9cc07e899a2f1eb51049434b822e78d755376a3861"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-068-G001-food-functions-1-5.json",
+      "sample_id": "S-15-068",
+      "sample_name": "오미자",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 49,
+      "unique_bibliography_count": 46,
+      "payload_sha256": "1edaad61422a6d3a369ac9943f2b400cf04bb3997ae2fbe465e88046d233f8a0"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-069-G001-food-functions-1-5.json",
+      "sample_id": "S-15-069",
+      "sample_name": "대나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 15,
+      "unique_bibliography_count": 13,
+      "payload_sha256": "fed786f75feeed447cb70ec309f8418af901d6217589585e1b70b364a9788e92"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-069-G003-food-functions-1-5.json",
+      "sample_id": "S-15-069",
+      "sample_name": "대나무",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "f3e1180313ca395c1f15d2f92e1567c34a9fa1a5722e6d9c10e28a31b9499964"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-070-G001-food-functions-1-5.json",
+      "sample_id": "S-15-070",
+      "sample_name": "멜론",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 8,
+      "unique_bibliography_count": 8,
+      "payload_sha256": "5a120ce451eae180d74c8fa497f50d6c5f656c6aa7676b3071ea76c61aeaa7a8"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-070-G003-food-functions-1-5.json",
+      "sample_id": "S-15-070",
+      "sample_name": "멜론",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "0d0fa9eded8075153193f129bb684020328ed4dedb1501c52d0395f86f7698cc"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-071-G001-food-functions-1-5.json",
+      "sample_id": "S-15-071",
+      "sample_name": "양앵두",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "5a91ac6a2287450b09d85ca2fd845a9b79805f3e732784a2f4e361180797ee1a"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-073-G001-food-functions-1-5.json",
+      "sample_id": "S-15-073",
+      "sample_name": "큰조롱(백수오)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 7,
+      "unique_bibliography_count": 6,
+      "payload_sha256": "d93abc5da306b6e223395edf0f9002da94b08de5eed1da613052f6906c8f1d0b"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-073-G003-food-functions-1-5.json",
+      "sample_id": "S-15-073",
+      "sample_name": "큰조롱(백수오)",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "31519f7d1bdedd515dc04570200273d4e983db88c062df0f3c70e8c4be3c0790"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-075-G001-food-functions-1-5.json",
+      "sample_id": "S-15-075",
+      "sample_name": "키위(참다래)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "f0755760971cdb885bb17a00409ad08a67ad3bcb3cd6946fbc99441a32d29cee"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-075-G003-food-functions-1-5.json",
+      "sample_id": "S-15-075",
+      "sample_name": "키위(참다래)",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 61,
+      "unique_bibliography_count": 37,
+      "payload_sha256": "1a9fe49d5d3e8087383c1bdfe6c0cdf5d7ddde484f79ec65a2ad6c3b8a22c6f2"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-077-G001-food-functions-1-5.json",
+      "sample_id": "S-15-077",
+      "sample_name": "무화과",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "bce331df0f5e28605b082dde76638d191d427bf73ea65c6a111bc0fb8f79c011"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-077-G003-food-functions-1-5.json",
+      "sample_id": "S-15-077",
+      "sample_name": "무화과",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 22,
+      "unique_bibliography_count": 11,
+      "payload_sha256": "7bdb812af40bc523a1fa2ed459ead3a512f01d3570d434de7d4863b6106cdd66"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-080-G001-food-functions-1-5.json",
+      "sample_id": "S-15-080",
+      "sample_name": "스테비아",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "93f1cecbbd2e7f7e7a4741433af1bf4a9918505a9c2e2686dec56c8ee3885cd0"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-081-G001-food-functions-1-5.json",
+      "sample_id": "S-15-081",
+      "sample_name": "뽀리뱅이",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "e05aa072720df0d67ea876330a6ea2ca1b6294bc14a6ffe651ce7a39776f8cbf"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-082-G001-food-functions-1-5.json",
+      "sample_id": "S-15-082",
+      "sample_name": "강황",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 17,
+      "unique_bibliography_count": 15,
+      "payload_sha256": "bffe49057902a4f2b2f729f9fa9f42490ca337b2b4c4c4ea0a4c7bfb71b7dc2d"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-086-G003-food-functions-1-5.json",
+      "sample_id": "S-15-086",
+      "sample_name": "살구",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "d907692db1905256ddf80d6865be78952401eb71dbd9150868f54500ab100de0"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-090-G001-food-functions-1-5.json",
+      "sample_id": "S-15-090",
+      "sample_name": "화살나무(홀잎나무)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 6,
+      "payload_sha256": "2f85407803f752ce8685f6e2ff47d75bc7eec5a401b2ecab3ac2531ed573770a"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-095-G001-food-functions-1-5.json",
+      "sample_id": "S-15-095",
+      "sample_name": "가죽나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 10,
+      "unique_bibliography_count": 9,
+      "payload_sha256": "71713d262c7b93c19738b8385842e3467ab419f065a822b0fa3f11b5db139d43"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-096-G001-food-functions-1-5.json",
+      "sample_id": "S-15-096",
+      "sample_name": "바디나물",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 9,
+      "unique_bibliography_count": 9,
+      "payload_sha256": "4383e9ee9de5ff1ef10bc8c77eca603a55ec2f2291f7beecbed4d63150c052c2"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-098-G001-food-functions-1-5.json",
+      "sample_id": "S-15-098",
+      "sample_name": "우산나물",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "72fdbc687727732506e138598f53f3f2111ddf7060f9b662b406b21b6de39188"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-100-G001-food-functions-1-5.json",
+      "sample_id": "S-15-100",
+      "sample_name": "매실",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "cffbd92a00693c2601f8399d6efc2abc5d85e13074faf24e3f83b3fe314588f2"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-100-G003-food-functions-1-5.json",
+      "sample_id": "S-15-100",
+      "sample_name": "매실",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 18,
+      "unique_bibliography_count": 9,
+      "payload_sha256": "c0666d15b6f9434d99ab96bcd95eb6b613d62e83ff41ebfa8a82795b98bde35c"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-103-G001-food-functions-1-5.json",
+      "sample_id": "S-15-103",
+      "sample_name": "블루베리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 26,
+      "unique_bibliography_count": 16,
+      "payload_sha256": "f428f2f775849c7ad17c07766cad8967ed71a56abe426f400f3bb3a9176a1fb0"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-103-G003-food-functions-1-5.json",
+      "sample_id": "S-15-103",
+      "sample_name": "블루베리",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 186,
+      "unique_bibliography_count": 58,
+      "payload_sha256": "19343d0768457525a2b237b1db427043cda66197e44bea547a323fd1cab230fe"
+    },
+    {
+      "file": "data/raw/agrifood/S-15-105-G001-food-functions-1-5.json",
+      "sample_id": "S-15-105",
+      "sample_name": "결명자",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 7,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "fa1907c048edd11da0c5220a2c10bbbd47f363b86360e79a4b77eec05d02fa9b"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-001-G003-food-functions-1-5.json",
+      "sample_id": "S-16-001",
+      "sample_name": "가시엉겅퀴",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "0a9c3526866a7fe2497bfb0209ab54d2ca1cabe46f756f6311dbbe1bbc4b1728"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-002-G001-food-functions-1-5.json",
+      "sample_id": "S-16-002",
+      "sample_name": "갓",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 14,
+      "unique_bibliography_count": 13,
+      "payload_sha256": "55088faa74d0e10602ce1a3644c6713505e2f0ac5aba8ac94d516b1bbc737aea"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-004-G001-food-functions-1-5.json",
+      "sample_id": "S-16-004",
+      "sample_name": "골담초",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "ffd3090b6add009140779dbcb90573e95b603e504172d643f9f8d3a9b33a16f7"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-006-G001-food-functions-1-5.json",
+      "sample_id": "S-16-006",
+      "sample_name": "근대",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 8,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "eb7c6a4d2ecfaf37fe23f034ddba2d0c6d25f0c46c8a4119486863e530410a5e"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-008-G001-food-functions-1-5.json",
+      "sample_id": "S-16-008",
+      "sample_name": "두충나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 11,
+      "unique_bibliography_count": 9,
+      "payload_sha256": "ea7fe57cd0d075230c144b82a616cf25f3bccd489bd5e5e046120210781a3b04"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-009-G001-food-functions-1-5.json",
+      "sample_id": "S-16-009",
+      "sample_name": "목련(신이화)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "3ed167b5181847760e66e4de8d14c77e317fcf7f9e6be48123c80c64a0348018"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-015-G001-food-functions-1-5.json",
+      "sample_id": "S-16-015",
+      "sample_name": "익모초",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "26e8a13b18bbbc08359eed16e56016047d6f5081be3ebb98e1b6c1f940eccc07"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-016-G001-food-functions-1-5.json",
+      "sample_id": "S-16-016",
+      "sample_name": "저단선(천년초)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 11,
+      "unique_bibliography_count": 9,
+      "payload_sha256": "8ae8f613f8811639c87bbc7068813750a8188aec62d0be471da5c7403e606055"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-017-G001-food-functions-1-5.json",
+      "sample_id": "S-16-017",
+      "sample_name": "상추",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 10,
+      "unique_bibliography_count": 9,
+      "payload_sha256": "5bc88e1e776b606132d0c2a5cb192cb3f9ab355702095473176e7d1b383281a1"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-017-G003-food-functions-1-5.json",
+      "sample_id": "S-16-017",
+      "sample_name": "상추",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "633e03af1b58cd72c765b987bd2437eac6fc27e47492a466bca6be3f9a783d54"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-020-G001-food-functions-1-5.json",
+      "sample_id": "S-16-020",
+      "sample_name": "참나물",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "aaf38b210bce52f8a5598ac655f39cffef21b85e42c518e4c8f3196109e647e2"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-021-G001-food-functions-1-5.json",
+      "sample_id": "S-16-021",
+      "sample_name": "치자나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 18,
+      "unique_bibliography_count": 17,
+      "payload_sha256": "09959d05141920c30c5966ce79321fd7509f268cb4d20e4aa5d37a408e55866e"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-023-G001-food-functions-1-5.json",
+      "sample_id": "S-16-023",
+      "sample_name": "헛개나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 18,
+      "unique_bibliography_count": 17,
+      "payload_sha256": "8ee46257bfa34b2778daed1c0824803cb5726572a5b2a60779a80baf7ea8a19f"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-023-G003-food-functions-1-5.json",
+      "sample_id": "S-16-023",
+      "sample_name": "헛개나무",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "a4f685f140da8ca2a837923072446ff1612bf56f0674298aa3f46d79b0c5587b"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-024-G001-food-functions-1-5.json",
+      "sample_id": "S-16-024",
+      "sample_name": "귀리",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "7e403a9eb6df2605937045bb9e5e73e155729b8d11e9d0d80962c466df9ed5e4"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-024-G003-food-functions-1-5.json",
+      "sample_id": "S-16-024",
+      "sample_name": "귀리",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 10,
+      "unique_bibliography_count": 7,
+      "payload_sha256": "edb518541cafa8ff8cf0a4e09b7f393c29ebb0196b35bd9222967eee4e9e76bb"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-025-G001-food-functions-1-5.json",
+      "sample_id": "S-16-025",
+      "sample_name": "쓴메밀",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "02be36720e65119cfce6a61556057f7cae7c27f6e0a356d7a04d62fa3b9a8059"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-027-G001-food-functions-1-5.json",
+      "sample_id": "S-16-027",
+      "sample_name": "작두(도두)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "3ecf76f0331de730a28cd9941cac171046512a6cd9a48a9d03ee7c5039dfa46c"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-032-G001-food-functions-1-5.json",
+      "sample_id": "S-16-032",
+      "sample_name": "메밀",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "427b65eabdf2341a49b738d4c0a51ccfca1f5001370c52e39da5286020f25917"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-032-G003-food-functions-1-5.json",
+      "sample_id": "S-16-032",
+      "sample_name": "메밀",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "1ccf01508c2456f69e4fa1652ff847d3ae25ad427f29d529cdab4d6e77271363"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-034-G001-food-functions-1-5.json",
+      "sample_id": "S-16-034",
+      "sample_name": "아마란스",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 7,
+      "unique_bibliography_count": 7,
+      "payload_sha256": "88695403239f0e913d6a877cb0a604df107797daa3118e7eb9caddb060998d30"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-034-G003-food-functions-1-5.json",
+      "sample_id": "S-16-034",
+      "sample_name": "아마란스",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "5386e6d36969c17a63cbe21f5ff9e99eec7aee0029429bbd9aa5c5b38ddde46b"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-035-G001-food-functions-1-5.json",
+      "sample_id": "S-16-035",
+      "sample_name": "율무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "67d466f0499c046f94edc904fa7f9b92161acb1b6a5b8efdd99bf3ba93ffd1fd"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-040-G001-food-functions-1-5.json",
+      "sample_id": "S-16-040",
+      "sample_name": "퀴노아",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 7,
+      "unique_bibliography_count": 7,
+      "payload_sha256": "bc0c85ee5f9dce652997cf39a40a0cfbee827530e2c1ebbaf43d7c2feeb3caa3"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-040-G003-food-functions-1-5.json",
+      "sample_id": "S-16-040",
+      "sample_name": "퀴노아",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "351606f5d8b492f8627fe82bec4aac7e1a78709edcb982f4424bee203897e814"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-043-G001-food-functions-1-5.json",
+      "sample_id": "S-16-043",
+      "sample_name": "산수유",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 5,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "a449b2c281bd9e1b7a1e7036e97a201b983c6d078d92f18d77215298e06681fa"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-043-G003-food-functions-1-5.json",
+      "sample_id": "S-16-043",
+      "sample_name": "산수유",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "caa056024f69ba178a6d45460698d21d8e32f0fdc859c8a1be957fe73e4b370a"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-046-G001-food-functions-1-5.json",
+      "sample_id": "S-16-046",
+      "sample_name": "감",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 13,
+      "unique_bibliography_count": 12,
+      "payload_sha256": "c204c372cacd572db39832b242310a0a010a5aa7501078bb4f2c2680c0585ba5"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-046-G003-food-functions-1-5.json",
+      "sample_id": "S-16-046",
+      "sample_name": "감",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 5,
+      "payload_sha256": "cee9d42f4c2b2abe3e788d676186e13748fa69ef8c619a238d1337fbd9eb7757"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-060-G001-food-functions-1-5.json",
+      "sample_id": "S-16-060",
+      "sample_name": "아로니아(블랙초크베리)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 23,
+      "unique_bibliography_count": 23,
+      "payload_sha256": "1e59283e8428ae8146d9b35f9e072b4ec2e1234eabc6b8c5dedd3f6d172a359e"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-060-G003-food-functions-1-5.json",
+      "sample_id": "S-16-060",
+      "sample_name": "아로니아(블랙초크베리)",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 6,
+      "payload_sha256": "b025716bb19ebd315ca2b3f1fde8ae7cca9bdc94f8e98e3e9ebd88b548e74d00"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-062-G001-food-functions-1-5.json",
+      "sample_id": "S-16-062",
+      "sample_name": "아테모야",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "439cc6fd18e93ffa110821a2411955819ae852985904db14c93faf19ef9b82a9"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-078-G001-food-functions-1-5.json",
+      "sample_id": "S-16-078",
+      "sample_name": "느티만가닥버섯",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "979403f042c36f7289b6eb23b1ac53f43867d1be39f194f320de1131db65f96f"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-080-G001-food-functions-1-5.json",
+      "sample_id": "S-16-080",
+      "sample_name": "목이버섯(흑목이버섯)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "1a57b783ffd27c3fff91e46b798d45b68f51acbc3545ab7060bec4c16243f8cc"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-080-G003-food-functions-1-5.json",
+      "sample_id": "S-16-080",
+      "sample_name": "목이버섯(흑목이버섯)",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 2,
+      "payload_sha256": "f9df621d60a96439f99223d6c15cccd5a0a9847c9e274947fde01b21c99e3f5e"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-082-G001-food-functions-1-5.json",
+      "sample_id": "S-16-082",
+      "sample_name": "느타리버섯",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 16,
+      "unique_bibliography_count": 15,
+      "payload_sha256": "22a445c328ed42352c249ab6ddbb466269e7c9be85664c8472c253d3420dc578"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-082-G003-food-functions-1-5.json",
+      "sample_id": "S-16-082",
+      "sample_name": "느타리버섯",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "d4306326e6f99597c9088272de92995d7239e09d815a5f43a98e1298ea930379"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-086-G001-food-functions-1-5.json",
+      "sample_id": "S-16-086",
+      "sample_name": "양송이버섯",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 12,
+      "unique_bibliography_count": 11,
+      "payload_sha256": "ff74de2f695c583df575faab8161eb210cc801afbb6e54c8b4bff03e020c1aff"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-087-G001-food-functions-1-5.json",
+      "sample_id": "S-16-087",
+      "sample_name": "큰느타리버섯",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 12,
+      "unique_bibliography_count": 10,
+      "payload_sha256": "e40d4793b610aa2ce19010fb7be8f8963d7f3645c3db3296df0ca7da4008a695"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-091-G001-food-functions-1-5.json",
+      "sample_id": "S-16-091",
+      "sample_name": "더덕",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 25,
+      "unique_bibliography_count": 23,
+      "payload_sha256": "faf5e5b9acd61b3b9defe999e3dbed1495a7baaf7d6f19793f39f535e337231f"
+    },
+    {
+      "file": "data/raw/agrifood/S-16-093-G001-food-functions-1-5.json",
+      "sample_id": "S-16-093",
+      "sample_name": "말오줌나무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "d7643479a40072532d9c925ecf08953f9ec27c6f428096b45a213cf45259dfba"
+    },
+    {
+      "file": "data/raw/agrifood/S-18-042-G001-food-functions-1-5.json",
+      "sample_id": "S-18-042",
+      "sample_name": "민들레",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 8,
+      "unique_bibliography_count": 8,
+      "payload_sha256": "acd318ed288f34cb0b017a298f5d3b425b6c39bae7dcaa982f326bed9fddd178"
+    },
+    {
+      "file": "data/raw/agrifood/S-18-044-G001-food-functions-1-5.json",
+      "sample_id": "S-18-044",
+      "sample_name": "방아풀",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "2b73b70c236f76589d5dc79d72d25055ce8952d66554f3ad67bd11fd867bb63e"
+    },
+    {
+      "file": "data/raw/agrifood/S-18-051-G001-food-functions-1-5.json",
+      "sample_id": "S-18-051",
+      "sample_name": "비름",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 4,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "78a1926243b4c347659e89d374a053e254fe52c4b0c31b9a8b1d557749c58f6e"
+    },
+    {
+      "file": "data/raw/agrifood/S-18-071-G001-food-functions-1-5.json",
+      "sample_id": "S-18-071",
+      "sample_name": "양상추",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 10,
+      "unique_bibliography_count": 10,
+      "payload_sha256": "ef2b25ba9ef63f9ca4b9e98ebb632546b11d99e73dff8a8d0debaadd3af0450c"
+    },
+    {
+      "file": "data/raw/agrifood/S-18-071-G003-food-functions-1-5.json",
+      "sample_id": "S-18-071",
+      "sample_name": "양상추",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 3,
+      "unique_bibliography_count": 3,
+      "payload_sha256": "2a82275cc1d68bbc556a575aaff93f0b00ab9a06b598ef68390dc33a88516444"
+    },
+    {
+      "file": "data/raw/agrifood/S-18-077-G001-food-functions-1-5.json",
+      "sample_id": "S-18-077",
+      "sample_name": "엉겅퀴(대계초)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 6,
+      "unique_bibliography_count": 4,
+      "payload_sha256": "b29c7a063863f4e0dbc6b968c25c4c86f4fa3a0e91f6c9b0d4b5e4c0ed930337"
+    },
+    {
+      "file": "data/raw/agrifood/S-18-077-G003-food-functions-1-5.json",
+      "sample_id": "S-18-077",
+      "sample_name": "엉겅퀴(대계초)",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "85430274fd7915f1150c50a2e6f3569e294c83079ecfd551fe02fad41d43951f"
+    },
+    {
+      "file": "data/raw/agrifood/S-18-087-G003-food-functions-1-5.json",
+      "sample_id": "S-18-087",
+      "sample_name": "복숭아",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 2,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "301ee66731f3c3e05c910a6cc4f8d9f99fff14716205baefa3be497f1e7d96d8"
+    },
+    {
+      "file": "data/raw/agrifood/S-19-011-G001-food-functions-1-5.json",
+      "sample_id": "S-19-011",
+      "sample_name": "호박(주키니)",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 9,
+      "unique_bibliography_count": 6,
+      "payload_sha256": "57c978b134a0f6589794313976aa78dc706932398e00cfe67af315271acbf812"
+    },
+    {
+      "file": "data/raw/agrifood/S-19-013-G001-food-functions-1-5.json",
+      "sample_id": "S-19-013",
+      "sample_name": "순무",
+      "research_code": "G001",
+      "research_label": "동물시험",
+      "paper_record_count": 1,
+      "unique_bibliography_count": 1,
+      "payload_sha256": "9fde217d88f1e99db17a08646b521d34d96e67509344dab2539e6d6fbe7cc6f2"
+    },
+    {
+      "file": "data/raw/agrifood/S-21-001-G003-food-functions-1-5.json",
+      "sample_id": "S-21-001",
+      "sample_name": "자두",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 34,
+      "unique_bibliography_count": 16,
+      "payload_sha256": "252646b9c5f03678ddc47e54de662e273c324479cff38c1fc387701aade71d96"
+    },
+    {
+      "file": "data/raw/agrifood/S-23-029-G003-food-functions-1-5.json",
+      "sample_id": "S-23-029",
+      "sample_name": "백향과(패션프루트)",
+      "research_code": "G003",
+      "research_label": "인체적용시험",
+      "paper_record_count": 28,
+      "unique_bibliography_count": 10,
+      "payload_sha256": "4ceddc31ec58a94814e250ffd86627d8cb6b7f0ca31f420edadc7a539cf853bb"
+    }
+  ],
+  "coverage": {
+    "available_food_count": 174,
+    "animal_food_count": 168,
+    "human_food_count": 65
+  },
+  "generation_enabled": false,
+  "scope": "Local metadata inspection; nutrient amounts and efficacy not evaluated."
+}

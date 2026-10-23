@@ -1,0 +1,231 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-048",
+    "sample_Nm": "시금치",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Oral administration of monogalactosyl diacylglycerol from spinach inhibits colon tumor growth in mice.",
+                  "details": "Exp Ther Med. 2013 Jan;5(1):17-22. Epub 2012 Nov 1.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Anti-tumor effect of orally administered spinach glycolipid fraction on implanted cancer cells, colon-26, in mice.",
+                  "details": "Lipids. 2008 Aug;43(8):741-8. doi: 10.1007/s11745-008-3202-5. Epub 2008 Jul 2.",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of spinach aqueous extract on wound healing in experimental model diabetic rats with streptozotocin.",
+                  "details": "J Sci Food Agric.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Beneficial effects of a chlorophyll-rich spinach extract supplementation on prevention of obesity and modulation of gut microbiota in high-fat diet-fed mice",
+                  "details": "Journal of Functional Foods",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antioxidant Effects of Spinach (Spinacia oleracea L.) Supplementation in Hyperlipidemic Rats.",
+                  "details": "Prev Nutr Food Sci. 2014 Jan;19(1):19-26. doi: 10.3746/pnf.2014.19.1.019.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Beneficial effects of a chlorophyll-rich spinach extract supplementation on prevention of obesity and modulation of gut microbiota in high-fat diet-fed mice",
+                  "details": "Journal of Functional Foods",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beneficial effects of a chlorophyll-rich spinach extract supplementation on prevention of obesity and modulation of gut microbiota in high-fat diet-fed mice",
+                "details": "Journal of Functional Foods",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antioxidant Effects of Spinach (Spinacia oleracea L.) Supplementation in Hyperlipidemic Rats.",
+                "details": "Prev Nutr Food Sci. 2014 Jan;19(1):19-26. doi: 10.3746/pnf.2014.19.1.019.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beneficial effects of a chlorophyll-rich spinach extract supplementation on prevention of obesity and modulation of gut microbiota in high-fat diet-fed mice",
+                "details": "Journal of Functional Foods",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Red stem of spinach promotes antioxidant and anti-inflammatory chondroprotectin in a rat model of osteoarthritis",
+                "details": "Journal of Functional Foods",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of spinach aqueous extract on wound healing in experimental model diabetic rats with streptozotocin.",
+                "details": "J Sci Food Agric.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Amelioration of asthmatic inflammation by an aqueous extract of Spinacia oleracea Linn.",
+                "details": "Int J Mol Med. 2010 Mar;25(3):409-14.",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Administration of hydro-alcoholic extract of spinach improves oxidative stress and inflammation in high-fat diet-induced NAFLD rats",
+                "details": "BMC Complementary Medicine and Therapies",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beneficial effects of a chlorophyll-rich spinach extract supplementation on prevention of obesity and modulation of gut microbiota in high-fat diet-fed mice",
+                "details": "Journal of Functional Foods",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beneficial effects of a chlorophyll-rich spinach extract supplementation on prevention of obesity and modulation of gut microbiota in high-fat diet-fed mice",
+                "details": "Journal of Functional Foods",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "d-Opioid receptor activation stimulates normal diet intake but conversely suppresses high-fat diet intake in mice.",
+                "details": "Am J Physiol Regul Integr Comp Physiol. 2014 Feb 15;306(4):R265-72. doi: 10.1152/ajpregu.00405.2013. Epub 2014 Jan 8.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Spinacia oleracea Modulates Radiation-Induced Biochemical Changes in Mice Testis.",
+                "details": "Indian J Pharm Sci. 2008 May-Jun;70(3):320-6. doi: 10.4103/0250-474X.42980.",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Nutraceutical inherent of Spinacia oleracea Linn. methanolic leaf extract ameliorates isoproterenol induced myocardial necrosis in male albino Wistar rats via mitigating inflammation.",
+                "details": "Biomed Pharmacother.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of spinach aqueous extract on wound healing in experimental model diabetic rats with streptozotocin.",
+                "details": "J Sci Food Agric.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

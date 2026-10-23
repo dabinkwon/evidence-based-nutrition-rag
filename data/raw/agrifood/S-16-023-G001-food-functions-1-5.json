@@ -1,0 +1,172 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-023",
+    "sample_Nm": "헛개나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-steatotic and anti-inflammatory effects of Hovenia dulcis Thunb. extracts in chronic alcohol-fed rats",
+                  "details": "Biomed Pharmacother",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Effect of fermented Hovenia dulcis Thunb fruit water extract on biomarker for liver injury and body weight changes in rats given oral administration of ethanol",
+                  "details": "Food Science and Preservation",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Hepatoprotective effects of gammaaminobutyric acid-enriched fermented Hovenia dulcis extract on ethanol-induced liver injury in mice",
+                  "details": "BMC Complement Med Ther",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Semen hoveniae extract ameliorates alcohol-induced chronic liver damage in rats via modulation of the abnormalities of gut-liver axis",
+                  "details": "Phytomedicine",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Semen Hoveniae extract protects against acute alcohol-induced liver injury in mice",
+                  "details": "Pharm Biol",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Treatment of Chronic Liver Injuries in Mice by Oral Administration of Ethanolic Extract of the Fruit of Hovenia dulcis",
+                  "details": "Am J Chin Med",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H047",
+            "fnclty_Nm": "숙취해소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Combined Water Extracts from Oxidation-Treated Leaves and Branches of Hovenia dulcis Has Anti-Hangover and Liver Protective Effects in Binge Alcohol Intake of Male Mice",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Effect of fermented Hovenia dulcis Thunb fruit water extract on biomarker for liver injury and body weight changes in rats given oral administration of ethanol",
+                  "details": "Food Science and Preservation",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Increased Alcohol Decomposition Efficacy of Hoveina dulcis Extract by Carbohydrate-Hydrolyzing Enzymes",
+                  "details": "J  East  Asian  Soc  Dietary",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "헛개나무 잎 추출물의 벤조피렌 유발 간 독성에 대한 보호효과",
+                  "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Myricetin derived from Hovenia dulcis Thunb. ameliorates vascular endothelial dysfunction and liver injury in high choline-fed mice",
+                  "details": "Food Funct",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Protective effects and possible molecular mechanism of Hovenia dulcis Thunb. extract on acetaminophen-induced hepatotoxicity",
+                  "details": "Pharmazie",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hovenia dulcis Extract Attenuates High-Fat Diet-Induced Hepatic Lipid Accumulation and Hypertriglyceridemia in C57BL/6 Mice",
+                  "details": "J Med Food",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Hovenia Dulcis Extract Reduces Lipid Accumulation in Oleic Acid-Induced Steatosis ofHep G2 Cells via Activation of AMPK and PPARα/CPT-1 Pathway and in Acute Hyperlipidemia Mouse Model",
+                  "details": "Phytother Res",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Polysaccharide from Hovenia dulcis (Guaizao) improves pancreatic injury and regulates liver glycometabolism to alleviate STZ-induced type 1 diabetes mellitus in rats",
+                "details": "Int J Biol Macromol",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "랫드를 이용한 헛개나무과병 열수추출물 투여가 운동에 의한 피로회복과 운동수행능력에 미치는 기전 규명",
+                "details": "약학회지 = Yakhak hoeji",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "헛개나무 추출물이 안면염증통증의 경감효과",
+                "details": "한국산학기술학회논문지 = Journal of the Korea Academia-Industrial cooperation Society",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-Obesity Effects of Hovenia Dulcis Branches in Mouse Adipocytes, 3t3-l1 Cells, and High-Fat Diet Obese Mice",
+                "details": "Pharmazie",
+                "pblicte_Year": "2023"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

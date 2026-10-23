@@ -1,0 +1,297 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "rcdcnt": "5",
+    "page_No": "1",
+    "total_Count": "3",
+    "sample_Id": "S-14-074",
+    "sample_Nm": "가지",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "irdnt_List": {
+        "cas_Code": [
+          "327-97-9",
+          "127-40-2",
+          "144-68-3"
+        ],
+        "cas_Nm": [
+          "Chlorogenic acid; 3-O-Caffeoylquinic acid; 5-Caffeoylquinic acid; 5-caffeoyl quinic acid; caffeoyl quinic acid; trans-5-O-Caffeoylquinic acid",
+          "Lutein; trans-Lutein",
+          "Zeaxanthin;"
+        ],
+        "fnclty_Cd": [
+          "H008,H015,H016,H017,H025,H026,H029,H045",
+          "H017,H025",
+          "H025"
+        ],
+        "fnclty_Nm": [
+          "관절 건강,체지방 감소,통증개선,항산화,항염증,혈당(기타),혈압 조절,혈중 중성지방 개선",
+          "항산화,항염증",
+          "항염증"
+        ],
+        "fnclty_Irdnt_Thesis_Cnt": [
+          "1",
+          "4",
+          "4"
+        ],
+        "fnclty_Irdnt_Thesis_List": [
+          {
+            "item": {
+              "title": "Monitoring of chlorogenic acid and antioxidant capacity of Solanum melongena L.(eggplant) under different heat and storage treatments",
+              "details": "Antioxidants",
+              "pblicte_Year": "2019",
+              "use_Part": "열매",
+              "anals_Mth": "HPLC",
+              "avg": "190",
+              "dcln": "",
+              "min": "",
+              "max": ""
+            }
+          },
+          {
+            "item": [
+              {
+                "title": "Lutein content of selected Indian vegetables and vegetable oils determined by HPLC",
+                "details": "Journal of Food Composition and Analysis",
+                "pblicte_Year": "2009",
+                "use_Part": "열매",
+                "anals_Mth": "HPLC",
+                "avg": "0.337",
+                "dcln": "",
+                "min": "",
+                "max": ""
+              },
+              {
+                "title": "Lutein content of selected Indian vegetables and vegetable oils determined by HPLC",
+                "details": "Journal of Food Composition and Analysis",
+                "pblicte_Year": "2009",
+                "use_Part": "열매",
+                "anals_Mth": "HPLC",
+                "avg": "1.8",
+                "dcln": "",
+                "min": "",
+                "max": ""
+              },
+              {
+                "title": "Lutein content of selected Indian vegetables and vegetable oils determined by HPLC",
+                "details": "Journal of Food Composition and Analysis",
+                "pblicte_Year": "2009",
+                "use_Part": "열매",
+                "anals_Mth": "HPLC",
+                "avg": "0.065",
+                "dcln": "",
+                "min": "",
+                "max": ""
+              },
+              {
+                "title": "Lutein content of selected Indian vegetables and vegetable oils determined by HPLC",
+                "details": "Journal of Food Composition and Analysis",
+                "pblicte_Year": "2009",
+                "use_Part": "열매",
+                "anals_Mth": "HPLC",
+                "avg": "0.25",
+                "dcln": "",
+                "min": "",
+                "max": ""
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "title": "Lutein content of selected Indian vegetables and vegetable oils determined by HPLC",
+                "details": "Journal of Food Composition and Analysis",
+                "pblicte_Year": "2009",
+                "use_Part": "열매",
+                "anals_Mth": "HPLC",
+                "avg": "0.016",
+                "dcln": "",
+                "min": "",
+                "max": ""
+              },
+              {
+                "title": "Lutein content of selected Indian vegetables and vegetable oils determined by HPLC",
+                "details": "Journal of Food Composition and Analysis",
+                "pblicte_Year": "2009",
+                "use_Part": "열매",
+                "anals_Mth": "HPLC",
+                "avg": "0.0164",
+                "dcln": "",
+                "min": "",
+                "max": ""
+              },
+              {
+                "title": "Lutein content of selected Indian vegetables and vegetable oils determined by HPLC",
+                "details": "Journal of Food Composition and Analysis",
+                "pblicte_Year": "2009",
+                "use_Part": "열매",
+                "anals_Mth": "HPLC",
+                "avg": "0.047",
+                "dcln": "",
+                "min": "",
+                "max": ""
+              },
+              {
+                "title": "Lutein content of selected Indian vegetables and vegetable oils determined by HPLC",
+                "details": "Journal of Food Composition and Analysis",
+                "pblicte_Year": "2009",
+                "use_Part": "열매",
+                "anals_Mth": "HPLC",
+                "avg": "0.1275",
+                "dcln": "",
+                "min": "",
+                "max": ""
+              }
+            ]
+          }
+        ],
+        "fnclty_Matr_Thesis_Cnt": [
+          "22",
+          "2",
+          "1"
+        ],
+        "fnclty_Matr_Thesis_List": [
+          {
+            "item": [
+              {
+                "title": "High-Antioxidant Potatoes: Acute in Vivo Antioxidant Source and Hypotensive Agent in Humans after Supplementation to Hypertensive Subjects",
+                "details": "Journal of agricultural and food chemistry",
+                "pblicte_Year": "2012"
+              },
+              {
+                "title": "Anti-diabetic, diabetic neuropathy protective action and mechanism of action involving oxidative pathway of chlorogenic acid isolated from Selinum vaginatum roots in rats",
+                "details": "Heliyon",
+                "pblicte_Year": "2020"
+              },
+              {
+                "title": "Chlorogenic Acid and Rutin Play a Major Role in the In Vivo Anti-Diabetic Activity of Morus alba Leaf Extract on Type II Diabetic Rats",
+                "details": "PloS one",
+                "pblicte_Year": "2012"
+              },
+              {
+                "title": "Chlorogenic acid improves late diabetes through adiponectin receptor signaling pathways in db/db mice",
+                "details": "PloS one",
+                "pblicte_Year": "2015"
+              },
+              {
+                "title": "Daily Ingestion of Eggplant Powder Improves Blood Pressure and Psychological State in Stressed Individuals: A Randomized Placebo-Controlled Study",
+                "details": "Nutrients",
+                "pblicte_Year": "2019"
+              },
+              {
+                "title": "Effect of Chlorogenic Acid Administration on Glycemic Control, Insulin Secretion, and Insulin Sensitivity in Patients with Impaired Glucose Tolerance",
+                "details": "Journal of medicinal food",
+                "pblicte_Year": "2018"
+              },
+              {
+                "title": "Efficacy of Ipomoea batatas (Caiapo) on Diabetes Control in Type 2 Diabetic Subjects Treated With Diet",
+                "details": "Diabetes care",
+                "pblicte_Year": "2004"
+              },
+              {
+                "title": "Glyceamic and insulinaemic response to mashed potato alone, or with broccoli, broccoli fibre or cellulose in healthy adults",
+                "details": "European journal of nutrition",
+                "pblicte_Year": "2018"
+              },
+              {
+                "title": "Mulberry leaf extract decreases digestion and absorption of starch in healthy subjects—A randomized, placebo-controlled, crossover study",
+                "details": "Aging (Albany NY)",
+                "pblicte_Year": "2017"
+              },
+              {
+                "title": "Chlorogenic acid alleviates obesity and modulates gut microbiota in high-fat-fed mice",
+                "details": "Food science & nutrition",
+                "pblicte_Year": "2019"
+              },
+              {
+                "title": "Effects and Mechanism of Chlorogenic Acid on Weight Loss",
+                "details": "Current pharmaceutical biotechnology",
+                "pblicte_Year": "2020"
+              },
+              {
+                "title": "White Sweet Potato as Meal Replacement for Overweight White-Collar Workers: A Randomized Controlled Trial",
+                "details": "Nutrients",
+                "pblicte_Year": "2019"
+              },
+              {
+                "title": "Cardio-protective and antioxidant properties of caffeic acid and chlorogenic acid: Mechanistic role of angiotensin converting enzyme, cholinesterase and arginase activities in cyclosporine induced hypertensive rats",
+                "details": "Biomedicine & Pharmacotherapy",
+                "pblicte_Year": "2019"
+              },
+              {
+                "title": "Daily Ingestion of Eggplant Powder Improves Blood Pressure and Psychological State in Stressed Individuals: A Randomized Placebo-Controlled Study",
+                "details": "Nutrients",
+                "pblicte_Year": "2019"
+              },
+              {
+                "title": "High-Antioxidant Potatoes: Acute in Vivo Antioxidant Source and Hypotensive Agent in Humans after Supplementation to Hypertensive Subjects",
+                "details": "Journal of agricultural and food chemistry",
+                "pblicte_Year": "2012"
+              },
+              {
+                "title": "Inhibition of Activator Protein-1, NF-kB, and MAPKs and Induction of Phase 2 Detoxifying Enzyme Activity by Chlorogenic Acid",
+                "details": "Iranian Journal of Pediatrics",
+                "pblicte_Year": "2005"
+              },
+              {
+                "title": "Chlorogenic Acid Protects Against Indomethacin-Induced Inflammation and Mucosa Damage by Decreasing Bacteroides-Derived LPS",
+                "details": "Frontiers in immunology",
+                "pblicte_Year": "2020"
+              },
+              {
+                "title": "Mulberry leaf reduces oxidation and C-reactive protein level in patients with mild dyslipidemia",
+                "details": "Archives of physiology and biochemistry",
+                "pblicte_Year": "2013"
+              },
+              {
+                "title": "Pigmented Potato Consumption Alters Oxidative Stress and Inflammatory Damage in Men",
+                "details": "European journal of nutrition",
+                "pblicte_Year": "2011"
+              },
+              {
+                "title": "Chlorogenic Acid Inhibits BAFF Expression in Collagen-Induced Arthritis and Human Synoviocyte MH7A Cells by Modulating the Activation of the NF-κB Signaling Pathway",
+                "details": "Journal of immunology research",
+                "pblicte_Year": "2019"
+              },
+              {
+                "title": "Mulberry leaf reduces oxidation and C-reactive protein level in patients with mild dyslipidemia",
+                "details": "Archives of physiology and biochemistry",
+                "pblicte_Year": "2013"
+              },
+              {
+                "title": "Evaluation of the Anti-inflammatory, Analgesic and Antipyretic Activities of the Natural Polyphenol Chlorogenic Acid",
+                "details": "Biological and Pharmaceutical Bulletin",
+                "pblicte_Year": "2006"
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "title": "Effect of Spinacia oleraceae L. and Perilla frutescens L. on antioxidants and lipid peroxidation in an intervention study in healthy individuals",
+                "details": "Plant foods for human nutrition",
+                "pblicte_Year": "2010"
+              },
+              {
+                "title": "Supplementation of xanthophylls decreased proinflammatory and increased anti-inflammatory cytokines in hens and chicks",
+                "details": "British Journal of Nutrition",
+                "pblicte_Year": "2012"
+              }
+            ]
+          },
+          {
+            "item": {
+              "title": "Supplementation of xanthophylls decreased proinflammatory and increased anti-inflammatory cytokines in hens and chicks",
+              "details": "British Journal of Nutrition",
+              "pblicte_Year": "2012"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

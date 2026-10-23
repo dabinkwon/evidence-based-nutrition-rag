@@ -1,0 +1,181 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-016",
+    "sample_Nm": "브로콜리",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Broccoli sprouts reduce oxidative stress in type 2 diabetes: a randomized double-blind clinical trial.",
+                  "details": "Eur J Clin Nutr.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "DNA damage and repair activity after broccoli intake in young healthy smokers.",
+                  "details": "Mutagenesis.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Phase 1 study of multiple biomarkers for metabolism and oxidative stress after one-week intake of broccoli sprouts.",
+                  "details": "Biofactors.  2004",
+                  "pblicte_Year": "2004"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Phase 1 Study of a Sulforaphane-Containing Broccoli Sprout Homogenate for Sickle Cell Disease.",
+                  "details": "PLoS One.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Ingestion of broccoli sprouts does not improve endothelial function in humans with hypertension.",
+                  "details": "PLoS One.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Preclinical and clinical evaluation of broccoli supplements as inducers of glutathione S-transferase activity.",
+                  "details": "Clin Cancer Res.  1997",
+                  "pblicte_Year": "1997"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The Effects of Broccoli Sprout Extract Containing Sulforaphane on Lipid Peroxidation and Helicobacter pylori Infection in the Gastric Mucosa.",
+                  "details": "Gut Liver.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Dietary sulforaphane-rich broccoli sprouts reduce colonization and attenuate gastritis in Helicobacter pylori-infected mice and humans.",
+                  "details": "Cancer Prev Res (Phila).  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "An Open Study of Sulforaphane-rich Broccoli Sprout Extract in Patients with Schizophrenia.",
+                "details": "Clin Psychopharmacol Neurosci.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Broccoli sprouts powder could improve serum triglyceride and oxidized LDL/LDL-cholesterol ratio in type 2 diabetic patients: a randomized double-blind placebo-controlled clinical trial.",
+                "details": "Diabetes Res Clin Pract.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Sulforaphane-rich broccoli sprout extract improves hepatic abnormalities in male subjects.",
+                "details": "World J Gastroenterol.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of broccoli sprouts on insulin resistance in type 2 diabetic patients: a randomized double-blind clinical trial.",
+                "details": "Int J Food Sci Nutr.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "A comparative study of broccoli sprouts powder and standard triple therapy on cardiovascular risk factors following H.pylori eradication: a randomized clinical trial in patients with type 2 diabetes.",
+                "details": "J Diabetes Metab Disord.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H080",
+            "fnclty_Nm": "면역과민반응에 의한 코 상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Sulforaphane-rich broccoli sprout extract attenuates nasal allergic response to diesel exhaust particles.",
+                "details": "Food Funct.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The intake of broccoli sprouts modulates the inflammatory and vascular prostanoids but not the oxidative stress-related isoprostanes in healthy humans.",
+                "details": "Food Chem.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of broccoli sprouts on nasal response to live attenuated influenza virus in smokers: a randomized, double-blind study.",
+                "details": "PLoS One.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

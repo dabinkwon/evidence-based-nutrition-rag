@@ -1,0 +1,276 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-103",
+    "sample_Nm": "블루베리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of blueberry anthocyanins on retinal oxidative stress and inflammation in diabetes through Nrf2/HO-1 signaling.",
+                  "details": "J Neuroimmunol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "The effects of wild blueberry consumption on plasma markers and gene expression related to glucose metabolism in the obese Zucker rat.",
+                  "details": "J Med Food.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "A blueberry-enriched diet improves renal function and reduces oxidative stress in metabolic syndrome animals: potential mechanism of TLR4-MAPK signaling pathway.",
+                  "details": "PLoS One.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Alcohol-free fermented blueberry-blackberry beverage phenolic extract attenuates diet-induced obesity and blood glucose in C57BL/6J mice.",
+                  "details": "J Nutr Biochem.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "A blueberry-enriched diet improves renal function and reduces oxidative stress in metabolic syndrome animals: potential mechanism of TLR4-MAPK signaling pathway.",
+                  "details": "PLoS One.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Moderate consumption of freeze-dried blueberry powder increased net bone calcium retention compared with no treatment in healthy postmenopausal women: a randomized crossover trial.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberry Anthocyanin-Enriched Extracts Attenuate Fine Particulate Matter (PM(2.5))-Induced Cardiovascular Dysfunction.",
+                  "details": "J Agric Food Chem.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Wild blueberry consumption affects aortic vascular function in the obese Zucker rat.",
+                  "details": "Appl Physiol Nutr Metab.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Alcohol-free fermented blueberry-blackberry beverage phenolic extract attenuates diet-induced obesity and blood glucose in C57BL/6J mice.",
+                  "details": "J Nutr Biochem.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "A blueberry-enriched diet improves renal function and reduces oxidative stress in metabolic syndrome animals: potential mechanism of TLR4-MAPK signaling pathway.",
+                  "details": "PLoS One.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Alcohol-free fermented blueberry-blackberry beverage phenolic extract attenuates diet-induced obesity and blood glucose in C57BL/6J mice.",
+                  "details": "J Nutr Biochem.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Dietary blueberry and bifidobacteria attenuate nonalcoholic fatty liver disease in rats by affecting SIRT1-mediated signaling pathway.",
+                  "details": "Oxid Med Cell Longev.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberry anthocyanins ameliorate radiation-induced lung injury through the protein kinase RNA-activated pathway.",
+                  "details": "Chem Biol Interact.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Blueberry anthocyanins-enriched extracts attenuate the cyclophosphamide-induced lung toxicity.",
+                  "details": "Chem Biol Interact.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Blueberry treatment decreased D-galactose-induced oxidative stress and brain damage in rats.",
+                  "details": "Metab Brain Dis.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Preventive effects of blueberry extract on behavioral and biochemical dysfunctions in rats submitted to a model of manic behavior induced by ketamine.",
+                  "details": "Brain Res Bull.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Alcohol-free fermented blueberry-blackberry beverage phenolic extract attenuates diet-induced obesity and blood glucose in C57BL/6J mice.",
+                  "details": "J Nutr Biochem.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Preventive and therapeutic effects of blueberry (Vaccinium corymbosum) extract against DSS-induced ulcerative colitis by regulation of antioxidant and inflammatory mediators.",
+                  "details": "J Nutr Biochem.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Alcohol-free fermented blueberry-blackberry beverage phenolic extract attenuates diet-induced obesity and blood glucose in C57BL/6J mice.",
+                "details": "J Nutr Biochem.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-tumor activity of a polysaccharide from blueberry.",
+                "details": "Molecules.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H033",
+            "fnclty_Nm": "눈(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of blueberry anthocyanins on retinal oxidative stress and inflammation in diabetes through Nrf2/HO-1 signaling.",
+                "details": "J Neuroimmunol.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of a blueberry extract in acute inflammation and collagen-induced arthritis in the rat.",
+                "details": "Biomed Pharmacother.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "A blueberry-enriched diet improves renal function and reduces oxidative stress in metabolic syndrome animals: potential mechanism of TLR4-MAPK signaling pathway.",
+                "details": "PLoS One.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Moderate consumption of freeze-dried blueberry powder increased net bone calcium retention compared with no treatment in healthy postmenopausal women: a randomized crossover trial.",
+                "details": "The American journal of clinical nutrition",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "A blueberry-enriched diet improves renal function and reduces oxidative stress in metabolic syndrome animals: potential mechanism of TLR4-MAPK signaling pathway.",
+                "details": "PLoS One.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Blueberries improve glucose tolerance without altering body composition in obese postmenopausal mice.",
+                "details": "Obesity (Silver Spring).  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

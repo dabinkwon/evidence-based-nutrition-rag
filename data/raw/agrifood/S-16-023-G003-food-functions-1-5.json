@@ -1,0 +1,45 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-023",
+    "sample_Nm": "헛개나무",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H047",
+          "fnclty_Nm": "숙취해소",
+          "thesis_Cnt": "4",
+          "thesis_List": {
+            "item": [
+              {
+                "title": "A standardized extract of the fruit of Hovenia dulcis alleviated alcohol-induced hangover in healthy subjects with heterozygous ALDH2: A randomized, controlled, crossover trial",
+                "details": "J Ethnopharmacol",
+                "pblicte_Year": "2017"
+              },
+              {
+                "title": "A standardized extract of the fruit of Hovenia dulcis alleviated alcohol induced hangover in healthy subjects with heterozygous ALDH2: A randomized, controlled, crossover trial",
+                "details": "Journal of Ethnopharmacology",
+                "pblicte_Year": "2017"
+              },
+              {
+                "title": "Effects of mixed supplementation on Hoveni dulcis Thunb extracts and Ginseng-Berry extracts on hangover curves",
+                "details": "The Journal of the Convergence on Culture Technology (문화기술의 융합)",
+                "pblicte_Year": "2019"
+              },
+              {
+                "title": "Increased Alcohol Decomposition Efficacy of Hoveina dulcis Extract by Carbohydrate-Hydrolyzing Enzymes",
+                "details": "J  East  Asian  Soc  Dietary",
+                "pblicte_Year": "2012"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

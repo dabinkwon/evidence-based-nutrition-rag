@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-040",
+    "sample_Nm": "파슬리",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H017",
+          "fnclty_Nm": "항산화",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Effect of parsley (Petroselinum crispum) intake on urinary apigenin excretion, blood antioxidant enzymes and biomarkers for oxidative stress in human subjects.",
+              "details": "Br J Nutr.  1999",
+              "pblicte_Year": "1999"
+            }
+          }
+        }
+      }
+    }
+  }
+}

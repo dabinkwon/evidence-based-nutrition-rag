@@ -1,0 +1,384 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-049",
+    "sample_Nm": "검정콩",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "8",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Monascus pilosus-fermented black soybean inhibits lipid accumulation in adipocytes and in high-fat diet-induced obese mice.",
+                  "details": "Asian Pac J Trop Med. 2015 Apr;8(4):276-82. doi: 10.1016/S1995-7645(14)60330-8.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Black soybean extract reduces fatty acid contents in subcutaneous, but not in visceral adipose triglyceride in high-fat fed rats.",
+                  "details": "Int J Food Sci Nutr. 2015;66(5):539-45. doi: 10.3109/09637486.2015.1028907. Epub 2015 Apr 1.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Ameliorative effects of Monascus pilosus-fermented black soybean (Glycine max L. Merrill) on high-fat diet-induced obesity.",
+                  "details": "J Med Food. 2014 Sep;17(9):972-8. doi: 10.1089/jmf.2012.2740. Epub 2014 Aug 12.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Anthocyanins attenuate body weight gain via modulating neuropeptide Y and GABAB1 receptor in rats hypothalamus.",
+                  "details": "Neuropeptides. 2013 Oct;47(5):347-53. doi: 10.1016/j.npep.2013.06.001. Epub 2013 Jul 2.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Weight reduction effects of a black soy peptide supplement in overweight and obese subjects: double blind, randomized, controlled study.",
+                  "details": "Food Funct. 2012 Oct;3(10):1019-24. Epub 2012 Jun 28.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "A black soybean seed coat extract prevents obesity and glucose intolerance by up-regulating uncoupling proteins and down-regulating inflammatory cytokines in high-fat diet-fed mice.",
+                  "details": "J Agric Food Chem. 2011 Aug 24;59(16):8985-93. doi: 10.1021/jf201471p. Epub 2011 Jul 27.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Novel black soy peptides with antiobesity effects: activation of leptin-like signaling and AMP-activated protein kinase.",
+                  "details": "Int J Obes (Lond). 2008 Jul;32(7):1161-70. doi: 10.1038/ijo.2008.60. Epub 2008 Apr 15.",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Anti-obesity and hypolipidemic effects of black soybean anthocyanins.",
+                  "details": "J Med Food. 2007 Sep;10(3):552-6.",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Cyanidin-3-glucoside derived from black soybeans ameliorate type 2 diabetes through the induction of differentiation of preadipocytes into smaller and insulin-sensitive adipocytes.",
+                  "details": "J Nutr Biochem. 2015 Aug;26(8):860-7. doi: 10.1016/j.jnutbio.2015.03.006. Epub 2015 Apr 23.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Black soybean seed coat extract ameliorates hyperglycemia and insulin sensitivity via the activation of AMP-activated protein kinase in diabetic mice.",
+                  "details": "J Agric Food Chem. 2013 Jun 12;61(23):5558-64. doi: 10.1021/jf401190y. Epub 2013 May 29.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "In vivo and in vitro application of black soybean peptides in the amelioration of endoplasmic reticulum stress and improvement of insulin resistance.",
+                  "details": "Life Sci. 2010 Feb 13;86(7-8):267-74. doi: 10.1016/j.lfs.2009.12.012. Epub 2010 Jan 4.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The anti-diabetic effect of anthocyanins in streptozotocin-induced diabetic rats through glucose transporter 4 regulation and prevention of insulin resistance and pancreatic apoptosis.",
+                  "details": "Mol Nutr Food Res. 2009 Nov;53(11):1419-29. doi: 10.1002/mnfr.200800526.",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Pterocarpan-enriched soy leaf extract ameliorates insulin sensitivity and pancreatic β-cell proliferation in type 2 diabetic mice.",
+                  "details": "Molecules. 2014 Nov 13;19(11):18493-510. doi: 10.3390/molecules191118493.",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Chemopreventive Action of Anthocyanin-rich Black Soybean Fraction in APC (Min/+) Intestinal Polyposis Model.",
+                  "details": "J Cancer Prev. 2015 Sep;20(3):193-201. doi: 10.15430/JCP.2015.20.3.193.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anthocyanin induces apoptosis of DU-145 cells in vitro and inhibits xenograft growth of prostate cancer.",
+                  "details": "Yonsei Med J. 2015 Jan;56(1):16-23. doi: 10.3349/ymj.2015.56.1.16.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Protective effect of anthocyanins from black soybean seed coats on UVB-induced apoptotic cell death in vitro and in vivo.",
+                  "details": "J Agric Food Chem. 2008 Nov 26;56(22):10600-5. doi: 10.1021/jf802112c.",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Effects of black soybean [Glycine max (L.) Merr.] seed coats and its anthocyanidins on colonic inflammation and cell proliferation in vitro and in vivo.",
+                  "details": "J Agric Food Chem. 2008 Sep 24;56(18):8427-33. doi: 10.1021/jf801342p. Epub 2008 Aug 19.",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The anti-inflammatory and antimicrobial effects of anthocyanin extracted from black soybean on chronic bacterial prostatitis rat model.",
+                  "details": "Chin J Integr Med. 2013 Oct 14. [Epub ahead of print]",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Anthocyanins from black soybean seed coats inhibit UVB-induced inflammatory cylooxygenase-2 gene expression and PGE2 production through regulation of the nuclear factor-kappaB and phosphatidylinositol 3-kinase/Akt pathway.",
+                  "details": "J Agric Food Chem. 2008 Oct 8;56(19):8969-74. doi: 10.1021/jf801345c. Epub 2008 Sep 9.",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Effects of black soybean [Glycine max (L.) Merr.] seed coats and its anthocyanidins on colonic inflammation and cell proliferation in vitro and in vivo.",
+                  "details": "J Agric Food Chem. 2008 Sep 24;56(18):8427-33. doi: 10.1021/jf801342p. Epub 2008 Aug 19.",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Soyasaponin Ab ameliorates colitis by inhibiting the binding of lipopolysaccharide (LPS) to Toll-like receptor (TLR)4 on macrophages.",
+                  "details": "J Agric Food Chem. 2011 Dec 28;59(24):13165-72. doi: 10.1021/jf2033818. Epub 2011 Nov 18.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Black soybean seed coat extract ameliorates hyperglycemia and insulin sensitivity via the activation of AMP-activated protein kinase in diabetic mice.",
+                  "details": "J Agric Food Chem. 2013 Jun 12;61(23):5558-64. doi: 10.1021/jf401190y. Epub 2013 May 29.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "In vivo and in vitro application of black soybean peptides in the amelioration of endoplasmic reticulum stress and improvement of insulin resistance.",
+                  "details": "Life Sci. 2010 Feb 13;86(7-8):267-74. doi: 10.1016/j.lfs.2009.12.012. Epub 2010 Jan 4.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The anti-diabetic effect of anthocyanins in streptozotocin-induced diabetic rats through glucose transporter 4 regulation and prevention of insulin resistance and pancreatic apoptosis.",
+                  "details": "Mol Nutr Food Res. 2009 Nov;53(11):1419-29. doi: 10.1002/mnfr.200800526.",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Pterocarpan-enriched soy leaf extract ameliorates insulin sensitivity and pancreatic β-cell proliferation in type 2 diabetic mice.",
+                  "details": "Molecules. 2014 Nov 13;19(11):18493-510. doi: 10.3390/molecules191118493.",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H041",
+            "fnclty_Nm": "전립선 건강의 유지",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Seoritae extract reduces prostate weight and suppresses prostate cell proliferation in a rat model of benign prostate hyperplasia.",
+                  "details": "Evid Based Complement Alternat Med. 2014;2014:475876. doi: 10.1155/2014/475876. Epub 2014 Feb 19.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Anthocyanin extracted from black soybean reduces prostate weight and promotes apoptosis in the prostatic hyperplasia-induced rat model.",
+                  "details": "J Agric Food Chem. 2010 Dec 22;58(24):12686-91. doi: 10.1021/jf102688g. Epub 2010 Dec 1.",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Black soybean seed coat extract ameliorates hyperglycemia and insulin sensitivity via the activation of AMP-activated protein kinase in diabetic mice.",
+                  "details": "J Agric Food Chem. 2013 Jun 12;61(23):5558-64. doi: 10.1021/jf401190y. Epub 2013 May 29.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "In vivo and in vitro application of black soybean peptides in the amelioration of endoplasmic reticulum stress and improvement of insulin resistance.",
+                  "details": "Life Sci. 2010 Feb 13;86(7-8):267-74. doi: 10.1016/j.lfs.2009.12.012. Epub 2010 Jan 4.",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The inhibitory effect of black soybean on hepatic cholesterol accumulation in high cholesterol and high fat diet-induced non-alcoholic fatty liver disease.",
+                  "details": "Food Chem Toxicol. 2013 Oct;60:404-12. doi: 10.1016/j.fct.2013.07.048. Epub 2013 Jul 27.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Mutagenic safety and fatty liver improvement of nanonized black soybeans in senescence-accelerated prone-8 mice.",
+                  "details": "J Food Sci. 2010 Jun;75(5):T82-90. doi: 10.1111/j.1750-3841.2010.01638.x.",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "An investigation into the ameliorating effect of black soybean extract on learning and memory impairment with assessment of neuroprotective effects.",
+                  "details": "BMC Complement Altern Med. 2014 Dec 13;14:482. doi: 10.1186/1472-6882-14-482.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effect of soybean supplementation on the memory of alprazolam-induced amnesic mice.",
+                  "details": "J Pharm Bioallied Sci. 2010 Apr;2(2):144-7. doi: 10.4103/0975-7406.67001.",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H013",
+            "fnclty_Nm": "과민면역(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anthocyanin Extracted from Black Soybean Seed Coats Prevents Autoimmune Arthritis by Suppressing the Development of Th17 Cells and Synthesis of Proinflammatory Cytokines by Such Cells, via Inhibition of NF-觀B.",
+                "details": "PLoS One. 2015;10(11):e0138201. doi: 10.1371/journal.pone.0138201.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H081",
+            "fnclty_Nm": "면역과민반응에 의한 피부상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Douchi (fermented Glycine max Merr.) alleviates atopic dermatitis-like skin lesions in NC/Nga mice by regulation of PKC and IL-4.",
+                "details": "BMC Complement Altern Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Black soyabean seed coat extract regulates iron metabolism by inhibiting the expression of hepcidin.",
+                "details": "Br J Nutr. 2014 Apr 14;111(7):1181-9. doi: 10.1017/S0007114513004005. Epub 2014 Jan 6.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "A beverage containing fermented black soybean ameliorates ferric nitrilotriacetate-induced renal oxidative damage in rats.",
+                "details": "J Clin Biochem Nutr. 2010 Nov;47(3):198-207. doi: 10.3164/jcbn.10-52. Epub 2010 Sep 16.",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "산화적 손상에 의해 유도된 신경세포독성에 대한 검정콩 껍질 추출물의 보호효과",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-obesity and hypolipidemic effects of black soybean anthocyanins.",
+                "details": "J Med Food. 2007 Sep;10(3):552-6.",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Nanonized black soybean enhances immune response in senescence-accelerated mice.",
+                "details": "Int J Nanomedicine. 2009;4:27-35. Epub 2009 Apr 1.",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Black soybean extract protects against TMT-induced cognitive defects in mice.",
+                "details": "J Med Food. 2014 Jan;17(1):83-91. doi: 10.1089/jmf.2013.3023.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H043",
+            "fnclty_Nm": "성기능",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of anthocyanin extracted from black soybean seed coat on spermatogenesis in a rat varicocele-induced model.",
+                "details": "Reprod Fertil Dev. 2012;24(5):649-55. doi: 10.1071/RD11174.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H033",
+            "fnclty_Nm": "눈(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anthocyanins from the seed coat of black soybean reduce retinal degeneration induced by N-methyl-N-nitrosourea.",
+                "details": "Exp Eye Res. 2012 Apr;97(1):55-62. doi: 10.1016/j.exer.2012.02.010. Epub 2012 Feb 22.",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

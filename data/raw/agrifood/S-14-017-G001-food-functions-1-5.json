@@ -1,0 +1,90 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-017",
+    "sample_Nm": "사삼",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Roots extracts of Adenophora triphylla var. japonica improve obesity in 3T3-L1 adipocytes and high-fat diet-induced obese mice.",
+                  "details": "Asian Pac J Trop Med. 2015 Nov;8(11):898-906. doi: 10.1016/j.apjtm.2015.10.011. Epub 2015 Oct 9.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-obesity effect and action mechanism of Adenophora triphylla root ethanol extract in C57BL/6 obese mice fed a high-fat diet.",
+                  "details": "Biosci Biotechnol Biochem. 2013;77(3):544-50. Epub 2013 Mar 7.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Anti-Obesity Effect and Action Mechanism of Adenophora triphylla Root Ethanol Extract in C57BL/6 Obese Mice Fed a High-Fat Diet",
+                  "details": "Bioscience, biotechnology, and biochemistry 77.3 (2013): 544-550.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Roots extracts of Adenophora triphylla var. japonica improve obesity in 3T3-L1 adipocytes and high-fat diet-induced obese mice",
+                  "details": "Asian Pacific journal of tropical medicine 8.11 (2015): 898-906.",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effects of lupeol against D-galactosamine and lipopolysaccharide-induced fulminant hepatic failure in mice.",
+                  "details": "J Nat Prod. 2014 Nov 26;77(11):2383-8. doi: 10.1021/np500296b. Epub 2014 Oct 17.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Protective Effects of Lupeol against D‑Galactosamine and Lipopolysaccharide-Induced Fulminant Hepatic Failure in Mice",
+                  "details": "Journal of natural products 77.11 (2014): 2383-2388.",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antitussive, expectorant, and anti-inflammatory effects of Adenophorae Radix powder in ICR mice",
+                "details": "CABI Databases",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "잔대 추출물의 항염 및 항천식 효과",
+                "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

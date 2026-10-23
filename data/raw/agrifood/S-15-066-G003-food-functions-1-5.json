@@ -1,0 +1,78 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-066",
+    "sample_Nm": "오디(뽕나무)",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Food-grade mulberry powder enriched with 1-deoxynojirimycin suppresses the elevation of postprandial blood glucose in humans.",
+                "details": "J Agric Food Chem.  2007",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "오디추출물 급여가 충남 일부지역에 거주하는 중년 남, 녀의 혈청 무기질 수준 및 항산화관련 인자에 미친 영향",
+                "details": "한국식품조리과학회 2005년도 춘계학술대회",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "오디추출물 급여가 충남 일부지역에 거주하는 중년 남, 녀의 혈청 무기질 수준 및 항산화관련 인자에 미친 영향",
+                "details": "한국식품조리과학회 2005년도 춘계학술대회",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Food-grade mulberry powder enriched with 1-deoxynojirimycin suppresses the elevation of postprandial blood glucose in humans.",
+                "details": "J Agric Food Chem.  2007",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "오디추출물 급여가 충남 일부지역에 거주하는 중년 남, 녀의 혈청 무기질 수준 및 항산화관련 인자에 미친 영향",
+                "details": "한국식품조리과학회 2005년도 춘계학술대회",
+                "pblicte_Year": "2005"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

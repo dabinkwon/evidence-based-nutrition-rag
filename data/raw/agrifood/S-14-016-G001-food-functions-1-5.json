@@ -1,0 +1,313 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-016",
+    "sample_Nm": "양파",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Onion extract (Allium cepa L.), quercetin and catechin up-regulate paraoxonase 1 activity with concomitant protection against low-density lipoprotein oxidation in male Wistar rats subjected to oxidative stress.",
+                  "details": "J Sci Food Agric. 2014 Oct;94(13):2752-7.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Protective effects of onion extract on cadmium-induced oxidative stress, histological damage, and apoptosis in rat heart.",
+                  "details": "Biol Trace Elem Res. 2014 Jun;159(1-3):297-303. doi: 10.1007/s12011-014-9968-9. Epub 2014 Apr 17.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Anti-oxidative role of quercetin derived from Allium cepa on aldehyde oxidase (OX-LDL) and hepatocytes apoptosis in streptozotocin-induced diabetic rat.",
+                  "details": "Asian Pac J Trop Biomed. 2012 Jul;2(7):528-31. doi: 10.1016/S2221-1691(12)60090-2.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Assessment of red onion on antioxidant activity in rat.",
+                  "details": "Food Chem Toxicol. 2012 Nov;50(11):3912-9. doi: 10.1016/j.fct.2012.08.004. Epub 2012 Aug 10.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Antioxidant and anti-apoptotic effects of onion (Allium cepa) extract on doxorubicin-induced cardiotoxicity in rats.",
+                  "details": "J Appl Toxicol. 2013 Mar;33(3):202-8. doi: 10.1002/jat.1738. Epub 2011 Oct 13.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "양파껍질 열수 추출물이 혈중지질 성분과 혈당에 미치는 영향",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypolipidemic Effect of Onion Peel Extract in Rats Exposed to Cigarette Smoke Extract with a High-Fat Diet",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "New insights into the effects of onion consumption on lipid mediators using a diet-induced model of hypercholesterolemia.",
+                  "details": "Redox Biol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "The effects of onion consumption on treatment of metabolic, histologic, and inflammatory features of nonalcoholic fatty liver disease.",
+                  "details": "J Diabetes Metab Disord.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "양파껍질 열수 추출물이 혈중지질 성분과 혈당에 미치는 영향",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "고지방식이를 섭취한 마우스에서 양파껍질 열수 추출물이 혈중지질에 미치는 영향",
+                  "details": "韓國藥用作物學會誌 = Korean journal of medicinal crop science",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Onion peel extracts ameliorate hyperglycemia and insulin resistance in high fat diet/streptozotocin-induced diabetic rats.",
+                  "details": "Nutr Metab (Lond). 2011 Mar 28;8(1):18. doi: 10.1186/1743-7075-8-18.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "양파껍질 열수 추출물이 혈중지질 성분과 혈당에 미치는 영향",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of onion (Allium cepa L.) extract administration on intestinal 慣-glucosidases activities and spikes in postprandial blood glucose levels in SD rats model.",
+                  "details": "Int J Mol Sci. 2011;12(6):3757-69. doi: 10.3390/ijms12063757. Epub 2011 Jun 8.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Onion peel extracts ameliorate hyperglycemia and insulin resistance in high fat diet/streptozotocin-induced diabetic rats.",
+                  "details": "Nutr Metab (Lond). 2011 Mar 28;8(1):18. doi: 10.1186/1743-7075-8-18.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-obesity effects of onion extract in Zucker diabetic fatty rats.",
+                  "details": "Nutrients. 2012 Oct 22;4(10):1518-26. doi: 10.3390/nu4101518.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "양파껍질 추출물 급여가 비만 유도쥐의 소장내 변화에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effects of onion (Allium cepa) extract on doxorubicin-induced apoptosis in aortic endothelial cells.",
+                "details": "J Appl Toxicol. 2013 May;33(5):364-9. doi: 10.1002/jat.1750. Epub 2011 Oct 12.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Potential therapeutic effect of Allium cepa L. and quercetin in a murine model of Blomia tropicalis induced asthma.",
+                "details": "Daru. 2015 Feb 21;23:18. doi: 10.1186/s40199-015-0098-5.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "양파껍질 추출물 급여가 비만 유도쥐의 소장내 변화에 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Onion peel extracts ameliorate hyperglycemia and insulin resistance in high fat diet/streptozotocin-induced diabetic rats.",
+                "details": "Nutr Metab (Lond). 2011 Mar 28;8(1):18. doi: 10.1186/1743-7075-8-18.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Lipid lowering effect of S-methyl cysteine sulfoxide from Allium cepa Linn in high cholesterol diet fed rats.",
+                "details": "J Ethnopharmacol. 2007 Feb 12;109(3):367-71. Epub 2006 Aug 22.",
+                "pblicte_Year": "2007"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H076",
+            "fnclty_Nm": "혈관이완을 통한 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of onion extract on endogenous vascular H2S and adrenomedulin in rat atherosclerosis.",
+                "details": "Curr Pharm Biotechnol. 2011 Sep;12(9):1427-39.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Physicochemical characteristics of rapidly dried onion powder and its anti-atherogenic effect on rats fed high-fat diet.",
+                "details": "Food Chem. 2011 Dec 1;129(3):810-5. doi: 10.1016/j.foodchem.2011.05.027. Epub 2011 May 11.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Prophylactic Effects of Garlic Oil and Onion Oil Fractions as Compared to Vitamin E on Rats Orally Fed with Lead Acetate Solution.",
+                "details": "Indian J Clin Biochem.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Vasorelaxant and hypotensive effects of Allium cepa peel hydroalcoholic extract in rat.",
+                "details": "Pak J Biol Sci. 2008 Jun 15;11(12):1569-75.",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Modulating effect of Allium cepa on kidney apoptosis caused by Toxoplasma gondii.",
+                "details": "Adv Pharm Bull. 2012;2(1):1-6. doi: 10.5681/apb.2012.001. Epub 2012 Feb 15.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Allium cepa and Allium sativum on some immunological cells in rats.",
+                "details": "Afr J Tradit Complement Altern Med. 2012;9(3):374-9.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of onion (Allium cepa) extract against doxorubicin-induced hepatotoxicity in rats.",
+                "details": "Toxicol Ind Health.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "양파껍질 열수추출물의 in vitro 및 in vivo 항염증 효과",
+                "details": "KSBB Journal",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

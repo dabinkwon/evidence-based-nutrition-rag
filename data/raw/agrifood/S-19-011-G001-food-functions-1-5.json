@@ -1,0 +1,102 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-19-011",
+    "sample_Nm": "호박(주키니)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective role of three vegetable peels in alloxan induced diabetes mellitus in male mice.",
+                  "details": "Plant Foods Hum Nutr. 2010 Sep;65(3):284-9. doi: 10.1007/s11130-010-0175-3.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Antioxidative effects of pumpkin seed (Cucurbita pepo) protein isolate in CCl4-induced liver injury in low-protein fed rats.",
+                  "details": "Phytother Res. 2006 Nov;20(11):935-40.",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Tocopherol from seeds of Cucurbita pepo against diabetes: validation by in vivo experiments supported by computational docking.",
+                  "details": "J Formos Med Assoc. 2013 Nov;112(11):676-90.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective role of three vegetable peels in alloxan induced diabetes mellitus in male mice.",
+                  "details": "Plant Foods Hum Nutr. 2010 Sep;65(3):284-9. doi: 10.1007/s11130-010-0175-3.",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Antioxidative effects of pumpkin seed (Cucurbita pepo) protein isolate in CCl4-induced liver injury in low-protein fed rats.",
+                  "details": "Phytother Res. 2006 Nov;20(11):935-40.",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Tocopherol from seeds of Cucurbita pepo against diabetes: validation by in vivo experiments supported by computational docking.",
+                  "details": "J Formos Med Assoc. 2013 Nov;112(11):676-90.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effects of methanolic, chloroform, and ethylacetate extracts of the Cucurbita pepo L. on the delay type hypersensitivity and antibody production.",
+                "details": "Res Pharm Sci. 2012 Oct;7(4):217-24.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In Vitro antioxidative activity of pumpkin seed (Cucurbita pepo) protein isolate and its In Vivo effect on alanine transaminase and aspartate transaminase in acetaminophen-induced liver injury in low protein fed rats.",
+                "details": "Phytother Res. 2006 Sep;20(9):780-3.",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effect of pumpkin (Cucurbita pepo L) seeds and L-arginine supplementation on serum lipid concentrations in atherogenic rats.",
+                "details": "Afr J Tradit Complement Altern Med. 2012;9(1):131-7.",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-062",
+    "sample_Nm": "고사리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Immunomodulatory effects of Pteridium aquilinum on natural killer cell activity and select aspects of the cellular immune response of mice",
+                "details": "Journal of Immunotoxicology 6.2 (2009): 104-114.",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-Inflammatory Activity of Fern Pteridium aquilinum Ethanol Extract Gel on Mice (Mus musculus) Incision Wounds",
+                "details": "IOP Conference Series: Earth and Environmental Science. Vol. 1329. No. 1. IOP Publishing, 2024.",
+                "pblicte_Year": "2024"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

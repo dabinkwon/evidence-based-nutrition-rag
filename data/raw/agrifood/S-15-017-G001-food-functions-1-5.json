@@ -1,0 +1,135 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-017",
+    "sample_Nm": "곰취",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ligularia fischeri extract attenuates liver damage induced by chronic alcohol intake.",
+                  "details": "Pharm Biol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "에탄올 투여 랫드에서 곰취 열수 추출 발효물이 간 독성에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Ligularia fischeri extract attenuates liver damage induced by chronic alcoholintake",
+                  "details": "Pharmaceutical Biology",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antihyperlipidemic Activity of Ligularia fischeri Extract in Mice Fed a High-Carbohydrate Diet",
+                  "details": "JOURNAL OF MEDICINAL FOOD",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Antihyperglycemic and Antilipidemic Effects of the Ethanol Extract Mixture of Ligularia fischeri and Momordica charantia in Type II Diabetes-Mimicking Mice",
+                  "details": "Evidence-Based Complementary and Alternative Medicine",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Analgesic and anti-inflammatory effects of Ligularia fischeri leaves in experimental animals.",
+                  "details": "J Ethnopharmacol.  2008",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Analgesic and anti-inflammatory effects of Ligularia fischeri leaves in experimental animals",
+                  "details": "Journal of Ethnopharmacology",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ligularia fischeri leaf extract prevents the oxidative stress in DBA/1J mice with type II collagen-induced arthritis.",
+                  "details": "J Appl Toxicol.  2007",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Ligularia ﬁscheri leaf extract prevents the oxidativestress in DBA/1J mice with type II collagen-inducedarthritis",
+                  "details": "JOURNAL OF APPLIED TOXICOLOGY",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "A preliminary study of the effects of an extract of Ligularia fischeri leaves on type II collagen-induced arthritis in DBA/1J mice",
+                "details": "Food and Chemical Toxicology",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of Ligularia fischeri root extracts against ulcerative colitis in mice through activation of Bcl-2/Bax signalings",
+                "details": "Phytomedicine",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ligularia fischeri Extract Protects Against Oxidative-Stress-Induced Neurotoxicity in Mice and PC12 Cells",
+                "details": "JOURNAL OF MEDICINAL FOOD",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

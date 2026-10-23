@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-075",
+    "sample_Nm": "키위(참다래)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H040",
+            "fnclty_Nm": "수면(의 질 개선)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Green and gold kiwifruit peel ethanol extracts potentiate pentobarbital-induced sleep in mice via a GABAergic mechanism.",
+                "details": "Food Chem.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "제주산 참다래가 Loperamide로 유도된 변비에 미치는 영향",
+                "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

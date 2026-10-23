@@ -1,0 +1,152 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-051",
+    "sample_Nm": "망개(청미래덩굴)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Pallidifloside D from Smilax riparia enhanced allopurinol effects in hyperuricemia mice.",
+                  "details": "Fitoterapia.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-hyperuricemia effects of allopurinol are improved by Smilax riparia, a traditional Chinese herbal medicine.",
+                  "details": "J Ethnopharmacol.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Pallidifloside D, a saponin glycoside constituent from Smilax riparia, resist to hyperuricemia based on URAT1 and GLUT9 in hyperuricemic mice.",
+                  "details": "J Ethnopharmacol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Anti-hyperuricemic and nephroprotective effects of Smilax china L.",
+                  "details": "J Ethnopharmacol.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H030",
+            "fnclty_Nm": "중금속 배출",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effect of Smilax glabra extract against lead-induced oxidative stress in rats.",
+                  "details": "J Ethnopharmacol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "청미래 덩굴 뿌리 추출물 투여가 실험동물의 체내 중금속 함량에 미치는 영향",
+                  "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H012",
+            "fnclty_Nm": "방광의 배뇨기능 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Riparoside B and timosaponin J, two steroidal glycosides from Smilax riparia, resist to hyperuricemia based on URAT1 in hyperuricemic mice.",
+                  "details": "Phytomedicine.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Diuretic activity of some Smilax canariensis fractions.",
+                  "details": "J Ethnopharmacol.  2012",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Astilbin prevents concanavalin A-induced liver injury by reducing TNF-alpha production and T lymphocytes adhesion.",
+                  "details": "J Pharm Pharmacol.  2004",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "발효 청미래덩굴잎 추출물이 사염화탄소에 의한 마우스의 간 손상 보호 효과",
+                  "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypoglycemic and hypotensive activity of a root extract of Smilax aristolochiifolia, standardized on N-trans-feruloyl-tyramine.",
+                "details": "Molecules.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Hot-Water Extract of Smilacis Chinae Rhizome Suppresses 2,4-Dinitrochlorobenzene and House Dust Mite-Induced Atopic Dermatitis-Like Skin Lesions in Mice.",
+                "details": "Phytother Res.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H041",
+            "fnclty_Nm": "전립선 건강의 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Fraction of macroporous resin from Smilax china L. inhibits testosterone propionate-induced prostatic hyperplasia in castrated rats.",
+                "details": "J Med Food.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Immunomodulatory activity of the aqueous extract from rhizome of Smilax glabra in the later phase of adjuvant-induced arthritis in rats.",
+                "details": "J Ethnopharmacol.  2003",
+                "pblicte_Year": "2003"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

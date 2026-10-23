@@ -1,0 +1,303 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-055",
+    "sample_Nm": "비파나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypoglycemic and hypolipidemic effects of the total triterpene acid fraction from Folium Eriobotryae.",
+                  "details": "J Ethnopharmacol.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Hypoglycemic effect of the total flavonoid fraction from folium Eriobotryae.",
+                  "details": "Phytomedicine.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Hypoglycemic activity of Eriobotrya japonica seeds in type 2 diabetic rats and mice.",
+                  "details": "Biosci Biotechnol Biochem.  2008",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "비파엽(枇杷葉)의 항당뇨병약리활성(抗糖尿病藥理活性)과 IL-1β유발당뇨병(誘發糖尿病) 마우스의 췌장(膵臟) 인산화효소(燐酸化酵素)에 미치는 효과(效果)에 관(關)한 연구(硏究)",
+                  "details": "東國韓醫學硏究所 論文集 = The journal of oriental medicine drug R&D Center",
+                  "pblicte_Year": "1998"
+                },
+                {
+                  "title": "db/db 마우스에서 비파의 혈당 저하 효과",
+                  "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Tormentic acid, a major component of suspension cells of Eriobotrya japonica, suppresses high-fat diet-induced diabetes and hyperlipidemia by glucose transporter 4 and AMP-activated protein kinase phosphorylation.",
+                  "details": "J Agric Food Chem.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Grape skin and loquat leaf extracts and acai puree have potent anti-atherosclerotic and anti-diabetic activity in vitro and in vivo in hypercholesterolemic zebrafish.",
+                  "details": "Int J Mol Med.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "비파잎 에탄올 추출물이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 콜레스테롤 저하 및 항산화 활성에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "db/db 마우스에서 비파의 혈당 저하 효과",
+                  "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-inflammatory activities of tormentic acid from suspension cells of Eriobotrya Japonicaex vivo and in vivo.",
+                  "details": "Food Chem.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "The differential effect of Eriobotrya japonica hydrophilic leaf extract on cytokines production and modulation.",
+                  "details": "Cytokine.  2007",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Anti-oxidative effect of triterpene acids of Eriobotrya japonica (Thunb.) Lindl. leaf in chronic bronchitis rats.",
+                  "details": "Life Sci.  2006",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypoglycemic and hypolipidemic effects of the total triterpene acid fraction from Folium Eriobotryae.",
+                  "details": "J Ethnopharmacol.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Hypoglycemic effect of the total flavonoid fraction from folium Eriobotryae.",
+                  "details": "Phytomedicine.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "비파잎 에탄올 추출물이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 콜레스테롤 저하 및 항산화 활성에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "db/db 마우스에서 비파의 혈당 저하 효과",
+                  "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Cell suspension culture of Eriobotrya japonica regulates the diabetic and hyperlipidemic signs of high-fat-fed mice.",
+                  "details": "Molecules.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Theflavins and theasinensin A derived from fermented tea have antihyperglycemic and hypotriacylglycerolemic effects in KK-A(y) mice and Sprague-Dawley rats.",
+                  "details": "J Agric Food Chem.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of Eriobotrya japonica seed extract on oxidative stress in adriamycin-induced nephropathy in rats.",
+                  "details": "Biol Pharm Bull.  2004",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "비파잎 에탄올 추출물이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 콜레스테롤 저하 및 항산화 활성에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H050",
+            "fnclty_Nm": "근육(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Loquat leaf extract enhances myogenic differentiation, improves muscle function and attenuates muscle loss in aged rats.",
+                  "details": "Int J Mol Med.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Loquat (Eriobotrya japonica) extract prevents dexamethasone-induced muscle atrophy by inhibiting the muscle degradation pathway in Sprague Dawley rats.",
+                  "details": "Mol Med Rep.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Cinchonain Ib isolated from Eriobotrya japonica induces insulin secretion in vitro and in vivo.",
+                  "details": "J Ethnopharmacol.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Hypoglycemic effects of a sesquiterpene glycoside isolated from leaves of loquat (Eriobotrya japonica (Thunb.) Lindl.).",
+                  "details": "Phytomedicine.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H081",
+            "fnclty_Nm": "면역과민반응에 의한 피부상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Immunomodulatory effect of Eriobotrya japonica seed extract on allergic dermatitis rats.",
+                "details": "J Nutr Sci Vitaminol (Tokyo).  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of extract derived from Eriobotrya japonica on liver function improvement in rats.",
+                "details": "Biol Pharm Bull.  2002",
+                "pblicte_Year": "2002"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Eriobotrya japonica seed extract on 5-fluorouracil-induced mucositis in hamsters.",
+                "details": "Biol Pharm Bull.  2008",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Eriobotrya japonica hydrophilic extract modulates cytokines in normal tissues, in the tumor of Meth-A-fibrosarcoma bearing mice, and enhances their survival time.",
+                "details": "BMC Complement Altern Med.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "비파잎 에탄올 추출물이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 콜레스테롤 저하 및 항산화 활성에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Gastroprotective activity of Eriobotrya japonica seed extract on experimentally induced gastric lesions in rats.",
+                "details": "J Nat Med.  2008",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Neuroprotective effects of Eriobotrya japonica against 棺-amyloid-induced oxidative stress and memory impairment.",
+                "details": "Food Chem Toxicol.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

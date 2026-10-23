@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-073",
+    "sample_Nm": "큰조롱(백수오)",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H035",
+          "fnclty_Nm": "월경 전 변화에 의한 불편한 상태 개선",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "이소플라본과 백수오 보충 섭취가 월경전 증후군, 월경통에 미치는 영향 - 20대 여성을 중심으로-",
+              "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+              "pblicte_Year": "2015"
+            }
+          }
+        }
+      }
+    }
+  }
+}

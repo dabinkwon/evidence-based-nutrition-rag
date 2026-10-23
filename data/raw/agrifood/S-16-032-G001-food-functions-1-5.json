@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-032",
+    "sample_Nm": "메밀",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "녹차, 메밀 및 포도잎 추출물 첨가식이가 동맥경화유발식이를 급여한 F1B Golden Syrian 햄스터의 지질대사와 대동맥의 지방 축적에 미치는 영향",
+                "details": "한국식품과학회지 = Korean journal of food science and technology",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "녹차, 메밀 및 포도잎 추출물 첨가식이가 동맥경화유발식이를 급여한 F1B Golden Syrian 햄스터의 지질대사와 대동맥의 지방 축적에 미치는 영향",
+                "details": "한국식품과학회지 = Korean journal of food science and technology",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "녹차, 메밀 및 포도잎 추출물 첨가식이가 동맥경화유발식이를 급여한 F1B Golden Syrian 햄스터의 지질대사와 대동맥의 지방 축적에 미치는 영향",
+                "details": "한국식품과학회지 = Korean journal of food science and technology",
+                "pblicte_Year": "2005"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

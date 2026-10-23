@@ -1,0 +1,169 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-026",
+    "sample_Nm": "야콘",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Improvement of biochemical parameters in type 1 diabetic rats after the roots aqueous extract of yacon [Smallanthus sonchifolius (Poepp.& Endl.)] treatment.",
+                  "details": "Food Chem Toxicol.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Yacon diet (Smallanthus sonchifolius, Asteraceae) improves hepatic insulin resistance via reducing Trb3 expression in Zucker fa/fa rats.",
+                  "details": "Nutr Diabetes.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Hypoglycemic activity of leaf organic extracts from Smallanthus sonchifolius: Constituents of the most active fractions.",
+                  "details": "Chem Biol Interact.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Hypoglycemic effect of the water extract of Smallantus sonchifolius (yacon) leaves in normal and diabetic rats.",
+                  "details": "J Ethnopharmacol.  2001",
+                  "pblicte_Year": "2001"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Improvement of biochemical parameters in type 1 diabetic rats after the roots aqueous extract of yacon [Smallanthus sonchifolius (Poepp.& Endl.)] treatment.",
+                  "details": "Food Chem Toxicol.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Yacon diet (Smallanthus sonchifolius, Asteraceae) improves hepatic insulin resistance via reducing Trb3 expression in Zucker fa/fa rats.",
+                  "details": "Nutr Diabetes.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypolipidemic effect of Smallanthus sonchifolius (yacon) roots on diabetic rats: biochemical approach.",
+                  "details": "Chem Biol Interact.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "야콘 분말이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 콜레스테롤 저하 및 비만 억제효과에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Yacon roots (Smallanthus sonchifolius) improve oxidative stress in diabetic rats.",
+                "details": "Pharm Biol.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Yacon (Smallanthus sonchifolius)-derived fructooligosaccharides improves the immune parameters in the mouse.",
+                "details": "Nutr Res.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effect of yacon leaves decoction against early nephropathy in experimental diabetic rats.",
+                "details": "Food Chem Toxicol.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of yacon (Smallanthus sonchifolius) intake on experimental colon carcinogenesis.",
+                "details": "Food Chem Toxicol.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "야콘 분말이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 콜레스테롤 저하 및 비만 억제효과에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hydroethanolic extract of Smallanthus sonchifolius leaves improves hyperglycemia of streptozotocin induced neonatal diabetic rats.",
+                "details": "Asian Pac J Trop Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "야콘 분말이 고지방-고콜레스테롤 식이를 급여한 흰쥐의 콜레스테롤 저하 및 비만 억제효과에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2010"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

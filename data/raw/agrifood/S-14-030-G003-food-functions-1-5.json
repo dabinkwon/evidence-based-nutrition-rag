@@ -1,0 +1,35 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-030",
+    "sample_Nm": "알리움 후커리",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H072",
+          "fnclty_Nm": "식후 혈당 상승 억제",
+          "thesis_Cnt": "2",
+          "thesis_List": {
+            "item": [
+              {
+                "title": "Supplementary Effects of Allium hookeri Extract on Glucose Tolerance in Prediabetic Subjects and C57BL/KsJ-db/db Mice.",
+                "details": "pharmaceuticals",
+                "pblicte_Year": "2023"
+              },
+              {
+                "title": "A randomized, double-blind, placebocontrolled crossover clinical trial to evaluate the anti-diabetic effects of Allium hookeri extract in the subjects with prediabetes",
+                "details": "BMC Complementary Medicine and Therapies",
+                "pblicte_Year": "2020"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

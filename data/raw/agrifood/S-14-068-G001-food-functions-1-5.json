@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-068",
+    "sample_Nm": "딸기",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of strawberry (Fragaria * ananassa) leaf extract on diabetic nephropathy in rats.",
+                "details": "Int J Exp Pathol. 2015 Apr;96(2):87-93. doi: 10.1111/iep.12116. Epub 2015 Feb 3.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Doxorubicin-induced oxidative stress in rats is efficiently counteracted by dietary anthocyanin differently enriched strawberry (Fragaria*ananassa Duch.).",
+                "details": "J Agric Food Chem. 2014 May 7;62(18):3935-43. doi: 10.1021/jf405721d. Epub 2014 Mar 11.",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

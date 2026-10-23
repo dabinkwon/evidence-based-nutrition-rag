@@ -1,0 +1,95 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-096",
+    "sample_Nm": "바디나물",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of (±)-praeruptorin A on airway inflammation, airway hyperresponsiveness and NF-κB signaling pathway in a mouse model of allergic airway disease",
+                  "details": "Eur J Pharmacol",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Inhibition of airway inflammation by the roots of Angelica decursiva and its constituent, columbianadin",
+                  "details": "J Ethnopharmacol",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Protective effects of Angelica decursiva Franchet & Savatier on allergic responses through enhancement of Nrf2 and suppression of NF-kB/MMP-9 in ovalbumin-exposed mice",
+                  "details": "J Ethnopharmacol",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Reduced allergic lung inflammation by root extracts from two species of Peucedanum through inhibition of Th2 cell activation",
+                  "details": "J Ethnopharmacol",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "The effects of (±)-Praeruptorin A on airway inflammation, remodeling and transforming growth factor-β1/Smad signaling pathway in a murine model of allergic asthma",
+                  "details": "Int Immunopharmacol",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Angelica decursiva exerts antihypertensive activity by inhibiting L-type calcium channel",
+                  "details": "Journal of Ethnopharmacology",
+                  "pblicte_Year": "2023"
+                },
+                {
+                  "title": "Vasorelaxant effects of Angelica decursiva root on isolated rat aortic rings",
+                  "details": "BMC Complement Altern Med.",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of pretreatment with methanol extract of Peucedani Radix on transient ischemic brain injury in mice",
+                "details": "Chin Med",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Toxicological assessments of an ethanol extract complex of Descurainia sophia and Peucedanum praeruptorum: Subacute oral toxicity and genotoxicity studies",
+                "details": "Journal of Applied Toxicology",
+                "pblicte_Year": "2020"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

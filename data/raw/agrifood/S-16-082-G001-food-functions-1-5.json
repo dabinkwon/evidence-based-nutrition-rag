@@ -1,0 +1,155 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-082",
+    "sample_Nm": "느타리버섯",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Comparative effects of oyster mushrooms on lipid profile, liver and kidney function in hypercholesterolemic rats",
+                  "details": "Mycobiology",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Dietary mushroom (Pleurotus ostreatus) ameliorates atherogenic lipid in hypercholesterolaemic rats",
+                  "details": "Clin Exp Pharmacol Physiol",
+                  "pblicte_Year": "2003"
+                },
+                {
+                  "title": "Dose- and time-dependent hypocholesterolemic effect of oyster mushroom (Pleurotus ostreatus) in rats",
+                  "details": "Nutrition",
+                  "pblicte_Year": "1998"
+                },
+                {
+                  "title": "Hypocholesterolemic and antiatherogenic effect of oyster mushroom (Pleurotus ostreatus) in rabbits",
+                  "details": "Nahrung",
+                  "pblicte_Year": "1999"
+                },
+                {
+                  "title": "Hypolipidemic Activities of Dietary Pleurotus ostreatus in Hypercholesterolemic Rats",
+                  "details": "Mycobiology",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Modulatory effect of Pleurotus ostreatus on oxidant/antioxidant status in 7, 12-dimethylbenz (a) anthracene induced mammary carcinoma in experimental rats--A dose-response study",
+                  "details": "J Cancer Res Ther",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Pleurotus ostreatus, an edible mushroom, enhances glucose 6-phosphate dehydrogenase, ascorbate peroxidase and reduces xanthine dehydrogenase in major organs of aged rats",
+                  "details": "Pharm Biol",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Pleurotus ostreatus, an oyster mushroom, decreases the oxidative stress induced by carbon tetrachloride in rat kidneys, heart and brain",
+                  "details": "Chem Biol Interact",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Protective effect of an extract of the oyster mushroom, Pleurotus ostreatus, on antioxidants of major organs of aged rats",
+                  "details": "Exp Gerontol",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-inflammatory activity of edible oyster mushroom is mediated through the inhibition of NF-kappaB and AP-1 signaling",
+                  "details": "Nutr J",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Effects of pleuran (beta-glucan isolated from Pleurotus ostreatus) on experimental colitis in rats",
+                  "details": "Physiol Res",
+                  "pblicte_Year": "2001"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-tumor and macrophage activation induced by alkali-extracted polysaccharide from Pleurotus ostreatus",
+                  "details": "Int J Biol Macromol",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Immune augmentation and Dalton&apos;s Lymphoma tumor inhibition by glucans/glycans isolated from the mycelia and fruit body of Pleurotus ostreatus",
+                  "details": "Int Immunopharmacol",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidiabetic effect of polysaccharides from Pleurotus ostreatus in streptozotocin-induced diabetic rats",
+                "details": "Int J Biol Macromol",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidiabetic effect of polysaccharides from Pleurotus ostreatus in streptozotocin-induced diabetic rats",
+                "details": "Int J Biol Macromol",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antihypercholesterolemic and antioxidative effects of an extract of the oyster mushroom, Pleurotus ostreatus, and its major constituent, chrysin, in Triton WR-1339-induced hypercholesterolemic rats",
+                "details": "J Physiol Biochem",
+                "pblicte_Year": "2013"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-025",
+    "sample_Nm": "쓴메밀",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Fagopyrum tataricum (buckwheat) improved high-glucose-induced insulin resistance in mouse hepatocytes and diabetes in fructose-rich diet-induced mice",
+                "details": "Exp Diabetes Res",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Rutin and quercetin, bioactive compounds from tartary buckwheat, prevent liver inflammatory injury",
+                "details": "Food Funct",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Rutin and quercetin, bioactive compounds from tartary buckwheat, prevent liver inflammatory injury",
+                "details": "Food Funct",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Fagopyrum tataricum (buckwheat) improved high-glucose-induced insulin resistance in mouse hepatocytes and diabetes in fructose-rich diet-induced mice",
+                "details": "Exp Diabetes Res",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Fagopyrum tataricum (buckwheat) improved high-glucose-induced insulin resistance in mouse hepatocytes and diabetes in fructose-rich diet-induced mice",
+                "details": "Exp Diabetes Res",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

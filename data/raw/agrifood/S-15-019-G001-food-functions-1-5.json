@@ -1,0 +1,330 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-019",
+    "sample_Nm": "들깨",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "7",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-atherosclerotic effects of perilla oil in rabbits fed a high-cholesterol diet.",
+                  "details": "Lab Anim Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effects of n-3 polyunsaturated fatty acids high fat diet intervention on the synthesis of hepatic high-density lipoprotein cholesterol in obesity-insulin resistance rats.",
+                  "details": "Lipids Health Dis.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "High-fat diet from perilla oil induces insulin resistance despite lower serum lipids and increases hepatic fatty acid oxidation in rats.",
+                  "details": "Lipids Health Dis.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effects of perilla oil on plasma concentrations of cardioprotective (n-3) fatty acids and lipid profiles in mice.",
+                  "details": "Nutr Res Pract.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effects of perilla extract on productive performance, serum values and hepatic expression of lipid-related genes in Shaoxing ducks.",
+                  "details": "Br Poult Sci.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "깻잎, 쑥, 참취의 건분 및 에탄올 추출물이 흰쥐의 지방대사와 항산화능에 미치는 영형",
+                  "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                  "pblicte_Year": "1999"
+                },
+                {
+                  "title": "고콜레스테롤식에서 홍화박과 들깨박이 난소절제 흰쥐의 지질대사에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2001"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Improved spatial learning and memory by perilla diet is correlated with immunoreactivities to neurofilament and α-synuclein in hilus of dentate gyrus.",
+                  "details": "Proteome Sci.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Regional differences of the mouse brain in response to an α-linolenic acid-restricted diet: Neurotrophin content and protein kinase activity.",
+                  "details": "Life Sci.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Plant derived omega-3-fatty acids protect mitochondrial function in the brain.",
+                  "details": "Pharmacol Res.  2010",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-inflammatory and antipruritic effects of luteolin from Perilla (P. frutescens L.) leaves.",
+                  "details": "Molecules.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Omega-3 polyunsaturated fatty acids ameliorate the severity of ileitis in the senescence accelerated mice (SAM)P1/Yit mice model.",
+                  "details": "Clin Exp Immunol.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "RAW 264.7 대식세포와 궤양성 대장염 마우스 모델에서의 들깨의 항염증 효과",
+                  "details": "한국식품과학회지 = Korean journal of food science and technology",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antidepressant-like effect of essential oil of Perilla frutescens in a chronic, unpredictable, mild stress-induced depression model mice.",
+                  "details": "Chin J Nat Med.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Antidepressant-like effects of Perilla frutescens seed oil during a forced swimming test.",
+                  "details": "Food Funct.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Essential oil of Perilla frutescens-induced change in hippocampal expression of brain-derived neurotrophic factor in chronic unpredictable mild stress in mice.",
+                  "details": "J Ethnopharmacol.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "깻잎, 쑥, 참취의 건분 및 에탄올 추출물이 흰쥐의 지방대사와 항산화능에 미치는 영형",
+                  "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                  "pblicte_Year": "1999"
+                },
+                {
+                  "title": "노화촉진마우스에 있어서 참깨박 및 들깨박의 메탄올 추출물이 인지기능 및 항산화능에 미치는 영향",
+                  "details": "한국식품과학회지",
+                  "pblicte_Year": "2004"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Perilla leaf extract prevents atopic dermatitis induced by an extract of Dermatophagoides farinae in NC/Nga mice.",
+                  "details": "Asian Pac J Allergy Immunol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Alleviation of atopic dermatitis-related symptoms by Perilla frutescens Britton.",
+                  "details": "Int J Mol Med.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ethanol Extract of Perilla frutescens Suppresses Allergen-Specific Th2 Responses and Alleviates Airway Inflammation and Hyperreactivity in Ovalbumin-Sensitized Murine Model of Asthma.",
+                  "details": "Evid Based Complement Alternat Med.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Dietary perilla oil lowers serum lipids and ovalbumin-specific IgG1, but increases total IgE levels in ovalbumin-challenged mice.",
+                  "details": "Food Chem Toxicol.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Perilla Oil Supplementation Ameliorates High-Fat/High-Cholesterol Diet Induced Nonalcoholic Fatty Liver Disease in Rats via Enhanced Fecal Cholesterol and Bile Acid Excretion.",
+                  "details": "Biomed Res Int.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Lipogenic enzyme gene expression is quickly suppressed in rats by a small amount of exogenous polyunsaturated fatty acids.",
+                  "details": "J Nutr.  1998",
+                  "pblicte_Year": "1998"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "노화촉진마우스에 있어서 참깨박 및 들깨박의 메탄올 추출물이 인지기능 및 항산화능에 미치는 영향",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Postischemic administration of liposome-encapsulated luteolin prevents against ischemia-reperfusion injury in a rat middle cerebral artery occlusion model.",
+                "details": "J Nutr Biochem.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Perilla Oil Has Similar Protective Effects of Fish Oil on High-Fat Diet-Induced Nonalcoholic Fatty Liver Disease and Gut Dysbiosis.",
+                "details": "Biomed Res Int.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of habitual perilla (shiso) tea drinking on the incidence of diabetes mellitus in spontaneously diabetic Trii (SDT)rats.",
+                "details": "Biosci Biotechnol Biochem.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of habitual perilla (shiso) tea drinking on the incidence of diabetes mellitus in spontaneously diabetic Trii (SDT)rats.",
+                "details": "Biosci Biotechnol Biochem.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H048",
+            "fnclty_Nm": "항노화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of dietary unsaturated fatty acids on senile amyloidosis in senescence-accelerated mice.",
+                "details": "J Gerontol A Biol Sci Med Sci.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Perilla leaf extract ameliorates obesity and dyslipidemia induced by high-fat diet.",
+                "details": "Phytother Res.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effect of extracts of Perilla frutescens treated with sucrose on tert-butyl hydroperoxide-induced oxidative hepatotoxicity in vitro and in vivo.",
+                "details": "Food Chem.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H022",
+            "fnclty_Nm": "위(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Perilla frutescens fixed oil on experimental esophagitis in albino Wistar rats.",
+                "details": "Biomed Res Int.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H077",
+            "fnclty_Nm": "혈소판 응집을 억제하여 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Perilla oil improves blood flow through inhibition of platelet aggregation and thrombus formation.",
+                "details": "Lab Anim Res.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

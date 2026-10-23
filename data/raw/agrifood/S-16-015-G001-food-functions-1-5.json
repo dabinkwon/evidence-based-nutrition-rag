@@ -1,0 +1,49 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-015",
+    "sample_Nm": "익모초",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "익모초 추출물이 흰쥐의 식이성 고콜레스테롤혈증에 미치는 영향",
+                  "details": "동의생리병리학회지 = Journal of physiology & pathology in Korean Medicine",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "익모초(益母草)와 충울자(茺蔚子)의 고지혈증(高脂血症) 억제 효능",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Leonurus japonicus Houtt Attenuates Nonalcoholic Fatty Liver Disease in Free Fatty Acid-Induced HepG2 Cells and Mice Fed a High-Fat Diet",
+                "details": "Nutrients",
+                "pblicte_Year": "2017"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

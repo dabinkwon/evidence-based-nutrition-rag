@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-037",
+    "sample_Nm": "콜라비",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Impact of Kohlrabi Sprouts on Various Thyroid Parameters in Iodine Deficiency- and Sulfadimethoxine-Induced Hypothyroid Rats",
+                "details": "Nutrients",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antihyperglycemic, antihyperlipidemic and antioxidant activity of phenolic rich extract of Brassica oleraceae var gongylodes on streptozotocin induced Wistar rats",
+                "details": "Springerplus",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-065",
+    "sample_Nm": "셀러리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of hydro-alcoholic celery (Apiumgraveolens) leaf extract on cardiovascular parameters and lipid profile in animal model of hypertension induced by fructose.",
+                  "details": "Avicenna J Phytomed. 2015 May-Jun;5(3):203-9.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effect of chloroform and aqueous basic fraction of ethanolic extract from Apium graveolens L. in experimentally-induced hyperlipidemia in rats.",
+                  "details": "J Complement Integr Med. 2011 Sep 27;8. doi:pii: /j/jcim.2011.8.issue-1/1553-3840.1529/1553-3840.1529.xml.  10.2202/1553-3840.1529.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "A toxicological investigation of a celery seed extract having anti-inflammatory activity",
+                  "details": "Inflammopharmacology",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Assessment of Antihyperlipidemic and Antitumor Eﬀect ofIsolated Active Phytoconstituents from Apium graveolensL. through Bioassay-Guided Procedures",
+                  "details": "Journal of Dietary Supplements 16.2 (2019): 193-206.",
+                  "pblicte_Year": "2018"
+                },
+                {
+                  "title": "Lipid-lowering and antioxidative effects of Apium graveolens L. root flavonoid extracts",
+                  "details": "RSC advances 9.46 (2019): 26757-26767.",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "The effect of hydro-alcoholic celery (Apiumgraveolens) leaf extract on cardiovascular parameters and lipid profile in animal model of hypertension induced by fructose",
+                  "details": "Avicenna journal of phytomedicine 5.3 (2015): 203.",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "In vitro and in vivo antioxidant activities of a flavonoid isolated from celery (Apium graveolens L. var. dulce).",
+                  "details": "Food Funct. 2014 Jan;5(1):50-6. doi: 10.1039/c3fo60273g.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Influence of flavonoid extracts from celery on oxidative stress induced by dichlorvos in rats.",
+                  "details": "Hum Exp Toxicol. 2012 Jun;31(6):617-25. doi: 10.1177/0960327111426585. Epub 2011 Nov 1.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effects of Apium graveolens Extract on the Oxidative Stress in the Liver of Adjuvant-Induced Arthritic Rats",
+                  "details": "Preventive nutrition and food science 21.2 (2016): 79.",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of hydro-alcoholic celery (Apiumgraveolens) leaf extract on cardiovascular parameters and lipid profile in animal model of hypertension induced by fructose.",
+                  "details": "Avicenna J Phytomed. 2015 May-Jun;5(3):203-9.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Antihypertensive effect of celery seed on rat blood pressure in chronic administration.",
+                  "details": "J Med Food. 2013 Jun;16(6):558-63. doi: 10.1089/jmf.2012.2664. Epub 2013 Jun 4.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Antihypertensive Effect of Celery Seed on Rat Blood Pressure in Chronic Administration",
+                  "details": "Journal of medicinal food 16.6 (2013): 558-563.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-inflammatory and antioxidant effects of Apium graveolensL. extracts mitigate against fatal acetaminophen-induced acuteliver toxicity",
+                  "details": "Journal of Food Biochemistry 44.10 (2020): e13399.",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Hepatoprotective action of celery (Apium graveolens) leaves in acetaminophen-fed freshwater fish (Pangasius sutchi)",
+                  "details": "Fish physiology and biochemistry 39 (2013): 1057-1069.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effect of 3-n-butylphthalide against hypertensive nephropathy in spontaneously hypertensive rats.",
+                  "details": "Mol Med Rep. 2015 Feb;11(2):1448-54. doi: 10.3892/mmr.2014.2791. Epub 2014 Oct 27.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Nephroprotective effect of Apium graveolens L. against Cisplatin induced nephrotoxicity",
+                  "details": "Journal of Ayurveda and Integrative Medicine 12.4 (2021): 607-615.",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The therapeutic applications of celery oil seed extract on the plasticizer di(2-ethylhexyl) phthalate toxicity.",
+                  "details": "Toxicol Ind Health. 2015 Apr;31(4):355-66. doi: 10.1177/0748233713475515. Epub 2013 Feb 1.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Beneficial role of celery oil in lowering the di(2-ethylhexyl) phthalate-induced testicular damage.",
+                  "details": "Toxicol Ind Health. 2014 Oct;30(9):861-72. doi: 10.1177/0748233712464808. Epub 2012 Nov 16.",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "L-3-n-butylphthalide improves cognitive impairment of APP/PS1 mice by BDNF/TrkB/PI3K/AKT pathway.",
+                "details": "Int J Clin Exp Med. 2014;7(7):1706-13.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Celery soluble dietary fiber antagonizes flavonoids ameliorative effect on dextran-sodium-sulfate-induced colitis in mice",
+                "details": "Genetics & Applications (2024).",
+                "pblicte_Year": "2023"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H043",
+            "fnclty_Nm": "성기능",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of aqueous extract of celery (Apium graveolens L.) leaves on spermatogenesis in healthy male rats.",
+                "details": "Avicenna J Phytomed. 2015 Mar-Apr;5(2):113-9.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective and hypoglycemic effects of celery seed on streptozotocin-induced diabetic rats",
+                "details": "Acta diabetologica 53 (2016): 609-619.",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dietary apigenin reduces LPS-induced expression of miR-155 restoring immune balance during inflammation.",
+                "details": "Mol Nutr Food Res. 2015 Apr;59(4):763-72. doi: 10.1002/mnfr.201400705. Epub 2015 Feb 23.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H012",
+            "fnclty_Nm": "방광의 배뇨기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antiadhesive hydroalcoholic extract from Apium graveolens fruits prevents bladder and kidney infection against uropathogenic E. coli",
+                "details": "Fitoterapia 127 (2018): 237-244.",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective and hypoglycemic effects of celery seed on streptozotocin-induced diabetic rats",
+                "details": "Acta diabetologica 53 (2016): 609-619.",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti‑obesity effects of a mixed extract containing Platycodon grandiflorum, Apium graveolens and green tea in high‑fat‑diet‑induced obese mice",
+                "details": "Experimental and Therapeutic Medicine 19.4 (2020): 2783-2791.",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The antioxidant and neurochemical activity of Apium graveolens L. and its ameliorative effect on MPTP induced Parkinson-like symptoms in mice",
+                "details": "BMC Complementary and Alternative Medicine 18 (2018): 1-12.",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti‑gouty arthritis and anti‑hyperuricemia properties of celery seed extracts in rodent models",
+                "details": "Molecular Medicine Reports 20.5 (2019): 4623-4633.",
+                "pblicte_Year": "2019"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

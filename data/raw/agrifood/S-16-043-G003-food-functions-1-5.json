@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-043",
+    "sample_Nm": "산수유",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "동계훈련 시 산수유 추출물 섭취가 남중 축구선수의 혈중 피로물질, 근 손상 및 간 기능에 미치는 영향",
+                "details": "한국유화학회지 = Journal of the Korean Oil Chemists` Society",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "동계훈련 시 산수유 추출물 섭취가 남중 축구선수의 혈중 피로물질, 근 손상 및 간 기능에 미치는 영향",
+                "details": "한국유화학회지 = Journal of the Korean Oil Chemists` Society",
+                "pblicte_Year": "2017"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

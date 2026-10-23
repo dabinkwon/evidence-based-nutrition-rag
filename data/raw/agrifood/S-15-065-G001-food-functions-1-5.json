@@ -1,0 +1,42 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-065",
+    "sample_Nm": "야관문(비수리)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beneficial Effect of Lespedeza cuneata (G. Don) Water Extract on Streptozotocin-induced Type 1 Diabetes and Cytokine-induced Beta-cell Damage",
+                "details": "Natural product sciences",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "야관문이 생쥐의 면역세포 활성에 미치는 영향",
+                "details": "동의생리병리학회지 = Journal of physiology & pathology in Korean Medicine",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

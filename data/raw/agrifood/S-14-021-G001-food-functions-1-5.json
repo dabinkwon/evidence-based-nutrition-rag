@@ -1,0 +1,61 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-021",
+    "sample_Nm": "퉁퉁마디",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of swimming exercise and powdered-Salicornia herbacea L. ingestion on glucose metabolism in STZ-induced diabetic rats.",
+                  "details": "J Exerc Nutrition Biochem. 2015 Sep;19(3):235-45. doi: 10.5717/jenb.2015.15083110. Epub 2015 Sep 30.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Salicornia herbacea prevents high fat diet-induced hyperglycemia and hyperlipidemia in ICR mice.",
+                  "details": "Arch Pharm Res. 2006 Mar;29(3):256-64.",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Salicornia herbacea prevents high fat diet-induced hyperglycemia and hyperlipidemia in ICR mice.",
+                "details": "Arch Pharm Res. 2006 Mar;29(3):256-64.",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고지방식이로 유도한 비만 흰쥐에서 함초 (Salicornia herbacea L.) 분말의 항비만 효과 탐색",
+                "details": "Journal of nutrition and health",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-067",
+    "sample_Nm": "와송(바위솔)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypolipidemic and hypoglycemic effects of Orostachys japonicus A. Berger extracts in streptozotocin-induced diabetic rats.",
+                "details": "Nutr Res Pract.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "와송(瓦松) 추출물이 면역체계에 미치는 영향",
+                "details": "韓國藥用作物學會誌 = Korean journal of medicinal crop science",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypolipidemic and hypoglycemic effects of Orostachys japonicus A. Berger extracts in streptozotocin-induced diabetic rats.",
+                "details": "Nutr Res Pract.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-027",
+    "sample_Nm": "양하",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Zingiber mioga reduces weight gain, insulin resistance and hepatic gluconeogenesis in diet-induced obese mice.",
+                  "details": "Exp Ther Med.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "In vitro and in vivo reduction of post-prandial blood glucose levels by ethyl alcohol and water Zingiber mioga extracts through the inhibition of carbohydrate hydrolyzing enzymes.",
+                  "details": "BMC Complement Altern Med.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Zingiber mioga reduces weight gain, insulin resistance and hepatic gluconeogenesis in diet-induced obese mice.",
+                "details": "Exp Ther Med.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

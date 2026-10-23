@@ -1,0 +1,66 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-082",
+    "sample_Nm": "느타리버섯",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Immunomodulatory effect of pleuran (beta-glucan from Pleurotus ostreatus) in children with recurrent respiratory tract infections",
+                "details": "Int Immunopharmacol",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypoglycaemic activity of culinary Pleurotus ostreatus and P. cystidiosus mushrooms in healthy volunteers and type 2 diabetic patients on diet control and the possible mechanisms of action",
+                "details": "Phytother Res",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypoglycaemic activity of culinary Pleurotus ostreatus and P. cystidiosus mushrooms in healthy volunteers and type 2 diabetic patients on diet control and the possible mechanisms of action",
+                "details": "Phytother Res",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-allergic effect of Pleuran (beta-glucan from Pleurotus ostreatus) in children with recurrent respiratory tract infections",
+                "details": "Phytother Res",
+                "pblicte_Year": "2014"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

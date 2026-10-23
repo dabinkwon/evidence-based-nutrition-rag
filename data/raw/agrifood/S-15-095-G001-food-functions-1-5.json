@@ -1,0 +1,121 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-095",
+    "sample_Nm": "가죽나무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ailanthone Inhibits Huh7 Cancer Cell Growth via Cell Cycle Arrest and Apoptosis In Vitro and In Vivo",
+                  "details": "Scientific Reports 5.1 (2015): 16185.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Ailanthus Altissima-derived Ailanthone enhances Gastric Cancer Cell Apoptosis by Inducing the Repression of Base Excision Repair by Downregulating p23 Expression",
+                  "details": "International Journal of Biological Sciences 17.11 (2021): 2811.",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "The role played by ailanthone in inhibiting bone metastasis of breast cancer by regulating tumor-bone microenvironment through the RANKL-dependent pathway",
+                  "details": "Frontiers in Pharmacology 13 (2023): 1081978.",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ailanthus altissima (Miller) Swingle seed oil: chromatographic characterization by GC-FID and HS-SPME-GC-MS, physicochemical parameters, and pharmacological bioactivities",
+                  "details": "Environmental Science and Pollution Research 26 (2019): 14137-14147.",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Ailanthus altissima swingle has anti-anaphylactic effect and inhibits inflammatory cytokine expression via suppression of nuclear factor-kappaB activation",
+                  "details": "In Vitro Cellular & Developmental Biology-Animal 46 (2010): 72-81.",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-inflammatory effect of Ailanthus altissima (Mill.) Swingle leaves in lipopolysaccharide-stimulated astrocytes",
+                "details": "Journal of Ethnopharmacology 286 (2022): 114258.",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of long-term Ailanthus altissima extract supplementation on fear, cognition and brain antioxidant levels",
+                "details": "Saudi Pharmaceutical Journal 31.2 (2023): 191-206.",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Pharmacological Studies Pertaining to Smooth Muscle Relaxant, Platelet Aggregation Inhibitory and Hypotensive Effects of Ailanthus altissima",
+                "details": "Evidence‐Based Complementary and Alternative Medicine 2019.1 (2019): 1871696.",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H045",
+            "fnclty_Nm": "통증개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ailanthus altissima (Miller) Swingle seed oil: chromatographic characterization by GC-FID and HS-SPME-GC-MS, physicochemical parameters, and pharmacological bioactivities",
+                "details": "Environmental Science and Pollution Research 26 (2019): 14137-14147.",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antiasthmatic Activity of Luteolin-7-O-glucoside from Ailanthus altissima through the Downregulation of T Helper 2 Cytokine Expression and Inhibition of Prostaglandin E2 Production in an Ovalbumin-Induced Asthma Model",
+                "details": "Biological and Pharmaceutical Bulletin 32.9 (2009): 1500-1503.",
+                "pblicte_Year": "2009"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

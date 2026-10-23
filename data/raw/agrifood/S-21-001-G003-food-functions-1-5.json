@@ -1,0 +1,274 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-21-001",
+    "sample_Nm": "자두",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "8",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Prunes preserve cortical density and estimated strength of the tibia in a 12-month randomized controlled trial in postmenopausal women: The Prune Study.",
+                  "details": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Prunes preserve hip bone mineral density in a 12-month randomized controlled trial in postmenopausal women: the Prune Study.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "The Short-Term Effect of Prunes in Improving Bone in Men.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "The effect of two doses of dried plum on bone density and bone biomarkers in osteopenic postmenopausal women: a randomized, controlled trial.",
+                  "details": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "The effect of dried plum on serum levels of receptor activator of NF-κB ligand, osteoprotegerin and sclerostin in osteopenic postmenopausal women: a randomised controlled trial.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Comparative effects of dried plum and dried apple on bone in postmenopausal women.",
+                  "details": "The British journal of nutrition",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Gut microbes differ in postmenopausal women responding to prunes to maintain hip bone mineral density.",
+                  "details": "Frontiers in nutrition",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Dried plum consumption improves bone mineral density in osteopenic postmenopausal woman: A case report.",
+                  "details": "Bone reports",
+                  "pblicte_Year": "2021"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Snack selection influences glucose metabolism, antioxidant capacity and cholesterol in healthy overweight adults: A randomized parallel arm trial.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Anthocyanins attenuate vascular and inflammatory responses to a high fat high energy meal challenge in overweight older adults: A cross-over, randomized, double-blind clinical trial.",
+                  "details": "Clinical nutrition (Edinburgh, Scotland)",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Daily apple versus dried plum: impact on cardiovascular disease risk factors in postmenopausal women.",
+                  "details": "Journal of the Academy of Nutrition and Dietetics",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Regulatory/modulatory effect of prune essence concentrate on intestinal function and blood lipids.",
+                  "details": "Pharmaceutical biology",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Use of prunes as a control of hypertension.",
+                  "details": "Journal of Ayub Medical College, Abbottabad : JAMC",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Daily apple versus dried plum: impact on cardiovascular disease risk factors in postmenopausal women.",
+                  "details": "Journal of the Academy of Nutrition and Dietetics",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Regulatory/modulatory effect of prune essence concentrate on intestinal function and blood lipids.",
+                  "details": "Pharmaceutical biology",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Prunes preserve hip bone mineral density in a 12-month randomized controlled trial in postmenopausal women: the Prune Study.",
+                  "details": "The American journal of clinical nutrition",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "The Short-Term Effect of Prunes in Improving Bone in Men.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Type of snack influences satiety responses in adult women.",
+                  "details": "Appetite",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anthocyanins attenuate vascular and inflammatory responses to a high fat high energy meal challenge in overweight older adults: A cross-over, randomized, double-blind clinical trial.",
+                  "details": "Clinical nutrition (Edinburgh, Scotland)",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "Use of prunes as a control of hypertension.",
+                  "details": "Journal of Ayub Medical College, Abbottabad : JAMC",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "The Short-Term Effect of Prunes in Improving Bone in Men.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Anthocyanin-rich plum juice reduces ambulatory blood pressure but not acute cognitive function in younger and older adults: a pilot crossover dose-timing study.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Snack selection influences glucose metabolism, antioxidant capacity and cholesterol in healthy overweight adults: A randomized parallel arm trial.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Daily apple versus dried plum: impact on cardiovascular disease risk factors in postmenopausal women.",
+                  "details": "Journal of the Academy of Nutrition and Dietetics",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Regulatory/modulatory effect of prune essence concentrate on intestinal function and blood lipids.",
+                  "details": "Pharmaceutical biology",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "The Short-Term Effect of Prunes in Improving Bone in Men.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anthocyanins attenuate vascular and inflammatory responses to a high fat high energy meal challenge in overweight older adults: A cross-over, randomized, double-blind clinical trial.",
+                  "details": "Clinical nutrition (Edinburgh, Scotland)",
+                  "pblicte_Year": "2021"
+                },
+                {
+                  "title": "The Short-Term Effect of Prunes in Improving Bone in Men.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H069",
+            "fnclty_Nm": "장 내 유익균 증식 및 유해균 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Regulatory/modulatory effect of prune essence concentrate on intestinal function and blood lipids.",
+                  "details": "Pharmaceutical biology",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "Gut microbes differ in postmenopausal women responding to prunes to maintain hip bone mineral density.",
+                  "details": "Frontiers in nutrition",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Snack selection influences glucose metabolism, antioxidant capacity and cholesterol in healthy overweight adults: A randomized parallel arm trial.",
+                  "details": "Nutrition research (New York, N.Y.)",
+                  "pblicte_Year": "2019"
+                },
+                {
+                  "title": "Type of snack influences satiety responses in adult women.",
+                  "details": "Appetite",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Snack selection influences glucose metabolism, antioxidant capacity and cholesterol in healthy overweight adults: A randomized parallel arm trial.",
+                "details": "Nutrition research (New York, N.Y.)",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effect of prunes on stool output, gut transit time and gastrointestinal microbiota: A randomised controlled trial.",
+                "details": "Clinical nutrition (Edinburgh, Scotland)",
+                "pblicte_Year": "2019"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

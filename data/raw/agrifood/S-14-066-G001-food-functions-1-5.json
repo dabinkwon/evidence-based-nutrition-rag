@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-066",
+    "sample_Nm": "신선초(명일엽)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H015",
+          "fnclty_Nm": "혈당(기타)",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Prenylated chalcones 4-hydroxyderricin and xanthoangelol stimulate glucose uptake in skeletal muscle cells by inducing GLUT4 translocation.",
+              "details": "Mol Nutr Food Res. 2011 Mar;55(3):467-75. doi: 10.1002/mnfr.201000267. Epub 2010 Oct 11.",
+              "pblicte_Year": "2011"
+            }
+          }
+        }
+      }
+    }
+  }
+}

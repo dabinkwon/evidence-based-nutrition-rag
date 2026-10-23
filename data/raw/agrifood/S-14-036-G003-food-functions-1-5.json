@@ -1,0 +1,193 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-036",
+    "sample_Nm": "토마토",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Diet adherence dynamics and physiological responses to a tomato product whole-food intervention in African-American men.",
+                  "details": "Br J Nutr. 2013 Jun 28;109(12):2219-30. doi: 10.1017/S0007114512004436. Epub 2012 Nov 19.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Carotenoid deficiency in chronic pancreatitis: the effect of an increase in tomato consumption.",
+                  "details": "Eur J Clin Nutr. 2011 Feb;65(2):262-8. doi: 10.1038/ejcn.2010.232. Epub 2010 Dec 1.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Lack of effects of tomato products on endothelial function in human subjects: results of a randomised, placebo-controlled cross-over study.",
+                  "details": "Br J Nutr. 2011 Jan;105(2):263-7. doi: 10.1017/S0007114510003284. Epub 2010 Aug 24.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The Effect of Tomato Juice Consumption on Antioxidant Status in Overweight and Obese Females.",
+                  "details": "Women Health. 2015;55(7):795-804. doi: 10.1080/03630242.2015.1050546. Epub 2015 Jun 18.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Tomato juice intake suppressed serum concentration of 8-oxodG after extensive physical activity.",
+                  "details": "Nutr J. 2012 May 2;11:29. doi: 10.1186/1475-2891-11-29.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Protective activity of processed tomato products on postprandial oxidation and inflammation: a clinical trial in healthy weight men and women.",
+                  "details": "Mol Nutr Food Res. 2012 Apr;56(4):622-31. doi: 10.1002/mnfr.201100649. Epub 2012 Feb 14.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Tomato juice supplementation in young women reduces inflammatory adipokine levels independently of body fat reduction.",
+                  "details": "Nutrition. 2015 May;31(5):691-6. doi: 10.1016/j.nut.2014.11.008. Epub 2014 Dec 13.",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Dietary supplementation with tomato-juice in patients with metabolic syndrome: a suggestion to alleviate detrimental clinical factors.",
+                  "details": "Food Chem Toxicol. 2014 Dec;74:9-13. doi: 10.1016/j.fct.2014.08.014. Epub 2014 Sep 3.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Tomato juice consumption reduces systemic inflammation in overweight and obese females.",
+                  "details": "Br J Nutr. 2013 Jun;109(11):2031-5. doi: 10.1017/S0007114512004278. Epub 2012 Oct 15.",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Tomato powder impedes the development of azoxymethane-induced colorectal cancer in rats through suppression of COX-2 expression via NF-κB and regulating Nrf2/HO-1 pathway.",
+                  "details": "Mol Nutr Food Res. 2012 Sep;56(9):1477-81. doi: 10.1002/mnfr.201200130. Epub 2012 Aug 1.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Effects of tomato and soy on serum adipokine concentrations in postmenopausal women at increased breast cancer risk: a cross-over dietary intervention trial.",
+                  "details": "J Clin Endocrinol Metab. 2014 Feb;99(2):625-32. doi: 10.1210/jc.2013-3222. Epub 2014 Jan 1.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Tomato-based randomized controlled trial in prostate cancer patients: Effect on PSA.",
+                  "details": "Clin Nutr.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of a tomato-rich diet on markers of cardiovascular disease risk in moderately overweight, disease-free, middle-aged adults: a randomized controlled trial.",
+                  "details": "Am J Clin Nutr. 2012 May;95(5):1013-22. doi: 10.3945/ajcn.111.026286. Epub 2012 Apr 4.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Tomato-based food products are related to clinically modest improvements in selected coronary biomarkers in women.",
+                  "details": "J Nutr. 2012 Feb;142(2):326-33. doi: 10.3945/jn.111.150631. Epub 2012 Jan 5.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H076",
+            "fnclty_Nm": "혈관이완을 통한 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effects of tomato consumption on serum glucose, apolipoprotein B, apolipoprotein A-I, homocysteine and blood pressure in type 2 diabetic patients.",
+                "details": "Int J Food Sci Nutr. 2011 May;62(3):289-94. doi: 10.3109/09637486.2010.529072. Epub 2010 Dec 8.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Proprietary tomato extract improves metabolic response to high-fat meal in healthy normal weight subjects.",
+                "details": "Food Nutr Res.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Administration of tomato juice ameliorates lactate dehydrogenase and creatinine kinase responses to anaerobic training.",
+                "details": "Food Chem Toxicol. 2013 Nov;61:9-13. doi: 10.1016/j.fct.2012.12.023. Epub 2013 Jan 3.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Pre-meal tomato (Lycopersicon esculentum) intake can have anti-obesity effects in young women?",
+                "details": "Int J Food Sci Nutr. 2014 Dec;65(8):1019-26. doi: 10.3109/09637486.2014.950206. Epub 2014 Aug 26.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H062",
+            "fnclty_Nm": "자외선으로 인한 피부 손상으로부터 피부 건강 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Molecular evidence that oral supplementation with lycopene or lutein protects human skin against ultraviolet radiation: Results from a double-blinded, placebo-controlled, cross-over study.",
+                "details": "Br J Dermatol.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

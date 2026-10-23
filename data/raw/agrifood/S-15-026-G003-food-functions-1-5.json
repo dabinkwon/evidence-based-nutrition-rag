@@ -1,0 +1,109 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-026",
+    "sample_Nm": "야콘",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Freeze-dried powdered yacon: effects of FOS on serum glucose, lipids and intestinal transit in the elderly.",
+                  "details": "Eur J Nutr.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Yacon syrup: beneficial effects on obesity and insulin resistance in humans.",
+                  "details": "Clin Nutr.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "야콘 50% 에탄올 추출물의 성인 남성의 정자 수 증가효과",
+                  "details": "약학회지",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Freeze-dried powdered yacon: effects of FOS on serum glucose, lipids and intestinal transit in the elderly.",
+                  "details": "Eur J Nutr.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Yacon syrup: beneficial effects on obesity and insulin resistance in humans.",
+                  "details": "Clin Nutr.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Yacon effects in immune response and nutritional status of iron and zinc in preschool children.",
+                "details": "Nutrition.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "야콘 50% 에탄올 추출물의 성인 남성의 정자 수 증가효과",
+                "details": "약학회지",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H043",
+            "fnclty_Nm": "성기능",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "야콘 50% 에탄올 추출물의 성인 남성의 정자 수 증가효과",
+                "details": "약학회지",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of yacon (Smallanthus sonchifolius) on colonic transit time in healthy volunteers.",
+                "details": "Digestion.  2008",
+                "pblicte_Year": "2008"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

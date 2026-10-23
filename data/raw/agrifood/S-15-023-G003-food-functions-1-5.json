@@ -1,0 +1,80 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-023",
+    "sample_Nm": "보검선인장",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of nopal (Opuntia ficus indica) on postprandial blood glucose, incretins, and antioxidant activity in Mexican patients with type 2 diabetes after consumption of two different composition breakfasts.",
+                  "details": "J Acad Nutr Diet.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Acute blood glucose lowering effects and long-term safety of OpunDia supplementation in pre-diabetic males and females.",
+                  "details": "J Ethnopharmacol.  2010",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of nopal (Opuntia ficus indica) on postprandial blood glucose, incretins, and antioxidant activity in Mexican patients with type 2 diabetes after consumption of two different composition breakfasts.",
+                  "details": "J Acad Nutr Diet.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Acute blood glucose lowering effects and long-term safety of OpunDia supplementation in pre-diabetic males and females.",
+                  "details": "J Ethnopharmacol.  2010",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H047",
+            "fnclty_Nm": "숙취해소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of Opuntia ficus indica on symptoms of the alcohol hangover.",
+                "details": "Arch Intern Med.  2004",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Acute blood glucose lowering effects and long-term safety of OpunDia supplementation in pre-diabetic males and females.",
+                "details": "J Ethnopharmacol.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

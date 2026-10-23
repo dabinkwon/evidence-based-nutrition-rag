@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-049",
+    "sample_Nm": "황기",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H042",
+          "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Efficacy and safety of Astragalus membranaceus in the treatment of patients with seasonal allergic rhinitis.",
+              "details": "Phytother Res.  2010",
+              "pblicte_Year": "2010"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-024",
+    "sample_Nm": "귀리",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Avenanthramide supplementation reduces eccentric exercise-induced inflammation in young men and women",
+                  "details": "Journal of the International Society of Sports Nutrition",
+                  "pblicte_Year": "2020"
+                },
+                {
+                  "title": "Oat porridge consumption alleviates markers of inflammation and oxidative stress in hypercholesterolemic adults",
+                  "details": "Immunobiology",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Avenanthramides are bioavailable and have antioxidant activity in humans after acute consumption of an enriched mixture from oats",
+                  "details": "The Journal of nutrition",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Oat porridge consumption alleviates markers of inflammation and oxidative stress in hypercholesterolemic adults",
+                  "details": "Immunobiology",
+                  "pblicte_Year": "2019"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "단기간 귀리 추출물 섭취의 혈당 및 콜레스테롤 저하 효과 평가",
+                  "details": "한국콘텐츠학회논문지 = The Journal of the Korea Contents Association",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effect of an oat bran enriched diet on the atherogenic lipid profile in patients with an increased coronary heart disease risk. A controlled randomized lifestyle intervention study",
+                  "details": "Annals of nutrition and metabolism",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "단기간 귀리 추출물 섭취의 혈당 및 콜레스테롤 저하 효과 평가",
+                "details": "한국콘텐츠학회논문지 = The Journal of the Korea Contents Association",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H027",
+            "fnclty_Nm": "노화로 인해 저하된 인지기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ingested oat herb extract (Avena sativa) changes EEG spectral frequencies in healthy subjects",
+                "details": "Methods and findings in experimental and clinical pharmacology",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chronic consumption of a wild green oat extract (Neuravena) improves brachial flow-mediated dilatation and cerebrovascular responsiveness in older adults",
+                "details": "Journal of hypertension",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "단기간 귀리 추출물 섭취의 혈당 및 콜레스테롤 저하 효과 평가",
+                "details": "한국콘텐츠학회논문지 = The Journal of the Korea Contents Association",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

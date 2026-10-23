@@ -1,0 +1,35 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-056",
+    "sample_Nm": "수박",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H008",
+          "fnclty_Nm": "혈압 조절",
+          "thesis_Cnt": "2",
+          "thesis_List": {
+            "item": [
+              {
+                "title": "Effects of watermelon supplementation on arterial stiffness and wave reflection amplitude in postmenopausal women.",
+                "details": "Menopause. 2013 May;20(5):573-7. doi: 10.1097/GME.0b013e3182733794.",
+                "pblicte_Year": "2013"
+              },
+              {
+                "title": "Watermelon extract supplementation reduces ankle blood pressure and carotid augmentation index in obese adults with prehypertension or hypertension.",
+                "details": "Am J Hypertens. 2012 Jun;25(6):640-3. doi: 10.1038/ajh.2012.20. Epub 2012 Mar 8.",
+                "pblicte_Year": "2012"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-031",
+    "sample_Nm": "양배추(적양배추)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anthocyanin-rich red cabbage (Brassica oleracea L.) extract attenuates cardiac and hepatic oxidative stress in rats fed an atherogenic diet.",
+                "details": "J Sci Food Agric. 2012 Jun;92(8):1688-93. doi: 10.1002/jsfa.5532. Epub 2012 Jan 6.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Red Cabbage (Brassica oleracea) Ameliorates Diabetic Nephropathy in Rats.",
+                "details": "Evid Based Complement Alternat Med. 2008 Sep;5(3):281-7. doi: 10.1093/ecam/nem029.",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Red Cabbage (Brassica oleracea) Ameliorates Diabetic Nephropathy in Rats.",
+                "details": "Evid Based Complement Alternat Med. 2008 Sep;5(3):281-7. doi: 10.1093/ecam/nem029.",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Red Cabbage (Brassica oleracea) Ameliorates Diabetic Nephropathy in Rats.",
+                "details": "Evid Based Complement Alternat Med. 2008 Sep;5(3):281-7. doi: 10.1093/ecam/nem029.",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anthocyanin-rich red cabbage (Brassica oleracea L.) extract attenuates cardiac and hepatic oxidative stress in rats fed an atherogenic diet.",
+                "details": "J Sci Food Agric. 2012 Jun;92(8):1688-93. doi: 10.1002/jsfa.5532. Epub 2012 Jan 6.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Red Cabbage (Brassica oleracea) Ameliorates Diabetic Nephropathy in Rats.",
+                "details": "Evid Based Complement Alternat Med. 2008 Sep;5(3):281-7. doi: 10.1093/ecam/nem029.",
+                "pblicte_Year": "2008"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

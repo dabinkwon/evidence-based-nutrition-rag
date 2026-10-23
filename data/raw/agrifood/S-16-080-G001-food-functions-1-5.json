@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-16-080",
+    "sample_Nm": "목이버섯(흑목이버섯)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H019",
+          "fnclty_Nm": "간(기타)",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "목이버섯 메탄올 추출물이 벤조피렌(B(a)P) 투여한 마우스의 지질과산화 및 간 손상 억제에 미치는 영향",
+              "details": "한국식품영양과학회지 = Journal of the Korean Society of Food Science and Nutrition",
+              "pblicte_Year": "1998"
+            }
+          }
+        }
+      }
+    }
+  }
+}

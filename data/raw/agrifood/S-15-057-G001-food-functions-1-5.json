@@ -1,0 +1,229 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-057",
+    "sample_Nm": "하수오",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hexane extracts of Polygonum multiflorum improve tissue and functional outcome following focal cerebral ischemia in mice.",
+                  "details": "Mol Med Rep.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Tetrahydroxystilbene glucoside improves the learning and memory of amyloid-棺(?곣굥?꾟굚)-injected rats and may be connected to synaptic changes in the hippocampus.",
+                  "details": "Can J Physiol Pharmacol.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Changes in hippocampal synapses and learning-memory abilities in age-increasing rats and effects of tetrahydroxystilbene glucoside in aged rats.",
+                  "details": "Neuroscience.  2007",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Learning-memory deficit with aging in APP transgenic mice of Alzheimer&apos;s disease and intervention by using tetrahydroxystilbene glucoside.",
+                  "details": "Behav Brain Res.  2006",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Protective effect of Polygonum multiflorum Thunb on amyloid beta-peptide 25-35 induced cognitive deficits in mice.",
+                  "details": "J Ethnopharmacol.  2006",
+                  "pblicte_Year": "2006"
+                },
+                {
+                  "title": "Effect of polygonum multiflorum on the fluidity of the mitochondria membrane and activity of COX in the hippocampus of rats with Abeta 1-40-induced Alzheimer&apos;s disease.",
+                  "details": "Zhong Nan Da Xue Xue Bao Yi Xue Ban.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "적하수오 추출물이 고콜레스테롤 급여 흰쥐의 지질대사에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "고과당식이 랫드모델에서 적하수오 투여에 의한 대사증후군 개선효과",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of Hot Water Extracts from Polygonum multiflorum on Ovariectomy Induced Osteopenia in Mice.",
+                  "details": "Evid Based Complement Alternat Med.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "하수오 물 추출물이 마우스 골다공증에 미치는 영향",
+                  "details": "Journal of veterinary clinics = 한국임상수의학회지",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "적하수오 추출물이 고콜레스테롤 급여 흰쥐의 지질대사에 미치는 영향",
+                  "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "고과당식이 랫드모델에서 적하수오 투여에 의한 대사증후군 개선효과",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The Inhibitory Activity of Polygonum Multiflorum Thunberg and its Effect on Postprandial Hyperglycemia in Streptozotocin-induced Diabetic Rats",
+                  "details": "Nutritional sciences",
+                  "pblicte_Year": "2005"
+                },
+                {
+                  "title": "고과당식이 랫드모델에서 적하수오 투여에 의한 대사증후군 개선효과",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고과당식이 랫드모델에서 적하수오 투여에 의한 대사증후군 개선효과",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H048",
+            "fnclty_Nm": "항노화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "TSG (2,3,5,4&apos;-Tetrahydroxystilbene-2-O- 棺 -D-glucoside) from the Chinese Herb Polygonum multiflorum Increases Life Span and Stress Resistance of Caenorhabditis elegans.",
+                "details": "Oxid Med Cell Longev.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "적하수오 추출물이 고콜레스테롤 급여 흰쥐의 지질대사에 미치는 영향",
+                "details": "한국식품영양과학회지 = Journal of the Korean society of food science and nutrition",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "하수오 침출술이 흰쥐의 기억력 손상에 미치는 영향",
+                "details": "Culinary science & hospitality research = 한국조리학회지",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고과당식이 랫드모델에서 적하수오 투여에 의한 대사증후군 개선효과",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고과당식이 랫드모델에서 적하수오 투여에 의한 대사증후군 개선효과",
+                "details": "大韓本草學會誌 = The Korea journal of herbology",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hepatoprotection of emodin and Polygonum multiflorum against CCl(4)-induced liver injury.",
+                "details": "Pharm Biol.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H001",
+            "fnclty_Nm": "혈행(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Reduction of atherosclerosis in cholesterol-fed rabbits and decrease of expressions of intracellular adhesion molecule-1 and vascular endothelial growth factor in foam cells by a water-soluble fraction of Polygonum multiflorum.",
+                "details": "J Pharmacol Sci.  2005",
+                "pblicte_Year": "2005"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

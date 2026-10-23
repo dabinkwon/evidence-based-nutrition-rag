@@ -1,0 +1,202 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-015",
+    "sample_Nm": "참당귀(당귀)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H026",
+            "fnclty_Nm": "관절 건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "참당귀 추출분말의 골관절염 흰쥐의 염증성 사이토카인류의 억제활성",
+                  "details": "분석과학 = Analytical science & technology",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "참당귀 추출분말이 Monosodium Iodoacetate로 유발된 흰쥐의 골관절염에 대한 효과",
+                  "details": "분석과학 = Analytical science & technology",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "참당귀 추출분말이 in vitro and in vivo model에서 MMPs 조절 기전",
+                  "details": "분석과학 = Analytical science & technology",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H046",
+            "fnclty_Nm": "여성건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "당귀(當歸)가 다낭성난소증후군이 유발된 흰쥐 난소조직의 유전자 발현에 미치는 영향",
+                  "details": "大韓漢方婦人科學會誌 = The Journal of oriental obstetrics & gynecology",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "당귀(當歸)가 Estradiol valerate에 의하여 유발된 다낭성난소에 미치는 영향",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H047",
+            "fnclty_Nm": "숙취해소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "당귀추출물 전처치가 Rat의 혈중 알코올 및 알데히드 농도에 미치는 영향",
+                  "details": "대한한방내과학회지 = Journal of korean oriental internal medicine",
+                  "pblicte_Year": "2002"
+                },
+                {
+                  "title": "당귀의 첨가 식이가 흰쥐의 지방대사와 알콜대사 및 간기능에 미치는 영향",
+                  "details": "한국농화학회지 = Journal of the Korean society of Agricultural Chemistry and Biotechnology",
+                  "pblicte_Year": "1999"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "발효당귀가 Orotic acid 유발 흰쥐 지질 대사에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "당귀열수추출물이 종류가 다른 지방식이를 공급한 흰쥐의 지질대사와 항산화계에 미치는 영향",
+                  "details": "한국지역사회생활과학회지 = The Korean Journal of Community Living Science",
+                  "pblicte_Year": "2005"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Neuroprotective effect of the hairy root extract of Angelica gigas NAKAI on transient focal cerebral ischemia in rats through the regulation of angiogenesis.",
+                  "details": "BMC Complement Altern Med.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "당귀가 백서의 뇌손상 및 심혈관계에 미치는 영향",
+                  "details": "大韓韓醫學會誌 = Journal of Korean Oriental Medicine",
+                  "pblicte_Year": "2000"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "한국당귀(Angelicae gigantis Radix) 엑스가 흰쥐의 실험적 고지혈증에 미치는 영향",
+                "details": "생약학회지",
+                "pblicte_Year": "1998"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "당귀의 첨가 식이가 흰쥐의 지방대사와 알콜대사 및 간기능에 미치는 영향",
+                "details": "한국농화학회지 = Journal of the Korean society of Agricultural Chemistry and Biotechnology",
+                "pblicte_Year": "1999"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H077",
+            "fnclty_Nm": "혈소판 응집을 억제하여 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "당귀가 백서의 뇌손상 및 심혈관계에 미치는 영향",
+                "details": "大韓韓醫學會誌 = Journal of Korean Oriental Medicine",
+                "pblicte_Year": "2000"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "당귀가 백서의 뇌손상 및 심혈관계에 미치는 영향",
+                "details": "大韓韓醫學會誌 = Journal of Korean Oriental Medicine",
+                "pblicte_Year": "2000"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "당귀가 백서의 뇌손상 및 심혈관계에 미치는 영향",
+                "details": "大韓韓醫學會誌 = Journal of Korean Oriental Medicine",
+                "pblicte_Year": "2000"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "당귀열수추출물이 종류가 다른 지방식이를 공급한 흰쥐의 지질대사와 항산화계에 미치는 영향",
+                "details": "한국지역사회생활과학회지 = The Korean Journal of Community Living Science",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Chemopreventive effect of Korean Angelica root extract on TRAMP carcinogenesis and integrative",
+                "details": "Mol Carcinog.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

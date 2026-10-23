@@ -1,0 +1,114 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-18-042",
+    "sample_Nm": "민들레",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-inflammatory effects of water extract of Taraxacum mongolicum hand.-Mazz on lipopolysaccharide-induced inflammation in acute lung injury by suppressing PI3K/Akt/mTOR signaling pathway",
+                "details": "Journal of Ethnopharmacology",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypolipidemic activity of Taraxacum mongolicum associated with the activation of AMP-activated protein kinase in human HepG2 cells",
+                "details": "Food & Function",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Dandelion extract suppresses the stem-like properties of triple-negative breast cancer cells by regulating CUEDC2/β-catenin/OCT4 signaling axis",
+                "details": "Journal of Ethnopharmacology",
+                "pblicte_Year": "2025"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H039",
+            "fnclty_Nm": "갱년기 여성의 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ethanolic extract of dandelion (Taraxacum mongolicum) induces estrogenic activity in MCF-7 cells and immature rats",
+                "details": "Chinese Journal of Natural Medicines",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H041",
+            "fnclty_Nm": "전립선 건강의 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Taraxacum mongolicum total triterpenoids and taraxasterol ameliorate benign prostatic hyperplasia by inhibiting androgen levels, inflammatory responses, and epithelial-mesenchymal transition via the TGFβ1/Smad signalling pathway",
+                "details": "Journal of Ethnopharmacology",
+                "pblicte_Year": "2025"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Organic acid component from Taraxacum mongolicum Hand.-Mazz alleviates inflammatory injury in lipopolysaccharide-induced acute tracheobronchitis of ICR mice through TLR4/NF-κB signaling pathway",
+                "details": "International Immunopharmacology",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H046",
+            "fnclty_Nm": "여성건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Taraxacum mongolicum protects against Staphylococcus aureus-infected mastitis by exerting anti-inflammatory role via TLR2-NF-κB/MAPKs pathways in mice",
+                "details": "Journal of Ethnopharmacology",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Potentialities of Dandelion (Taraxacum Mongolicum Hand.-Mazz.) Flower Extracts on Gastric Protection against Helicobacter Pylori and Characterization of its Bioactive Constituents",
+                "details": "Chemistry & Biodiversity",
+                "pblicte_Year": "2024"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

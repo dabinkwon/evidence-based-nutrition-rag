@@ -1,0 +1,438 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-068",
+    "sample_Nm": "오미자",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "8",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Multifaceted interaction of the traditional Chinese medicinal herb Schisandra chinensis with cytochrome P450-mediated drug metabolism in rats.",
+                  "details": "J Ethnopharmacol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Inhibitory effects of Schisandra chinensis on acetaminophen-induced hepatotoxicity.",
+                  "details": "Mol Med Rep.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Antioxidant and hepatoprotective effects of Schisandra chinensis pollen extract on CCl4-induced acute liver damage in mice.",
+                  "details": "Food Chem Toxicol.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Schisandra chinensis prevents hepatic lipid peroxidation and oxidative stress in rats subjected to heat environmental stress.",
+                  "details": "Phytother Res.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Schisandrin B decreases the sensitivity of mitochondria to calcium ion-induced permeability transition and protects against carbon tetrachloride toxicity in mouse livers.",
+                  "details": "Biol Pharm Bull.  2007",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Evaluation of the protective effects of Schisandra chinensis on Phase I drug metabolism using a CCl4 intoxication model.",
+                  "details": "J Ethnopharmacol.  1999",
+                  "pblicte_Year": "1999"
+                },
+                {
+                  "title": "Schisandrin B protects against carbon tetrachloride toxicity by enhancing the mitochondrial glutathione redox status in mouse liver.",
+                  "details": "Free Radic Biol Med.  1996",
+                  "pblicte_Year": "1996"
+                },
+                {
+                  "title": "오미자 추출액이 알루미늄 투여에 의한 흰쥐의 알루미늄 축적률에 미치는 영향",
+                  "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Schisandra chinensis extract ameliorates nonalcoholic fatty liver via inhibition of endoplasmic reticulum stress.",
+                  "details": "J Ethnopharmacol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Schisandra chinensis Baill, a Chinese medicinal herb, alleviates high-fat-diet-inducing non-alcoholic steatohepatitis in rats.",
+                  "details": "Afr J Tradit Complement Altern Med.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Dietary pulp from Fructus Schisandra Chinensis supplementation reduces serum/hepatic lipid and hepatic glucose levels in mice fed a normal or high cholesterol/bile salt diet.",
+                  "details": "Lipids Health Dis.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Dietary Fructus Schisandrae extracts and fenofibrate regulate the serum/hepatic lipid-profile in normal and hypercholesterolemic mice, with attention to hepatotoxicity.",
+                  "details": "Lipids Health Dis.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Schisandrin B from Schisandra chinensis reduces hepatic lipid contents in hypercholesterolaemic mice.",
+                  "details": "J Pharm Pharmacol.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effects of lignan-riched extract of Shisandra chinensis on amyloid-b-induced cognitive impairment and neurotoxicity in the cortex and hippocampus of mouse.",
+                  "details": "J Ethnopharmacol.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Schizandrin, an antioxidant lignan from Schisandra chinensis, ameliorates Aβ1-42-induced memory impairment in mice.",
+                  "details": "Oxid Med Cell Longev.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Prevention of scopolamine-induced memory deficits by schisandrin B, an antioxidant lignan from Schisandra chinensis in mice.",
+                  "details": "Free Radic Res.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Schisandrin B enhances cerebral mitochondrial antioxidant status and structural integrity, and protects against cerebral ischemia/reperfusion injury in rats.",
+                  "details": "Biol Pharm Bull.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Identification of a novel anti-inflammatory compound, α-cubebenoate from Schisandra chinensis.",
+                  "details": "J Ethnopharmacol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Effects of Schisandra chinensis Baillon (Schizandraceae) on lipopolysaccharide induced lung inflammation in mice.",
+                  "details": "J Ethnopharmacol.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Anti-inflammatory effects of schisandrin isolated from the fruit of Schisandra chinensis Baill.",
+                  "details": "Eur J Pharmacol.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Schisandrin B prevents doxorubicin induced cardiac dysfunction by modulation of DNA damage, oxidative stress and inflammation through inhibition of MAPK/p53 signaling.",
+                  "details": "PLoS One.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Cardioprotective effects of aqueous Schizandra chinensis fruit extract on ovariectomized and balloon-induced carotid artery injury rat models: effects on serum lipid profiles and blood pressure.",
+                  "details": "J Ethnopharmacol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Schisandra chinensis protects against adriamycin-induced cardiotoxicity in rats.",
+                  "details": "Chang Gung Med J.  2006",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-allergic effect of α-cubebenoate isolated from Schisandra chinensis using in vivo and in vitro experiments.",
+                  "details": "J Ethnopharmacol.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Antiasthmatic effects of schizandrae fructus extract in mice with asthma.",
+                  "details": "Pharmacogn Mag.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Comparative study between Ephedra sinica Stapf and Fructus Schisandrae Chinensis on ET-1 and 6-keto-prostaglandin F1α in rats with idiopathic pulmonary fibrosis.",
+                  "details": "Genet Mol Res.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Schisandra chinensis fruit extract attenuates albuminuria and protects podocyte integrity in a mouse model of streptozotocin-induced diabetic nephropathy.",
+                  "details": "J Ethnopharmacol.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Inhibitory effect of schisandrin on spontaneous contraction of isolated rat colon.",
+                  "details": "Phytomedicine.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H030",
+            "fnclty_Nm": "중금속 배출",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Schisandrin B stimulates a cytoprotective response in rat liver exposed to mercuric chloride.",
+                  "details": "Food Chem Toxicol.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "오미자 추출액이 알루미늄 투여에 의한 흰쥐의 알루미늄 축적률에 미치는 영향",
+                  "details": "한국식품영양학회지 = The Korean journal of food and nutrition",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hepatoprotective effect of Schisandra chinensis (Turcz.) Baill. lignans and its formula with Rubus idaeus on chronic alcohol-induced liver injury in mice.",
+                  "details": "Food Funct.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Schisandra chinensis prevents alcohol-induced fatty liver disease in rats.",
+                  "details": "J Med Food.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effects of gomisin A isolated from Schisandra chinensis against CCl(4)-induced hepatic and renal injury.",
+                  "details": "Int J Mol Med.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Schisandra chinensis reverses visceral hypersensitivity in a neonatal-maternal separated rat model.",
+                  "details": "Phytomedicine.  2012",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Pharmacokinetic and nephroprotective benefits of using Schisandra chinensis extracts in a cyclosporine A-based immune-suppressive regime.",
+                  "details": "Drug Des Devel Ther.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Schisandrin B Enhances Renal Mitochondrial Antioxidant Status, Functional and Structural Integrity, and Protects against Gentamicin-Induced Nephrotoxicity in Rats.",
+                  "details": "Biol Pharm Bull.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H052",
+            "fnclty_Nm": "항감염",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Therapeutic effects of a-iso-cubebenol, a natural compound isolated from the Schisandra chinensis fruit, against sepsis.",
+                  "details": "Biochem Biophys Res Commun.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "a-Iso-cubebene, a natural compound isolated from Schisandra chinensis fruit, has therapeutic benefit against polymicrobial sepsis.",
+                  "details": "Biochem Biophys Res Commun.  2012",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Influence of an aqueous extract of Ligustrum lucidum and an ethanol extract of Schisandra chinensis on parameters of antioxidative metabolism and spleen lymphocyte proliferation of broilers.",
+                  "details": "Arch Anim Nutr.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Long-term schisandrin B treatment mitigates age-related impairments in mitochondrial antioxidant status and functional ability in various tissues, and improves the survival of aging C57BL/6J mice.",
+                  "details": "Biofactors.  2008",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "In vitro and in vivo anti-hyperglycemic effects of Omija (Schizandra chinensis) fruit.",
+                  "details": "Int J Mol Sci.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Inhibitory effect of schisandrin on spontaneous contraction of isolated rat colon.",
+                  "details": "Phytomedicine.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Schisandra chinensis fruit extract attenuates albuminuria and protects podocyte integrity in a mouse model of streptozotocin-induced diabetic nephropathy.",
+                "details": "J Ethnopharmacol.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Ameliorative effects of Schizandra chinensis on osteoporosis via activation of estrogen receptor (ER)-a/-b.",
+                "details": "Food Funct.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Schisandra chinensis produces the antidepressant-like effects in repeated corticosterone-induced mice via the BDNF/TrkB/CREB signaling pathway.",
+                "details": "Psychiatry Res.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Enhanced antitumor and reduced toxicity effect of Schisanreae polysaccharide in 5-Fu treated Heps-bearing mice.",
+                "details": "Int J Biol Macromol.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antihypertensive effect of gomisin A from Schisandra chinensis on angiotensin II-induced hypertension via preservation of nitric oxide bioavailability.",
+                "details": "Hypertens Res.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "An immunostimulatory polysaccharide (SCP-IIa) from the fruit of Schisandra chinensis (Turcz.) Baill.",
+                "details": "Int J Biol Macromol.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effective kinetics of schisandrin B on serum/hepatic triglyceride and total cholesterol levels in mice with and without the influence of fenofibrate.",
+                "details": "Naunyn Schmiedebergs Arch Pharmacol.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

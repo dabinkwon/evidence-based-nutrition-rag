@@ -1,0 +1,54 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-18-044",
+    "sample_Nm": "방아풀",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Glaucocalyxin a protect liver function via inhibiting platelet over-activation during sepsis",
+                "details": "Phytomedicine",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anti-Amnesic Effect of Agastache rugosa on Scopolamine-Induced Memory Impairment in Mice",
+                "details": "Pharmaceuticals",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H036",
+            "fnclty_Nm": "뼈 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Agastache rugosa ethanol extract suppresses bone loss via induction of osteoblast differentiation with alteration of gut microbiota",
+                "details": "Phytomedicine",
+                "pblicte_Year": "2021"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

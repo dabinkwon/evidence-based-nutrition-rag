@@ -1,0 +1,406 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-008",
+    "sample_Nm": "마늘",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "7",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ajoene restored behavioral patterns and liver glutathione level in morphine treated C57BL6 mice.",
+                  "details": "Arch Pharm Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Potential Therapeutic Agents for the Treatment of Fatty Degeneration of Liver and Atheromatous Plaques: An Experimental Study in Rats.",
+                  "details": "Pharmacogn Mag.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "New insight on using aged garlic extract against toxic impacts of titanium dioxide bulk salt triggers inflammatory and fibrotic cascades in male rats.",
+                  "details": "Biomed Pharmacother.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Assessment of the effect of Allium sativum on serum nitric oxide level and hepatic histopathology in experimental cystic echinococcosis in mice.",
+                  "details": "J Parasit Dis.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Prophylactic Effects of Garlic Oil and Onion Oil Fractions as Compared to Vitamin E on Rats Orally Fed with Lead Acetate Solution.",
+                  "details": "Indian J Clin Biochem.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Protective role of garlic oil against oxidative damage induced by furan exposure from weaning through adulthood in adult rat testis.",
+                  "details": "Acta Histochem.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Garlic attenuates histological and histochemical alterations in livers of Schistosoma mansoni infected mice.",
+                  "details": "Biotech Histochem.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Garlic provides protection to mice heart against isoproterenol-induced oxidative damage: role of nitric oxide.",
+                  "details": "Nitric Oxide. 2012 Jun 30;27(1):9-17. doi: 10.1016/j.niox.2012.03.004. Epub 2012 Mar 28.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Involvement of adenosine and standardization of aqueous extract of garlic (Allium sativum Linn.) on cardioprotective and cardiodepressant properties in ischemic preconditioning and myocardial ischemia-reperfusion induced cardiac injury.",
+                  "details": "J Biomed Res. 2012 Jan;26(1):24-36. doi: 10.1016/S1674-8301(12)60004-9.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Garlic activates SIRT-3 to prevent cardiac oxidative stress and mitochondrial dysfunction in diabetes.",
+                  "details": "Life Sci.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effect of the Aged Garlic Extract on Cardiovascular Function in Metabolic Syndrome Rats.",
+                  "details": "Molecules.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Anti-Atherogenic Properties of Allium ursinum Liophylisate: Impact on Lipoprotein Homeostasis and Cardiac Biomarkers in Hypercholesterolemic Rabbits.",
+                  "details": "Int J Mol Sci.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Preventive Effect of Garlic (Allium sativum L.) on Serum Biochemical Factors and Histopathology of Pancreas and Liver in Streptozotocin- Induced Diabetic Rats.",
+                  "details": "Iran J Pharm Res. 2013 Summer;12(3):325-38.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "생마늘 및 흑마늘 추출분말이 Streptozotocin 유발 당뇨 흰쥐의 혈청 및 장기 내 주요성분에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Garlic and Resveratrol Attenuate Diabetic Complications, Loss of 棺-Cells, Pancreatic and Hepatic Oxidative Stress in Streptozotocin-Induced Diabetic Rats.",
+                  "details": "Front Pharmacol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Garlic decreases liver and kidney receptor for advanced glycation end products expression in experimental diabetes.",
+                  "details": "Pathophysiology.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Anti-diabetic and anti-oxidant potential of aged garlic extract (AGE) in streptozotocin-induced diabetic rats.",
+                  "details": "BMC Complement Altern Med.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H038",
+            "fnclty_Nm": "항암",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effect of ascorbic acid and garlic administration on lead-induced apoptosis in rat offspring&apos;s eye retina.",
+                  "details": "Iran Biomed J. 2013;17(4):206-13.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Inhibition of ENNG-induced pyloric stomach and small intestinal carcinogenesis in mice by high temperature- and pressure-treated garlic.",
+                  "details": "Asian Pac J Cancer Prev. 2012;13(5):1983-8.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Melanoma B16F10 cell에 의해서 유도된 mouse모델에서 마늘 헥산 추출물의 암전이에 억제 효과",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Anti-Proliferation Effects of Garlic (Allium sativum L.) on the Progression of Benign Prostatic Hyperplasia.",
+                  "details": "Phytother Res.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Garlic supplemented diet attenuates gentamicin nephrotoxicity in rats.",
+                  "details": "Int Braz J Urol. 2014 Jul-Aug;40(4):562-7. doi: 10.1590/S1677-5538.IBJU.2014.04.17.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Ethanolic extract of garlic for attenuation of gentamicin-induced nephrotoxicity in Wistar rats.",
+                  "details": "Iran J Kidney Dis. 2013 Sep;7(5):376-82.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Aqueous extract of Allium sativum L bulbs offer nephroprotection by attenuating vascular endothelial growth factor and extracellular signal-regulated kinase-1 expression in diabetic rats.",
+                  "details": "Indian J Exp Biol. 2013 Feb;51(2):139-48.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Garlic Attenuates Plasma and Kidney ACE-1 and AngII Modulations in Early Streptozotocin-Induced Diabetic Rats: Renal Clearance and Blood Pressure Implications.",
+                  "details": "Evid Based Complement Alternat Med.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Potential protective effects of Nigella sativa and Allium sativum against fructose-induced metabolic syndrome in rats.",
+                  "details": "J Oleo Sci. 2014;63(8):839-48.",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "마늘종 추출물이 고지방식이로 유도된 고지혈증 흰쥐의 지질개선에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Anti-atherosclerotic effects of garlic preparation in freeze injury model of atherosclerosis in cholesterol-fed rabbits.",
+                  "details": "Phytomedicine.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Beneficial effects of Allium sativum L. stem extract on lipid metabolism and antioxidant status in obese mice fed a high-fat diet.",
+                  "details": "J Sci Food Agric. 2013 Aug 30;93(11):2749-57. doi: 10.1002/jsfa.6094. Epub 2013 Apr 19.",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "마늘종 추출물이 고지방식이로 유도된 고지혈증 흰쥐의 지질개선에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Antiobesity Effect of Garlic Extract Fermented by Lactobacillus plantarum BL2 in Diet-Induced Obese Mice.",
+                  "details": "J Med Food.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Garlic and Resveratrol Attenuate Diabetic Complications, Loss of 棺-Cells, Pancreatic and Hepatic Oxidative Stress in Streptozotocin-Induced Diabetic Rats.",
+                  "details": "Front Pharmacol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Anti-diabetic and anti-oxidant potential of aged garlic extract (AGE) in streptozotocin-induced diabetic rats.",
+                  "details": "BMC Complement Altern Med.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of Allium cepa and Allium sativum on some immunological cells in rats.",
+                  "details": "Afr J Tradit Complement Altern Med. 2012;9(3):374-9.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "S-1-Propenylcysteine promotes the differentiation of B혻cells into IgA-producing cells by the induction of Erk1/2-dependent Xbp1 expression in Peyer&apos;s patches.",
+                  "details": "Nutrition.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Garlic oil inhibits dextran sodium sulfate-induced ulcerative colitis in rats.",
+                "details": "Life Sci.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H007",
+            "fnclty_Nm": "신경보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Ascorbic Acid and Garlic Administration on Lead-Induced Neural Damage in Rat Offspring&apos;s Hippocampus.",
+                "details": "Iran J Basic Med Sci. 2013 Feb;16(2):157-64.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Three Medicinal Plants Extracts in Experimental Diabetes: Antioxidant Enzymes Activities and Plasma Lipids Profiles inComparison with Metformin.",
+                "details": "Iran J Pharm Res. 2012 Summer;11(3):897-903.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H041",
+            "fnclty_Nm": "전립선 건강의 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Impact of titanium dioxide on androgen receptors, seminal vesicles and thyroid hormones of male rats: possible protective trial with aged garlic extract.",
+                "details": "Andrologia.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Gastroprotective effect of garlic in indomethacin induced gastric ulcer in rats.",
+                "details": "Nutrition.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypoglycemic Effects of Three Medicinal Plants in Experimental Diabetes: Inhibition of Rat Intestinal α-glucosidase and Enhanced Pancreatic Insulin and Cardiac Glut-4 mRNAs Expression.",
+                "details": "Iran J Pharm Res. 2013 Summer;12(3):387-97.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "High doses of garlic extract significantly attenuated the ratio of serum LDL to HDL level in rat-fed with hypercholesterolemia diet.",
+                "details": "Diagn Pathol. 2015 Jun 20;10:74. doi: 10.1186/s13000-015-0322-0.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H076",
+            "fnclty_Nm": "혈관이완을 통한 혈행 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The aqueous garlic, onion and leek extracts release nitric oxide from S-nitrosoglutathione and prolong relaxation of aortic rings.",
+                "details": "Gen Physiol Biophys. 2011 Dec;30(4):396-402. doi: 10.4149/gpb_2011_04_396.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H079",
+            "fnclty_Nm": "면역과민반응 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Experimental studies on the effect of (Lambda-Cyhalothrin) insecticide on lungs and the ameliorating effect of plant extracts (Ginseng (Panax Ginseng) and garlic (Allium sativum L.) on asthma development in albino rats.",
+                "details": "BMC Res Notes. 2014 Apr 16;7:243. doi: 10.1186/1756-0500-7-243.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Comparison of the hypotensive and bradycardic activity of ginkgo, garlic, and onion extracts.",
+                "details": "Clin Exp Hypertens. 2011;33(2):95-9. doi: 10.3109/10641963.2010.531833. Epub 2011 Jan 26.",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Garlic (Allium sativum L.) as a potential antidote for cadmium and lead intoxication: cadmium and lead distribution and analysis in different mice organs.",
+                "details": "Biol Trace Elem Res. 2007 Winter;120(1-3):227-34.",
+                "pblicte_Year": "2007"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

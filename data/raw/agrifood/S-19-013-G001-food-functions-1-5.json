@@ -1,0 +1,28 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-19-013",
+    "sample_Nm": "순무",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": {
+          "fnclty_Cd": "H019",
+          "fnclty_Nm": "간(기타)",
+          "thesis_Cnt": "1",
+          "thesis_List": {
+            "item": {
+              "title": "Comparison of the preventive activity of isorhamnetin glycosides from atsumi-kabu (red turnip, Brassica, campestris L.) leaves on carbon tetrachloride-induced liver injury in mice.",
+              "details": "Biosci Biotechnol Biochem.  2008",
+              "pblicte_Year": "2008"
+            }
+          }
+        }
+      }
+    }
+  }
+}

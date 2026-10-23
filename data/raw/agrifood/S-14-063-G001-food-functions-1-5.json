@@ -1,0 +1,145 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-14-063",
+    "sample_Nm": "포도",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Protective effect of Öküzgözü (Vitis vinifera L. cv.) grape juice against carbon tetrachloride induced oxidative stress in rats.",
+                  "details": "Food Funct. 2012 Jun;3(6):668-73. doi: 10.1039/c2fo30024a.",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "The effects of grape seeds polyphenols on SKH-1 mice skin irradiated with multiple doses of UV-B.",
+                  "details": "J Photochem Photobiol B. 2011 Nov 3;105(2):133-42. doi: 10.1016/j.jphotobiol.2011.08.002. Epub 2011 Aug 26.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Hepatoprotective and antioxidant activities of grapeseeds against ethanol-induced oxidative stress in rats.",
+                  "details": "Br J Nutr. 2012 Jan;107(1):45-51. doi: 10.1017/S0007114511002650. Epub 2011 Jun 28.",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H062",
+            "fnclty_Nm": "자외선으로 인한 피부 손상으로부터 피부 건강 유지",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The effects of grape seeds polyphenols on SKH-1 mice skin irradiated with multiple doses of UV-B.",
+                  "details": "J Photochem Photobiol B. 2011 Nov 3;105(2):133-42. doi: 10.1016/j.jphotobiol.2011.08.002. Epub 2011 Aug 26.",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Chemopreventive effects of Calluna vulgaris and Vitis vinifera extracts on UVB-induced skin damage in SKH-1 hairless mice.",
+                  "details": "J Physiol Pharmacol. 2011 Jun;62(3):385-92.",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H031",
+            "fnclty_Nm": "항균",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of anti-Candida activity of Vitis vinifera L. seed extracts obtained from wine and table cultivars.",
+                "details": "Biomed Res Int. 2014;2014:127021. doi: 10.1155/2014/127021. Epub 2014 Apr 23.",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H043",
+            "fnclty_Nm": "성기능",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effect of Vitis vinifera L. Juice on Serum Levels of Inhibin B, Sperm Count in Adult Male Rats.",
+                "details": "World J Mens Health. 2015 Aug;33(2):109-16. doi: 10.5534/wjmh.2015.33.2.109. Epub 2015 Aug 19.",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H049",
+            "fnclty_Nm": "대사증후군완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Grape skin extract protects against programmed changes in the adult rat offspring caused by maternal high-fat diet during lactation.",
+                "details": "J Nutr Biochem. 2013 Dec;24(12):2119-26. doi: 10.1016/j.jnutbio.2013.08.003. Epub 2013 Oct 31.",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hepatoprotective and antioxidant activities of grapeseeds against ethanol-induced oxidative stress in rats.",
+                "details": "Br J Nutr. 2012 Jan;107(1):45-51. doi: 10.1017/S0007114511002650. Epub 2011 Jun 28.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Vitis vinifera L. grape skin extract activates the insulin-signalling cascade and reduces hyperglycaemia in alloxan-induced diabetic mice.",
+                "details": "J Pharm Pharmacol. 2012 Feb;64(2):268-76. doi: 10.1111/j.2042-7158.2011.01395.x. Epub 2011 Nov 18.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Vitis vinifera L. grape skin extract activates the insulin-signalling cascade and reduces hyperglycaemia in alloxan-induced diabetic mice.",
+                "details": "J Pharm Pharmacol. 2012 Feb;64(2):268-76. doi: 10.1111/j.2042-7158.2011.01395.x. Epub 2011 Nov 18.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The effects of grape seeds polyphenols on SKH-1 mice skin irradiated with multiple doses of UV-B.",
+                "details": "J Photochem Photobiol B. 2011 Nov 3;105(2):133-42. doi: 10.1016/j.jphotobiol.2011.08.002. Epub 2011 Aug 26.",
+                "pblicte_Year": "2011"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

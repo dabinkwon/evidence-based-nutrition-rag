@@ -1,0 +1,193 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-047",
+    "sample_Nm": "맥문동",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Red Liriope platyphylla stimulated the insulin secretion through the regulation of calcium concentration in rat insulinoma cells and animal models.",
+                  "details": "Lab Anim Res.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Red Liriope platyphylla contains a large amount of polyphenolic compounds which stimulate insulin secretion and suppress fatty liver formation through the regulation of fatty acid oxidation in OLETF rats.",
+                  "details": "Int J Mol Med.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Differential regulation of the biosynthesis of glucose transporters by the PI3-K and MAPK pathways of insulin signaling by treatment with novel compounds from Liriope platyphylla.",
+                  "details": "Int J Mol Med.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "OLETF 당뇨모델동물을 이용한 맥문동 추출물(LP9M80-H)의 당뇨질환에 대한 효능",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Red Liriope platyphylla stimulated the insulin secretion through the regulation of calcium concentration in rat insulinoma cells and animal models.",
+                  "details": "Lab Anim Res.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Differential regulation of the biosynthesis of glucose transporters by the PI3-K and MAPK pathways of insulin signaling by treatment with novel compounds from Liriope platyphylla.",
+                  "details": "Int J Mol Med.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "OLETF 당뇨모델동물을 이용한 맥문동 추출물(LP9M80-H)의 당뇨질환에 대한 효능",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H032",
+            "fnclty_Nm": "소화기계건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effects of the roots of Liriope Platyphylla Wang Et tang on gastrointestinal motility function.",
+                  "details": "J Ethnopharmacol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "맥문동 엑스가 고콜레스테롤 식이를 급여한 횐쥐의 지질대사에 미치는 영향",
+                  "details": "생약학회지",
+                  "pblicte_Year": "2003"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Laxative effects of Liriope platyphylla are tightly correlated with suppression of endoplasmic reticulum stress in loperamide-induced constipation of SD rats.",
+                  "details": "Lab Anim Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Aqueous extracts of Liriope platyphylla induced significant laxative effects on loperamide-induced constipation of SD rats.",
+                  "details": "BMC Complement Altern Med.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Red Liriope platyphylla contains a large amount of polyphenolic compounds which stimulate insulin secretion and suppress fatty liver formation through the regulation of fatty acid oxidation in OLETF rats.",
+                "details": "Int J Mol Med.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H081",
+            "fnclty_Nm": "면역과민반응에 의한 피부상태 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "소엽맥문동(小葉麥門冬)이 NC/Nga 아토피모델에 미치는 영향",
+                "details": "韓方眼耳鼻咽喉皮膚科學會誌 = The journal of Korean Medicine Ophthalmology & Otolaryngology & Dermatology",
+                "pblicte_Year": "2008"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Precautionary effects of Red Liriope platyphylla on NGF secretion and A棺42 deposition under the preclinical stage of Alzheimer&apos;s disease in Tg2576 mice.",
+                "details": "Lab Anim Res.  2013",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Beneficial effects of ethanol extracts of Red Liriope platyphylla on vascular dysfunction in the aorta of spontaneously hypertensive rats.",
+                "details": "Lab Anim Res.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "OLETF 당뇨모델동물을 이용한 맥문동 추출물(LP9M80-H)의 당뇨질환에 대한 효능",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Liriopis tuber inhibit OVA-induced airway inflammation and bronchial hyperresponsiveness in murine model of asthma.",
+                "details": "J Ethnopharmacol.  2005",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "맥문동 엑스가 고콜레스테롤 식이를 급여한 횐쥐의 지질대사에 미치는 영향",
+                "details": "생약학회지",
+                "pblicte_Year": "2003"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

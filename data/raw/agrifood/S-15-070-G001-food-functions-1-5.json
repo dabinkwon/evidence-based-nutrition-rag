@@ -1,0 +1,97 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-070",
+    "sample_Nm": "멜론",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Dietary supplementation with a specific melon concentrate reverses vascular dysfunction induced by cafeteria diet.",
+                  "details": "Food Nutr Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Relaxin and atrial natriuretic peptide pathways participate in the anti-fibrotic effect of a melon concentrate in spontaneously hypertensive rats.",
+                  "details": "Food Nutr Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Endogenous antioxidant defense induction by melon superoxide dismutase reduces cardiac hypertrophy in spontaneously hypertensive rats.",
+                  "details": "Int J Food Sci Nutr.  2014",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Curative diet supplementation with a melon superoxide dismutase reduces adipose tissue in obese hamsters by improving insulin sensitivity.",
+                  "details": "Mol Nutr Food Res.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Preventive effect of a melon extract rich in superoxide scavenging activity on abdominal and liver fat and adipokine imbalance in high-fat-fed hamsters.",
+                  "details": "J Agric Food Chem.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Oral supplementation with melon superoxide dismutase extract promotes antioxidant defences in the brain and prevents stress-induced impairment of spatial memory.",
+                "details": "Behav Brain Res.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "A melon pulp concentrate rich in superoxide dismutase reduces stress proteins along the gastrointestinal tract of pigs.",
+                "details": "Nutrition.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "An SOD rich melon extract Extramel prevents aortic lipids and liver steatosis in diet-induced model of atherosclerosis.",
+                "details": "Nutr Metab Cardiovasc Dis.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-004",
+    "sample_Nm": "쇠비름",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "5",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ethanol extract from portulaca oleracea L. attenuated acetaminophen-induced mice liver injury.",
+                  "details": "Am J Transl Res.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Ethanol extract of Portulaca Oleracea L. reduced the carbon tetrachloride induced liver injury in mice involving enhancement of NF-κB activity.",
+                  "details": "Am J Transl Res.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Hepatoprotective effects of Portulaca oleracea extract against CCl4-induced damage in rats.",
+                  "details": "Pharm Biol.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Prophylactic and curative effects of purslane on bile duct ligation-induced hepatic fibrosis in albino rats.",
+                  "details": "Ann Hepatol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "쇠비름 추출물의 간해독, 이뇨 및 항부종 활성",
+                  "details": "Asian-Australasian journal of animal sciences",
+                  "pblicte_Year": "2014"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Portulaca oleracea reduces triglyceridemia, cholesterolemia, and improves lecithin: cholesterol acyltransferase activity in rats fed enriched-cholesterol diet.",
+                  "details": "Phytomedicine.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "고지방식이로 유도된 비만 Mice에서 쇠비름 에탄올 추출물의 고지혈증 개선효과",
+                  "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                  "pblicte_Year": "2004"
+                },
+                {
+                  "title": "Effects of Portulaca oleracea Powder on the Lipid Levels of Rats Fed a Hypercholesterolemia Inducing Diet",
+                  "details": "Journal of food science and nutrition v.16 no.3 ,pp. 202 - 209 , 2011 , 1226-332x ,",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-Diabetic Effect of Portulaca oleracea L. Polysaccharideandits Mechanism in Diabetic Rats.",
+                  "details": "Int J Mol Sci.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Comparison on hypoglycemic and antioxidant activities of the fresh and dried Portulaca oleracea L. in insulin-resistant HepG2 cells and streptozotocin-induced C57BL/6J diabetic mice.",
+                  "details": "J Ethnopharmacol.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Portulaca oleracea Ameliorates Diabetic Vascular Inflammation and Endothelial Dysfunction in db/db Mice.",
+                  "details": "Evid Based Complement Alternat Med.  2012",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "염산-에탄올에 의해 유발된 흰쥐 위염에 대한 마치현의 항산화 작용",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology v.24 no.1 ,pp. 35 - 40 , 2009 , 1229-1765 ,",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "염산-에탄올에 의해 유발된 흰쥐 위염에 대한 마치현의 억제 작용",
+                  "details": "大韓本草學會誌 = The Korea journal of herbology",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-Diabetic Effect of Portulaca oleracea L. Polysaccharideandits Mechanism in Diabetic Rats.",
+                  "details": "Int J Mol Sci.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Comparison on hypoglycemic and antioxidant activities of the fresh and dried Portulaca oleracea L. in insulin-resistant HepG2 cells and streptozotocin-induced C57BL/6J diabetic mice.",
+                  "details": "J Ethnopharmacol.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ethanol extracts from Portulaca oleracea L. attenuated ischemia/reperfusion induced rat neural injury through inhibition of HMGB1 induced inflammation.",
+                  "details": "Am J Transl Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Portulaca oleracea L. prevents lipopolysaccharide-induced passive avoidance learning and memory and TNF-α impairments in hippocampus of rat.",
+                  "details": "Physiol Behav.  2017",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H039",
+            "fnclty_Nm": "갱년기 여성의 건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Portulaca oleracea ethanolic extract on reproductive system of aging female mice.",
+                "details": "Int J Reprod Biomed (Yazd).  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Effects of Portulaca oleracea on Hypoxia-Induced Pulmonary Edema in Mice.",
+                "details": "High Alt Med Biol.  2015",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The Involvement of AMPA Receptor in the Antidepressant-like Effects of the Portulaca Oleracea L. Extract in Mice",
+                "details": "동의신경정신과학회지 = Journal of oriental neuropsychiatry v.24 no.3 ,pp. 271 - 280 , 2013 , 1226-6396 ,",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "고지방식이로 유도된 비만 Mice에서 쇠비름 에탄올 추출물의 고지혈증 개선효과",
+                "details": "韓國營養學會誌 = The Korean journal of nutrition.",
+                "pblicte_Year": "2004"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Portulaca oleracea Ameliorates Diabetic Vascular Inflammation and Endothelial Dysfunction in db/db Mice.",
+                "details": "Evid Based Complement Alternat Med.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H012",
+            "fnclty_Nm": "방광의 배뇨기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "쇠비름 추출물의 간해독, 이뇨 및 항부종 활성",
+                "details": "Asian-Australasian journal of animal sciences",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "마치현(馬齒莧)의 급성 췌장염 보호 효과",
+                "details": "大韓本草學會誌 = The Korea journal of herbology v.29 no.3 ,pp. 11 - 17 , 2014 , 1229-1765 ,",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H014",
+            "fnclty_Nm": "스트레스로 인한 긴장 완화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anxiolytic-like effects of Portulaca oleraceae L. using the elevated plus-maze in mice",
+                "details": "Oriental pharmacy and experimental medicine : OPEM v.9 no.2 ,pp. 135 - 141 , 2009 , 1598-2386 ,",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of antioxidant and immuno-enhancing activities of Purslane polysaccharides in gastric cancer rats.",
+                "details": "Int J Biol Macromol.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H018",
+            "fnclty_Nm": "면역기능 증진",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of antioxidant and immuno-enhancing activities of Purslane polysaccharides in gastric cancer rats.",
+                "details": "Int J Biol Macromol.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "쇠비름 추출물의 간해독, 이뇨 및 항부종 활성",
+                "details": "Asian-Australasian journal of animal sciences",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H028",
+            "fnclty_Nm": "장(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Protective effects of ethanol extract from Portulaca oleracea L on dextran sulphate sodium-induced mice ulcerative colitis involving anti-inflammatory and antioxidant.",
+                "details": "Am J Transl Res.  2016",
+                "pblicte_Year": "2016"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-036",
+    "sample_Nm": "케일",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Bioavailability of natural carotenoids in human skin compared to blood",
+                  "details": "Eur J Pharm Biopharm",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Influences of Orally Taken Carotenoid-Rich Curly Kale Extract on Collagen I/Elastin Index of the Skin.",
+                  "details": "Nutrients.",
+                  "pblicte_Year": "2017"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "케일녹즙이 고콜레스테롤혈증 성인남자의 혈청 지질수준 및 인지질 지방산 조성에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "케일녹즙이 고콜레스테롤혈증 성인남자의 혈청 지질수준 및 인지질 지방산 조성에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Intake of kale suppresses postprandial increases in plasma glucose: A randomized, double-blind, placebo-controlled, crossover study.",
+                "details": "Biomed Rep.",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "케일녹즙이 고콜레스테롤혈증 성인남자의 혈청 지질수준 및 인지질 지방산 조성에 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H058",
+            "fnclty_Nm": "노화로 인해 감소될 수 있는 황반색소밀도를 유지",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Age-related macular degeneration: Effects of a short-term intervention with an oleaginous kale extract-pilot study",
+                "details": "Nutrition",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H063",
+            "fnclty_Nm": "피부보습",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of the Efficacy and Safety of Blue Fenugreek Kale Extract on Skin Health and Aging: In-vitro and Clinical Evidences",
+                "details": "Clin Cosmet Investig Dermatol",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "케일녹즙이 고콜레스테롤혈증 성인남자의 혈청 지질수준 및 인지질 지방산 조성에 미치는 영향",
+                "details": "생명과학회지 = Journal of life science",
+                "pblicte_Year": "2012"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

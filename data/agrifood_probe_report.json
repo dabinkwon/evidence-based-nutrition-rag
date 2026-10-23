@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-10-23T00:31:06.234415+00:00",
+  "food": "가지",
+  "sample_id": "S-14-074",
+  "research_code": "G003",
+  "operation": "food-functions",
+  "source_url": "https://www.data.go.kr/data/15143614/openapi.do",
+  "allowed_use": "local_api_inspection",
+  "generation_enabled": false,
+  "page": null,
+  "size": null,
+  "status": "success",
+  "paper_record_count": 1,
+  "research_labels": [
+    "인체적용시험"
+  ],
+  "field_names": [
+    "body",
+    "details",
+    "fnclty_Cd",
+    "fnclty_List",
+    "fnclty_Nm",
+    "header",
+    "item",
+    "items",
+    "pblicte_Year",
+    "research_Type_Cd",
+    "research_Type_Nm",
+    "result_Code",
+    "result_Msg",
+    "sample_Id",
+    "sample_Nm",
+    "thesis_Cnt",
+    "thesis_List",
+    "title"
+  ],
+  "raw_file": "data/raw/agrifood/S-14-074-G003-food-functions-1-5.json",
+  "payload_sha256": "f0865205150785a4111313342e378c9a7a978ff7bc93f3763ae9471cf7d02637"
+}

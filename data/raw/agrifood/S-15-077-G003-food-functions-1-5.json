@@ -1,0 +1,233 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-077",
+    "sample_Nm": "무화과",
+    "research_Type_Cd": "G003",
+    "research_Type_Nm": "인체적용시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Effect of consumption of dried California mission figs on lipid concentrations.",
+                  "details": "Annals of nutrition & metabolism",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Efficacy and Safety of Fig (Ficus carica L.) Leaf Tea in Adults with Mild Atopic Dermatitis: A Double-Blind, Randomized, Placebo-Controlled Preliminary Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effects of Herbs on Blood Pressure, Diabetes Mellitus, and Hyperlipidemia",
+                  "details": "Middle East Research Journal of Pharmaceutical Sciences",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypoglycemic action of an oral fig-leaf decoction in type-I diabetic patients.",
+                  "details": "Diabetes research and clinical practice",
+                  "pblicte_Year": "1998"
+                },
+                {
+                  "title": "Efficacy and Safety of Fig (Ficus carica L.) Leaf Tea in Adults with Mild Atopic Dermatitis: A Double-Blind, Randomized, Placebo-Controlled Preliminary Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effects of Herbs on Blood Pressure, Diabetes Mellitus, and Hyperlipidemia",
+                  "details": "Middle East Research Journal of Pharmaceutical Sciences",
+                  "pblicte_Year": "2024"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Efficacy and Safety of Fig (Ficus carica L.) Leaf Tea in Adults with Mild Atopic Dermatitis: A Double-Blind, Randomized, Placebo-Controlled Preliminary Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effect of dried California Mission figs on mineral status and food replacement.",
+                  "details": "Public health nutrition",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Evaluation of the anti-cholelithiasis activity of vinegar-soaked Ficus carica fruit in adults: A randomized controlled trial.",
+                  "details": "Pakistan journal of pharmaceutical sciences",
+                  "pblicte_Year": "2024"
+                },
+                {
+                  "title": "Efficacy and Safety of Fig (Ficus carica L.) Leaf Tea in Adults with Mild Atopic Dermatitis: A Double-Blind, Randomized, Placebo-Controlled Preliminary Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H034",
+            "fnclty_Nm": "피부(기타)",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Efficacy and Safety of Fig (Ficus carica L.) Leaf Tea in Adults with Mild Atopic Dermatitis: A Double-Blind, Randomized, Placebo-Controlled Preliminary Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Comparative study of fig tree efficacy in the treatment of common warts (Verruca vulgaris) vs. cryotherapy.",
+                  "details": "International journal of dermatology",
+                  "pblicte_Year": "2007"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H051",
+            "fnclty_Nm": "체내 칼슘 흡수 촉진",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Efficacy and Safety of Fig (Ficus carica L.) Leaf Tea in Adults with Mild Atopic Dermatitis: A Double-Blind, Randomized, Placebo-Controlled Preliminary Trial.",
+                  "details": "Nutrients",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "Effect of dried California Mission figs on mineral status and food replacement.",
+                  "details": "Public health nutrition",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H070",
+            "fnclty_Nm": "배변 활동 원활",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Randomized, double-blind, placebo-controlled trial of Ficus carica paste for the management of functional constipation.",
+                  "details": "Asia Pacific journal of clinical nutrition",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effect of red sugar on functional constipation in children compared to figs syrup; a randomized controlled trial study.",
+                  "details": "Gastroenterology and hepatology from bed to bench",
+                  "pblicte_Year": "2018"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H046",
+            "fnclty_Nm": "여성건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Dry Figs on Primary Dysmenorrhea Symptoms, perceived Stress Levels and the Quality of Life.",
+                "details": "Puerto Rico health sciences journal",
+                "pblicte_Year": "2020"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Efficacy and Safety of Fig (Ficus carica L.) Leaf Tea in Adults with Mild Atopic Dermatitis: A Double-Blind, Randomized, Placebo-Controlled Preliminary Trial.",
+                "details": "Nutrients",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of dried California Mission figs on mineral status and food replacement.",
+                "details": "Public health nutrition",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effects of Herbs on Blood Pressure, Diabetes Mellitus, and Hyperlipidemia",
+                "details": "Middle East Research Journal of Pharmaceutical Sciences",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Effect of consumption of dried California mission figs on lipid concentrations.",
+                "details": "Annals of nutrition & metabolism",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Abscisic Acid Standardized Fig (Ficus carica) Extracts Ameliorate Postprandial Glycemic and Insulinemic Responses in Healthy Adults.",
+                "details": "Nutrients",
+                "pblicte_Year": "2019"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

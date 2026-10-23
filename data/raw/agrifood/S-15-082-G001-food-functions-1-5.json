@@ -1,0 +1,217 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-082",
+    "sample_Nm": "강황",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Curcuma longa L. Prevents the Loss of β‑Tubulin in the Brain and Maintains Healthy Aging in Drosophila melanogaster",
+                  "details": "Molecular Neurobiology 59.3 (2022): 1819-1835.",
+                  "pblicte_Year": "2022"
+                },
+                {
+                  "title": "The neuroprotective potential of turmeric rhizome and bitter melon on aspartame-induced spatial memory impairment in rats",
+                  "details": "Heliyon 9.11 (2023).",
+                  "pblicte_Year": "2023"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H003",
+            "fnclty_Nm": "지혈",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Anticoagulant activities of curcumin and its derivative",
+                "details": "BMB reports 45.4 (2012): 221-226.",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H006",
+            "fnclty_Nm": "류마티스성 관절염",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Turmeric extracts containing curcuminoids prevent experimental rheumatoid arthritis",
+                "details": "Journal of natural products 69.3 (2006): 351-355.",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H008",
+            "fnclty_Nm": "혈압 조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Curcumin protects against cadmium-induced vascular dysfunction, hypertension and tissue cadmium accumulation in mice",
+                "details": "Nutrients 6.3 (2014): 1194-1208.",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H009",
+            "fnclty_Nm": "심장건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Concordance between cardio-protective effect on isoproterenol-induced acute myocardial ischemia and phenolic content of different extracts of Curcuma aromatica",
+                "details": "Pharmaceutical biology 54.12 (2016): 3226-3231.",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H010",
+            "fnclty_Nm": "콩팥에서 요독 물질 배출",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Nephroprotective Effect of Essential Oils from Ginger (Zingiber officiN/Ale) and Turmeric (Curcuma longa) Rhizomes against Cadmium-induced Nephrotoxicity in Rats",
+                "details": "Journal of Oleo Science 67.10 (2018): 1339-1345.",
+                "pblicte_Year": "2018"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "SD계 랫트와 db/db 마우스에서 Curcuma longa L.가 비만과 인슐린저항성에 미치는 영향",
+                "details": "한국식품저장유통학회지 = Korean journal of food preservation",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "SD계 랫트와 db/db 마우스에서 Curcuma longa L.가 비만과 인슐린저항성에 미치는 영향",
+                "details": "한국식품저장유통학회지 = Korean journal of food preservation",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Turmeric extract alleviates airway inflammation via oxidative stress-driven MAPKs/MMPs pathway",
+                "details": "International Immunopharmacology 141 (2024): 113018.",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H022",
+            "fnclty_Nm": "위(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Curcumin relieves mice gastric emptying dysfunction induced by L-arginine and atropine through interstitial cells of Cajal",
+                "details": "Experimental and Therapeutic Medicine 21.6 (2021): 1-6.",
+                "pblicte_Year": "2021"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H023",
+            "fnclty_Nm": "운동수행능력 향상(지구력 증진)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Curcuma longa L. Water Extract Enhances Endurance Exercise Capacity by Promoting Intramuscular Mitochondrial Biogenesis in Mice",
+                "details": "Journal of Medicinal Food 25.2 (2022): 138-145.",
+                "pblicte_Year": "2022"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Curcumin Ameliorates Ischemia-Induced Limb Injury Through Immunomodulation",
+                "details": "Medical Science Monitor: International Medical Journal of Experimental and Clinical Research 22 (2016): 2035.",
+                "pblicte_Year": "2016"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "SD계 랫트와 db/db 마우스에서 Curcuma longa L.가 비만과 인슐린저항성에 미치는 영향",
+                "details": "한국식품저장유통학회지 = Korean journal of food preservation",
+                "pblicte_Year": "2013"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H056",
+            "fnclty_Nm": "잇몸건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Mucoadhesive formulation containing Curcuma longa L. reduces oral mucositis induced by 5-fluorouracil in hamster",
+                "details": "Phytotherapy Research 33.4 (2019): 881-890.",
+                "pblicte_Year": "2019"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H002",
+            "fnclty_Nm": "치매",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Curcumin Mitigates the High-Fat High-Sugar Diet-Induced Impairment of Spatial Memory, Hepatic Metabolism, and the Alteration of the Gut Microbiome in Alzheimer's Disease-Induced (3xTg-AD) Mice",
+                "details": "Nutrients 16.2 (2024): 240.",
+                "pblicte_Year": "2024"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Essential oil components of turmeric inhibit hepatic lipidification and liver fibrosis in a diet-induced N/ASH model rats",
+                "details": "Scientific Reports 13.1 (2023): 20742.",
+                "pblicte_Year": "2023"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

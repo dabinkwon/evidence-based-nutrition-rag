@@ -1,0 +1,229 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-023",
+    "sample_Nm": "보검선인장",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypoglycemic Effect of Opuntia ficus-indica var. saboten Is Due to Enhanced Peripheral Glucose Uptake through Activation of AMPK/p38 MAPK Pathway.",
+                  "details": "Nutrients.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Evaluation of protective effect of cactus pear seed oil (Opuntia ficus-indica L. MILL.) against alloxan-induced diabetes in mice.",
+                  "details": "Asian Pac J Trop Med.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Evaluation of antidiabetic properties of cactus pear seed oil in rats.",
+                  "details": "Pharm Biol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Functional and hypoglycemic properties of nopal cladodes (O. ficus-indica) at different maturity stages using in vitro and in vivo tests.",
+                  "details": "J Agric Food Chem.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "4",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypoglycemic Effect of Opuntia ficus-indica var. saboten Is Due to Enhanced Peripheral Glucose Uptake through Activation of AMPK/p38 MAPK Pathway.",
+                  "details": "Nutrients.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Evaluation of antidiabetic properties of cactus pear seed oil in rats.",
+                  "details": "Pharm Biol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "Functional and hypoglycemic properties of nopal cladodes (O. ficus-indica) at different maturity stages using in vitro and in vivo tests.",
+                  "details": "J Agric Food Chem.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Comparative evaluation of two different Opuntia ficus-indica extracts for blood sugar lowering effects in rats.",
+                  "details": "Phytother Res.  2011",
+                  "pblicte_Year": "2011"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H067",
+            "fnclty_Nm": "위점막 보호하여 위 건강",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Prickly pear cactus (Opuntia ficus indica var. saboten) protects against stress-induced acute gastric lesions in rats.",
+                  "details": "J Med Food.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "Evaluation of antioxidant and antiulcerogenic activities of Opuntia ficus indica f. inermis flowers extract in rats.",
+                  "details": "Environ Toxicol Pharmacol.  2011",
+                  "pblicte_Year": "2011"
+                },
+                {
+                  "title": "Antioxidant and antiulcerogenic activities of Opuntia ficus indica f. inermis root extract in rats.",
+                  "details": "Phytomedicine.  2010",
+                  "pblicte_Year": "2010"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H016",
+            "fnclty_Nm": "체지방 감소",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Fruit vinegars attenuate cardiac injury via anti-inflammatory and anti-adiposity actions in high-fat diet-induced obese rats.",
+                  "details": "Pharm Biol.  2017",
+                  "pblicte_Year": "2017"
+                },
+                {
+                  "title": "The effect of isorhamnetin glycosides extracted from Opuntia ficus-indica in a mouse model of diet induced obesity.",
+                  "details": "Food Funct.  2015",
+                  "pblicte_Year": "2015"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H065",
+            "fnclty_Nm": "대사이상 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Opuntia ficus-indica seed attenuates hepatic steatosis and promotes M2 macrophage polarization in high-fat diet-fed mice.",
+                  "details": "Nutr Res.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Opuntia ficus indica (nopal) attenuates hepatic steatosis and oxidative stress in obese Zucker (fa/fa) rats.",
+                  "details": "J Nutr.  2012",
+                  "pblicte_Year": "2012"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypocholesterolemic Effect and In Vitro Pancreatic Lipase Inhibitory Activity of an Opuntia ficus-indica Extract.",
+                  "details": "Biomed Res Int.  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Effect of fruit vinegars on liver damage and oxidative stress in high-fat-fed rats.",
+                  "details": "Pharm Biol.  2016",
+                  "pblicte_Year": "2016"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Fruit vinegars attenuate cardiac injury via anti-inflammatory and anti-adiposity actions in high-fat diet-induced obese rats",
+                "details": "Pharm Biol",
+                "pblicte_Year": "2017"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H012",
+            "fnclty_Nm": "방광의 배뇨기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Diuretic and antioxidant effects of Cacti-Nea, a dehydrated water extract from prickly pear fruit, in rats.",
+                "details": "Phytother Res.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Indicaxanthin from cactus pear fruit exerts anti-inflammatory effects in carrageenin-induced rat pleurisy.",
+                "details": "J Nutr.  2014",
+                "pblicte_Year": "2014"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H044",
+            "fnclty_Nm": "항우울",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidepressant-like Effect of Kaempferol and Quercitirin, Isolated from Opuntia ficus-indica var. saboten.",
+                "details": "Exp Neurobiol.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Evaluation of Opuntia ficus indica f. inermis fruit juice hepatoprotective effect upon ethanol toxicity in rats.",
+                "details": "Gen Physiol Biophys.  2012",
+                "pblicte_Year": "2012"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Neuroprotective and antioxidative effect of cactus polysaccharides in vivo and in vitro.",
+                "details": "Cell Mol Neurobiol.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

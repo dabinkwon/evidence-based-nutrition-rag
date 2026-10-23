@@ -1,0 +1,179 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-014",
+    "sample_Nm": "미나리",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "The protective effect of total phenolics from Oenanthe Javanica on acute liver failure induced by D-galactosamine.",
+                  "details": "J Ethnopharmacol.  2016",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "Effect of Oenanthe Javanica Extract on Antioxidant Enzyme in the Rat Liver.",
+                  "details": "Chin Med J (Engl).  2015",
+                  "pblicte_Year": "2015"
+                },
+                {
+                  "title": "Hepatoprotective effects of fermented field water-dropwort (Oenanthe javanica) extract and its major constituents.",
+                  "details": "Food Chem Toxicol.  2014",
+                  "pblicte_Year": "2014"
+                },
+                {
+                  "title": "In vivo and in vitro anti-hepatitis B virus activity of total phenolics from Oenanthe javanica.",
+                  "details": "J Ethnopharmacol.  2008",
+                  "pblicte_Year": "2008"
+                },
+                {
+                  "title": "Effect of Oenanthe javanica flavone on human and duck hepatitis B virus infection.",
+                  "details": "Acta Pharmacol Sin.  2005",
+                  "pblicte_Year": "2005"
+                },
+                {
+                  "title": "Acetaminophen으로 유도한 쥐의 간 독성에 대한 미나리(Oenanthe javanica) 추출액의 간 보호 작용",
+                  "details": "약학회지",
+                  "pblicte_Year": "2008"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "미나리즙이 고지방식이를 급여한 흰쥐의 혈청지질구성에 미치는 영향",
+                  "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                  "pblicte_Year": "2000"
+                },
+                {
+                  "title": "미나리 및 부추의 고지방․고콜레스테롤 식이 흰쥐의 지질 함량 개선에 미치는 영향",
+                  "details": "생명과학회지 = Journal of life science",
+                  "pblicte_Year": "2016"
+                },
+                {
+                  "title": "미나리 즙이 과산화 지질과 알코올을 투여한 흰쥐의 체지질 구성, 간장기능 및 항산화능에 미치는 영향",
+                  "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                  "pblicte_Year": "2005"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H066",
+            "fnclty_Nm": "알콜성 손상으로부터 간을 보호",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "미나리 즙이 과산화 지질과 알코올을 투여한 흰쥐의 체지질 구성, 간장기능 및 항산화능에 미치는 영향",
+                  "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                  "pblicte_Year": "2005"
+                },
+                {
+                  "title": "돌미나리 가루와 맥주 효모가 알코올을 섭취한 흰쥐의 간 기능 및 혈청 지질대사에 미치는 영향",
+                  "details": "東아시아食生活學會誌 = Journal of the East Asian Society of Dietary Life",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Anti-inflammatory activities of isorhamnetin-3-O-galactoside against HMGB1-induced inflammatory responses in both HUVECs and CLP-induced septic mice.",
+                  "details": "J Cell Biochem.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Persicarin is anti-inflammatory mediator against HMGB1-induced inflammatory responses in HUVECs and in CLP-induced sepsis mice.",
+                  "details": "J Cell Physiol.  2013",
+                  "pblicte_Year": "2013"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidiabetic effect of Oenanthe javanica flavone.",
+                "details": "Acta Pharmacol Sin.  2000",
+                "pblicte_Year": "2000"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antidiabetic effect of Oenanthe javanica flavone.",
+                "details": "Acta Pharmacol Sin.  2000",
+                "pblicte_Year": "2000"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "미나리 즙이 과산화 지질과 알코올을 투여한 흰쥐의 체지질 구성, 간장기능 및 항산화능에 미치는 영향",
+                "details": "韓國資源植物學會誌 = Korean journal of plant resources",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H020",
+            "fnclty_Nm": "기억력 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "알츠하이머질병 모델동물인 Tg2576 마우스를 이용한 미나리 알코올추출물의 기억력 개선 효능",
+                "details": "한국식품과학회지",
+                "pblicte_Year": "2015"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H047",
+            "fnclty_Nm": "숙취해소",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Oenanthe javanica extract accelerates ethanol metabolism in ethanol-treated animals.",
+                "details": "BMB Rep.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "header": {
+    "result_Code": "200",
+    "result_Msg": "정상"
+  },
+  "body": {
+    "sample_Id": "S-15-066",
+    "sample_Nm": "오디(뽕나무)",
+    "research_Type_Cd": "G001",
+    "research_Type_Nm": "동물시험",
+    "items": {
+      "fnclty_List": {
+        "item": [
+          {
+            "fnclty_Cd": "H015",
+            "fnclty_Nm": "혈당(기타)",
+            "thesis_Cnt": "6",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Antidiabetic and antioxidant effects and phytochemicals of mulberry fruit (Morus alba L.) polyphenol enhanced extract.",
+                  "details": "PLoS One.  2013",
+                  "pblicte_Year": "2013"
+                },
+                {
+                  "title": "Effect of flavonol glycoside in mulberry (Morus alba L.) leaf on glucose metabolism and oxidative stress in liver in diet-induced obese mice.",
+                  "details": "J Sci Food Agric.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Postprandial hypoglycemic effect of mulberry leaf in Goto-Kakizaki rats and counterpart control Wistar rats.",
+                  "details": "Nutr Res Pract.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Antihyperglycemic, antioxidant and antiglycation activities of mulberry leaf extract in streptozotocin-induced chronic diabetic rats.",
+                  "details": "Plant Foods Hum Nutr.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Mulberry leaf ameliorates the expression profile of adipocytokines by inhibiting oxidative stress in white adipose tissue in db/db mice.",
+                  "details": "Atherosclerosis.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Administration of Folium mori extract decreases nitric oxide synthase expression in the hypothalamus of streptozotocin-induced diabetic rats.",
+                  "details": "Jpn J Pharmacol.  2002",
+                  "pblicte_Year": "2002"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H029",
+            "fnclty_Nm": "혈중 중성지방 개선",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Ameliorative effects of mulberry (Morus alba L.) leaves on hyperlipidemia in rats fed a high-fat diet: induction of fatty acid oxidation, inhibition of lipogenesis, and suppression of oxidative stress.",
+                  "details": "Biosci Biotechnol Biochem.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Hypolipidemic and antioxidant effects of mulberry (Morus alba L.) fruit in hyperlipidaemia rats.",
+                  "details": "Food Chem Toxicol.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Effects of mulberry (Morus alba L.) extracts on lipid homeostasis in vitro and in vivo.",
+                  "details": "J Agric Food Chem.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H073",
+            "fnclty_Nm": "혈당조절",
+            "thesis_Cnt": "3",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Chlorogenic acid and rutin play a major role in the in vivo anti-diabetic activity of Morus alba leaf extract on type II diabetic rats.",
+                  "details": "PLoS One.  2012",
+                  "pblicte_Year": "2012"
+                },
+                {
+                  "title": "In vivo hypoglycemic effects of phenolics from the root bark of Morus alba.",
+                  "details": "Fitoterapia.  2009",
+                  "pblicte_Year": "2009"
+                },
+                {
+                  "title": "Antihyperglycemic, antioxidant and antiglycation activities of mulberry leaf extract in streptozotocin-induced chronic diabetic rats.",
+                  "details": "Plant Foods Hum Nutr.  2009",
+                  "pblicte_Year": "2009"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H004",
+            "fnclty_Nm": "뇌건강",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Mulberry fruit protects dopaminergic neurons in toxin-induced Parkinson&apos;s disease models.",
+                  "details": "Br J Nutr.  2010",
+                  "pblicte_Year": "2010"
+                },
+                {
+                  "title": "Enhancement of neuroprotection of mulberry leaves (Morus alba L.) prepared by the anaerobic treatment against ischemic damage.",
+                  "details": "Biol Pharm Bull.  2006",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H075",
+            "fnclty_Nm": "혈중 콜레스테롤 개선",
+            "thesis_Cnt": "2",
+            "thesis_List": {
+              "item": [
+                {
+                  "title": "Hypolipidemic effect of flavonoids from mulberry leaves in triton WR-1339 induced hyperlipidemic mice.",
+                  "details": "Asia Pac J Clin Nutr.  2007",
+                  "pblicte_Year": "2007"
+                },
+                {
+                  "title": "Hypolipidemic and antioxidant effects of Morus alba L. (Egyptian mulberry) root bark fractions supplementation in cholesterol-fed rats.",
+                  "details": "Life Sci.  2006",
+                  "pblicte_Year": "2006"
+                }
+              ]
+            }
+          },
+          {
+            "fnclty_Cd": "H025",
+            "fnclty_Nm": "항염증",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "In-vitro and in-vivo anti-inflammatory effect of oxyresveratrol from Morus alba L.",
+                "details": "J Pharm Pharmacol.  2003",
+                "pblicte_Year": "2003"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H017",
+            "fnclty_Nm": "항산화",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Mulberry (Morus alba L.) leaves and their major flavonol quercetin 3-(6-malonylglucoside) attenuate atherosclerotic lesion development in LDL receptor-deficient mice.",
+                "details": "J Nutr.  2005",
+                "pblicte_Year": "2005"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H042",
+            "fnclty_Nm": "기관·기관지 상태(기침·가래 등) 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Cortex Mori Radicis extract exerts antiasthmatic effects via enhancement of CD4(+)CD25(+)Foxp3(+) regulatory T cells and inhibition of Th2 cytokines in a mouse asthma model.",
+                "details": "J Ethnopharmacol.  2011",
+                "pblicte_Year": "2011"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H072",
+            "fnclty_Nm": "식후 혈당 상승 억제",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Postprandial hypoglycemic effect of mulberry leaf in Goto-Kakizaki rats and counterpart control Wistar rats.",
+                "details": "Nutr Res Pract.  2009",
+                "pblicte_Year": "2009"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H012",
+            "fnclty_Nm": "방광의 배뇨기능 개선",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "The dual actions of morin (3,5,7,2&apos;,4&apos;-pentahydroxyflavone) as a hypouricemic agent: uricosuric effect and xanthine oxidase inhibitory activity.",
+                "details": "J Pharmacol Exp Ther.  2006",
+                "pblicte_Year": "2006"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H999",
+            "fnclty_Nm": "기타",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Hypoglycaemic activity of four plants used in Chilean popular medicine.",
+                "details": "Phytother Res.  1999",
+                "pblicte_Year": "1999"
+              }
+            }
+          },
+          {
+            "fnclty_Cd": "H019",
+            "fnclty_Nm": "간(기타)",
+            "thesis_Cnt": "1",
+            "thesis_List": {
+              "item": {
+                "title": "Antioxidant and hepatoprotective activities of Egyptian moraceous plants against carbon tetrachloride-induced oxidative stress and liver damage in rats.",
+                "details": "Pharm Biol.  2010",
+                "pblicte_Year": "2010"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
