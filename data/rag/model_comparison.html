@@ -1,61 +1,1995 @@
 <!doctype html><html lang="ko"><meta charset="utf-8"><title>모델 비교 평가</title>
 <style>body{font:16px/1.6 sans-serif;max-width:1500px;margin:30px auto;padding:16px} .pair{display:grid;grid-template-columns:1fr 1fr;gap:20px} article{border:1px solid #aaa;padding:18px;min-width:0} pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit} @media(max-width:800px){.pair{grid-template-columns:1fr}}</style>
 <h1>단일 모델 / 단계별 모델 실제 비교</h1>
-<p>고정 합성 질문. 검색어·후보·프롬프트·답변 모델을 고정하고 선별 모델만 변경합니다. 자료 수집 → 어휘 검색 → 답변 생성의 통제 실험이며 실제 UI 전체 경로의 성능 평가는 아닙니다. 인용 ID 유효성은 의미 정확성 점수가 아닙니다. 두 번 반복은 일반화 근거로 부족합니다.</p>
-<p>실행 시각(UTC): 2026-10-23T00:19:46.723722+00:00</p>
-<p><strong>검색어 추출 API 호출 실패: 실제 답변 비교가 수행되지 않았습니다. 성능 개선은 미검증입니다.</strong></p>
+<p>고정 합성 질문. 검색어·후보·프롬프트·답변 모델을 고정하고 선별 모델만 변경합니다. 자료 수집 → 어휘 검색 → 답변 생성의 통제 실험이며 실제 UI 전체 경로의 성능 평가는 아닙니다. 인용 ID 유효성은 의미 정확성 점수가 아닙니다. 소수 질문의 반복은 일반화 근거로 부족합니다.</p>
+<p>실행 시각(UTC): 2026-10-23T01:24:36.133473+00:00</p>
+<h2>실제 비교 요약</h2><p><strong>본 실험에서 최종 근거 개선은 관찰되지 않았습니다. 답변 표현 차이를 선별 모델의 품질 향상으로 귀속할 수 없습니다.</strong></p>
+<p>후보 입력 동일 9/9쌍 · 최종 생성 근거 동일 9/9쌍. 근거 동일성이 답변의 완전한 정확성을 뜻하지는 않습니다.</p>
+<table><tr><th>구성</th><th>선별 평균(초)</th><th>생성 평균(초)</th><th>선별+생성 평균(초)</th></tr>
+<tr><td>single</td><td>4.974</td><td>6.108</td><td>11.082</td></tr>
+<tr><td>split</td><td>4.049</td><td>7.146</td><td>11.195</td></tr>
+</table><p>네트워크/서버 부하와 두 구성의 동시 실행 영향을 포함합니다. 검색어 추출·전처리 시간과 비용은 제외했으므로 서비스 전체 속도/비용 개선 수치가 아닙니다.</p>
+<h2>질문별 원문 대조 검토</h2><p>실행 결과와 저장 원문을 AI가 직접 대조한 비맹검 검토입니다. 독립 전문가 평가나 자동 의미 정확도 점수가 아닙니다. 원문/답변을 비교 화면에서 직접 재검토할 수 있습니다.</p>
+<p><strong>M1</strong>: 새우 두부 계란찜: 양 구성 각3회 모두 재료와 조리 순서, 원문 중간 불 약10분을 안내했다. 최종 근거3/3쌍 동일. 분리 구성의3회차에서 다른 레시피도 선별했지만 실제 생성 근거에서는 제외되어 개선으로 이어지지 않았다.</p>
+<p><strong>M2</strong>: 황태해장국 조리법+일반 저염 방법: 양 구성 모두 같은 레시피와 식생활 지침을 사용했다(최종 근거3/3쌍 동일). 개선을 확인할 수 없었다. 원문에 육수 처리의 모호한 문구가 있고, 분리 구성2회차 답변은 줄바꿈된 마지막 단계를 문장 미제공으로 잘못 설명했다. 이는 같은 답변 모델/같은 근거에서 발생한 생성 변동으로 선별 모델의 개선·악화율로 귀속하지 않는다.</p>
+<p><strong>M3</strong>: 방울토마토150g 비타민C: 양 구성 각3회 모두 mg 수치를 만들지 않고 자료 부족을 안내했다. 최종 근거3/3쌍 동일. 더 많은 문서를 선별해도 이 질문에 필요한 함량 근거는 추가되지 않았다.</p>
+<p>사전 M1 rubric의 “약한 불”은 원문 대조에서 잘못된 기준으로 확인됐다. 원문은 “중간 불에서10분 정도”이며, 해당 오기 때문에 답변을 감점하지 않았다. 원래 실행 rubric은 이 JSON에 보존하고 향후 평가 코드의 문구만 정정했다.</p>
 <h2>M1: 새우 두부 계란찜의 재료와 만드는 순서, 찌는 시간을 알려줘.</h2>
 <p>사전 검토 기준: 연두부·새우·달걀 등 원문 재료, 원문 조리 순서, 약한 불 10분을 확인한다. 다른 요리의 방법을 섞지 않는다.</p>
 <h3>반복 1</h3><div class="pair">
 <article><h3>기존: 단일 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6-luna 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 2.789초 / 답변 7.038초</p>
+<pre>### 재료
+- 연두부 75g(3/4모)
+- 칵테일새우 20g(5마리)
+- 달걀 30g(1/2개)
+- 생크림 13g(1큰술)
+- 설탕 5g(1작은술)
+- 무염버터 5g(1작은술)
+- 고명용 시금치 10g(3줄기) [근거 1]
+
+### 만드는 순서
+1. 손질한 새우를 끓는 물에 데쳐 건집니다.
+2. 연두부, 달걀, 생크림, 설탕과 녹인 무염버터를 믹서에 갈고, 데친 새우를 섞어 그릇에 담습니다.
+3. 시금치를 잘게 다져 위에 뿌린 뒤 찜기에 넣고 중간 불에서 약 10분간 찝니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:28&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;새우 두부 계란찜&quot;,
+      &quot;새우 두부 계란찜 만드는 법&quot;,
+      &quot;연두부 새우 계란찜 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-137&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-181&quot;,
+      &quot;cookrcp01-271&quot;,
+      &quot;cookrcp01-272&quot;,
+      &quot;cookrcp01-274&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-276&quot;,
+      &quot;cookrcp01-277&quot;,
+      &quot;cookrcp01-28&quot;,
+      &quot;cookrcp01-281&quot;,
+      &quot;cookrcp01-298&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-395&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-506&quot;,
+      &quot;cookrcp01-507&quot;,
+      &quot;cookrcp01-638&quot;,
+      &quot;cookrcp01-643&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;chunk_count&quot;: 1,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:28&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;새우 두부 계란찜&quot;,
+      &quot;ingredients&quot;: &quot;새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)&quot;,
+      &quot;text&quot;: &quot;메뉴: 새우 두부 계란찜\n재료: 새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)\n조리법:\n1. 1. 손질된 새우를 끓는 물에 데쳐 건진다.a\n2. 2. 연두부, 달걀, 생크림, 설탕에 녹인 무염버터를 믹서에 넣고 간 뒤 새우(1)를 함께 섞어 그릇에 담는다.b\n3. 3. 시금치를 잘게 다져 혼합물 그릇(2)에 뿌리고 찜기에 넣고 중간 불에서 10분 정도 찐다.c\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;99\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;14\&quot;, \&quot;INFO_FAT\&quot;: \&quot;17\&quot;, \&quot;INFO_CAR\&quot;: \&quot;3\&quot;, \&quot;INFO_ENG\&quot;: \&quot;220\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;99&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;14&quot;,
+        &quot;INFO_FAT&quot;: &quot;17&quot;,
+        &quot;INFO_CAR&quot;: &quot;3&quot;,
+        &quot;INFO_ENG&quot;: &quot;220&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
 </article>
 <article><h3>변경: 단계별 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6.1-sol 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 3.683초 / 답변 6.496초</p>
+<pre>### 재료
+- 연두부 75g(3/4모)
+- 칵테일새우 20g(5마리)
+- 달걀 30g(1/2개)
+- 생크림 13g(1큰술)
+- 설탕 5g(1작은술)
+- 무염버터 5g(1작은술)
+- 고명용 시금치 10g(3줄기) [근거 1]
+
+### 만드는 순서
+1. 손질한 새우를 끓는 물에 데쳐 건집니다.
+2. 연두부, 달걀, 생크림, 설탕과 녹인 무염버터를 믹서에 갈고, 데친 새우를 섞어 그릇에 담습니다.
+3. 시금치를 잘게 다져 위에 뿌린 뒤, 찜기에 넣고 중간 불에서 약 10분간 찝니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:28&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;새우 두부 계란찜&quot;,
+      &quot;새우 두부 계란찜 만드는 법&quot;,
+      &quot;연두부 새우 계란찜 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-137&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-181&quot;,
+      &quot;cookrcp01-271&quot;,
+      &quot;cookrcp01-272&quot;,
+      &quot;cookrcp01-274&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-276&quot;,
+      &quot;cookrcp01-277&quot;,
+      &quot;cookrcp01-28&quot;,
+      &quot;cookrcp01-281&quot;,
+      &quot;cookrcp01-298&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-395&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-506&quot;,
+      &quot;cookrcp01-507&quot;,
+      &quot;cookrcp01-638&quot;,
+      &quot;cookrcp01-643&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;chunk_count&quot;: 1,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:28&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;새우 두부 계란찜&quot;,
+      &quot;ingredients&quot;: &quot;새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)&quot;,
+      &quot;text&quot;: &quot;메뉴: 새우 두부 계란찜\n재료: 새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)\n조리법:\n1. 1. 손질된 새우를 끓는 물에 데쳐 건진다.a\n2. 2. 연두부, 달걀, 생크림, 설탕에 녹인 무염버터를 믹서에 넣고 간 뒤 새우(1)를 함께 섞어 그릇에 담는다.b\n3. 3. 시금치를 잘게 다져 혼합물 그릇(2)에 뿌리고 찜기에 넣고 중간 불에서 10분 정도 찐다.c\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;99\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;14\&quot;, \&quot;INFO_FAT\&quot;: \&quot;17\&quot;, \&quot;INFO_CAR\&quot;: \&quot;3\&quot;, \&quot;INFO_ENG\&quot;: \&quot;220\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;99&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;14&quot;,
+        &quot;INFO_FAT&quot;: &quot;17&quot;,
+        &quot;INFO_CAR&quot;: &quot;3&quot;,
+        &quot;INFO_ENG&quot;: &quot;220&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
 </article>
 </div>
 <h3>반복 2</h3><div class="pair">
 <article><h3>기존: 단일 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6-luna 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 6.355초 / 답변 3.372초</p>
+<pre>### 재료
+- 연두부 75g(3/4모)
+- 칵테일새우 20g(5마리)
+- 달걀 30g(1/2개)
+- 생크림 13g(1큰술)
+- 설탕 5g(1작은술)
+- 무염버터 5g(1작은술)
+- 고명용 시금치 10g(3줄기) [근거 1]
+
+### 만드는 순서
+1. 손질된 새우를 끓는 물에 데쳐 건집니다.
+2. 연두부, 달걀, 생크림, 설탕, 녹인 무염버터를 믹서에 갈고, 데친 새우와 함께 섞어 그릇에 담습니다.
+3. 시금치를 잘게 다져 위에 뿌린 뒤 찜기에 넣고 중간 불에서 약 10분간 찝니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:28&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;새우 두부 계란찜&quot;,
+      &quot;새우 두부 계란찜 만드는 법&quot;,
+      &quot;연두부 새우 계란찜 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-137&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-181&quot;,
+      &quot;cookrcp01-271&quot;,
+      &quot;cookrcp01-272&quot;,
+      &quot;cookrcp01-274&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-276&quot;,
+      &quot;cookrcp01-277&quot;,
+      &quot;cookrcp01-28&quot;,
+      &quot;cookrcp01-281&quot;,
+      &quot;cookrcp01-298&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-395&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-506&quot;,
+      &quot;cookrcp01-507&quot;,
+      &quot;cookrcp01-638&quot;,
+      &quot;cookrcp01-643&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;chunk_count&quot;: 1,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:28&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;새우 두부 계란찜&quot;,
+      &quot;ingredients&quot;: &quot;새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)&quot;,
+      &quot;text&quot;: &quot;메뉴: 새우 두부 계란찜\n재료: 새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)\n조리법:\n1. 1. 손질된 새우를 끓는 물에 데쳐 건진다.a\n2. 2. 연두부, 달걀, 생크림, 설탕에 녹인 무염버터를 믹서에 넣고 간 뒤 새우(1)를 함께 섞어 그릇에 담는다.b\n3. 3. 시금치를 잘게 다져 혼합물 그릇(2)에 뿌리고 찜기에 넣고 중간 불에서 10분 정도 찐다.c\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;99\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;14\&quot;, \&quot;INFO_FAT\&quot;: \&quot;17\&quot;, \&quot;INFO_CAR\&quot;: \&quot;3\&quot;, \&quot;INFO_ENG\&quot;: \&quot;220\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;99&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;14&quot;,
+        &quot;INFO_FAT&quot;: &quot;17&quot;,
+        &quot;INFO_CAR&quot;: &quot;3&quot;,
+        &quot;INFO_ENG&quot;: &quot;220&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
 </article>
 <article><h3>변경: 단계별 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6.1-sol 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 5.877초 / 답변 3.779초</p>
+<pre>### 재료
+- 연두부 75g(3/4모)
+- 칵테일새우 20g(5마리)
+- 달걀 30g(1/2개)
+- 생크림 13g(1큰술)
+- 설탕 5g(1작은술)
+- 무염버터 5g(1작은술)
+- 고명용 시금치 10g(3줄기) [근거 1]
+
+### 만드는 순서
+1. 손질된 새우를 끓는 물에 데쳐 건집니다.
+2. 연두부, 달걀, 생크림, 설탕, 녹인 무염버터를 믹서에 갈고 데친 새우와 함께 섞어 그릇에 담습니다.
+3. 시금치를 잘게 다져 위에 뿌린 뒤 찜기에 넣고 중간 불에서 약 10분간 찝니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:28&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;새우 두부 계란찜&quot;,
+      &quot;새우 두부 계란찜 만드는 법&quot;,
+      &quot;연두부 새우 계란찜 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-137&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-181&quot;,
+      &quot;cookrcp01-271&quot;,
+      &quot;cookrcp01-272&quot;,
+      &quot;cookrcp01-274&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-276&quot;,
+      &quot;cookrcp01-277&quot;,
+      &quot;cookrcp01-28&quot;,
+      &quot;cookrcp01-281&quot;,
+      &quot;cookrcp01-298&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-395&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-506&quot;,
+      &quot;cookrcp01-507&quot;,
+      &quot;cookrcp01-638&quot;,
+      &quot;cookrcp01-643&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;chunk_count&quot;: 1,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:28&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;새우 두부 계란찜&quot;,
+      &quot;ingredients&quot;: &quot;새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)&quot;,
+      &quot;text&quot;: &quot;메뉴: 새우 두부 계란찜\n재료: 새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)\n조리법:\n1. 1. 손질된 새우를 끓는 물에 데쳐 건진다.a\n2. 2. 연두부, 달걀, 생크림, 설탕에 녹인 무염버터를 믹서에 넣고 간 뒤 새우(1)를 함께 섞어 그릇에 담는다.b\n3. 3. 시금치를 잘게 다져 혼합물 그릇(2)에 뿌리고 찜기에 넣고 중간 불에서 10분 정도 찐다.c\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;99\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;14\&quot;, \&quot;INFO_FAT\&quot;: \&quot;17\&quot;, \&quot;INFO_CAR\&quot;: \&quot;3\&quot;, \&quot;INFO_ENG\&quot;: \&quot;220\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;99&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;14&quot;,
+        &quot;INFO_FAT&quot;: &quot;17&quot;,
+        &quot;INFO_CAR&quot;: &quot;3&quot;,
+        &quot;INFO_ENG&quot;: &quot;220&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
+</article>
+</div>
+<h3>반복 3</h3><div class="pair">
+<article><h3>기존: 단일 모델</h3>
+<p>gpt-6-luna 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 2.393초 / 답변 3.163초</p>
+<pre>**재료** [근거 1]
+- 연두부 75g(3/4모)
+- 칵테일새우 20g(5마리)
+- 달걀 30g(1/2개)
+- 생크림 13g(1큰술)
+- 설탕 5g(1작은술)
+- 무염버터 5g(1작은술)
+- 고명: 시금치 10g(3줄기)
+
+**만드는 순서** [근거 1]
+1. 손질한 새우를 끓는 물에 데쳐 건집니다.
+2. 연두부, 달걀, 생크림, 설탕과 녹인 무염버터를 믹서에 갈고, 데친 새우를 섞어 그릇에 담습니다.
+3. 시금치를 잘게 다져 위에 뿌린 뒤 찜기에 넣어 중간 불에서 **약 10분** 찝니다.</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:28&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;새우 두부 계란찜&quot;,
+      &quot;새우 두부 계란찜 만드는 법&quot;,
+      &quot;연두부 새우 계란찜 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-137&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-181&quot;,
+      &quot;cookrcp01-271&quot;,
+      &quot;cookrcp01-272&quot;,
+      &quot;cookrcp01-274&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-276&quot;,
+      &quot;cookrcp01-277&quot;,
+      &quot;cookrcp01-28&quot;,
+      &quot;cookrcp01-281&quot;,
+      &quot;cookrcp01-298&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-395&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-506&quot;,
+      &quot;cookrcp01-507&quot;,
+      &quot;cookrcp01-638&quot;,
+      &quot;cookrcp01-643&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;chunk_count&quot;: 1,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:28&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;새우 두부 계란찜&quot;,
+      &quot;ingredients&quot;: &quot;새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)&quot;,
+      &quot;text&quot;: &quot;메뉴: 새우 두부 계란찜\n재료: 새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)\n조리법:\n1. 1. 손질된 새우를 끓는 물에 데쳐 건진다.a\n2. 2. 연두부, 달걀, 생크림, 설탕에 녹인 무염버터를 믹서에 넣고 간 뒤 새우(1)를 함께 섞어 그릇에 담는다.b\n3. 3. 시금치를 잘게 다져 혼합물 그릇(2)에 뿌리고 찜기에 넣고 중간 불에서 10분 정도 찐다.c\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;99\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;14\&quot;, \&quot;INFO_FAT\&quot;: \&quot;17\&quot;, \&quot;INFO_CAR\&quot;: \&quot;3\&quot;, \&quot;INFO_ENG\&quot;: \&quot;220\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;99&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;14&quot;,
+        &quot;INFO_FAT&quot;: &quot;17&quot;,
+        &quot;INFO_CAR&quot;: &quot;3&quot;,
+        &quot;INFO_ENG&quot;: &quot;220&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
+</article>
+<article><h3>변경: 단계별 모델</h3>
+<p>gpt-6.1-sol 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 5.429초 / 답변 2.807초</p>
+<pre>### 재료
+- 연두부 75g(3/4모)
+- 칵테일새우 20g(5마리)
+- 달걀 30g(1/2개)
+- 생크림 13g(1큰술)
+- 설탕 5g(1작은술)
+- 무염버터 5g(1작은술)
+- 고명: 시금치 10g(3줄기) [근거 1]
+
+### 만드는 순서
+1. 손질된 새우를 끓는 물에 데쳐 건집니다.
+2. 연두부, 달걀, 생크림, 설탕과 녹인 무염버터를 믹서에 갈고, 데친 새우를 섞어 그릇에 담습니다.
+3. 시금치를 잘게 다져 위에 뿌린 뒤 찜기에 넣습니다. [근거 1]
+
+### 찌는 시간
+중간 불에서 약 10분 찝니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:28&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;새우 두부 계란찜&quot;,
+      &quot;새우 두부 계란찜 만드는 법&quot;,
+      &quot;연두부 새우 계란찜 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-137&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-181&quot;,
+      &quot;cookrcp01-271&quot;,
+      &quot;cookrcp01-272&quot;,
+      &quot;cookrcp01-274&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-276&quot;,
+      &quot;cookrcp01-277&quot;,
+      &quot;cookrcp01-28&quot;,
+      &quot;cookrcp01-281&quot;,
+      &quot;cookrcp01-298&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-395&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-506&quot;,
+      &quot;cookrcp01-507&quot;,
+      &quot;cookrcp01-638&quot;,
+      &quot;cookrcp01-643&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-28&quot;,
+      &quot;cookrcp01-643&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-28&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-28&quot;,
+      &quot;cookrcp01-643&quot;
+    ],
+    &quot;chunk_count&quot;: 2,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:28&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;새우 두부 계란찜&quot;,
+      &quot;ingredients&quot;: &quot;새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)&quot;,
+      &quot;text&quot;: &quot;메뉴: 새우 두부 계란찜\n재료: 새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)\n조리법:\n1. 1. 손질된 새우를 끓는 물에 데쳐 건진다.a\n2. 2. 연두부, 달걀, 생크림, 설탕에 녹인 무염버터를 믹서에 넣고 간 뒤 새우(1)를 함께 섞어 그릇에 담는다.b\n3. 3. 시금치를 잘게 다져 혼합물 그릇(2)에 뿌리고 찜기에 넣고 중간 불에서 10분 정도 찐다.c\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;99\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;14\&quot;, \&quot;INFO_FAT\&quot;: \&quot;17\&quot;, \&quot;INFO_CAR\&quot;: \&quot;3\&quot;, \&quot;INFO_ENG\&quot;: \&quot;220\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;99&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;14&quot;,
+        &quot;INFO_FAT&quot;: &quot;17&quot;,
+        &quot;INFO_CAR&quot;: &quot;3&quot;,
+        &quot;INFO_ENG&quot;: &quot;220&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
 </article>
 </div>
 <h2>M2: 저염 된장으로 맛을 낸 황태해장국은 어떻게 만들고, 짠맛을 줄이는 일반적인 식생활 방법은 뭐야?</h2>
 <p>사전 검토 기준: 황태·무를 끓인 뒤 된장, 콩나물 등 원문 순서를 지킨다. 일반 식생활 설명은 확보된 지침에서만 제시하고 나트륨 감소량은 추정하지 않는다.</p>
 <h3>반복 1</h3><div class="pair">
 <article><h3>기존: 단일 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6-luna 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 6.892초 / 답변 10.007초</p>
+<pre>### 저염 된장 황태해장국
+
+**재료:** 황태채 15g, 콩나물 30g, 무 30g, 저염된장 10g, 물 300ml, 청양고추 5g, 다진 마늘 2g입니다. [근거 1]
+
+1. 황태채를 손질해 물에 헹구고, 콩나물은 다듬어 씻습니다. 청양고추는 어슷썹니다.
+2. 냄비에 물과 황태, 무를 넣고 끓입니다.
+3. 저염된장을 풀고 콩나물, 다진 마늘, 청양고추를 넣은 뒤 뚜껑을 덮어 끓입니다. [근거 1]
+
+※ 조리 기록의 육수 단계 문구가 명확하지 않고, 끓이는 시간도 제시되어 있지 않습니다. 따라서 그 부분은 문서에서 확인되지 않습니다. [근거 1]
+
+### 짠맛을 줄이는 일반적인 방법
+
+- 재료 고유의 맛과 향을 살려 간을 하고, 조리할 때 천연 식재료를 활용할 수 있습니다. [근거 4]
+- 가정간편식 양념은 양을 조절하고, 양념은 절반만 먹는 방법이 안내되어 있습니다. [근거 4]
+- 국물은 따로 담고 건더기를 주로 먹는 방법도 제시되어 있습니다. [근거 4]
+- 한국인을 위한 식생활지침은 나트륨 섭취를 줄일 것을 강조합니다. [근거 2]
+
+근거 구분: [근거 1]은 **항목 메타데이터**에 해당하는 레시피 자료이고, [근거 2]와 [근거 4]는 **외부 문서**입니다.</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:36&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;황태해장국 끓이는 법&quot;,
+      &quot;저염된장을 활용한 국 조리법&quot;,
+      &quot;황태와 콩나물을 이용한 국 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-108&quot;,
+      &quot;cookrcp01-111&quot;,
+      &quot;cookrcp01-113&quot;,
+      &quot;cookrcp01-114&quot;,
+      &quot;cookrcp01-131&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-193&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-280&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-664&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-36&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 9,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:36&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;ingredients&quot;: &quot;황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)&quot;,
+      &quot;text&quot;: &quot;메뉴: 저염 된장으로 맛을 낸 황태해장국\n재료: 황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)\n조리법:\n3. 3. 황태는 손질하여 물에 헹궈 건져 놓고 콩나물은 다듬어 씻고 청양고추는 어슷썰기 한다.\n4. 4. 냄비에 물을 붓고 황태와 무를 넣고 끓인 후 육수에서 물을 건져내고 저염 된장을 푼다.\n5. 5. 콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 김이 나게 끓\n여준다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;361\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;13\&quot;, \&quot;INFO_FAT\&quot;: \&quot;0\&quot;, \&quot;INFO_CAR\&quot;: \&quot;12\&quot;, \&quot;INFO_ENG\&quot;: \&quot;100\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;361&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;13&quot;,
+        &quot;INFO_FAT&quot;: &quot;0&quot;,
+        &quot;INFO_CAR&quot;: &quot;12&quot;,
+        &quot;INFO_ENG&quot;: &quot;100&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;정부가 국민의 건강하고 균형잡힌 식생활을 위한 식품 및 영양섭취, 식생활 습관 및 문화 등과 관련된 9가지 수칙을 제시했다.\n보건복지부와 농림축산식품부, 식품의약품안전처는 국민의 건강한 식생활을 위해 일반 대중이 쉽게 이해할 수 있고 일상생활에서 실천할 수 있는 권장 수칙이 담긴 ‘한국인을 위한 식생활지침’을 14일 발표했다.\n이번 지침은 국민영양관리법에 근거해 2016년 발표한 ‘국민 공통 식생활지침’ 이후 5년 만에 마련된 것으로, 각 부처에서 건강한 식생활과 관련해 강조하고 있는 정책적 사항들을 실생활에 적용할 수 있도록 했다.\n이 지침은 식품 및 영양섭취(1~3번), 식생활 습관(4~6번), 식생활문화(7~9번)로 나뉘는데, 먼저 식품 및 영양섭취에서는 균형 있는 식품 섭취, 채소·과일 섭취 권장, 나트륨·당류·포화지방산 섭취 줄이기 등을 강조한다.\n우리나라 국민의 과일·채소 섭취는 감소 추세에 있고, 나트륨 과잉 섭취와 어린이의 당류 과다 섭취의 문제는 지속되고 있어 만성질환의 효율적인 예방을 위한 영양·식생활 개선이 필요하다.\n특히 만성질환 예방관리를 위한 과일·채소의 권고 섭취기준인 1일 500g 이상을 섭취하는 인구 비율은 2015년 이후로 감소하는 추세에 있으며, 젊은 성인의 과일·채소류 섭취량은 부족한 상황이다.\n이에 식약처는 지난 2월 나트륨·당류 저감화 추진 방안을 발표해 나트륨·당류 섭취에 대한 장기적인 목표를 제시한 바 있다. 향후 영양표시 의무 대상 가공식품 확대, 나트륨·당류 저감식단 개발, 건강식생활 실천을 위한 인식교육 강화 등을 추진할 계획이다.\n식생활 습관 관련 지침에서는 과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 1000,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0001&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으로 올바른 식습관과 꾸준한 신체활동이 요구되는만큼, 정부는 2018년에 범부처 합동 국가 비만관리 종합대책을 마련해 추진하고 있다.\n아울러 보건복지부는 코로나19로 인한 새로운 일상 속에서 건강한 생활을 독려하기 위해 쉽게 실천할 수 있는 코로나19 건강생활수칙과 한국인을 위한 걷기 가이드라인을 마련해 안내하고 있다.\n한편 식생활문화 관련 지침에서는 코로나19 이후 위생적인 식생활 정착과 지역 농산물 활용을 통한 지역 경제 선순환 및 환경 보호를 강조했다.\n우리나라의 음식물류 폐기물 배출량은 증가 추세에 있으며 코로나19로 인해 위생적인 식습관 문화 정착의 필요성이 더욱 커진 상황으로, 정부는 ‘식사문화 개선 추진 방안’을 수립해 식사문화 인식 전환을 유도하고 있다.\n또 농식품부·식약처는 음식 덜어먹기 확산을 위한 ‘덜어요’ 캠페인을 실시 중이며, 식약처는 남은 음식 싸주기 등 음식물쓰레기 줄이기 운동을 음식문화개선사업의 일환으로 추진하고 있다.\n더불어 농식품부는 지역에서 생산된 농산물(로컬푸드)을 기반으로 하는 지역 푸드플랜을 통해 지역경제 활성화와 함께 신선한 먹거리 제공, 푸드 마일리지 감소 등 환경 보호를 추구하고 있다.\n코로나19 건강생활수칙 카드뉴스.\n이윤신 복지부 건강증진과장은 “이번 식생활지침이 국민들께 건강한 식생활 실천의 계기가 되었으면 한다”면서 “향후 지침의 구체적인 실천과 활용 방안에 대해서도 지속적으로 국민들께 알려드릴 예정”이라고 밝혔다.\n이용직 농식품부 식생활소비급식진흥과장은 “관련된 3개 부처 협업을 통해 국민을 위한 식생활 지침을 만든 것은 고무적인 일이며, 앞으로도 부처 간 &quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 1,
+      &quot;char_start&quot;: 800,
+      &quot;char_end&quot;: 1800,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:e727648e9681d9cff4cbc26ea9ec32e8b458181632eedb567720cfb0243dd979:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;집콕시대, 상황별 건강 식생활 실천 가이드&quot;,
+      &quot;text&quot;: &quot;집콕시대, 맛·영양은 더하고 나트륨·당류는 줄이고!\n식재료를 준비할 때\n음식을 조리할 때\n음식을 먹을 때\n음료 등을 마실 때\n배달음식 등 간편식 소비가 증가하면서 영양불균형과 체중 증가가 우려됨에 따라 건강한 식생활을 위한 방법을 안내해 드립니다!\n▶식재료를 준비할 때\n1. 온라인으로 식품 구매 시, 표시정보를 확인합니다.\n2. 식재료는 재료 특성에 맞게 적절한 방법으로 보관합니다.\n3. 단백질 식품은 냉장·냉동 보관기간을 확인합니다.\n▶음식을 조리할 때\n1. 식재료 고유의 맛과 향을 이용하여 음식 맛을 냅니다.\n2. 가정간편식(HMR) 등을 조리할 때는 제공되는 양념의 양을 조절합니다.\n3. 조리 전, 살짝 데쳐서 나트륨을 덜어냅니다.\n4. 조리 시, 천연 식재료를 사용하여 나트륨과 당을 줄입니다.\n“가공육은 데쳐서 천연식재료로 나트륨·당류 ↓”\n▶음식을 먹을 때\n1. 배달 주문 시 양념은 따로 요청합니다.\n2. 국물은 별도의 그릇에 담아 건더기만 주로 먹습니다.\n3. 양념(소금, 젓갈, 쌈장 등)은 절반만 먹습니다.\n4. 샐러드는 소스보다는 과일즙·요거트를 곁들입니다.\n5. 균형된 식사를 위해 골고루 먹습니다.\n6. 최소 15분 이상 즐겁게 먹습니다.\n▶음료 등을 마실 때\n1. 음료 대신 물을 충분히 마십니다.\n2. 커피와 차를 마실 때는 설탕, 시럽을 빼고 마십니다.\n※ • 믹스커피 2잔(12g) → 1잔(6g) 줄이면 당류 6g 감소\n• 시럽 1번(10ml) = 각설탕 2개 = 당류 6g(24kcal)\n&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/briefing/policyBriefingView.do?newsId=148888295&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/healthy_home_eating_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;healthy_home_eating_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 744,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    }
+  ]
+}</pre></details>
 </article>
 <article><h3>변경: 단계별 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6.1-sol 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 3.97초 / 답변 14.688초</p>
+<pre>### 저염 된장 황태해장국
+
+**재료:** 황태채 15g, 콩나물 30g, 무 30g, 저염된장 10g(2작은술), 물 300ml, 청양고추 5g, 다진 마늘 2g입니다. [근거 1]
+
+1. 황태는 손질해 물에 헹구고, 콩나물은 다듬어 씻습니다. 청양고추는 어슷썹니다.
+2. 냄비에 물과 황태, 무를 넣어 끓인 뒤 저염된장을 풀어줍니다.
+3. 콩나물과 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 끓입니다. [근거 1]
+
+### 짠맛을 줄이는 일반적인 방법
+
+- 식재료 고유의 맛과 향을 살려 간을 하고, 가정간편식에 함께 든 양념은 양을 조절할 수 있습니다. [근거 4]
+- 음식을 먹을 때는 국물을 따로 덜고 건더기를 주로 먹거나, 소금·젓갈·쌈장 같은 양념을 적게 먹는 방법이 안내되어 있습니다. [근거 4]
+- 배달음식은 양념을 따로 요청하는 방법도 있습니다. 식생활지침은 나트륨 섭취를 줄이는 것을 권장합니다. [근거 2] [근거 4]
+
+레시피에 표시된 영양값은 기준량이 확인되지 않아 1인분이나 100g 기준으로 해석할 수 없습니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:36&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;황태해장국 끓이는 법&quot;,
+      &quot;저염된장을 활용한 국 조리법&quot;,
+      &quot;황태와 콩나물을 이용한 국 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-108&quot;,
+      &quot;cookrcp01-111&quot;,
+      &quot;cookrcp01-113&quot;,
+      &quot;cookrcp01-114&quot;,
+      &quot;cookrcp01-131&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-193&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-280&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-664&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-36&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 9,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:36&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;ingredients&quot;: &quot;황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)&quot;,
+      &quot;text&quot;: &quot;메뉴: 저염 된장으로 맛을 낸 황태해장국\n재료: 황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)\n조리법:\n3. 3. 황태는 손질하여 물에 헹궈 건져 놓고 콩나물은 다듬어 씻고 청양고추는 어슷썰기 한다.\n4. 4. 냄비에 물을 붓고 황태와 무를 넣고 끓인 후 육수에서 물을 건져내고 저염 된장을 푼다.\n5. 5. 콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 김이 나게 끓\n여준다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;361\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;13\&quot;, \&quot;INFO_FAT\&quot;: \&quot;0\&quot;, \&quot;INFO_CAR\&quot;: \&quot;12\&quot;, \&quot;INFO_ENG\&quot;: \&quot;100\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;361&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;13&quot;,
+        &quot;INFO_FAT&quot;: &quot;0&quot;,
+        &quot;INFO_CAR&quot;: &quot;12&quot;,
+        &quot;INFO_ENG&quot;: &quot;100&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;정부가 국민의 건강하고 균형잡힌 식생활을 위한 식품 및 영양섭취, 식생활 습관 및 문화 등과 관련된 9가지 수칙을 제시했다.\n보건복지부와 농림축산식품부, 식품의약품안전처는 국민의 건강한 식생활을 위해 일반 대중이 쉽게 이해할 수 있고 일상생활에서 실천할 수 있는 권장 수칙이 담긴 ‘한국인을 위한 식생활지침’을 14일 발표했다.\n이번 지침은 국민영양관리법에 근거해 2016년 발표한 ‘국민 공통 식생활지침’ 이후 5년 만에 마련된 것으로, 각 부처에서 건강한 식생활과 관련해 강조하고 있는 정책적 사항들을 실생활에 적용할 수 있도록 했다.\n이 지침은 식품 및 영양섭취(1~3번), 식생활 습관(4~6번), 식생활문화(7~9번)로 나뉘는데, 먼저 식품 및 영양섭취에서는 균형 있는 식품 섭취, 채소·과일 섭취 권장, 나트륨·당류·포화지방산 섭취 줄이기 등을 강조한다.\n우리나라 국민의 과일·채소 섭취는 감소 추세에 있고, 나트륨 과잉 섭취와 어린이의 당류 과다 섭취의 문제는 지속되고 있어 만성질환의 효율적인 예방을 위한 영양·식생활 개선이 필요하다.\n특히 만성질환 예방관리를 위한 과일·채소의 권고 섭취기준인 1일 500g 이상을 섭취하는 인구 비율은 2015년 이후로 감소하는 추세에 있으며, 젊은 성인의 과일·채소류 섭취량은 부족한 상황이다.\n이에 식약처는 지난 2월 나트륨·당류 저감화 추진 방안을 발표해 나트륨·당류 섭취에 대한 장기적인 목표를 제시한 바 있다. 향후 영양표시 의무 대상 가공식품 확대, 나트륨·당류 저감식단 개발, 건강식생활 실천을 위한 인식교육 강화 등을 추진할 계획이다.\n식생활 습관 관련 지침에서는 과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 1000,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0001&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으로 올바른 식습관과 꾸준한 신체활동이 요구되는만큼, 정부는 2018년에 범부처 합동 국가 비만관리 종합대책을 마련해 추진하고 있다.\n아울러 보건복지부는 코로나19로 인한 새로운 일상 속에서 건강한 생활을 독려하기 위해 쉽게 실천할 수 있는 코로나19 건강생활수칙과 한국인을 위한 걷기 가이드라인을 마련해 안내하고 있다.\n한편 식생활문화 관련 지침에서는 코로나19 이후 위생적인 식생활 정착과 지역 농산물 활용을 통한 지역 경제 선순환 및 환경 보호를 강조했다.\n우리나라의 음식물류 폐기물 배출량은 증가 추세에 있으며 코로나19로 인해 위생적인 식습관 문화 정착의 필요성이 더욱 커진 상황으로, 정부는 ‘식사문화 개선 추진 방안’을 수립해 식사문화 인식 전환을 유도하고 있다.\n또 농식품부·식약처는 음식 덜어먹기 확산을 위한 ‘덜어요’ 캠페인을 실시 중이며, 식약처는 남은 음식 싸주기 등 음식물쓰레기 줄이기 운동을 음식문화개선사업의 일환으로 추진하고 있다.\n더불어 농식품부는 지역에서 생산된 농산물(로컬푸드)을 기반으로 하는 지역 푸드플랜을 통해 지역경제 활성화와 함께 신선한 먹거리 제공, 푸드 마일리지 감소 등 환경 보호를 추구하고 있다.\n코로나19 건강생활수칙 카드뉴스.\n이윤신 복지부 건강증진과장은 “이번 식생활지침이 국민들께 건강한 식생활 실천의 계기가 되었으면 한다”면서 “향후 지침의 구체적인 실천과 활용 방안에 대해서도 지속적으로 국민들께 알려드릴 예정”이라고 밝혔다.\n이용직 농식품부 식생활소비급식진흥과장은 “관련된 3개 부처 협업을 통해 국민을 위한 식생활 지침을 만든 것은 고무적인 일이며, 앞으로도 부처 간 &quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 1,
+      &quot;char_start&quot;: 800,
+      &quot;char_end&quot;: 1800,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:e727648e9681d9cff4cbc26ea9ec32e8b458181632eedb567720cfb0243dd979:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;집콕시대, 상황별 건강 식생활 실천 가이드&quot;,
+      &quot;text&quot;: &quot;집콕시대, 맛·영양은 더하고 나트륨·당류는 줄이고!\n식재료를 준비할 때\n음식을 조리할 때\n음식을 먹을 때\n음료 등을 마실 때\n배달음식 등 간편식 소비가 증가하면서 영양불균형과 체중 증가가 우려됨에 따라 건강한 식생활을 위한 방법을 안내해 드립니다!\n▶식재료를 준비할 때\n1. 온라인으로 식품 구매 시, 표시정보를 확인합니다.\n2. 식재료는 재료 특성에 맞게 적절한 방법으로 보관합니다.\n3. 단백질 식품은 냉장·냉동 보관기간을 확인합니다.\n▶음식을 조리할 때\n1. 식재료 고유의 맛과 향을 이용하여 음식 맛을 냅니다.\n2. 가정간편식(HMR) 등을 조리할 때는 제공되는 양념의 양을 조절합니다.\n3. 조리 전, 살짝 데쳐서 나트륨을 덜어냅니다.\n4. 조리 시, 천연 식재료를 사용하여 나트륨과 당을 줄입니다.\n“가공육은 데쳐서 천연식재료로 나트륨·당류 ↓”\n▶음식을 먹을 때\n1. 배달 주문 시 양념은 따로 요청합니다.\n2. 국물은 별도의 그릇에 담아 건더기만 주로 먹습니다.\n3. 양념(소금, 젓갈, 쌈장 등)은 절반만 먹습니다.\n4. 샐러드는 소스보다는 과일즙·요거트를 곁들입니다.\n5. 균형된 식사를 위해 골고루 먹습니다.\n6. 최소 15분 이상 즐겁게 먹습니다.\n▶음료 등을 마실 때\n1. 음료 대신 물을 충분히 마십니다.\n2. 커피와 차를 마실 때는 설탕, 시럽을 빼고 마십니다.\n※ • 믹스커피 2잔(12g) → 1잔(6g) 줄이면 당류 6g 감소\n• 시럽 1번(10ml) = 각설탕 2개 = 당류 6g(24kcal)\n&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/briefing/policyBriefingView.do?newsId=148888295&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/healthy_home_eating_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;healthy_home_eating_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 744,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    }
+  ]
+}</pre></details>
 </article>
 </div>
 <h3>반복 2</h3><div class="pair">
 <article><h3>기존: 단일 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6-luna 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 3.16초 / 답변 15.407초</p>
+<pre>### 저염 된장 황태해장국
+
+**재료:** 황태채 15g, 콩나물 30g, 무 30g, 저염 된장 10g, 물 300ml, 청양고추 5g, 다진 마늘 2g입니다. 레시피에 적힌 양이며 몇 인분 기준인지는 확인되지 않습니다. [근거 1]
+
+**조리 순서**
+1. 황태채는 손질해 물에 헹궈 건지고, 콩나물은 다듬어 씻습니다. 청양고추는 어슷썹니다. [근거 1]
+2. 냄비에 물과 황태, 무를 넣고 끓인 뒤 저염 된장을 풉니다. [근거 1]
+3. 콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 끓입니다. [근거 1]
+
+다만 레시피 원문에는 2단계에 “육수에서 물을 건져내고”라는 표현이 있어, 물이나 재료를 어떻게 처리하라는 뜻인지는 문서만으로 분명하지 않습니다. [근거 1]
+
+### 짠맛을 줄이는 일반적인 방법
+
+- 식재료 고유의 맛과 향을 활용해 간을 하고, 가정간편식 양념은 양을 조절할 수 있습니다. [근거 4]
+- 조리 전에 재료를 살짝 데치거나, 천연 식재료를 활용하는 방법이 안내돼 있습니다. [근거 4]
+- 국물은 따로 덜고 건더기를 주로 먹거나, 소금·젓갈·쌈장 같은 양념은 절반만 먹는 방법도 제시돼 있습니다. [근거 4]
+- 일반 식생활 지침은 나트륨 섭취를 줄이는 것을 강조합니다. [근거 2]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:36&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;황태해장국 끓이는 법&quot;,
+      &quot;저염된장을 활용한 국 조리법&quot;,
+      &quot;황태와 콩나물을 이용한 국 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-108&quot;,
+      &quot;cookrcp01-111&quot;,
+      &quot;cookrcp01-113&quot;,
+      &quot;cookrcp01-114&quot;,
+      &quot;cookrcp01-131&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-193&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-280&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-664&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-36&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 9,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:36&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;ingredients&quot;: &quot;황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)&quot;,
+      &quot;text&quot;: &quot;메뉴: 저염 된장으로 맛을 낸 황태해장국\n재료: 황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)\n조리법:\n3. 3. 황태는 손질하여 물에 헹궈 건져 놓고 콩나물은 다듬어 씻고 청양고추는 어슷썰기 한다.\n4. 4. 냄비에 물을 붓고 황태와 무를 넣고 끓인 후 육수에서 물을 건져내고 저염 된장을 푼다.\n5. 5. 콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 김이 나게 끓\n여준다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;361\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;13\&quot;, \&quot;INFO_FAT\&quot;: \&quot;0\&quot;, \&quot;INFO_CAR\&quot;: \&quot;12\&quot;, \&quot;INFO_ENG\&quot;: \&quot;100\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;361&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;13&quot;,
+        &quot;INFO_FAT&quot;: &quot;0&quot;,
+        &quot;INFO_CAR&quot;: &quot;12&quot;,
+        &quot;INFO_ENG&quot;: &quot;100&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;정부가 국민의 건강하고 균형잡힌 식생활을 위한 식품 및 영양섭취, 식생활 습관 및 문화 등과 관련된 9가지 수칙을 제시했다.\n보건복지부와 농림축산식품부, 식품의약품안전처는 국민의 건강한 식생활을 위해 일반 대중이 쉽게 이해할 수 있고 일상생활에서 실천할 수 있는 권장 수칙이 담긴 ‘한국인을 위한 식생활지침’을 14일 발표했다.\n이번 지침은 국민영양관리법에 근거해 2016년 발표한 ‘국민 공통 식생활지침’ 이후 5년 만에 마련된 것으로, 각 부처에서 건강한 식생활과 관련해 강조하고 있는 정책적 사항들을 실생활에 적용할 수 있도록 했다.\n이 지침은 식품 및 영양섭취(1~3번), 식생활 습관(4~6번), 식생활문화(7~9번)로 나뉘는데, 먼저 식품 및 영양섭취에서는 균형 있는 식품 섭취, 채소·과일 섭취 권장, 나트륨·당류·포화지방산 섭취 줄이기 등을 강조한다.\n우리나라 국민의 과일·채소 섭취는 감소 추세에 있고, 나트륨 과잉 섭취와 어린이의 당류 과다 섭취의 문제는 지속되고 있어 만성질환의 효율적인 예방을 위한 영양·식생활 개선이 필요하다.\n특히 만성질환 예방관리를 위한 과일·채소의 권고 섭취기준인 1일 500g 이상을 섭취하는 인구 비율은 2015년 이후로 감소하는 추세에 있으며, 젊은 성인의 과일·채소류 섭취량은 부족한 상황이다.\n이에 식약처는 지난 2월 나트륨·당류 저감화 추진 방안을 발표해 나트륨·당류 섭취에 대한 장기적인 목표를 제시한 바 있다. 향후 영양표시 의무 대상 가공식품 확대, 나트륨·당류 저감식단 개발, 건강식생활 실천을 위한 인식교육 강화 등을 추진할 계획이다.\n식생활 습관 관련 지침에서는 과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 1000,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0001&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으로 올바른 식습관과 꾸준한 신체활동이 요구되는만큼, 정부는 2018년에 범부처 합동 국가 비만관리 종합대책을 마련해 추진하고 있다.\n아울러 보건복지부는 코로나19로 인한 새로운 일상 속에서 건강한 생활을 독려하기 위해 쉽게 실천할 수 있는 코로나19 건강생활수칙과 한국인을 위한 걷기 가이드라인을 마련해 안내하고 있다.\n한편 식생활문화 관련 지침에서는 코로나19 이후 위생적인 식생활 정착과 지역 농산물 활용을 통한 지역 경제 선순환 및 환경 보호를 강조했다.\n우리나라의 음식물류 폐기물 배출량은 증가 추세에 있으며 코로나19로 인해 위생적인 식습관 문화 정착의 필요성이 더욱 커진 상황으로, 정부는 ‘식사문화 개선 추진 방안’을 수립해 식사문화 인식 전환을 유도하고 있다.\n또 농식품부·식약처는 음식 덜어먹기 확산을 위한 ‘덜어요’ 캠페인을 실시 중이며, 식약처는 남은 음식 싸주기 등 음식물쓰레기 줄이기 운동을 음식문화개선사업의 일환으로 추진하고 있다.\n더불어 농식품부는 지역에서 생산된 농산물(로컬푸드)을 기반으로 하는 지역 푸드플랜을 통해 지역경제 활성화와 함께 신선한 먹거리 제공, 푸드 마일리지 감소 등 환경 보호를 추구하고 있다.\n코로나19 건강생활수칙 카드뉴스.\n이윤신 복지부 건강증진과장은 “이번 식생활지침이 국민들께 건강한 식생활 실천의 계기가 되었으면 한다”면서 “향후 지침의 구체적인 실천과 활용 방안에 대해서도 지속적으로 국민들께 알려드릴 예정”이라고 밝혔다.\n이용직 농식품부 식생활소비급식진흥과장은 “관련된 3개 부처 협업을 통해 국민을 위한 식생활 지침을 만든 것은 고무적인 일이며, 앞으로도 부처 간 &quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 1,
+      &quot;char_start&quot;: 800,
+      &quot;char_end&quot;: 1800,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:e727648e9681d9cff4cbc26ea9ec32e8b458181632eedb567720cfb0243dd979:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;집콕시대, 상황별 건강 식생활 실천 가이드&quot;,
+      &quot;text&quot;: &quot;집콕시대, 맛·영양은 더하고 나트륨·당류는 줄이고!\n식재료를 준비할 때\n음식을 조리할 때\n음식을 먹을 때\n음료 등을 마실 때\n배달음식 등 간편식 소비가 증가하면서 영양불균형과 체중 증가가 우려됨에 따라 건강한 식생활을 위한 방법을 안내해 드립니다!\n▶식재료를 준비할 때\n1. 온라인으로 식품 구매 시, 표시정보를 확인합니다.\n2. 식재료는 재료 특성에 맞게 적절한 방법으로 보관합니다.\n3. 단백질 식품은 냉장·냉동 보관기간을 확인합니다.\n▶음식을 조리할 때\n1. 식재료 고유의 맛과 향을 이용하여 음식 맛을 냅니다.\n2. 가정간편식(HMR) 등을 조리할 때는 제공되는 양념의 양을 조절합니다.\n3. 조리 전, 살짝 데쳐서 나트륨을 덜어냅니다.\n4. 조리 시, 천연 식재료를 사용하여 나트륨과 당을 줄입니다.\n“가공육은 데쳐서 천연식재료로 나트륨·당류 ↓”\n▶음식을 먹을 때\n1. 배달 주문 시 양념은 따로 요청합니다.\n2. 국물은 별도의 그릇에 담아 건더기만 주로 먹습니다.\n3. 양념(소금, 젓갈, 쌈장 등)은 절반만 먹습니다.\n4. 샐러드는 소스보다는 과일즙·요거트를 곁들입니다.\n5. 균형된 식사를 위해 골고루 먹습니다.\n6. 최소 15분 이상 즐겁게 먹습니다.\n▶음료 등을 마실 때\n1. 음료 대신 물을 충분히 마십니다.\n2. 커피와 차를 마실 때는 설탕, 시럽을 빼고 마십니다.\n※ • 믹스커피 2잔(12g) → 1잔(6g) 줄이면 당류 6g 감소\n• 시럽 1번(10ml) = 각설탕 2개 = 당류 6g(24kcal)\n&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/briefing/policyBriefingView.do?newsId=148888295&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/healthy_home_eating_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;healthy_home_eating_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 744,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    }
+  ]
+}</pre></details>
 </article>
 <article><h3>변경: 단계별 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6.1-sol 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 3.808초 / 답변 14.502초</p>
+<pre>### 저염 된장 황태해장국
+
+레시피 항목 메타데이터에 나온 재료는 황태채 15g, 콩나물 30g, 무 30g, 저염된장 10g, 물 300ml, 청양고추 5g, 다진 마늘 2g입니다. [근거 1]
+
+1. 황태채는 손질해 물에 헹궈 건지고, 콩나물은 다듬어 씻습니다. 청양고추는 어슷썹니다.
+2. 냄비에 물과 황태, 무를 넣고 끓입니다.
+3. 저염된장을 풀고 콩나물, 다진 마늘, 청양고추를 넣은 뒤 뚜껑을 덮어 끓입니다. [근거 1]
+
+다만 조리법 원문에는 끓인 뒤 물을 어떻게 처리하는지 모호한 표현이 있고, 마지막 조리 단계도 문장이 끝까지 제공되지 않았습니다. 위 안내는 확인 가능한 재료와 조리 순서를 요약한 것이며, 제공량은 문서에서 확인되지 않습니다. [근거 1]
+
+### 짠맛을 줄이는 일반적인 방법
+
+식재료 고유의 맛과 향을 살리고, 조리 전 재료를 살짝 데치며, 양념은 양을 조절해 사용할 수 있습니다. 국물은 따로 덜어 건더기 위주로 먹고, 소금·젓갈·쌈장 같은 양념은 적게 먹는 방법도 안내되어 있습니다. [근거 4] 일반 식생활 지침도 나트륨 섭취를 줄이는 것을 권고합니다. [근거 2]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:36&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;황태해장국 끓이는 법&quot;,
+      &quot;저염된장을 활용한 국 조리법&quot;,
+      &quot;황태와 콩나물을 이용한 국 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-108&quot;,
+      &quot;cookrcp01-111&quot;,
+      &quot;cookrcp01-113&quot;,
+      &quot;cookrcp01-114&quot;,
+      &quot;cookrcp01-131&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-193&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-280&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-664&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-36&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 9,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:36&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;ingredients&quot;: &quot;황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)&quot;,
+      &quot;text&quot;: &quot;메뉴: 저염 된장으로 맛을 낸 황태해장국\n재료: 황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)\n조리법:\n3. 3. 황태는 손질하여 물에 헹궈 건져 놓고 콩나물은 다듬어 씻고 청양고추는 어슷썰기 한다.\n4. 4. 냄비에 물을 붓고 황태와 무를 넣고 끓인 후 육수에서 물을 건져내고 저염 된장을 푼다.\n5. 5. 콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 김이 나게 끓\n여준다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;361\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;13\&quot;, \&quot;INFO_FAT\&quot;: \&quot;0\&quot;, \&quot;INFO_CAR\&quot;: \&quot;12\&quot;, \&quot;INFO_ENG\&quot;: \&quot;100\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;361&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;13&quot;,
+        &quot;INFO_FAT&quot;: &quot;0&quot;,
+        &quot;INFO_CAR&quot;: &quot;12&quot;,
+        &quot;INFO_ENG&quot;: &quot;100&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;정부가 국민의 건강하고 균형잡힌 식생활을 위한 식품 및 영양섭취, 식생활 습관 및 문화 등과 관련된 9가지 수칙을 제시했다.\n보건복지부와 농림축산식품부, 식품의약품안전처는 국민의 건강한 식생활을 위해 일반 대중이 쉽게 이해할 수 있고 일상생활에서 실천할 수 있는 권장 수칙이 담긴 ‘한국인을 위한 식생활지침’을 14일 발표했다.\n이번 지침은 국민영양관리법에 근거해 2016년 발표한 ‘국민 공통 식생활지침’ 이후 5년 만에 마련된 것으로, 각 부처에서 건강한 식생활과 관련해 강조하고 있는 정책적 사항들을 실생활에 적용할 수 있도록 했다.\n이 지침은 식품 및 영양섭취(1~3번), 식생활 습관(4~6번), 식생활문화(7~9번)로 나뉘는데, 먼저 식품 및 영양섭취에서는 균형 있는 식품 섭취, 채소·과일 섭취 권장, 나트륨·당류·포화지방산 섭취 줄이기 등을 강조한다.\n우리나라 국민의 과일·채소 섭취는 감소 추세에 있고, 나트륨 과잉 섭취와 어린이의 당류 과다 섭취의 문제는 지속되고 있어 만성질환의 효율적인 예방을 위한 영양·식생활 개선이 필요하다.\n특히 만성질환 예방관리를 위한 과일·채소의 권고 섭취기준인 1일 500g 이상을 섭취하는 인구 비율은 2015년 이후로 감소하는 추세에 있으며, 젊은 성인의 과일·채소류 섭취량은 부족한 상황이다.\n이에 식약처는 지난 2월 나트륨·당류 저감화 추진 방안을 발표해 나트륨·당류 섭취에 대한 장기적인 목표를 제시한 바 있다. 향후 영양표시 의무 대상 가공식품 확대, 나트륨·당류 저감식단 개발, 건강식생활 실천을 위한 인식교육 강화 등을 추진할 계획이다.\n식생활 습관 관련 지침에서는 과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 1000,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0001&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으로 올바른 식습관과 꾸준한 신체활동이 요구되는만큼, 정부는 2018년에 범부처 합동 국가 비만관리 종합대책을 마련해 추진하고 있다.\n아울러 보건복지부는 코로나19로 인한 새로운 일상 속에서 건강한 생활을 독려하기 위해 쉽게 실천할 수 있는 코로나19 건강생활수칙과 한국인을 위한 걷기 가이드라인을 마련해 안내하고 있다.\n한편 식생활문화 관련 지침에서는 코로나19 이후 위생적인 식생활 정착과 지역 농산물 활용을 통한 지역 경제 선순환 및 환경 보호를 강조했다.\n우리나라의 음식물류 폐기물 배출량은 증가 추세에 있으며 코로나19로 인해 위생적인 식습관 문화 정착의 필요성이 더욱 커진 상황으로, 정부는 ‘식사문화 개선 추진 방안’을 수립해 식사문화 인식 전환을 유도하고 있다.\n또 농식품부·식약처는 음식 덜어먹기 확산을 위한 ‘덜어요’ 캠페인을 실시 중이며, 식약처는 남은 음식 싸주기 등 음식물쓰레기 줄이기 운동을 음식문화개선사업의 일환으로 추진하고 있다.\n더불어 농식품부는 지역에서 생산된 농산물(로컬푸드)을 기반으로 하는 지역 푸드플랜을 통해 지역경제 활성화와 함께 신선한 먹거리 제공, 푸드 마일리지 감소 등 환경 보호를 추구하고 있다.\n코로나19 건강생활수칙 카드뉴스.\n이윤신 복지부 건강증진과장은 “이번 식생활지침이 국민들께 건강한 식생활 실천의 계기가 되었으면 한다”면서 “향후 지침의 구체적인 실천과 활용 방안에 대해서도 지속적으로 국민들께 알려드릴 예정”이라고 밝혔다.\n이용직 농식품부 식생활소비급식진흥과장은 “관련된 3개 부처 협업을 통해 국민을 위한 식생활 지침을 만든 것은 고무적인 일이며, 앞으로도 부처 간 &quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 1,
+      &quot;char_start&quot;: 800,
+      &quot;char_end&quot;: 1800,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:e727648e9681d9cff4cbc26ea9ec32e8b458181632eedb567720cfb0243dd979:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;집콕시대, 상황별 건강 식생활 실천 가이드&quot;,
+      &quot;text&quot;: &quot;집콕시대, 맛·영양은 더하고 나트륨·당류는 줄이고!\n식재료를 준비할 때\n음식을 조리할 때\n음식을 먹을 때\n음료 등을 마실 때\n배달음식 등 간편식 소비가 증가하면서 영양불균형과 체중 증가가 우려됨에 따라 건강한 식생활을 위한 방법을 안내해 드립니다!\n▶식재료를 준비할 때\n1. 온라인으로 식품 구매 시, 표시정보를 확인합니다.\n2. 식재료는 재료 특성에 맞게 적절한 방법으로 보관합니다.\n3. 단백질 식품은 냉장·냉동 보관기간을 확인합니다.\n▶음식을 조리할 때\n1. 식재료 고유의 맛과 향을 이용하여 음식 맛을 냅니다.\n2. 가정간편식(HMR) 등을 조리할 때는 제공되는 양념의 양을 조절합니다.\n3. 조리 전, 살짝 데쳐서 나트륨을 덜어냅니다.\n4. 조리 시, 천연 식재료를 사용하여 나트륨과 당을 줄입니다.\n“가공육은 데쳐서 천연식재료로 나트륨·당류 ↓”\n▶음식을 먹을 때\n1. 배달 주문 시 양념은 따로 요청합니다.\n2. 국물은 별도의 그릇에 담아 건더기만 주로 먹습니다.\n3. 양념(소금, 젓갈, 쌈장 등)은 절반만 먹습니다.\n4. 샐러드는 소스보다는 과일즙·요거트를 곁들입니다.\n5. 균형된 식사를 위해 골고루 먹습니다.\n6. 최소 15분 이상 즐겁게 먹습니다.\n▶음료 등을 마실 때\n1. 음료 대신 물을 충분히 마십니다.\n2. 커피와 차를 마실 때는 설탕, 시럽을 빼고 마십니다.\n※ • 믹스커피 2잔(12g) → 1잔(6g) 줄이면 당류 6g 감소\n• 시럽 1번(10ml) = 각설탕 2개 = 당류 6g(24kcal)\n&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/briefing/policyBriefingView.do?newsId=148888295&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/healthy_home_eating_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;healthy_home_eating_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 744,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    }
+  ]
+}</pre></details>
+</article>
+</div>
+<h3>반복 3</h3><div class="pair">
+<article><h3>기존: 단일 모델</h3>
+<p>gpt-6-luna 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 5.015초 / 답변 11.74초</p>
+<pre>### 저염 된장 황태해장국
+
+**재료:** 황태채 15g, 콩나물 30g, 무 30g, 저염 된장 10g, 물 300mL, 청양고추 5g, 다진 마늘 2g입니다. [근거 1]
+
+1. 황태채는 손질해 물에 헹궈 건지고, 콩나물은 다듬어 씻습니다. 청양고추는 어슷썰기합니다. [근거 1]
+2. 냄비에 물과 황태, 무를 넣고 끓입니다. [근거 1]
+3. 조리 기록에는 이 다음 과정이 “육수에서 물을 건져내고 저염 된장을 푼다”라고 적혀 있어, 이 표현의 의미는 문서만으로 명확하지 않습니다. 이어 콩나물과 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 끓이라고 안내합니다. [근거 1]
+
+### 짠맛을 줄이는 일반적인 방법
+
+식재료 본래의 맛과 향을 활용하고, 간편식에 양념이 함께 제공되면 양을 조절할 수 있습니다. 조리 전에 재료를 살짝 데치거나 천연 식재료를 활용하는 방법도 안내되어 있습니다. [근거 4] 식사할 때는 국물을 따로 담아 건더기를 주로 먹고, 소금·젓갈·쌈장 같은 양념은 절반만 먹는 방법도 제시되어 있습니다. [근거 4] 큰 방향으로는 나트륨 섭취를 줄이는 것이 한국인을 위한 식생활지침에 포함되어 있습니다. [근거 2]
+
+레시피와 재료 정보는 **항목 메타데이터**에, 일반적인 식생활 방법은 **외부 문서**에 근거했습니다. [근거 1] [근거 2] [근거 4]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:36&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;황태해장국 끓이는 법&quot;,
+      &quot;저염된장을 활용한 국 조리법&quot;,
+      &quot;황태와 콩나물을 이용한 국 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-108&quot;,
+      &quot;cookrcp01-111&quot;,
+      &quot;cookrcp01-113&quot;,
+      &quot;cookrcp01-114&quot;,
+      &quot;cookrcp01-131&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-193&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-280&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-664&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-36&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 9,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:36&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;ingredients&quot;: &quot;황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)&quot;,
+      &quot;text&quot;: &quot;메뉴: 저염 된장으로 맛을 낸 황태해장국\n재료: 황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)\n조리법:\n3. 3. 황태는 손질하여 물에 헹궈 건져 놓고 콩나물은 다듬어 씻고 청양고추는 어슷썰기 한다.\n4. 4. 냄비에 물을 붓고 황태와 무를 넣고 끓인 후 육수에서 물을 건져내고 저염 된장을 푼다.\n5. 5. 콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 김이 나게 끓\n여준다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;361\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;13\&quot;, \&quot;INFO_FAT\&quot;: \&quot;0\&quot;, \&quot;INFO_CAR\&quot;: \&quot;12\&quot;, \&quot;INFO_ENG\&quot;: \&quot;100\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;361&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;13&quot;,
+        &quot;INFO_FAT&quot;: &quot;0&quot;,
+        &quot;INFO_CAR&quot;: &quot;12&quot;,
+        &quot;INFO_ENG&quot;: &quot;100&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;정부가 국민의 건강하고 균형잡힌 식생활을 위한 식품 및 영양섭취, 식생활 습관 및 문화 등과 관련된 9가지 수칙을 제시했다.\n보건복지부와 농림축산식품부, 식품의약품안전처는 국민의 건강한 식생활을 위해 일반 대중이 쉽게 이해할 수 있고 일상생활에서 실천할 수 있는 권장 수칙이 담긴 ‘한국인을 위한 식생활지침’을 14일 발표했다.\n이번 지침은 국민영양관리법에 근거해 2016년 발표한 ‘국민 공통 식생활지침’ 이후 5년 만에 마련된 것으로, 각 부처에서 건강한 식생활과 관련해 강조하고 있는 정책적 사항들을 실생활에 적용할 수 있도록 했다.\n이 지침은 식품 및 영양섭취(1~3번), 식생활 습관(4~6번), 식생활문화(7~9번)로 나뉘는데, 먼저 식품 및 영양섭취에서는 균형 있는 식품 섭취, 채소·과일 섭취 권장, 나트륨·당류·포화지방산 섭취 줄이기 등을 강조한다.\n우리나라 국민의 과일·채소 섭취는 감소 추세에 있고, 나트륨 과잉 섭취와 어린이의 당류 과다 섭취의 문제는 지속되고 있어 만성질환의 효율적인 예방을 위한 영양·식생활 개선이 필요하다.\n특히 만성질환 예방관리를 위한 과일·채소의 권고 섭취기준인 1일 500g 이상을 섭취하는 인구 비율은 2015년 이후로 감소하는 추세에 있으며, 젊은 성인의 과일·채소류 섭취량은 부족한 상황이다.\n이에 식약처는 지난 2월 나트륨·당류 저감화 추진 방안을 발표해 나트륨·당류 섭취에 대한 장기적인 목표를 제시한 바 있다. 향후 영양표시 의무 대상 가공식품 확대, 나트륨·당류 저감식단 개발, 건강식생활 실천을 위한 인식교육 강화 등을 추진할 계획이다.\n식생활 습관 관련 지침에서는 과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 1000,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0001&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으로 올바른 식습관과 꾸준한 신체활동이 요구되는만큼, 정부는 2018년에 범부처 합동 국가 비만관리 종합대책을 마련해 추진하고 있다.\n아울러 보건복지부는 코로나19로 인한 새로운 일상 속에서 건강한 생활을 독려하기 위해 쉽게 실천할 수 있는 코로나19 건강생활수칙과 한국인을 위한 걷기 가이드라인을 마련해 안내하고 있다.\n한편 식생활문화 관련 지침에서는 코로나19 이후 위생적인 식생활 정착과 지역 농산물 활용을 통한 지역 경제 선순환 및 환경 보호를 강조했다.\n우리나라의 음식물류 폐기물 배출량은 증가 추세에 있으며 코로나19로 인해 위생적인 식습관 문화 정착의 필요성이 더욱 커진 상황으로, 정부는 ‘식사문화 개선 추진 방안’을 수립해 식사문화 인식 전환을 유도하고 있다.\n또 농식품부·식약처는 음식 덜어먹기 확산을 위한 ‘덜어요’ 캠페인을 실시 중이며, 식약처는 남은 음식 싸주기 등 음식물쓰레기 줄이기 운동을 음식문화개선사업의 일환으로 추진하고 있다.\n더불어 농식품부는 지역에서 생산된 농산물(로컬푸드)을 기반으로 하는 지역 푸드플랜을 통해 지역경제 활성화와 함께 신선한 먹거리 제공, 푸드 마일리지 감소 등 환경 보호를 추구하고 있다.\n코로나19 건강생활수칙 카드뉴스.\n이윤신 복지부 건강증진과장은 “이번 식생활지침이 국민들께 건강한 식생활 실천의 계기가 되었으면 한다”면서 “향후 지침의 구체적인 실천과 활용 방안에 대해서도 지속적으로 국민들께 알려드릴 예정”이라고 밝혔다.\n이용직 농식품부 식생활소비급식진흥과장은 “관련된 3개 부처 협업을 통해 국민을 위한 식생활 지침을 만든 것은 고무적인 일이며, 앞으로도 부처 간 &quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 1,
+      &quot;char_start&quot;: 800,
+      &quot;char_end&quot;: 1800,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:e727648e9681d9cff4cbc26ea9ec32e8b458181632eedb567720cfb0243dd979:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;집콕시대, 상황별 건강 식생활 실천 가이드&quot;,
+      &quot;text&quot;: &quot;집콕시대, 맛·영양은 더하고 나트륨·당류는 줄이고!\n식재료를 준비할 때\n음식을 조리할 때\n음식을 먹을 때\n음료 등을 마실 때\n배달음식 등 간편식 소비가 증가하면서 영양불균형과 체중 증가가 우려됨에 따라 건강한 식생활을 위한 방법을 안내해 드립니다!\n▶식재료를 준비할 때\n1. 온라인으로 식품 구매 시, 표시정보를 확인합니다.\n2. 식재료는 재료 특성에 맞게 적절한 방법으로 보관합니다.\n3. 단백질 식품은 냉장·냉동 보관기간을 확인합니다.\n▶음식을 조리할 때\n1. 식재료 고유의 맛과 향을 이용하여 음식 맛을 냅니다.\n2. 가정간편식(HMR) 등을 조리할 때는 제공되는 양념의 양을 조절합니다.\n3. 조리 전, 살짝 데쳐서 나트륨을 덜어냅니다.\n4. 조리 시, 천연 식재료를 사용하여 나트륨과 당을 줄입니다.\n“가공육은 데쳐서 천연식재료로 나트륨·당류 ↓”\n▶음식을 먹을 때\n1. 배달 주문 시 양념은 따로 요청합니다.\n2. 국물은 별도의 그릇에 담아 건더기만 주로 먹습니다.\n3. 양념(소금, 젓갈, 쌈장 등)은 절반만 먹습니다.\n4. 샐러드는 소스보다는 과일즙·요거트를 곁들입니다.\n5. 균형된 식사를 위해 골고루 먹습니다.\n6. 최소 15분 이상 즐겁게 먹습니다.\n▶음료 등을 마실 때\n1. 음료 대신 물을 충분히 마십니다.\n2. 커피와 차를 마실 때는 설탕, 시럽을 빼고 마십니다.\n※ • 믹스커피 2잔(12g) → 1잔(6g) 줄이면 당류 6g 감소\n• 시럽 1번(10ml) = 각설탕 2개 = 당류 6g(24kcal)\n&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/briefing/policyBriefingView.do?newsId=148888295&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/healthy_home_eating_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;healthy_home_eating_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 744,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    }
+  ]
+}</pre></details>
+</article>
+<article><h3>변경: 단계별 모델</h3>
+<p>gpt-6.1-sol 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 3.984초 / 답변 12.981초</p>
+<pre>### 저염 된장 황태해장국
+
+**재료:** 황태채 15g, 콩나물 30g, 무 30g, 저염된장 10g, 물 300ml, 청양고추 5g, 다진 마늘 2g입니다. [근거 1]
+
+1. 황태채를 손질해 물에 헹군 뒤 건져 둡니다. 콩나물은 다듬어 씻고, 청양고추는 어슷썹니다. [근거 1]
+2. 냄비에 물과 황태, 무를 넣고 끓인 뒤 저염된장을 풉니다. 다만 원문에는 이 대목이 “육수에서 물을 건져내고”라고 적혀 있어 육수 처리 순서는 명확히 확인되지 않습니다. [근거 1]
+3. 콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 김이 나도록 끓입니다. [근거 1]
+
+### 짠맛을 줄이는 일반적인 방법
+
+식재료 본연의 맛과 향을 살리고, 조리할 때 양념 양을 조절하거나 재료를 살짝 데쳐 나트륨을 덜어내는 방법이 안내되어 있습니다. 국물은 적게 먹고 건더기를 주로 먹거나, 소금·젓갈·쌈장 같은 양념을 덜어 먹는 것도 제시된 실천 방법입니다. [근거 4] 전반적으로 나트륨 섭취를 줄이는 것은 한국인을 위한 식생활지침의 권장 내용입니다. [근거 2]
+
+레시피 영양값은 기준량이 확인되지 않아 1인분이나 100g 기준으로 해석할 수 없습니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:36&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;황태해장국 끓이는 법&quot;,
+      &quot;저염된장을 활용한 국 조리법&quot;,
+      &quot;황태와 콩나물을 이용한 국 조리법&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-108&quot;,
+      &quot;cookrcp01-111&quot;,
+      &quot;cookrcp01-113&quot;,
+      &quot;cookrcp01-114&quot;,
+      &quot;cookrcp01-131&quot;,
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-159&quot;,
+      &quot;cookrcp01-193&quot;,
+      &quot;cookrcp01-275&quot;,
+      &quot;cookrcp01-280&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;cookrcp01-500&quot;,
+      &quot;cookrcp01-664&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-36&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-138&quot;,
+      &quot;cookrcp01-282&quot;,
+      &quot;cookrcp01-33&quot;,
+      &quot;cookrcp01-36&quot;,
+      &quot;cookrcp01-37&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 9,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:36&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;저염 된장으로 맛을 낸 황태해장국&quot;,
+      &quot;ingredients&quot;: &quot;황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)&quot;,
+      &quot;text&quot;: &quot;메뉴: 저염 된장으로 맛을 낸 황태해장국\n재료: 황태해장국\n황태(채) 15g(10개), 콩나물 30g(1/6봉지), 무 30g(5×3×2cm), 저염된장 10g(2작은술), 물 300ml(1½컵), 청양고추 5g(1/2개), 다진 마늘 2g(1/3작은술)\n조리법:\n3. 3. 황태는 손질하여 물에 헹궈 건져 놓고 콩나물은 다듬어 씻고 청양고추는 어슷썰기 한다.\n4. 4. 냄비에 물을 붓고 황태와 무를 넣고 끓인 후 육수에서 물을 건져내고 저염 된장을 푼다.\n5. 5. 콩나물, 다진 마늘, 청양고추를 넣고 뚜껑을 덮어 김이 나게 끓\n여준다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;361\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;13\&quot;, \&quot;INFO_FAT\&quot;: \&quot;0\&quot;, \&quot;INFO_CAR\&quot;: \&quot;12\&quot;, \&quot;INFO_ENG\&quot;: \&quot;100\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;361&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;13&quot;,
+        &quot;INFO_FAT&quot;: &quot;0&quot;,
+        &quot;INFO_CAR&quot;: &quot;12&quot;,
+        &quot;INFO_ENG&quot;: &quot;100&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;정부가 국민의 건강하고 균형잡힌 식생활을 위한 식품 및 영양섭취, 식생활 습관 및 문화 등과 관련된 9가지 수칙을 제시했다.\n보건복지부와 농림축산식품부, 식품의약품안전처는 국민의 건강한 식생활을 위해 일반 대중이 쉽게 이해할 수 있고 일상생활에서 실천할 수 있는 권장 수칙이 담긴 ‘한국인을 위한 식생활지침’을 14일 발표했다.\n이번 지침은 국민영양관리법에 근거해 2016년 발표한 ‘국민 공통 식생활지침’ 이후 5년 만에 마련된 것으로, 각 부처에서 건강한 식생활과 관련해 강조하고 있는 정책적 사항들을 실생활에 적용할 수 있도록 했다.\n이 지침은 식품 및 영양섭취(1~3번), 식생활 습관(4~6번), 식생활문화(7~9번)로 나뉘는데, 먼저 식품 및 영양섭취에서는 균형 있는 식품 섭취, 채소·과일 섭취 권장, 나트륨·당류·포화지방산 섭취 줄이기 등을 강조한다.\n우리나라 국민의 과일·채소 섭취는 감소 추세에 있고, 나트륨 과잉 섭취와 어린이의 당류 과다 섭취의 문제는 지속되고 있어 만성질환의 효율적인 예방을 위한 영양·식생활 개선이 필요하다.\n특히 만성질환 예방관리를 위한 과일·채소의 권고 섭취기준인 1일 500g 이상을 섭취하는 인구 비율은 2015년 이후로 감소하는 추세에 있으며, 젊은 성인의 과일·채소류 섭취량은 부족한 상황이다.\n이에 식약처는 지난 2월 나트륨·당류 저감화 추진 방안을 발표해 나트륨·당류 섭취에 대한 장기적인 목표를 제시한 바 있다. 향후 영양표시 의무 대상 가공식품 확대, 나트륨·당류 저감식단 개발, 건강식생활 실천을 위한 인식교육 강화 등을 추진할 계획이다.\n식생활 습관 관련 지침에서는 과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 1000,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:c8fe94b9bfe745faa961360b98de53239112cd338c9b8ed627b003eb126d12d4:0001&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;“덜 짜게, 덜 달게, 덜 기름지게”…한국인을 위한 식생활지침&quot;,
+      &quot;text&quot;: &quot;과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다.\n우리나라 성인 비만율과 아동·청소년 비만율은 꾸준히 증가하고 있으나 이에 비해 신체활동 실천율, 아침식사 결식율, 고위험음주율 등은 개선되고 있지 않기때문에 꾸준한 관리가 필요하다.\n이 중 비만은 발병 이전에 예방·관리하는 것이 가장 효과적인 대책으로 올바른 식습관과 꾸준한 신체활동이 요구되는만큼, 정부는 2018년에 범부처 합동 국가 비만관리 종합대책을 마련해 추진하고 있다.\n아울러 보건복지부는 코로나19로 인한 새로운 일상 속에서 건강한 생활을 독려하기 위해 쉽게 실천할 수 있는 코로나19 건강생활수칙과 한국인을 위한 걷기 가이드라인을 마련해 안내하고 있다.\n한편 식생활문화 관련 지침에서는 코로나19 이후 위생적인 식생활 정착과 지역 농산물 활용을 통한 지역 경제 선순환 및 환경 보호를 강조했다.\n우리나라의 음식물류 폐기물 배출량은 증가 추세에 있으며 코로나19로 인해 위생적인 식습관 문화 정착의 필요성이 더욱 커진 상황으로, 정부는 ‘식사문화 개선 추진 방안’을 수립해 식사문화 인식 전환을 유도하고 있다.\n또 농식품부·식약처는 음식 덜어먹기 확산을 위한 ‘덜어요’ 캠페인을 실시 중이며, 식약처는 남은 음식 싸주기 등 음식물쓰레기 줄이기 운동을 음식문화개선사업의 일환으로 추진하고 있다.\n더불어 농식품부는 지역에서 생산된 농산물(로컬푸드)을 기반으로 하는 지역 푸드플랜을 통해 지역경제 활성화와 함께 신선한 먹거리 제공, 푸드 마일리지 감소 등 환경 보호를 추구하고 있다.\n코로나19 건강생활수칙 카드뉴스.\n이윤신 복지부 건강증진과장은 “이번 식생활지침이 국민들께 건강한 식생활 실천의 계기가 되었으면 한다”면서 “향후 지침의 구체적인 실천과 활용 방안에 대해서도 지속적으로 국민들께 알려드릴 예정”이라고 밝혔다.\n이용직 농식품부 식생활소비급식진흥과장은 “관련된 3개 부처 협업을 통해 국민을 위한 식생활 지침을 만든 것은 고무적인 일이며, 앞으로도 부처 간 &quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148886239&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/dietary_guidelines_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;dietary_guidelines_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 1,
+      &quot;char_start&quot;: 800,
+      &quot;char_end&quot;: 1800,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;recipe:36:e727648e9681d9cff4cbc26ea9ec32e8b458181632eedb567720cfb0243dd979:0000&quot;,
+      &quot;collection&quot;: &quot;guidelines&quot;,
+      &quot;title&quot;: &quot;집콕시대, 상황별 건강 식생활 실천 가이드&quot;,
+      &quot;text&quot;: &quot;집콕시대, 맛·영양은 더하고 나트륨·당류는 줄이고!\n식재료를 준비할 때\n음식을 조리할 때\n음식을 먹을 때\n음료 등을 마실 때\n배달음식 등 간편식 소비가 증가하면서 영양불균형과 체중 증가가 우려됨에 따라 건강한 식생활을 위한 방법을 안내해 드립니다!\n▶식재료를 준비할 때\n1. 온라인으로 식품 구매 시, 표시정보를 확인합니다.\n2. 식재료는 재료 특성에 맞게 적절한 방법으로 보관합니다.\n3. 단백질 식품은 냉장·냉동 보관기간을 확인합니다.\n▶음식을 조리할 때\n1. 식재료 고유의 맛과 향을 이용하여 음식 맛을 냅니다.\n2. 가정간편식(HMR) 등을 조리할 때는 제공되는 양념의 양을 조절합니다.\n3. 조리 전, 살짝 데쳐서 나트륨을 덜어냅니다.\n4. 조리 시, 천연 식재료를 사용하여 나트륨과 당을 줄입니다.\n“가공육은 데쳐서 천연식재료로 나트륨·당류 ↓”\n▶음식을 먹을 때\n1. 배달 주문 시 양념은 따로 요청합니다.\n2. 국물은 별도의 그릇에 담아 건더기만 주로 먹습니다.\n3. 양념(소금, 젓갈, 쌈장 등)은 절반만 먹습니다.\n4. 샐러드는 소스보다는 과일즙·요거트를 곁들입니다.\n5. 균형된 식사를 위해 골고루 먹습니다.\n6. 최소 15분 이상 즐겁게 먹습니다.\n▶음료 등을 마실 때\n1. 음료 대신 물을 충분히 마십니다.\n2. 커피와 차를 마실 때는 설탕, 시럽을 빼고 마십니다.\n※ • 믹스커피 2잔(12g) → 1잔(6g) 줄이면 당류 6g 감소\n• 시럽 1번(10ml) = 각설탕 2개 = 당류 6g(24kcal)\n&quot;,
+      &quot;source_url&quot;: &quot;https://www.korea.kr/briefing/policyBriefingView.do?newsId=148888295&quot;,
+      &quot;source_file&quot;: &quot;data/guidelines/texts/healthy_home_eating_2021.txt&quot;,
+      &quot;source_record&quot;: &quot;&quot;,
+      &quot;source_type&quot;: &quot;official_guidance_bundle&quot;,
+      &quot;document_id&quot;: &quot;healthy_home_eating_2021&quot;,
+      &quot;related_item_id&quot;: &quot;recipe:36&quot;,
+      &quot;is_item_document&quot;: false,
+      &quot;allowed_use&quot;: &quot;qualitative_recommendation_explanation&quot;,
+      &quot;chunk_index&quot;: 0,
+      &quot;char_start&quot;: 0,
+      &quot;char_end&quot;: 744,
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;calculation_allowed&quot;: false
+    }
+  ]
+}</pre></details>
 </article>
 </div>
 <h2>M3: 방울토마토 소박이에 쓰는 방울토마토 150g의 비타민 C는 몇 mg이야? 모르면 자료 부족이라고 알려줘.</h2>
 <p>사전 검토 기준: 현재 문서 묶음에 원재료 비타민 C 수치가 없으므로 mg 값을 만들지 않고 자료 부족을 안내한다. 레시피 영양값을 원재료 값으로 대체하지 않는다.</p>
 <h3>반복 1</h3><div class="pair">
 <article><h3>기존: 단일 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6-luna 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 8.325초 / 답변 1.3초</p>
+<pre>제공된 자료에는 방울토마토 150g의 비타민 C 함량이 없어 확인할 수 없습니다. 자료 부족입니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:31&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;방울토마토 소박이&quot;,
+      &quot;방울토마토 소박이 만드는 법&quot;,
+      &quot;방울토마토 소박이 양념장&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-278&quot;,
+      &quot;cookrcp01-279&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-300&quot;,
+      &quot;cookrcp01-31&quot;,
+      &quot;cookrcp01-387&quot;,
+      &quot;cookrcp01-388&quot;,
+      &quot;cookrcp01-391&quot;,
+      &quot;cookrcp01-394&quot;,
+      &quot;cookrcp01-510&quot;,
+      &quot;cookrcp01-644&quot;,
+      &quot;cookrcp01-677&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-31&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-31&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-31&quot;
+    ],
+    &quot;chunk_count&quot;: 1,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:31&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;방울토마토 소박이&quot;,
+      &quot;ingredients&quot;: &quot;●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간&quot;,
+      &quot;text&quot;: &quot;메뉴: 방울토마토 소박이\n재료: ●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간\n조리법:\n1. 1. 물기를 빼고 2cm 정도의 크기로 썰은 부추와 양파를 양념장에 섞어 양념속을 만든다.\n2. 2. 깨끗이 씻은 방울토마토는 꼭지를 떼고 윗부분에 칼로 십자모양으로 칼집을 낸다.\n3. 3. 칼집을 낸 방울토마토에 양념속을 사이사이에 넣어 버무린다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;277\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;2\&quot;, \&quot;INFO_FAT\&quot;: \&quot;1\&quot;, \&quot;INFO_CAR\&quot;: \&quot;9\&quot;, \&quot;INFO_ENG\&quot;: \&quot;45\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;277&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;2&quot;,
+        &quot;INFO_FAT&quot;: &quot;1&quot;,
+        &quot;INFO_CAR&quot;: &quot;9&quot;,
+        &quot;INFO_ENG&quot;: &quot;45&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
 </article>
 <article><h3>변경: 단계별 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6.1-sol 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 2.792초 / 답변 4.973초</p>
+<pre>제공된 자료에는 방울토마토 150g의 비타민 C 함량이 없어 확인할 수 없습니다. 자료 부족입니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:31&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;방울토마토 소박이&quot;,
+      &quot;방울토마토 소박이 만드는 법&quot;,
+      &quot;방울토마토 소박이 양념장&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-278&quot;,
+      &quot;cookrcp01-279&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-300&quot;,
+      &quot;cookrcp01-31&quot;,
+      &quot;cookrcp01-387&quot;,
+      &quot;cookrcp01-388&quot;,
+      &quot;cookrcp01-391&quot;,
+      &quot;cookrcp01-394&quot;,
+      &quot;cookrcp01-510&quot;,
+      &quot;cookrcp01-644&quot;,
+      &quot;cookrcp01-677&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-31&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 5,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:31&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;방울토마토 소박이&quot;,
+      &quot;ingredients&quot;: &quot;●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간&quot;,
+      &quot;text&quot;: &quot;메뉴: 방울토마토 소박이\n재료: ●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간\n조리법:\n1. 1. 물기를 빼고 2cm 정도의 크기로 썰은 부추와 양파를 양념장에 섞어 양념속을 만든다.\n2. 2. 깨끗이 씻은 방울토마토는 꼭지를 떼고 윗부분에 칼로 십자모양으로 칼집을 낸다.\n3. 3. 칼집을 낸 방울토마토에 양념속을 사이사이에 넣어 버무린다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;277\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;2\&quot;, \&quot;INFO_FAT\&quot;: \&quot;1\&quot;, \&quot;INFO_CAR\&quot;: \&quot;9\&quot;, \&quot;INFO_ENG\&quot;: \&quot;45\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;277&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;2&quot;,
+        &quot;INFO_FAT&quot;: &quot;1&quot;,
+        &quot;INFO_CAR&quot;: &quot;9&quot;,
+        &quot;INFO_ENG&quot;: &quot;45&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
 </article>
 </div>
 <h3>반복 2</h3><div class="pair">
 <article><h3>기존: 단일 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6-luna 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 3.716초 / 답변 1.479초</p>
+<pre>자료 부족입니다. 제공된 자료에는 방울토마토 150g의 비타민 C 함량이 확인되지 않습니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:31&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;방울토마토 소박이&quot;,
+      &quot;방울토마토 소박이 만드는 법&quot;,
+      &quot;방울토마토 소박이 양념장&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-278&quot;,
+      &quot;cookrcp01-279&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-300&quot;,
+      &quot;cookrcp01-31&quot;,
+      &quot;cookrcp01-387&quot;,
+      &quot;cookrcp01-388&quot;,
+      &quot;cookrcp01-391&quot;,
+      &quot;cookrcp01-394&quot;,
+      &quot;cookrcp01-510&quot;,
+      &quot;cookrcp01-644&quot;,
+      &quot;cookrcp01-677&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-31&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 2,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:31&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;방울토마토 소박이&quot;,
+      &quot;ingredients&quot;: &quot;●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간&quot;,
+      &quot;text&quot;: &quot;메뉴: 방울토마토 소박이\n재료: ●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간\n조리법:\n1. 1. 물기를 빼고 2cm 정도의 크기로 썰은 부추와 양파를 양념장에 섞어 양념속을 만든다.\n2. 2. 깨끗이 씻은 방울토마토는 꼭지를 떼고 윗부분에 칼로 십자모양으로 칼집을 낸다.\n3. 3. 칼집을 낸 방울토마토에 양념속을 사이사이에 넣어 버무린다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;277\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;2\&quot;, \&quot;INFO_FAT\&quot;: \&quot;1\&quot;, \&quot;INFO_CAR\&quot;: \&quot;9\&quot;, \&quot;INFO_ENG\&quot;: \&quot;45\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;277&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;2&quot;,
+        &quot;INFO_FAT&quot;: &quot;1&quot;,
+        &quot;INFO_CAR&quot;: &quot;9&quot;,
+        &quot;INFO_ENG&quot;: &quot;45&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
 </article>
 <article><h3>변경: 단계별 모델</h3>
-<p>실행되지 않음</p>
+<p>gpt-6.1-sol 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 3.7초 / 답변 1.41초</p>
+<pre>자료 부족입니다. 제공된 자료에는 방울토마토 150g의 비타민 C 함량이 나와 있지 않습니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:31&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;방울토마토 소박이&quot;,
+      &quot;방울토마토 소박이 만드는 법&quot;,
+      &quot;방울토마토 소박이 양념장&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-278&quot;,
+      &quot;cookrcp01-279&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-300&quot;,
+      &quot;cookrcp01-31&quot;,
+      &quot;cookrcp01-387&quot;,
+      &quot;cookrcp01-388&quot;,
+      &quot;cookrcp01-391&quot;,
+      &quot;cookrcp01-394&quot;,
+      &quot;cookrcp01-510&quot;,
+      &quot;cookrcp01-644&quot;,
+      &quot;cookrcp01-677&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-31&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 5,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:31&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;방울토마토 소박이&quot;,
+      &quot;ingredients&quot;: &quot;●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간&quot;,
+      &quot;text&quot;: &quot;메뉴: 방울토마토 소박이\n재료: ●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간\n조리법:\n1. 1. 물기를 빼고 2cm 정도의 크기로 썰은 부추와 양파를 양념장에 섞어 양념속을 만든다.\n2. 2. 깨끗이 씻은 방울토마토는 꼭지를 떼고 윗부분에 칼로 십자모양으로 칼집을 낸다.\n3. 3. 칼집을 낸 방울토마토에 양념속을 사이사이에 넣어 버무린다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;277\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;2\&quot;, \&quot;INFO_FAT\&quot;: \&quot;1\&quot;, \&quot;INFO_CAR\&quot;: \&quot;9\&quot;, \&quot;INFO_ENG\&quot;: \&quot;45\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;277&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;2&quot;,
+        &quot;INFO_FAT&quot;: &quot;1&quot;,
+        &quot;INFO_CAR&quot;: &quot;9&quot;,
+        &quot;INFO_ENG&quot;: &quot;45&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
+</article>
+</div>
+<h3>반복 3</h3><div class="pair">
+<article><h3>기존: 단일 모델</h3>
+<p>gpt-6-luna 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 6.121초 / 답변 1.469초</p>
+<pre>자료에 방울토마토 150g은 나오지만 비타민 C 함량은 확인되지 않아, 자료가 부족합니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:31&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;방울토마토 소박이&quot;,
+      &quot;방울토마토 소박이 만드는 법&quot;,
+      &quot;방울토마토 소박이 양념장&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-278&quot;,
+      &quot;cookrcp01-279&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-300&quot;,
+      &quot;cookrcp01-31&quot;,
+      &quot;cookrcp01-387&quot;,
+      &quot;cookrcp01-388&quot;,
+      &quot;cookrcp01-391&quot;,
+      &quot;cookrcp01-394&quot;,
+      &quot;cookrcp01-510&quot;,
+      &quot;cookrcp01-644&quot;,
+      &quot;cookrcp01-677&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;dietary_guidelines_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-31&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 5,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:31&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;방울토마토 소박이&quot;,
+      &quot;ingredients&quot;: &quot;●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간&quot;,
+      &quot;text&quot;: &quot;메뉴: 방울토마토 소박이\n재료: ●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간\n조리법:\n1. 1. 물기를 빼고 2cm 정도의 크기로 썰은 부추와 양파를 양념장에 섞어 양념속을 만든다.\n2. 2. 깨끗이 씻은 방울토마토는 꼭지를 떼고 윗부분에 칼로 십자모양으로 칼집을 낸다.\n3. 3. 칼집을 낸 방울토마토에 양념속을 사이사이에 넣어 버무린다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;277\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;2\&quot;, \&quot;INFO_FAT\&quot;: \&quot;1\&quot;, \&quot;INFO_CAR\&quot;: \&quot;9\&quot;, \&quot;INFO_ENG\&quot;: \&quot;45\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;277&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;2&quot;,
+        &quot;INFO_FAT&quot;: &quot;1&quot;,
+        &quot;INFO_CAR&quot;: &quot;9&quot;,
+        &quot;INFO_ENG&quot;: &quot;45&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
+</article>
+<article><h3>변경: 단계별 모델</h3>
+<p>gpt-6.1-sol 선별 / gpt-6-luna 답변</p>
+<p>상태: generated_unreviewed / 선별 3.197초 / 답변 2.68초</p>
+<pre>자료 부족입니다. 제공된 자료에는 방울토마토 150g의 비타민 C 함량이 나와 있지 않습니다. [근거 1]</pre>
+<details><summary>선별 문서·실제 답변 근거</summary><pre>{
+  &quot;collection&quot;: {
+    &quot;item_id&quot;: &quot;recipe:31&quot;,
+    &quot;mode&quot;: &quot;local_document_bundle&quot;,
+    &quot;queries&quot;: [
+      &quot;방울토마토 소박이&quot;,
+      &quot;방울토마토 소박이 만드는 법&quot;,
+      &quot;방울토마토 소박이 양념장&quot;
+    ],
+    &quot;query_cache_hits&quot;: 0,
+    &quot;candidate_ids&quot;: [
+      &quot;cookrcp01-278&quot;,
+      &quot;cookrcp01-279&quot;,
+      &quot;cookrcp01-29&quot;,
+      &quot;cookrcp01-300&quot;,
+      &quot;cookrcp01-31&quot;,
+      &quot;cookrcp01-387&quot;,
+      &quot;cookrcp01-388&quot;,
+      &quot;cookrcp01-391&quot;,
+      &quot;cookrcp01-394&quot;,
+      &quot;cookrcp01-510&quot;,
+      &quot;cookrcp01-644&quot;,
+      &quot;cookrcp01-677&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;,
+      &quot;nutrition_policy_2026&quot;
+    ],
+    &quot;llm_selected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;mandatory_ids&quot;: [
+      &quot;cookrcp01-31&quot;
+    ],
+    &quot;collected_ids&quot;: [
+      &quot;cookrcp01-31&quot;,
+      &quot;dietary_guidelines_2021&quot;,
+      &quot;healthy_home_eating_2021&quot;
+    ],
+    &quot;chunk_count&quot;: 5,
+    &quot;bundle_hash&quot;: &quot;908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f&quot;,
+    &quot;config&quot;: {
+      &quot;chunk_size&quot;: 1000,
+      &quot;chunk_overlap&quot;: 200,
+      &quot;min_document_chars&quot;: 250,
+      &quot;max_candidates_per_query&quot;: 12
+    }
+  },
+  &quot;evidence&quot;: [
+    {
+      &quot;id&quot;: &quot;recipe:31&quot;,
+      &quot;collection&quot;: &quot;recipes&quot;,
+      &quot;title&quot;: &quot;방울토마토 소박이&quot;,
+      &quot;ingredients&quot;: &quot;●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간&quot;,
+      &quot;text&quot;: &quot;메뉴: 방울토마토 소박이\n재료: ●방울토마토 소박이 : \n방울토마토 150g(5개), 양파 10g(3×1cm), 부추 10g(5줄기)\n●양념장 : \n고춧가루 4g(1작은술), 멸치액젓 3g(2/3작은술), 다진 마늘 2.5g(1/2쪽), 매실액 2g(1/3작은술), 설탕 2g(1/3작은술), 물 2ml(1/3작은술), 통깨 약간\n조리법:\n1. 1. 물기를 빼고 2cm 정도의 크기로 썰은 부추와 양파를 양념장에 섞어 양념속을 만든다.\n2. 2. 깨끗이 씻은 방울토마토는 꼭지를 떼고 윗부분에 칼로 십자모양으로 칼집을 낸다.\n3. 3. 칼집을 낸 방울토마토에 양념속을 사이사이에 넣어 버무린다.\nAPI 영양 원문: {\&quot;INFO_NA\&quot;: \&quot;277\&quot;, \&quot;INFO_WGT\&quot;: \&quot;\&quot;, \&quot;INFO_PRO\&quot;: \&quot;2\&quot;, \&quot;INFO_FAT\&quot;: \&quot;1\&quot;, \&quot;INFO_CAR\&quot;: \&quot;9\&quot;, \&quot;INFO_ENG\&quot;: \&quot;45\&quot;}\n영양값은 제공기관 원문 값이며 기준량 미확인입니다. 1인분 환산·합계 및 개인별 열량 적합성 판단은 제공하지 않습니다.&quot;,
+      &quot;source_url&quot;: &quot;https://www.foodsafetykorea.go.kr/api/newDatasetDetail.do?svc_no=COOKRCP01&quot;,
+      &quot;calculation_allowed&quot;: false,
+      &quot;nutrition_raw&quot;: {
+        &quot;INFO_NA&quot;: &quot;277&quot;,
+        &quot;INFO_WGT&quot;: &quot;&quot;,
+        &quot;INFO_PRO&quot;: &quot;2&quot;,
+        &quot;INFO_FAT&quot;: &quot;1&quot;,
+        &quot;INFO_CAR&quot;: &quot;9&quot;,
+        &quot;INFO_ENG&quot;: &quot;45&quot;
+      },
+      &quot;verified_nutrition&quot;: {}
+    }
+  ]
+}</pre></details>
 </article>
 </div>
 </html>
