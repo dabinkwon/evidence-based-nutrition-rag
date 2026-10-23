@@ -1,0 +1,61 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>모델 비교 평가</title>
+<style>body{font:16px/1.6 sans-serif;max-width:1500px;margin:30px auto;padding:16px} .pair{display:grid;grid-template-columns:1fr 1fr;gap:20px} article{border:1px solid #aaa;padding:18px;min-width:0} pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit} @media(max-width:800px){.pair{grid-template-columns:1fr}}</style>
+<h1>단일 모델 / 단계별 모델 실제 비교</h1>
+<p>고정 합성 질문. 검색어·후보·프롬프트·답변 모델을 고정하고 선별 모델만 변경합니다. 자료 수집 → 어휘 검색 → 답변 생성의 통제 실험이며 실제 UI 전체 경로의 성능 평가는 아닙니다. 인용 ID 유효성은 의미 정확성 점수가 아닙니다. 두 번 반복은 일반화 근거로 부족합니다.</p>
+<p>실행 시각(UTC): 2026-10-23T00:19:46.723722+00:00</p>
+<p><strong>검색어 추출 API 호출 실패: 실제 답변 비교가 수행되지 않았습니다. 성능 개선은 미검증입니다.</strong></p>
+<h2>M1: 새우 두부 계란찜의 재료와 만드는 순서, 찌는 시간을 알려줘.</h2>
+<p>사전 검토 기준: 연두부·새우·달걀 등 원문 재료, 원문 조리 순서, 약한 불 10분을 확인한다. 다른 요리의 방법을 섞지 않는다.</p>
+<h3>반복 1</h3><div class="pair">
+<article><h3>기존: 단일 모델</h3>
+<p>실행되지 않음</p>
+</article>
+<article><h3>변경: 단계별 모델</h3>
+<p>실행되지 않음</p>
+</article>
+</div>
+<h3>반복 2</h3><div class="pair">
+<article><h3>기존: 단일 모델</h3>
+<p>실행되지 않음</p>
+</article>
+<article><h3>변경: 단계별 모델</h3>
+<p>실행되지 않음</p>
+</article>
+</div>
+<h2>M2: 저염 된장으로 맛을 낸 황태해장국은 어떻게 만들고, 짠맛을 줄이는 일반적인 식생활 방법은 뭐야?</h2>
+<p>사전 검토 기준: 황태·무를 끓인 뒤 된장, 콩나물 등 원문 순서를 지킨다. 일반 식생활 설명은 확보된 지침에서만 제시하고 나트륨 감소량은 추정하지 않는다.</p>
+<h3>반복 1</h3><div class="pair">
+<article><h3>기존: 단일 모델</h3>
+<p>실행되지 않음</p>
+</article>
+<article><h3>변경: 단계별 모델</h3>
+<p>실행되지 않음</p>
+</article>
+</div>
+<h3>반복 2</h3><div class="pair">
+<article><h3>기존: 단일 모델</h3>
+<p>실행되지 않음</p>
+</article>
+<article><h3>변경: 단계별 모델</h3>
+<p>실행되지 않음</p>
+</article>
+</div>
+<h2>M3: 방울토마토 소박이에 쓰는 방울토마토 150g의 비타민 C는 몇 mg이야? 모르면 자료 부족이라고 알려줘.</h2>
+<p>사전 검토 기준: 현재 문서 묶음에 원재료 비타민 C 수치가 없으므로 mg 값을 만들지 않고 자료 부족을 안내한다. 레시피 영양값을 원재료 값으로 대체하지 않는다.</p>
+<h3>반복 1</h3><div class="pair">
+<article><h3>기존: 단일 모델</h3>
+<p>실행되지 않음</p>
+</article>
+<article><h3>변경: 단계별 모델</h3>
+<p>실행되지 않음</p>
+</article>
+</div>
+<h3>반복 2</h3><div class="pair">
+<article><h3>기존: 단일 모델</h3>
+<p>실행되지 않음</p>
+</article>
+<article><h3>변경: 단계별 모델</h3>
+<p>실행되지 않음</p>
+</article>
+</div>
+</html>

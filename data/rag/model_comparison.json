@@ -1,0 +1,40 @@
+{
+  "started_at": "2026-10-23T00:19:46.723722+00:00",
+  "cases": [
+    {
+      "id": "M1",
+      "recipe_id": "28",
+      "question": "새우 두부 계란찜의 재료와 만드는 순서, 찌는 시간을 알려줘.",
+      "rubric": "연두부·새우·달걀 등 원문 재료, 원문 조리 순서, 약한 불 10분을 확인한다. 다른 요리의 방법을 섞지 않는다."
+    },
+    {
+      "id": "M2",
+      "recipe_id": "36",
+      "question": "저염 된장으로 맛을 낸 황태해장국은 어떻게 만들고, 짠맛을 줄이는 일반적인 식생활 방법은 뭐야?",
+      "rubric": "황태·무를 끓인 뒤 된장, 콩나물 등 원문 순서를 지킨다. 일반 식생활 설명은 확보된 지침에서만 제시하고 나트륨 감소량은 추정하지 않는다."
+    },
+    {
+      "id": "M3",
+      "recipe_id": "31",
+      "question": "방울토마토 소박이에 쓰는 방울토마토 150g의 비타민 C는 몇 mg이야? 모르면 자료 부족이라고 알려줘.",
+      "rubric": "현재 문서 묶음에 원재료 비타민 C 수치가 없으므로 mg 값을 만들지 않고 자료 부족을 안내한다. 레시피 영양값을 원재료 값으로 대체하지 않는다."
+    }
+  ],
+  "repeats": 2,
+  "bundle_hash": "908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f",
+  "options": {
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "min_document_chars": 250,
+    "max_candidates_per_query": 12
+  },
+  "results": [],
+  "scope": "Controlled collection/lexical retrieval/generation; not UI or Chroma end-to-end.",
+  "scoring": "Manual rubric review required; no automatic semantic quality score.",
+  "cost": "Token usage/cost not measured; timing includes network latency.",
+  "query_error": {
+    "case_id": "M1",
+    "status": "query_api_failed",
+    "details": "hidden"
+  }
+}
