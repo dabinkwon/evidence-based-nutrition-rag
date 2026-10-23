@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "result": "통과",
+  "scope": "27번 제출파일 구성 충족. 실제상호점검 미실시·이름 사용자입력필요·미확인 기능 유지.",
+  "required_files": [
+    "project/app.py",
+    "project/README.md",
+    "project/requirements.txt",
+    "project/.env.example",
+    "project/docs/REQUIREMENTS.md",
+    "project/docs/FILES.md",
+    "documents/파이프라인_설계.html",
+    "documents/요구사항_정의.html",
+    "verification/요구사항_대조표.csv",
+    "verification/테스트_결과표.csv",
+    "verification/테스트_요약.json",
+    "verification/셀프_체크리스트.xlsx",
+    "verification/상호_체크리스트_작성용.xlsx"
+  ],
+  "all_required_files_found_in_archive": true,
+  "actual_tests": 88,
+  "source_files": 773,
+  "readme_template_removed": true,
+  "peer_review_performed": false,
+  "peer_template_included": true,
+  "external_upload": false
+}
