@@ -1,5 +1,13 @@
 # 파일 안내와 실행 방법
 
+W085(2026-10-23): 실행 모델을 검색어·선별 gpt-6-luna, 답변 gpt-6.1-sol, 임베딩 text-embedding-3-small로 적용했다. 기존 단계별 코드와 GMS_MODEL fallback은 유지한다. .env.example 추가, 비모델 설정 보존·유효 모델값 확인 및 예제 설정에서 Sol 답변 호출까지 모의검증했다. 전체88개 테스트 통과. 추가 외부 호출·브라우저 실검수는 미실행이다. W084 소표본 결과를 전체 정확도로 일반화하지 않는다. 앱 재시작 후 새 질문에 적용하며 로컬 연구·영양 데이터 범위는 동일하다. WORKLOG W085·PORTFOLIO D021 참조.
+
+
+
+W084(2026-10-23): `python scripts/evaluate_models.py --answer-only --repeats 3`은 W083의 model_comparison.json에서 각문항 single/1회차 근거를 고정해 답변 모델만 gpt-6-luna/gpt-6.1-sol로 비교한다. 검색/선별/임베딩을 재실행하지 않고 동일 INSTRUCTIONS/출력한도1400을 사용한다. 원본 선별 비교 파일을 덮어쓰지 않고 `data/rag/answer_model_comparison.json` 및 `.html`에 별도 저장한다. 결과에 입력 hash/원본 실험 hash·경로/사전 criteria·실제 답변·시간과 AI 대조 review를 보존한다. 기본 모델의 reasoning 설정을 그대로 사용하므로 모델 변경과 추론 effort 변경은 다른 실험이다. 실행18회 외부 호출/사용량 발생. 새 실행 시 해당 답변 비교 결과·사후 review는 교체되므로 필요 시 보존한다. 검증/판정 WORKLOG W084·SEMANTIC_RESULTS.
+
+W083(2026-10-23): `python scripts/evaluate_models.py --repeats 3` 실제 GMS 실행을 완료했다. `data/rag/model_comparison.json`에18개 실제 답변/선별 결과/근거/시간과 기계 비교 summary·AI 원문 대조 review를 저장하고 같은 이름 HTML에 좌우 비교와 요약을 표시했다. summarize_comparison은 후보 payload hash·최종 근거 digest·선별 ID집합·평균 시간을 비교하며 의미 정확도를 계산하지 않는다. M1 rubric은 원문에서 중간 불10분인데 약한 불로 적었던 오기를 향후 코드에서 정정했다. 이번 실행의 원래 rubric은 결과에 보존하고 review에 정정 사유를 남겼다. 사용자 실제 질문/신체 정보·키/서버주소는 저장하지 않는다. 모델 비교 재실행은 외부 호출/사용량을 발생시키며 이번 결과를 교체한다. W075의 실패 화면은 이번 실제 결과로 대체됐다. WORKLOG W083.
+
 W081(2026-10-23): `data/source_url_inventory.json`은 현재 저장 데이터·수집 보고서·지침 manifest·계산 코드·W077 연동 기록에서 확인한 URL 목록이다. 데이터 원문/안내,실제 호출 API,공개 코드표·연동 보조자료,계산 참고자료를 구분하고 참조 파일을 붙였다. 레시피 인증키 경로와 인증 쿼리는 가렸다. 이미지 링크608개는 원본 데이터에 들어 있는 URL 포인터로 따로 기록했으며 이미지 다운로드/이용 허가를 확인했다는 의미가 아니다. 과거 조사 후보와 모든 raw 응답의 임의 링크까지 전수 추출한 자료가 아니다. 현재 농산물 연구의 API2개 기능과 공식 코드 목록이 포함된다. 출처 URL 목록은 이용 허가 증명과 별개다. WORKLOG W081.
 
 W080(2026-10-23) robots 재점검: `data/robots_audit.json`에 주요7개 호스트의 HTTP 상태·규칙(주석 제외)·실제 사용 경로 판정을 보존했다. User-Agent는 최근 urllib 수집기의 Python-urllib/3.11 기준이다. www.nics.go.kr 일반 규칙은 Allow:/와 일부 디렉터리 금지이며 식품 코드/성분검색 /food/kfi/fct/fctMatterSrch/ 경로는 금지 아님. Amazonbot/coccoc 등 별도 규칙은 구분한다. www.data.go.kr는 Googlebot 일부 경로 금지만 있고 해당 명세/PDF 경로 제한 없음. www.korea.kr 일반 경로 및 www.rda.go.kr의 저장 board 게시물 경로도 금지 아님. 과거 수집 시점 규칙/전 파일의 이용권한을 증명하는 감사는 아니다.
@@ -592,3 +600,5 @@ W041: ‘영양정보 확인’ 탭에서 선택 레시피 API 원문 영양값�
 `python -m pip install -r requirements.txt` 후 저장소 루트에서 `python -m streamlit run app.py`를 실행한다. 기본 로컬 주소는 `http://localhost:8501`이다. `app.py`는 요리 탐색·선택 레시피 대화·두 레시피 비교와 실제 색인 건수/인용 표시를 제공한다. `tests/test_app.py`는 Streamlit AppTest로 렌더링·메뉴별 대화 분리·DB 실패 안내를 검사한다.
 
 키는 서버의 `.env`에서만 읽고 화면에 표시하지 않는다. 대화는 브라우저 앱 세션의 메모리에만 유지하며 파일에 저장하지 않는다. 선택 변경만으로 유료 호출하지 않는다. 질문/비교/근거 준비 버튼은 GMS 요청을 실행한다. 근거 준비는 기존 공개 문서 묶음 수집과 색인을 갱신한다. 재료 영양 계산·개인별 적정 섭취량·자연어 조건 자동 추출·대명사/후보 순서 해석은 아직 지원하지 않는다. 제외 재료는 사이드바에 쉼표로 입력한다.
+
+W085 실행: 신규 환경은 `.env.example`을 `.env`로 복사하고 본인의 인증키를 입력한다. 기존 `.env`는 덮어쓰지 않는다. 프로세스 환경변수가 파일보다 우선한다. `python -m streamlit run app.py`로 재시작한다.
