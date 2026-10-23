@@ -1,0 +1,4171 @@
+{
+  "date": "2026-10-23",
+  "required_files": [
+    "project/app.py",
+    "project/README.md",
+    "project/.env.example",
+    "project/docs/REQUIREMENTS.md",
+    "project/docs/FILES.md",
+    "documents/요구사항_정의.html",
+    "documents/파이프라인_설계.html",
+    "verification/셀프_체크리스트.xlsx",
+    "verification/상호_체크리스트_작성용.xlsx",
+    "verification/테스트_결과표.csv",
+    "verification/요구사항_대조표.csv"
+  ],
+  "files": [
+    {
+      "path": "제출자료_색인.txt",
+      "bytes": 1433,
+      "sha256": "35d6f75ee4a94bd9ee5d93cef6d1443b398d292c8b2fba0cb121dc5bbc7b432b"
+    },
+    {
+      "path": "documents/요구사항_정의.html",
+      "bytes": 76642,
+      "sha256": "4f5551b7a473d04cc6d1731f0d6c3cafd4fb4763dedae6e3b7711f5930b0fc25"
+    },
+    {
+      "path": "documents/파이프라인_설계.html",
+      "bytes": 3463,
+      "sha256": "e3d0e133ac7022d33948ca67094d5408fc2baf672b661d667d4017dc559eda76"
+    },
+    {
+      "path": "project/.env.example",
+      "bytes": 454,
+      "sha256": "be60b7e5af237ba62e63bdcd611855073d5d264a376a45b61b6397c237f6651f"
+    },
+    {
+      "path": "project/.gitignore",
+      "bytes": 159,
+      "sha256": "4c889ed42b4bd9dc3d454f71ccc30315f0fec1f5d5c7afa5393f427b44d5a433"
+    },
+    {
+      "path": "project/AGENTS.md",
+      "bytes": 2855,
+      "sha256": "a945f3e9865120d8ee4d7633d58b569cd9148c2de86a1fa30c45973802d356e2"
+    },
+    {
+      "path": "project/app.py",
+      "bytes": 30766,
+      "sha256": "e6b7c44293cdc90d3a4798676589dea546c50d3214f04477b04c2f7b4d0f9565"
+    },
+    {
+      "path": "project/README.md",
+      "bytes": 7032,
+      "sha256": "991cef95aec39baf412557d66d697c4dcab373da867817e08b06f4fb1738ab12"
+    },
+    {
+      "path": "project/requirements.txt",
+      "bytes": 67,
+      "sha256": "a90ea44f3eb36ecc94cb12d7b8e77e3877746d77486031da20655795b2d0159e"
+    },
+    {
+      "path": "project/.vscode/settings.json",
+      "bytes": 38,
+      "sha256": "11369eadc738146ba72c6d37edf71ad406037c497cf195ef3ca2d35364063e4e"
+    },
+    {
+      "path": "project/config/agrifood_sources.json",
+      "bytes": 14550,
+      "sha256": "0a93764eb60a5653b85a2b13e1de80ba31fb542d931520dc8ac7544bb2945f52"
+    },
+    {
+      "path": "project/config/rag_answer.json",
+      "bytes": 38,
+      "sha256": "a899edeadb6cea2ed5d73f3381696bb0d91264f7bc57f1cdef780fa0690521a9"
+    },
+    {
+      "path": "project/config/rag_sources.json",
+      "bytes": 112,
+      "sha256": "c5feb061d64742692f745980e19c66a6b7653ac22fff69b500a5f1f38d16eb26"
+    },
+    {
+      "path": "project/data/agrifood_collection_report.json",
+      "bytes": 121661,
+      "sha256": "7f6ffd969d1d51b515512deae2f4b50d146300dae0759fb23669b8e1a9a3bd6b"
+    },
+    {
+      "path": "project/data/agrifood_inspection.html",
+      "bytes": 513810,
+      "sha256": "eba18f2d1386236ad70feeb3f6ed6e647dcef12569c6b902e918df5df83a1edb"
+    },
+    {
+      "path": "project/data/agrifood_inspection.json",
+      "bytes": 93045,
+      "sha256": "ae7044f2adc5153c97ab6958cfcecc22a8bf386b5fa316c978aba8009cee00c3"
+    },
+    {
+      "path": "project/data/agrifood_probe_report.json",
+      "bytes": 967,
+      "sha256": "3980f0aabc3db067598e6ca94f02387d9ca54a0072c8fe80189c7596bea80bfc"
+    },
+    {
+      "path": "project/data/api_spec.json",
+      "bytes": 163816,
+      "sha256": "6b1b7380d3cd69250be52b36cd645980d503f696db2cb3ef723eb282cf279345"
+    },
+    {
+      "path": "project/data/collection_report.json",
+      "bytes": 626,
+      "sha256": "a7d092479d391b3ca092e29767844886eee3fdf8edf9178cbfb594af844d7601"
+    },
+    {
+      "path": "project/data/foods.csv",
+      "bytes": 21301,
+      "sha256": "f84d3ba5a9bfba18f29a649ed5feb793b82c5ad1c5c746e06a709fce85789311"
+    },
+    {
+      "path": "project/data/foods.json",
+      "bytes": 64679,
+      "sha256": "6e6c79ca6ff71fd6e19c3352c8be19d23b0a7a5f883a1288ba2d7fac41a2d297"
+    },
+    {
+      "path": "project/data/foods_extended.json",
+      "bytes": 500287,
+      "sha256": "b81371343726245cb8c81e40f055dfecf6dabe039df5e2d34e072922c22ef173"
+    },
+    {
+      "path": "project/data/ingredients.json",
+      "bytes": 78547,
+      "sha256": "3ad8b5d815ed21a5ab0acc1dd4ed869029929264a79c221cf9acb04f3b1c8218"
+    },
+    {
+      "path": "project/data/ingredient_collection_report.json",
+      "bytes": 3055,
+      "sha256": "d6428792ee2aa607631e90e047d4eae36c34d079d12bb97093ecf8628d6d87cb"
+    },
+    {
+      "path": "project/data/ingredient_lookup_evaluation.json",
+      "bytes": 13529,
+      "sha256": "0ff2d3b65acc3515a6dc5b8a13049ed6d5ee1db6eecaf6cd17933daf148ff0aa"
+    },
+    {
+      "path": "project/data/matching_report.json",
+      "bytes": 388,
+      "sha256": "5f1a85c2095d5d1a2f304e323d277123554d8c5d2ec6c8e731fc250810c7f836"
+    },
+    {
+      "path": "project/data/menu_catalog.json",
+      "bytes": 195092,
+      "sha256": "34ac5cd7293d9d100ca027ec219d7011f28d891432d9a6eb99ea7cdbdf4652eb"
+    },
+    {
+      "path": "project/data/recipes.csv",
+      "bytes": 115057,
+      "sha256": "2e50d154054485bbf6b2ba8a058d71c67e06d4aeb41d4aba550b26b14041da3d"
+    },
+    {
+      "path": "project/data/recipes.json",
+      "bytes": 241041,
+      "sha256": "d14b458a74f41228072e36c0c572741017ba0df2b8e8efe66faca910d98f3c4b"
+    },
+    {
+      "path": "project/data/recipe_basis_audit.json",
+      "bytes": 26129,
+      "sha256": "33153041c074d4f1910959fd92a1865a7e33cc2f90a21b1b7a6dfe58e6a43d76"
+    },
+    {
+      "path": "project/data/recipe_collection_report.json",
+      "bytes": 652,
+      "sha256": "c43203bf7b6cc74fd5290266ec9f57102956c82d7358e555274cb338c6b5fd55"
+    },
+    {
+      "path": "project/data/recipe_food_candidates.csv",
+      "bytes": 3907,
+      "sha256": "ec94a6a4fa2fe7396f5f99837d534fd654e44a025ae542797f51bb01e8299677"
+    },
+    {
+      "path": "project/data/recipe_food_candidates.json",
+      "bytes": 7481,
+      "sha256": "97fc3a8be3ca28646d933642ec1ae840cc5dd1ec3b9c75cbe5fe52c6dacae133"
+    },
+    {
+      "path": "project/data/recipe_serving_menus.json",
+      "bytes": 12175,
+      "sha256": "2196df3322c3bf6813688fd884977636a5d0824de60e62871d02950fb27bdc4f"
+    },
+    {
+      "path": "project/data/recipe_web_review.json",
+      "bytes": 34335,
+      "sha256": "2638c0f9d621ba6b1d7260e9651e47203b35fc045d559cedf9d2c6b851684017"
+    },
+    {
+      "path": "project/data/robots_audit.json",
+      "bytes": 3817,
+      "sha256": "1800bbc6e88b744c53f2db5c5a82b7c17b2b066aae009f02420359247f477c99"
+    },
+    {
+      "path": "project/data/source_url_inventory.json",
+      "bytes": 158340,
+      "sha256": "c91ecf972c7a2f9f6780ce954d1d4f15c1d3bb12f1ac9947df738485e0a9f1c2"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-001-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "37770a5f8f88df1b059e27b5a61dd76984a3f25507296e4aacd68fb7f7bb2119"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-001-G003-food-functions-1-5.json",
+      "bytes": 285,
+      "sha256": "3da6a7df3890f65352484408d1cf272e39a8db18267df65c698a2c66386b49e2"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-002-G001-food-functions-1-5.json",
+      "bytes": 305,
+      "sha256": "730746160eeeeb495e1aaa1765a3a5a5f9c59cc41ddce13a2820b7fdbf12682a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-002-G003-food-functions-1-5.json",
+      "bytes": 220,
+      "sha256": "634ce1841236e7707724c10f46a885060cc4895e6923cda943f4ab34d9943bd6"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-003-G001-food-functions-1-5.json",
+      "bytes": 210,
+      "sha256": "7359c5df38e543d6a2094412a0c2da0d9fb44b21dbb52ce0b8ad378413aab052"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-003-G003-food-functions-1-5.json",
+      "bytes": 210,
+      "sha256": "5c69839134d2308dba7f295c13e5a0aff52c97dd918efd9123fb64f205c61fb5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-004-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "2d3a55f06aa3f0cf28a48e25dc106b4b0edf40cf3d21dc0bb25d3d74fc694cd8"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-004-G003-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "a0a512b0ee3f321ff26841f7b234ff26381eb5e8f6e8d83d72c702743ba05f50"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-005-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "50cc265a39f6f1aecad3b6215f64ea5df50e1a7522fcad959bdfd9de3b6a5e81"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-005-G003-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "818912fa8f476371877f43c696e3f48d841307c0a5daede98a0fa48da0efc985"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-006-G001-food-functions-1-5.json",
+      "bytes": 300,
+      "sha256": "a14c3d371e8e9d3eaefaa4fa26c38e0f3cdc108fa427f390270849c2c5cb15f1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-006-G003-food-functions-1-5.json",
+      "bytes": 215,
+      "sha256": "643e09ff9be1bdbc63a91d0b11db050dcaa90415f12debf8c9839e7f1472c858"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-007-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "0bfad20d73f17a48d08765341081a6b52093deddc47c1244e18087bb2125bd97"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-007-G003-food-functions-1-5.json",
+      "bytes": 204,
+      "sha256": "97ec4ff5496ac4104f0fa129a92e27d71497e5f85ecb58b6f09eff841f8f0a9e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-008-G001-food-functions-1-5.json",
+      "bytes": 279,
+      "sha256": "1d985c1c7377c568f5b479342d0b8e97c30dfe3007bd7d8fb89a1e90ae2a420c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-008-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "684947a2cdbf34fa5edf3efc4551c2e030ca8ab8afc036e9a09b16ead807bdfd"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-009-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "40ff621532fca9ed09ff3a480cc0e6ec68e186e1a5b1a001b0dfe14c88c7426e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-009-G003-food-functions-1-5.json",
+      "bytes": 287,
+      "sha256": "b5130bde7832e410676bbeda064fdd30d70b0d1d780b64955d1363c2e2147672"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-010-G001-food-functions-1-5.json",
+      "bytes": 326,
+      "sha256": "a846bfc00fa9905f1d0f4ded1137e8943a85510b71828532882e9617b4f7a9c0"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-010-G003-food-functions-1-5.json",
+      "bytes": 239,
+      "sha256": "70d01299f6d12510f743a395bea3b5940307bd836d8af052d20aa513362b5b24"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-012-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "9cf854d54c96f4c38c6eedb1128cd2bb5d24b93adc999d667126e48848e30200"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-012-G003-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "ddae0378de7ea541df26d9df090198f904fb8d442e5b1acbd5f4dde1c52e6bc4"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-013-G001-food-functions-1-5.json",
+      "bytes": 289,
+      "sha256": "9416f1fae9f55263c2d1d188f62e1974198cd5a27c1966f1becddae047229315"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-013-G003-food-functions-1-5.json",
+      "bytes": 204,
+      "sha256": "2f3d8344a493e0dfe359a63dbb6179a04bb92e8ea6fecc9ae5e87a64c9a5d575"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-014-G001-food-functions-1-5.json",
+      "bytes": 289,
+      "sha256": "aef976e9ff2b6592e98558e6265a481a6adc281d83d077264ae872afbac8cd32"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-014-G003-food-functions-1-5.json",
+      "bytes": 294,
+      "sha256": "e2436b863b06b77587402195ec03a2f2414a38856170d049a621c7baa814ea23"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-015-G001-food-functions-1-5.json",
+      "bytes": 300,
+      "sha256": "4b34e5258b3ca6c452c3287b58906bb2ff40c7f09d8961cec8c34af2c6497c84"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-015-G003-food-functions-1-5.json",
+      "bytes": 215,
+      "sha256": "049f35742e5d5b3e353e1a9107c592ab74dda0a59131c5bb67df47a94d202ff6"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-016-G001-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "85ab44a8f53b6a61fa6341387eb6299c7797f68f7a191a90e16419d14ec3f93e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-016-G003-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "d3ed9acfc90e2374ab79877c510c5ad61285049536b286a6612e5ccd0883def3"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-017-G001-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "45eeeeb17164287368b2b3431ee2ded7479da0a0b26863a9878b267fd65601cc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-017-G003-food-functions-1-5.json",
+      "bytes": 201,
+      "sha256": "2c2a6bdee8822e420810b27d158f7ae6a51f02f4caf940e669aa19079fb75ffc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-020-G001-food-functions-1-5.json",
+      "bytes": 325,
+      "sha256": "f074835688b5d315096f1c824f88e4121c31678786bc5d37f5fe31b6b6d48fbb"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-020-G003-food-functions-1-5.json",
+      "bytes": 238,
+      "sha256": "53e336b011b5aedb0918c095467c34a136b199cd6624f5c39454a302601301bb"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-021-G001-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "1b7c6d219cc89bf21389ffa26e02afcd8d5ece031e6bb3a7d0fc339fed995140"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-021-G003-food-functions-1-5.json",
+      "bytes": 207,
+      "sha256": "7186ec0c90777b2917ce4ab5918dc446c346b86dbef090d02b68c09dabdcff0c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-022-G001-food-functions-1-5.json",
+      "bytes": 279,
+      "sha256": "3101ddd0ccf9fc3fc2f62c6c3a8513727492c9c2b6033d602c7c2b3243b61ceb"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-022-G003-food-functions-1-5.json",
+      "bytes": 285,
+      "sha256": "f6ba6a8f080f086b0cdb5fe25898c60902045894deb2968ddc65bb46aa061a89"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-023-G001-food-functions-1-5.json",
+      "bytes": 314,
+      "sha256": "4ca7e354419a758d338c260f0376d0ed3b1c78d6fd49937d58bf8273a701ef71"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-023-G003-food-functions-1-5.json",
+      "bytes": 229,
+      "sha256": "98879d08e38dee6eef920b195fceeef663d64dce1ce9bcc32417aa637a70a531"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-024-G001-food-functions-1-5.json",
+      "bytes": 204,
+      "sha256": "9751d6525903af356c4d011008358022a05b1ef0f274850029c854bc0739cd97"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-024-G003-food-functions-1-5.json",
+      "bytes": 204,
+      "sha256": "c081fbafac0b564e0daf3f8b8996e8a5031275618b7fb97373b759b7458dcf4d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-025-G001-food-functions-1-5.json",
+      "bytes": 304,
+      "sha256": "90bbf0273e7925a625a4e00d0233d87be302929238dac766207eeda0fdb99908"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-025-G003-food-functions-1-5.json",
+      "bytes": 217,
+      "sha256": "3cbb296a8eefed5ef3134bb663067f50e1ebbe7a2d621e5ca2e74bb6988d01e9"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-026-G001-food-functions-1-5.json",
+      "bytes": 220,
+      "sha256": "48382787345df2e41cfd13b54f29f66485e14b22e4f81c4216c709db62cc90bb"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-026-G003-food-functions-1-5.json",
+      "bytes": 220,
+      "sha256": "47c936f1d59f6fcaced6b6d017ea0a735e98abd528f1af23424d569b88847147"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-028-G001-food-functions-1-5.json",
+      "bytes": 233,
+      "sha256": "4dbdb7fa73cc5e468222dfb5c30ea79815cc56b96499055a2c48ee3f6fe7a248"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-028-G003-food-functions-1-5.json",
+      "bytes": 233,
+      "sha256": "0c1852614337344fe103290e7ac62c0e746750f391ec01bdeffdc6cd7f212543"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-030-G001-food-functions-1-5.json",
+      "bytes": 301,
+      "sha256": "4d64776d8b0c373daf15844969be91e6056d5f9991dc65eb672b42fcb878762e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-030-G003-food-functions-1-5.json",
+      "bytes": 305,
+      "sha256": "228ef2050f7d5c7b3361592182cbfb414287905f885579d34e18c9d2cecbda06"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-032-G001-food-functions-1-5.json",
+      "bytes": 304,
+      "sha256": "1d72e182e53c66dbeeeaa11782c8aa0242c9f27b5df030a84de47d387e133680"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-032-G003-food-functions-1-5.json",
+      "bytes": 219,
+      "sha256": "fc9691c3898634d5ae0ec8ed43f1632f23e7e1c4bdccd902d6cf86e4d20be3b6"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-033-G001-food-functions-1-5.json",
+      "bytes": 331,
+      "sha256": "397e80c6ce0762b51e0a7768cc462e5d5e50a4ad236422000ca3c9b1e2130eb0"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-033-G003-food-functions-1-5.json",
+      "bytes": 336,
+      "sha256": "8a7009c04c9c8624a3c0f6f0e48cbd79416111671209a56a66591f4bc859e2b9"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-036-G001-food-functions-1-5.json",
+      "bytes": 300,
+      "sha256": "d6f92225bc2e9ea7f3187e5d41c9a7fe74e0318765994c29a3440d1b0b1f85ac"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-036-G003-food-functions-1-5.json",
+      "bytes": 306,
+      "sha256": "a7e9ec5a85f233e656c52fd075997555a370f3fc3f56d9674c05e977065c3636"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-037-G001-food-functions-1-5.json",
+      "bytes": 274,
+      "sha256": "47aea38327bee16bd39fa61c8b0a83ef47f6352ec1e5ea6b2ae39a5eee9e48fa"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-037-G003-food-functions-1-5.json",
+      "bytes": 189,
+      "sha256": "f12153f74e581c220c7f8ef53bfbac2be93107f842ae5b1f53f6a122a438674f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-039-G001-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "d1f75e6340e8f91d658f536adbd1f030d3244ee13b0ed5e7415bd1b36e95231c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-039-G003-food-functions-1-5.json",
+      "bytes": 201,
+      "sha256": "f536a42bfc9e956ca3d72e911981ab00474c94e35fc2dcff336012cd7bf6b1d8"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-040-G001-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "bd1343240a8d11eb4b15fea91ff95acce6f3fd5bf1464ba66b09f1ec0dd19b7d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-040-G003-food-functions-1-5.json",
+      "bytes": 294,
+      "sha256": "67192a506bfbd38020c8d3d0f1e9e78a750d6867da5d1cdebe2a09e8c4f0b177"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-041-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "8afd9515d91ebf8c400634994e9a92429fb1e24bd37f5346a5fd7253bf2e6662"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-041-G003-food-functions-1-5.json",
+      "bytes": 197,
+      "sha256": "2b079df79818cbc1b376601138386f73a6dc786c70e4299f9260cd26a98f0a44"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-042-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "cbeabf2f5a898f8f128b6a1061d8f358007df5e0ab79d493ea7ca4b0a6946770"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-042-G003-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "a5cc6ee5a9a6621f21107c89763f25d20cc46bacab9be74717f4dd67c29e815e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-044-G001-food-functions-1-5.json",
+      "bytes": 279,
+      "sha256": "d2eb22e0686181f67456bd08e090493fab1288234f6f9d1012e7a64fe2f7258f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-044-G003-food-functions-1-5.json",
+      "bytes": 285,
+      "sha256": "64473d08b48ecececa233875c5aab26978d94396da6de9b6752821eeac4775bc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-047-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "e3f09cf2115c2c815bac4aeb01550ef7d1936fa9e0600e5e93fd4107c375401d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-047-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "6dd4d5ce27e2933f581b99f2a2d5ccebdaff8cf729dbaeef9d8478374bdc6e87"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-048-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "41ad16573dcf05776cf5a02f4bc95efa21cacfa3ed92cf047557fbf2704f9943"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-048-G003-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "77e2a2a4b37327d0c49de686cb46efd2e598f26e72f24b9951ca0ecc5e9a31da"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-049-G001-food-functions-1-5.json",
+      "bytes": 316,
+      "sha256": "b4b8eefcc8f98c4c226364d75baa11cbe0e0c4289bd37b61d7ce7c4b469da91d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-049-G003-food-functions-1-5.json",
+      "bytes": 320,
+      "sha256": "d5faca54399cfd923e0d65a731f865adcddece8c8b73f4e3f3b59d4d4a361b8f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-050-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "44bdcd75846139e8b66ae79b4ad344d808f36d82a2987536e02e6799083510c7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-050-G003-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "0aa522b73272974056d73c028af68c4b7b26358727984201b3d3fd127aa9695b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-052-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "a509849ce900e09450bfc4f148dccea392f098c7524c273a5c47ec88abb12c19"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-052-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "ab80f4d37103e3a737d2e4dba861f663069bf14d864d70afacb46160352816a6"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-053-G001-food-functions-1-5.json",
+      "bytes": 274,
+      "sha256": "bc3446c61f08e27acd61b525ed1a5f8f7e0aae32c096bd374d9aac238f665b92"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-053-G003-food-functions-1-5.json",
+      "bytes": 189,
+      "sha256": "d867072cabcaf38822abda09d0e0a27196860d2fcc487bb28627f4517c0a679b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-054-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "cfc35d8f273d929b721fcbac568301a43756d10922a124896cf19cc4a5328a5f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-054-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "ef2e05f6d07aea42dddd13f785b74116c64e2f0530b5b34590503e470d3f6b16"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-055-G001-food-functions-1-5.json",
+      "bytes": 309,
+      "sha256": "40ea19036c9de1e92bf4398e893800d7dabf1be3bf23d134025f756f103bbc7c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-055-G003-food-functions-1-5.json",
+      "bytes": 224,
+      "sha256": "27ae33ebdc4e1aa515f7128111dd05c73861b9b482be3614b14593fb1796d10a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-056-G001-food-functions-1-5.json",
+      "bytes": 278,
+      "sha256": "2b3e3623b9da007b6198ac3e0b4642f64855892960f1217f281cba92bac648cc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-056-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "f0ccd4d0038f08cf4d627d9077d5161150266458b82eecf4b2c586fecfd5062e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-058-G001-food-functions-1-5.json",
+      "bytes": 180,
+      "sha256": "d6f4a07d111a8875c4d7e529e1a6c9b02753a9c21bb7c96cfb3ea9efb9edea09"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-058-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "30a5d67dc8a2e4bccd28fde4e2c860ecd0f56a21ebe89bdd942007bb568e292c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-060-G001-food-functions-1-5.json",
+      "bytes": 200,
+      "sha256": "19175fed61a2027db0e796a2efbeb465397943e35a86b823d887b4572845c630"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-060-G003-food-functions-1-5.json",
+      "bytes": 200,
+      "sha256": "353d60912a7bd0b6ba2c12fd44ba106fa7c96801390b50632851e85dac04963b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-061-G001-food-functions-1-5.json",
+      "bytes": 301,
+      "sha256": "1220fd46b8d3b48bf26da474d6ae1995d3219136e9699db26eccadb6fe34acfa"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-061-G003-food-functions-1-5.json",
+      "bytes": 216,
+      "sha256": "26649e8543db933483a2b12905e33b1d742fc354b4f1dbec1efd36d7415155ef"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-062-G001-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "4be0f56065b736f70410f20e5d9850c90e340a69f51981ffa89441f66d4a0505"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-062-G003-food-functions-1-5.json",
+      "bytes": 210,
+      "sha256": "681aee467f36bc4ac14473347acf18aeb5aef603896d0a2442be94c291e1fbad"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-063-G001-food-functions-1-5.json",
+      "bytes": 278,
+      "sha256": "b5f2e46afffe357b641392093c5c3b1f1911e103f8a8019dae0c661821ca1571"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-063-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "e512d8cf1dfc24e8268803a17f21c3317879065c25eab34902fdd6897ec3a173"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-064-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "62defd1814df139df9b4a04801da000be9d146a6d09210785028feb51915cbc0"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-064-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "60123c87ffb36583bf7c488c47f47558a8c696ac67be677d910de57a1b540b8a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-065-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "4631026bb35c1ea99c4fc7cac87ae398fe97c154b1971ba3a61c6719eafedbe9"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-065-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "9202925273f5914db77b4f00c71564293b498f83ae2ddee24a812741c1344646"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-066-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "1045f10bf5e04b1c9c4377a4a02b672cc2d47b9616bd2ca36aba96f12bf7dcb4"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-066-G003-food-functions-1-5.json",
+      "bytes": 206,
+      "sha256": "0668f4f6e2a133c7405cdbbb936fd42151725c0da4253bf40733072247092075"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-067-G001-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "a850e6671e40a82278dd23d0fd8fd9c7a6084a53d21f072b3670d57c48fccbfa"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-067-G003-food-functions-1-5.json",
+      "bytes": 201,
+      "sha256": "10148011b910b9c13ae2f886c6d4337ccde6aa1108f543dc392166e30c33e330"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-068-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "05b241212dddeff46518fe618dec05696e912f290b7cf3162a0c0a65832df4e1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-068-G003-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "5e0372452f037b6a3ccca1898cdb586707c0f80fa277c667f80b90f37ff7f72b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-071-G001-food-functions-1-5.json",
+      "bytes": 274,
+      "sha256": "d713b3bc522cf8fd375968cd1796b0a10de0b0c2cca728e9f8e6db5b77f25d07"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-071-G003-food-functions-1-5.json",
+      "bytes": 189,
+      "sha256": "000fef82f28eef6012c14604b191bed8ee7dc7aab359c3f1792b8f39bf8397b2"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-072-G001-food-functions-1-5.json",
+      "bytes": 305,
+      "sha256": "f2d863af151114cfcb7ab099d9ba85ce546f8940ad4c348b03f374a31e572935"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-072-G003-food-functions-1-5.json",
+      "bytes": 220,
+      "sha256": "03336e19b3f75c8c2a2c1c876c419f8c00c7fb96ed4426d9f837953c90a229a5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-073-G001-food-functions-1-5.json",
+      "bytes": 279,
+      "sha256": "96877e001312a0d901f427aa494a4adb8a0ca81008833a3f6c380d38e5129f82"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-073-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "723c217c5d81ea97e105f4cd43417cf5aab88da18b229363df3b9141e8b94bd0"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-074-G001-food-functions-1-5.json",
+      "bytes": 279,
+      "sha256": "9f1964c746240be1f7e6c997789338db5e13c3b574d012c9bd7922ab151558a4"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-074-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "ed4bf0820100584e2e4ab7f3b67a4700ea4e3d6d1511d3bb94c9b8e33f6ff6da"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-075-G001-food-functions-1-5.json",
+      "bytes": 274,
+      "sha256": "394d82c38ed51764208b696f333e2a45d1acc486ef10aced06adf1467cc8f8e1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-075-G003-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "bfc0eb059aba783d4d7bb4b2a8878aa3e9a9084c4fb06966fddace012f597c0f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-078-G001-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "cee2d07e287fce7284c8ebb1f803e64cd76b3df78602622cec0be49d80976a64"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-078-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "810b1e4b26824c72664a3c89a7779f6f891f3fadde275eef818a97a08123688a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-081-G001-food-functions-1-5.json",
+      "bytes": 294,
+      "sha256": "2c5571313cb06da385ec86bfae5a400dbddc4a825bbf8e9cae3ad894ae378a83"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-081-G003-food-functions-1-5.json",
+      "bytes": 209,
+      "sha256": "84769908c4f30d74b12f73de4e8c2b8e84eacd020a8140f169f2dd0f247922ea"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-084-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "872e20bb02ab75a711c416ee86523ae6ba95a4113b135e35f4f3f626e7fb7dc2"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-084-G003-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "659df4986c7092d13ee9fab45b1f439d6ca64037cd82e0e5b77765f6cdf0e311"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-085-G001-food-functions-1-5.json",
+      "bytes": 298,
+      "sha256": "4c4f68584ff397c2ad0d032d2e6d33a1a80250b62853f90ffdc1f2a61c958a4c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-085-G003-food-functions-1-5.json",
+      "bytes": 306,
+      "sha256": "c1fb7378bd70bf75c3fa0a06f32a5010fb254e769d5e8298e1199c6eb05b62dc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-086-G001-food-functions-1-5.json",
+      "bytes": 203,
+      "sha256": "de936c25deb3056e4a80d35ca806684e0e97eff7e929516203e250f330c5f954"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-086-G003-food-functions-1-5.json",
+      "bytes": 203,
+      "sha256": "3fff7d02692bd64e6b34e580424a248eb314c55ac086a657d49bfebd2bb5011b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-088-G001-food-functions-1-5.json",
+      "bytes": 200,
+      "sha256": "9bc4a91da35b8b49f42156f1c76f89b6f997d389c7bf36289a9e4d14c2ccf8ee"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-088-G003-food-functions-1-5.json",
+      "bytes": 200,
+      "sha256": "75b7c35322dd5892e84af5fedd38d6d0e86dacd97f99e2c374a52fbcf0ac175c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-091-G001-food-functions-1-5.json",
+      "bytes": 303,
+      "sha256": "d00447232b856de9f5b3b9bb7c7a4b84d93b5ac066e1dea123d87c5a3bf25b62"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-091-G003-food-functions-1-5.json",
+      "bytes": 218,
+      "sha256": "cf1ac06b37efae9b7e14e9d04d5ae4a8c800fea197e71ce6e2c58bc95272c867"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-092-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "2a1bf1feaa577f131b5c278e5e33e5c73580c8ab3a56080402eb5c0bc2bf8341"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-092-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "ae2f87cf01ba4aad8c73f19b41771d8e6fa40b1ddf81d49223f051a6bc909d6d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-093-G001-food-functions-1-5.json",
+      "bytes": 321,
+      "sha256": "1b6a400aa5b3f56ecd4f1fb07465e22acb756730921b57f04aa0c147b5acd94d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-093-G003-food-functions-1-5.json",
+      "bytes": 236,
+      "sha256": "7c5802ea4d9f847a5db8f88641614c37bc709ef17916d3bb7532ba3d80e73af4"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-094-G001-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "1097eea7210637b58e5ae8aee217747a8934e301f30e699fb0206c7ed95b5204"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-094-G003-food-functions-1-5.json",
+      "bytes": 207,
+      "sha256": "1d019f7cea65fc79181b1593a2be7e0353479d95bebe369d811f4100b56a6f48"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-095-G001-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "87244fa22c36b98990bbab724eecd6f6e0a4706461b5f4e0684843fda5fd50dc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-095-G003-food-functions-1-5.json",
+      "bytes": 210,
+      "sha256": "f5604aca57cb2314e573c73682dc8e205859588c6bc6d6876c41d52962cc9ebe"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-096-G001-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "d99c16e9226543a7afe796ffeabb02286afcd8cde40bf4de06a0bb1a35612354"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-096-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "efb8a17c2381f3cdfbb1b396748f9c7380b3d2b786c952e6bb68e537c1b8974d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-097-G001-food-functions-1-5.json",
+      "bytes": 213,
+      "sha256": "302e34b914c9a1d5e9f52f308753d41462942fa628dfcfb3ce1a76a8168d9b1f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-097-G003-food-functions-1-5.json",
+      "bytes": 213,
+      "sha256": "19c466f4df0b623fb25830c4dc858f67087fe3d4fd676dc6b1177e21b129c292"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-098-G001-food-functions-1-5.json",
+      "bytes": 320,
+      "sha256": "11a7c614f605cf4a965e6c2199c750d3937c90411970429aa1369c9010296f57"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-098-G003-food-functions-1-5.json",
+      "bytes": 233,
+      "sha256": "1b2f1ef69c26c121e52dd75ddac3991d697cda8cda2c5ca61866be87dce40c4a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-102-G001-food-functions-1-5.json",
+      "bytes": 327,
+      "sha256": "77aab4ad8f728c4e58e53c882805f75674ac0c3d5c0534a5e4017ab443860a0b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-102-G003-food-functions-1-5.json",
+      "bytes": 242,
+      "sha256": "6e827d98a5b02e0df3794395bb02c5cbe4548b375ef945c3afc793c2996334a1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-104-G001-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "ce247d08765cae21d855e13aac2e82d09f108078bf937ff79cfffe0a0c059213"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-14-104-G003-food-functions-1-5.json",
+      "bytes": 210,
+      "sha256": "3148c28f74415b09265833f65382410b86e654888dbcb3d46c6d33cb1bee9b5e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-001-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "4c8930a1fcfbcc85e81f906fd42614cb708907815ea25071af64233abefdd915"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-001-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "7127fb07d7f3160c54728135b1be6aac6c7573efa68909510d755a8e61a50bdb"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-002-G001-food-functions-1-5.json",
+      "bytes": 299,
+      "sha256": "ec15d5c4ec14e1cc3874c09f4ea4ae65bd5418d9fd213343de476d0c7c6a066d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-002-G003-food-functions-1-5.json",
+      "bytes": 214,
+      "sha256": "5bbd806780f5fd7e258e7bf1a6e3267273c76d1a74d961f4edff3fdb7876ce57"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-003-G001-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "f9154e59f22188fdd29f009b6a5ec6687a7922b25c3b294a0bbb3bd156eb8ad1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-003-G003-food-functions-1-5.json",
+      "bytes": 209,
+      "sha256": "5c12b9abde841e70838672fd11cf7e30a5c554c453ff3a2052821063c2ee448c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-004-G001-food-functions-1-5.json",
+      "bytes": 294,
+      "sha256": "23fa1a47544eb5052adae7d217918afe1bdaa78c1af452a0d85e025877f81ea5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-004-G003-food-functions-1-5.json",
+      "bytes": 298,
+      "sha256": "4e78ecee37cdffc6a59bf9f829eef74f4dc9ec858bd9cf83fc2a7ab98f989050"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-005-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "4a8564f165f99031ad7ff28b2c69e32d9a8d3990178a5f8e6f864f1b73e6f44b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-005-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "88938d3ccb268b2f2dcc5956cbc6c462b09fd6f65e23cafe7c6fd6358fd29680"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-008-G001-food-functions-1-5.json",
+      "bytes": 324,
+      "sha256": "af17254d5c7b3c37f7bce156e42dc672f1faa93eac8064e43910119216d14eaf"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-008-G003-food-functions-1-5.json",
+      "bytes": 239,
+      "sha256": "b0d9dca466b7b86b4d384afc8df8211ceca16100760f1c86c47d2d92c3ffb23d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-009-G001-food-functions-1-5.json",
+      "bytes": 301,
+      "sha256": "540ce706583bfd55bf7f5e4bea9c63b7b9136017936d06c02a241fa5d04c382d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-009-G003-food-functions-1-5.json",
+      "bytes": 216,
+      "sha256": "caa4072873f2bbcd832de8e2f540a9fe5ff173623444b40dbff32963f93a4274"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-010-G001-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "bdfad0c01ca86bc868881acecbdbc2d368adcf11e175e1671a4584364e4453d5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-010-G003-food-functions-1-5.json",
+      "bytes": 201,
+      "sha256": "253b503cadd60c93e7331ffb729a89288673df38f69ee2f152624576036ce4cd"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-011-G001-food-functions-1-5.json",
+      "bytes": 289,
+      "sha256": "bea0ab34e75bc3df5861eab2722da66897eb4d8bece5536938c54e9d0364c135"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-011-G003-food-functions-1-5.json",
+      "bytes": 204,
+      "sha256": "8d1a93e962966f59ad482ea7c9f9795aa850e3ad3efed1517a39311396c9d767"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-012-G001-food-functions-1-5.json",
+      "bytes": 294,
+      "sha256": "fc641cb5fe1e287a560b7c6e58cee2633d5cff639565d69ce77a37b5550d65e7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-012-G003-food-functions-1-5.json",
+      "bytes": 209,
+      "sha256": "4c85b93c8aebb69a2c8967667a13ab6d43cd61c9366288b623951faf8415d95a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-013-G001-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "865cec94691cf46fe7b5ea29a030d30531214a863ddf577a3739fa4729e3f409"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-013-G003-food-functions-1-5.json",
+      "bytes": 203,
+      "sha256": "dcb81093a1574e0b4c4cf7a87db2a4b0340163535d91698e77f03903fd816048"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-014-G001-food-functions-1-5.json",
+      "bytes": 300,
+      "sha256": "ce595e0e6eeb71758af482ca85fa3fae0e491dd6b52bef59dbc05b02335bb5da"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-014-G003-food-functions-1-5.json",
+      "bytes": 213,
+      "sha256": "aeb62e7cded05f844aef40e8e662321916c80a0e5ee148f6891dbe45d86e0dfc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-015-G001-food-functions-1-5.json",
+      "bytes": 290,
+      "sha256": "7dc517a3ba5b10848e3808d4228424da7cc3b96202e61247bbb2048edea407b3"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-015-G003-food-functions-1-5.json",
+      "bytes": 203,
+      "sha256": "135df6c5d8bf250861e580fe4e5bac00f65b670a7d9a85769aedf2b0d18596a7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-016-G001-food-functions-1-5.json",
+      "bytes": 303,
+      "sha256": "3ec67904b270625baba2a7fd721942478bef33fd11af7c6b39e1e8178babda7e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-016-G003-food-functions-1-5.json",
+      "bytes": 309,
+      "sha256": "0741bfe70eb6308b1c33bfdbad8d1a93815d4c2d358946dcf9db939c04bd4334"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-017-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "249d079a8e94787cb66ae36f17c66b4311db36e6d4f448a8c9b10fd00cfbe791"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-017-G003-food-functions-1-5.json",
+      "bytes": 204,
+      "sha256": "5f3b3ad1b862ec39a3e28f8c5659c1d8ca2024f29fd5d4f1572f1870920b5fd8"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-019-G001-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "b23bc61275605788ccc3fffa68c148dba89835343607c0f34da496c640a928a1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-019-G003-food-functions-1-5.json",
+      "bytes": 299,
+      "sha256": "4ab559717343cc67ff436f7131607c508315f79600ad8ba0bc0e9e2d363605b7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-020-G001-food-functions-1-5.json",
+      "bytes": 306,
+      "sha256": "e232734c9da44da3b894116d856b039ca21f84012ef816a74f92c6eb7f66d96f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-020-G003-food-functions-1-5.json",
+      "bytes": 310,
+      "sha256": "e8d05ad751c603c97a49882976a3c65989cabb91b9be5eead9503d75a496e7de"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-022-G001-food-functions-1-5.json",
+      "bytes": 276,
+      "sha256": "ce54387039ee62cdc6b40796f00b7998a0a808a4126cf7b30a6f7c22d21f4d1e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-022-G003-food-functions-1-5.json",
+      "bytes": 189,
+      "sha256": "2ed54076442e6af75c424dc5e26bc1b11ecebbf3ef64e36e75ce9abf37999549"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-023-G001-food-functions-1-5.json",
+      "bytes": 329,
+      "sha256": "95d0888536d07b3a53ef136d6218c5aec2d20d2adf238bf3f8e7b992e34d9265"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-023-G003-food-functions-1-5.json",
+      "bytes": 333,
+      "sha256": "45e891249caf5058d8377f8290dedaf1fc2f3c954b400207b32262b631761e89"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-024-G001-food-functions-1-5.json",
+      "bytes": 293,
+      "sha256": "5e7063343d200eb432ad3a10f0ffdeecab4a5598f202bd21073b0aafc8fc9736"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-024-G003-food-functions-1-5.json",
+      "bytes": 299,
+      "sha256": "a49a44e55232ab3e2fa32b67967ac92bcb78426990db821f54e767831da48a0a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-025-G001-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "79772e45b58106adedc9fce99a25120c0456246e32123c2778eae1362572989d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-025-G003-food-functions-1-5.json",
+      "bytes": 207,
+      "sha256": "545525ca938095c3d30d966ca66eea5804204d98f0f3d54df743334dd68bc20d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-026-G001-food-functions-1-5.json",
+      "bytes": 279,
+      "sha256": "0babe2d7d6e4d992dc88d9e904303aede3bbaf86dccaaffe5beea3b6a0ea2548"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-026-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "b5a2e5331614c87038585a2e0bb2a3b74b54f305c3d62f77f550f11737a18e74"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-027-G001-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "eb9d0ae8d9a1339867b3559dbee34b39d85a309f22248bcbfcbf1e500dcdcd8c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-027-G003-food-functions-1-5.json",
+      "bytes": 201,
+      "sha256": "b1159132ee4fcc20a1a8ffdfa05b31a9949a108bae0e3d01d57915df55db5a7f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-028-G001-food-functions-1-5.json",
+      "bytes": 293,
+      "sha256": "7ac728878f3d576aa74793547657558064e03328804e0202e3aea3378c05e20c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-028-G003-food-functions-1-5.json",
+      "bytes": 206,
+      "sha256": "d4f1f51f54f50da1088d246b300b318d919e7886883e4618af9188f15282161c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-030-G001-food-functions-1-5.json",
+      "bytes": 217,
+      "sha256": "530503d1a1a23f1578f37907750f5d29b5b67aacbe56103dceb5b78233345938"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-030-G003-food-functions-1-5.json",
+      "bytes": 217,
+      "sha256": "8ca54f6d29a1e17f07be403025817ed2859f79c3f279f2a30230575a2c6ea156"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-031-G001-food-functions-1-5.json",
+      "bytes": 294,
+      "sha256": "9ba92696be52cd3b835c30eb562c3be018d2ee8a4bd478cb5fb661b31d13852d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-031-G003-food-functions-1-5.json",
+      "bytes": 209,
+      "sha256": "a47f503db72ccee94d5a8fed29715da03556a6ecf7fee16385dd01981fffa4fc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-032-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "9d04cfcabf6723e3b1607a7c3e034b25891e243d778a806d8da027eba796829f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-032-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "33758c7b3257624e22971b38dc785af9e23ba2e5f9db0b8e99093c3665075b05"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-033-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "a57a5e3518cb69c913e47910af2178e0aaa130ae647e0248c1d8aa4c5c40dff1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-033-G003-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "47b4234f638378df16939028fad3894177f096bb95bf53d71055758ab729fc82"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-035-G001-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "9272cb8d49db6be3477b45ed646c7b00e50fcdc510a6a22b2cd0765022ae2016"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-035-G003-food-functions-1-5.json",
+      "bytes": 201,
+      "sha256": "3d653e4e077d3177618a034fdf1fb9f7976aaca30a2b8a42708670846404f8d9"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-036-G001-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "95604ae1ab2209754a6e7bcfaf65bd062ec8319a2c868b89a1ab395b18f46c9e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-036-G003-food-functions-1-5.json",
+      "bytes": 298,
+      "sha256": "a221b0c665b0f5dcacd2fa14df4612d635b404b38911df4c0d3c110b7aed7510"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-037-G001-food-functions-1-5.json",
+      "bytes": 314,
+      "sha256": "4c0dc57fd84de03f4340df004cfef8168ea04c5256dd04ba0150824066d472d4"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-037-G003-food-functions-1-5.json",
+      "bytes": 229,
+      "sha256": "6ee2830897655a7768bf17ca59a8265defb11eee07333adb57581725298877d0"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-039-G001-food-functions-1-5.json",
+      "bytes": 308,
+      "sha256": "512cc6dc37a8ed33332e19e694b3138a9760794d4815c65edb8cead072b6e7e3"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-039-G003-food-functions-1-5.json",
+      "bytes": 222,
+      "sha256": "c3ac318a24fe3ae9a1ea7993533b36423d50b6c11ed3e70e90c866f616929fda"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-040-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "c4120bae388e4a2f0dfc45fe30b7a7ad96d86351d6ae5f883896137e638f84d8"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-040-G003-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "d252db9ce00f9e921fbc50257ac35653a602175132b6168d28c8f84be9a1b3c7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-041-G001-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "665cb2c58a1588e9303d987e3916a6ef21ae36e0978c40dbc29c76af35d33b8e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-041-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "17f3bccc25e705e920054ecf083e87b15dc459a6423631a2900a718b270e7c10"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-046-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "86b6383ca285f02fe39d945c3fb815f784efae40bf4307132773a2dbc076eb8b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-046-G003-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "d700eda3fe4059cc4de079e479925ea631b1eca560543c5a6779214a03122047"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-047-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "7882ecea6473e5890e794524e6b120f581ca63d36626b6aea143c3191342312d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-047-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "bdc897dfbc9fa7f9ec44e14d4ef09f52ba1b85d22c415409a73bbf7792766665"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-048-G001-food-functions-1-5.json",
+      "bytes": 296,
+      "sha256": "d490bb8646d4610f37da25f006d820d3c866aa726fc3d3de62f711d89830964f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-048-G003-food-functions-1-5.json",
+      "bytes": 209,
+      "sha256": "a92340d0553de5cf5c727e8934e611759210670c6a7f551995617291cfa7aa19"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-049-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "e5b20de36bf60f17c6136a07bf5e12bcf8b261d53800a5298b2b6aeb3203a597"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-049-G003-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "356b04079892e0741d753e21c505ffc643148feee014148cd5e4498629f5ba4e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-050-G001-food-functions-1-5.json",
+      "bytes": 297,
+      "sha256": "bc2e23e2b97d1edc0c00b8d0826b14db4004eee1123a4c3c2be5dc1e436145fb"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-050-G003-food-functions-1-5.json",
+      "bytes": 212,
+      "sha256": "836e43b504a94d6500a2cdd5b3bcaace4ff3bc0c8b55d91efc77510c25696dc1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-051-G001-food-functions-1-5.json",
+      "bytes": 296,
+      "sha256": "c170f77b486e27377b49e3a6edb3180aadc6b7588e48341543477a613e1c9346"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-051-G003-food-functions-1-5.json",
+      "bytes": 209,
+      "sha256": "3133f860d52071c1a06a16aee16c76b4064ebdcbb940dfec0413dea8d576ac74"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-052-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "19268ec95e12a1ce77ba04b036d9999fca1c3e1178cf66f0e293e023f70a643f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-052-G003-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "bd16da50663d976bbe41e7e1292da9ac3412c19baa929168456927fef286b1d2"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-054-G001-food-functions-1-5.json",
+      "bytes": 300,
+      "sha256": "9bdba9898cd402fbbf1056c03dc1b9b33faddb29e0d692bd231e39b3813f1877"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-054-G003-food-functions-1-5.json",
+      "bytes": 215,
+      "sha256": "c03aadc67746d997491828177c0e09ccd2a1e9c7d029bace03cc4d09556c0375"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-055-G001-food-functions-1-5.json",
+      "bytes": 285,
+      "sha256": "0ada31ecd3b68c43411f407eb76167d3cbc9b5546c9d65103d640ec3c5fd2b44"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-055-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "5d85d68d692af48e1eca0d214d037909a94a99707f95f02b9046271b8abcae80"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-057-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "20b2d752e77185e010837afe24fb2715da02a1d2150f617d73c67e319f2931af"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-057-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "2271562bfd5d117e512a2d168443450b35fbd242860a8f815d0b730eb7050325"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-058-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "5ce3a4c3411dab351432ea93fccabfcda72c5125720f7882c37eb2d13bad98e8"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-058-G003-food-functions-1-5.json",
+      "bytes": 206,
+      "sha256": "c87e5150f2842aa9ae43ea4f4a1a8779f37a56737e48772f37541132cd9c32eb"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-059-G001-food-functions-1-5.json",
+      "bytes": 299,
+      "sha256": "d3f18b0bb53fe0c676d5ff08a3532b7416a00af0f2fe6d4a21f6590e4408e879"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-059-G003-food-functions-1-5.json",
+      "bytes": 212,
+      "sha256": "0d6c72d98a491b56d2d73875d98fe1dd1630730ec6087238302739c1861d5c8a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-060-G001-food-functions-1-5.json",
+      "bytes": 287,
+      "sha256": "963735d384b10487b99c2fe3e01f4c6e053108740bb2fc2daa79549ca40167cf"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-060-G003-food-functions-1-5.json",
+      "bytes": 200,
+      "sha256": "5b1e13c1f9914602195ea1be68ad295f4179228362292169a93216bc23f26409"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-061-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "f75e357a5939bc62762b5e9fb52d970488dca98a627d3afc147a11508ee81204"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-061-G003-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "ec80cf05379ac971386833afcc4b20eb494313530a6a4e66a2b8ffadca055520"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-062-G001-food-functions-1-5.json",
+      "bytes": 293,
+      "sha256": "1835eb6fdbbb19dde8e13652d064d4478e9ddc6876e842ebb2e4c37471515cf8"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-062-G003-food-functions-1-5.json",
+      "bytes": 207,
+      "sha256": "8b05ee23879e24ab0b1472998bca231a0d7dd08e0b30fe9b7fcb13d58e92fd65"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-065-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "cf829358f14226656907ef2d32dafb2b630f63b536cea5e2f206c39391824b45"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-065-G003-food-functions-1-5.json",
+      "bytes": 206,
+      "sha256": "67a41757333ac72153db22e8fe908efc5bc734a56267948727b3bc2d3b431ca5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-066-G001-food-functions-1-5.json",
+      "bytes": 290,
+      "sha256": "e190bbb0ebb2ae3f485a411105d7cb2f5c53d9be6fc5032a044b7f5ec6f4bd18"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-066-G003-food-functions-1-5.json",
+      "bytes": 294,
+      "sha256": "0bb19986fae16c445ea6f174c5fb67e69c686f3ecd4b2350ce0ded1ccbc62c8b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-067-G001-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "6de7dba7d8d565c9d3a2b17e39db19e788c6076e672f7606b966d18e44e0eaba"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-067-G003-food-functions-1-5.json",
+      "bytes": 203,
+      "sha256": "56da5f638eacd0b61c27d791a8d7ca85cdacbcb37f19782ca784ee2187186241"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-068-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "5b06f7f82951b4429217afbebdafc1609150fb705f5e42c6dfd6299dd5c60104"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-068-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "3b59581d002104eeb9fd9b7183e1cab81c750a10bdc95738f9f32759311e1008"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-069-G001-food-functions-1-5.json",
+      "bytes": 282,
+      "sha256": "aaeec2e0aadaf878909692f3a3039b8fbed172ee2fea0eaeff3a46a256a7b123"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-069-G003-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "c9168a50a4b33eda3a9a5db3b265a3e5ecfa4fddccfc6f7fc8ef8250026cd182"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-070-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "b6a444f1efe66a0cf5c8c1820a8c412a59d4691099b79ed336ec78fa0ac3a104"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-070-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "d92661cebd12797f9a1102896ec37dbf75d69a32c889da595645870eb45419b1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-071-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "3310e497eb7473e551d5d2b2595020b2744c41e3c74cff22dcc10c36e62b7e7d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-071-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "375274ab8821a48181d5cbb691207b216396423b454e3905be536db881526c31"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-073-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "21ee2fa1592dcbcf24904a755c7d4668beeb4ccdd5659a5eb02b85f54241c6fc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-073-G003-food-functions-1-5.json",
+      "bytes": 297,
+      "sha256": "461bfd91696d71a5a64571752e9f376ad5f628cf2cf2b7030d4e218e4f2dcfa6"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-075-G001-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "ac7f0baded6eb0f683255ddc748fad7d9d676c219f71430f0195982aeea492fb"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-075-G003-food-functions-1-5.json",
+      "bytes": 296,
+      "sha256": "32dc53297e904c5150228bce625894a49853922f53b09b209ab9c9213874bfa9"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-077-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "77b30c5ea7a81e585cb7cdeb91a1c6fd3d34549776b00ecb78fd1943023e45d7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-077-G003-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "2531e8037f3e03d08b205ab2ed1d9332386211374e4f13410adf2d0d5f9097be"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-080-G001-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "ceff843fb4b41aaaefa4645308b90a2d0d0da401497cccc0e50be4805af79079"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-080-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "a873ae23df00cac6326ba16883f65f27b809588078e6d2f6002f1421da1e503e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-081-G001-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "1f25ba5f589cdc3b2991fbab04fb70a1fab98265c657326f9a22afdaf856e672"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-081-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "24f47af3cf7b99f7cbcf5eabe7a2103c0f743432e8f9d52758477078cebc5a1b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-082-G001-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "e617187ea49fe3e1cea2a316b7d276c188bb7c7241cacce8d9374d000bee74d4"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-082-G003-food-functions-1-5.json",
+      "bytes": 208,
+      "sha256": "8a512ba16d9dee728c7599c9d1936f36403c38cd4466837490c410ef37ac15bb"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-086-G001-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "767587696515ccf29bcb1eb11a003592b261d1c2262ceabf1879e9d0cfbb3b5f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-086-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "9526e4634d4f0c63e0a8944e7f510517c6e42ee0c17d1929bbcacb4067e69496"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-090-G001-food-functions-1-5.json",
+      "bytes": 297,
+      "sha256": "92a81ff5f022c250ad2421e46089086833a28c008e525c9fd37746795c04471d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-090-G003-food-functions-1-5.json",
+      "bytes": 212,
+      "sha256": "2c6a2e0abaee0804fe2360358360a419f23f32b7ee08e171ee31043c5c6f9197"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-095-G001-food-functions-1-5.json",
+      "bytes": 299,
+      "sha256": "38df87dc30a72add750d9fc2088d1571b9e47f031e3fd8719cd245a86ac3469e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-095-G003-food-functions-1-5.json",
+      "bytes": 213,
+      "sha256": "39b9b925c3c7ccdf7b8a0134c3aef94cefae02dd1e23aac104e5a504b72a8af1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-096-G001-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "8d3f128697ab04502b833d944dc6c95727d29a1a0dfe21ff5ec2ba22009f2daf"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-096-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "9b6ae52a918cceee2fc89bd4c725f544b54cb2115c7a880c8f21aaabd72cd7d7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-097-G001-food-functions-1-5.json",
+      "bytes": 214,
+      "sha256": "cf1d450eb8c283034ef50afaccb85cd61f569ae59f5b014c1380545cca49183f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-097-G003-food-functions-1-5.json",
+      "bytes": 214,
+      "sha256": "74077207ac5b8c6ad06afe735303be3af486c822f26dfb2670448d229f0ee89f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-098-G001-food-functions-1-5.json",
+      "bytes": 320,
+      "sha256": "3954b21168a91b103d2f3fc3c0d5ec45018e3513892dc6d79e5a6a4504140927"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-098-G003-food-functions-1-5.json",
+      "bytes": 235,
+      "sha256": "88aeb2a50fa474eb91f84a840e36eca1fce77cb2811ad69c3a2b0def001419bc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-100-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "849940f6af0cba5767ab3f234845c77deb0f20a228f7b9c0024c5ba4e0caa821"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-100-G003-food-functions-1-5.json",
+      "bytes": 284,
+      "sha256": "28cecae443d0cde82d9956829bf2fa96e3dfeacc185c7f3906174fbfefe5437e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-103-G001-food-functions-1-5.json",
+      "bytes": 285,
+      "sha256": "24786d243dfea0a4a6e1fea781cb7abaf7a3ac15f7d9d6d4fb7595ce943d957b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-103-G003-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "3230053029b1b3b7c162a9d84620b35ce689e02e7b71cb0618297bffebd44c71"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-105-G001-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "b5c0c8b6fabd0f5bd2a5277c17b9fd0e37f97c3dc5bcf1a124af2affd284f67d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-15-105-G003-food-functions-1-5.json",
+      "bytes": 207,
+      "sha256": "6d6b60ed239eca8f23598c7e25eaceb5bd812a133f5eb6d7a20568886a533a47"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-001-G001-food-functions-1-5.json",
+      "bytes": 201,
+      "sha256": "080bbaf233d43ac9c49dfdb4507127a5d3442c58c3afd09b10f21b8aa4bfffc4"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-001-G003-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "5c9fa1edc091c626e36035af585a8dddcbe63428a215b0f01d6c83556e2d94ec"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-002-G001-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "b269e6308cd29d46e1623134dcaf8965e70891bfe4f9a68d19b93873940b94f2"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-002-G003-food-functions-1-5.json",
+      "bytes": 201,
+      "sha256": "c41700418aff6a98056bf3888af5dd24ffe50c8363151d35fa95577070181604"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-004-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "2762cd8453462bc9d82a0874d850f14e597fda5f69001393120039033cdccef4"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-004-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "f210a352e0cbcacd66d9f9e3378ed004eb379e6560ab0c0ca858b08ee9ec23f1"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-005-G001-food-functions-1-5.json",
+      "bytes": 219,
+      "sha256": "13eaf0050b73782225d7a5a8f8654a98d42a56187180209d18735c90b84d2037"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-005-G003-food-functions-1-5.json",
+      "bytes": 219,
+      "sha256": "b15796a47b940b8c7d3a5f35a0d50300be87de57f729b591c7e4818be92bcd01"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-006-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "899e8d603a8b720f2fb2dc0b1b813369c010684059ee0fff9772de2a5337ebce"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-006-G003-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "0286a07bae6c705aaf90898440cb72688e2d395d69234f8bbc8d8e2fc956441a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-007-G001-food-functions-1-5.json",
+      "bytes": 210,
+      "sha256": "66fdf817147d4d5dddc1c5280dcb6fdca18f25ac6b9dbbb76c72e4957d1f3d56"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-007-G003-food-functions-1-5.json",
+      "bytes": 210,
+      "sha256": "10f7f93670fb84332bd7109fc5b0380f4031982b5c28fb94bb84c0e613ed504a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-008-G001-food-functions-1-5.json",
+      "bytes": 284,
+      "sha256": "c0c2abdcdb848fef2fefc749749e70496b504971c45315a41cc0fcfa6a8a3829"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-008-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "2268f44c2eac833367b7234bb676f77645e16b2d9fd59f9fca3b63b1ad721217"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-009-G001-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "004b7c1f6ddff89f8c293c78b80b7f833446c79ff9b314113a571859f7a87830"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-009-G003-food-functions-1-5.json",
+      "bytes": 203,
+      "sha256": "7343f7c3a6b6bde7397759af7baccc55b1c38531b35519160555082f57b3acb0"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-015-G001-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "e5e6ccbee5921a58ba34216c98b04482f4bd0d484aa9a4822b47b306b999ad45"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-015-G003-food-functions-1-5.json",
+      "bytes": 207,
+      "sha256": "bcb4958167f637b0582e742f7c9e584e07e1ab097ed06d12bb0b6640accba626"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-016-G001-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "3e31d7a68c83f2c62437aac18e0e91d86b65ab34ae0d58dceaa78eb1a1c23b0a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-016-G003-food-functions-1-5.json",
+      "bytes": 206,
+      "sha256": "98984a5d36c9bb51e1a2eb90752adb6fbd5d50dda0b58b96300097894a8590a5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-017-G001-food-functions-1-5.json",
+      "bytes": 287,
+      "sha256": "9036714340a2431674705b081f6e40030d8e2630c23f46c64fff841f2e10a323"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-017-G003-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "4970bffddf4b2c4ae4788de82b1df815bc86c0c455f7fb73d0b637f69ca5c7c8"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-020-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "5b054b216b0d56292781638a0cc2a6ac804b80ed4503387f8ef369abd945a229"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-020-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "ec8fe539edb8d3c4da4830da0115fcaa0aa45f857bb12afbf901c2ab2b2ddaf0"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-021-G001-food-functions-1-5.json",
+      "bytes": 285,
+      "sha256": "9012133da3f29899c4e1dbead26ed89b10c919ff610a38a28a9f36f8c4d7fd34"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-021-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "9df6a56fafee22427662e6c40c268f03b95ea60669b7acb864a38206e1ff2fc0"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-023-G001-food-functions-1-5.json",
+      "bytes": 367,
+      "sha256": "a4de3a72854fa6d3d6d71f9263d20b3f50857c7767a284f8c56581a3c879c38e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-023-G003-food-functions-1-5.json",
+      "bytes": 371,
+      "sha256": "7a566aba2f02d84df049f6c3ba1aae2f94569f3f06ac168fa61f3a587bfa59a3"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-024-G001-food-functions-1-5.json",
+      "bytes": 326,
+      "sha256": "969d6905dc3ffbe1c3ed48c66eb1a63eb71d739f5affa5f5788f702b7e33ed22"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-024-G003-food-functions-1-5.json",
+      "bytes": 333,
+      "sha256": "c7bda158a05411229076c36f1d7f7add3e35d27d0760451ca55b3f4861bad4a7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-025-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "e6338d0b82fb14cc49d1de6223dc73f4543ebc22adc414d5cbb11eec4d18a9d5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-025-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "b043e67f6ee494b3e1085e2dc916045cc627f42795dde36aa6b31efdb01d6eb9"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-027-G001-food-functions-1-5.json",
+      "bytes": 285,
+      "sha256": "a3ac71eef1107ab55cb35a889593062b3cea04a042eb48f9a2ea4fadf99925ce"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-027-G003-food-functions-1-5.json",
+      "bytes": 200,
+      "sha256": "4f5a6419b766c61c113b7ad2951556825b718f3b22d889e9f2c4047e8506d957"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-032-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "1b9e0397babe23e7457a010f1a8d0b4facf9fda666b6c1340f39532a7cd19ec3"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-032-G003-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "f030f86466f84189dfc3f7a491e14b9e7b99892cea701c8d5bc7caab45d382ca"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-034-G001-food-functions-1-5.json",
+      "bytes": 295,
+      "sha256": "5b808b46008b1bc19f37557720d0b1023d92693cad9dc2868416889c1d78afa7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-034-G003-food-functions-1-5.json",
+      "bytes": 301,
+      "sha256": "80bfffa1d65fd96c74866a099107ba511625999718a33c9b66911c67656b89fe"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-035-G001-food-functions-1-5.json",
+      "bytes": 277,
+      "sha256": "5583c5b43ba16728634f4c35698bd1dd14d2a579b0fb38acc946c428487a3857"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-035-G003-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "f71376c88aaaf811e89ebee32b235b498a003ea82d066e84e2fc2496260aeb6b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-036-G001-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "0ff3e6d2f984423ee430f10c3b2ece58a8b28b0d5c1be36c3d4ebdd4fd6f3fd7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-036-G003-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "46b734ac7f48db04e824bd5d63ca51723493819320c044c459eae9bb632144ff"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-040-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "214b92f3124a40daeddd2aa25bbf8a808a015c20c27a83e83fb19f23e8f92934"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-040-G003-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "b26c923024aaa63f6c13343472597cc82e4aec78ecf9727f17fb37369975d305"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-041-G001-food-functions-1-5.json",
+      "bytes": 208,
+      "sha256": "74370db62212c4305854fc8dfd13fb9c6cd6dd2cbefa4005acc2b2124f3e72bf"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-041-G003-food-functions-1-5.json",
+      "bytes": 208,
+      "sha256": "cb255bca02332a6e7b8418900130fb6b05b7e1964b8088780791692aae3194cf"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-043-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "5d8cccb98221b1a9dc8c8da7b9056ef4173f89f34a4a461ac14380deb55c56fa"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-043-G003-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "7196559196bf47208b334c881b30299c076c7efdf12ebed661fb550ffc7759d7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-046-G001-food-functions-1-5.json",
+      "bytes": 276,
+      "sha256": "138387bb5bdf19a444ac7f3538fa45e0954a202ad54427d8eb8361859c4e93df"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-046-G003-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "e21fb8d14df7944f2ba0da40ea47b94f63895caf689abc79203f4aadfdb06348"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-060-G001-food-functions-1-5.json",
+      "bytes": 305,
+      "sha256": "cc75410984f1966b39909eff5024cea5c67b1bf5c706347ed21163f99fda078c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-060-G003-food-functions-1-5.json",
+      "bytes": 309,
+      "sha256": "85d2d6d26d7d2012136a9417e7796d498093890b7748729347f0db358fd1725b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-061-G001-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "3bd49c96bb901f7ccce42e3ca88e9aca8ef457b6fbba29c4df10d3b3cc8d7f08"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-061-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "3e594cf6314f4e25b9fc60ea0cd3bc7b24171edcba2538095f9dd45de22e69e7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-062-G001-food-functions-1-5.json",
+      "bytes": 283,
+      "sha256": "64a12f12e197b7e98d7b83797525555caa359f918632481d303e91cb63c2d879"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-062-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "e9dfe2d3a6a4d1c120392b179b26b0093543a68181b8178711760444a8decfa9"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-076-G001-food-functions-1-5.json",
+      "bytes": 189,
+      "sha256": "c04f52ac532124ddb611a92f83c791770ed207f3c9979a902789efe138428ee5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-076-G003-food-functions-1-5.json",
+      "bytes": 189,
+      "sha256": "a53e7f9d9fb3085ef3225555616ad19bca969d07af7adf6676c128ae01f572f5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-078-G001-food-functions-1-5.json",
+      "bytes": 292,
+      "sha256": "7a55cd7c7c0ba3fd25a2734545368eb947b35de2200a21e0e0b361191dd94d4d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-078-G003-food-functions-1-5.json",
+      "bytes": 207,
+      "sha256": "7bc42c7f8ce21417e584284bb80cee1a146995deccfd33766fbb2e4a791c6dc4"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-080-G001-food-functions-1-5.json",
+      "bytes": 300,
+      "sha256": "87c3bd72549247a160c4f12ce1bb1983ad22e0c16bc3445614e50643126aef05"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-080-G003-food-functions-1-5.json",
+      "bytes": 306,
+      "sha256": "cf9d1efbf8346b8821400d9f585cab75fac05f9ffcb438aed5276a2ccca00fa3"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-081-G001-food-functions-1-5.json",
+      "bytes": 212,
+      "sha256": "a2b4a55a5cc0b4fc26335fb7bbfb7ca02e783bd4c81e200f697b0f5d4849e22d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-081-G003-food-functions-1-5.json",
+      "bytes": 212,
+      "sha256": "acc3e894efb9c59b07d502693f6cf318ff4f4f17b025afd85ef34b8a0651e604"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-082-G001-food-functions-1-5.json",
+      "bytes": 300,
+      "sha256": "5d2a5b45c7ca6a3d7366e8b34e1d55a3b4f3c2c13af712eb4ad7b313d2d53f07"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-082-G003-food-functions-1-5.json",
+      "bytes": 304,
+      "sha256": "4deb642d8136f00a96f0e6e46c243bc42188cde33cdf0fc0a7ebce331ca7b687"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-086-G001-food-functions-1-5.json",
+      "bytes": 300,
+      "sha256": "bc22eaeb664ef0de33bf122d364f32d7298fc36f2ff630fc10e460700a3c6dd7"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-086-G003-food-functions-1-5.json",
+      "bytes": 213,
+      "sha256": "f48b56f07428610100e98d8844261bd5e9ec5f6177a1df02b06d5757d1398ad8"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-087-G001-food-functions-1-5.json",
+      "bytes": 309,
+      "sha256": "26b322df48c7e71634d8d4233b781c74ce8393492c8305f2124bbab26e606292"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-087-G003-food-functions-1-5.json",
+      "bytes": 222,
+      "sha256": "1870744b97ee21c41201d13d2f1ecead339610f1b87d0f4956a3bd32e830e09d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-091-G001-food-functions-1-5.json",
+      "bytes": 301,
+      "sha256": "14e3fb65bd3aba9f30af4b3cfa754fc873bc2c8a3fb1ccaf5515879dce0be53d"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-091-G003-food-functions-1-5.json",
+      "bytes": 214,
+      "sha256": "a526b30d8162024fdb52cf7a2635818af8b6e6ce74660e1cc19e6335b89a8c9e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-092-G001-food-functions-1-5.json",
+      "bytes": 223,
+      "sha256": "5d90d09606eb76894d95d633e50c9d91683a15b52a3a60b3049689a5d614cd28"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-092-G003-food-functions-1-5.json",
+      "bytes": 223,
+      "sha256": "90e9489259ff4af93e367fa7112ec00437e3e76e95cad327403abddf748898c0"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-093-G001-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "bb277c7ea97db41103e72b93f9774c0807082638cd5c9293f12c9b61553a28d2"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-093-G003-food-functions-1-5.json",
+      "bytes": 201,
+      "sha256": "5256b21d9c9bb54dcfd7d5457f04ea8b52d1462cf1e50ab6e7bddbb363612b91"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-095-G001-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "81e67307d1dc22adcbd4a2f47453f01f1926c573d0ec029a5d1eccdf21d7466b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-095-G003-food-functions-1-5.json",
+      "bytes": 198,
+      "sha256": "ebfb55f4f6de237b1eb52636598aa5bfdef9d7f62394de3501e3b0c4f0611e0b"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-099-G001-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "d02c9316514a319433f5bbc942aae4c94df07c639df9d1c3da873765282476b8"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-16-099-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "6ad215c6b847311d5f3a2242b1619bb20b1ab969256643730d56829bd99e8ba5"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-042-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "354f68409868e4565c7c3473e58303540d7ff34c3c308de6b7bdce3c4c928e4f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-042-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "2280a98684207868ec9abd78a02d8c9091494d0c17ee65b223d2ab6202e7af74"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-044-G001-food-functions-1-5.json",
+      "bytes": 280,
+      "sha256": "525f40755b1499151f1991c8e4a2587521935ecdb8afb1d1be3f0fe8b6e60322"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-044-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "cff9409a4a3aafbda1713ae4b509b563ab8cd0b4293c1de4a703726929325c55"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-047-G001-food-functions-1-5.json",
+      "bytes": 212,
+      "sha256": "ad717de1caba03697d16dc5f901c002728145958f848e8fed8141911cdc9be40"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-047-G003-food-functions-1-5.json",
+      "bytes": 212,
+      "sha256": "e4075aeb80bf08ffb1f97ab25277152f4de39be51e083c3d5896a7351d8a2e42"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-051-G001-food-functions-1-5.json",
+      "bytes": 322,
+      "sha256": "abefe316e550e9c347c9f4b592059b33ce8a7046d09f8c3b045be31455c6af7a"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-051-G003-food-functions-1-5.json",
+      "bytes": 237,
+      "sha256": "0476705758859a4f2920fed42a80c7f6b7de960925f360c3375316632a858d38"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-071-G001-food-functions-1-5.json",
+      "bytes": 294,
+      "sha256": "74f798901b16bfe45f7f8140c4028b6a2ecc5de27e836cb93c506442f2eb3dcd"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-071-G003-food-functions-1-5.json",
+      "bytes": 298,
+      "sha256": "737b84018aa0b857ae3f42e19f39a3b91ffc45f35a2053e294baac2497354b1c"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-077-G001-food-functions-1-5.json",
+      "bytes": 291,
+      "sha256": "3cec682ec684b18e4198c829758e979f34f867bb174f7904db1502cc7495d9ba"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-077-G003-food-functions-1-5.json",
+      "bytes": 297,
+      "sha256": "e436c9ea11b7a53b0eaa8b8e5125f2e2f539cc54eccb2ae5d0c5571e05a4b7fc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-087-G001-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "727cbaf52bce75eeae4d2d4a0ef58f7ec0d46636bb1e8f965c403d59ce9fd9ff"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-18-087-G003-food-functions-1-5.json",
+      "bytes": 286,
+      "sha256": "1bc4ccf656b41b10bf0063c0c08c9e1db86422597f68afb8cc1b1c53bc0ae6ea"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-19-011-G001-food-functions-1-5.json",
+      "bytes": 288,
+      "sha256": "53b2d300cc61987b35f8851cb00208bb43e2a47be0a3bc564e2187d53d744c9f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-19-011-G003-food-functions-1-5.json",
+      "bytes": 203,
+      "sha256": "40de4b06de707f8e272f540401b331d36fc3f545f5ed58eb76fd0a11aed3f88f"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-19-013-G001-food-functions-1-5.json",
+      "bytes": 296,
+      "sha256": "0d7daf4e7720dc5f35bb461a412cc684e5b039873a4425dbbb713eb9bc8f49ea"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-19-013-G003-food-functions-1-5.json",
+      "bytes": 211,
+      "sha256": "36d9b9d85e80dcb039ce3ac3416d1fbdfb0c813d73b8f3347a9a35732ed80487"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-19-015-G001-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "58f5e2791a6ac695405a87395a3bbfd2bfd0488354352c022b2f056e2ce46b26"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-19-015-G003-food-functions-1-5.json",
+      "bytes": 195,
+      "sha256": "e37a5befaac1016ccaf4ddd2cc2b52c8e2bb264e156a645ec9b23ede317851bd"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-21-001-G001-food-functions-1-5.json",
+      "bytes": 192,
+      "sha256": "8193a1b6f93f4bb60d76e722e24a27a6933f77ec3159c8768495a43008d4700e"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-21-001-G003-food-functions-1-5.json",
+      "bytes": 285,
+      "sha256": "4dacd348dfe88b63deb3f44e5eaac0205b4ce85ec0e3501fc957c1f21e3128fc"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-23-029-G001-food-functions-1-5.json",
+      "bytes": 212,
+      "sha256": "510abdec7ff9fcabd812d318a193dfa9fceb17bdbc528c93a10d186dd1e797e9"
+    },
+    {
+      "path": "project/data/agrifood_reports/S-23-029-G003-food-functions-1-5.json",
+      "bytes": 305,
+      "sha256": "ae5131a61d168bc0ebc92365b926858a25c5ee299442db6de3077a0376198bc3"
+    },
+    {
+      "path": "project/data/guidelines/allowed_candidates.json",
+      "bytes": 1343,
+      "sha256": "e6d9087bd78252b177f435331e3dd5ff7a8219e5aab70d89c966e11338b3de85"
+    },
+    {
+      "path": "project/data/guidelines/chunks.jsonl",
+      "bytes": 20617,
+      "sha256": "1d14e20962935fa817876c2c27895dc985609f891780623bb5c6ca0e65f341d4"
+    },
+    {
+      "path": "project/data/guidelines/manifest.json",
+      "bytes": 8522,
+      "sha256": "5ddcfd080bfaedba8d1b5379fe82c0837721cc6ad43cc3a6c09cad0f9fe1d8e6"
+    },
+    {
+      "path": "project/data/guidelines/texts/dietary_guidelines_2021.txt",
+      "bytes": 5069,
+      "sha256": "44882e6d4aaaca0d9a77e103d61766532b60ef01dbdedec63a5865ceffbb15bd"
+    },
+    {
+      "path": "project/data/guidelines/texts/diet_practice_checklist_2025.txt",
+      "bytes": 2725,
+      "sha256": "b204978080b2a343c80dc023a60a027ca2ccffecf712817b6e0f68f91c712cfa"
+    },
+    {
+      "path": "project/data/guidelines/texts/healthy_home_eating_2021.txt",
+      "bytes": 1703,
+      "sha256": "bf3b211eab778fd446932b1b75535feafaa926b5ba0942be839ccf084d07fe1f"
+    },
+    {
+      "path": "project/data/guidelines/texts/hmr_nutrition_2020.txt",
+      "bytes": 2662,
+      "sha256": "9c07053c503bbb8e8c32475cddd58235fd4db9f43ac189e919a12a56a078724d"
+    },
+    {
+      "path": "project/data/guidelines/texts/nutrition_policy_2026.txt",
+      "bytes": 5652,
+      "sha256": "b64afb452fa47a6ee93e9e8dca5d753975d6bbc7ad29c9ea232e13fd0db9d803"
+    },
+    {
+      "path": "project/data/rag/answer_graph_evaluation.json",
+      "bytes": 2021,
+      "sha256": "0b9c2e7bc3e929be538acec170a8ee8b26542bd92dad4690f9b1a8cf5df78d83"
+    },
+    {
+      "path": "project/data/rag/answer_model_comparison.html",
+      "bytes": 124516,
+      "sha256": "2089c3cce5211b95d7023227457b80a2e5b3cfc4efe39e3871d73915580c6c6a"
+    },
+    {
+      "path": "project/data/rag/answer_model_comparison.json",
+      "bytes": 134833,
+      "sha256": "62e249081301900374c74f9fc9a02f4eb75280a74d2a6fda53d742adf02b66c8"
+    },
+    {
+      "path": "project/data/rag/documents.jsonl",
+      "bytes": 158349,
+      "sha256": "580462303416ba24155d6e009f94c920e4bf03f5e593aa64c9e0349e3aa594af"
+    },
+    {
+      "path": "project/data/rag/energy_profile_evaluation.json",
+      "bytes": 2850,
+      "sha256": "6a273b672b95512a325bcf0e1120aec86b328af53408ca6bd5a6649f52687a33"
+    },
+    {
+      "path": "project/data/rag/model_comparison.html",
+      "bytes": 153715,
+      "sha256": "8896bf9c849501ea11bb1d64472c90408a8405c144d02157a2a315e06955b9c2"
+    },
+    {
+      "path": "project/data/rag/model_comparison.json",
+      "bytes": 162206,
+      "sha256": "7d0564f6bef520718559aab52d59358d1e9cdae29fe482087dc9af9c7e36bf5a"
+    },
+    {
+      "path": "project/data/rag/semantic_evaluation.json",
+      "bytes": 7067,
+      "sha256": "07ee0ba57bf176e95a0b316e90c184748dec2d98768fd751489d9c649bf40aa0"
+    },
+    {
+      "path": "project/data/rag/semantic_evaluation_W026.json",
+      "bytes": 10443,
+      "sha256": "e6ded3361a8d3b2c062f08c8bdff911e4e554ceb03fa32c83dc67f64c05e1e98"
+    },
+    {
+      "path": "project/data/rag/source_chunks.jsonl",
+      "bytes": 1193,
+      "sha256": "91108d449b6f9939903ef1b5d9231bbb7050a61eb2c1278f81dca285e40b9011"
+    },
+    {
+      "path": "project/data/rag/source_reports/28.json",
+      "bytes": 1221,
+      "sha256": "d2238737b9c2174b2c259627cee9f22fa7a95ab59ee454bd61072034d212dda7"
+    },
+    {
+      "path": "project/data/raw/nutrition_page_001.json",
+      "bytes": 575628,
+      "sha256": "28cccf6b5df78aae9b13f2bd88ab735b64fb6e706f4c492470879d1157a12feb"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-001-G001-food-functions-1-5.json",
+      "bytes": 2312,
+      "sha256": "ba7e73680a8ebfa416b7f1ae408637e64086c935b97672f1a8b14d07918b538b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-001-G003-food-functions-1-5.json",
+      "bytes": 14070,
+      "sha256": "b1e4c6fb3a7815ff2e7e649a58aec2bdf0eb5b1e794a3de0d805632feae0d9a6"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-002-G001-food-functions-1-5.json",
+      "bytes": 1480,
+      "sha256": "685a5fe22507f76afc6454945ea1579aeb0418406f74f330404dc0d262ac2f5a"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-004-G001-food-functions-1-5.json",
+      "bytes": 8975,
+      "sha256": "c50553bf4f0622d6b931aa82a9d51ee3f9e123b2d654f74f736af6431a6beb8e"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-004-G003-food-functions-1-5.json",
+      "bytes": 1336,
+      "sha256": "8e2b506f4f5467b209440427e46c05dca103d9f24521de0b67ae6e0b77702fac"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-005-G001-food-functions-1-5.json",
+      "bytes": 5710,
+      "sha256": "b46e22f00a3559cef02b108d468aac90fb2ac14dd89369fb073163bc987ec374"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-005-G003-food-functions-1-5.json",
+      "bytes": 1699,
+      "sha256": "5af742261c2fdf35b3351d0257c7b0a2b334b62da15f8d56d07b67c87bb02800"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-006-G001-food-functions-1-5.json",
+      "bytes": 1872,
+      "sha256": "9171c55814f9281a83e74154e9bd6dd2d33b528ee6c3cf38fa728536ff812e76"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-007-G001-food-functions-1-5.json",
+      "bytes": 15955,
+      "sha256": "b9dd7c92e25cea855e0f63e332c217b00f7f40fa61c62fa7df313dc93d4c2b76"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-008-G001-food-functions-1-5.json",
+      "bytes": 18842,
+      "sha256": "4172e0099658af4ad441866412d94c7da8bf70008ce578f43cdaab9c835ebf17"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-008-G003-food-functions-1-5.json",
+      "bytes": 3029,
+      "sha256": "3358c839e6a15dce679cde3e68089cae06dd43dcd261db7819bab35265edc8cb"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-009-G001-food-functions-1-5.json",
+      "bytes": 1305,
+      "sha256": "1a40726be12d9dd509e93768f52bb7550cf53756f1dd6df6aba63609adf7d290"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-009-G003-food-functions-1-5.json",
+      "bytes": 7086,
+      "sha256": "d21bc80a0b8a12d53f13f364218e716f0416d6f5a9995906e4797368bc0ef80f"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-010-G001-food-functions-1-5.json",
+      "bytes": 9962,
+      "sha256": "7515ac0efe6a00a256fbf692f78cf57f19298edda2e40081c573a546624fc41d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-012-G001-food-functions-1-5.json",
+      "bytes": 754,
+      "sha256": "238838be3055727c9e24eaf46bd7991af08fd96e71cdadf216aebc1f7b26c8e8"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-013-G001-food-functions-1-5.json",
+      "bytes": 3636,
+      "sha256": "d233bb5f3db7d62d7eb3d6f3f183672daea01ae37c7e7ee4a7c2d55a829c3295"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-014-G001-food-functions-1-5.json",
+      "bytes": 41188,
+      "sha256": "aa39fbdef08a72cc20a8407eda4dc929823ce41daeb097c4f071d672ee90721b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-014-G003-food-functions-1-5.json",
+      "bytes": 27428,
+      "sha256": "7eb8f8fcc78383b16de65ad4a5dd049465abddf551e398236cf9b9fa639614ef"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-015-G001-food-functions-1-5.json",
+      "bytes": 1633,
+      "sha256": "88e89cdcae18b2b7b238c3b9adbf49a61a68f1722563b07eac1e65d905c8c0a8"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-016-G001-food-functions-1-5.json",
+      "bytes": 13537,
+      "sha256": "38f5b80530ba2fe5a4cb5c8caaeae53188db47c965757f2750d7ee50b7f610fd"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-016-G003-food-functions-1-5.json",
+      "bytes": 4429,
+      "sha256": "450d7ee9398c1b62399603ffb470569ca125a9a7605da7dd2be1185bca260a99"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-017-G001-food-functions-1-5.json",
+      "bytes": 3702,
+      "sha256": "cfd9e24764e62cc995612f7db202f70e355a1674866e49708b2f8c07c0a9acd3"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-020-G001-food-functions-1-5.json",
+      "bytes": 7086,
+      "sha256": "d81bd843d984758586fe799bdfc4e0558ae0789e461df3a17ae2d052fe910f76"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-021-G001-food-functions-1-5.json",
+      "bytes": 2132,
+      "sha256": "cb14f231d6879eeb81c0b5e9d722be5ff70ffb8be390c89a80d13845f5ec25ac"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-022-G001-food-functions-1-5.json",
+      "bytes": 17268,
+      "sha256": "b5dcdafecf39da6d56b139d60894baeaa2b8696c2bdd7817eda308a6cfdb44f9"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-022-G003-food-functions-1-5.json",
+      "bytes": 12104,
+      "sha256": "959fcac51ede3d2908aeef744745717f4b8d9ea100c4acf5379406ceafa03b01"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-023-G001-food-functions-1-5.json",
+      "bytes": 781,
+      "sha256": "22014173aa1864077dbd862ff34a4aa6a2e1cc93458167aa41f63035c46ff301"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-025-G001-food-functions-1-5.json",
+      "bytes": 7288,
+      "sha256": "2626e40b6cbcc0d5506899fee03797269e0b59c384ba869b9ed3978f3cfd6db4"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-030-G001-food-functions-1-5.json",
+      "bytes": 8105,
+      "sha256": "e1ce4c8e4903e0ddb52df9eb3d0a5f47f3b09348ecbedd467f432052a540ca43"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-030-G003-food-functions-1-5.json",
+      "bytes": 1144,
+      "sha256": "43ee98a9ef4ee2b1c9f118354d6080ddbd57b582c50da754d41f4e3166788b0b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-032-G001-food-functions-1-5.json",
+      "bytes": 4327,
+      "sha256": "70f4bc0fbc56fbcd0bdce0ce460a1b6838a326b8c0cf7ba7944047e9f4ce124f"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-033-G001-food-functions-1-5.json",
+      "bytes": 5174,
+      "sha256": "8fdd9707a1d831d7ee59a2282312f206da7392e357868ef47b02fc591eb5d706"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-033-G003-food-functions-1-5.json",
+      "bytes": 2833,
+      "sha256": "a5c7cb825f79034767fd7ebb34220348fd77c53795798a2b132695036df48a86"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-036-G001-food-functions-1-5.json",
+      "bytes": 12266,
+      "sha256": "f1a5be087eb6f2a12aa11e796f3cc448c3afa348200ba7d608867930737f96e9"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-036-G003-food-functions-1-5.json",
+      "bytes": 8988,
+      "sha256": "73e12f5584ec77df4bd8c419f05675e2bb55f54f9aa4b9e4d27c633cca3efbc6"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-037-G001-food-functions-1-5.json",
+      "bytes": 4386,
+      "sha256": "50d94f2f21352931ab3a92f9468a89a336c7d2bf4e7c73461a4761f0b73a1695"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-039-G001-food-functions-1-5.json",
+      "bytes": 3250,
+      "sha256": "65ff3a52780a1317dbb9798940cced2867ae2cbe69243af73ecfa8eb6b34d60c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-040-G001-food-functions-1-5.json",
+      "bytes": 2943,
+      "sha256": "ebec05118d6ee3110b0efd411f540212f7330abc48ac558cb9a8bac302e2d8b8"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-040-G003-food-functions-1-5.json",
+      "bytes": 779,
+      "sha256": "a7f38aded33f50ff32ead682ce2c4aefe59586f58a422daf0faf66c8821c335a"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-041-G001-food-functions-1-5.json",
+      "bytes": 3290,
+      "sha256": "85abd9338a350d43685b29e489e9fe205340bcde26f7d73a14f6e905ca4353df"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-042-G001-food-functions-1-5.json",
+      "bytes": 2410,
+      "sha256": "e9ab24424ec51baea071d6ad86a899b81d0566fdfcb1152fa08db6519876fba5"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-044-G001-food-functions-1-5.json",
+      "bytes": 14859,
+      "sha256": "d6efa23e4fdcae81a6a02a4d8d6d0495e8100ee25f01844bfc611ac8fae89300"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-044-G003-food-functions-1-5.json",
+      "bytes": 7487,
+      "sha256": "b750880f6897f3edea93bf08ab0fec7c2dc2697478ef3f5ac0d9cdf4140bd364"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-047-G001-food-functions-1-5.json",
+      "bytes": 7294,
+      "sha256": "9a42d65b2df27f591fc65a55e17646e7a0bf2603be977a82e4a49a2e8b70256e"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-048-G001-food-functions-1-5.json",
+      "bytes": 9396,
+      "sha256": "4a9dd4ad1218fbd5a11bae70e7ab48fed59081254cb2d83bad5fbeb5a24aa39e"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-048-G003-food-functions-1-5.json",
+      "bytes": 10782,
+      "sha256": "115f0493f71c948dc148cb4dde7ae8f5a16d23b7ab8e39ab93df2c907b5dff7d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-049-G001-food-functions-1-5.json",
+      "bytes": 19472,
+      "sha256": "3d90416f3ce2714119327854d69cbf7be5ba31bfc271f106dec6e68b843a2461"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-049-G003-food-functions-1-5.json",
+      "bytes": 2877,
+      "sha256": "27f2e2aa6a64412a196c593b3d663ecd8aa1de201bfd9e0f16a9b17a698cbc52"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-050-G001-food-functions-1-5.json",
+      "bytes": 735,
+      "sha256": "3a2bc888bfd01a4360314497d85dc2fe0450428b51e5d68c75296f7364d51721"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-052-G001-food-functions-1-5.json",
+      "bytes": 3624,
+      "sha256": "97e340ce897dd3bc1d4ce007171f1601a4bad8aab03faca2c918148b06cf1ba7"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-052-G003-food-functions-1-5.json",
+      "bytes": 2322,
+      "sha256": "8b773999f1d60da44f4b519a577e41ff6286c5d71e013267dcb13d0e76e82f99"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-053-G001-food-functions-1-5.json",
+      "bytes": 724,
+      "sha256": "24c2345e40ce123b9488d09bbf534efea829960590349b1bf55d219fbe573079"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-054-G001-food-functions-1-5.json",
+      "bytes": 10667,
+      "sha256": "31a045ac2b864d890b69aa42be70f97c4451bf7a695555ba9482190d85fc23a2"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-055-G001-food-functions-1-5.json",
+      "bytes": 1751,
+      "sha256": "60897c99cc01422f03c86180d2a7687ddef3c04f61a49943f92c8dced0bc71e2"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-056-G001-food-functions-1-5.json",
+      "bytes": 6036,
+      "sha256": "717f35662745915d8b59a980402c9c79ccdac70845d0df1db63043ae056a8031"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-056-G003-food-functions-1-5.json",
+      "bytes": 1186,
+      "sha256": "2718cd12b584463a2e673a70146a403ac97f909f4db19dbdb775dd70806c305d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-058-G003-food-functions-1-5.json",
+      "bytes": 1381,
+      "sha256": "bb59f72ff20ac01d2184c745033ddca5320a6f9c00106c34fa1539a8c163cbac"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-061-G001-food-functions-1-5.json",
+      "bytes": 2264,
+      "sha256": "19900131b83a54a5368cef825d273d8e4ba08b6534e05d3283bb1c2a85e4c5ea"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-062-G001-food-functions-1-5.json",
+      "bytes": 1364,
+      "sha256": "31cd6c5047bcd66dbf0973a65058d71a3ebdb1b28cf9731e12727ce492e8eeda"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-063-G001-food-functions-1-5.json",
+      "bytes": 6268,
+      "sha256": "ba6f4b6e354e649bfee3223df47ed951dbbba47041e298af758d0a5687eac7ff"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-063-G003-food-functions-1-5.json",
+      "bytes": 719,
+      "sha256": "b2c6aff7021c5fb7108b64c6722e3cdece7b3ea805ea57b4704cb2510b19ceb4"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-064-G001-food-functions-1-5.json",
+      "bytes": 788,
+      "sha256": "625c082ae1bbcc3906a4cf38642c5844e992908fc68a30314a64a41098898c3f"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-065-G001-food-functions-1-5.json",
+      "bytes": 12462,
+      "sha256": "8d9327cba39d48c0c70e8596b439a2bbfd988ca306beea2fbc595afbf6f11e99"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-066-G001-food-functions-1-5.json",
+      "bytes": 836,
+      "sha256": "91a36ae9351e44a738a544dc7b913bd2f4b25126fb9c2ddfb0cfe74d6f54c8f7"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-067-G001-food-functions-1-5.json",
+      "bytes": 1285,
+      "sha256": "6cc63f11310228bd7e7d9ff6c6f24057ebb14428a89592e3599c76fb11144d2c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-068-G001-food-functions-1-5.json",
+      "bytes": 1371,
+      "sha256": "901baf1a69a516e69647ee01a50ef29a7804bf93078dd5b4df715a508336bca4"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-071-G001-food-functions-1-5.json",
+      "bytes": 1924,
+      "sha256": "21c74eab3852811bd551087ed3ca7e766f1aed427264a40b8dfa3098319426dd"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-072-G001-food-functions-1-5.json",
+      "bytes": 3498,
+      "sha256": "b1dae4075ef440c53c108bc24d4989785691a839ce5c369bba7349f270eb2224"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-073-G001-food-functions-1-5.json",
+      "bytes": 20324,
+      "sha256": "bd8c0ac4951d532cfbeaaf717a9cf825fafe1c0b79ca0f0ba406bd4056c3ab03"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-073-G003-food-functions-1-5.json",
+      "bytes": 797,
+      "sha256": "89c3dfedb7b753d2285eb8da16f78716a8e099f591225f5eb858541a31f6d279"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-074-G001-food-functions-1-5.json",
+      "bytes": 10074,
+      "sha256": "cd5c5da618b23ed2e4c06295f1bd5885d6dc4d7aa1ec98e27404f816ddb4c79e"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-074-G001-food-ingredients-1-5.json",
+      "bytes": 12922,
+      "sha256": "c581469277c224db11eb89773af9b66d9d95cb476b3a261f95e2f064baa6f25f"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-074-G003-food-functions-1-5.json",
+      "bytes": 754,
+      "sha256": "db3b3ef5248f1f5b65fa09f4641b4465f8f06177392f803e96aab35f3faf87d4"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-075-G001-food-functions-1-5.json",
+      "bytes": 4136,
+      "sha256": "334bfc9abc1940e9165f04323a3980b262fa706aa7ffa84761e944afd991a99e"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-075-G003-food-functions-1-5.json",
+      "bytes": 1177,
+      "sha256": "fd4b0e98ceb73c7207b8533a65924e95ddbb0ca0de792dfda67f21c754a2d7f0"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-081-G001-food-functions-1-5.json",
+      "bytes": 792,
+      "sha256": "a316dc0742ef17c5f5d0ab4ea8f3e87d21fcfefbee5f2a09a3ba691da3b0f278"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-084-G001-food-functions-1-5.json",
+      "bytes": 11777,
+      "sha256": "52d8bceb08d7fbe65eefcebf1fef7d66ad7a6ed53e3d6f7b57511a285076c17c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-084-G003-food-functions-1-5.json",
+      "bytes": 1992,
+      "sha256": "fb97849d000ec1519157d1c38b149612cf3fcac5451bd4a07562f69081d8739a"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-085-G001-food-functions-1-5.json",
+      "bytes": 846,
+      "sha256": "371fc3ac8f1d1a340a7e0b94ed549e76bd127891afab16a92f2bff0251edc153"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-085-G003-food-functions-1-5.json",
+      "bytes": 11974,
+      "sha256": "91ee89f6d19ec3d741ec259b15bfe5943b56fd97a2824d8e3a3fac365180b647"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-091-G001-food-functions-1-5.json",
+      "bytes": 3438,
+      "sha256": "47952f65d44fab00c3a33056144d327ac86499669554eaba9be7826f49e0f0c8"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-092-G001-food-functions-1-5.json",
+      "bytes": 2269,
+      "sha256": "3fb86113e3ed9ffb33692f619960fd65a84c23bca7f784b02ccaa78ba886b78a"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-093-G001-food-functions-1-5.json",
+      "bytes": 1712,
+      "sha256": "e8e6ff544546d607a6e9737ad7c2b2de11542c50075fd4969b21428ece4d96b2"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-094-G001-food-functions-1-5.json",
+      "bytes": 2669,
+      "sha256": "c2264266c062b4012f946d3a50668c1ead55ecb44dd8e338801398607b4b27dd"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-095-G001-food-functions-1-5.json",
+      "bytes": 2383,
+      "sha256": "6a01c66218ba9cd64518c5bd1e3be02e47334e8eb38a4c7d1a7c8cece89c74da"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-096-G001-food-functions-1-5.json",
+      "bytes": 833,
+      "sha256": "04fdf55746eee72c142575922260882f6a7b38d2c527105c9af87494083f53a3"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-098-G001-food-functions-1-5.json",
+      "bytes": 6098,
+      "sha256": "6c405e2341889c7ec9b55a8586ef62c1ea10afc222dc8afece8e960e7ec39708"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-102-G001-food-functions-1-5.json",
+      "bytes": 2214,
+      "sha256": "d26948c18d90fcaf3faf1202510fc1238b412429318ce651594b5fe45d399366"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-14-104-G001-food-functions-1-5.json",
+      "bytes": 1774,
+      "sha256": "301187c5974383eda86c1f1a94fa0941ca7fd15befa5a95c79bfcd704e6c0271"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-001-G001-food-functions-1-5.json",
+      "bytes": 3124,
+      "sha256": "24b728196530eba7561e1301ef0a21423d9b8a47e8084b376c07be0022579913"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-002-G001-food-functions-1-5.json",
+      "bytes": 3480,
+      "sha256": "7c54fc3662191be404cb36b7380d6436105ee0ba18ff60cf4a109732a4cab9a5"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-003-G001-food-functions-1-5.json",
+      "bytes": 4679,
+      "sha256": "a63fd0112e8aee807b41277288a52fc856def811b69bbd116a087d82d3ae7763"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-004-G001-food-functions-1-5.json",
+      "bytes": 12562,
+      "sha256": "289bc69abdf150f85c6d06968672f1f0f8c86dfdce6842f4beb8d2b0d0ed175b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-004-G003-food-functions-1-5.json",
+      "bytes": 2740,
+      "sha256": "2eb234c7ecbcea267555ab26ab2e16a75ab3da4d4e3226892e250b1b9ff2e068"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-005-G001-food-functions-1-5.json",
+      "bytes": 788,
+      "sha256": "7c833bc8a2c95129742213976e753400ae63597c2aee0500d03589775de87867"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-005-G003-food-functions-1-5.json",
+      "bytes": 864,
+      "sha256": "4c73068d64b80e37df9903799534ab2ac78f3584b29c21cfb1b313090eecab7a"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-008-G001-food-functions-1-5.json",
+      "bytes": 1326,
+      "sha256": "784280689f2218168482d65a04e6ece04266aac0d553f0b87c405045d7e23a89"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-009-G001-food-functions-1-5.json",
+      "bytes": 733,
+      "sha256": "4bd2ae326c1c2d7e8a43283fff48a3a6b0ef34cb36e7004da7809dddd31578a9"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-010-G001-food-functions-1-5.json",
+      "bytes": 736,
+      "sha256": "a0796f21353fe79a245d3e934d00581da81195690f742bb5f3160154638f94a5"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-011-G001-food-functions-1-5.json",
+      "bytes": 2808,
+      "sha256": "dde8936a668a9bc57f6a7bb08cad48b1cfcbab4ae13f6fa246bb04a3a423435c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-012-G001-food-functions-1-5.json",
+      "bytes": 1859,
+      "sha256": "eff1baaa41b32a8dbbbab3e2d48e7f1dbafb33c4d06f501f081ea7d5d6d7f37d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-013-G001-food-functions-1-5.json",
+      "bytes": 2641,
+      "sha256": "cdefc4eafb2042817839403bd6c40a9052319e6c17b1dcaa3461e07f26598901"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-014-G001-food-functions-1-5.json",
+      "bytes": 7336,
+      "sha256": "cf4c83e53d126f93439456206aebabcf25c6ff8c3e4773120ba1ee10f1d19874"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-015-G001-food-functions-1-5.json",
+      "bytes": 8191,
+      "sha256": "7a7bcd573a2c882e3512eca7f5781e895c019b7e47d9a6af7ae05a3a9188747d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-016-G001-food-functions-1-5.json",
+      "bytes": 11925,
+      "sha256": "2d2cb35e1ffee2679336e67586398e4aa12a6621e50cb1f22395df606ce45022"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-016-G003-food-functions-1-5.json",
+      "bytes": 7194,
+      "sha256": "1f138edcd3ed2a5c38dce5d7495da050100f08be0163488040a8eccf87fa2280"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-017-G001-food-functions-1-5.json",
+      "bytes": 5207,
+      "sha256": "f21265e9d2c868655de031dea412129759b2903728dfef914583d167939ba312"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-019-G001-food-functions-1-5.json",
+      "bytes": 14128,
+      "sha256": "d2c32dd0ad6facf4d0bb569c069dbef73a404b5b6193d9f772c62a48eab6ba85"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-019-G003-food-functions-1-5.json",
+      "bytes": 821,
+      "sha256": "534e2c486d412bddac8b4e6b25059820a07b01f07d15d2368c46842daf66c248"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-020-G001-food-functions-1-5.json",
+      "bytes": 8142,
+      "sha256": "d8da2ed4af146d8558a361341c229ea649ae7bd76e6eb7b7eed4e295b346e7c4"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-020-G003-food-functions-1-5.json",
+      "bytes": 787,
+      "sha256": "168043616d131914cfaf972a82aecb674b816c069b587fbbb0fbfe8fb11ebffb"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-022-G001-food-functions-1-5.json",
+      "bytes": 7226,
+      "sha256": "36bfdc0d6ed7bacafb52565d523ce959da77f2a701295c8d626f56825fb961b3"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-023-G001-food-functions-1-5.json",
+      "bytes": 9245,
+      "sha256": "d281176c580499eaae31c549324ff8ded0490bfa433194f33ec5a63f50cf3450"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-023-G003-food-functions-1-5.json",
+      "bytes": 3004,
+      "sha256": "8c9de3b8cad53f457e9f3b87292c95c74ab3310f6ed2907322b6e9f3e76a5ba3"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-024-G001-food-functions-1-5.json",
+      "bytes": 6677,
+      "sha256": "5010cbc1ebb105be4ca84dfa7a7dbb11e5714aa8f8b6764eb7304717a306a742"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-024-G003-food-functions-1-5.json",
+      "bytes": 8573,
+      "sha256": "b40163d6bf2a0cdbca4909e0ee12455d27ed989591f740d25e2df101bf45fe1a"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-025-G001-food-functions-1-5.json",
+      "bytes": 2763,
+      "sha256": "339f7cc997ed2cf082c20933e130d3f5c63037268f7a74afe23c92ff16200d46"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-026-G001-food-functions-1-5.json",
+      "bytes": 6914,
+      "sha256": "3060e77e7b577022f8ca28568c2f6666b9ec5bb46178879b5c39e69c47bd35f4"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-026-G003-food-functions-1-5.json",
+      "bytes": 3728,
+      "sha256": "3f003412092a7d340c4514d01b02b927a8be4ed5bdeb19d5cdaaf8312709865e"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-027-G001-food-functions-1-5.json",
+      "bytes": 1640,
+      "sha256": "e9f6d8b16399fa3da3266e082355c33fff581edd8cc4b0bbbdf65fecb8a55851"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-028-G001-food-functions-1-5.json",
+      "bytes": 8186,
+      "sha256": "7624d2e395f083cec6498148cff0ffc4a2d7eebeca1366475d39afffe82f1791"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-031-G001-food-functions-1-5.json",
+      "bytes": 3393,
+      "sha256": "73f69f246db946ae9441db51347e207e108de725ec22703ae0d4b05151e7fe95"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-032-G001-food-functions-1-5.json",
+      "bytes": 1673,
+      "sha256": "638a667c44ffbf41d83b783cd0832f938fd2cd6391aabaf93b83bc7a16c141d3"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-033-G001-food-functions-1-5.json",
+      "bytes": 12035,
+      "sha256": "20b72dd4a6e3e8936c464d292008f627318515151acb1a6b9fb333a0fe759e40"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-033-G003-food-functions-1-5.json",
+      "bytes": 1255,
+      "sha256": "e22fa34b1bf5d7cf8206cd8d7fad87082c313718157ca7d973a8508255377f3c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-035-G001-food-functions-1-5.json",
+      "bytes": 1694,
+      "sha256": "006e3e958e43e0849be03b8da26633986466565865a9654a89ba9e0182e0855a"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-036-G001-food-functions-1-5.json",
+      "bytes": 1691,
+      "sha256": "ef7fd9b174307fc0eab2d415afc54ec1b910a09ef0a96474574a00c9a3b47f71"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-036-G003-food-functions-1-5.json",
+      "bytes": 4368,
+      "sha256": "fc6ae9dd463a5f1005d2ba0b6157c638e77dd8279deb64eefe7b303fe5216e1a"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-037-G001-food-functions-1-5.json",
+      "bytes": 1274,
+      "sha256": "604da9aacbcdf656d6f79374af3520e85909c893176a5ccca2ffd26cabc3995c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-039-G001-food-functions-1-5.json",
+      "bytes": 6106,
+      "sha256": "f8b34b9176fee01ad7df35dae394d0a6696ca9c83f363f31956b3175f4fda055"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-040-G001-food-functions-1-5.json",
+      "bytes": 6623,
+      "sha256": "7597a1c8b4d9b17868ea15cbc49b3f4a66083c7c84489c3d8c16aa1833e6f31d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-040-G003-food-functions-1-5.json",
+      "bytes": 774,
+      "sha256": "17d87278345a3511de8da414a170385541d8a5db870f80822ce31b2f756a8ed9"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-041-G001-food-functions-1-5.json",
+      "bytes": 2207,
+      "sha256": "57297a9fb3a6f0c318ed83e7fc197db763db23773cae51fa92e44623c5b58253"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-046-G001-food-functions-1-5.json",
+      "bytes": 6365,
+      "sha256": "35926213bcd14e4ebd6159368af6240b7057e8d5752a551d96abde94810c2861"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-046-G003-food-functions-1-5.json",
+      "bytes": 768,
+      "sha256": "0cdaa988510687c08a737130afa9bb970dfe3e8d438c3f23559b2464cc6d6160"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-047-G001-food-functions-1-5.json",
+      "bytes": 8120,
+      "sha256": "8a2f0399f1a5a1b49417cb02624789bd443656cc4a6c44a23272869fbaf7262f"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-048-G001-food-functions-1-5.json",
+      "bytes": 4270,
+      "sha256": "09bdaf12f3570d63190325afeef45c4dfe5efb56e35c51f888e50f42bf5949bc"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-049-G001-food-functions-1-5.json",
+      "bytes": 9298,
+      "sha256": "e4f9d49862a6e94b5f18edacff829174897c5696d3bcbee28cf2d9bc448d9502"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-049-G003-food-functions-1-5.json",
+      "bytes": 766,
+      "sha256": "5bb203d17dace3ddebabb0748319cf128ac3972a40d7c226d8aec6cca2b1a8c3"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-050-G001-food-functions-1-5.json",
+      "bytes": 2794,
+      "sha256": "09c90303bc615cff82116062033557e8234af224c8cbcc63b9bad9caeafcc16e"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-051-G001-food-functions-1-5.json",
+      "bytes": 6028,
+      "sha256": "3b00ba184eea6720d774ac4e5a697901c4f530b05a3ad7ffbeda537e87f939ac"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-052-G001-food-functions-1-5.json",
+      "bytes": 18220,
+      "sha256": "2d6ffe4a5053f6de8459e1eb5b163a2c27d06b455eef52377dd8a373f056fcd2"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-052-G003-food-functions-1-5.json",
+      "bytes": 1751,
+      "sha256": "a07f4ccf011dc73d37b114d8e5419fa742d4fa975b4bd4eef56bccc82461dc46"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-054-G001-food-functions-1-5.json",
+      "bytes": 2203,
+      "sha256": "b7add7b4ec878b77bfcb48a4eb08e2e6c2f5a3f46644dd2f63043c252404688d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-055-G001-food-functions-1-5.json",
+      "bytes": 13076,
+      "sha256": "896dc75a4e007495d9c277110ef5b9518b0da5c7911b144180ce2a4aa45615ff"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-057-G001-food-functions-1-5.json",
+      "bytes": 9713,
+      "sha256": "26ecd5f01bed20d6dd8c9f89a8c5899265b63badb58aed38475f6a665e7c0b2a"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-058-G001-food-functions-1-5.json",
+      "bytes": 2136,
+      "sha256": "6e0cd43560e758f56aaee713ed90dd276df7b56025ddadd23ad29dae04ceda87"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-059-G001-food-functions-1-5.json",
+      "bytes": 6184,
+      "sha256": "863ca90f13cf15a390886be89ba4be43e99cf11f18a9e1dd6b911a7cc3f03a44"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-060-G001-food-functions-1-5.json",
+      "bytes": 9218,
+      "sha256": "53dd2ac418f1f6cdbacc835bb683d48a399b3995d6aa861de47a9b03a8d157d5"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-061-G001-food-functions-1-5.json",
+      "bytes": 11721,
+      "sha256": "41d729e63a7d3a34f63b40f0b78b776e8131d3307b2c85ab4052d0dee900f10b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-061-G003-food-functions-1-5.json",
+      "bytes": 3488,
+      "sha256": "a44efa8c1e9df21684246ca059322a3049d690fbe037bdc80822ca8076e279bc"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-062-G001-food-functions-1-5.json",
+      "bytes": 5921,
+      "sha256": "bfeb52118e2428c4a964b89b1715b402bc4c750d77f70c706d4304cf8734e748"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-065-G001-food-functions-1-5.json",
+      "bytes": 1295,
+      "sha256": "a79e98ee82d46e9c0a857153b57af63b0e656ae9cb7cae5664e96c7df9e5ee35"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-066-G001-food-functions-1-5.json",
+      "bytes": 9501,
+      "sha256": "ae648598068b2b5beb093e702cc626d9079ad9c031d39e5416f5e0889914aa39"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-066-G003-food-functions-1-5.json",
+      "bytes": 2877,
+      "sha256": "6e21821fa4a557aefbb10e578f21d162a5ece4bbcc2ad1544e9342f7490a9cfd"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-067-G001-food-functions-1-5.json",
+      "bytes": 1723,
+      "sha256": "ea40e8a77bc3ffcc84b400c0b3d503140ff9c0dabe5476f97feb69026151de82"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-068-G001-food-functions-1-5.json",
+      "bytes": 19441,
+      "sha256": "100392167c2a97fdb484abaaad6b7ad3fd14d3ecaf58109d9a3fb98bdb12e189"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-069-G001-food-functions-1-5.json",
+      "bytes": 6796,
+      "sha256": "f051766f27f57a2333b76af7d5f65b6d9c7f311c3ad1ab38006af228b5153af8"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-069-G003-food-functions-1-5.json",
+      "bytes": 708,
+      "sha256": "21138156a92675b3557e53a4d5f4034ef06ce85327c2ecfc246ca469cf7ff7d0"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-070-G001-food-functions-1-5.json",
+      "bytes": 3753,
+      "sha256": "c8ddfb11c72fb48491f30d8a87f904219ddaf92955a54007e0f134ab4145996f"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-070-G003-food-functions-1-5.json",
+      "bytes": 1417,
+      "sha256": "4d699c88287467282457fea1ceb9b7069ff010d9b96ceadb7693755f6a238853"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-071-G001-food-functions-1-5.json",
+      "bytes": 1258,
+      "sha256": "40012b2287d90b7c20591fb3066ee61e8e75b0a1624cc2af9237605b51931097"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-073-G001-food-functions-1-5.json",
+      "bytes": 3729,
+      "sha256": "d43c5f6fd7182b93e33c227f07135511cd1149eaf25769d040a80af7ed0c545b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-073-G003-food-functions-1-5.json",
+      "bytes": 862,
+      "sha256": "b9d329842133c7669f8e9f120e06e28c1f536b59c433e68bd9bf90ca92a45bbc"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-075-G001-food-functions-1-5.json",
+      "bytes": 1264,
+      "sha256": "532f23709cabe45fd8df664516092a1b9c6d36c945ea93a3c91d7767eb0cd44d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-075-G003-food-functions-1-5.json",
+      "bytes": 24295,
+      "sha256": "3a17f245c1009dcc05d2633d5af15e9684341213047303e7bf646c831a088873"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-077-G001-food-functions-1-5.json",
+      "bytes": 1129,
+      "sha256": "d0c8d21f243a37bd61bcd671990c5466243e11ff21349eec29db8b407e43297c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-077-G003-food-functions-1-5.json",
+      "bytes": 9353,
+      "sha256": "1768566d24ade23a60194214922f4192940b2e1160f8d67c3c694d610a36ba58"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-080-G001-food-functions-1-5.json",
+      "bytes": 1317,
+      "sha256": "cddc9ee0acb5f2b836e46e32d6dc981b60fd45c1dafdfc79d18df2215b7b9a5b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-081-G001-food-functions-1-5.json",
+      "bytes": 727,
+      "sha256": "1b95130275101eb3958437c3e37539b3ea38a75585bac09516d78a396e1dec73"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-082-G001-food-functions-1-5.json",
+      "bytes": 8619,
+      "sha256": "7fe3915d561300829ccb4f1a255a27a28536540eba17b6e49a9c0674e6a31b65"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-086-G003-food-functions-1-5.json",
+      "bytes": 2178,
+      "sha256": "5d3e9276fb5ff1d2740dff0b0fd9352dcf02d4d10f0f648f748358364e612dff"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-090-G001-food-functions-1-5.json",
+      "bytes": 3072,
+      "sha256": "9c540e9c6b60900d5058d6fdc38c6b8b706e59663e733b125bc4f13b0502785c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-095-G001-food-functions-1-5.json",
+      "bytes": 5206,
+      "sha256": "e26bbe220502141573b66e71c8c75679c946b2a67c63731c05e6984fec778afc"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-096-G001-food-functions-1-5.json",
+      "bytes": 3739,
+      "sha256": "ecefe74ac57eebc149a5f28a55de8067fc8a3dd8f6b4af069fd6a7e802bf9369"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-098-G001-food-functions-1-5.json",
+      "bytes": 775,
+      "sha256": "8c475deb1301dd86b9160abb6e55c74c137a5421f430d7e9ada7df0a37cc69ae"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-100-G001-food-functions-1-5.json",
+      "bytes": 1330,
+      "sha256": "aa2cd89cca0027bd41553b494fdcb451aef97aecbe6600764f8431dc1c96ee2b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-100-G003-food-functions-1-5.json",
+      "bytes": 8545,
+      "sha256": "83609e48723ad5c9e14735a29b2cf296451d1a7b84c35ba5d26314536f6f7199"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-103-G001-food-functions-1-5.json",
+      "bytes": 11484,
+      "sha256": "8c9df87a20d57c8a7d28c742579bd0c188e0501e8bcf76e9fe6c5e6d7dc89674"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-103-G003-food-functions-1-5.json",
+      "bytes": 67039,
+      "sha256": "fa326296117e67e91cdcd1060bbe3fcda3f7e43e10d1417210e67763bbceae8b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-15-105-G001-food-functions-1-5.json",
+      "bytes": 3921,
+      "sha256": "f8d218cb4920ce3d6b924b0456cefe7ccb2f1ce47d7c58ed7dcbbfd5595bd4e0"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-001-G003-food-functions-1-5.json",
+      "bytes": 739,
+      "sha256": "2d4f41b55c3504714d27506b0764375354a76eefd02be8d769580761a3e07eed"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-002-G001-food-functions-1-5.json",
+      "bytes": 6829,
+      "sha256": "3bf2a31a22810bfe4bcef205eb9efbd4733e18caf772ef77169c7e93c1c4b5bf"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-004-G001-food-functions-1-5.json",
+      "bytes": 1189,
+      "sha256": "c30df03862c2608dcc0378c5b5c9c1288b1ec47892bb10ec183f1b57281e6187"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-006-G001-food-functions-1-5.json",
+      "bytes": 3328,
+      "sha256": "ac36c8f913fe5664b6a1a64786ad826aff2c13281999054797d54755c8dea6ab"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-008-G001-food-functions-1-5.json",
+      "bytes": 5700,
+      "sha256": "357dc3c8288ea3001313c6931f797fe7e07fbd03343e62f362a64b88d070943c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-009-G001-food-functions-1-5.json",
+      "bytes": 849,
+      "sha256": "209b0de9847980382b74b21077be9ad4f25d51f77dc0216e71a859a2d73d6f7d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-015-G001-food-functions-1-5.json",
+      "bytes": 1660,
+      "sha256": "c7af6f1b8638172c096f3f202408bba9f3e216741fbbe11ef394b06f67064bb8"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-016-G001-food-functions-1-5.json",
+      "bytes": 4775,
+      "sha256": "1b4978f03954dcd2b1e84930e92b5402723a4bb9df3f5764b410ca4c69310b1b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-017-G001-food-functions-1-5.json",
+      "bytes": 4625,
+      "sha256": "a4ce68f2ec99742f5592ea50f31cdf3bb014c200acf2ea911dbd299c66feb1c5"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-017-G003-food-functions-1-5.json",
+      "bytes": 753,
+      "sha256": "7770a591a2092ea8738eb2e79dd6c1c9dcc7d75fcd97850e9a1e7a5f1e370fbb"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-020-G001-food-functions-1-5.json",
+      "bytes": 2825,
+      "sha256": "3ca769a9b1fd0e82c6833a76220f861105c1bb1ee047bec0d16b2de564782b84"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-021-G001-food-functions-1-5.json",
+      "bytes": 7250,
+      "sha256": "affa8717e6316ae5a6842b99fb4337edba5a30ebb2c81f042cfb72f44ead0f3d"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-023-G001-food-functions-1-5.json",
+      "bytes": 7375,
+      "sha256": "28aa211e891e8180f6f1a9ca4538e4510d5808f45e2f13246906ce3c2387b024"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-023-G003-food-functions-1-5.json",
+      "bytes": 1769,
+      "sha256": "753264c06af91099fb5879eefddb5133446ea6f0f6ba28eb7a53c5d6295de194"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-024-G001-food-functions-1-5.json",
+      "bytes": 1945,
+      "sha256": "06c3e661de68d863c3fbe4dc176cb5ff88013a3ae1a1a2ebc0690e9044ecd42b"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-024-G003-food-functions-1-5.json",
+      "bytes": 4796,
+      "sha256": "9fe1d6abcbf3427b0a00c54ef1e56f3ee7d34f77f0ed0508ab42774abcc86ddd"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-025-G001-food-functions-1-5.json",
+      "bytes": 2695,
+      "sha256": "ec01bec5ddefe21be3d959af2477c11d1ae1e43115db752b46d0d099329f5f72"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-027-G001-food-functions-1-5.json",
+      "bytes": 2118,
+      "sha256": "9f23ccf52eafc4d62597e55ce928b7e2ede94d6b61d057b43830f930426e3cd2"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-032-G001-food-functions-1-5.json",
+      "bytes": 2089,
+      "sha256": "bc7388e3d337571c456b75a3b50a01934145fb2f3955f19540d36c6a907537c7"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-032-G003-food-functions-1-5.json",
+      "bytes": 793,
+      "sha256": "7bbd345a9c875b441af8096cf6720bafcd020ae101aa8ab77bb23bf13a82ecbb"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-034-G001-food-functions-1-5.json",
+      "bytes": 3213,
+      "sha256": "9e308e2f9676147632c999ac4da14dfc4ca165481a4553e3a84ff6f4f478083c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-034-G003-food-functions-1-5.json",
+      "bytes": 684,
+      "sha256": "e9415d6489a408c6b9ffc9143eccb987682b8eaff5ed5fdf3cafdab624dc0b71"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-035-G001-food-functions-1-5.json",
+      "bytes": 1691,
+      "sha256": "49549b4df5082f1d241233f5a54cbb6bccc03dd09b48f444456798d339f0b5ee"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-040-G001-food-functions-1-5.json",
+      "bytes": 3196,
+      "sha256": "3a2a2221576daef51ca55b5c09926c77943f98cb7ac68be54ce8ef37cf27e7cc"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-040-G003-food-functions-1-5.json",
+      "bytes": 1745,
+      "sha256": "bfac1e65c0b36183aa051eafe7ec59d8e074545f4a84ab5ccebfad2cc6bc86bb"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-043-G001-food-functions-1-5.json",
+      "bytes": 2645,
+      "sha256": "7ad55adcd9dddb73ad07052751332f57a7ccf5c47abe8f4911a5ac1201d9c8cc"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-043-G003-food-functions-1-5.json",
+      "bytes": 1408,
+      "sha256": "682bcbd71397132cb3cdcbd31ffe5726df52d8490d87e8d88248450c71b3dbf2"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-046-G001-food-functions-1-5.json",
+      "bytes": 6016,
+      "sha256": "6a7c581cb99b9a268e92704d764eaf0a588968a7d2e318fe84b52c9a12fbd2ec"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-046-G003-food-functions-1-5.json",
+      "bytes": 2842,
+      "sha256": "ae03bd60cb994fa7a0ea551fd7fcdd5e6aec2e027cc5de53abb69f8766891d00"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-060-G001-food-functions-1-5.json",
+      "bytes": 9906,
+      "sha256": "d61aff485a9100790202832034a7c94922db8f1cf6e6c7f533f6441b2638f809"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-060-G003-food-functions-1-5.json",
+      "bytes": 3263,
+      "sha256": "0a1c706a93d7a4dc8ac876d7e37938115410116be4498e70906ddac680ba4e8e"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-062-G001-food-functions-1-5.json",
+      "bytes": 1191,
+      "sha256": "8fb5d42d427287bbc52d37068cba78554fca5973cf50e837e1b2d88204725eaf"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-078-G001-food-functions-1-5.json",
+      "bytes": 1339,
+      "sha256": "b374bc1ac6657da62394945476a6e1cc70d198bdb1c031786b79eee4f85363aa"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-080-G001-food-functions-1-5.json",
+      "bytes": 843,
+      "sha256": "7e70c858b3de8e9f63b13ea0523e2089b5e740c8c5242dfe272fc110bfdbb763"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-080-G003-food-functions-1-5.json",
+      "bytes": 1800,
+      "sha256": "796116bcf733e9207f59c641fc2699c6f1822798953e4d6db8dd698d9b0a9231"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-082-G001-food-functions-1-5.json",
+      "bytes": 6284,
+      "sha256": "ed026a3aae1ef42ccb436e2adc89dd6b8320475e131fa7aefeeca239b0d37852"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-082-G003-food-functions-1-5.json",
+      "bytes": 2350,
+      "sha256": "1a45bad6cc681e42cc728f8c264ad449a7ccb47c62f17daa318472ee217f4bfd"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-086-G001-food-functions-1-5.json",
+      "bytes": 5570,
+      "sha256": "f9f802b4e03922555eae5a290affa7c63fe60cec938f7ea9437dd70fc17a2e86"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-087-G001-food-functions-1-5.json",
+      "bytes": 5132,
+      "sha256": "16384a6bd50ff895f0fc02392b53d0efcfb4dd9e97af103cd1a6e6b004385b41"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-091-G001-food-functions-1-5.json",
+      "bytes": 10864,
+      "sha256": "c1c2af4fd9b0e063b996a5067e8c03a0c9370fc2f7d264031846be29d7195a08"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-16-093-G001-food-functions-1-5.json",
+      "bytes": 771,
+      "sha256": "36156dfa444c114160249c4c88811681848d2d74280bdd99f723348e5096f817"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-18-042-G001-food-functions-1-5.json",
+      "bytes": 4551,
+      "sha256": "d4d7a9c467f80eec83677c7a8e15efd72c407735e8ef68ffe1317132855c0cd7"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-18-044-G001-food-functions-1-5.json",
+      "bytes": 1643,
+      "sha256": "96c7d006a6dd15b57379e3eadff80ddc030c2b61fb8ef90eaad58ad469b25e73"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-18-051-G001-food-functions-1-5.json",
+      "bytes": 2234,
+      "sha256": "fed1621fbef5a2f7420cae6ae1ac1462d89e19c775fd8809ce34c045fb9bf291"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-18-071-G001-food-functions-1-5.json",
+      "bytes": 4381,
+      "sha256": "a8ae46ec527e33c8ad27d304c96ea2fe82e21a44ab8fa3bac3867b96d3655a44"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-18-071-G003-food-functions-1-5.json",
+      "bytes": 1673,
+      "sha256": "914d86e62089b18d56b38ff1c0bfc50ee78b32ea5be33e8b37bae45c1c7514a1"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-18-077-G001-food-functions-1-5.json",
+      "bytes": 3300,
+      "sha256": "4a3850a716c6ac48ab23f1df672a5d3da5aae5a13072a0e0b38be6f1b5864c98"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-18-077-G003-food-functions-1-5.json",
+      "bytes": 761,
+      "sha256": "bc515cd6cde22f15d75b4f75c4186be9ab7209abe83ef349c5d3042da761b5a9"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-18-087-G003-food-functions-1-5.json",
+      "bytes": 1263,
+      "sha256": "3c4793cf708c1aa4c374d25e6cb1e918f791c4dad0ae4392d2cada8f8c3dcaa9"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-19-011-G001-food-functions-1-5.json",
+      "bytes": 4263,
+      "sha256": "a6f494693c3d558190b75cbfc4670d9ec827e53ef61ff4cc979aea2d870ea365"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-19-013-G001-food-functions-1-5.json",
+      "bytes": 804,
+      "sha256": "4e0dc16fa68efabc322f9a49c18f06e58d93abbf6deccc6127c200266121e742"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-21-001-G003-food-functions-1-5.json",
+      "bytes": 12480,
+      "sha256": "4a368d8a0f5b1e0ab9f8f2a67da3d6951fd7954325d5a0d4e2302232a1545c7c"
+    },
+    {
+      "path": "project/data/raw/agrifood/S-23-029-G003-food-functions-1-5.json",
+      "bytes": 11934,
+      "sha256": "63edc19a9e45bb0c103d6c2b79cbdb94af13c32cac38d3db8fbd81800d7a342b"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_00.json",
+      "bytes": 560183,
+      "sha256": "79d93b21fabd83b5f7c69cc1d401c7bbb53285dd11f85f5afbf8a6f71b178f6b"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_00_page_33.json",
+      "bytes": 545263,
+      "sha256": "fc85504d94381d3be7315094d98ce5e8611341248714a3a31f9f6ec7358914f3"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_00_page_34.json",
+      "bytes": 319430,
+      "sha256": "294dc2626fb8f9b4ca98cc7aee069dca2ce9503c75f7c01797bdbb8a71490a7d"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_01.json",
+      "bytes": 545229,
+      "sha256": "45ec0df12743eb7c593b72908740cec1315b5624c9b9da6a92af68d79ded56d4"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_01_page_2.json",
+      "bytes": 169499,
+      "sha256": "640fb6f476c801779412ffdf5d608dfc840bb6c9597daeaa7fcd480ed2f2aca0"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_02.json",
+      "bytes": 557356,
+      "sha256": "d1bf363ce3d0a48ab0f6d0b30fc1648ed447680ccf0a66a5f1ea05752de24cee"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_02_page_2.json",
+      "bytes": 420837,
+      "sha256": "b833f7567692ae4f3455d2b97acb8d702b0d739742b86a8ce6794a36c425c188"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_03.json",
+      "bytes": 543559,
+      "sha256": "a2a91305a30435247652201dbf074e753ccbf56259c0fb30832f9b99d3bd7568"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_03_page_40.json",
+      "bytes": 546871,
+      "sha256": "acca8706806f2c8c01ee77d2e0145f645388cf755c4b6615763125e99f1ceb2f"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_03_page_41.json",
+      "bytes": 491611,
+      "sha256": "92bbb0c520be68526691e42b1209b6e1ab8c3b3f5bc86dcff790de5f40a90a0e"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_04.json",
+      "bytes": 550614,
+      "sha256": "508e6fc985668137a03df567b863036023c15caeca5826337c47d82723f237fa"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_04_page_5.json",
+      "bytes": 544451,
+      "sha256": "ef2a0ba69d173384ae8407f3ba17eee361429cfb45ca02f1be04d320f6b9c04c"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_04_page_6.json",
+      "bytes": 267025,
+      "sha256": "3f85bfd4bb468b2aa674323491e5a89fe36414d8e6cfb9d79275258a8dfd7bd7"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_05.json",
+      "bytes": 541467,
+      "sha256": "64e13c0711c4548b10dd15de67ecaf7eebf4483cb855800e87e9ce49b3de2a0a"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_05_page_11.json",
+      "bytes": 546228,
+      "sha256": "548a9f7343d9f33db662360fc45fdfb2f55ca6812f2ba4f9c32e41d69d12b3b3"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_05_page_12.json",
+      "bytes": 536473,
+      "sha256": "b526f9e8801b7e615a8cdf1a00bf2ec86e63599fcb216ef0a3bf206ec5495012"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_06.json",
+      "bytes": 540601,
+      "sha256": "bcaef1df54fe1fe7d3e5ce18ef1edfc538342f1b28073a3e1ffae6cfac1d433f"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_06_page_43.json",
+      "bytes": 545571,
+      "sha256": "198496c574212c6fd367d7016549e1d43528b042d8138e3117126d293ed1b01a"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_06_page_44.json",
+      "bytes": 185093,
+      "sha256": "ce0e4c40e8bc01249ca23096a8119c72f23939cbfd38ad7a4cb2aff1e55943b4"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_07.json",
+      "bytes": 547797,
+      "sha256": "1a86b2a932856d705632c8854ca47d90ebbabc5bc69364473a81e3f570a7b898"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_07_page_3.json",
+      "bytes": 545457,
+      "sha256": "d973d2740b6083f2c944dea7061e37717594e9a47cde129feb91ab8d2e0b24fc"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_07_page_4.json",
+      "bytes": 377302,
+      "sha256": "e0e1554b081d1cdb36e14da2a5c90c2d746e13b0cdaf22c4977bc90d0588cf6b"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_08.json",
+      "bytes": 541260,
+      "sha256": "2bde37b31fffcfa281cb381a5325c675d3c1fa4b43550e2d20544972ba39cd09"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_09.json",
+      "bytes": 547722,
+      "sha256": "f80dc989db6f9435f766f29dbc83597b172a2ecd4a9fda73b1e60713272e11fa"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_09_page_10.json",
+      "bytes": 544753,
+      "sha256": "ddc4dc1c7ae65d852b545aff1e381db6b3fa3ac5a2ce9d25db896c14ac4b6126"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_10.json",
+      "bytes": 549398,
+      "sha256": "ae34145dcb9b5ad23e0f4aa9e662cdb2e80ae01f5db7fdc69cedfc6bcf6138ad"
+    },
+    {
+      "path": "project/data/raw/ingredients/query_10_page_6.json",
+      "bytes": 545247,
+      "sha256": "fc912c561c14dab25e608953dd8b1018dd9681cdf3524bc77eaf00fbc32d3b1f"
+    },
+    {
+      "path": "project/data/raw/ingredients/spinach_last.json",
+      "bytes": 267025,
+      "sha256": "3f85bfd4bb468b2aa674323491e5a89fe36414d8e6cfb9d79275258a8dfd7bd7"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_001.json",
+      "bytes": 575628,
+      "sha256": "28cccf6b5df78aae9b13f2bd88ab735b64fb6e706f4c492470879d1157a12feb"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_002.json",
+      "bytes": 573457,
+      "sha256": "5c366704d88ce142cbd4ef8f2ee5203d9381158e0628a95ae6e77436bb0e450a"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_003.json",
+      "bytes": 577901,
+      "sha256": "d6af27af8619c41b5d451133d423e253619331f0172049400524e0eeb85c09c2"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_004.json",
+      "bytes": 577125,
+      "sha256": "4510b756b8899563a0d21bb93bae2f81e9e0602b0992eaeac1cfb0247574e4b8"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_005.json",
+      "bytes": 568927,
+      "sha256": "2681513514d8effbe2b9b2127dccd88487be7ca4db5490a93f8c66de2d4d5e89"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_006.json",
+      "bytes": 539916,
+      "sha256": "a88ddee613bb74b0109d6f26eb3fe2b01d2cabbdd3ca73c1df6f0cbdc524421c"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_007.json",
+      "bytes": 540562,
+      "sha256": "eb1a2e9310ca5b6c4a450f8cddd9fd75f6fa11ad98aef6b1a0b4c2461e62c609"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_008.json",
+      "bytes": 539422,
+      "sha256": "9a67c0a9ad55be30952ad1542428559a88e74876c1f1390053958c4e8d8b0b28"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_009.json",
+      "bytes": 539381,
+      "sha256": "527f574c29fd14d9136df8121760e007495085402f0ddcd4dd075b92dd6f0a42"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_010.json",
+      "bytes": 540074,
+      "sha256": "35c1a48b67383d23868496f0a7bb69ba89d792334f529b83c7a674eda11a00eb"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_011.json",
+      "bytes": 539672,
+      "sha256": "e61139bf71599401494d4c2aa8b5f99d9f61fb15aea75200f33390030ef0be0a"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_012.json",
+      "bytes": 539829,
+      "sha256": "ba7af4bfebdceb2ddab28a1c23f09f2ac782e2b05e87dd14c1965139d13dfed7"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_013.json",
+      "bytes": 540136,
+      "sha256": "4f030f3a33d8ac8c245e61ee1d9d0b7c252d81db7c439bbe16ba2e3090f1346c"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_014.json",
+      "bytes": 539899,
+      "sha256": "eb971277906ccb3b022f44d3d8f4bc1bbff8328d34157a92eeab01e780fc1884"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_015.json",
+      "bytes": 539824,
+      "sha256": "4a069d406233af6d404b5c7e2c47c199f7dbd5cfafffeacb37d1ba57da12a20f"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_016.json",
+      "bytes": 538415,
+      "sha256": "3c54a3ccc75ea8dd8cc002dea1d271fa3e2a0d5ffc28e81b73bd74db6ab2737b"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_017.json",
+      "bytes": 541345,
+      "sha256": "b6797e17ad9f08f6a4d68ee8697c1e815230fb08b5b1271fd06519e7a5925f5a"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_018.json",
+      "bytes": 540803,
+      "sha256": "f872f96f652e06ffd9a5105a8c6c100d1316d8b0be1a9e13b4b36a95b4697574"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_019.json",
+      "bytes": 541181,
+      "sha256": "b184e64b9297a69bffa704e56d2d12dcb97bac8067c1822a2908981c6171e6c3"
+    },
+    {
+      "path": "project/data/raw/matching/nutrition_020.json",
+      "bytes": 540639,
+      "sha256": "05b2b68e933050af96a9d5b2fc9920a42dd0e2e053cfc4713d1727b9e3296f6b"
+    },
+    {
+      "path": "project/data/raw/recipes/recipes_0001_0100.json",
+      "bytes": 288521,
+      "sha256": "69927536ef0cf8c52c53f2ccbb1a5ff45ab1a92ffeca8cb894ff3c26231d242c"
+    },
+    {
+      "path": "project/data/review/recheck_1_8_2026-10-23.html",
+      "bytes": 10121,
+      "sha256": "c7cff89540bafc24a65a2db69ccfb27a1b6f81e1a7fdd60a1b0098ac6a4c5631"
+    },
+    {
+      "path": "project/data/review/recheck_1_8_2026-10-23.json",
+      "bytes": 10535,
+      "sha256": "89b80a69bf5f2470bbee6003d6a6f4fe29ceeb92a3c45d09aabc1ea0c59563b5"
+    },
+    {
+      "path": "project/data/review/recheck_all_2026-10-23.html",
+      "bytes": 6177,
+      "sha256": "d4a307a823e38d340d2a8d38ee99cee069011afe11760e9f547f88c0b3715304"
+    },
+    {
+      "path": "project/data/review/recheck_all_2026-10-23.json",
+      "bytes": 14492,
+      "sha256": "f129f33a460a887ba7415b09b72fe8a5799b09b900619eb660f8aeb8068994f3"
+    },
+    {
+      "path": "project/data/review/self_check_evidence_2026-10-23.json",
+      "bytes": 21992,
+      "sha256": "4199bc9ff7f8a008c388d21f2531656c6d883ea988e8b4e3f3c3a9e2414af481"
+    },
+    {
+      "path": "project/data/review/submission_check_2026-10-23.html",
+      "bytes": 1557,
+      "sha256": "aa0ef5da5911b078d60ced71a3138362e5b2a11c6c25ba5bdbef1d4efb73a54a"
+    },
+    {
+      "path": "project/data/review/submission_check_2026-10-23.json",
+      "bytes": 956,
+      "sha256": "3bd773dde3100a0b3030b553cc782d40e45a30d9e2c51b2518fabad4636768b8"
+    },
+    {
+      "path": "project/docs/FILES.md",
+      "bytes": 83171,
+      "sha256": "5c9415b389d7076729420e018d69e323077a666e5270c22864ec8b896c456b36"
+    },
+    {
+      "path": "project/docs/PORTFOLIO.md",
+      "bytes": 27266,
+      "sha256": "c529da29e5548d449370305c0d3db0044781003555d4b892e6b755449b17423a"
+    },
+    {
+      "path": "project/docs/REQUIREMENTS.md",
+      "bytes": 76341,
+      "sha256": "1aac2474278768c56dd615333752a0ecbccf2f4d1d85f430bdcfea7c48cc4e5e"
+    },
+    {
+      "path": "project/docs/SEMANTIC_RESULTS.md",
+      "bytes": 12029,
+      "sha256": "7e9aa501a8af118f535f7e99c70afcbdcea06ff1dfe9aa29c637bfec5aa876b0"
+    },
+    {
+      "path": "project/docs/STATE.md",
+      "bytes": 41861,
+      "sha256": "f124de1116291e205c07bc57786d90cf84fd494b4cfda36d4526a151f1ac71d3"
+    },
+    {
+      "path": "project/docs/WORKLOG.md",
+      "bytes": 121453,
+      "sha256": "d3132234ba2e89d7b4d8ccd69c9cacb1f5f10617f685dc2219dc03e95c7c0a8a"
+    },
+    {
+      "path": "project/scripts/audit_recipe_basis.py",
+      "bytes": 5234,
+      "sha256": "2c17396fde4fa5c5bbea87441230d0114c2dccb5b00f744b5b5ab6f849b1dfb5"
+    },
+    {
+      "path": "project/scripts/build_menu_catalog.py",
+      "bytes": 5168,
+      "sha256": "cc1a40ee4a22adf09aa19e6c4ac393e2aba555964898f339208ebc8e8af0bfa0"
+    },
+    {
+      "path": "project/scripts/collect_agrifood.py",
+      "bytes": 16343,
+      "sha256": "35100c7d45fb4a0da88f7886f79ac7902e3fe041ddd0981e8b853305c9cd3fb9"
+    },
+    {
+      "path": "project/scripts/collect_guidelines.py",
+      "bytes": 7621,
+      "sha256": "bb7c4b7afa0bf4bf52bc00a9ef43c91eb20b2ddf15fcca99eacb8e549e073e06"
+    },
+    {
+      "path": "project/scripts/collect_ingredients.py",
+      "bytes": 4173,
+      "sha256": "e95f06b65496922d36bac514014f8fb97317eeb846d5c187c52e9fba45b2796e"
+    },
+    {
+      "path": "project/scripts/collect_nutrition.py",
+      "bytes": 7212,
+      "sha256": "10f9a571fbe33c4791de8c1d847549fe909cf2c27de7e61e88210cfcc43b0b2a"
+    },
+    {
+      "path": "project/scripts/collect_recipes.py",
+      "bytes": 6101,
+      "sha256": "85d479fd1692aa3e2e1c4668f2c087988598ecb2d8e4781a8c4d324a6f377573"
+    },
+    {
+      "path": "project/scripts/collect_source_docs.py",
+      "bytes": 13116,
+      "sha256": "29620a196d090f9d81297096d60e5e03fdce9f4cf03b1d4722c52ab81eea40fe"
+    },
+    {
+      "path": "project/scripts/energy_profile.py",
+      "bytes": 8605,
+      "sha256": "3932c55b2be4abccfa76634d404a42f735466635fa8573e19c8ef0960550a7a4"
+    },
+    {
+      "path": "project/scripts/evaluate_answer_graph.py",
+      "bytes": 2192,
+      "sha256": "c3ed0d0216a39e4846d7168e3f0b97dc55b6ca8c3b192b85787ad8a1cd3300c2"
+    },
+    {
+      "path": "project/scripts/evaluate_models.py",
+      "bytes": 21015,
+      "sha256": "0c954247c8a228e31426dc334d5c8e7ae94aab5d82fc1cbf279977e6a62f5c4f"
+    },
+    {
+      "path": "project/scripts/evaluate_semantic.py",
+      "bytes": 2710,
+      "sha256": "ecd71782888c46fc0e70ac9b680023e06d576619c4580814f99f8eeead35c673"
+    },
+    {
+      "path": "project/scripts/index_vectors.py",
+      "bytes": 7808,
+      "sha256": "6251557d0abdd5df3d06a372b82cd61a280a4306f88baffab5962f30d28d33c1"
+    },
+    {
+      "path": "project/scripts/ingredient_lookup.py",
+      "bytes": 3856,
+      "sha256": "3be6ca0897d304f325fe74592e1220651bae60172e62131bdb4d78add19ca61e"
+    },
+    {
+      "path": "project/scripts/ingredient_search.py",
+      "bytes": 3294,
+      "sha256": "fc9c7210e126eee92b3f251a65bc76b2e5e896280d6f8c99ee027fb0c6838d7b"
+    },
+    {
+      "path": "project/scripts/menu_personalization.py",
+      "bytes": 3018,
+      "sha256": "0739137f57a87349197d87369e4e8e8a8b603e431d2fae2dc0919add694e5435"
+    },
+    {
+      "path": "project/scripts/nutrition_search.py",
+      "bytes": 12306,
+      "sha256": "0471bd3f7efd2ff1c00c58e6324392a400ce4e1d6e1531320fb7216b1e9fae61"
+    },
+    {
+      "path": "project/scripts/prepare_guideline_chunks.py",
+      "bytes": 3088,
+      "sha256": "b18ae154fcfbcaa197b58f6c3a744f8034f0ad3e2135506116e1a0726fc03e9f"
+    },
+    {
+      "path": "project/scripts/rag_graph.py",
+      "bytes": 6968,
+      "sha256": "0292c70eecb76f116ad669116cb818df7d681a3b3902cf7ea53d6428449e4283"
+    },
+    {
+      "path": "project/scripts/recipe_rag.py",
+      "bytes": 11933,
+      "sha256": "2a582cd8ae1e45a8933307df999424defde364b651bb8bb1b9a953a4d0efd824"
+    },
+    {
+      "path": "project/scripts/research_lookup.py",
+      "bytes": 6680,
+      "sha256": "6522e7fa5708eb85cf9ac716c8340d862a8862326eaac71586cea9232c20c864"
+    },
+    {
+      "path": "project/scripts/semantic_search.py",
+      "bytes": 6349,
+      "sha256": "984f3259e715970ac65a7e0e54b1951f9b5b92d7644414cfdff782c807b3e164"
+    },
+    {
+      "path": "project/scripts/triage_recipe_basis.py",
+      "bytes": 2070,
+      "sha256": "eb547f27ab1d42f9a80d2bf18745aabb9426814a33b6caf1f37090d25ef7a261"
+    },
+    {
+      "path": "project/tests/test_agrifood.py",
+      "bytes": 9742,
+      "sha256": "76866c1b17f4fc850c78c1dd81e3c1c0073c1663e2edf3c4f16968352edd0500"
+    },
+    {
+      "path": "project/tests/test_app.py",
+      "bytes": 17448,
+      "sha256": "9ea7359013f6e6646775a0b6c0ec0027466c5e6de2911006635452be9def8925"
+    },
+    {
+      "path": "project/tests/test_energy_profile.py",
+      "bytes": 3400,
+      "sha256": "594a3ec505b0ff21b78a9e59ea1959995a1c81b6fc7b3b73ef14970e6e8516f8"
+    },
+    {
+      "path": "project/tests/test_evaluate_models.py",
+      "bytes": 4561,
+      "sha256": "8acb76a110e026f401742136e3487623eed3039577af8024e79e4787b1b8f5d1"
+    },
+    {
+      "path": "project/tests/test_ingredient_lookup.py",
+      "bytes": 1999,
+      "sha256": "31b5b9074de8819af2135907ccfc31a989194a926914e527e84f81991bebeddf"
+    },
+    {
+      "path": "project/tests/test_ingredient_search.py",
+      "bytes": 1275,
+      "sha256": "496e3953216fb05cfd2875497ed5ece5d8aeadf941843d18b345860f55daf9fe"
+    },
+    {
+      "path": "project/tests/test_menu_data.py",
+      "bytes": 2439,
+      "sha256": "f7a9dbb2e7de66c66b16dafac2e9767cffac030b5cc95e68a882705292e473a4"
+    },
+    {
+      "path": "project/tests/test_nutrition_search.py",
+      "bytes": 6641,
+      "sha256": "1cb724a5ca621c2ac30cfa6594e00a5253d34f4c2d0cea41a3a77105023a4f1a"
+    },
+    {
+      "path": "project/tests/test_rag_graph.py",
+      "bytes": 6711,
+      "sha256": "c1437c83c5d0dcd311ae75128decafbc7d8d5421f02f4301cd98d1e05c484c91"
+    },
+    {
+      "path": "project/tests/test_recipe_rag.py",
+      "bytes": 5378,
+      "sha256": "5af4b6adb8b758893d13c812a9e12aba4d78667a2b4b93ae15431cc6d1d91c74"
+    },
+    {
+      "path": "project/tests/test_semantic_search.py",
+      "bytes": 3538,
+      "sha256": "4fb38eda9cf42652d55a696c5f40b81d96dc0a26951313d2786a82ef6eb0b4d7"
+    },
+    {
+      "path": "project/tests/test_source_docs.py",
+      "bytes": 5158,
+      "sha256": "f2a0e91499e8030e281d72af3f9cdb4a22931e87714c78bc2e98815dc7002cc6"
+    },
+    {
+      "path": "project/tests/test_vector_index.py",
+      "bytes": 3767,
+      "sha256": "d637505336467b793f38fb0a2e4021132bdb4b9632d87d36bc4412b148f9665d"
+    },
+    {
+      "path": "screenshots/01_재점검_실행결과.png",
+      "bytes": 99615,
+      "sha256": "3abc66a31c26bbcb5218179b1ca15bf61dc882a689cd0c1ebf013d3385e24521"
+    },
+    {
+      "path": "screenshots/02_재점검_실행결과.png",
+      "bytes": 22008,
+      "sha256": "8c44a99ce13bfd85f6d93a5c4c23d65a4d3df5058c2393340aeaebc2082ed048"
+    },
+    {
+      "path": "screenshots/03_재점검_실행결과.png",
+      "bytes": 84543,
+      "sha256": "26cff5f7e74827f5662de5051b8adc875058d35452ac40d02fd3834601d0d4ef"
+    },
+    {
+      "path": "screenshots/04_재점검_실행결과.png",
+      "bytes": 27368,
+      "sha256": "2758a6cd5e7a2779dbbc76eff0e6222550e48afecdccc207f590a18300ae1122"
+    },
+    {
+      "path": "screenshots/05_재점검_실행결과.png",
+      "bytes": 29820,
+      "sha256": "e69671747902298d8a26b589ea8c387b033bbdb46bf44836844043a70c1c85f6"
+    },
+    {
+      "path": "screenshots/06_재점검_실행결과.png",
+      "bytes": 32109,
+      "sha256": "a3a28e36bb9b1d4a00c2f9bee0cb2d36e9bf075a3db3ae97898ec45eaeb41497"
+    },
+    {
+      "path": "screenshots/07_재점검_실행결과.png",
+      "bytes": 22672,
+      "sha256": "cf5738507c2f53b93939b7829147b591c6f436ac3fc3221c9f974b3b7e061ea8"
+    },
+    {
+      "path": "screenshots/08_재점검_실제답변_근거번호.png",
+      "bytes": 70298,
+      "sha256": "0848216ec973026764af5fef166d15c5a3773914ce8ccf0b9ab57d00decec5b5"
+    },
+    {
+      "path": "screenshots/09_미수집_재료_안내.png",
+      "bytes": 87592,
+      "sha256": "d520a61b836be3badd00dae3bc8724295ec4fd58efbef48ad2c3235a9e83ed0f"
+    },
+    {
+      "path": "screenshots/09_실제_GMS_문서없는_날짜질문.png",
+      "bytes": 25476,
+      "sha256": "71581ea9bcb5cf643c4333e6817eb9433e5525da5ae9968c1cf059df9638f0b1"
+    },
+    {
+      "path": "screenshots/10_A요리_대화_복원.png",
+      "bytes": 98538,
+      "sha256": "66c10cd490db76d905c8735feff1e201bb68fd8da55040688adf21cf572e4b98"
+    },
+    {
+      "path": "screenshots/10_B요리_대화_분리.png",
+      "bytes": 91685,
+      "sha256": "b29b3473b8c0df8c4ab91f18a6c02afdaffdf3b8fb8f9c97c7963ca5d0edbf88"
+    },
+    {
+      "path": "screenshots/11_두부_포함_새우_제외.png",
+      "bytes": 119800,
+      "sha256": "8c54417663a831a236b3b552399c14c825be931513e9140d5d69913418503095"
+    },
+    {
+      "path": "screenshots/12_재료_영양_출처.png",
+      "bytes": 140829,
+      "sha256": "36eff5c504c2d2b6840ff2fbcf916c51e209ef87be49f79b97facbfc4ba54154"
+    },
+    {
+      "path": "screenshots/12_합성_기본입력_열량비교.png",
+      "bytes": 113503,
+      "sha256": "c474edfca648b5a1060e86d97551db834b54ef851ba8cd908278a62fe4cb3f1f"
+    },
+    {
+      "path": "screenshots/13_no_index_격리사본_실제안내.png",
+      "bytes": 109797,
+      "sha256": "620ebd28323c13596187e3b426b1584a91c1b23561772b6c313489873692d589"
+    },
+    {
+      "path": "screenshots/13_no_key_격리사본_실제안내.png",
+      "bytes": 96984,
+      "sha256": "0e7561c14e4f379cd99d4ca1fa47e420466b67a079c006acd25f15d7ad0adc71"
+    },
+    {
+      "path": "screenshots/13_실제_처리중_진행상태.png",
+      "bytes": 95771,
+      "sha256": "eef7c45e4f8f91a0b5375093a55b6785a1fa10825037488a5e42780a6c945a1b"
+    },
+    {
+      "path": "screenshots/14_전문가_조언_안내.png",
+      "bytes": 71049,
+      "sha256": "52794d3a6ab88e59c6bf2edefefc2f9e6bef28b8a99d46dfa8e68f605d2f2afb"
+    },
+    {
+      "path": "screenshots/17_전체점검_실제기록_보고서.png",
+      "bytes": 29157,
+      "sha256": "0f86b86359ca103d88801c063cef9047e1aea9f1d77d8f1bec44faa93545d8a3"
+    },
+    {
+      "path": "screenshots/18_전체점검_실제기록_보고서.png",
+      "bytes": 17386,
+      "sha256": "aa90d3c09de8fe615c4a1c9fcba1d0eea2bfed6901db2eee2f2774ec1e6ef8e8"
+    },
+    {
+      "path": "screenshots/20_전체점검_실제기록_보고서.png",
+      "bytes": 20750,
+      "sha256": "8c56241f2a15e61df56992c3ab01d62a0447dee51a45e864f70011586bc5ebaf"
+    },
+    {
+      "path": "screenshots/21_전체점검_실제기록_보고서.png",
+      "bytes": 26819,
+      "sha256": "a018861eb3622c9b67f69b065e8f097be7eb76cf9a24b25d41a14083f71e54e4"
+    },
+    {
+      "path": "screenshots/22_전체점검_실제기록_보고서.png",
+      "bytes": 28582,
+      "sha256": "06b339dd05e159b0c96c5034eb8b8e41648f6bd67fc4006caf0ad608c6abf915"
+    },
+    {
+      "path": "screenshots/23_전체점검_실제기록_보고서.png",
+      "bytes": 30395,
+      "sha256": "0c850c69de87f7a1618a273bbfff137bd8f2eb4b830a24dd78c8f8d16ee1d2cc"
+    },
+    {
+      "path": "screenshots/24_전체점검_실제기록_보고서.png",
+      "bytes": 42809,
+      "sha256": "ce9e88dc56b63cb179e5f418a67d41f32b3d148959729712ffe597968a4a72f9"
+    },
+    {
+      "path": "screenshots/25_전체점검_실제기록_보고서.png",
+      "bytes": 22812,
+      "sha256": "ebf6088eac6f8dad4293b8355374e2ac69bec8e74f0311031d4833d48ec08e53"
+    },
+    {
+      "path": "screenshots/26_전체점검_실제기록_보고서.png",
+      "bytes": 25942,
+      "sha256": "1cf4f61586875fae090c717f9d80839e955fc3dbd2678f120f9d1653e2a9c0a3"
+    },
+    {
+      "path": "screenshots/27_제출구성_충족_재검증.png",
+      "bytes": 52034,
+      "sha256": "178d8fc759a15eaeecf39e2629c0172433c14ebd5ce16d6e1d99dac84b83bd51"
+    },
+    {
+      "path": "screenshots/capture_manifest.json",
+      "bytes": 6851,
+      "sha256": "a8e89b457e278007775b95a28b4a18c908a53f6509725242acf1984a8cc5ed6c"
+    },
+    {
+      "path": "verification/answer_model_comparison.html",
+      "bytes": 124516,
+      "sha256": "2089c3cce5211b95d7023227457b80a2e5b3cfc4efe39e3871d73915580c6c6a"
+    },
+    {
+      "path": "verification/answer_model_comparison.json",
+      "bytes": 134833,
+      "sha256": "62e249081301900374c74f9fc9a02f4eb75280a74d2a6fda53d742adf02b66c8"
+    },
+    {
+      "path": "verification/model_comparison.html",
+      "bytes": 153715,
+      "sha256": "8896bf9c849501ea11bb1d64472c90408a8405c144d02157a2a315e06955b9c2"
+    },
+    {
+      "path": "verification/model_comparison.json",
+      "bytes": 162206,
+      "sha256": "7d0564f6bef520718559aab52d59358d1e9cdae29fe482087dc9af9c7e36bf5a"
+    },
+    {
+      "path": "verification/recheck_1_8_2026-10-23.html",
+      "bytes": 10121,
+      "sha256": "c7cff89540bafc24a65a2db69ccfb27a1b6f81e1a7fdd60a1b0098ac6a4c5631"
+    },
+    {
+      "path": "verification/recheck_1_8_2026-10-23.json",
+      "bytes": 10535,
+      "sha256": "89b80a69bf5f2470bbee6003d6a6f4fe29ceeb92a3c45d09aabc1ea0c59563b5"
+    },
+    {
+      "path": "verification/recheck_all_2026-10-23.html",
+      "bytes": 6177,
+      "sha256": "d4a307a823e38d340d2a8d38ee99cee069011afe11760e9f547f88c0b3715304"
+    },
+    {
+      "path": "verification/recheck_all_2026-10-23.json",
+      "bytes": 14492,
+      "sha256": "f129f33a460a887ba7415b09b72fe8a5799b09b900619eb660f8aeb8068994f3"
+    },
+    {
+      "path": "verification/self_check_evidence_2026-10-23.json",
+      "bytes": 21992,
+      "sha256": "4199bc9ff7f8a008c388d21f2531656c6d883ea988e8b4e3f3c3a9e2414af481"
+    },
+    {
+      "path": "verification/submission_check_2026-10-23.html",
+      "bytes": 1557,
+      "sha256": "aa0ef5da5911b078d60ced71a3138362e5b2a11c6c25ba5bdbef1d4efb73a54a"
+    },
+    {
+      "path": "verification/submission_check_2026-10-23.json",
+      "bytes": 956,
+      "sha256": "3bd773dde3100a0b3030b553cc782d40e45a30d9e2c51b2518fabad4636768b8"
+    },
+    {
+      "path": "verification/상호_체크리스트_작성용.xlsx",
+      "bytes": 13829,
+      "sha256": "85ea08f782237778f56fb11baa2fef49555f382d05afc0e03d8b840fde68709c"
+    },
+    {
+      "path": "verification/셀프_체크리스트.xlsx",
+      "bytes": 1611653,
+      "sha256": "d270f840ebd76e836981c270afe598261d9ad30da3ce85b5686bc128170717ed"
+    },
+    {
+      "path": "verification/요구사항_대조표.csv",
+      "bytes": 11174,
+      "sha256": "49cced9928ed96e6ee515bafbe1479cfdf0de0770cd84e1ed978be57cf08a137"
+    },
+    {
+      "path": "verification/테스트_결과표.csv",
+      "bytes": 8160,
+      "sha256": "8e35f49463fd6bf20d92c8b2619f3480bc975df4eff813c16792c4fa90f8e590"
+    },
+    {
+      "path": "verification/테스트_요약.json",
+      "bytes": 223,
+      "sha256": "2af7b1e006cc3920fde73ee85aad241c48a1e00be46e34e5cd6d46030a3cbfa5"
+    }
+  ],
+  "tests_passed": 88,
+  "self_check_summary": {
+    "통과": 20,
+    "해당없음": 2,
+    "미확인": 5,
+    "미기입": 0
+  },
+  "scope": "로컬 제출파일 구성만 검증. 실제 상호점검은 미실시이며 이름/지역/반/성명은 사용자가 확인. 외부 업로드/재배포권한 확정 아님."
+}

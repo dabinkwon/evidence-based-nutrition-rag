@@ -1,0 +1,495 @@
+{
+  "date": "2026-10-23",
+  "scope": "로컬 확인·기존 실행 기록·자동 UI 시험. 실제 브라우저 확인·새 GMS 호출은 수행하지 않음.",
+  "unittest": {
+    "command": "python -m unittest discover -s tests",
+    "tests": 88,
+    "passed": true,
+    "execution": "이번 작성 작업에서 실행해 88개 통과. 전체 터미널 출력은 복사하지 않음."
+  },
+  "index_counts": {
+    "recipe_meta": 100,
+    "source_docs": 1
+  },
+  "loaded_counts": {
+    "recipe_meta": 100,
+    "source_docs": 1
+  },
+  "index_text_matches_source": true,
+  "example_index": {
+    "id": "recipe:28",
+    "text": "새우 두부 계란찜\n새우두부계란찜\n연두부 75g(3/4모), 칵테일새우 20g(5마리), 달걀 30g(1/2개), 생크림 13g(1큰술), 설탕 5g(1작은술), 무염버터 5g(1작은술)\n고명\n시금치 10g(3줄기)\n메뉴: 새우 두부 계란찜\n재료: 새우두부계란찜\n연두부 (3/4모), 칵테일새우 (5마리), 달걀 (1/2개), 생크림 (1큰술), 설탕 (1작은술), 무염버터 (1작은술)\n고명\n시금치 (3줄기)\n조리법:\n1. 1. 손질된 새우를 끓는 물에 데쳐 건진다.a\n2. 2. 연두부, 달걀, 생크림, 설탕에 녹인 무염버터를 믹서에 넣고 간 뒤 새우(1)를 함께 섞어 그릇에 담는다.b\n3. 3. 시금치를 잘게 다져 혼합물 그릇(2)에 뿌리고 찜기에 넣고 중간 불에서 10분 정도 찐다.c\n",
+    "note": "임베딩 검색 본문과 생성 근거 원문은 목적이 다르며 수치 영양 원문은 검색 본문에서 제외한다."
+  },
+  "top_k": {
+    "1": [
+      "recipe:28"
+    ],
+    "3": [
+      "recipe:28",
+      "recipe:33",
+      "recipe:282"
+    ]
+  },
+  "top_k_note": "동일 질문·동일 저장 벡터를 재사용한 실제 Chroma 검색. 신규 임베딩 API 호출 없음. 선택 요리 고정 검색은 근거 수가 한정되어 같은 목록일 수 있음.",
+  "source_collection": {
+    "item_id": "recipe:28",
+    "mode": "local_document_bundle",
+    "queries": [
+      "새우 두부 계란찜",
+      "새우 두부 계란찜 만드는 법",
+      "연두부 새우 계란찜 레시피",
+      "새우 두부 계란찜 재료와 조리법"
+    ],
+    "query_cache_hits": 4,
+    "candidate_ids": [
+      "cookrcp01-137",
+      "cookrcp01-138",
+      "cookrcp01-159",
+      "cookrcp01-181",
+      "cookrcp01-271",
+      "cookrcp01-272",
+      "cookrcp01-274",
+      "cookrcp01-275",
+      "cookrcp01-276",
+      "cookrcp01-277",
+      "cookrcp01-28",
+      "cookrcp01-281",
+      "cookrcp01-298",
+      "cookrcp01-33",
+      "cookrcp01-395",
+      "cookrcp01-500",
+      "cookrcp01-506",
+      "cookrcp01-507",
+      "cookrcp01-638",
+      "cookrcp01-643"
+    ],
+    "llm_selected_ids": [
+      "cookrcp01-28"
+    ],
+    "mandatory_ids": [
+      "cookrcp01-28"
+    ],
+    "collected_ids": [
+      "cookrcp01-28"
+    ],
+    "chunk_count": 1,
+    "bundle_hash": "908d0e1eebf55a2071ecda248b85bb89ae4e54da270cf62370f3ce3c1ec7d58f",
+    "config": {
+      "chunk_size": 1000,
+      "chunk_overlap": 200,
+      "min_document_chars": 250,
+      "max_candidates_per_query": 12
+    },
+    "collections": {
+      "recipe_meta": 100,
+      "source_docs": 1
+    }
+  },
+  "chunk_settings": {
+    "80": 6,
+    "160": 3
+  },
+  "chunk_reindex": {
+    "80": {
+      "recipe_meta": 0,
+      "source_docs": 6
+    },
+    "160": {
+      "recipe_meta": 0,
+      "source_docs": 3
+    }
+  },
+  "secret_scan": {
+    "tracked_files": 773,
+    "matched_files": 0,
+    "env_tracked": false,
+    "note": "필요한 코드의 설정 로더로 읽은 실제 키와 URL 인코딩 값 대조. 값과 파일 내용은 기록하지 않음. Git 과거 이력/사용자 미추적 ZIP은 검사 범위 아님."
+  },
+  "results": [
+    {
+      "number": 1,
+      "status": "통과",
+      "evidence": "data/review/recheck_1_8_2026-10-23.json; data/review/recheck_1_8_2026-10-23.html",
+      "note": "재실행: 실제 로드101개와 recipe_meta100/source_docs1 일치. 전체 검색 본문 원본 일치 및 recipe:28의 속성 확인. 임베딩 본문과 생성 근거 원문을 구분한다."
+    },
+    {
+      "number": 2,
+      "status": "통과",
+      "evidence": "data/review/recheck_1_8_2026-10-23.json; data/review/recheck_1_8_2026-10-23.html",
+      "note": "실제101개 문서와 기존 실제 임베딩으로 격리된 임시 Chroma에2회 색인: 두 번 모두100+1. 운영 DB 변경 없음. 합성 벡터가 아닌 저장 벡터 재사용."
+    },
+    {
+      "number": 3,
+      "status": "통과",
+      "evidence": "data/review/recheck_1_8_2026-10-23.json; data/review/recheck_1_8_2026-10-23.html",
+      "note": "새 실제 GMS 검색어·후보 선별 실행. 검색어/후보/LLM선택/자체문서강제포함/수집/미수집 목록 구분. 로컬 제공 문서 묶음 방식이며 신규 웹 크롤링이 아님."
+    },
+    {
+      "number": 4,
+      "status": "통과",
+      "evidence": "data/review/recheck_1_8_2026-10-23.json; data/review/recheck_1_8_2026-10-23.html",
+      "note": "같은 항목 수집2회: 첫 6.1141초,재실행 0.0017초. 두 번째 GMS호출0회·캐시파일불변·청크동일. 수집 파이프라인 시간이며 UI전체질문 응답 시간이 아님."
+    },
+    {
+      "number": 5,
+      "status": "통과",
+      "evidence": "data/review/recheck_1_8_2026-10-23.json; data/review/recheck_1_8_2026-10-23.html",
+      "note": "실제 수집 원문을 설정120자/1000자,중복20자로 바꿔 임시DB 재색인: 레시피100+문서3/레시피100+문서1. 건수 검증용 기존벡터 재사용이며 새청크 의미검색 품질 시험은 아님."
+    },
+    {
+      "number": 6,
+      "status": "통과",
+      "evidence": "data/review/recheck_1_8_2026-10-23.json; data/review/recheck_1_8_2026-10-23.html",
+      "note": "Top-k1/3 임시 설정JSON을 각각 읽어 동일 실제 질문 임베딩으로 Chroma검색: 근거목록 차이 확인. 검색어확장을 고정했으며 선택요리 고정 검색의 근거수 제한과 구분."
+    },
+    {
+      "number": 7,
+      "status": "통과",
+      "evidence": "data/review/recheck_1_8_2026-10-23.json; data/review/recheck_1_8_2026-10-23.html",
+      "note": "실제 컴파일 그래프의 retrieve/generate2개 처리 노드 및 START→retrieve→generate→END 연결 확인. 실행결과JSON에 실제 노드/간선 기록."
+    },
+    {
+      "number": 8,
+      "status": "통과",
+      "evidence": "data/review/recheck_1_8_2026-10-23.json; data/review/recheck_1_8_2026-10-23.html",
+      "note": "실제 그래프/GMS 답변과 실제 앱의 별도 새 답변을 각각 확인. 본문[근거1]/[근거2]와 화면패널번호 일치,항목 메타데이터/외부 문서 구분 확인. 08번은 실제앱화면,1~7번은 실제검증보고서 화면."
+    },
+    {
+      "number": 9,
+      "status": "통과",
+      "evidence": "data/review/recheck_all_2026-10-23.json; data/rag/answer_model_comparison.json; tests/test_rag_graph.py",
+      "note": "실제 GMS에 원문에 없는 최초 제작 날짜를 질문해 확인 불가 답변 확인. 키 없는 실제 격리앱에서 인용 근거 없음 안내도 확인. 로컬 미수집 안내만으로 판정하지 않음."
+    },
+    {
+      "number": 10,
+      "status": "통과",
+      "evidence": "tests/test_app.py",
+      "note": "AppTest에서 항목 A의 기록 보존·B의 빈 대화·선택 요리별 초기화/분리 확인. 실브라우저 수동 교차 대화 점검은 별도 필요."
+    },
+    {
+      "number": 11,
+      "status": "통과",
+      "evidence": "scripts/ingredient_search.py; tests/test_ingredient_search.py; tests/test_app.py",
+      "note": "지원 범위인 재료 포함/복수재료 AND/제외 조건을 원문과 대조. 제목만 일치한 후보는 제외. 고단백 추천은 중단, 음식 열량 비교에는 제외 설정을 적용하지 않음을 명시."
+    },
+    {
+      "number": 12,
+      "status": "통과",
+      "evidence": "data/rag/energy_profile_evaluation.json; tests/test_energy_profile.py; tests/test_app.py",
+      "note": "합성 신체 정보의 Python 참고 계산 및 식품 기준량·출처 확인. 연구 조회에도 API 출처 표시. 개인 처방/인체 효능 확정/레시피1인분 계산은 제공하지 않음."
+    },
+    {
+      "number": 13,
+      "status": "통과",
+      "evidence": "data/review/recheck_all_2026-10-23.json; app.py; tests/test_app.py; tests/test_rag_graph.py",
+      "note": "실제 처리 중 상태·키 없는 사본의 답변서비스/인용없음 안내·색인 없는 사본의 추가자료 검색실패/선택 메타데이터 대체 안내 확인. 원래 .env/색인 미변경."
+    },
+    {
+      "number": 14,
+      "status": "통과",
+      "evidence": "app.py; tests/test_app.py",
+      "note": "앱 이용 범위에 전문가 조언을 대신하지 않는 일반 식생활 정보라는 안내가 있음. 현재 AppTest 렌더링 통과."
+    },
+    {
+      "number": 15,
+      "status": "해당없음",
+      "evidence": "docs/REQUIREMENTS.md F2013",
+      "note": "직접 HTML/CSS/JS 프런트·서버 분리 심화 기능은 미선택. 현재 Streamlit 사용."
+    },
+    {
+      "number": 16,
+      "status": "해당없음",
+      "evidence": "docs/REQUIREMENTS.md F2014",
+      "note": "MMR 심화 기능 미선택. 현재 비교 기록은 MMR 비교가 아님."
+    },
+    {
+      "number": 17,
+      "status": "미확인",
+      "evidence": "docs/REQUIREMENTS.md F2015; data/rag/model_comparison.html; data/rag/answer_model_comparison.html",
+      "note": "대표5개 이상 RAG 없이/근거 포함 답변 대조는 미작성. 현재3문항 모델 비교와 어휘/임베딩 검색 비교는 이 항목을 대체하지 않음."
+    },
+    {
+      "number": 18,
+      "status": "미확인",
+      "evidence": "docs/SEMANTIC_RESULTS.md; data/rag/model_comparison.html",
+      "note": "모델 비교 보고서는 있지만 F2015 요구의 RAG 전후5문항 보고서와 제출물 포함을 확인하지 못함. 별도 작성/패키징 필요."
+    },
+    {
+      "number": 19,
+      "status": "통과",
+      "evidence": "data/review/recheck_all_2026-10-23.json; app.py show_generation; data/rag/answer_graph_evaluation.json; tests/test_rag_graph.py",
+      "note": "08번 실제 앱 캡처에서 항목 메타데이터/외부 문서 패널을 각각 펼쳐 출처 유형 구분 확인. 일반적인 여러 출처 결합 품질을 뜻하지 않음."
+    },
+    {
+      "number": 20,
+      "status": "미확인",
+      "evidence": "data/review/recheck_all_2026-10-23.json; data/rag/model_comparison.json; data/rag/answer_model_comparison.json",
+      "note": "실제 브라우저 동일 질문 첫 11.228초/재질문 6.72초. 단일표본이고 수용 가능한 시간 기준/사용자 평가는 미정이므로 미확인 유지."
+    },
+    {
+      "number": 21,
+      "status": "통과",
+      "evidence": "data/review/recheck_all_2026-10-23.json; data/review/self_check_evidence_2026-10-23.json; tests/test_app.py; tests/test_rag_graph.py",
+      "note": "이번 추적파일773개 실제키/인코딩값 미검출·.env 미추적 및 실제 키 없는 화면의 키/프롬프트/추적정보 비노출 확인. Git 과거이력/사용자 ZIP 전수감사 아님."
+    },
+    {
+      "number": 22,
+      "status": "통과",
+      "evidence": "data/review/recheck_all_2026-10-23.json; scripts/collect_source_docs.py; scripts/index_vectors.py; scripts/rag_graph.py; app.py",
+      "note": "수집/색인/검색/생성/그래프/UI 파일 존재와 역할 재확인. 이번88개 테스트 통과. 보고서 화면과 사용자 앱 화면은 구분."
+    },
+    {
+      "number": 23,
+      "status": "미확인",
+      "evidence": "data/review/recheck_all_2026-10-23.json; docs/FILES.md W080; scripts/collect_agrifood.py; scripts/collect_source_docs.py",
+      "note": "재시도·간격 코드와 기존 출처 감사 기록은 있음. API robots 미확인/일부 일반크롤러금지 및 농산물 이용조건 불일치가 남아 전체준수 통과 불가. 이번 법적 재사용 승인/전수robots 재조회는 하지 않음."
+    },
+    {
+      "number": 24,
+      "status": "통과",
+      "evidence": "data/review/recheck_all_2026-10-23.json; docs/FILES.md; data/source_url_inventory.json; config/agrifood_sources.json",
+      "note": "현재 URL 목록 및 docs/FILES 출처·이용조건·불확실성 기록을 재확인. README는 템플릿이므로 제출문서완비27번은 별도 실패. 출처목록 존재가 이용허가 확정은 아님."
+    },
+    {
+      "number": 25,
+      "status": "미확인",
+      "evidence": "data/review/recheck_all_2026-10-23.json; docs/REQUIREMENTS.md; 본 체크리스트 미확인 항목",
+      "note": "필수 기능의 실행 증거를 추가했지만 F2015의5개이상 RAG 전후 비교/전체비기능 준수 및 최종제출 완비는 미완료. 통과한 개별항목을 전체완료로 확대하지 않음."
+    },
+    {
+      "number": 26,
+      "status": "통과",
+      "evidence": "data/review/recheck_all_2026-10-23.json; 현재 저장소 파일 목록; 본 체크리스트 H열",
+      "note": "현재 실행·확인한 항목의 실제앱 화면 및 실제검증보고서 캡처를 해당 항목에 연결하고 엑셀에 삽입·ZIP에 첨부했다. 미선택15/16은 캡처 제외. 미수행17/18은 부재를 명시해 증거를 꾸미지 않음."
+    },
+    {
+      "number": 27,
+      "status": "통과",
+      "evidence": "data/review/submission_check_2026-10-23.json; 제출자료_2회차_2026-10-23/",
+      "note": "실제 소스·새README·요구사항정의/설계·대조표·88개결과표·셀프작성본·상호작성양식·증빙을 실제ZIP에서 확인. 파일구성만 통과이며 실제상호평가 미실시·사용자이름 입력 필요·미확인 기능은 유지."
+    }
+  ],
+  "summary": {
+    "통과": 20,
+    "해당없음": 2,
+    "미확인": 5,
+    "미기입": 0
+  },
+  "screenshots": {
+    "date": "2026-10-23",
+    "mode": "실제 Chrome headless + 실제 Streamlit,모의 답변 주입 없음",
+    "captures": [
+      {
+        "file": "14_전문가_조언_안내.png",
+        "items": [
+          14
+        ],
+        "note": "실제 앱 이용 범위 안내 펼침"
+      },
+      {
+        "file": "11_두부_포함_새우_제외.png",
+        "items": [
+          11
+        ],
+        "note": "실제 재료 원문 검색: 두부 포함/새우 제외. 영양 조건 추천 아님."
+      },
+      {
+        "file": "12_재료_영양_출처.png",
+        "items": [
+          12
+        ],
+        "note": "실제 로컬 원재료 조회 표/기준량/출처. 제품 동일성은 후보이며 요리 전체 영양 아님."
+      },
+      {
+        "file": "09_미수집_재료_안내.png",
+        "items": [
+          9
+        ],
+        "note": "로컬 원재료 미수집 안내만 확인. LLM의 미등록 지식 질문 전체 시험을 대체하지 않음."
+      },
+      {
+        "file": "10_B요리_대화_분리.png",
+        "items": [
+          10
+        ],
+        "note": "A요리에서 조회 후 B요리 선택: 대화 없음 확인."
+      },
+      {
+        "file": "10_A요리_대화_복원.png",
+        "items": [
+          10
+        ],
+        "note": "B에서 A 복귀: 기존 질문/조회 결과 복원 확인."
+      },
+      {
+        "file": "12_합성_기본입력_열량비교.png",
+        "items": [
+          12
+        ],
+        "note": "기본 합성 신체 입력/중량/예산으로 실제 Python 계산. 실제 개인 정보 아님. 추가 GMS 생성 미실행."
+      },
+      {
+        "file": "01_재점검_실행결과.png",
+        "items": [
+          1
+        ],
+        "note": "로드·색인 건수와 검색 텍스트 실제 실행 JSON의 브라우저 보고서 캡처. 사용자 앱 화면과 구분."
+      },
+      {
+        "file": "02_재점검_실행결과.png",
+        "items": [
+          2
+        ],
+        "note": "두 번 색인 후 건수 유지 실제 실행 JSON의 브라우저 보고서 캡처. 사용자 앱 화면과 구분."
+      },
+      {
+        "file": "03_재점검_실행결과.png",
+        "items": [
+          3
+        ],
+        "note": "실제 검색어 추출·문서 선별 실제 실행 JSON의 브라우저 보고서 캡처. 사용자 앱 화면과 구분."
+      },
+      {
+        "file": "04_재점검_실행결과.png",
+        "items": [
+          4
+        ],
+        "note": "같은 항목 재수집 캐시 실제 실행 JSON의 브라우저 보고서 캡처. 사용자 앱 화면과 구분."
+      },
+      {
+        "file": "05_재점검_실행결과.png",
+        "items": [
+          5
+        ],
+        "note": "청크 설정 변경 후 재색인 실제 실행 JSON의 브라우저 보고서 캡처. 사용자 앱 화면과 구분."
+      },
+      {
+        "file": "06_재점검_실행결과.png",
+        "items": [
+          6
+        ],
+        "note": "Top-k 설정 변경 후 근거 목록 실제 실행 JSON의 브라우저 보고서 캡처. 사용자 앱 화면과 구분."
+      },
+      {
+        "file": "07_재점검_실행결과.png",
+        "items": [
+          7
+        ],
+        "note": "실제 LangGraph 구성 실제 실행 JSON의 브라우저 보고서 캡처. 사용자 앱 화면과 구분."
+      },
+      {
+        "file": "08_재점검_실제답변_근거번호.png",
+        "items": [
+          8,
+          19
+        ],
+        "note": "실제 앱에서 별도 새 GMS 답변 생성. 본문 근거 번호와 화면 패널 번호 일치·항목 메타데이터/외부 문서 구분 확인."
+      },
+      {
+        "file": "13_실제_처리중_진행상태.png",
+        "items": [
+          13
+        ],
+        "note": "실제 GMS 답변 처리 중 상태. 모의 지연 주입 없음."
+      },
+      {
+        "file": "09_실제_GMS_문서없는_날짜질문.png",
+        "items": [
+          9
+        ],
+        "note": "실제 GMS 자료부족 질문. 원문에 없는 날짜를 묻고 실제 답변을 기록."
+      },
+      {
+        "file": "13_no_key_격리사본_실제안내.png",
+        "items": [
+          13,
+          21
+        ],
+        "note": "원래 .env/색인 변경 없는 격리 사본. 실제 키 없는 설정과 무인용 안내"
+      },
+      {
+        "file": "13_no_index_격리사본_실제안내.png",
+        "items": [
+          13
+        ],
+        "note": "원래 .env/색인 변경 없는 격리 사본. 실제 빈 색인과 선택 메타데이터 대체 안내"
+      },
+      {
+        "file": "17_전체점검_실제기록_보고서.png",
+        "items": [
+          17
+        ],
+        "note": "실제 파일/실행기록 보고서 화면. 미수행 실험의 결과 화면이 아님."
+      },
+      {
+        "file": "18_전체점검_실제기록_보고서.png",
+        "items": [
+          18
+        ],
+        "note": "실제 파일/실행기록 보고서 화면. 미수행 실험의 결과 화면이 아님."
+      },
+      {
+        "file": "20_전체점검_실제기록_보고서.png",
+        "items": [
+          20
+        ],
+        "note": "실제 파일/실행기록 보고서 화면. 미수행 실험의 결과 화면이 아님."
+      },
+      {
+        "file": "21_전체점검_실제기록_보고서.png",
+        "items": [
+          21
+        ],
+        "note": "실제 파일/실행기록 보고서 화면. 미수행 실험의 결과 화면이 아님."
+      },
+      {
+        "file": "22_전체점검_실제기록_보고서.png",
+        "items": [
+          22
+        ],
+        "note": "실제 파일/실행기록 보고서 화면. 미수행 실험의 결과 화면이 아님."
+      },
+      {
+        "file": "23_전체점검_실제기록_보고서.png",
+        "items": [
+          23
+        ],
+        "note": "실제 파일/실행기록 보고서 화면. 미수행 실험의 결과 화면이 아님."
+      },
+      {
+        "file": "24_전체점검_실제기록_보고서.png",
+        "items": [
+          24
+        ],
+        "note": "실제 파일/실행기록 보고서 화면. 미수행 실험의 결과 화면이 아님."
+      },
+      {
+        "file": "25_전체점검_실제기록_보고서.png",
+        "items": [
+          25
+        ],
+        "note": "실제 파일/실행기록 보고서 화면. 미수행 실험의 결과 화면이 아님."
+      },
+      {
+        "file": "26_전체점검_실제기록_보고서.png",
+        "items": [
+          26
+        ],
+        "note": "실제 파일/실행기록 보고서 화면. 미수행 실험의 결과 화면이 아님."
+      },
+      {
+        "file": "27_제출구성_충족_재검증.png",
+        "items": [
+          27
+        ],
+        "note": "실제 제출ZIP 사전구성 검증. 상호양식 포함/실제점검미실시를 명시. 과거README 미완비 화면을 대체."
+      }
+    ],
+    "recheck_scope": "1~7 실제 검증 결과 보고서,8 실제 앱/GMS 답변. 원래7개 화면은 새 GMS 호출 없이 캡처."
+  },
+  "screenshot_scope": "1~27 전체 재확인. 해당되는25개 항목에 실제 화면/실행 및 파일 보고서 증빙 연결. 미선택15/16은 제외하고 F2015 등 미수행 실험을 캡처만으로 통과 처리하지 않음.",
+  "recheck_1_8": "data/review/recheck_1_8_2026-10-23.json",
+  "recheck_all": "data/review/recheck_all_2026-10-23.json",
+  "submission_check": "data/review/submission_check_2026-10-23.json"
+}

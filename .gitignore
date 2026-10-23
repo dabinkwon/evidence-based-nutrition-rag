@@ -9,3 +9,10 @@ data/rag/*.sqlite3
 data/rag/chroma/
 data/rag/source_cache/
 *.jsonl.tmp
+
+# Local delivery archives, duplicate snapshots, and reviewer identity files.
+/*.zip
+/2회차_상호_체크리스트.xlsx
+~$*.xlsx
+/제출자료_2회차_2026-10-23/project/
+/제출자료_2회차_2026-10-23/screenshots/

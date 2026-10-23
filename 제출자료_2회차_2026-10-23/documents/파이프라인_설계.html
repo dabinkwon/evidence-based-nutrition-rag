@@ -1,0 +1,19 @@
+<!doctype html><meta charset="utf-8"><title>RAG 파이프라인 설계 — 현재 구현</title><style>body{max-width:1100px;margin:40px auto;font:16px "Malgun Gothic",sans-serif}pre{white-space:pre-wrap;line-height:1.7;overflow-wrap:anywhere}</style><h1>RAG 파이프라인 설계 — 현재 구현</h1><pre> — W092 / 2026-10-23
+
+제출 묶음은 `제출자료_2회차_2026-10-23/` 및 `AI_코어프로젝트_2_한끼의근거_제출자료_2026-10-23.zip`이다. project에 실제소스/README/기존데이터·문서,documents에 정의/설계HTML,verification에 대조CSV·88개테스트CSV/요약·셀프작성본·상호작성용양식·실험기록,screenshots에 증빙을 둔다. `제출자료_색인.txt`와 SHA-256 manifest로 확인한다. 상호점검 미실시·이름/제출명 사용자확인 필요를 명시하고 .env/실제키/.tools/생성DB/사용자기존ZIP은 제외한다. 현재 제공 원문 이용조건의 미확인 범위는 유지하며 외부 업로드를 수행하지 않는다.
+
+이 절은 현재구현 설계이며 독립제출용 HTML도 같은 범위를 따른다.
+
+1. 원본: 레시피100개를 이름·재료·조리단계·API원문·출처로 정리한다. 일반음식·원재료·연구는 별도로 보존하고 이름만으로 영양을 합치지 않는다.
+2. 문서수집: 선택ID/이름/재료→PROMPT1 검색어→제공문서묶음 후보→PROMPT2 제목/요약선별. 자체원문은 강제포함하고 검색어·검색결과·선별 캐시를 입력/모델/설정 해시로 분리한다. 새 웹크롤링이 아니다.
+3. 청킹: rag_sources.json 크기/중복 적용,항목ID/문서해시/원문위치/출처/허용용도 보존. source_chunks.jsonl 생성.
+4. 색인: recipe_meta/source_docs 고정ID upsert·삭제원문 정리. 모델/서버namespace·현재본문 신선도 검사. text-embedding-3-small 사용,생성DB/임베딩캐시는 제출 제외 후 재생성한다.
+5. 입력분기: 재료AND/제외 원문검색,원재료 후보조회,연구 원문서지조회는 로컬 경로다. 영양조건 추천은 차단한다. 이 경로에 불필요한 생성 호출을 강제하지 않는다.
+6. 일반RAG: START→retrieve→generate→END. retrieve는 선택메타데이터와해당항목원문을 병합하고 Top-k/점수/제외/허용용도를 검사한다. 실패 시 선택원문만 사용했다는 안내를 한다. 질문/docs/selected/excluded/config/options/evidence/generation 상태를 사용하며 영속checkpointer는 없다.
+7. 생성: 근거번호/항목메타데이터·외부문서 유형을 전달한다. 실제인용만 반환,잘못된인용/없는근거 차단. 검색어/선별 Luna·답변 Sol 및 단계별환경변수/fallback을 지원한다.
+8. 계산: 검증된공식·음식g기준량·사용자중량을 Python에 전달한다. 열량비교는 제외설정과독립적이며 섭취추천이 아니다. 미확인레시피1인분 환산은 하지 않는다.
+9. UI/보안: Streamlit 사이드바·선택별세션대화·최신질문순서·초기화·진행상태. 키/예외원문/전체프롬프트/개인입력을 자동기록하지 않는다. 격리사본으로 키없음/색인없음 시험을 수행한다.
+
+검증은 요구사항대조표·88개결과표·셀프작성본·상호작성용양식·실제앱/보고서이미지·실험JSON/HTML로 연결한다. 미수행 상호점검·F2015 실험을 완료로 기록하지 않는다.
+
+</pre>
